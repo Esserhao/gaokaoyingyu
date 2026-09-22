@@ -108,7 +108,7 @@ Object.assign(UI, {
     const back = entry && entry.m
       ? (entry.m ? `<div class="syn-vocab-m">${this.esc(entry.m)}</div>` : '')
         + (entry.ex ? `<div class="syn-vocab-ex">${this.esc(entry.ex)}
-          <button class="speak-btn" data-action="speak" data-speak="${this.esc(entry.ex)}">♪ 读</button></div>` : '')
+          <button class="speak-btn" data-action="speak" data-speak="${this.esc(entry.ex)}">朗读</button></div>` : '')
         + (entry.exCn ? `<div class="syn-vocab-excn">${this.esc(entry.exCn)}</div>` : '')
       : '<div class="syn-vocab-m">释义加载中…（或该词组无释义）</div>';
     return '<div class="phr-flash" data-phr-flash>'

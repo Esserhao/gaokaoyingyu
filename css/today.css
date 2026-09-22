@@ -1,0 +1,89 @@
+/* =====================================================================
+   「今天」页（#/today）+ 使用指南页（#/guide）+ 首页「今天」入口条
+   （2026-09-22）
+   ---------------------------------------------------------------------
+   用户反馈：「每个页面搞得太满了，有时候就是要藏一点。藏的按钮突出
+   一下就好。」这三处新增元素就照这条来 ——
+     · .today-strip  首页上唯一「抢眼」的东西（有任务时实心强调色），
+                     因为它指向的正是原先被埋在二级页的每日方案；
+     · .today-page   只放任务卡，不放任何统计图表（图表去 #/dashboard）；
+     · .guide-page   前言式说明，次要的数据边界收进 details 折叠。
+   层级一律靠字号 / 留白 / 细线，不新增卡片墙。
+   ===================================================================== */
+
+/* ---------- 首页「今天」入口条 ---------- */
+.today-strip {
+  max-width: var(--w-mid);
+  margin: var(--sp-4) auto 0;
+  display: flex;
+  align-items: center;
+  gap: var(--sp-3);
+  padding: var(--sp-3) var(--sp-6);
+  background: var(--accent);
+  color: var(--on-accent);
+  text-decoration: none;
+  transition: background .16s;
+}
+.today-strip b { font-family: var(--serif); font-size: var(--fs-lg2); white-space: nowrap; }
+.today-strip span {
+  flex: 1; min-width: 0; font-size: var(--fs-sm); opacity: .88;
+  overflow: hidden; text-overflow: ellipsis; white-space: nowrap;
+}
+.today-strip strong { font-size: var(--fs-sm); white-space: nowrap; }
+.today-strip:hover { background: var(--accent-strong, var(--accent)); text-decoration: underline; text-underline-offset: 3px; }
+/* 任务全清 → 降为中性，只报个平安，不再抢眼 */
+.today-strip.is-clear { background: var(--paper-1); color: var(--ink-2); border: 1px solid var(--line); }
+.today-strip.is-clear b { color: var(--ink); }
+
+/* ---------- 「今天」页 ---------- */
+.today-head { margin-bottom: var(--sp-6); }
+.today-date { margin: var(--sp-2) 0 0; color: var(--ink-2); font-size: var(--fs-sm); }
+.today-lead { margin: 0 0 var(--sp-4); color: var(--ink-2); font-size: var(--fs-md); }
+/* .task-card 继承 .word-card 的 margin-bottom:0，这里给出卡片间距 */
+.today-page .task-card { margin-bottom: var(--sp-4); }
+
+/* ---------- 使用指南页 ---------- */
+.guide-lead {
+  margin: 0 0 var(--sp-3);
+  max-width: var(--w-read);
+  color: var(--ink-2);
+  font-size: var(--fs-lg);
+  line-height: var(--lh-read);
+}
+.guide-block { margin-top: var(--sp-9); }
+.guide-block h2 {
+  margin: 0 0 var(--sp-4);
+  padding-bottom: var(--sp-2);
+  border-bottom: 1px solid var(--line);
+  font: 500 var(--fs-2xl) Georgia, "Songti SC", serif;
+}
+.guide-steps { margin: 0; padding-left: var(--sp-6); }
+.guide-steps li { padding: var(--sp-2) 0; }
+.guide-steps li b { display: block; font-family: var(--serif); font-size: var(--fs-lg2); color: var(--ink); }
+.guide-steps li span { color: var(--ink-2); font-size: var(--fs-sm); line-height: var(--lh-body); }
+.guide-list { margin: 0; padding: 0; list-style: none; }
+.guide-list li { border-bottom: 1px solid var(--line); }
+.guide-list a {
+  display: grid;
+  grid-template-columns: minmax(120px, auto) minmax(0, 1fr);
+  column-gap: var(--sp-4);
+  align-items: baseline;
+  padding: var(--sp-3) 0;
+  color: var(--ink);
+  text-decoration: none;
+}
+.guide-list a:hover b { color: var(--accent); }
+.guide-list b { font-family: var(--serif); font-size: var(--fs-lg2); }
+.guide-list small { color: var(--ink-2); font-size: var(--fs-sm); }
+.guide-note { margin: var(--sp-3) 0 0; color: var(--ink-2); font-size: var(--fs-sm); line-height: var(--lh-body); }
+.guide-details { margin-top: var(--sp-4); }
+.guide-details summary { cursor: pointer; color: var(--accent); font-size: var(--fs-sm); }
+.guide-details ul { margin: var(--sp-3) 0 0; padding-left: var(--sp-6); }
+.guide-details li { margin-bottom: var(--sp-2); color: var(--ink-2); font-size: var(--fs-sm); line-height: var(--lh-body); }
+.guide-details li b { color: var(--ink); }
+
+@media (max-width: 700px) {
+  .today-strip { margin: var(--sp-3) var(--sp-4) 0; padding: var(--sp-3) var(--sp-4); }
+  .today-strip span { display: none; }   /* 窄屏只留「今天 · N 件事 →」 */
+  .guide-list a { grid-template-columns: 1fr; row-gap: var(--sp-1); }
+}

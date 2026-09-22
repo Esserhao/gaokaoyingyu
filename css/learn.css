@@ -7,13 +7,10 @@
    / .text-btn 等既有样式，保证视觉与全站一致、且不改动其它页面。
    ===================================================================== */
 
-/* ---------- 进度概览 hero ---------- */
+/* ---------- 进度概览 hero（2026-09-22：去盒子，改为顶部一条分隔线） ---------- */
 .learn-hero {
-  background: var(--paper);
-  border: 1px solid var(--line);
-  border-radius: var(--r-lg);
-  box-shadow: var(--shadow);
-  padding: var(--sp-5);
+  padding: 0 0 var(--sp-5);
+  border-bottom: 1px solid var(--line);
   margin-bottom: var(--sp-5);
 }
 .learn-hero-head {
@@ -64,22 +61,28 @@
   transition: width .35s var(--ease-out);
 }
 
-/* 图例：四态计数 */
+/* 图例：四态计数（一个小色点承载颜色、文字统一灰 —— 不再四个色块胶囊） */
 .learn-legend {
   display: flex;
   flex-wrap: wrap;
-  gap: var(--sp-2);
+  gap: var(--sp-4);
 }
 .learn-legend .lg {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--sp-1-5);
   font-size: var(--fs-sm);
-  padding: var(--sp-1) var(--sp-3);
-  border-radius: var(--r-pill);
-  border: 1px solid transparent;
+  color: var(--ink-2);
 }
-.lg-master { color: var(--green); background: var(--green-soft); }
-.lg-idea   { color: var(--amber); background: var(--gold-soft); }
-.lg-fuzzy  { color: var(--red);   background: var(--red-soft); }
-.lg-none   { color: var(--ink-3); background: var(--bg); border-color: var(--line); }
+.learn-legend .lg::before {
+  content: '';
+  width: 8px; height: 8px;
+  border-radius: 50%;
+}
+.learn-legend .lg-master::before { background: var(--green); }
+.learn-legend .lg-idea::before   { background: var(--amber); }
+.learn-legend .lg-fuzzy::before  { background: var(--red); }
+.learn-legend .lg-none::before   { background: var(--line-strong); }
 
 /* ---------- 难度筛选 chips ---------- */
 .learn-filters {
@@ -134,82 +137,73 @@
 }
 .learn-cat h2 span { font-family: var(--sans); font-size: var(--fs-sm); color: var(--ink-3); font-weight: 400; }
 
-.learn-grid {
+/* ---------- 知识点列表（2026-09-22：卡片网格 → 分组列表） ----------
+   一行一个知识点，行与行之间只用一条细线分隔；层级交给字号、颜色与留白，
+   不再用「边框 + 底色 + 圆角」把每一项包成盒子（这是页面「AI 味」的主要来源）。
+   左列 = 名称 + 难度 + 考频 + 一句话；右列 = 自评与详解，垂直居中。 */
+.learn-list { margin: 0; padding: 0; list-style: none; }
+.learn-row {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(290px, 1fr));
+  grid-template-columns: minmax(0, 1fr) auto;
+  column-gap: var(--sp-5);
+  align-items: center;
+  padding: var(--sp-3) 0;
+  border-bottom: 1px solid var(--line);
+}
+.learn-row-head {
+  display: flex;
+  align-items: baseline;
+  flex-wrap: wrap;
+  gap: var(--sp-2);
+  min-width: 0;
+}
+.learn-row-name {
+  font-family: var(--serif);
+  font-size: var(--fs-lg);
+  color: var(--ink);
+  text-decoration: none;
+}
+.learn-row-name:hover { color: var(--accent); text-decoration: underline; text-underline-offset: 3px; }
+.learn-row-sum {
+  margin: var(--sp-1) 0 0;
+  color: var(--ink-2);
+  font-size: var(--fs-md);
+  line-height: var(--lh-body);
+  max-width: 68ch;
+}
+
+/* 难度：序数用同一重音的三级强度（--lv-1..3 见 style.css），不套胶囊，只留文字色。
+   实测 5.14:1 / 7.58:1 / 9.15:1，均 AA。 */
+.learn-lv { font-size: var(--fs-xs); font-weight: 600; }
+.learn-lv.lv-base { color: var(--lv-1); }
+.learn-lv.lv-mid  { color: var(--lv-2); }
+.learn-lv.lv-hard { color: var(--lv-3); }
+
+.learn-detail-link { white-space: nowrap; font-size: var(--fs-sm); }
+.learn-row-foot {
+  grid-column: 2;
+  grid-row: 1 / span 2;
+  display: flex;
+  align-items: center;
   gap: var(--sp-4);
 }
 
-/* ---------- 单个知识点卡片 ---------- */
-.learn-node {
-  display: flex;
-  flex-direction: column;
-  gap: var(--sp-3);
-  background: var(--paper);
-  border:1px solid var(--line);
-  border-radius: var(--r-md);
-  padding: var(--sp-4);
-  box-shadow: var(--shadow);
-  transition: transform .15s var(--ease-out), box-shadow .15s var(--ease-out);
-}
-.learn-node:hover { transform: translateY(-2px); }
-/* 难度不再用左侧竖线表示（P-38：禁止左侧竖线做卡片强调）。
-   原来的「基础绿 / 进阶蓝 / 挑战琥珀」其实也已经失效——
-   --blue / --gold 已别名到 --accent，三级实际渲染成 绿 / 墨绿 / 墨绿浅，几乎同色。
-   难度信号改由标题行里的 .learn-level 徽标承载：文字色 + 底色 + 边框三重编码，
-   比 1px 色条更易读，也不把颜色当作唯一信息载体。 */
-
-.learn-node-head {
-  display: flex;
-  align-items: flex-start;
-  justify-content: space-between;
-  gap: var(--sp-3);
-}
-.learn-node-title { display: flex; align-items: center; gap: var(--sp-2); flex-wrap: wrap; }
-.learn-node-title b { font-family: var(--serif); font-size: var(--fs-lg); color: var(--ink); }
-
-/* 难度徽标：三级阶梯 = 中性 / 浅重音 / 满重音（--lv-1..3，见 style.css）。
-   难度是序数，所以用同一重音的三级强度，不用三种色相。
-   实测 5.14:1 / 7.58:1 / 9.15:1，全部 AA。 */
-.learn-level {
-  font-size: var(--fs-xs);
-  font-weight: 600;
-  padding: var(--sp-1) var(--sp-2-5);
-  border-radius: var(--r-pill);
-  border: 1px solid transparent;
-}
-.learn-level.lv-base { color: var(--lv-1); background: var(--lv-1-bg); border-color: var(--lv-1-line); }
-.learn-level.lv-mid  { color: var(--lv-2); background: var(--lv-2-bg); border-color: var(--lv-2-line); }
-.learn-level.lv-hard { color: var(--lv-3); background: var(--lv-3-bg); border-color: var(--lv-3-line); }
-
-.learn-detail-link { white-space: nowrap; font-size: var(--fs-sm); }
-.learn-summary { margin: 0; color: var(--ink-2); font-size: var(--fs-md); line-height:var(--lh-body); }
-
-.learn-tags { display: flex; flex-wrap: wrap; gap: var(--sp-1-5); }
-.learn-tag {
-  font-size: var(--fs-xs);
-  color: var(--ink-3);
-  background: var(--bg);
-  border-radius: var(--r-pill);
-  padding: var(--sp-1) var(--sp-2-5);
-}
-
-/* ---------- 掌握度自评三按钮 ---------- */
-.learn-ms-row { display: flex; gap: var(--sp-2); margin-top: auto; }
+/* ---------- 掌握度自评三按钮（列表版：紧凑，不再撑满整行） ---------- */
+.learn-ms-row { display: flex; gap: var(--sp-1-5); }
 .learn-ms {
-  flex: 1;
-  min-height: var(--sp-9);
-  font-size: var(--fs-sm);
+  min-height: 30px;
+  padding: 0 var(--sp-2-5);
+  font-size: var(--fs-xs);
   font-weight: 600;
   color: var(--ink-2);
-  background: var(--paper);
+  background: transparent;
   border: 1px solid var(--line);
   border-radius: var(--r-sm);
   cursor: pointer;
-  transition: transform .12s var(--ease-out), background .12s var(--ease-out),
+  transition: background .12s var(--ease-out),
     color .12s var(--ease-out), border-color .12s var(--ease-out);
 }
-.learn-ms:hover { transform: translateY(-1px); }
+.learn-ms:hover { border-color: var(--line-strong); color: var(--ink); }
 .learn-ms.ms-fuzzy:hover { border-color: var(--red); }
 .learn-ms.ms-idea:hover  { border-color: var(--accent-line); }
 .learn-ms.ms-master:hover { border-color: var(--green); }
@@ -219,9 +213,10 @@
 .learn-ms.ms-idea.is-active  { background: var(--amber);  color: var(--on-accent); border-color: var(--amber); }
 .learn-ms.ms-master.is-active { background: var(--green);  color: var(--on-accent); border-color: var(--green); }
 
-/* ---------- 移动端：卡片单列、hero 纵向 ---------- */
-@media (max-width: 640px) {
-  .learn-grid { grid-template-columns: 1fr; }
+/* ---------- 移动端：右列（自评 + 详解）掉到第二行整行，不再挤在标题右侧 ---------- */
+@media (max-width: 700px) {
+  .learn-row { grid-template-columns: 1fr; row-gap: var(--sp-2); }
+  .learn-row-foot { grid-column: 1; grid-row: auto; justify-content: space-between; }
   .learn-hero-head { flex-direction: column; align-items: flex-start; }
   .learn-progress-num { align-self: flex-start; }
   .learn-ms { min-height: var(--sp-9); }
@@ -233,11 +228,10 @@
    P-38：整块底色 + 满框边，不做单侧竖线装饰。
    ============================================================ */
 .unit-diag {
-  margin: var(--sp-3) 0 var(--sp-4);
-  padding: var(--sp-3) var(--sp-4);
-  background: var(--paper-2);
-  border: 1px solid var(--line);
-  border-radius: var(--r-md);
+  margin: 0 0 var(--sp-4);
+  padding: 0;
+  background: none;
+  border: 0;
 }
 .unit-diag-bar {
   display: flex;

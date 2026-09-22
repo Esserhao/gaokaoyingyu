@@ -160,11 +160,20 @@ Object.assign(UI, {
           : '还没有写作自评。在写作专题完成一篇文章并自评四项，这里开始积累。') + '</p>')
       + '</section>';
 
+    /* 2026-09-22「减负」：用户反馈「每个页面搞得太满了，有时候就是要藏一点。
+       藏的按钮突出一下就好」。这一页原来平铺六块画像，现在按「有没有行动指向」
+       分家 —— 首屏只留能立刻行动的两块（薄弱知识节点、写作自评）与一句综合状态；
+       纯统计的三块（分题型正确率 / 子技能掌握 / 错因结构）收进一个 details。
+       口径一个没改，只是换了呈现层级。 */
     return '<section class="analysis-profile">'
       + '<section class="word-card"><h3 class="word-card-title">综合状态</h3>'
       + `<p class="analysis-lead">${this.esc(parts.join('；'))}。</p>`
       + '<p class="word-note">另有 ' + untrained + ' 个子技能还没练过、'
       + pendingMistakes + ' 道错题在复习周期内。</p></section>'
+      + '<section class="word-card"><h3 class="word-card-title">薄弱知识节点</h3>'
+      + weakRows + '</section>'
+      + writingCard
+      + '<details class="profile-more"><summary>展开看分题型正确率 · 子技能掌握 · 错因结构</summary>'
       + '<section class="word-card"><h3 class="word-card-title">分题型正确率</h3>'
       + typeRows + '</section>'
       + '<section class="word-card"><h3 class="word-card-title">子技能掌握（最近 10 题）</h3>'
@@ -174,9 +183,7 @@ Object.assign(UI, {
       + '</section>'
       + '<section class="word-card"><h3 class="word-card-title">错因结构</h3>'
       + causeRows + '</section>'
-      + '<section class="word-card"><h3 class="word-card-title">薄弱知识节点</h3>'
-      + weakRows + '</section>'
-      + writingCard
+      + '</details>'
       + '</section>';
   },
 
@@ -185,7 +192,7 @@ Object.assign(UI, {
   taskCardHtml(t) {
     return '<section class="word-card task-card">'
       + '<div class="task-head"><h3>' + this.esc(t.title) + '</h3>'
-      + `<button class="text-btn" data-action="analysis-task-done" data-task="${this.esc(t.id)}">✔ 今天完成</button></div>`
+      + `<button class="text-btn" data-action="analysis-task-done" data-task="${this.esc(t.id)}">今天完成</button></div>`
       + `<p class="task-why">${this.esc(t.why)}</p>`
       + (t.evidence && t.evidence.length
         ? '<details class="task-evidence"><summary>依据</summary><ul>'

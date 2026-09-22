@@ -25,6 +25,11 @@ const TOPIC_STARTERS = {
 
 const EXACT_ROUTES = {
   '/':                app => UI.home(app.exams),
+  /* 「今天」（2026-09-22）：规则引擎产出的每日任务单独成一页。
+     任务与 #/dashboard、#/analysis 完全同源（Diagnostic.rules +
+     UI.taskCardHtml），本页只是把它提到最外层 —— 改前它只存在于那两页里，
+     首页没有任何入口，等于把「今天该干什么」藏在了二级页。 */
+  '/today':           () => UI.today(),
   '/dashboard':       app => UI.dashboard(app.exams),
   '/weekly':          () => UI.weekly(),
   '/mistakes':        () => UI.mistakes(Store.getMistakes()),
@@ -65,6 +70,9 @@ const EXACT_ROUTES = {
   '/insights':        app => UI.insights(app.exams),
   /* 错题混排重练（F5）：抽 10 道题干完整的客观题打乱重做，答对推进复习阶梯 */
   '/drill':           () => UI.drill(),
+  /* 使用指南（2026-09-22）：一页说清这个站点是什么、怎么用、数据边界。
+     刻意保持简短 —— 它像前言，不是功能清单。 */
+  '/guide':           () => UI.guide(),
   /* 全站搜索（F9）：试卷/知识点/单词/词组四路客户端匹配 */
   '/search':          () => UI.search(UI._searchState.q || ''),
   /* 知识星图 v2：门厅四栏（cat=null）；各类别星图走 PATTERN_ROUTES */
@@ -554,7 +562,7 @@ const App = {
     'word-add'(app, btn) {
       const word = btn.dataset.word;
       /* addWord 会把词组、含数字的词形拒掉（改前是静默 return，
-         学生点了「☆ 收藏生词」页面纹丝不动，不知道是失败了还是卡了）。
+         学生点了「收藏生词」页面纹丝不动，不知道是失败了还是卡了）。
          现在返回布尔，这里就地给一句反馈。 */
       if (!Store.addWord(word)) {
         UI.toast('这个词形暂时收不进生词本，换个写法试试。');

@@ -23,7 +23,7 @@
 .topic-intro h1, .report-hero h1, .lesson-hero h1,
 .dashboard-hero h2, .panel-heading h2,
 .knowledge-detail-card h2, .mistake-detail-hero h2,
-.path-item b, .program-card b, .simulation-row strong,
+.program-card b, .simulation-row strong,
 .practice-paper h1, .lesson-paper h2, .teacher-answer h3,
 .report-score b, .dashboard-stats b, .topic-paper-label,
 .sheet-title {
@@ -34,7 +34,7 @@
 .icon { width: 1em; height: 1em; vertical-align: -.125em; flex: none; }
 
 /* ---------- 缓动统一：只覆盖真实存在且带 transition 的控件 ---------- */
-.option, .paper-row, .path-item, .program-card, .primary-btn, .ghost-btn,
+.option, .paper-row, .path-list a, .program-card, .primary-btn, .ghost-btn,
 .text-btn, .sheet-dot, .filter-chip, .topic-choice, .answer-sheet {
   transition-timing-function: var(--ease-out);
 }
@@ -129,7 +129,7 @@ textarea:focus-visible, select:focus-visible, summary:focus-visible,
 
 /* ---------- 触控目标 ≥ 44px（移动友好） ----------
    列表/按钮/输入等元素：min-height:44px。
-   ⚠ .sheet-dot / .lesson-progress span 有显式 width × height（视觉正方形），
+   .sheet-dot / .lesson-progress span 有显式 width × height（视觉正方形），
    不能叠加 min-height:44，否则被拉成 32×44 / 32×44 长方形——已显式排除。 */
 .option, .topic-option, .training-option, .lesson-option,
 .primary-btn, .ghost-btn, .text-btn, .mobile-sheet-btn,

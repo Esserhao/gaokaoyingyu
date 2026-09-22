@@ -5,12 +5,9 @@
 
 /* ---- 主页入口区 ---- */
 .sh-entry {
-  background: var(--paper-2);
-  border: 1px solid var(--line);
-  border-radius: var(--r-md, 10px);
-  padding: var(--sp-4) var(--sp-5);
-  margin: var(--sp-5) auto;
   max-width: 980px;
+  margin: var(--sp-7) auto 0;
+  padding: 0;
 }
 .sh-entry-head h2 { margin: 2px 0 6px; }
 .sh-entry-head p {
@@ -18,30 +15,25 @@
   font-size: var(--fs-sm, 14px);
   margin: 0 0 var(--sp-4);
 }
-.sh-entry-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-  gap: var(--sp-3);
+.sh-entry-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
 }
-.sh-entry-card {
-  display: flex;
-  flex-direction: column;
-  gap: 6px;
-  background: var(--paper-1);
-  border: 1px solid var(--line);
-  border-radius: var(--r-sm, 8px);
-  padding: var(--sp-3) var(--sp-4);
+.sh-entry-list li { border-bottom: 1px solid var(--line); }
+.sh-entry-list a {
+  display: grid;
+  grid-template-columns: minmax(150px, auto) minmax(0, 1fr);
+  column-gap: var(--sp-4);
+  align-items: baseline;
+  padding: var(--sp-3) 0;
   color: var(--ink-1);
   text-decoration: none;
 }
-.sh-entry-card b { font-size: var(--fs-md, 16px); }
-.sh-entry-card small { color: var(--ink-3); }
-.sh-entry-card strong {
-  color: var(--accent);
-  font-size: var(--fs-sm, 14px);
-  margin-top: 2px;
-}
-.sh-entry-card:hover { border-color: var(--accent-line, var(--accent)); }
+.sh-entry-list b { font: 500 var(--fs-lg2) Georgia,"Songti SC",serif; }
+.sh-entry-list small { color: var(--ink-2); font-size: var(--fs-sm, 14px); }
+
+.sh-entry-list a:hover b { color: var(--accent); }
 
 /* ---- 门厅 / 真题册 / 词汇三页公共 ---- */
 .sh-home, .sh-exams, .sh-vocab {

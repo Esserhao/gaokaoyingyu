@@ -182,7 +182,7 @@ Object.assign(UI, {
       + (s[kind] === val ? ' is-on' : '') + '" data-action="exam-layout"'
       + ` data-kind="${kind}" data-value="${val}">${label}</button>`;
     return '<details class="exam-set"><summary class="exam-set-summary" '
-      + 'title="答题页排版设置"><span class="exam-set-ico" aria-hidden="true">⚙</span>'
+      + 'title="答题页排版设置">'
       + '<span class="exam-set-label">排版</span></summary><div class="exam-set-panel">'
       + '<div class="exam-set-row"><span>答题卡</span>'
       + mk('sheet', 'left', '左侧') + mk('sheet', 'right', '右侧') + mk('sheet', 'hidden', '收起')
@@ -239,7 +239,7 @@ Object.assign(UI, {
     return '<aside class="answer-sheet" id="asheet" aria-label="答题卡">'
       + '<h2 class="sheet-title"><span>答题卡 <small>' + answered + '/' + total + '</small></span>'
       + '<button type="button" class="sheet-collapse" data-action="exam-layout"'
-      + ' data-kind="sheet" data-value="hidden" title="收起答题卡，正文占满整屏">收起 ⇥</button></h2>'
+      + ' data-kind="sheet" data-value="hidden" title="收起答题卡，正文占满整屏">收起</button></h2>'
       + sections + '</aside>'
       + '\n  <button class="sheet-restore" type="button" data-action="exam-layout"'
       + ' data-kind="sheet" data-value="__restore" title="重新展开答题卡">答题卡</button>'

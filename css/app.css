@@ -19,7 +19,7 @@
 /* ===== 答案解析模式（mode!=='practice'）=====
    render.js 输出 .question.review / .question.wrong / .option.correct，
    此前全站无任何规则匹配它们 —— 复盘页看不出哪题错、哪项才是正解。
-   判分信号不靠颜色单通道：正解补「✓ 正确答案」、错选补「✗ 你选的」，
+   判分信号不靠颜色单通道：正解补「正确答案」、错选补「你选的」，
    色盲与灰度打印同样可读。以下规则须排在 .option.selected 之后才能生效。 */
 .question.review{padding:var(--sp-3) var(--sp-3-5);border:1px solid var(--accent-line);background:var(--accent-soft)}
 .question.review.wrong{border-color:var(--red)}
@@ -30,13 +30,13 @@
   background:var(--green-soft);border-color:var(--green);color:var(--ink)}
 .question.review .option.correct .option-letter{color:var(--green)}
 .question.review .option.correct::after{
-  content:"✓ 正确答案";margin-left:auto;flex:none;padding-left:var(--sp-2-5);
+  content:"正确答案";margin-left:auto;flex:none;padding-left:var(--sp-2-5);
   color:var(--green);font-size:var(--fs-xs);font-weight:700;white-space:nowrap}
 .question.review .option.selected:not(.correct){
   background:var(--red-soft);border-color:var(--red)}
 .question.review .option.selected:not(.correct) .option-letter{color:var(--red)}
 .question.review .option.selected:not(.correct)::after{
-  content:"✗ 你选的";margin-left:auto;flex:none;padding-left:var(--sp-2-5);
+  content:"你选的";margin-left:auto;flex:none;padding-left:var(--sp-2-5);
   color:var(--red);font-size:var(--fs-xs);font-weight:700;white-space:nowrap}
 /* 主观题：解析模式下把考生原答案与参考答案并排给出 */
 .question.review .fill-input,.question.review .writing-input{
@@ -204,7 +204,6 @@ html.fs-xl .exam-content .option{font-size:1.08rem}
    375px（实测超 18px）。窄屏只留图标、收紧内边距；面板宽度收进视口、改居中
    对齐，避免从右往左溢出屏幕。 */
 @media (max-width: 800px) {
-  .exam-set-label { display: none; }
   .exam-set-summary { padding: var(--sp-1-5) var(--sp-2); }
   .exam-set-panel {
     right: auto; left: 50%; transform: translateX(-50%);

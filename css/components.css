@@ -249,7 +249,11 @@
   /* 主导航：五域平铺一行，触控目标放大；菜单就地展开（不再悬浮）。 */
   .site-nav-inner { flex-wrap: wrap; padding: 0 var(--sp-4); }
   .site-nav--mid .site-nav-inner { padding: 0 var(--sp-4); }
-  .site-nav-item { flex: 1 1 auto; }
+  /* 2026-09-22：标签从单字「学/练/错/词」改为实词后，窄屏必然折成两行；
+     不再让 flex 拉伸 —— 否则第二行两项会被撑得比第一行还宽
+     （实测「词汇 / 工具」各 162px > 「知识台阶」111px），两行宽度不齐。
+     改为自然宽度 + 左对齐换行。 */
+  .site-nav-item { flex: 0 0 auto; }
   .site-nav-summary { min-height: var(--sp-9); justify-content: center; padding: var(--sp-2) var(--sp-3); }
   .site-nav-menu { position: static; min-width: 0; border-left: 0; border-right: 0; border-bottom: 0; }
   .site-nav-menu a { white-space: normal; }

@@ -95,7 +95,7 @@ Object.assign(UI, {
           : '<a class="primary-btn" href="#/simulation">开始真题模拟 →</a>')
       + '</section>'
       /* 学业分析 · 今日方案（附录 D）：有整卷记录后，规则引擎的每日任务直接
-         放到学习总览——学生打开第一眼就是「今天该干什么」，点 ✔ 就地勾掉。
+         放到学习总览——学生打开第一眼就是「今天该干什么」，点「今天完成」就地勾掉。
          还没有任何记录时保持原横幅，先邀请做一次诊断。 */
       + (records.length ? this._todayPlanHtml() : '<a class="analysis-banner" href="#/analysis">'
         + '<span class="reference-kicker">ACADEMIC ANALYSIS</span>'
@@ -173,7 +173,7 @@ Object.assign(UI, {
 
   /* ---------- 今日方案（附录 D）----------
      规则引擎与学业分析页同一份 input（Diagnostic.inputFromStore），前 3 项
-     嵌进学习总览；点 ✔ 由 analysis-task-done 走 app.route() 就地重渲染。
+     嵌进学习总览；点「今天完成」由 analysis-task-done 走 app.route() 就地重渲染。
      完整方案（画像 + 全部任务 + 证据）仍在 #/analysis。 */
   _todayPlanHtml() {
     const tasks = Diagnostic.rules(Diagnostic.inputFromStore(Date.now())).slice(0, 3);
@@ -407,7 +407,7 @@ Object.assign(UI, {
       + '<div class="panel-heading"><h2>打卡日历</h2>'
       + `<span>近 17 周 · 有记录 ${totalDays} 天</span></div>`
       + '<div class="heatmap-head"><b class="hm-streak">'
-      + (streak ? `🔥 连续打卡 ${streak} 天` : '今天练一轮，点亮第一格')
+      + (streak ? `连续打卡 ${streak} 天` : '今天练一轮，点亮第一格')
       + `</b><span>过去 ${17 * 7} 天里，你在 ${totalDays} 天留下过学习记录。</span></div>`
       + '<div class="heatmap-months">' + monthMarks + '</div>'
       + '<div class="heatmap-grid">' + cells + '</div>'

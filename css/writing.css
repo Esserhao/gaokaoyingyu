@@ -59,28 +59,23 @@
 .wm-loading b { font-weight: 600; }
 
 /* ---------- 范文卡 ---------- */
-.wm-list { display: grid; gap: var(--sp-4); }
+/* 2026-09-22 去 AI 味：每篇范文从「一张卡片」改为「一条文档条目」——
+   去掉边框 / 底色 / 圆角，改用一条细线分隔；类型标签从胶囊降为纯文字。 */
+.wm-list { display: block; }
 .wm-card {
-  padding: var(--sp-5) var(--sp-5) var(--sp-4);
-  background: var(--paper-1);
-  border: 1px solid var(--line);
-  border-radius: var(--r-md);
+  padding: var(--sp-5) 0;
+  border-bottom: 1px solid var(--line);
 }
 .wm-card[hidden] { display: none; }
 .wm-card-top {
   display: flex;
-  align-items: center;
+  align-items: baseline;
   gap: var(--sp-2-5);
   flex-wrap: wrap;
-  padding-bottom: var(--sp-3);
-  border-bottom: 1px solid var(--line);
+  margin-bottom: var(--sp-4);
 }
-.wm-card-top > b { font-size: var(--fs-base, 15px); }
+.wm-card-top > b { font: 500 var(--fs-lg2) Georgia,"Songti SC",serif; }
 .wm-chip {
-  padding: var(--sp-1) var(--sp-2-5);
-  border: 1px solid var(--accent-line);
-  border-radius: var(--r-pill, 999px);
-  background: var(--accent-soft);
   color: var(--accent);
   font-size: var(--fs-xs, 12px);
 }
@@ -105,21 +100,17 @@
 .wm-model { margin-top: var(--sp-3-5); }
 .wm-model > summary {
   display: inline-block;
-  padding: var(--sp-2) var(--sp-3);
-  border: 1px solid var(--line);
-  border-radius: var(--r-md);
-  background: var(--paper-2);
-  color: var(--ink-2);
+  color: var(--accent);
   font-size: var(--fs-sm, 14px);
   cursor: pointer;
 }
+.wm-model > summary::after { content: " ▾"; color: var(--ink-3); }
+.wm-model[open] > summary::after { content: " ▴"; }
 .wm-model[open] > summary { margin-bottom: var(--sp-3); }
 .wm-model > pre {
   margin: 0;
   padding: var(--sp-4);
   background: var(--paper-2);
-  border: 1px solid var(--line);
-  border-radius: var(--r-md);
   font-family: Georgia, "Times New Roman", serif;
   font-size: var(--fs-base, 15px);
   line-height: var(--lh-read, 1.9);
@@ -144,10 +135,8 @@
 }
 .wm-footnote {
   margin-top: var(--sp-7);
-  padding: var(--sp-5);
-  background: var(--paper-2);
-  border: 1px solid var(--line);
-  border-radius: var(--r-md);
+  padding: var(--sp-5) 0 0;
+  border-top: 1px solid var(--line);
 }
 .wm-footnote > b { display: block; margin-bottom: var(--sp-2); }
 .wm-footnote p {

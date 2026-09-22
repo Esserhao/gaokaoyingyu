@@ -6,7 +6,7 @@
    为什么不用 ES module：本站零构建、file:// 直开也要能跑，
    所以沿用 <script> + 全局对象的组织方式。
 
-   ⚠ 关于模板字符串的换行
+   关于模板字符串的换行
    这些方法的返回值会直接进 innerHTML。模板字符串里的换行与缩进都是
    真实字符，行内元素之间多一个空白就会渲染出多一个空格。因此本次重构
    一律用「多段模板 + 加号拼接」来断行，不在模板内部换行 ——
@@ -148,8 +148,8 @@ const UI = {
 
   themeLabel() {
     const r = document.documentElement;
-    return r.classList.contains('theme-day') ? '☀ 白昼'
-      : r.classList.contains('theme-night') ? '☾ 夜间' : '◐ 纸墨';
+    return r.classList.contains('theme-day') ? '白昼'
+      : r.classList.contains('theme-night') ? '夜间' : '纸墨';
   },
 
   /* ---------- 做题页字号三档（附录 E3）----------
@@ -189,7 +189,7 @@ const UI = {
      导航统一承载。details/summary 是原生交互，零 JS、键盘可用；
      答题页（examBar）不渲染，保持作答沉浸。 */
   SITE_NAV_DOMAINS: [
-    { key: 'learn', label: '学',
+    { key: 'learn', label: '知识台阶',
       re: /^\/(dashboard|weekly|learn|knowledge-graph|insights|methods)/,
       items: [
         { href: '#/dashboard', label: '学习总览' },
@@ -199,7 +199,7 @@ const UI = {
         { href: '#/knowledge-graph', label: '知识点星图' },
         { href: '#/insights', label: '考点透视' },
       ] },
-    { key: 'train', label: '练',
+    { key: 'train', label: '题型训练',
       re: /^$|^\/(training|topics|simulation|exam\/|topic\/|result|review(?!-queue))/,
       items: [
         { href: '#/', label: '历年真题' },
@@ -207,14 +207,14 @@ const UI = {
         { href: '#/topics', label: '专题训练' },
         { href: '#/simulation', label: '真题模拟' },
       ] },
-    { key: 'wrong', label: '错',
+    { key: 'wrong', label: '错题本',
       re: /^\/(mistakes|mistake\/|knowledge(?!-graph)|review-queue|drill)/,
       items: [
         { href: '#/mistakes', label: '错题本' },
         { href: '#/knowledge', label: '错题溯源' },
         { href: '#/drill', label: '错题重练' },
       ] },
-    { key: 'vocab', label: '词',
+    { key: 'vocab', label: '词汇',
       re: /^\/(word|words|phrases|synonyms|vocab-guide)/,
       items: [
         { href: '#/word', label: '查词' },
@@ -224,9 +224,10 @@ const UI = {
         { href: '#/vocab-guide', label: '词汇指南' },
       ] },
     { key: 'tools', label: '工具',
-      re: /^\/(search|data)/,
+      re: /^\/(search|data|guide)/,
       items: [
         { href: '#/search', label: '全站搜索' },
+        { href: '#/guide', label: '使用指南' },
         { href: '#/data', label: '数据备份' },
       ] },
   ],
@@ -270,13 +271,13 @@ const UI = {
       && 'speechSynthesis' in window && 'SpeechSynthesisUtterance' in window;
   },
 
-  /* 朗读按钮。text 原样传英文；label 可选（默认 ♪ 读）。
+  /* 朗读按钮。text 原样传英文；label 可选（默认「朗读」）。
      esc 只转 data 属性里的引号；朗读时用 dataset 原文，不再二次转义。 */
   speakBtn(text, label) {
     if (!this.speakSupported() || !String(text || '').trim()) return '';
     return `<button class="speak-btn" data-action="speak" `
       + `data-speak="${this.esc(text)}" aria-label="朗读" `
-      + `title="朗读">${this.esc(label || '♪ 读')}</button>`;
+      + `title="朗读">${this.esc(label || '朗读')}</button>`;
   },
 
   speak(raw) {

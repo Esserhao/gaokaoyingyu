@@ -63,7 +63,7 @@ Object.assign(UI, {
       + '</div>'
       + '<p class="word-note">10 本词书（高考核心 3500 / 高中乱序 / 六级 / 初中 / 上海考纲 等），'
       + '另有 12 万词通用词典兜底。错题详情、知识详情的例句和整卷解析页里，'
-      + '点击文中任意英文单词也能直接查；词条页与生词本里的 ♪ 读 按钮'
+      + '点击文中任意英文单词也能直接查；词条页与生词本里的「朗读」按钮'
       + '用浏览器内置语音朗读单词与例句。</p>'
       + '<div class="word-examples">'
       + '<a class="syn-chip syn-chip-aff" href="#/word/happy">happy</a>'
@@ -119,7 +119,7 @@ Object.assign(UI, {
     const saveBtn = `<div class="word-actions">`
       + `<button class="${saved ? 'ghost-btn' : 'primary-btn'}" `
       + `data-action="${saved ? 'word-remove' : 'word-add'}" data-word="${this.esc(lower)}">`
-      + `${saved ? '★ 已在生词本 · 点击移除' : '☆ 收藏生词'}</button>`
+      + `${saved ? '已在生词本 · 点击移除' : '收藏生词'}</button>`
       + `<a class="text-btn" href="#/words">生词本 →</a></div>`;
 
     const bookRows = entries.map(x => '<div class="word-entry">'
@@ -258,7 +258,7 @@ Object.assign(UI, {
       + '</section>'
       + '<section class="word-card"><h3 class="word-card-title">在本站怎么用（功能对照）</h3>'
       + do1('收词', '在真题阅读/听力、错题解析里遇到生词，'
-        + '进 <a href="#/word">词条页</a> 点 ☆ 收藏——不要拿词书整表往后划')
+        + '进 <a href="#/word">词条页</a> 点「收藏生词」——不要拿词书整表往后划')
       + do1('复习', '<a href="#/words">生词本</a>推词的那个瞬间就是提取练习：'
         + '<b>先回忆、再看释义</b>，然后照实点「认识 / 忘记」。'
         + '阶梯是 ' + ladder + ' 天，连着三轮都认识的词，是阶梯在悄悄为你省时间')

@@ -79,7 +79,7 @@ const Topic = {
   topicDraftFlag(data, suffix = '') {
     const d = Store.getTopicDraft(this.topicDraftKey(data, suffix));
     const answered = d ? UI.countAnswered(d.answers) : 0;
-    return answered ? `<span class="topic-draft-flag">↻ 继续上次（已答 ${answered} 题）</span>` : '';
+    return answered ? `<span class="topic-draft-flag">继续上次（已答 ${answered} 题）</span>` : '';
   },
 
   /* 收答案：单选取 checked，填空取 [data-topic-q]。两者都没有就是空串。 */

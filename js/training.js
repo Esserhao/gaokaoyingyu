@@ -114,7 +114,7 @@ const Training = {
           brand: '高中英语指北', brandNote: '分题型训练中心', brandHref: '#/',
           backHref: '#/mistakes', backLabel: '错题本',
         })
-      + `<section class="training-hero"><span class="reference-kicker">TOPIC PRACTICE · ${meta.en}</span>`
+      + '<section class="training-hero">'
       + (sk
         ? `<h1>${this.esc(sk.name)}</h1><p>${this.esc(sk.method)}</p>`
         : '<h1>分题型训练</h1>'
@@ -128,20 +128,18 @@ const Training = {
     const cards = this.types.map(t => `<a class="topic-card ${t.key === typeKey ? 'active' : ''}" `
       + `href="#/training/${t.key}/example">`
       + `<span class="topic-index">${String(this.types.indexOf(t) + 1).padStart(2, '0')}</span>`
-      + `<b>${t.name}</b><small>${t.note}</small><em>${t.en}</em></a>`).join('');
+      + `<b>${t.name}</b><small>${t.note}</small></a>`).join('');
 
     /* 子技能模式：summary 换成方法卡 + 三档进度 + 回知识详情入口；
        普通模式：题型训练要点。 */
     const skBadge = sk ? Subskill.tierBadge(Store.getSubskillHistory(), sk.id) : null;
     const summary = sk
       ? '<section class="training-summary"><div>'
-        + `<span class="reference-kicker">SKILL · ${this.esc(meta.name)}</span>`
         + `<h2>${this.esc(sk.name)} · 方法</h2><p>${this.esc(sk.method)}</p>`
         + `<span class="subskill-tier t-${skBadge.cls}">${this.esc(skBadge.text)}</span></div>`
         + `<div class="summary-stat"><b>专项</b><span>`
         + `<a href="#/knowledge/${encodeURIComponent(sk.id)}">知识详情 →</a></span></div></section>`
       : '<section class="training-summary"><div>'
-        + '<span class="reference-kicker">同类题总结</span>'
         + `<h2>${meta.name} · 训练要点</h2><p>${meta.strategy}</p></div>`
         + `<div class="summary-stat"><b>跨年份</b><span>${exams.length} 套题库</span></div></section>`;
 

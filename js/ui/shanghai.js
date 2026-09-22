@@ -7,7 +7,7 @@
    sh-kaogang.js 226KB 只服务上海两个页面（2026-09-19 起按需注入）：
    shVocabReady() 照 examfreq/dict 的懒加载模式动态 <script>，file:// 下可用；
    加载失败时如实降级（不给假计数，提示重进重试）。
-   ⚠ 上海卷制式与全国卷不同（春考/秋考、翻译+概要写作等），本模块独立成页，
+   上海卷制式与全国卷不同（春考/秋考、翻译+概要写作等），本模块独立成页，
    不复用 Exam 的 legacy/new 折算口径，也不混入全国卷词书库。
    ===================================================================== */
 Object.assign(UI, {
@@ -38,18 +38,16 @@ Object.assign(UI, {
     const count = ok && V ? V.words.length + ' 词 · ' : '';
     this.app().innerHTML = this.header('上海专区', true)
       + '<main class="sh-home">'
-      + '<span class="eyebrow">SHANGHAI TRACK</span>'
       + '<h1>上海卷专区</h1>'
       + '<p class="sh-lede">上海卷的题型、卷制和词汇要求和全国卷不一样——这里单独放'
       + '上海的东西，不和全国卷混在一起。</p>'
-      + '<div class="sh-entry-grid">'
-      + '<a class="sh-entry-card" href="#/shanghai/exams">'
-      + '<b>上海真题册</b><small>历年卷登记与练习（框架已就位，卷子陆续上架）</small>'
-      + '<strong>进入真题册 →</strong></a>'
-      + '<a class="sh-entry-card" href="#/shanghai/vocab">'
+      + '<ul class="sh-entry-list">'
+      + '<li><a href="#/shanghai/exams">'
+      + '<b>上海真题册</b><small>历年卷登记与练习（框架已就位，卷子陆续上架）</small></a></li>'
+      + '<li><a href="#/shanghai/vocab">'
       + '<b>上海考纲词汇</b><small>' + count + '上海市教育考试院词表'
-      + ' · 未人工复核</small><strong>背上海考纲词 →</strong></a>'
-      + '</div>'
+      + ' · 未人工复核</small></a></li>'
+      + '</ul>'
       + '<section class="sh-note"><h2>上海卷和全国卷差在哪？</h2>'
       + '<ul><li>上海卷分春秋两考，客观题占比更低，主观题（中译英、概要写作）占分更高；</li>'
       + '<li>上海考纲词表独立于全国 3500 词，本区词汇取自考试院官方词表；</li>'

@@ -15,7 +15,7 @@
 
 /* 全局：阻止任何子元素撑破页面（横向滚动条统一到 body 收口）
 
-   ⚠ 必须用 clip 而不是 hidden。overflow-x:hidden 会强制另一轴变成 auto，
+   必须用 clip 而不是 hidden。overflow-x:hidden 会强制另一轴变成 auto，
    使 html/body 成为滚动容器 —— 连带让所有后代的 position:sticky 失效
    （右侧悬浮答题卡就是这么废掉的：sticky 退化为普通定位，卡片随页面滚走）。
    overflow-x:clip 同样裁剪横向溢出，但不创建滚动容器，sticky 照常工作。

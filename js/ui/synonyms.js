@@ -911,7 +911,7 @@ Object.assign(UI, {
       + '<span class="syn-kind-badge">词组</span>'
       + this.speakBtn(ph)
       + `<button class="text-btn phr-save-btn" data-action="phr-toggle" data-phr="${this.esc(ph)}">`
-      + `${saved ? '✓ 已在闪卡' : '+ 收进闪卡'}</button></div>`
+      + `${saved ? '已在闪卡' : '+ 收进闪卡'}</button></div>`
       + (self && self.m ? `<div class="syn-vocab-m">${this.esc(self.m)}</div>` : '')
       + (self && self.ex ? `<div class="syn-vocab-ex">${this.esc(self.ex)}</div>` : '')
       + (self && self.exCn ? `<div class="syn-vocab-excn">${this.esc(self.exCn)}</div>` : '')

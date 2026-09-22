@@ -174,8 +174,8 @@ Object.assign(UI, {
       }).join('') + '</div>');
       const explain = Diagnose.hintText(cur.m);
       parts.push('<p class="drill-verdict ' + (okAns ? 'is-right' : 'is-wrong') + '">'
-        + (okAns ? '✓ 答对了，这道题的复习阶梯往前走一步。'
-          : '✗ 答错了。正确答案 ' + this.esc(cur.answer) + '，排期不动，'
+        + (okAns ? '答对了，这道题的复习阶梯往前走一步。'
+          : '答错了。正确答案 ' + this.esc(cur.answer) + '，排期不动，'
           + '复习队列到期再见面。') + '</p>'
         + (explain ? '<p class="drill-explain">' + this.text(explain) + '</p>' : '')
         + '<button class="primary-btn" data-action="drill-next">'

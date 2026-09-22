@@ -137,7 +137,7 @@ Object.assign(UI, {
       return '<section class="learn-cat"><h2>' + this.esc(cat)
         + '<span>' + catMap[cat].length + ' 个知识点</span></h2>'
         + diag
-        + '<div class="learn-grid">' + grid + '</div></section>';
+        + '<ol class="learn-list">' + grid + '</ol></section>';
     }).join('');
 
     this.app().innerHTML = this.header('知识台阶', true)
@@ -224,17 +224,23 @@ Object.assign(UI, {
       + `" data-action="kb-mastery" data-node="${this.esc(n.id)}" data-level="${o.key}">`
       + this.esc(o.label) + '</button>'
     ).join('');
-    const tags = (n.tags || []).map(t => `<span class="learn-tag">${this.esc(t)}</span>`).join('');
-
-    return '<article class="learn-node ' + levelCls + '" data-learn-node="' + this.esc(n.id) + '">'
-      + '<div class="learn-node-head"><div class="learn-node-title">'
-      + `<b>${this.esc(n.name)}</b>`
-      + `<span class="learn-level ${levelCls}">${this.esc(n.level)}</span>${tierChip}${this.kbFreqChip(n.id)}</div>`
-      + `<a class="text-btn learn-detail-link" href="#/knowledge/${encodeURIComponent(n.id)}">详解 →</a></div>`
-      + (n.summary ? `<p class="learn-summary">${this.esc(n.summary)}</p>` : '')
-      + (tags ? `<div class="learn-tags">${tags}</div>` : '')
+    /* 2026-09-22 去模板腔：卡片网格 → 分组列表（用户反馈「AI 味还是太重」）。
+       去掉卡片边框/阴影与「分类标签」——组标题已说明分类，组内每行再挂一遍
+       同一批标签是纯重复；难度从胶囊降为纯文字（颜色仍三级）；知识点名本身
+       就是详情链接，右侧只留一句「详解 →」保证可发现性。
+       保留 data-learn-node 与 .kb-freq —— 护栏探针按这两个 hook 断言。 */
+    const detail = '#/knowledge/' + encodeURIComponent(n.id);
+    return '<li class="learn-row" data-learn-node="' + this.esc(n.id) + '">'
+      + '<div class="learn-row-head">'
+      + `<a class="learn-row-name" href="${detail}">${this.esc(n.name)}</a>`
+      + `<span class="learn-lv ${levelCls}">${this.esc(n.level)}</span>`
+      + tierChip + this.kbFreqChip(n.id)
+      + '</div>'
+      + (n.summary ? `<p class="learn-row-sum">${this.esc(n.summary)}</p>` : '')
+      + '<div class="learn-row-foot">'
       + '<div class="learn-ms-row" role="group" aria-label="' + this.esc(n.name) + ' 掌握度自评">' + btns + '</div>'
-      + '</article>';
+      + `<a class="learn-detail-link" href="${detail}">详解 →</a>`
+      + '</div></li>';
   },
 
   /* 自评后就地刷新顶部统计（进度数 / 进度条 / 图例），不整页重渲染。
@@ -538,7 +544,7 @@ Object.assign(UI, {
           + `你的答案：${this.esc(s.answered.text || '（空）')} · 正确答案：<b>${this.esc(q.answer)}</b></p>`);
       }
       parts.push(`<p class="kbq-explain ${ok ? 'is-right' : 'is-wrong'}">`
-        + (ok ? '✓ 答对了。' : '✗ 答错了。') + this.esc(q.explain) + '</p>');
+        + (ok ? '答对了。' : '答错了。') + this.esc(q.explain) + '</p>');
       const last = s.idx + 1 >= s.order.length;
       parts.push('<button class="primary-btn" data-action="kbq-next" data-node="'
         + this.esc(node) + '">' + (last ? '看结算 →' : '下一题 →') + '</button>');
