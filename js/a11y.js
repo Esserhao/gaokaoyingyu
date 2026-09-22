@@ -30,7 +30,7 @@
     if (title && title !== lastTitle) {
       lastTitle = title;
       live.textContent = title;
-      document.title = title + ' · 高考英语真题在线';
+      document.title = title + ' · 高中英语指北';
       /* 焦点迁移（2026-09-19）：hash 路由换页后焦点原本掉在 body，键盘用户
          要从头 Tab 穿过 20+ 导航链接。只在「页面标题变了」（=真的换页了）
          时把焦点交给 main，局部重渲染不抢焦点；首屏也不抢。 */

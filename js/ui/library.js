@@ -60,12 +60,12 @@ Object.assign(UI, {
 
     const hero = '<main class="reference-home">'
       + this.referenceHeader({
-          brand: '高考英语真题在线', brandNote: '学会方法，再把方法用进考试', brandHref: '#/',
+          brand: '高中英语指北', brandNote: '学会方法，再把方法用进考试', brandHref: '#/',
         })
       + '<section class="reference-hero">'
-      + '<span class="reference-kicker">GAOKAO ENGLISH · LEARN THE LOGIC</span>'
-      + '<h1>不只做对，<br><em>还要知道为什么。</em></h1>'
-      + '<p>从一道题的思考步骤，到一整套真题的考试状态。</p></section>';
+      + '<h1>把每套真题，<br><em>做成能重做的卷子。</em></h1>'
+      + '<p>16 套真题 · 听力音频 · 逐题解析；答错的题自动进错题本，'
+      + '每个知识点还标着高考考过几次。</p></section>';
 
     /* 原分类导航条（历年真题/分题型训练/专题训练/真题模拟）与四步路径
        卡指向完全相同的页面，同一页 6 个重复入口；升级版全站主导航
@@ -76,8 +76,7 @@ Object.assign(UI, {
        → 02 完整材料应用 → 03 整卷检验。入口已由主导航承载，这排卡片
        保留作学习路径的叙述与引导。 */
     const path = '<section class="learning-path">'
-      + '<div class="path-heading"><span class="reference-kicker">LEARNING PATH</span>'
-      + '<h2>四步，从零基础到上考场</h2></div>'
+      + '<div class="path-heading"><h2>备考的四步顺序</h2></div>'
       + '<div class="path-grid">'
       + '<a class="path-item path-amber" href="#/learn"><span>00</span><b>知识台阶</b>'
       + '<small>按台阶逐个吃透语法点，模糊到掌握看得见</small><strong>从零开始 →</strong></a>'
@@ -129,7 +128,7 @@ Object.assign(UI, {
       + resumeBanner
       + `<div class="section-line"><h2>历年真题</h2><span>${exams.length} 套真题 · 选择一套开始</span></div>`
       + years.map(year => '<section class="reference-year">'
-        + `<h2>${year}年高考英语真题</h2><div class="paper-list">`
+        + `<h2>${year}年英语真题</h2><div class="paper-list">`
         + exams.filter(e => e.year === year).map(e => this.paperRow(e)).join('')
         + '</div></section>').join('')
       + '</div>';

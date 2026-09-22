@@ -272,6 +272,43 @@ const App = {
      下一次跳转时消失，恰恰是用户最需要看见它的时候。 */
   afterRender() {
     try { if (Store.writeFailed) UI.writeWarning(); } catch (_) { /* 补挂失败不影响页面本身 */ }
+    try { this.stripTemplateKickers(); } catch (_) { /* 清理失败不影响页面本身 */ }
+  },
+
+  /* 摘掉模板遗留的「大写英文小标」（2026-09-22，用户要求去 AI 模板味）。
+     起因：全站 19 个文件 77 处 <span class="eyebrow|reference-kicker"> 都在用
+     同一套「中文标题 + 大写英文」句式（ACADEMIC ANALYSIS / LEARNING PATH /
+     WRITING STUDIO · DRAFT REVIEW…），这是页面「AI 味」的主要来源。逐处改模板
+     容易漏，这里集中摘除：判定标准是**含连续两个及以上大写字母**，所以纯中文的
+     小标签（如「本题型核心思路」）原样保留。摘除而非 CSS 隐藏 —— 读屏也不该念它。
+
+     为什么还要 MutationObserver：词组闪卡、星图等页面是「先出骨架、异步数据
+     就绪后二次重绘」，二次重绘不走 afterRender，小标会长回来。这里只盯 #app
+     子树的新增节点，且只在新增里真的含小标时才动手 —— 自己删自己产生的是
+     removedNodes，不会触发循环。 */
+  stripTemplateKickers() {
+    const strip = box => {
+      if (!box) return;
+      box.querySelectorAll('.eyebrow, .reference-kicker').forEach(el => {
+        if (/[A-Z]{2}/.test(el.textContent || '')) el.remove();
+      });
+    };
+    const box = document.getElementById('app');
+    strip(box);
+    if (!box || this._kickerObs) return;
+    this._kickerObs = new MutationObserver(muts => {
+      let need = false;
+      for (const m of muts) {
+        for (const n of m.addedNodes) {
+          if (n.nodeType !== 1) continue;
+          if ((n.matches && n.matches('.eyebrow, .reference-kicker'))
+            || (n.querySelector && n.querySelector('.eyebrow, .reference-kicker'))) { need = true; break; }
+        }
+        if (need) break;
+      }
+      if (need) strip(document.getElementById('app'));
+    });
+    this._kickerObs.observe(box, { childList: true, subtree: true });
   },
 
   async route() {
@@ -642,6 +679,11 @@ const App = {
        examBar 上，到边界就地置灰。 */
     'fs-inc'() { UI.bumpFs(1); },
     'fs-dec'() { UI.bumpFs(-1); },
+    /* 答题页排版（2026-09-22）：答题卡左右/收起、选项位置。就地改类 +
+       落 localStorage，不整页重渲染——重渲染会把正在作答的页面滚回顶部。 */
+    'exam-layout'(app, btn) {
+      UI.applyExamLayout({ [btn.dataset.kind]: btn.dataset.value });
+    },
     /* 词族列表筛选：整页重渲染到对应类型分组（刻意操作） */
     'syn-filter'(app, btn) { UI.synonyms(btn.dataset.filter); },
     /* 词族列表搜索 */
@@ -1075,3 +1117,41 @@ const App = {
 };
 
 window.addEventListener('DOMContentLoaded', () => App.init());
+
+/* ---------- 下拉互斥（2026-09-22）----------
+   点了另一个，前一个自动收回 —— 全站导航（.site-nav-item）与答题页的排版
+   下拉（.exam-set）各自内部互斥。details 的 toggle 事件不冒泡，必须用捕获
+   阶段监听；再补「点空白处 / Esc 关闭」，贴近真实网页的手感。 */
+(function () {
+  const GROUPS = ['.site-nav-item', '.exam-set'];
+  const inGroups = el => el && el.tagName === 'DETAILS'
+    && GROUPS.some(sel => el.matches(sel));
+
+  /* 手风琴：同一组里只留一个打开 */
+  document.addEventListener('toggle', function (e) {
+    const d = e.target;
+    if (!inGroups(d) || !d.open) return;
+    GROUPS.forEach(function (sel) {
+      if (!d.matches(sel)) return;
+      document.querySelectorAll(sel).forEach(function (x) { if (x !== d) x.open = false; });
+    });
+  }, true);
+
+  /* 点空白处关闭（点在某个展开菜单内部则保留）*/
+  document.addEventListener('click', function (e) {
+    const t = e.target;
+    GROUPS.forEach(function (sel) {
+      document.querySelectorAll(sel + '[open]').forEach(function (x) {
+        if (!x.contains(t)) x.open = false;
+      });
+    });
+  });
+
+  /* Esc 关闭全部并归还焦点 */
+  document.addEventListener('keydown', function (e) {
+    if (e.key !== 'Escape') return;
+    GROUPS.forEach(function (sel) {
+      document.querySelectorAll(sel + '[open]').forEach(function (x) { x.open = false; });
+    });
+  });
+})();

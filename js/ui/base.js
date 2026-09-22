@@ -125,7 +125,7 @@ const UI = {
     if (app) app.insertBefore(bar, app.firstChild);
   },
 
-  header(title = '高考英语真题在线', back = false) {
+  header(title = '高中英语指北', back = false) {
     return '<header class="topbar"><div class="topbar-inner">'
       + '<a class="brand" href="#/"><span class="brand-mark">英</span>'
       + `<span><b>${title}</b><small>真题 · 限时 · 解析</small></span></a>`
@@ -231,9 +231,13 @@ const UI = {
       ] },
   ],
 
-  siteNav() {
+  /* mid=true 用首页抬头的 980px 容器，否则用顶栏的 1100px 容器 ——
+     导航内容据此与上方品牌左边缘对齐（2026-09-22：此前导航铺满全宽、
+     顶到视口最左，而品牌在居中容器里缩进，两者左边缘不齐）。 */
+  siteNav(mid) {
     const path = (location.hash || '#/').slice(1).split('?')[0];
-    return '<nav class="site-nav" aria-label="全站导航">'
+    return '<nav class="site-nav' + (mid ? ' site-nav--mid' : '') + '" aria-label="全站导航">'
+      + '<div class="site-nav-inner">'
       + this.SITE_NAV_DOMAINS.map(d => '<details class="site-nav-item'
         + (d.re.test(path) ? ' is-active' : '') + '">'
         + `<summary class="site-nav-summary"><b>${d.label}</b>`
@@ -241,7 +245,7 @@ const UI = {
         + '<div class="site-nav-menu">'
         + d.items.map(i => `<a href="${i.href}">${i.label}</a>`).join('')
         + '</div></details>').join('')
-      + '</nav>';
+      + '</div></nav>';
   },
 
   /* 已作答统计：值为非空字符串（含去空白）即算作答。答题页顶栏、
@@ -301,7 +305,7 @@ const UI = {
       + `<span><b>${this.esc(brand)}</b><small>${this.esc(brandNote || '')}</small></span></a>`
       + this.themeToggle()
       + right + '</header>'
-      + this.siteNav();
+      + this.siteNav(true);
   },
 
   /* 写作自评的事实层（2026-09-19 循环第八轮）：仪表盘面板与学业分析画像

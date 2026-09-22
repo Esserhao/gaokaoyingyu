@@ -207,6 +207,11 @@ const KnowledgeGraph = {
         + `<span class="syn-detail-meaning">${this.esc(mText)}</span></div>`
         + `<p class="kg-summary">${this.esc(n.summary)}</p>`
         + `<p class="kg-rule"><b>一句话规则</b>${this.esc(n.rule)}</p>`
+        + '<div class="kg-freq">' + UI.kbFreqChip(n.id) + '</div>'
+        + (Array.isArray(n.points) && n.points.length
+          ? '<ol class="kg-points">' + n.points.map(p =>
+              `<li><b>${this.esc(p.text)}</b><i>${this.esc(p.example)}</i></li>`).join('') + '</ol>'
+          : '')
         + (rels ? `<p class="kg-rel-label">关联知识点（点它唤醒）：</p><div class="kg-rel-list">${rels}</div>` : '')
         + '<div class="kg-actions">'
         + `<a class="primary-btn" href="#/knowledge/${encodeURIComponent(center)}">查看知识详情 →</a>`

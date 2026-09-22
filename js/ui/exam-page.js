@@ -11,7 +11,7 @@ Object.assign(UI, {
     const sections = exam.sections.map(s => this.examSection(s, answers, mode, exam)).join('');
 
     this.app().innerHTML = this.examBar(exam, answered, total, remaining, mode)
-      + '<main class="exam-layout"><div class="exam-content">'
+      + `<main class="exam-layout${this.examLayoutClasses()}"><div class="exam-content">`
       + (mode === 'result'
         ? '<div class="result-banner"><span>练习完成</span>'
           + '<span class="lookup-hint">点击文章或解析里的英文单词，可直接查词典</span>'
@@ -140,11 +140,72 @@ Object.assign(UI, {
       + `<span class="timer${untimed ? '' : ` ${remaining < 300 ? 'urgent' : ''}`}"`
       + `${mode === 'practice' && !untimed ? ' data-exam-timer' : ''}>`
       + `${untimed ? '建议 ' + exam.duration + ' 分钟' : this.time(remaining)}</span>`
+      + this.examSettings()
       + this.fsToggle()
       + (mode === 'practice'
         ? `<button class="primary-btn" data-action="submit">${exam.isDiagnostic ? '交卷并查看诊断结果' : '交卷并查看成绩'}</button>`
         : '<a class="ghost-btn" href="#/">返回题库</a>')
       + '</div></header>';
+  },
+
+  /* ---------- 答题页排版偏好（2026-09-22） ----------
+     答题卡：right(默认) / left / hidden；选项位置：right(默认) / left / below。
+     存 localStorage.gkyy_exam_layout（JSON）。只改类不重渲染 —— 整页重渲染
+     会把正在作答的页面滚回顶部并丢掉焦点。 */
+  EXAM_LAYOUT_KEY: 'gkyy_exam_layout',
+  _lastSheetSide: 'right',
+
+  examLayoutState() {
+    const def = { sheet: 'right', opts: 'right' };
+    try {
+      const s = JSON.parse(localStorage.getItem(UI.EXAM_LAYOUT_KEY) || '{}') || {};
+      return {
+        sheet: ['right', 'left', 'hidden'].indexOf(s.sheet) >= 0 ? s.sheet : def.sheet,
+        opts: ['right', 'left', 'below'].indexOf(s.opts) >= 0 ? s.opts : def.opts,
+      };
+    } catch (e) { return def; }
+  },
+
+  examLayoutClasses() {
+    const s = UI.examLayoutState();
+    if (s.sheet !== 'hidden') UI._lastSheetSide = s.sheet;
+    return (s.sheet === 'left' ? ' is-sheet-left' : '')
+      + (s.sheet === 'hidden' ? ' is-sheet-hidden' : '')
+      + (s.opts === 'left' ? ' opts-left'
+        : s.opts === 'below' ? ' opts-below' : ' opts-right');
+  },
+
+  /* 顶栏「排版」下拉：答题卡位置 + 选项位置。 */
+  examSettings() {
+    const s = UI.examLayoutState();
+    const mk = (kind, val, label) => '<button type="button" class="exam-set-btn'
+      + (s[kind] === val ? ' is-on' : '') + '" data-action="exam-layout"'
+      + ` data-kind="${kind}" data-value="${val}">${label}</button>`;
+    return '<details class="exam-set"><summary class="exam-set-summary" '
+      + 'title="答题页排版设置"><span class="exam-set-ico" aria-hidden="true">⚙</span>'
+      + '<span class="exam-set-label">排版</span></summary><div class="exam-set-panel">'
+      + '<div class="exam-set-row"><span>答题卡</span>'
+      + mk('sheet', 'left', '左侧') + mk('sheet', 'right', '右侧') + mk('sheet', 'hidden', '收起')
+      + '</div><div class="exam-set-row"><span>选项位置</span>'
+      + mk('opts', 'below', '下方') + mk('opts', 'right', '右侧') + mk('opts', 'left', '左侧')
+      + '</div></div></details>';
+  },
+
+  applyExamLayout(partial) {
+    if (partial && partial.sheet === '__restore') partial = { sheet: UI._lastSheetSide || 'right' };
+    const s = Object.assign(UI.examLayoutState(), partial || {});
+    if (s.sheet !== 'hidden') UI._lastSheetSide = s.sheet;
+    try { localStorage.setItem(UI.EXAM_LAYOUT_KEY, JSON.stringify(s)); } catch (e) { /* 隐私模式：本次会话内仍生效 */ }
+    const main = document.querySelector('.exam-layout');
+    if (main) {
+      main.classList.toggle('is-sheet-left', s.sheet === 'left');
+      main.classList.toggle('is-sheet-hidden', s.sheet === 'hidden');
+      main.classList.toggle('opts-left', s.opts === 'left');
+      main.classList.toggle('opts-below', s.opts === 'below');
+      main.classList.toggle('opts-right', s.opts === 'right');
+    }
+    document.querySelectorAll('[data-action="exam-layout"]').forEach(b =>
+      b.classList.toggle('is-on', s[b.getAttribute('data-kind')] === b.getAttribute('data-value')));
   },
 
   /* 答题卡 + 移动端遮罩与浮动按钮。
@@ -176,7 +237,12 @@ Object.assign(UI, {
     }).join('');
 
     return '<aside class="answer-sheet" id="asheet" aria-label="答题卡">'
-      + `<h2 class="sheet-title">答题卡 <small>${answered}/${total}</small></h2>${sections}</aside>`
+      + '<h2 class="sheet-title"><span>答题卡 <small>' + answered + '/' + total + '</small></span>'
+      + '<button type="button" class="sheet-collapse" data-action="exam-layout"'
+      + ' data-kind="sheet" data-value="hidden" title="收起答题卡，正文占满整屏">收起 ⇥</button></h2>'
+      + sections + '</aside>'
+      + '\n  <button class="sheet-restore" type="button" data-action="exam-layout"'
+      + ' data-kind="sheet" data-value="__restore" title="重新展开答题卡">答题卡</button>'
       + '\n  <div class="sheet-scrim" data-action="toggle-sheet"></div>'
       + '\n  <button class="mobile-sheet-btn" type="button" data-action="toggle-sheet"'
       + ' aria-expanded="false" aria-controls="asheet">'
@@ -231,11 +297,17 @@ Object.assign(UI, {
         : '')
       + '</div>';
 
-    return `<article class="question ${review ? 'review' : ''} `
-      + `${review && !correct ? 'wrong' : ''}" id="q-${s.key}-${q.id}">`
+    /* 题干与选项分包进 .q-body（2026-09-22）：设置里可把选项放到题干的
+       右侧或左侧。默认仍是下方（block）；只有客观题（有选项）参与并排，
+       填空/写作的输入框继续留在下方整行。 */
+    const hasOpts = !!(q.options && q.options.length);
+    return `<article class="question ${review ? 'review ' : ''}`
+      + `${review && !correct ? 'wrong ' : ''}${hasOpts ? 'has-opts' : ''}" id="q-${s.key}-${q.id}">`
       + head
+      + '<div class="q-body"><div class="q-main">'
       + `<p class="stem">${this.text(q.stem || '')}</p>`
       + transcript
+      + '</div><div class="q-opts">'
       + `${opts}`
       + (!opts && !free
         ? `<input class="fill-input" data-qid="${key}" value="${this.esc(val)}" `
@@ -246,6 +318,7 @@ Object.assign(UI, {
           + `aria-label="第 ${q.id} 题作文输入" ${review ? 'disabled' : ''} `
           + `placeholder="在此输入你的作文答案">${this.esc(val)}</textarea>`
         : '')
+      + '</div></div>'
       /* 参考范文单独成块：改前挤在题头那一行「正确答案：Dear Chris, …」里，
          既读不了，又暗示这是一份标准答案。这里明确写出「不计入机器评分」。 */
       + (review && model

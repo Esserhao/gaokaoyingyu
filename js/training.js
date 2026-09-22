@@ -111,7 +111,7 @@ const Training = {
 
     const head = '<main class="training-home">'
       + UI.referenceHeader({
-          brand: '高考英语真题在线', brandNote: '分题型训练中心', brandHref: '#/',
+          brand: '高中英语指北', brandNote: '分题型训练中心', brandHref: '#/',
           backHref: '#/mistakes', backLabel: '错题本',
         })
       + `<section class="training-hero"><span class="reference-kicker">TOPIC PRACTICE · ${meta.en}</span>`

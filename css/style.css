@@ -272,3 +272,26 @@ button { font-family: inherit; cursor: pointer; }
   border-radius:var(--r-md); box-shadow: var(--shadow); margin-bottom: var(--sp-5);
 }
 .mistake-item { border-radius: var(--r-md); box-shadow: var(--shadow); }
+
+/* ---------- 试卷数字：改用 Times New Roman（2026-09-22） ----------
+   用 unicode-range 只把「数字」交给 Times New Roman（local 引用，零下载、
+   零 webfont），字母仍走原 Georgia / 无衬线栈 —— 精准命中「试卷里的数字」，
+   不是把整页英文都换掉。缺该字体的环境（如部分 Linux）回退 Liberation
+   Serif / Tinos 等度量兼容字体，再回落到正文栈，绝不出现空白豆腐块。 */
+@font-face {
+  font-family: 'ExamNumeral';
+  src: local('Times New Roman'), local('TimesNewRomanPSMT'),
+       local('Liberation Serif'), local('Tinos');
+  unicode-range: U+0030-0039, U+FF10-FF19;   /* 半角 + 全角数字 */
+  font-display: swap;
+}
+.exam-layout, .answer-sheet, .exambar {
+  font-family: 'ExamNumeral', -apple-system, BlinkMacSystemFont, "PingFang SC",
+    "Hiragino Sans GB", "Microsoft YaHei", "Noto Sans SC", sans-serif;
+}
+/* .passage / .stem / .exam-title 走 --serif 令牌：连同令牌一起在试卷作用域
+   内重定义，数字才会变 Times New Roman，字母继续用 Georgia。
+   （令牌在 :root 解析，故不能只改 --font-serif，必须直接覆盖 --serif。） */
+.exam-layout {
+  --serif: 'ExamNumeral', Georgia, "Times New Roman", "Songti SC", STSong, SimSun, serif;
+}

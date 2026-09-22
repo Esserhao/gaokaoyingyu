@@ -182,16 +182,25 @@
    原生开合，零 JS、键盘可用。激活域用整块底色 + 底部 2px 强调
    （P-38：禁止左侧竖线）。菜单无投影，靠 1px 线框分层（铅字印刷）。 */
 .site-nav {
-  display: flex;
-  gap: var(--sp-1);
   border-top: 1px solid var(--line);
   border-bottom: 1px solid var(--line);
   background: var(--paper-1);
 }
+/* 导航内容容器（2026-09-22）：与上方抬头共用同一宽度与左内边距，
+   让「学·练·错·词·工具」与品牌左边缘上下对齐 —— 改前导航铺满全宽
+   顶到视口最左，品牌却在居中容器里缩进，两者左边缘不齐。 */
+.site-nav-inner {
+  max-width: var(--w-content);
+  margin: 0 auto;
+  padding: 0 var(--sp-5);
+  display: flex;
+  gap: var(--sp-1);
+}
+.site-nav--mid .site-nav-inner { max-width: var(--w-mid); padding: 0 var(--sp-6); }
 .site-nav-item { position: relative; }
 .site-nav-summary {
   display: flex; align-items: center; gap: var(--sp-1-5);
-  padding: var(--sp-2-5) var(--sp-4);
+  padding: var(--sp-2) var(--sp-4);
   cursor: pointer; list-style: none; user-select: none;
   font-size: var(--fs-md); color: var(--ink-2);
   transition: background .16s, color .16s;
@@ -201,6 +210,9 @@
 .site-nav-summary span { font-size: var(--fs-2xs); color: var(--ink-2); transition: transform .16s; }
 .site-nav-item[open] .site-nav-summary span { transform: rotate(180deg); }
 .site-nav-summary:hover { background: var(--paper-2); color: var(--accent); }
+/* 键盘焦点（2026-09-22）：summary 是自定义可点元素，补回可见焦点环 */
+.site-nav-summary:focus-visible { outline: 2px solid var(--focus-ring); outline-offset: -2px; }
+.site-nav-menu a:focus-visible { outline: 2px solid var(--focus-ring); outline-offset: -2px; }
 .site-nav-item.is-active .site-nav-summary {
   background: var(--accent-soft); color: var(--accent);
   box-shadow: inset 0 -2px 0 var(--accent);
@@ -235,7 +247,8 @@
      两者不冲突——密度是桌面语境，可点性是移动语境。 */
   .chip, .badge { min-height: var(--sp-9); padding: 0 var(--sp-3-5); }
   /* 主导航：五域平铺一行，触控目标放大；菜单就地展开（不再悬浮）。 */
-  .site-nav { flex-wrap: wrap; }
+  .site-nav-inner { flex-wrap: wrap; padding: 0 var(--sp-4); }
+  .site-nav--mid .site-nav-inner { padding: 0 var(--sp-4); }
   .site-nav-item { flex: 1 1 auto; }
   .site-nav-summary { min-height: var(--sp-9); justify-content: center; padding: var(--sp-2) var(--sp-3); }
   .site-nav-menu { position: static; min-width: 0; border-left: 0; border-right: 0; border-bottom: 0; }

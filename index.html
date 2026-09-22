@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
-<title>高考英语真题在线 - 限时练习 · 即时判分</title>
+<title>高中英语指北 - 限时练习 · 即时判分</title>
 <!-- 主题预置（附录 C1）+ 做题页字号预置（附录 E3）：样式表加载前就把
      主题/字号类挂到 <html> 上，避免首帧闪错底色。
      合法值：主题 day / night（空 = 纸墨默认），字号 lg / xl（空 = 默认）；
@@ -78,6 +78,9 @@
 <!-- 知识体系已重建为手写权威内容，入口改为 data/knowledge/index.js（window.__KB__），
      与考试加载链路(gen_data_js.py)分离；旧 data/knowledge.json / data/knowledge.js 不再加载。 -->
 <script defer src="data/knowledge/index.js"></script>
+<!-- 知识点考察频率（2026-09-22）：tools/build_kb_freq.js 从 16 套真题的解析
+     统计，仅几 KB，随知识体系一起急加载（知识台阶 / 知识点详情 / 星图都用）。 -->
+<script defer src="data/knowledge/freq.js"></script>
 <!-- 做题方法卡（M1，#/methods 数据源）：全国卷五大客观题型的自著候选流程，
      每步 = 动作 + 禁止 + 卡住回退；步骤词表与错题「错在哪一步」标签共用。 -->
 <script defer src="data/methods/index.js"></script>

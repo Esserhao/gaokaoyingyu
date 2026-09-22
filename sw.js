@@ -10,7 +10,7 @@
      预缓存，首次在线用到即入缓存。
    - shell 有改动想立刻生效：把 CACHE 版本号 +1（旧缓存整代清除）。
    ===================================================================== */
-const CACHE = 'gkyy-v1';
+const CACHE = 'gkyy-v2';   /* 2026-09-22：抬头/答题页排版/知识考频改了 shell，+1 清旧代 */
 const SHELL = ['index.html', 'manifest.json', 'assets/icon.svg'];
 
 self.addEventListener('install', e => {

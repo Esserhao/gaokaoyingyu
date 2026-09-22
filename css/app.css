@@ -118,3 +118,99 @@ html.fs-xl .exam-content .option{font-size:1.08rem}
   margin-right: var(--sp-2, 8px);
 }
 .listen-badge.has-audio { color: var(--accent); }
+
+/* =====================================================================
+   答题页排版（2026-09-22）：答题卡 左/右/收起 + 选项左右并排
+   .exam-layout 上的类由 UI.applyExamLayout 切换、渲染时由
+   UI.examLayoutClasses 预置；偏好存 localStorage.gkyy_exam_layout。
+   移动端（≤960px）答题卡走 design-system.css 的底部抽屉，
+   本区块的左右/收起只在 ≥961px 生效。
+   ===================================================================== */
+.exam-set { position: relative; }
+.exam-set-summary {
+  display: inline-flex; align-items: center; gap: var(--sp-1);
+  padding: var(--sp-2) var(--sp-3); min-height: var(--sp-8);
+  border: 1px solid var(--line); color: var(--ink-2);
+  font-size: var(--fs-sm); cursor: pointer; list-style: none; user-select: none;
+}
+.exam-set-summary::-webkit-details-marker { display: none; }
+.exam-set[open] .exam-set-summary { border-color: var(--accent); color: var(--accent); }
+.exam-set-panel {
+  position: absolute; top: calc(100% + var(--sp-1)); right: 0; z-index: 40;
+  min-width: 236px; padding: var(--sp-3);
+  background: var(--paper); border: 1px solid var(--line); box-shadow: var(--shadow-3);
+}
+.exam-set-row { display: flex; align-items: center; gap: var(--sp-1); margin: var(--sp-1) 0; }
+.exam-set-row > span { width: 4.6em; flex: none; color: var(--ink-3); font-size: var(--fs-xs); }
+.exam-set-btn {
+  flex: 1; min-height: var(--sp-8); padding: var(--sp-1-5) var(--sp-2);
+  border: 1px solid var(--line); background: var(--paper-1); color: var(--ink-2);
+  font-size: var(--fs-xs);
+}
+.exam-set-btn.is-on {
+  border-color: var(--accent); background: var(--accent-soft);
+  color: var(--accent); font-weight: 700;
+}
+/* 键盘焦点（2026-09-22）：排版下拉与答题卡收起按钮补可见焦点环 */
+.exam-set-summary:focus-visible,
+.exam-set-btn:focus-visible,
+.sheet-collapse:focus-visible,
+.sheet-restore:focus-visible { outline: 2px solid var(--focus-ring); outline-offset: 2px; }
+
+/* 答题卡标题栏的「收起」小按钮（仅桌面显示） */
+.sheet-collapse {
+  border: 0; background: transparent; color: var(--ink-3);
+  font-size: var(--fs-2xs); padding: 0 var(--sp-1); cursor: pointer;
+}
+.sheet-collapse:hover { color: var(--accent); }
+/* 「收起」后用于重新展开的浮动按钮（默认隐藏，仅桌面 + 收起态出现） */
+.sheet-restore { display: none; }
+
+@media (min-width: 961px) {
+  /* 答题卡挪到左侧：整行换序 */
+  .exam-layout.is-sheet-left { grid-template-columns: 250px minmax(0, 1fr); }
+  .exam-layout.is-sheet-left .exam-content { order: 2; }
+  .exam-layout.is-sheet-left .answer-sheet { order: 1; }
+
+  /* 收起答题卡：正文占满整屏，右上留一个浮动展开按钮 */
+  .exam-layout.is-sheet-hidden { grid-template-columns: minmax(0, 1fr); }
+  .exam-layout.is-sheet-hidden .answer-sheet { display: none; }
+  .exam-layout.is-sheet-hidden .sheet-restore {
+    display: inline-flex; align-items: center; position: fixed;
+    right: var(--sp-4); top: 76px; z-index: 60;
+    padding: 0 var(--sp-4); min-height: var(--sp-9);
+    background: var(--accent); color: var(--on-accent);
+    border: 0; border-radius: var(--r-pill);
+    font-size: var(--fs-sm); font-weight: 600; box-shadow: var(--shadow-3);
+  }
+
+  /* 选项并排：题干列 + 选项列。仅客观题（.has-opts）参与，
+     填空/写作输入框维持整行在下方。 */
+  .exam-layout.opts-right .question.has-opts .q-body {
+    display: grid; grid-template-columns: minmax(0, 1fr) minmax(230px, 40%);
+    gap: var(--sp-5); align-items: start;
+  }
+  .exam-layout.opts-left .question.has-opts .q-body {
+    display: grid; grid-template-columns: minmax(230px, 40%) minmax(0, 1fr);
+    gap: var(--sp-5); align-items: start;
+  }
+  .exam-layout.opts-left .question.has-opts .q-main { order: 2; }
+  .exam-layout.opts-left .question.has-opts .q-opts { order: 1; }
+}
+@media (max-width: 960px) {
+  .sheet-collapse { display: none; }
+}
+/* 窄屏答题页顶栏本就拥挤：390px 视口下加了「排版」入口后内容 393px > 可用
+   375px（实测超 18px）。窄屏只留图标、收紧内边距；面板宽度收进视口、改居中
+   对齐，避免从右往左溢出屏幕。 */
+@media (max-width: 800px) {
+  .exam-set-label { display: none; }
+  .exam-set-summary { padding: var(--sp-1-5) var(--sp-2); }
+  .exam-set-panel {
+    right: auto; left: 50%; transform: translateX(-50%);
+    min-width: 0; width: min(300px, calc(100vw - var(--sp-7)));
+  }
+  .exambar-inner { gap: var(--sp-2); }
+  .exambar-inner .brand b { max-width: 110px; }
+  .exambar-inner .primary-btn { padding: var(--sp-2) var(--sp-2-5); }
+}

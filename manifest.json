@@ -1,6 +1,6 @@
 {
-  "name": "高考英语真题在线",
-  "short_name": "高考英语",
+  "name": "高中英语指北",
+  "short_name": "英语指北",
   "description": "历年真题练习、错题间隔复习与知识点掌握追踪",
   "start_url": "./index.html",
   "scope": "./",

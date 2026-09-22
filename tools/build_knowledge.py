@@ -1283,8 +1283,146 @@ def build_question_output(questions, nodes):
     return {"questions": grouped, "variants": variants}
 
 
+# ----------------------------------------------------------------------
+# 要点补丁（2026-09-22）：把 rule 里连写成一整段的 ①②③ 拆成「一句话规则 +
+# 分点（每点配一个例子）」。起因：那一长段在屏幕上一坨，不符合人类阅读习惯；
+# 用户要求要点分行、且每个要点都举例。只覆盖 rule 含 ① 列表的 7 个节点。
+# example 均为自拟示例句（不是真题原文，故 source 不标注题库出处）；
+# note 是中文点题。rule 精简为真·一句话，界面上与 points 分开展示。
+# ----------------------------------------------------------------------
+POINTS = {
+    "it的用法": {
+        "rule": "it 可作形式主语/形式宾语、指代上文的单数事物，或作强调句的引导词；形式主/宾语的 it 不可省略。",
+        "points": [
+            {"text": "形式主语 / 形式宾语：代替不定式、动名词或从句",
+             "example": "It is important to keep a balanced diet.",
+             "note": "真主语是 to keep a balanced diet，用 it 占位，避免句子头重脚轻。"},
+            {"text": "指代上文提到的单数事物（也可指婴儿或不确定的人）",
+             "example": "I lost my key yesterday and still can not find it.",
+             "note": "it 回指前一句出现过的 the key 这类单数事物。"},
+            {"text": "强调句 It is / It was ... that (who) ... 中的引导词",
+             "example": "It was in the library that I first met her.",
+             "note": "去掉 It was ... that 后句子仍完整，说明是强调结构。"},
+        ],
+    },
+    "定语从句that与which的选择": {
+        "rule": "先行词有特定修饰时只用 that；非限制性从句与介词后只能用 which。",
+        "points": [
+            {"text": "先行词是不定代词 all / everything / nothing / anything / little / much",
+             "example": "Everything that can be done has been done.",
+             "note": "先行词 everything 属不定代词，只能用 that。"},
+            {"text": "先行词被序数词、最高级、the only / the very / the last 修饰",
+             "example": "This is the best film that I have ever seen.",
+             "note": "先行词被最高级 the best 修饰，只能用 that。"},
+            {"text": "先行词既有人又有物",
+             "example": "They talked about the people and things that they remembered.",
+             "note": "先行词同时含人和物，只能用 that。"},
+            {"text": "先行词被 all / any / every / no 等词修饰",
+             "example": "There is no difficulty that we cannot overcome.",
+             "note": "先行词被 no 修饰，宜用 that。"},
+            {"text": "疑问句以 who / which 开头时（避免重复）",
+             "example": "Who is the man that is standing by the door?",
+             "note": "句首已用 who 提问，关系词改用 that 以免重复。"},
+            {"text": "只用 which：非限制性定语从句（逗号隔开）指物，且可指代整个主句",
+             "example": "He passed the exam, which delighted his parents.",
+             "note": "which 指代整个主句，前面有逗号（非限制性）。"},
+        ],
+    },
+    "介词+关系代词": {
+        "rule": "介词后用 which / whom（指物 which、指人 whom，不能用 that / who）；介词可前置也可后置，固定短语的介词不可拆开提前。",
+        "points": [
+            {"text": "介词的选择：看与先行词的习惯搭配，或与从句中动词 / 形容词的搭配",
+             "example": "The room in which we had the meeting is on the second floor.",
+             "note": "in which 相当于 in the room，介词 in 由「在房间里开会」这一搭配决定。"},
+            {"text": "指人时用 whom，不能用 who / that",
+             "example": "The teacher to whom you spoke is our headmaster.",
+             "note": "介词 to 前置且指人，必须用 whom。"},
+            {"text": "介词可后置（此时可用 that / who 或省略），但固定短语的介词不能拆开提前",
+             "example": "This is the book that I told you about.",
+             "note": "about 留在句末＝介词后置；而 look after 这类固定短语不能写成 after which。"},
+        ],
+    },
+    "as引导的定语从句": {
+        "rule": "as 用于 such ... as / the same ... as；引导非限制性从句时可指代整个主句，位置灵活（可置句首）。",
+        "points": [
+            {"text": "先行词被 such / the same 修饰时用 as 引导，as 在从句中作主语、宾语或表语",
+             "example": "Such books as are useful should be read carefully.",
+             "note": "as 在从句中作主语，先行词被 such 修饰。"},
+            {"text": "as 引导非限制性定语从句指代整个主句，位置灵活；which 只能置于主句之后",
+             "example": "As is known to all, the earth moves around the sun.",
+             "note": "as 指代后面整个主句，且位于句首——which 不能放这里。"},
+        ],
+    },
+    "倍数表达法": {
+        "rule": "倍数固定放在比较结构最前面；两倍用 twice；三种句式可互换。",
+        "points": [
+            {"text": "倍数 + as + 原级 + as",
+             "example": "This room is three times as large as that one.",
+             "note": "三倍，用 as ... as 结构表达。"},
+            {"text": "倍数 + 比较级 + than",
+             "example": "This room is three times larger than that one.",
+             "note": "同一个意思换成比较级句式，倍数仍在最前。"},
+            {"text": "倍数 + the + 名词（size / length / height / width / number）+ of",
+             "example": "This room is three times the size of that one.",
+             "note": "用 the size of 这类名词短语表达；两倍说 twice，不说 two times。"},
+        ],
+    },
+    "写作高级句型": {
+        "rule": "非谓语、倒装、强调句、定语从句、主语从句交替使用提升句式层次；忌通篇简单句。",
+        "points": [
+            {"text": "非谓语动词作状语 / 定语",
+             "example": "Walking along the river, I noticed a small boat.",
+             "note": "现在分词作状语，其逻辑主语须与主句主语一致（都是 I）。"},
+            {"text": "倒装（Only / Not only / Never 等置于句首）增强语气",
+             "example": "Not only did he finish the task, but he also helped others.",
+             "note": "Not only 提前，主句用部分倒装 did he finish。"},
+            {"text": "强调句突出重点",
+             "example": "It was her encouragement that gave me the strength.",
+             "note": "用 It was ... that 把 her encouragement 推到焦点。"},
+            {"text": "定语从句合并信息",
+             "example": "He lives in a village which lies at the foot of the hill.",
+             "note": "用定语从句把两个短句并成一句，层次更紧。"},
+            {"text": "主语从句开头提升档次",
+             "example": "What impressed me most was his honesty.",
+             "note": "what 引导主语从句，充当整句主语。"},
+        ],
+    },
+    "读后续写技巧": {
+        "rule": "顺原文线索延展情节，重描写与衔接，结尾点题；忌脱离原文胡编或突兀收尾。",
+        "points": [
+            {"text": "细读原文，抓住人物、冲突与线索词",
+             "example": "She kept looking at the old photo, saying nothing.",
+             "note": "反复出现的「旧照片」就是线索词，续写必须接住它，不能另起无关情节。"},
+            {"text": "两个段首语必用，情节顺势发展",
+             "example": "The next morning, she made up her mind.",
+             "note": "段首语是命题人给的起点，续写从这里往下写，不跳时间线、不换人物。"},
+            {"text": "多用动作 / 心理 / 环境描写代替平铺直叙（show, not tell）",
+             "example": "Her hands trembled as she unfolded the letter.",
+             "note": "用动作细节「演」出紧张，而不是直接写 She was very nervous。"},
+            {"text": "恰当衔接词保证连贯",
+             "example": "As soon as he heard the news, he rushed out; meanwhile, the rain began to pour.",
+             "note": "时间与并列衔接词把两个动作自然咬合。"},
+            {"text": "结尾点题或升华",
+             "example": "From that day on, she never judged a person by appearance again.",
+             "note": "结尾回扣「不以貌取人」，把一件小事提到道理层面。"},
+        ],
+    },
+}
+
+
+def apply_point_patches(nodes):
+    """把 POINTS 里的精简 rule 与分点列表并进节点（只覆盖表内节点）。"""
+    for n in nodes:
+        p = POINTS.get(n["id"])
+        if not p:
+            continue
+        n["rule"] = p["rule"]
+        n["points"] = p["points"]
+
+
 if __name__ == '__main__':
     kb = sort_nodes(KB)          # 排序在前：排序检查校验的是最终输出顺序
+    apply_point_patches(kb)      # 要点补丁（2026-09-22）：精简 rule + 分点配例
     errs = run_checks(kb)
     if errs:
         import sys

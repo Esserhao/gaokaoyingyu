@@ -229,7 +229,7 @@ Object.assign(UI, {
     return '<article class="learn-node ' + levelCls + '" data-learn-node="' + this.esc(n.id) + '">'
       + '<div class="learn-node-head"><div class="learn-node-title">'
       + `<b>${this.esc(n.name)}</b>`
-      + `<span class="learn-level ${levelCls}">${this.esc(n.level)}</span>${tierChip}</div>`
+      + `<span class="learn-level ${levelCls}">${this.esc(n.level)}</span>${tierChip}${this.kbFreqChip(n.id)}</div>`
       + `<a class="text-btn learn-detail-link" href="#/knowledge/${encodeURIComponent(n.id)}">详解 →</a></div>`
       + (n.summary ? `<p class="learn-summary">${this.esc(n.summary)}</p>` : '')
       + (tags ? `<div class="learn-tags">${tags}</div>` : '')
@@ -310,6 +310,7 @@ Object.assign(UI, {
       + '<section class="knowledge-detail-hero"><b>一句话规则</b>'
       + `<p>${this.esc(rule)}</p>`
       + (sk ? this.subskillTierBadge(sk) : this.kbStrengthBadge(kbItem && kbItem.strength))
+      + this.kbFreqChip(node)
       + `<span>已关联 ${related.length} 道错题 · 来自 ${examCount} 套真题</span>`
       + (related.length
         ? '<button class="primary-btn retry-group-btn" data-action="knowledge-retry-group" '
@@ -348,13 +349,50 @@ Object.assign(UI, {
     const confusion = kbItem.confusionPoints.map(c => `<li><b>${this.esc(c.point)}</b>`
       + `<span>${this.esc(c.detail)}</span></li>`).join('');
 
-    return '<section class="knowledge-detail-grid">'
+    /* 要点（逐条配例，2026-09-22）：rule 里原本 ①②③ 连成一整段，挤在屏幕上
+       是一坨，不符合阅读习惯。这里把 points 拆成有序列表，每条要点下压一行
+       「例 + 点题」。没有 points 的节点（rule 本就是一句话）整段不出。 */
+    const points = (kbItem.points || []).map(p => '<li>'
+      + `<p class="kb-pt-text">${this.esc(p.text)}</p>`
+      + `<p class="kb-pt-ex"><b>例</b><i>${this.esc(p.example)}</i></p>`
+      + (p.note ? `<small class="kb-pt-note">${this.esc(p.note)}</small>` : '')
+      + '</li>').join('');
+
+    return (points
+        ? '<section class="knowledge-detail-grid"><article class="knowledge-detail-card">'
+          + '<h2>要点 · 逐条配例</h2><ol class="kb-points">' + points + '</ol></article></section>'
+        : '')
+      + '<section class="knowledge-detail-grid">'
       + '<article class="knowledge-detail-card"><h2>知识库 · 权威例句</h2>'
       + `<ol class="kb-examples">${examples}</ol></article>`
       + '<article class="knowledge-detail-card"><h2>常见错误</h2>'
       + `<ul class="kb-errors">${errors}</ul></article>`
       + '<article class="knowledge-detail-card"><h2>易混点</h2>'
       + `<ul class="kb-confusion">${confusion}</ul></article></section>`;
+  },
+
+  /* 考点频次（2026-09-22）：数据来自 data/knowledge/freq.js（__KB_FREQ__），
+     由 tools/build_kb_freq.js 从 16 套真题的解析摘要与短文改错逐处知识点
+     统计而来（同一题对同一知识点最多计 1 次）。写作类节点是主观题、摘要里
+     没有「考查X」，改用「题型覆盖」口径，措辞与点名次数分开，不混算。 */
+  kbFreq(id) {
+    const F = window.__KB_FREQ__;
+    if (!F || !F.nodes) return null;
+    const st = F.nodes[id];
+    if (!st) return null;
+    const total = (F.meta && F.meta.papers) || 16;
+    if (st.kind === 'section') {
+      return { label: '题型覆盖', text: `${st.papers}/${total} 套写作卷`, tone: 'section' };
+    }
+    if (!st.hits) return { label: '考频', text: '真题未直接考查', tone: 'zero' };
+    return { label: '考频', text: `${st.hits} 次 · ${st.papers} 卷`, tone: st.hits >= 15 ? 'hot' : 'normal' };
+  },
+
+  kbFreqChip(id) {
+    const f = this.kbFreq(id);
+    if (!f) return '';
+    return `<span class="kb-freq kb-freq-${f.tone}" title="真题考频，据题库解析摘要统计">`
+      + `<b>${f.label}</b>${this.esc(f.text)}</span>`;
   },
 
   /* 规则强度徽标（A6）：硬规则 / 多数情况 / 语域相关。诚实标注 ——

@@ -1200,3 +1200,130 @@ word-card：核心主张（测试效应 61%/40%【强】、间隔复习【强】
 
 **循环下一轮候选**：① 定位标注人核批次（依赖人工）；② FSRS 灰度实施
 （词汇闪卡先行）；③ 到步直达在训练页例题解析的复用评估。
+
+--------------------------------------------------------------------------------
+
+## 2026-09-22 · 抬头重排 + 改站名 + 答题页排版（答题卡左右·收起 / 选项并排 / 试卷数字）
+
+> 用户五项反馈一次落地：① 站名换掉以免侵权；② 首页抬头留白太多、且「学·练·错·
+> 词·工具」与品牌左右未对齐；③ 答题卡要能收起、能左右切换；④ 题目选项要能排在
+> 题干右侧/左侧并在设置里调；⑤ 试卷里的数字换成 Times New Roman。
+
+**1. 改站名**：`高考英语真题在线` → `高中英语指北`（用户拍板）。全站六处一并换：
+index.html `<title>`、js/a11y.js document.title 后缀、js/ui/base.js `header()` 默认值、
+js/ui/library.js 首页 brand 与年份栏目标题（`XXXX年高考英语真题`→`XXXX年英语真题`）、
+js/training.js brand、manifest.json name/short_name（英语指北）。旧名零残留
+（快照断言「无页面含旧名」）。
+
+**2. 抬头重排与对齐**：根因是导航 `.site-nav` 铺满全宽（顶到视口最左），品牌却在
+980px 居中容器里缩进——两者左缘差约 110px。改法：`siteNav(mid)` 新增内容容器
+`.site-nav-inner`（默认 `--w-content` 1100/padding 20，`mid` 变体 `--w-mid` 980/padding 24），
+与 `.topbar-inner`/`.reference-header` 同宽同左内边距 → 品牌与导航左缘对齐
+（探针实测 126.5 = 126.5，导航容器宽 980）。同时压缩留白：`.reference-header` 上下
+24/20→16、`.reference-hero` 上 96→48、`.site-nav-summary` 上下 10→8（移动端 header
+20→12、hero 顶 64→40）。`.site-nav` 不再自己 `display:flex`，flex 交给 inner
+（两条左缘才能各自居中）。
+
+**3. 答题页排版（③+④ 合并成一个「排版」设置）**：`UI.examLayoutState/examLayoutClasses/
+examSettings/applyExamLayout`（js/ui/exam-page.js）+ app.js ACTIONS `exam-layout`。
+偏好存 `localStorage.gkyy_exam_layout` `{sheet:'right'|'left'|'hidden',
+opts:'right'|'left'|'below'}`，渲染时预置类、点击时就地改类（**不重渲染**——重渲染会把
+正在作答的页面滚回顶部并丢焦点）。
+- 答题卡：右侧（默认）/ 左侧（grid `250px 1fr` + order 换序）/ 收起（正文占满，
+  右上浮动「答题卡」按钮还原到**收起前那一侧**）；标题栏另有「收起 ⇥」小按钮。
+- 选项位置：右（默认）/ 左 / 下。`question()` 把题干与选项分包为
+  `.q-body > (.q-main, .q-opts)`，仅客观题（`.has-opts`）参与并排，填空/写作输入框
+  仍整行在下方。并排版式只在 ≥961px 生效。
+- 移动端不动：≤960px 仍走 design-system.css 的底部抽屉（`.sheet-collapse` 窄屏隐藏，
+  `is-sheet-hidden` 规则限定 ≥961px）。
+
+**4. 试卷数字 → Times New Roman**：`@font-face{font-family:'ExamNumeral';
+src:local('Times New Roman')…; unicode-range:U+0030-0039,U+FF10-FF19}`，并在
+`.exam-layout/.answer-sheet/.exambar` 作用域把 `ExamNumeral` 前置进字体栈、覆盖
+`--serif`（`.passage/.stem/.exam-title` 走该令牌）。**只换数字**（unicode-range 限定），
+字母仍 Georgia。缺该字体环境回退 Liberation Serif/Tinos 再到正文栈，不出现豆腐块。
+
+**验证**：JS `node --check` 全绿。**改用 git worktree 检出 HEAD 做同源干净基线**——
+旧 `snap-a.json` 已过期（09-19 之后还落地了词汇指南页 / B2 写作方法卡 / 写作自评进
+统计页，旧基线全没有，直接比对全是误报）。结果：63 路由仅 15 条差异且逐条可解释——
+56 页 +34（导航多一层 `.site-nav-inner`）、首页额外两处改名、答题页 +5.5~7.3K
+（题干/选项分包 + 排版设置 + 答题卡控件）；`#/synonyms*` 三条零差异（沉浸页本就不含
+主导航）。交互探针 `.work/layoutprobe.html` **34/34**：改名、品牌-导航左缘对齐（±2px）、
+答题卡左/收起/浮动还原、选项三态与 order、localStorage 持久化与重进恢复、
+ExamNumeral 命中与 unicode-range。基线重设：`snap-layout.json`→`snap-a.json`
+（留档 `snap-head.json` / `snap-rev-pre-layout.json`）。
+
+**⚠ 两次踩坑（同一条铁律）**：**同一文件的多处 Edit 必须分消息串行发**——一批里并行
+发多个同文件编辑，只有最后一个能存活（工具仍回 Successfully）。本轮 base.js 的 siteNav
+改造、library.js 品牌名、components.css 的 `.site-nav-inner` 顶层规则、exam-page.js 的
+主容器类名/examBar 入口/答题卡按钮，都因此被悄悄丢掉过一次。**改完必须 grep 关键标记
+复核**，不能只信「编辑成功」回执。
+
+**待办**：留后——E 每日主线、F 手机端真机验证、5 套卷补 answerSource（范文出处）。
+
+--------------------------------------------------------------------------------
+
+## 2026-09-22 · 导航互斥 + 要点分点配例 + 知识点考频 + 生态自检（续上条）
+
+**① 下拉互斥**：`.site-nav-item` / `.exam-set` 各自手风琴（点了另一个，前一个收回），
+外加「点空白处 / Esc 关闭」。实现在 js/app.js 尾部 IIFE —— `toggle` 事件不冒泡，
+**必须捕获阶段监听**，这是本项唯一的技术要点。
+
+**④ 要点分点配例**：`tools/build_knowledge.py` 新增 `POINTS` 补丁表 + `apply_point_patches`，
+把 rule 里连写 ①②③ 的 **7 个节点（27 个分点）** 改为「精简一句话 rule + `points:[{text,example,note}]`」。
+渲染：知识详情页新增「要点 · 逐条配例」卡（js/ui/mistakes.js `kbCards`）、星图卡加 `.kg-points`
+（js/knowledge-graph.js），样式在 css/platform.css。示例句均**自拟**，不假托真题/教材出处。
+
+**③ 知识点考频**（用户拍板口径＝**站点自证·点名次数**）：新建 `tools/build_kb_freq.js`（node）→
+产出 `data/knowledge/freq.js`（`window.__KB_FREQ__`）。扫 16 套真题的 `explanation.summary` 与
+短文改错 `points[].errorType|knowledgeNode`，**同一题对同一知识点最多计 1 次**；写作类 4 节点改用
+「题型覆盖」口径（读后续写 9/16 套、应用文 16/16 套，与范文库 9 篇续写 / 16 篇应用文对得上）。
+对照表用正则 + 否定前瞻（`/名词(?!性从句|词义辨析)/`）避免「名词」被「名词性从句」带偏。
+覆盖 50/50 节点：27 个有点名次数（名词 56 次/13 卷居首、易混动词辨析 50/7、形容词 33/14…），
+其余如实标「真题未直接考查」（虚拟语气、独立主格等高考确实少考）。
+展示：`UI.kbFreq / kbFreqChip` → 知识台阶每张卡 / 知识详情 hero / 星图卡；热考（≥15 次）用强调块。
+index.html 挂 `data/knowledge/freq.js`（几 KB，随知识体系急加载）。
+
+**② 生态/适配自检（实测发现并修复）**：
+- **sw.js 是 stale-while-revalidate** —— 改 shell 必须把 `CACHE` 版本号 +1，否则用户首次访问
+  「新 HTML + 旧 CSS」混搭。已 `gkyy-v1` → `gkyy-v2`。
+- **390px 横向溢出实测**（新增 `.work/mobileprobe.html`，13 条路由）：答题页顶栏 `393/375`
+  （加了「排版」入口后挤爆 18px）→ 窄屏只留 ⚙ 图标 + 收紧品牌宽度/按钮内边距，修到 `375/375`；
+  全站零横向溢出。
+- 现代 CSS 盘点：`:has()` 2 处（聚焦环，降级无害）、`clamp()`、`backdrop-filter`、
+  `env(safe-area-inset)`、`100vh`（未用 dvh）—— 都属渐进增强，无阻塞项。
+
+**验证**：`node --check` 全绿；`.work/kbprobe.html` **16/16**；63 路由快照仅 7 条差异
+（3 知识页 + 4 答题页 +90＝排版图标 span），逐条可解释；`.work/mobileprobe.html` 零溢出。
+基线重设 snap-a.json（留档 snap-rev-pre-kb.json）。
+
+**⚠ 同文件并行 Edit 又丢 4 处**（base.js / library.js / components.css），靠 grep 复核抓出。
+
+**留后**：⑤「去 AI 味 / 现实网页式优化」尚未动手（待用户确认方向）；E 每日主线；
+F 手机端真机验证；5 套卷补 answerSource。
+
+--------------------------------------------------------------------------------
+
+## 2026-09-22 · 去 AI 味 / 现实网页式优化（续上条，用户「全做」）
+
+**1. 清掉「中文标题 + 大写英文小标」**：全站 **19 个文件 77 处** `<span class="eyebrow|reference-kicker">`
+（ACADEMIC ANALYSIS / LEARNING PATH / WRITING STUDIO · DRAFT REVIEW / GAOKAO ENGLISH · LEARN THE LOGIC…）
+是页面「AI 模板味」的最大来源。逐处改模板易漏，改**集中摘除**：`App.stripTemplateKickers()`
+（js/app.js），判定「文本含连续两个及以上大写字母」才摘，**纯中文小标保留**（「本题型核心思路」
+「同类题总结」仍在）；摘除而非 CSS 隐藏，读屏也不念。
+⚠ 词组闪卡 / 星图是「先出骨架、异步数据就绪后二次重绘」，**二次重绘不走 afterRender**，小标会长回来
+—— 除 afterRender 调用外再挂 MutationObserver 盯 #app 子树**新增节点**（只在新增真含小标时动手；
+自己删自己产生 removedNodes，不成环）。实测 63 路由零残留。
+
+**2. 首页 hero 重写**（js/ui/library.js）：h1「不只做对，还要知道为什么。」（「不只 A 还要 B」排比）
+→ **「把每套真题，做成能重做的卷子。」**；p「从一道题的思考步骤，到一整套真题的考试状态。」
+（「从 A 到 B」模板）→ 具体事实 **「16 套真题 · 听力音频 · 逐题解析；答错的题自动进错题本，
+每个知识点还标着高考考过几次。」**；四步标题「四步，从零基础到上考场」→「备考的四步顺序」。
+
+**3. 真实网页细节**：异步加载态补呼吸动画（`.word-loading/.syn-loading/.drill-loading/.training-loading`
++ `@keyframes load-breathe`，空态文案不参与）；新增下拉与排版入口补 `:focus-visible` 焦点环。
+
+**验证**：`node --check` 全绿；三探针全过（layoutprobe 34/34、kbprobe 16/16、mobileprobe 零溢出）；
+63 路由快照 55 条变化，逐条可解释。基线重设 snap-a.json（留档 snap-rev-pre-ai.json）。
+
+**待办**：E 每日主线、F 手机端真机验证、5 套卷补 answerSource；**改动仍未提交 git**（22 个文件）。

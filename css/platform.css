@@ -49,6 +49,32 @@
 .kb-examples li p{margin:0 0 var(--sp-1-5);font-size:var(--fs-base);line-height:var(--lh-body);color: var(--ink)}
 .kb-examples li small{color: var(--ink-2);font-size:var(--fs-xs)}
 .kb-examples li small b{color: var(--accent)}
+/* 要点 · 逐条配例（2026-09-22）：把连写的 ①②③ 拆成有序列表，每条配一行示例。
+   P-38：不用左侧竖线装饰 —— 示例行用整块底色 + 四边框分层。 */
+.kb-points{margin:0;padding:0;list-style:none;counter-reset:kbpt;display:flex;flex-direction:column;gap:var(--sp-4)}
+.kb-points>li{position:relative;padding-left:var(--sp-7);counter-increment:kbpt}
+.kb-points>li::before{content:counter(kbpt);position:absolute;left:0;top:0;width:var(--sp-5);height:var(--sp-5);display:grid;place-items:center;background:var(--accent);color:var(--on-accent);border-radius:50%;font-size:var(--fs-2xs);font-weight:700}
+.kb-pt-text{margin:0 0 var(--sp-2);font-weight:600;color:var(--ink);line-height:var(--lh-body)}
+.kb-pt-ex{margin:0;display:flex;gap:var(--sp-2-5);align-items:baseline;padding:var(--sp-2-5) var(--sp-3);background:var(--paper-2);border:1px solid var(--line);border-radius:var(--r-sm)}
+.kb-pt-ex b{flex:none;color:var(--accent);font-size:var(--fs-2xs)}
+.kb-pt-ex i{font-style:normal;font-family:var(--serif);font-size:var(--fs-base);line-height:var(--lh-body);color:var(--ink)}
+.kb-pt-note{display:block;margin-top:var(--sp-1-5);color:var(--ink-2);font-size:var(--fs-xs);line-height:var(--lh-body)}
+.kg-points{margin:0 0 var(--sp-3-5);padding:0;list-style:none;counter-reset:kgpt;display:flex;flex-direction:column;gap:var(--sp-2-5)}
+.kg-points>li{position:relative;padding-left:var(--sp-6);counter-increment:kgpt}
+.kg-points>li::before{content:counter(kgpt);position:absolute;left:0;top:0;width:var(--sp-4);height:var(--sp-4);display:grid;place-items:center;background:var(--accent-soft);color:var(--accent);border-radius:50%;font-size:var(--fs-2xs);font-weight:700}
+.kg-points>li b{display:block;font-weight:600;color:var(--ink);font-size:var(--fs-sm);line-height:var(--lh-body)}
+.kg-points>li i{display:block;font-style:normal;font-family:var(--serif);color:var(--ink-2);font-size:var(--fs-sm);line-height:var(--lh-body)}
+/* 考点频次徽标（2026-09-22）：数据来自 __KB_FREQ__（tools/build_kb_freq.js 统计）。
+   热考（≥15 次）用强调块，普通用线框，零命中/题型覆盖用灰调——一眼分得出
+   「高考常考」「考过但不多」「基本不考」。 */
+.kb-freq{display:inline-flex;align-items:baseline;gap:var(--sp-1-5);margin-left:var(--sp-2);padding:var(--sp-1) var(--sp-2);border:1px solid var(--line);border-radius:var(--r-sm);font-size:var(--fs-2xs);color:var(--ink-2);line-height:var(--lh-ui);vertical-align:middle}
+.kb-freq b{font-weight:700;color:var(--ink-3);margin-right:var(--sp-1)}
+.kb-freq-hot{border-color:var(--accent-line);background:var(--accent-soft);color:var(--accent)}
+.kb-freq-hot b{color:var(--accent)}
+.kb-freq-zero{color:var(--ink-3)}
+.kb-freq-section{border-style:dashed}
+.kg-freq{margin:calc(-1 * var(--sp-2)) 0 var(--sp-3-5)}
+.kg-freq .kb-freq{margin-left:0}
 .kb-errors,.kb-confusion{margin:var(--sp-3) 0 0;padding:0;list-style:none;display:flex;flex-direction:column;gap:var(--sp-3)}
 .kb-errors li,.kb-confusion li{padding:var(--sp-3) var(--sp-4);background: var(--amber-soft);border: 1px solid var(--line);border-radius:var(--r-md)}
 .kb-errors li b,.kb-confusion li b{display:block;color: var(--amber);margin-bottom:var(--sp-1)}
@@ -123,6 +149,12 @@
 
 /* ---------- 节点练测（A9/A10） ---------- */
 .kbq-loading,.kbq-note{color:var(--ink-2);font-size:var(--fs-sm)}
+/* 加载态呼吸（2026-09-22）：这些异步提示此前是静止文字，页面看着像卡死。
+   统一给一点极轻的明暗呼吸，读起来是「在干活」而不是「坏了」。
+   空态文案（.ins-loading 的「没有可统计的题目」、.kbq-loading 的「暂无练习题」）
+   刻意不参与 —— 它们不是在加载。prefers-reduced-motion 由全站降级兜住。 */
+.word-loading,.syn-loading,.drill-loading,.training-loading{animation:load-breathe 1.4s ease-in-out infinite}
+@keyframes load-breathe{0%,100%{opacity:.55}50%{opacity:1}}
 .kbq-meta,.kbq-progress{font-size:var(--fs-sm);color:var(--ink-2)}
 .kbq-tier{display:inline-block;padding:var(--sp-1) var(--sp-2-5);margin-left:var(--sp-2);border-radius:999px;font-size:var(--fs-xs);vertical-align:middle;background:var(--paper-2);color:var(--ink-2)}
 .kbq-tier.t1{background:var(--amber-soft);color:var(--amber)}
