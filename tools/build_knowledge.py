@@ -24,7 +24,7 @@ OUT = os.path.join(ROOT, "data", "knowledge", "index.js")
 # ---- 新增（供未来 UI）：level 学习台阶 / summary 一句话 / tags / related
 
 # 分类展示顺序；check_ordering 校验输出按此连续分组。
-CATEGORY_ORDER = ["语法·句法", "语法·词法", "词汇·用法", "写作·表达"]
+CATEGORY_ORDER = ["语法·句法", "语法·词法", "词汇·用法", "语篇·阅读", "写作·表达"]
 VALID_LEVELS = {"基础", "进阶", "挑战"}
 VALID_STRENGTHS = {"rule", "tendency", "register"}
 
@@ -1073,6 +1073,147 @@ KB = [
  ],
  "tags": ["词汇","非谓语","搭配"], "related": ["非谓语动词","短语动词","固定搭配辨析"]
 },
+
+{
+ "id": "句子成分与基本句型", "category": "语法·句法", "name": "句子成分与基本句型", "level": "基础", "strength": "rule",
+ "summary": "七种句子成分（主谓宾表定状补）与五种基本句型，是判断空该填什么的共同前提。",
+ "rule": "句子成分共七种：主语、谓语、宾语、表语、定语、状语、补语。基本句型五种：主谓（He runs.）、主谓宾（I like tea.）、主谓双宾（He gave me a book.）、主谓宾补（We made him happy.）、主系表（She is a teacher.）。语法填空判断该填什么，第一步就是看这个空在句中充当什么成分。",
+ "examples": [
+  {"sentence": "The children are playing happily in the park.", "source": "自编示例", "answer": "主语 The children｜谓语 are playing｜状语 happily / in the park"},
+  {"sentence": "Tom gave his sister a birthday present.", "source": "自编示例", "answer": "主谓双宾：gave + 间接宾语 his sister + 直接宾语 a present"},
+  {"sentence": "We elected him our monitor.", "source": "自编示例", "answer": "主谓宾补：him 是宾语，our monitor 补充说明宾语的身份"},
+  {"sentence": "The soup tastes delicious.", "source": "自编示例", "answer": "主系表：tastes 是系动词，delicious 是表语"}
+ ],
+ "commonErrors": [
+  {"wrong": "The news are very exciting.", "right": "The news is very exciting.", "why": "news 是不可数名词，作主语时谓语用单数；先定主语，再定谓语的数"},
+  {"wrong": "I very like English.", "right": "I like English very much.", "why": "very 不能直接修饰动词，程度状语要用 very much；这是把「状语位置」判断错了"}
+ ],
+ "confusionPoints": [
+  {"point": "表语 vs 宾语", "detail": "系动词（be / look / taste / become / seem 等）后面接表语，说明主语「是什么、怎么样」；实义动词后面才接宾语，说明动作的对象。例：He looks happy.（表语）vs He likes music.（宾语）"},
+  {"point": "定语 vs 状语", "detail": "定语修饰名词，回答「哪一个」；状语修饰动词或整句，回答「何时、何地、如何」。例：the girl in red（定语）vs He left in a hurry（状语）"}
+ ],
+ "tags": ["语法","句子成分","基础"], "related": ["主谓一致","非谓语动词","名词性从句"]
+},
+
+{
+ "id": "细节理解题", "category": "语篇·阅读", "name": "细节理解题", "level": "基础", "strength": "rule",
+ "summary": "问「文中说了什么」。答案一定是原文某处的同义改写，按定位词回原文找出处再逐项比对。",
+ "rule": "细节理解题问的是原文明确说过的事实。做法：先从题干划出定位词（人名、数字、专有名词最省事），顺着行文顺序回原文找定位句，只精读定位句及其前后一句，再把选项逐项与原文比对——正确项是原文的同义改写；偷换对象、扩大范围、因果倒置、无中生有的都不是。",
+ "examples": [
+  {"sentence": "原文：The museum opens at 9 a.m. on weekdays but stays open until 8 p.m. at weekends.", "source": "自编示例", "answer": "题干问周末开放到几点 → 定位 weekends 一句，答 8 p.m.，不必读别的段"},
+  {"sentence": "原文：Only visitors who book online in advance can join the guided tour.", "source": "自编示例", "answer": "题干问「怎样才能参加导览」→ 定位句给出条件：提前网上预约"},
+  {"sentence": "原文：The tax cut sugar in drinks by 10%, and sales of high-sugar drinks fell by nearly a third.", "source": "自编示例", "answer": "题干问减糖比例 → 用数字直接定位，答 10%"}
+ ],
+ "commonErrors": [
+  {"wrong": "选项写 The museum is closed at weekends.（因为只看到前半句 on weekdays）", "right": "It stays open until 8 p.m. at weekends.", "why": "只读了半句就下结论；定位句必须读完整，注意 but 之后的延伸信息"},
+  {"wrong": "选项写 The guided tour is free for all visitors.", "right": "Only visitors who book online in advance can join the guided tour.", "why": "忽略 only 与 who 的限定，把「仅限预约者」扩大成「所有人」——典型的扩大范围"}
+ ],
+ "confusionPoints": [
+  {"point": "细节题 vs 推理题", "detail": "细节题的答案能在原文找到对应句；如果需要「结合常识想一想」才对得上，那多半是推理题——而推理题同样必须以原文为据，不能凭空推断"},
+  {"point": "同义改写 不等于 同词复现", "detail": "正确项常用近义词替换原文（fell by nearly a third ↔ dropped about 30%）；只跟原文用词相同、逻辑却颠倒的选项，反而常常是陷阱"}
+ ],
+ "tags": ["语篇","阅读","细节题"], "related": ["推理判断题","词句猜测题","指代词辨析"]
+},
+
+{
+ "id": "推理判断题", "category": "语篇·阅读", "name": "推理判断题", "level": "进阶", "strength": "tendency",
+ "summary": "问「作者没直说但可以推出什么」。每个结论都要在原文找到依据，不能凭生活经验补。",
+ "rule": "推理判断题的答案不在原文表面，但必须由原文某处支撑。先定推理方向（原因、态度、目的、出处、人物心理），回到对应段落找依据句，再判断哪个选项是依据句的合理延伸；原文没有依据、只是听上去合理的选项，一律排除。",
+ "examples": [
+  {"sentence": "原文：He kept looking at his watch and started packing his notes ten minutes before the bell.", "source": "自编示例", "answer": "题干问「他当时的状态」→ 看表 + 提前收拾两个动作 → 可推出他着急"},
+  {"sentence": "原文：The text lists materials, gives step-by-step instructions and warns about common mistakes.", "source": "自编示例", "answer": "题干问「文章出处」→ 步骤 + 提醒 → 可推出是操作指南一类文本"},
+  {"sentence": "原文：Though the plan sounded perfect, few villagers signed up in the first month.", "source": "自编示例", "answer": "题干问作者态度 → Though 与 few 暗示作者认为计划实际效果不佳"}
+ ],
+ "commonErrors": [
+  {"wrong": "看到 few signed up 就选「作者强烈反对该计划」", "right": "作者只是客观指出推行不顺，态度不等于强烈反对", "why": "把客观陈述升级成极端态度；态度题要分正 / 负 / 客观三档，别一步跳到极端"},
+  {"wrong": "由「看表、收拾东西」补出「他的朋友没来」这个原因", "right": "只能推出他着急，不能补出原文没写的原因", "why": "原文没给原因时自己编一个，属于无中生有"}
+ ],
+ "confusionPoints": [
+  {"point": "推理题 vs 细节题", "detail": "细节题答案=原文的同义改写；推理题答案=原文依据句的合理延伸。若某选项能在原文逐字找到，它更可能是细节题的答案"},
+  {"point": "「合理」不等于「有据」", "detail": "有些选项读起来很合理，但原文没有任何支持句，这类选项在高考里一律判错。依据先于合理"}
+ ],
+ "tags": ["语篇","阅读","推理题"], "related": ["细节理解题","主旨大意题","观点态度与写作意图"]
+},
+
+{
+ "id": "词句猜测题", "category": "语篇·阅读", "name": "词句猜测题", "level": "进阶", "strength": "tendency",
+ "summary": "问画线词或句子的意思。答案几乎总在上下文里——同义、反义、举例、因果四类线索。",
+ "rule": "词句猜测题不要求你真认识那个词，而是要求你用上下文把意思夹出来。四类线索按出现频率排：同义并列（or / that is）、反义对照（but / however / unlike）、举例说明（such as / for example）、因果解释（because / so / which means）。先在画线处上下句找线索词，再把选项代回原句验证是否通顺。",
+ "examples": [
+  {"sentence": "原文：The room was so cramped that we could hardly turn around in it.", "source": "自编示例", "answer": "由 so...that 的结果分句「几乎转不开身」反推 cramped = 狭小拥挤（因果线索）"},
+  {"sentence": "原文：Unlike her talkative brother, Anna is rather reticent.", "source": "自编示例", "answer": "Unlike 提示对照，取 talkative 的反面 → reticent = 沉默寡言（反义线索）"},
+  {"sentence": "原文：He is a nocturnal animal - he sleeps by day and hunts at night.", "source": "自编示例", "answer": "破折号后给出解释：白天睡、夜里活动 → nocturnal = 夜行的（同义解释线索）"}
+ ],
+ "commonErrors": [
+  {"wrong": "看到 unfamiliar 里有 familiar，就猜成「熟悉的」", "right": "un- 是否定前缀 → unfamiliar = 不熟悉的", "why": "用构词法推断方向，但方向定完还要回上下文验证；只凭词形容易猜反"},
+  {"wrong": "凭常识猜 cramped 大约指「脏乱」", "right": "线索在结果分句「转不开身」，指的是狭小", "why": "常识往往给出多个可能，只有上下文能把答案定到唯一"}
+ ],
+ "confusionPoints": [
+  {"point": "不认识那个词也能做对", "detail": "命题恰恰是在考「用上下文解题」的能力；不必因为不认识画线词就放弃这一题"},
+  {"point": "猜出来的意思要能替回原句读通", "detail": "把选项代回原句是最后一步验证；替换后语义或搭配别扭的，直接排除"}
+ ],
+ "tags": ["语篇","阅读","猜词"], "related": ["细节理解题","词性转换（派生法）","指代词辨析"]
+},
+
+{
+ "id": "主旨大意题", "category": "语篇·阅读", "name": "主旨大意题", "level": "进阶", "strength": "tendency",
+ "summary": "问全文或某段在讲什么。看首尾段、各段首句与高频复现词，别被某一处细节带走。",
+ "rule": "主旨题问的是「作者为什么写这篇文章」，不是某个细节。三步：读首段与末段定话题，看每段首句看推进方向，注意高频复现的词（往往就是主题词）。选项要么过宽（涵盖的话题大于全文）、要么过窄（只概括了某一段），只有能覆盖全文的才对。主旨题建议放到最后做，那时心里已有全文轮廓。",
+ "examples": [
+  {"sentence": "首段：Food waste in canteens has become a serious problem. 末段：Small changes in ordering can make a big difference.", "source": "自编示例", "answer": "主旨要同时涵盖「问题」与「应对」，只写其一会漏"},
+  {"sentence": "各段首句：What is a plant? / Why do plants help us? / Which plants are easy to grow?", "source": "自编示例", "answer": "三段首句同属「室内植物」的介绍框架 → 主旨=定义、好处与选择"},
+  {"sentence": "全文反复出现：friendship, distance, keep in touch, video call", "source": "自编示例", "answer": "高频复现词锁定主题 → 主旨是「异地友谊如何维系」，不是泛谈友谊"}
+ ],
+ "commonErrors": [
+  {"wrong": "选「友谊很重要」", "right": "选「如何维系异地友谊」", "why": "过宽：把只谈异地情形的文章泛化成一个人人都知道的大道理"},
+  {"wrong": "选「视频通话的五个好处」（文中确实有一处提到）", "right": "要选能概括全文的说法", "why": "过窄：被某一段的细节带走"}
+ ],
+ "confusionPoints": [
+  {"point": "主旨题 vs 标题题", "detail": "主旨题问「讲了什么」，标题题问「叫什么名字」。标题要更短更抓人，但覆盖全文这条判定标准完全一致"},
+  {"point": "段落主旨 vs 全文主旨", "detail": "先看清题干问的是全文还是某一段。问某一段时只读那段的首尾句与复现词，别把全文主旨直接套上去"}
+ ],
+ "tags": ["语篇","阅读","主旨题"], "related": ["细节理解题","标题归纳题","推理判断题"]
+},
+
+{
+ "id": "标题归纳题", "category": "语篇·阅读", "name": "标题归纳题", "level": "进阶", "strength": "tendency",
+ "summary": "给全文起名字。要在覆盖全文的前提下尽量短、尽量具体，避免过宽、过窄与偏题。",
+ "rule": "标题题可以看成主旨题的最短版本。三个排除条件：过宽（涵盖的话题大于全文）、过窄（只覆盖某一段或某个细节）、偏题（换成了另一个话题）。合格的标题通常抓住全文的主题词加一个动作或角度，且不会用文中某一句的生僻细节来命名。",
+ "examples": [
+  {"sentence": "全文：剑桥实验发现主动评判美感比单纯观看更能激活抽象思维。", "source": "自编示例", "answer": "标题应是「评判美」与「思维」的组合；只写 Beauty 太宽，只写 An Experiment 太空"},
+  {"sentence": "全文：纽约大规模植树，但某些树种释放的异戊二烯助推了近地面臭氧。", "source": "自编示例", "answer": "标题要带出「植树」与「意外代价」的张力，只写 Planting Trees 会漏掉一半"},
+  {"sentence": "全文是应用文：某体育场本月赛事、周边酒店与停车须知。", "source": "自编示例", "answer": "标题应体现「赛事 + 出行须知」两项，只写 Stadium Events 覆盖不全"}
+ ],
+ "commonErrors": [
+  {"wrong": "标题选 Beauty Is Important", "right": "标题点明「主动评判美」这一具体角度", "why": "过宽：把实验结论泛化成一句常识，读者看不出文章在讲什么"},
+  {"wrong": "标题选 How to Plant Trees in New York", "right": "标题要覆盖「植树与臭氧」这层关系", "why": "过窄：只抓了一个局部动作，没覆盖全文的转折"}
+ ],
+ "confusionPoints": [
+  {"point": "标题要具体，但不必完整", "detail": "标题不需要把每个要点都写进去，但必须能涵盖全文话题；信息量塞得太满的选项反而不像标题"},
+  {"point": "警惕「用文中细节命名」的选项", "detail": "若选项用的是文中某一句里的生僻专有名词，它通常是用来把你引偏的，而不是概括全文"}
+ ],
+ "tags": ["语篇","阅读","标题题"], "related": ["主旨大意题","细节理解题","推理判断题"]
+},
+
+{
+ "id": "观点态度与写作意图", "category": "语篇·阅读", "name": "观点态度与写作意图", "level": "挑战", "strength": "tendency",
+ "summary": "问作者的态度、目的或写法。态度分正 / 负 / 客观三档，都要由文中的态度词与转折定。",
+ "rule": "态度题只考三档：支持（positive / approving）、反对（negative / critical）与客观（objective / neutral）。判法：找带感情色彩的形容词与副词、注意让步与转折（though 往往只为引出后面的重点）、区分「作者的态度」与「文中他人的态度」。写作意图题的参考答案通常是 to inform / to persuade / to entertain / to explain 一类，看文体与说话对象即可。",
+ "examples": [
+  {"sentence": "原文：Though the idea looks attractive, the evidence so far is far from convincing.", "source": "自编示例", "answer": "Though 让步在前、转折在后 → 作者态度是怀疑，不是支持"},
+  {"sentence": "原文：The author explains how the tax works, lists its effects and quotes official figures without comment.", "source": "自编示例", "answer": "全是解释与数据、不含评论 → 态度为客观"},
+  {"sentence": "原文：本文是写给高一新生的图书馆使用指南，逐条说明借阅、续借与逾期规则。", "source": "自编示例", "answer": "文体=说明性指南、读者=新生 → 写作意图是 to inform，不是说服"}
+ ],
+ "commonErrors": [
+  {"wrong": "看到 strong / amazing 就选「作者支持」", "right": "先分清这些词是在描述作者观点，还是文中人物的说法", "why": "混淆了作者态度与文中他人态度；作者引用别人的评价，不等于自己赞同"},
+  {"wrong": "文中出现 but 就选「作者反对」", "right": "要读转折之后作者的落脚点是什么", "why": "转折词只提示重点位置，落脚点是褒是贬还得读后半句"}
+ ],
+ "confusionPoints": [
+  {"point": "客观 不等于 没有观点", "detail": "objective 表示作者只陈述事实与数据、不作评价；它与「没有态度」不同，本身就是一种被明确考查的态度"},
+  {"point": "写作意图按文体快速定档", "detail": "说明书与科普多为 to inform，倡议信与广告多为 to persuade，记叙文与幽默小品多为 to entertain。先定文体，再定意图"}
+ ],
+ "tags": ["语篇","阅读","态度题"], "related": ["推理判断题","主旨大意题","应用文写作结构"]
+},
 ]
 
 
@@ -1212,7 +1353,7 @@ def sort_nodes(nodes):
 # ----------------------------------------------------------------------
 QUESTION_BATCHES = (
     "kb_questions_a", "kb_questions_b", "kb_questions_c",
-    "kb_questions_d", "kb_questions_custom",
+    "kb_questions_d", "kb_questions_e", "kb_questions_custom",
 )
 Q_OUT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..",
                      "data", "knowledge", "questions.js")
@@ -1235,11 +1376,14 @@ def load_question_batches():
 def check_questions(questions, nodes):
     """题池校验：node 存在 / 每节点 ≥8 / choice 四选一答案在 ABCD / fill 答案非空。"""
     errs = []
-    ids = {n["id"] for n in nodes}
+    # 用 list 而非 set：set 的字符串迭代顺序随 PYTHONHASHSEED 每进程变化，
+    # 会让错误报告顺序（以及下游 build_question_output 的键顺序）不可复现。
+    ids = [n["id"] for n in nodes]
+    idset = set(ids)
     by_node = collections.Counter()
     for i, q in enumerate(questions):
         node = q.get("node")
-        if node not in ids:
+        if node not in idset:
             errs.append("[题池] 第 %d 题 node 不存在：%r" % (i + 1, node))
             continue
         by_node[node] += 1
@@ -1263,8 +1407,13 @@ def check_questions(questions, nodes):
 
 
 def build_question_output(questions, nodes):
-    """把题目按节点分组，附每个节点的变体清单（供前端判级用）。"""
-    ids = {n["id"] for n in nodes}
+    """把题目按节点分组，附每个节点的变体清单（供前端判级用）。
+
+    键顺序按 nodes 的展示顺序（**不是 set**）—— 否则每跑一次
+    data/knowledge/questions.js 的键顺序都会变，生成产物不可复现、
+    git 每次重跑都是满屏假 diff（2026-09-22 由 md5 幂等检查发现）。
+    """
+    ids = [n["id"] for n in nodes]
     grouped = {i: [] for i in ids}
     for q in questions:
         grouped[q["node"]].append({
@@ -1405,6 +1554,131 @@ POINTS = {
             {"text": "结尾点题或升华",
              "example": "From that day on, she never judged a person by appearance again.",
              "note": "结尾回扣「不以貌取人」，把一件小事提到道理层面。"},
+        ],
+    },
+    "句子成分与基本句型": {
+        "rule": "先定这个空在句中充当什么成分，再决定填什么词性——五种基本句型是所有语法题的共同前提。",
+        "points": [
+            {"text": "五种基本句型：主谓 / 主谓宾 / 主谓双宾 / 主谓宾补 / 主系表",
+             "example": "He gave me a book. / We made him happy.",
+             "note": "先认出句型，就能判断动词后面该接几个成分、缺的是哪一个。"},
+            {"text": "系动词后面是表语，实义动词后面才是宾语",
+             "example": "The soup tastes delicious. / He ate the soup.",
+             "note": "tastes 是系动词接形容词；ate 是实义动词接名词——判断错了词性就填错。"},
+            {"text": "定语修饰名词，状语修饰动词或整句",
+             "example": "the girl in red / He left in a hurry",
+             "note": "前者限定「哪一个女孩」，后者说明「怎样离开」，位置和功能都不同。"},
+            {"text": "看到空格先问：它和谁构成一个成分",
+             "example": "I very like English. → I like English very much.",
+             "note": "very 修饰不了动词，只能改用 very much 作程度状语。"},
+        ],
+    },
+    "细节理解题": {
+        "rule": "先用题干里的定位词回原文找出处，再把选项与原文逐项比对——正确项是原文的同义改写。",
+        "points": [
+            {"text": "定位词优先选人名、数字、专有名词",
+             "example": "题干里的 Cardiff / 2024 / Dr. Smith 都是最好的定位词。",
+             "note": "这类词在原文里出现次数少，定位最快，不必通读全文。"},
+            {"text": "定位句要读完整，尤其看 but 之后的延伸",
+             "example": "The museum opens at 9 a.m. on weekdays but stays open until 8 p.m. at weekends.",
+             "note": "只读前半句，就会把周末误当成闭馆。"},
+            {"text": "四个排除方向：偷换对象 / 扩大范围 / 因果倒置 / 无中生有",
+             "example": "把「仅限预约者可参加」写成「所有人都可参加」，就是扩大范围。",
+             "note": "拿到选项先判断它属于哪一类毛病，比反复读原文更快。"},
+            {"text": "正确项常是同义替换，不是原词复现",
+             "example": "原文 fell by nearly a third ↔ 选项 dropped about 30%",
+             "note": "只跟原文用词相同、逻辑却颠倒的选项，反而常常是陷阱。"},
+        ],
+    },
+    "推理判断题": {
+        "rule": "推理题的答案不在原文表面，但必须有原文依据——找不到依据句的选项一律排除。",
+        "points": [
+            {"text": "先定推理方向：原因 / 态度 / 目的 / 出处 / 人物心理",
+             "example": "题干问 purpose，就去找文中表示目的的不定式或 so that 从句。",
+             "note": "方向定了，回原文找依据句才有目标，不会漫无目的地读。"},
+            {"text": "依据句常在让步与转折处",
+             "example": "Though the plan sounded perfect, few villagers signed up.",
+             "note": "Though 让出的不是重点，后半句才是作者的落脚点。"},
+            {"text": "几个近似项里，选依据最直接的那个",
+             "example": "由「看表 + 提前收拾」只能推出他着急，推不出「朋友没来」。",
+             "note": "推断跨度越大越危险；多走一步就可能变成无中生有。"},
+            {"text": "态度只分正 / 负 / 客观三档",
+             "example": "全篇只给数据不作评价 → objective，不是 positive。",
+             "note": "别一步跳到「强烈支持 / 强烈反对」这类极端表述。"},
+        ],
+    },
+    "词句猜测题": {
+        "rule": "猜测题考的是用上下文夹出词义，四类线索按同义—反义—举例—因果依次找。",
+        "points": [
+            {"text": "同义并列线索：or / that is / 破折号后的解释",
+             "example": "He is a nocturnal animal - he sleeps by day and hunts at night.",
+             "note": "破折号后面就是解释，等于把词义直接告诉你了。"},
+            {"text": "反义对照线索：but / however / unlike",
+             "example": "Unlike her talkative brother, Anna is rather reticent.",
+             "note": "与 talkative 相反 → reticent 指沉默寡言。"},
+            {"text": "举例说明线索：such as / for example",
+             "example": "citrus fruits, such as oranges and lemons",
+             "note": "such as 后面的词与画线词属于同一类别，可据此定范围。"},
+            {"text": "因果解释线索：because / so / so...that",
+             "example": "The room was so cramped that we could hardly turn around.",
+             "note": "结果分句「转不开身」告诉我们 cramped 是狭小拥挤。"},
+            {"text": "最后一步永远是把选项代回原句读一遍",
+             "example": "替换后语义或搭配别扭的，直接排除。",
+             "note": "这是唯一能验证答案的动作，不要凭「感觉像」就选。"},
+        ],
+    },
+    "主旨大意题": {
+        "rule": "主旨题问作者为什么写这篇，答案要能覆盖全文——过宽、过窄都不选。",
+        "points": [
+            {"text": "首段与末段定话题",
+             "example": "首段提出问题、末段给出应对 → 主旨要同时涵盖两者。",
+             "note": "议论文常在末段亮明立场，只读首段容易漏掉落脚点。"},
+            {"text": "各段首句串起来看推进方向",
+             "example": "What is a plant? / Why do plants help us? / Which plants are easy to grow?",
+             "note": "三段首句合起来就是全文框架：定义、好处、选择。"},
+            {"text": "高频复现词往往就是主题词",
+             "example": "全文反复出现 friendship / distance / video call",
+             "note": "复现三次以上的实词，几乎一定是主题词。"},
+            {"text": "排除过宽与过窄两类选项",
+             "example": "「友谊很重要」过宽；「视频通话的五个好处」过窄。",
+             "note": "只有能覆盖全文的才对，其余两类都可以不看原文直接排除。"},
+            {"text": "主旨题放到最后做",
+             "example": "做完全部细节题，心里已有全文轮廓，再回头看主旨。",
+             "note": "做题顺序本身就是方法：主旨题的性价比在最后最高。"},
+        ],
+    },
+    "标题归纳题": {
+        "rule": "标题题是主旨题的最短版本：覆盖全文、尽量具体，过宽过窄偏题都要排除。",
+        "points": [
+            {"text": "标题通常等于主题词加一个动作或角度",
+             "example": "Planting Trees, Hidden Costs",
+             "note": "两半各覆盖文章的一半信息，比只写主题词更清楚。"},
+            {"text": "过宽：把结论泛化成一句常识",
+             "example": "把剑桥实验概括成 Beauty Is Important",
+             "note": "读者看不出文章到底在讲什么，这类选项一定是错的。"},
+            {"text": "过窄：只覆盖某一段或某个动作",
+             "example": "把「植树与臭氧」的文章命名为 How to Plant Trees in New York",
+             "note": "只抓了第一段的动作，丢掉了全文的转折。"},
+            {"text": "用文中生僻专有名词命名的选项要警惕",
+             "example": "选项里出现只在某一句话里出现过一次的专有名词",
+             "note": "这类选项的作用往往是把你引偏，而不是概括全文。"},
+        ],
+    },
+    "观点态度与写作意图": {
+        "rule": "态度只考正 / 负 / 客观三档，看态度词与转折；意图按文体和读者定档。",
+        "points": [
+            {"text": "态度词决定色彩，但要先确认说的是谁",
+             "example": "strong / amazing 若出现在引语里，那是文中人物的态度。",
+             "note": "作者引用别人的评价，不等于自己赞同——这是最常见的失分点。"},
+            {"text": "让步之后才是作者的落脚点",
+             "example": "Though the idea looks attractive, the evidence is far from convincing.",
+             "note": "Though 引出的部分不是作者立场，后半句才是。"},
+            {"text": "objective 也是一种被考查的态度",
+             "example": "全篇解释现象、引用数据、不置评论 → objective。",
+             "note": "不要因为「看不出褒贬」就把客观项排除掉。"},
+            {"text": "写作意图按文体定档",
+             "example": "使用指南 → to inform；倡议信 → to persuade；幽默小品 → to entertain。",
+             "note": "先定文体和读者，意图选项基本就定了。"},
         ],
     },
 }

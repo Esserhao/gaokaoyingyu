@@ -1,6 +1,6 @@
 /* =====================================================================
    做题方法卡（M1 · 做题方法规范）—— #/methods 门厅 + #/methods/<key> 单卡。
-   数据源 data/methods/index.js（window.__METHODS__）：全国卷五大客观题型
+   数据源 data/methods/index.js（window.__METHODS__）：全国卷客观题型
    + 两张写作卡（writing_app / writing_cont，流程参照、无归因标签）的
    自著候选流程，每步 = 动作 + 禁止 + 卡住回退（骨架参考 Stumax 的
    规则三件套，题型与步骤按全国卷重写）。
@@ -9,7 +9,7 @@
    ===================================================================== */
 Object.assign(UI, {
 
-  /* 门厅：七张题型卡 + 数据性质说明。 */
+  /* 门厅：八张题型卡 + 数据性质说明。 */
   methods() {
     const M = window.__METHODS__ || { sections: {}, note: '' };
     const cards = Object.values(M.sections).map(s => {
