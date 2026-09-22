@@ -1,0 +1,196 @@
+/* =====================================================================
+   高考英语真题在线 · design-system.css（全站组件与签名动作增强层）
+   加载位置：index.html 的 <link> 列表【末尾】（覆盖于 platform.css 之后）。
+   作用域：本站为「统一中性 + 单一重音（墨绿）」架构（分区配色与成就金已
+   退役，全部收敛到 --accent）。本文件【不全局改色】，只做三件事：
+     ① 无障碍（焦点环 / 跳过导航 / 键盘可见 / 动效降级 / 移动端答题卡抽屉）
+     ② 字体落地（把真实存在的标题选择器挂到衬线）
+     ③ 签名动作（选区高亮 / 成绩印章 / 共享空·加载·错误状态 / 双线分隔）
+   唯一事实源：项目根目录 DESIGN.md（方向 C · 铅字印刷）。
+   改前逐条核对过 render 层是否真输出该类名，不输出的一律不写。
+   ===================================================================== */
+
+:root {
+  /* 焦点环专用色：油墨黑。环由 outline-offset:2px 推到控件之外、落在纸底上，
+     纸底 #f0e9d8 上 ≈12.8:1，无需在实心按钮色上达标。 */
+  --focus-ring: #1c1917;
+}
+
+/* ---------- 字体落地（仅列 render 层确实输出的选择器） ---------- */
+.passage p, .stem, .topic-q-stem, .explanation-answer,
+.exam-title, .result-hero h1, .score-ring strong,
+.program-hero h1, .training-hero h1, .reference-hero h1,
+.topic-intro h1, .report-hero h1, .lesson-hero h1,
+.dashboard-hero h2, .panel-heading h2,
+.knowledge-detail-card h2, .mistake-detail-hero h2,
+.path-item b, .program-card b, .simulation-row strong,
+.practice-paper h1, .lesson-paper h2, .teacher-answer h3,
+.report-score b, .dashboard-stats b, .topic-paper-label,
+.sheet-title {
+  font-family: var(--serif);
+}
+
+/* ---------- 图标基样式（纯装饰，aria-hidden，含义在按钮文本） ---------- */
+.icon { width: 1em; height: 1em; vertical-align: -.125em; flex: none; }
+
+/* ---------- 缓动统一：只覆盖真实存在且带 transition 的控件 ---------- */
+.option, .paper-row, .path-item, .program-card, .primary-btn, .ghost-btn,
+.text-btn, .sheet-dot, .filter-chip, .topic-choice, .answer-sheet {
+  transition-timing-function: var(--ease-out);
+}
+
+/* ---------- 无障碍：跳过导航 + 屏幕阅读器专用文本 ---------- */
+.sr-only {
+  position: absolute; width: var(--sp-1); height: var(--sp-1);
+  margin: -1px; padding: 0; border: 0;
+  overflow: hidden; white-space: nowrap;
+  clip: rect(0 0 0 0); clip-path: inset(50%);
+}
+.skip-link {
+  position: fixed; top: 0; left: 50%; transform: translate(-50%, -120%);
+  z-index: 200; padding: var(--sp-2-5) var(--sp-5); min-height: var(--sp-9);
+  display: inline-flex; align-items: center;
+  background: var(--ink); color: var(--on-ink);
+  font-size: var(--fs-md); font-weight: 700;
+  border-radius: 0 0 var(--r-sm) var(--r-sm);
+  transition: transform .18s var(--ease-out);
+}
+.skip-link:focus, .skip-link:focus-visible { transform: translate(-50%, 0); }
+/* main 被跳转聚焦时不画环（它是整页容器，环会绕满全屏） */
+#main:focus, #main:focus-visible { outline: none; }
+
+/* ---------- 无障碍：键盘焦点可见环（全站一致，实测 ≥3:1） ---------- */
+a:focus-visible, button:focus-visible, input:focus-visible,
+textarea:focus-visible, select:focus-visible, summary:focus-visible,
+.option:focus-visible, .sheet-dot:focus-visible,
+.topic-option:focus-visible, .training-option:focus-visible,
+.lesson-option:focus-visible, .filter-chip:focus-visible,
+.topic-choice:focus-visible, [tabindex]:focus-visible {
+  outline: 3px solid var(--focus-ring);
+  outline-offset: 2px;
+  border-radius: var(--r-sm);
+}
+/* 键盘跳题后 .question 被临时赋 tabindex=-1，聚焦时只做浅底提示，不画环 */
+.question[tabindex]:focus-visible {
+  outline: none;
+  background: var(--accent-soft);
+}
+
+/* =====================================================================
+   签名动作 ① · 成绩印章（#/result 的成绩环升级为「阅卷盖章」）
+   原 .score-ring 是 spinner 式（仅 border-top 有重音色）。改为闭合双环印章：
+   外细环 + 内粗环之间留纸隙，像一枚盖在卷面上的红/墨绿骑缝章。
+   字仍是衬线大数字，保持「被阅读」气质。色用 --accent（墨绿），不引入第二重音。
+   （具体底色/数字色在 app.css 的 .score-ring 定义；此处只加印章外框。）
+   ===================================================================== */
+.score-ring { position: relative; }
+.score-ring::after {
+  content: ""; position: absolute; inset: -1var(--sp-1);
+  border: 1px solid var(--accent-line); border-radius: 50%;
+  pointer-events: none;
+}
+
+/* ---------- 签名动作 ② · 双线分隔（C 方向最重的一笔） ----------
+   3px double 比 3px solid 更像铅字印刷的报头双线。章节头、卷名报头共用。 */
+.rule-double { border-top: 3px double var(--ink); }
+
+/* ---------- 签名动作 ③ · 共享状态：空 / 加载 / 错误 ----------
+   这些类名由页面在取数/无结果/出错时挂上，保证全站反馈一致、不靠颜色单通道。
+   空态沿用既有 .empty-state 的排版精神，这里补「图标 + 指引」骨架。 */
+.state-empty, .state-error {
+  text-align: center; padding: 88px var(--sp-6); color: var(--ink-3);
+}
+.state-empty strong, .state-error strong {
+  display: block; color: var(--ink); font: 700 26px var(--serif);
+  margin-bottom: var(--sp-2-5);
+}
+.state-empty .hint, .state-error .hint { font-size: var(--fs-md); line-height:var(--lh-body); }
+.state-error {
+  border: 1px solid var(--red); background: var(--red-soft);
+  border-radius: var(--r-md); color: var(--red);
+}
+.state-error strong { color: var(--red); }
+.state-error .hint { color: var(--ink-2); }
+
+/* 加载态：骨架微光（只动 opacity，≤300ms，遵守降级） */
+.is-skeleton {
+  background: linear-gradient(100deg, var(--paper-1) 30%, var(--paper-2) 50%, var(--paper-1) 70%);
+  background-size: 200% 100%;
+  border-radius: var(--r-sm); color: transparent !important;
+  animation: skeleton-shimmer 1.2s var(--ease-inout) infinite;
+}
+@keyframes skeleton-shimmer {
+  from { background-position: 200% 0; }
+  to   { background-position: -200% 0; }
+}
+
+/* ---------- 答题卡：题格完成态描边用墨绿（退役金） ---------- */
+.sheet-dot.done { box-shadow: inset 0 0 0 2px var(--accent-line); }
+
+/* ---------- 触控目标 ≥ 44px（移动友好） ----------
+   列表/按钮/输入等元素：min-height:44px。
+   ⚠ .sheet-dot / .lesson-progress span 有显式 width × height（视觉正方形），
+   不能叠加 min-height:44，否则被拉成 32×44 / 32×44 长方形——已显式排除。 */
+.option, .topic-option, .training-option, .lesson-option,
+.primary-btn, .ghost-btn, .text-btn, .mobile-sheet-btn,
+.filter-chip, .topic-choice { min-height: var(--sp-9); }
+
+/* 答题卡题号热区（2026-09-19）：视觉仍是 32px 方格（width×height 不动），
+   用 ::after 外扩 6px 把可点热区补到 44px——指尖准头差的学生点错邻格
+   是答题卡最高频的误操作。 */
+.sheet-dot { position: relative; }
+.sheet-dot::after { content: ''; position: absolute; inset: -6px; }
+
+/* =====================================================================
+   移动端答题卡底部抽屉
+   app.css 在 ≤960px 把 .answer-sheet 设为 display:none，此处必须显式改回
+   display:block，否则下面所有抽屉样式都作用在一个不存在的盒子上。
+   切换逻辑：render.js 注入 .mobile-sheet-btn / .sheet-scrim，
+   js/ui-sheet.js 用 document 级事件委托切 .open（抗 SPA 重渲染）。
+   ===================================================================== */
+.mobile-sheet-btn { display: none; }
+.sheet-scrim { display: none; }
+
+@media (max-width: 960px) {
+  .answer-sheet {
+    display: block;
+    position: fixed; left: 0; right: 0; bottom: 0; top: auto;
+    transform: translateY(100%);
+    transition: transform .3s var(--ease-out);
+    max-height: 82vh; overflow: auto; z-index: 90;
+    border-radius: var(--r-lg) var(--r-lg) 0 0;
+    box-shadow: 0 -10px 30px rgba(28, 25, 23, .25);
+    padding-bottom: max(var(--sp-5), env(safe-area-inset-bottom));
+  }
+  .answer-sheet.open { transform: translateY(0); }
+  /* 抽屉展开时锁背景滚动（body.sheet-open 由 ui-sheet.js 切换） */
+  body.sheet-open { overflow: hidden; }
+
+  .sheet-scrim {
+    display: block; position: fixed; inset: 0;
+    background: rgba(28, 25, 23, .45); z-index: 85;
+    opacity: 0; pointer-events: none;
+    transition: opacity .25s var(--ease-out);
+  }
+  .sheet-scrim.show { opacity: 1; pointer-events: auto; }
+
+  .mobile-sheet-btn {
+    display: inline-flex; align-items: center; justify-content: center; gap: var(--sp-1-5);
+    position: fixed; right: var(--sp-4);
+    bottom: max(var(--sp-5), env(safe-area-inset-bottom)); z-index: 95;
+    background: var(--accent); color: var(--on-accent); border: none; border-radius: var(--r-pill);
+    padding: 0 var(--sp-5); min-height: var(--sp-9); font-size: var(--fs-md); font-weight: 600;
+    box-shadow: var(--shadow-3);
+  }
+  .mobile-sheet-btn[aria-expanded="true"] { background: var(--ink); }
+}
+
+/* ---------- 动效降级（前庭障碍用户硬要求） ---------- */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: .001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: .001ms !important;
+    scroll-behavior: auto !important;
+  }
+}

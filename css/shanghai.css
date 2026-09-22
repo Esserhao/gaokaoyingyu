@@ -1,0 +1,142 @@
+/* =====================================================================
+   上海专区样式 —— 主页入口区 + #/shanghai 门厅 / 真题册 / 考纲词汇。
+   铅字印刷令牌；P-38：一律整块背景 + 整边框，禁止左侧竖线装饰。
+   ===================================================================== */
+
+/* ---- 主页入口区 ---- */
+.sh-entry {
+  background: var(--paper-2);
+  border: 1px solid var(--line);
+  border-radius: var(--r-md, 10px);
+  padding: var(--sp-4) var(--sp-5);
+  margin: var(--sp-5) auto;
+  max-width: 980px;
+}
+.sh-entry-head h2 { margin: 2px 0 6px; }
+.sh-entry-head p {
+  color: var(--ink-2);
+  font-size: var(--fs-sm, 14px);
+  margin: 0 0 var(--sp-4);
+}
+.sh-entry-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: var(--sp-3);
+}
+.sh-entry-card {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  background: var(--paper-1);
+  border: 1px solid var(--line);
+  border-radius: var(--r-sm, 8px);
+  padding: var(--sp-3) var(--sp-4);
+  color: var(--ink-1);
+  text-decoration: none;
+}
+.sh-entry-card b { font-size: var(--fs-md, 16px); }
+.sh-entry-card small { color: var(--ink-3); }
+.sh-entry-card strong {
+  color: var(--accent);
+  font-size: var(--fs-sm, 14px);
+  margin-top: 2px;
+}
+.sh-entry-card:hover { border-color: var(--accent-line, var(--accent)); }
+
+/* ---- 门厅 / 真题册 / 词汇三页公共 ---- */
+.sh-home, .sh-exams, .sh-vocab {
+  max-width: 980px;
+  margin: 0 auto;
+  padding: var(--sp-5) var(--sp-4);
+}
+.sh-lede { color: var(--ink-2); max-width: 640px; }
+.sh-count {
+  font-style: normal;
+  font-size: var(--fs-sm, 14px);
+  color: var(--accent);
+  margin-left: 6px;
+}
+
+/* ---- 门厅差异说明 ---- */
+.sh-note {
+  background: var(--paper-2);
+  border: 1px solid var(--line);
+  border-radius: var(--r-sm, 8px);
+  padding: var(--sp-4);
+  margin-top: var(--sp-5);
+}
+.sh-note h2 { font-size: var(--fs-md, 16px); margin: 0 0 var(--sp-2); }
+.sh-note ul { margin: 0; padding-left: 1.3em; color: var(--ink-2); }
+.sh-note li { margin: 4px 0; }
+
+/* ---- 真题册 ---- */
+.sh-empty {
+  background: var(--paper-2);
+  border: 1px solid var(--line);
+  border-radius: var(--r-sm, 8px);
+  padding: var(--sp-5) var(--sp-4);
+  margin-top: var(--sp-4);
+}
+.sh-empty b { display: block; margin-bottom: 6px; }
+.sh-empty p { color: var(--ink-2); margin: 0; max-width: 560px; }
+.sh-paper-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--sp-3);
+  background: var(--paper-1);
+  border: 1px solid var(--line);
+  border-radius: var(--r-sm, 8px);
+  padding: var(--sp-3) var(--sp-4);
+  margin-top: var(--sp-3);
+}
+.sh-paper-row small { color: var(--ink-3); display: block; margin-top: 2px; }
+.sh-paper-row em { color: var(--amber, #8a6d1d); font-style: normal; }
+
+/* ---- 考纲词汇 ---- */
+.sh-search {
+  width: 100%;
+  max-width: 420px;
+  padding: 8px 12px;
+  font: inherit;
+  color: var(--ink-1);
+  background: var(--paper-1);
+  border: 1px solid var(--line);
+  border-radius: var(--r-sm, 8px);
+}
+.sh-search:focus { outline: none; border-color: var(--accent); }
+.sh-letters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+  margin: var(--sp-3) 0;
+}
+.sh-letters .text-btn { min-width: 30px; padding: 2px 6px; }
+.sh-letters .text-btn.is-on {
+  background: var(--accent-soft);
+  border: 1px solid var(--accent);
+  border-radius: var(--r-sm, 6px);
+}
+.sh-word-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 4px 10px;
+  padding: 7px 2px;
+  border-bottom: 1px dotted var(--line);
+}
+.sh-word { font-size: var(--fs-md, 16px); }
+.sh-note {
+  font-style: normal;
+  color: var(--ink-3);
+  font-size: var(--fs-xs, 12px);
+}
+.sh-defs { color: var(--ink-2); flex: 1 1 260px; min-width: 240px; }
+.sh-defs em { color: var(--accent); font-style: normal; font-size: var(--fs-xs, 12px); }
+.sh-more { color: var(--ink-3); font-size: var(--fs-xs, 12px); margin-top: var(--sp-3); }
+
+@media (max-width: 720px) {
+  .sh-entry { padding: var(--sp-3); }
+  .sh-word-row { flex-direction: column; align-items: flex-start; gap: 2px; }
+  .sh-defs { min-width: 0; }
+}

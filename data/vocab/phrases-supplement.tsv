@@ -1,0 +1,546 @@
+# 无释义词组补录工作表（G1）—— 由 tools/import_no_meaning_phrases.py 生成
+# 用法：核对「建议释义（AI，未核实）」，把认可的解释抄进「释义」列后运行：
+#   python tools/import_no_meaning_phrases.py --import [--dry-run]
+# 导入只认「释义」列；留空的行跳过。请勿改动前四列或增删行。
+词组	级别	来源	建议释义（AI，未核实）	释义（人工填写）
+a chorus of	高中	2015PASS图解速记高中短语与句型.xlsx	一群；齐声；一齐	
+against sb.'s will	高中	2015PASS图解速记高中短语与句型.xlsx	违背某人的意愿	
+appoint as	高中	2015PASS图解速记高中短语与句型.xlsx	任命为	
+at sb.'s convenience	高中	2015PASS图解速记高中短语与句型.xlsx	在某人方便的时候	
+at sb.'s expense	高中	2015PASS图解速记高中短语与句型.xlsx	由某人付费；由某人承担费用	
+at sb.'s service	高中	2015PASS图解速记高中短语与句型.xlsx	听候某人吩咐；随时为某人服务	
+be drafted into	高中	2015PASS图解速记高中短语与句型.xlsx	被征召加入（军队等）	
+be free to do sth.	高中	2015PASS图解速记高中短语与句型.xlsx	自由地做某事	
+be honored for	高中	2015PASS图解速记高中短语与句型.xlsx	因……而受到尊敬（获奖）	
+be nervous about	高中	2015PASS图解速记高中短语与句型.xlsx	对……感到紧张	
+be proud about	高中	2015PASS图解速记高中短语与句型.xlsx	为……感到骄傲	
+be proud to	高中	2015PASS图解速记高中短语与句型.xlsx	自豪地去做……	
+be worthy to	高中	2015PASS图解速记高中短语与句型.xlsx	值得……；配得上……	
+become addicted to	高中	2015PASS图解速记高中短语与句型.xlsx	沉溺于；对……上瘾	
+do good deeds	高中	2015PASS图解速记高中短语与句型.xlsx	做好事	
+draw sb.'s attention	高中	2015PASS图解速记高中短语与句型.xlsx	吸引某人的注意	
+expert on	高中	2015PASS图解速记高中短语与句型.xlsx	……方面的专家	
+fix a date for	高中	2015PASS图解速记高中短语与句型.xlsx	确定……的日期	
+follow sb.'s advice	高中	2015PASS图解速记高中短语与句型.xlsx	听从某人的建议	
+for one thing ... for another	高中	2015PASS图解速记高中短语与句型.xlsx	一方面……另一方面……	
+get engaged to	高中	2015PASS图解速记高中短语与句型.xlsx	与……订婚	
+give life to	高中	2015PASS图解速记高中短语与句型.xlsx	赋予……生命力；使有活力	
+great numbers of	高中	2015PASS图解速记高中短语与句型.xlsx	大量的；许多	
+have access	高中	2015PASS图解速记高中短语与句型.xlsx	有机会使用；有接近的权利	
+have desire to do	高中	2015PASS图解速记高中短语与句型.xlsx	有做某事的愿望	
+have sb. doing	高中	2015PASS图解速记高中短语与句型.xlsx	让某人一直做某事	
+have sth. doing	高中	2015PASS图解速记高中短语与句型.xlsx	让某物保持某种状态／动作	
+have trouble in doing	高中	2015PASS图解速记高中短语与句型.xlsx	做某事有困难	
+let sb. do sth.	高中	2015PASS图解速记高中短语与句型.xlsx	让某人做某事	
+make one's way towards ...	高中	2015PASS图解速记高中短语与句型.xlsx	向……走去	
+make plans for	高中	2015PASS图解速记高中短语与句型.xlsx	为……制定计划	
+make sb.'s acquaintance	高中	2015PASS图解速记高中短语与句型.xlsx	结识某人	
+make to sb.'s own measure	高中	2015PASS图解速记高中短语与句型.xlsx	按某人的尺寸制作（量体裁衣）	
+needn't have done	高中	2015PASS图解速记高中短语与句型.xlsx	本不必做（却做了）	
+nervous about	高中	2015PASS图解速记高中短语与句型.xlsx	对……感到紧张	
+not ... till	高中	2015PASS图解速记高中短语与句型.xlsx	直到……才……	
+not as ... as	高中	2015PASS图解速记高中短语与句型.xlsx	不如……那样……	
+not usually	高中	2015PASS图解速记高中短语与句型.xlsx	通常不	
+open the floor	高中	2015PASS图解速记高中短语与句型.xlsx	宣布自由发言；开始讨论	
+prefer to do rather than to do	高中	2015PASS图解速记高中短语与句型.xlsx	宁愿做……而不愿做……	
+put one's finger	高中	2015PASS图解速记高中短语与句型.xlsx	（与 on 连用）明确指出	
+realize one's dream	高中	2015PASS图解速记高中短语与句型.xlsx	实现梦想	
+save sb.'s life	高中	2015PASS图解速记高中短语与句型.xlsx	救某人的命	
+spend ... doing	高中	2015PASS图解速记高中短语与句型.xlsx	花费（时间／金钱）做某事	
+spend ... in doing	高中	2015PASS图解速记高中短语与句型.xlsx	花费（时间）做某事	
+... has a population of ...	高考	24天突破高考英语必背短语.xlsx	……有……的人口	
+a developed country	高考	24天突破高考英语必背短语.xlsx	发达国家	
+a developing country	高考	24天突破高考英语必背短语.xlsx	发展中国家	
+a few pieces of advice	高考	24天突破高考英语必背短语.xlsx	几条建议	
+a place of interest	高考	24天突破高考英语必背短语.xlsx	名胜	
+a year and a half	高考	24天突破高考英语必背短语.xlsx	一年半	
+achieve one's aim	高考	24天突破高考英语必背短语.xlsx	达到目的	
+achieve one's goal	高考	24天突破高考英语必背短语.xlsx	实现目标	
+address a letter	高考	24天突破高考英语必背短语.xlsx	在信封上写地址	
+address the letter	高考	24天突破高考英语必背短语.xlsx	在信封上写地址	
+advise that sb. do sth.	高考	24天突破高考英语必背短语.xlsx	建议某人做某事（从句用虚拟语气）	
+advise that sb. should do sth.	高考	24天突破高考英语必背短语.xlsx	建议某人（应该）做某事	
+agree that ...	高考	24天突破高考英语必背短语.xlsx	同意……（从句内容）	
+agree to one's plan	高考	24天突破高考英语必背短语.xlsx	同意某人的计划	
+agree to one's suggestion	高考	24天突破高考英语必背短语.xlsx	同意某人的建议	
+agree with one's analysis	高考	24天突破高考英语必背短语.xlsx	同意某人的分析	
+agree with one's idea	高考	24天突破高考英语必背短语.xlsx	同意某人的想法	
+agree with one's opinion	高考	24天突破高考英语必背短语.xlsx	同意某人的观点	
+all through the year	高考	24天突破高考英语必背短语.xlsx	一年到头；全年	
+appear to do	高考	24天突破高考英语必背短语.xlsx	似乎；看来好像要做	
+apply one's minds to	高考	24天突破高考英语必背短语.xlsx	专心于；潜心研究	
+appreciate sb. doing sth.	高考	24天突破高考英语必背短语.xlsx	感激某人做某事	
+ask some questions of sb.	高考	24天突破高考英语必背短语.xlsx	向某人提问	
+at a great depth	高考	24天突破高考英语必背短语.xlsx	在很深处	
+at a low speed	高考	24天突破高考英语必背短语.xlsx	以低速	
+at a safe speed	高考	24天突破高考英语必背短语.xlsx	以安全的速度	
+at least ... if not more	高考	24天突破高考英语必背短语.xlsx	至少……（甚至更多）	
+at that very moment	高考	24天突破高考英语必背短语.xlsx	就在那时	
+at the ball	高考	24天突破高考英语必背短语.xlsx	在舞会上	
+at the crossing	高考	24天突破高考英语必背短语.xlsx	在十字路口	
+at the top of the voice	高考	24天突破高考英语必背短语.xlsx	放开嗓子；高声地	
+attract one's attention	高考	24天突破高考英语必背短语.xlsx	吸引某人的注意	
+be about to do ... when ...	高考	24天突破高考英语必背短语.xlsx	正要做……这时（突然）……	
+be admitted into universities	高考	24天突破高考英语必背短语.xlsx	被大学录取	
+be along with	高考	24天突破高考英语必背短语.xlsx	和……一起	
+be an expert at sth.	高考	24天突破高考英语必背短语.xlsx	是……方面的专家	
+be an expert in sth.	高考	24天突破高考英语必背短语.xlsx	是……方面的专家	
+be an expert on sth.	高考	24天突破高考英语必背短语.xlsx	是……方面的专家	
+be at breakfast	高考	24天突破高考英语必背短语.xlsx	正在吃早饭	
+be at lunch	高考	24天突破高考英语必背短语.xlsx	正在吃午饭	
+be at supper	高考	24天突破高考英语必背短语.xlsx	正在吃晚饭	
+be at the same level	高考	24天突破高考英语必背短语.xlsx	处于同一水平	
+be blind in one eye	高考	24天突破高考英语必背短语.xlsx	一只眼睛失明	
+be certain to do	高考	24天突破高考英语必背短语.xlsx	肯定会做	
+be considered to be	高考	24天突破高考英语必背短语.xlsx	被认为是	
+be content to do	高考	24天突破高考英语必背短语.xlsx	满足于做；愿意做	
+be doing ... when ...	高考	24天突破高考英语必背短语.xlsx	正在做……这时（突然）……	
+be done away with	高考	24天突破高考英语必背短语.xlsx	被废除；被去掉	
+be due to do	高考	24天突破高考英语必背短语.xlsx	预定要做；预期要做	
+be encouraged to do sth.	高考	24天突破高考英语必背短语.xlsx	被鼓励做某事	
+be expert at doing	高考	24天突破高考英语必背短语.xlsx	擅长做	
+be expert in doing	高考	24天突破高考英语必背短语.xlsx	擅长做	
+be famous to sb.	高考	24天突破高考英语必背短语.xlsx	为某人所熟知	
+be forced to do	高考	24天突破高考英语必背短语.xlsx	被迫做	
+be good on sb.	高考	24天突破高考英语必背短语.xlsx	对某人有效；适合某人	
+be good value for money	高考	24天突破高考英语必背短语.xlsx	物有所值	
+be honoured for sth.	高考	24天突破高考英语必背短语.xlsx	因某事而受到尊敬	
+be in darkness	高考	24天突破高考英语必背短语.xlsx	一片黑暗	
+be in disorder	高考	24天突破高考英语必背短语.xlsx	杂乱无章；处于混乱状态	
+be in earnest	高考	24天突破高考英语必背短语.xlsx	认真的；一本正经	
+be in good order	高考	24天突破高考英语必背短语.xlsx	完好；井然有序	
+be in great need	高考	24天突破高考英语必背短语.xlsx	急需	
+be in one's charge	高考	24天突破高考英语必背短语.xlsx	由某人负责／照管	
+be in poor health	高考	24天突破高考英语必背短语.xlsx	身体不好	
+be in the charge of sb.	高考	24天突破高考英语必背短语.xlsx	由某人负责／掌管	
+be introduced into	高考	24天突破高考英语必背短语.xlsx	被引进；被传入	
+be joined to	高考	24天突破高考英语必背短语.xlsx	与……连接；接到……上	
+be likely to do	高考	24天突破高考英语必背短语.xlsx	可能做；有可能做	
+be longing for	高考	24天突破高考英语必背短语.xlsx	渴望得到	
+be longing to do	高考	24天突破高考英语必背短语.xlsx	渴望做	
+be lost in sight	高考	24天突破高考英语必背短语.xlsx	消失在视线中；看不见了	
+be measured in	高考	24天突破高考英语必背短语.xlsx	以……（单位）来计量	
+be mixed with	高考	24天突破高考英语必背短语.xlsx	与……混合	
+be of the same kind	高考	24天突破高考英语必背短语.xlsx	同一类型；同类	
+be of this kind	高考	24天突破高考英语必背短语.xlsx	属于这一类	
+be on a visit from someplace	高考	24天突破高考英语必背短语.xlsx	从某地来访；在访问中	
+be on a visit to someplace	高考	24天突破高考英语必背短语.xlsx	在某地访问／参观	
+be on business	高考	24天突破高考英语必背短语.xlsx	出差	
+be on diet	高考	24天突破高考英语必背短语.xlsx	节食	
+be pleased at doing sth.	高考	24天突破高考英语必背短语.xlsx	对做某事感到高兴	
+be pleased to do sth.	高考	24天突破高考英语必背短语.xlsx	乐于做某事	
+be polite to sb.	高考	24天突破高考英语必背短语.xlsx	对某人有礼貌	
+be popular among ...	高考	24天突破高考英语必背短语.xlsx	在……当中受欢迎	
+be present at the meeting	高考	24天突破高考英语必背短语.xlsx	出席会议	
+be recognised as	高考	24天突破高考英语必背短语.xlsx	被认作；被认为是	
+be said to do	高考	24天突破高考英语必背短语.xlsx	据说要做；据说……	
+be successful in doing sth.	高考	24天突破高考英语必背短语.xlsx	成功做成某事	
+be supplied to sb.	高考	24天突破高考英语必背短语.xlsx	提供给某人	
+be thought as	高考	24天突破高考英语必背短语.xlsx	被认为是	
+be thought of	高考	24天突破高考英语必背短语.xlsx	被想起；被认为	
+be tired from doing	高考	24天突破高考英语必背短语.xlsx	因做……而疲劳	
+be to the taste	高考	24天突破高考英语必背短语.xlsx	合口味；受……欢迎	
+be trapped by	高考	24天突破高考英语必背短语.xlsx	被困于；落入……的圈套	
+be trapped by the fire	高考	24天突破高考英语必背短语.xlsx	被大火困住	
+be under one's charge	高考	24天突破高考英语必背短语.xlsx	由某人主管	
+be under the charge of sb.	高考	24天突破高考英语必背短语.xlsx	在某人主管之下	
+be unwilling to do	高考	24天突破高考英语必背短语.xlsx	不愿意做	
+be used to do	高考	24天突破高考英语必背短语.xlsx	被用来做	
+be used to doing	高考	24天突破高考英语必背短语.xlsx	习惯于做	
+be value for money	高考	24天突破高考英语必背短语.xlsx	物有所值	
+be widely accepted	高考	24天突破高考英语必背短语.xlsx	被广泛接受	
+beat sb. black and blue	高考	24天突破高考英语必背短语.xlsx	把某人打得青一块紫一块	
+beat sb. on the head	高考	24天突破高考英语必背短语.xlsx	打在某人的头上	
+beat sb. to death	高考	24天突破高考英语必背短语.xlsx	把某人打死	
+become a success	高考	24天突破高考英语必背短语.xlsx	获得成功；成为成功的人（事）	
+become separated	高考	24天突破高考英语必背短语.xlsx	分开；走散	
+become widely accepted	高考	24天突破高考英语必背短语.xlsx	被广泛接受	
+both ... not ...	高考	24天突破高考英语必背短语.xlsx	并非两者都……（部分否定）	
+break one's words	高考	24天突破高考英语必背短语.xlsx	失信；食言	
+bring ... to one's notice	高考	24天突破高考英语必背短语.xlsx	使某人注意到……	
+call on sb. to do sth.	高考	24天突破高考英语必背短语.xlsx	号召／恳请某人做某事	
+call one's attention to	高考	24天突破高考英语必背短语.xlsx	唤起某人对……的注意	
+can't resist doing	高考	24天突破高考英语必背短语.xlsx	忍不住做；无法抗拒	
+carry out one's promise	高考	24天突破高考英语必背短语.xlsx	履行诺言	
+catch one's attention	高考	24天突破高考英语必背短语.xlsx	引起某人的注意	
+come to one's notice	高考	24天突破高考英语必背短语.xlsx	引起某人的注意；被某人注意到	
+consider ... to be	高考	24天突破高考英语必背短语.xlsx	认为……是……	
+cover the events	高考	24天突破高考英语必背短语.xlsx	报道这些事件	
+cut one's hair short	高考	24天突破高考英语必背短语.xlsx	把头发剪短	
+daily goods	高考	24天突破高考英语必背短语.xlsx	日用品	
+delay doing	高考	24天突破高考英语必背短语.xlsx	推迟做	
+demand to do	高考	24天突破高考英语必背短语.xlsx	要求做	
+develop an interest in sth.	高考	24天突破高考英语必背短语.xlsx	培养对某事的兴趣	
+direct sb. to do	高考	24天突破高考英语必背短语.xlsx	指示／指导某人做	
+direct that sb. should do	高考	24天突破高考英语必背短语.xlsx	指示某人（应该）做	
+discourage sb. from doing sth.	高考	24天突破高考英语必背短语.xlsx	劝阻某人不做某事	
+dislike doing sth.	高考	24天突破高考英语必背短语.xlsx	不喜欢做某事	
+do research about ...	高考	24天突破高考英语必背短语.xlsx	对……进行研究	
+do research in ...	高考	24天突破高考英语必背短语.xlsx	在……领域做研究	
+do research into ...	高考	24天突破高考英语必背短语.xlsx	对……进行深入研究	
+do so ... as to do	高考	24天突破高考英语必背短语.xlsx	这样做以便……	
+do such ... as to do	高考	24天突破高考英语必背短语.xlsx	做到如此程度以便……	
+draw a deep breath	高考	24天突破高考英语必背短语.xlsx	深吸一口气	
+draw one's attention	高考	24天突破高考英语必背短语.xlsx	吸引某人的注意	
+drop in at ...	高考	24天突破高考英语必背短语.xlsx	顺便拜访（某地）	
+far more interesting	高考	24天突破高考英语必背短语.xlsx	有趣得多	
+find sth. hard to do	高考	24天突破高考英语必背短语.xlsx	发现某事很难做	
+find sth. to do	高考	24天突破高考英语必背短语.xlsx	找到事情做	
+fix a date for sth.	高考	24天突破高考英语必背短语.xlsx	为某事定好日期	
+fix a date to do sth.	高考	24天突破高考英语必背短语.xlsx	定下做某事的日期	
+fix a time for sth.	高考	24天突破高考英语必背短语.xlsx	为某事约定时间	
+fix a time to do sth.	高考	24天突破高考英语必背短语.xlsx	约定做某事的时间	
+follow one's advice on	高考	24天突破高考英语必背短语.xlsx	在某方面听从某人的建议	
+follow the rules	高考	24天突破高考英语必背短语.xlsx	遵守规则	
+fool sb. into doing sth.	高考	24天突破高考英语必背短语.xlsx	哄骗某人做某事	
+for political reasons	高考	24天突破高考英语必背短语.xlsx	出于政治原因	
+for reasons	高考	24天突破高考英语必背短语.xlsx	出于某些原因	
+forbid sb. to do sth.	高考	24天突破高考英语必背短语.xlsx	禁止某人做某事	
+force oneself to one's feet	高考	24天突破高考英语必背短语.xlsx	勉强站起来	
+from a great distance	高考	24天突破高考英语必背短语.xlsx	从很远的地方	
+get down to doing sth.	高考	24天突破高考英语必背短语.xlsx	开始认真处理／做某事	
+get good from ...	高考	24天突破高考英语必背短语.xlsx	从……中得到好处	
+get it settled	高考	24天突破高考英语必背短语.xlsx	把它定下来；解决妥当	
+get on the right track	高考	24天突破高考英语必背短语.xlsx	走上正轨	
+get separated	高考	24天突破高考英语必背短语.xlsx	失散；走散	
+get up to one's feet	高考	24天突破高考英语必背短语.xlsx	站起来	
+get used to doing	高考	24天突破高考英语必背短语.xlsx	习惯于做	
+give one's regards to sb.	高考	24天突破高考英语必背短语.xlsx	向某人问好；代某人问好	
+give sb. a message	高考	24天突破高考英语必背短语.xlsx	给某人捎个口信	
+give sb. advice on ...	高考	24天突破高考英语必背短语.xlsx	在……方面给某人提建议	
+go all the way back to the time of	高考	24天突破高考英语必背短语.xlsx	一直追溯到……的时代	
+go mad about	高考	24天突破高考英语必背短语.xlsx	对……着迷；为……发狂	
+go on a trip on ...	高考	24天突破高考英语必背短语.xlsx	乘……去旅行	
+good manner	高考	24天突破高考英语必背短语.xlsx	有礼貌；得体的举止	
+grow rich	高考	24天突破高考英语必背短语.xlsx	变富；致富	
+guess sb. to be	高考	24天突破高考英语必背短语.xlsx	猜测某人是……	
+have a great effect on	高考	24天突破高考英语必背短语.xlsx	对……有很大影响	
+have a trip on ...	高考	24天突破高考英语必背短语.xlsx	乘……作一次旅行	
+have difficulty doing sth.	高考	24天突破高考英语必背短语.xlsx	做某事有困难	
+have difficulty in doing sth.	高考	24天突破高考英语必背短语.xlsx	做某事有困难	
+have sth. for breakfast	高考	24天突破高考英语必背短语.xlsx	早饭吃……	
+have sth. for lunch	高考	24天突破高考英语必背短语.xlsx	午饭吃……	
+have sth. for supper	高考	24天突破高考英语必背短语.xlsx	晚饭吃……	
+have the habit of doing sth.	高考	24天突破高考英语必背短语.xlsx	有做某事的习惯	
+hit sb. on the ...	高考	24天突破高考英语必背短语.xlsx	打在某人（身体某部位）上	
+humour sense	高考	24天突破高考英语必背短语.xlsx	幽默感	
+in a high voice	高考	24天突破高考英语必背短语.xlsx	高声地	
+in one's judgement	高考	24天突破高考英语必背短语.xlsx	依某人看来	
+in the following years	高考	24天突破高考英语必背短语.xlsx	在随后的几年里	
+in the last hours	高考	24天突破高考英语必背短语.xlsx	在最后几个小时里	
+in the past ten years	高考	24天突破高考英语必背短语.xlsx	在过去十年里	
+in the past years	高考	24天突破高考英语必背短语.xlsx	在过去的几年里	
+in the years that followed	高考	24天突破高考英语必背短语.xlsx	在其后的年代里	
+It is no good doing ...	高考	24天突破高考英语必背短语.xlsx	做……没有好处	
+It is no use doing ...	高考	24天突破高考英语必背短语.xlsx	做……没有用	
+It is one's turn to do sth.	高考	24天突破高考英语必背短语.xlsx	轮到某人做某事	
+It is up to sb.	高考	24天突破高考英语必背短语.xlsx	由某人决定	
+It is up to sb. to do sth.	高考	24天突破高考英语必背短语.xlsx	做某事是某人的职责／由某人决定	
+It looks as though ...	高考	24天突破高考英语必背短语.xlsx	看起来好像……	
+It occurred to sb. that ...	高考	24天突破高考英语必背短语.xlsx	某人突然想到……	
+It seems as though ...	高考	24天突破高考英语必背短语.xlsx	似乎；好像……	
+It sounds as if ...	高考	24天突破高考英语必背短语.xlsx	听起来好像……	
+It sounds as though ...	高考	24天突破高考英语必背短语.xlsx	听起来好像……	
+keep a strict eye on ...	高考	24天突破高考英语必背短语.xlsx	严密注视……	
+keep the record	高考	24天突破高考英语必背短语.xlsx	保持纪录	
+knock at the window	高考	24天突破高考英语必背短语.xlsx	敲窗户	
+knock on the window	高考	24天突破高考英语必背短语.xlsx	敲窗户	
+knock oneself against	高考	24天突破高考英语必背短语.xlsx	自己撞在……上	
+live in separate rooms	高考	24天突破高考英语必背短语.xlsx	分房而住	
+look forward to doing	高考	24天突破高考英语必背短语.xlsx	盼望做	
+make a good effort	高考	24天突破高考英语必背短语.xlsx	作出很大努力	
+make contributions to doing	高考	24天突破高考英语必背短语.xlsx	为做……作出贡献	
+make no answer	高考	24天突破高考英语必背短语.xlsx	没有回答	
+make one's living by doing	高考	24天突破高考英语必背短语.xlsx	靠做……谋生	
+make sth. to one's own measure	高考	24天突破高考英语必背短语.xlsx	按（某人的）尺寸制作某物	
+make up one's mind to do	高考	24天突破高考英语必背短语.xlsx	下决心做	
+man-made project	高考	24天突破高考英语必背短语.xlsx	人造工程	
+may have done	高考	24天突破高考英语必背短语.xlsx	可能已经做了	
+meet one's demands	高考	24天突破高考英语必背短语.xlsx	满足某人的要求	
+meet one's needs	高考	24天突破高考英语必背短语.xlsx	满足某人的需要	
+meet one's requirements	高考	24天突破高考英语必背短语.xlsx	满足某人的要求	
+need have done	高考	24天突破高考英语必背短语.xlsx	本有必要做（实际多用于否定、疑问）	
+nobody but ...	高考	24天突破高考英语必背短语.xlsx	除了……没有别人；正是……	
+not only ... but ...	高考	24天突破高考英语必背短语.xlsx	不但……而且……	
+on one's arrival	高考	24天突破高考英语必背短语.xlsx	某人一到达	
+on the coast of some country	高考	24天突破高考英语必背短语.xlsx	在某国的海岸上	
+on the sands	高考	24天突破高考英语必背短语.xlsx	在沙滩上	
+on the two sides	高考	24天突破高考英语必背短语.xlsx	在两边	
+on the west coast of some country	高考	24天突破高考英语必背短语.xlsx	在某国的西海岸	
+one such ...	高考	24天突破高考英语必背短语.xlsx	这样的一个……	
+one's attitude to sth.	高考	24天突破高考英语必背短语.xlsx	对某事的态度	
+one's attitude towards sth.	高考	24天突破高考英语必背短语.xlsx	对某事的态度	
+ought to have done	高考	24天突破高考英语必背短语.xlsx	本应当做（却没做）	
+out of one's reach	高考	24天突破高考英语必背短语.xlsx	够不着；力所不及	
+owe one's thanks to sb.	高考	24天突破高考英语必背短语.xlsx	应感谢某人；把感激归于某人	
+owe success to sb.	高考	24天突破高考英语必背短语.xlsx	把成功归功于某人	
+pass on a message to sb.	高考	24天突破高考英语必背短语.xlsx	给某人捎信	
+pay back the money	高考	24天突破高考英语必背短语.xlsx	还钱；偿还钱款	
+pay little attention to	高考	24天突破高考英语必背短语.xlsx	很少注意；不大重视	
+pay money for sth.	高考	24天突破高考英语必背短语.xlsx	付钱买某物	
+pay much attention to	高考	24天突破高考英语必背短语.xlsx	非常注意；十分重视	
+pay off the debt	高考	24天突破高考英语必背短语.xlsx	还清债务	
+pay off the money	高考	24天突破高考英语必背短语.xlsx	还清钱款	
+permit doing	高考	24天突破高考英语必背短语.xlsx	允许做（某事）	
+permit sb. to do	高考	24天突破高考英语必背短语.xlsx	允许某人做	
+persuade sb. into doing	高考	24天突破高考英语必背短语.xlsx	说服某人做	
+persuade sb. not to do	高考	24天突破高考英语必背短语.xlsx	说服某人不做	
+persuade sb. out of doing	高考	24天突破高考英语必背短语.xlsx	说服某人停止做	
+persuade sb. to do	高考	24天突破高考英语必背短语.xlsx	说服某人做	
+plan a bicycle trip	高考	24天突破高考英语必背短语.xlsx	计划一次骑自行车旅行	
+play a joke with sb.	高考	24天突破高考英语必背短语.xlsx	和某人开玩笑	
+prefer doing ... to doing ...	高考	24天突破高考英语必背短语.xlsx	宁愿做……而不愿做……	
+prefer to do ... rather than do ...	高考	24天突破高考英语必背短语.xlsx	宁愿做……而不愿做……	
+prevent ... from doing sth.	高考	24天突破高考英语必背短语.xlsx	防止／阻止……做某事	
+put a tax on sth.	高考	24天突破高考英语必背短语.xlsx	对某物征税	
+put on performances	高考	24天突破高考英语必背短语.xlsx	上演节目；进行演出	
+raise a cheer	高考	24天突破高考英语必背短语.xlsx	发出欢呼；喝彩	
+read one's thoughts	高考	24天突破高考英语必背短语.xlsx	看出某人的心思	
+receive degree	高考	24天突破高考英语必背短语.xlsx	获得学位	
+receive one's doctor's degree	高考	24天突破高考英语必背短语.xlsx	获得博士学位	
+regret to do	高考	24天突破高考英语必背短语.xlsx	遗憾地要去做（事情还没做）	
+remain in business	高考	24天突破高考英语必背短语.xlsx	继续营业	
+require to do sth.	高考	24天突破高考英语必背短语.xlsx	要求做某事	
+run at a speed of ...	高考	24天突破高考英语必背短语.xlsx	以……的速度运行／奔跑	
+run at top speed	高考	24天突破高考英语必背短语.xlsx	以全速跑	
+satisfy one's demands	高考	24天突破高考英语必背短语.xlsx	满足某人的需求	
+satisfy one's needs	高考	24天突破高考英语必背短语.xlsx	满足某人的需要	
+satisfy one's requirements	高考	24天突破高考英语必背短语.xlsx	满足某人的要求	
+seek the sun	高考	24天突破高考英语必背短语.xlsx	追寻阳光；向阳	
+set up a record	高考	24天突破高考英语必背短语.xlsx	创造纪录	
+settle the problem	高考	24天突破高考英语必背短语.xlsx	解决问题	
+shift round the clock	高考	24天突破高考英语必背短语.xlsx	昼夜轮班；二十四小时连转	
+shock the whole world	高考	24天突破高考英语必背短语.xlsx	震惊全世界	
+show one's respect to sb.	高考	24天突破高考英语必背短语.xlsx	向某人表示敬意	
+So far as I see, ...	高考	24天突破高考英语必背短语.xlsx	据我看……	
+someone else's	高考	24天突破高考英语必背短语.xlsx	别人的	
+someone else's book	高考	24天突破高考英语必背短语.xlsx	别人的书	
+something as follows	高考	24天突破高考英语必背短语.xlsx	如下的事项／内容	
+speak in a high voice	高考	24天突破高考英语必背短语.xlsx	大声说	
+speak in a low voice	高考	24天突破高考英语必背短语.xlsx	低声说	
+spend time in doing	高考	24天突破高考英语必背短语.xlsx	花时间做	
+spend time on sth.	高考	24天突破高考英语必背短语.xlsx	在某事上花时间	
+stay silent	高考	24天突破高考英语必背短语.xlsx	保持沉默	
+sth. cost sb. some money	高考	24天突破高考英语必背短语.xlsx	某物花了某人（多少钱）	
+sth. last some time	高考	24天突破高考英语必背短语.xlsx	某物持续（用了）一段时间	
+swim to ...	高考	24天突破高考英语必背短语.xlsx	游向……	
+take a message to sb.	高考	24天突破高考英语必背短语.xlsx	给某人捎口信	
+take it for granted that ...	高考	24天突破高考英语必背短语.xlsx	想当然地认为……	
+take one's attention	高考	24天突破高考英语必背短语.xlsx	吸引某人的注意	
+take one's exam	高考	24天突破高考英语必背短语.xlsx	参加考试	
+take photographs of	高考	24天突破高考英语必背短语.xlsx	给……拍照	
+take turns to do sth.	高考	24天突破高考英语必背短语.xlsx	轮流做某事	
+take two more pills	高考	24天突破高考英语必背短语.xlsx	再服两粒药	
+tell the difference between ... and ...	高考	24天突破高考英语必背短语.xlsx	辨别……与……的不同	
+the answer to the question	高考	24天突破高考英语必背短语.xlsx	问题的答案	
+the attitude to sth.	高考	24天突破高考英语必背短语.xlsx	对某事的态度	
+the ban on doing	高考	24天突破高考英语必背短语.xlsx	对做……的禁令	
+the ban on sth.	高考	24天突破高考英语必背短语.xlsx	对某事的禁令	
+the entrance to	高考	24天突破高考英语必背短语.xlsx	……的入口	
+the first time to do	高考	24天突破高考英语必背短语.xlsx	第一次做……	
+the key to the question	高考	24天突破高考英语必背短语.xlsx	问题的关键（答案）	
+the level of the sea	高考	24天突破高考英语必背短语.xlsx	海平面	
+the lines of the play	高考	24天突破高考英语必背短语.xlsx	剧中的台词	
+The reason why ... is that ...	高考	24天突破高考英语必背短语.xlsx	……的原因是……	
+the students' union	高考	24天突破高考英语必背短语.xlsx	学生会	
+There is no need to do ...	高考	24天突破高考英语必背短语.xlsx	没有必要做……	
+There is no point in doing sth.	高考	24天突破高考英语必背短语.xlsx	做某事毫无意义	
+There is no trouble in doing ...	高考	24天突破高考英语必背短语.xlsx	做……没有困难	
+times as big as ...	高考	24天突破高考英语必背短语.xlsx	是……的几倍大	
+to one's delight	高考	24天突破高考英语必背短语.xlsx	使某人高兴的是	
+to the joy of sb.	高考	24天突破高考英语必背短语.xlsx	使某人高兴的是	
+treat ... as if	高考	24天突破高考英语必背短语.xlsx	对待……好像……	
+treat ... as though	高考	24天突破高考英语必背短语.xlsx	对待……仿佛……	
+try one's best to do	高考	24天突破高考英语必背短语.xlsx	尽最大努力做	
+turn to sb. for help	高考	24天突破高考英语必背短语.xlsx	向某人求助	
+under one's direction	高考	24天突破高考英语必背短语.xlsx	在某人的指导下	
+under the pressure	高考	24天突破高考英语必背短语.xlsx	在压力之下	
+wait for sb. to do	高考	24天突破高考英语必背短语.xlsx	等某人做	
+warn sb. never to do	高考	24天突破高考英语必背短语.xlsx	警告某人千万不要做	
+warn sb. not to do	高考	24天突破高考英语必背短语.xlsx	警告某人不要做	
+wave hello to sb.	高考	24天突破高考英语必背短语.xlsx	向某人挥手致意	
+What's the population of ...?	高考	24天突破高考英语必背短语.xlsx	……的人口是多少？	
+win a majority	高考	24天突破高考英语必背短语.xlsx	赢得多数（票）	
+wind one's way	高考	24天突破高考英语必背短语.xlsx	蜿蜒前进；迂回而行	
+wind the clock	高考	24天突破高考英语必背短语.xlsx	给钟上发条	
+wind the watch	高考	24天突破高考英语必背短语.xlsx	给表上发条	
+with this method	高考	24天突破高考英语必背短语.xlsx	用这种方法	
+wonder to do	高考	24天突破高考英语必背短语.xlsx	诧异；想知道（后接不定式）	
+wonder whether ...	高考	24天突破高考英语必背短语.xlsx	不知道是否……	
+would prefer to do	高考	24天突破高考英语必背短语.xlsx	更愿意做；宁愿做	
+You'd better do sth.	高考	24天突破高考英语必背短语.xlsx	你最好做某事	
+achieve one's dreams	初中	初中英语常考短语.xlsx	实现梦想	
+ask one's permission	初中	初中英语常考短语.xlsx	征求某人的许可	
+at supper	初中	初中英语常考短语.xlsx	在吃晚饭	
+at the corner of	初中	初中英语常考短语.xlsx	在……的拐角处	
+be afraid of doing sth.	初中	初中英语常考短语.xlsx	害怕做某事	
+be certain to do sth.	初中	初中英语常考短语.xlsx	肯定会做某事	
+be frightened to do sth.	初中	初中英语常考短语.xlsx	害怕做某事	
+be ill in bed	初中	初中英语常考短语.xlsx	卧病在床	
+be made to do sth.	初中	初中英语常考短语.xlsx	被迫做某事（make 的被动式还原 to）	
+be moved by	初中	初中英语常考短语.xlsx	被……感动	
+be poor in	初中	初中英语常考短语.xlsx	缺乏……	
+be sad for	初中	初中英语常考短语.xlsx	为……难过	
+be talented in	初中	初中英语常考短语.xlsx	在……方面有天赋	
+be used to do sth.	初中	初中英语常考短语.xlsx	被用来做某事	
+be used to doing sth.	初中	初中英语常考短语.xlsx	习惯于做某事	
+between ... and ...	初中	初中英语常考短语.xlsx	在……和……两者之间	
+congratulations to	初中	初中英语常考短语.xlsx	祝贺……	
+correct the mistakes	初中	初中英语常考短语.xlsx	改正错误	
+develop a film	初中	初中英语常考短语.xlsx	冲洗胶卷（底片）	
+do some exercises	初中	初中英语常考短语.xlsx	做练习题；做操	
+find sb. doing sth.	初中	初中英语常考短语.xlsx	发现某人正在做某事	
+get mad at	初中	初中英语常考短语.xlsx	对……生气	
+get ready to do sth.	初中	初中英语常考短语.xlsx	准备好做某事	
+get used to doing sth.	初中	初中英语常考短语.xlsx	习惯于做某事	
+go on to do sth.	初中	初中英语常考短语.xlsx	接着做另一件事	
+had better not do sth.	初中	初中英语常考短语.xlsx	最好不要做某事	
+have got a high fever	初中	初中英语常考短语.xlsx	发高烧	
+have no time to do	初中	初中英语常考短语.xlsx	没有时间做	
+in a tired voice	初中	初中英语常考短语.xlsx	用疲倦的声音	
+in another way	初中	初中英语常考短语.xlsx	用另一种方式	
+in hunger	初中	初中英语常考短语.xlsx	处于饥饿之中	
+in one's fifties	初中	初中英语常考短语.xlsx	在五十多岁时	
+in the 1970s	初中	初中英语常考短语.xlsx	在二十世纪七十年代	
+in the past few years	初中	初中英语常考短语.xlsx	在过去几年里	
+keep secrets	初中	初中英语常考短语.xlsx	保守秘密	
+make a phone call to	初中	初中英语常考短语.xlsx	给……打电话	
+make one's way towards	初中	初中英语常考短语.xlsx	向……走去	
+neither does sb.	初中	初中英语常考短语.xlsx	某人也不（倒装）	
+no choice but ...	初中	初中英语常考短语.xlsx	除了……别无选择	
+notice sb. do sth.	初中	初中英语常考短语.xlsx	注意到某人做了某事	
+on one's side	初中	初中英语常考短语.xlsx	在某人一边；支持某人	
+practice with	初中	初中英语常考短语.xlsx	与……一起练习；用……练习	
+prefer to do sth. rather than do sth.	初中	初中英语常考短语.xlsx	宁愿做……而不愿做……	
+read a newspaper	初中	初中英语常考短语.xlsx	看报；读报	
+set the alarm clock	初中	初中英语常考短语.xlsx	给闹钟定时	
+show the ticket	初中	初中英语常考短语.xlsx	出示车票（证件票券）	
+sing sb.'s praises	初中	初中英语常考短语.xlsx	高度赞扬某人	
+sing sth.'s praises	初中	初中英语常考短语.xlsx	高度赞扬某事物	
+solve the problems	初中	初中英语常考短语.xlsx	解决问题	
+spend ... doing sth.	初中	初中英语常考短语.xlsx	花费（时间／金钱）做某事	
+start a club	初中	初中英语常考短语.xlsx	创办俱乐部	
+such a fine day	初中	初中英语常考短语.xlsx	这么好的天气	
+take different routes	初中	初中英语常考短语.xlsx	走不同的路线	
+take one's advice	初中	初中英语常考短语.xlsx	听从某人的建议	
+watch a match	初中	初中英语常考短语.xlsx	观看比赛	
+at sb.'s disposal	四六级	四六级常考核心词组1500.xlsx	由某人随意支配	
+do one's share	四六级	四六级常考核心词组1500.xlsx	做自己的一份工作；尽自己的一份力	
+get on sb.'s nerves	四六级	四六级常考核心词组1500.xlsx	使某人心烦不安	
+in sb.'s debt	四六级	四六级常考核心词组1500.xlsx	欠某人的债（人情）	
+in sb.'s presence	四六级	四六级常考核心词组1500.xlsx	在某人面前	
+in sb.'s shoes	四六级	四六级常考核心词组1500.xlsx	处于某人的地位（处境）	
+in sb.'s way	四六级	四六级常考核心词组1500.xlsx	挡某人的路；妨碍某人	
+in the behalf of	四六级	四六级常考核心词组1500.xlsx	代表……；为了……的利益	
+on the sky	四六级	四六级常考核心词组1500.xlsx	在天空中（惯用搭配为 in the sky，建议核对）	
+take care over	四六级	四六级常考核心词组1500.xlsx	细心对待；讲究……	
+upon one's honor	四六级	四六级常考核心词组1500.xlsx	以名誉担保	
+a glimpse at	四六级	四六级常考词组必备.xlsx	对……粗略的一瞥	
+accuse sb. of doing sth.	四六级	四六级常考词组必备.xlsx	指控某人做了某事	
+amuse sb. by doing sth.	四六级	四六级常考词组必备.xlsx	以做某事逗乐某人	
+balance between A and B	四六级	四六级常考词组必备.xlsx	A 与 B 之间的平衡	
+be accustomed to doing sth.	四六级	四六级常考词组必备.xlsx	习惯于做某事	
+be advisable to	四六级	四六级常考词组必备.xlsx	做……是明智的；最好……	
+be assigned to do	四六级	四六级常考词组必备.xlsx	被指派做	
+be at one's disposal	四六级	四六级常考词组必备.xlsx	由某人随意支配	
+be at the mercy of	四六级	四六级常考词组必备.xlsx	受……的摆布；任由……支配	
+be beyond all question	四六级	四六级常考词组必备.xlsx	毫无疑问	
+be beyond belief	四六级	四六级常考词组必备.xlsx	难以置信	
+be beyond compare	四六级	四六级常考词组必备.xlsx	无与伦比	
+be cautious about	四六级	四六级常考词组必备.xlsx	对……谨慎小心	
+be implicit in	四六级	四六级常考词组必备.xlsx	暗含在……之中	
+be in embryo	四六级	四六级常考词组必备.xlsx	尚在萌芽（雏形）阶段	
+be in one's shoes	四六级	四六级常考词组必备.xlsx	处于某人的境地	
+be in one's way	四六级	四六级常考词组必备.xlsx	挡某人的路；妨碍某人	
+be in opposition	四六级	四六级常考词组必备.xlsx	持反对态度；（政党）在野	
+be in opposition to	四六级	四六级常考词组必备.xlsx	与……相对立；反对……	
+be in the mood to do sth.	四六级	四六级常考词组必备.xlsx	有心情做某事	
+be indispensable for	四六级	四六级常考词组必备.xlsx	对……来说是必不可少的	
+be irrespective of	四六级	四六级常考词组必备.xlsx	不顾；不考虑……	
+be not in the mood	四六级	四六级常考词组必备.xlsx	没有心情	
+be not in the mood for sth.	四六级	四六级常考词组必备.xlsx	没有心情做某事	
+be not in the mood to do sth.	四六级	四六级常考词组必备.xlsx	没有心情做某事	
+be off guard	四六级	四六级常考词组必备.xlsx	不提防；猝不及防	
+be off the track	四六级	四六级常考词组必备.xlsx	偏离正轨（跑题）	
+be on the job	四六级	四六级常考词组必备.xlsx	正在工作；警惕着	
+be out of temper	四六级	四六级常考词组必备.xlsx	在发脾气；生气	
+be skeptical about	四六级	四六级常考词组必备.xlsx	对……抱怀疑态度	
+be up to the minute	四六级	四六级常考词组必备.xlsx	最新式的；紧随时尚的	
+be without compare	四六级	四六级常考词组必备.xlsx	无与伦比	
+bring sb. to his knees	四六级	四六级常考词组必备.xlsx	迫使某人屈服	
+compose oneself to do sth.	四六级	四六级常考词组必备.xlsx	平心静气地做某事	
+concentrate on doing sth.	四六级	四六级常考词组必备.xlsx	聚精会神地做某事	
+confess to doing sth.	四六级	四六级常考词组必备.xlsx	承认做过某事	
+cooperate with sb. in doing sth.	四六级	四六级常考词组必备.xlsx	与某人合作做某事	
+discourage sb. from doing	四六级	四六级常考词组必备.xlsx	使某人泄气而不做	
+draw one's attention to sth.	四六级	四六级常考词组必备.xlsx	把某人的注意力引到某事上	
+enroll on	四六级	四六级常考词组必备.xlsx	登记参加；报名加入	
+feel an interest in ...	四六级	四六级常考词组必备.xlsx	对……感兴趣	
+follow one's advice	四六级	四六级常考词组必备.xlsx	听从某人的建议	
+generate from	四六级	四六级常考词组必备.xlsx	由……产生；发源于	
+get a fever	四六级	四六级常考词组必备.xlsx	发烧	
+get insight into	四六级	四六级常考词组必备.xlsx	洞察；深刻了解……	
+go the rounds of	四六级	四六级常考词组必备.xlsx	巡回；（消息）传遍……	
+hold sb. to ransom	四六级	四六级常考词组必备.xlsx	挟持某人索取赎金；要挟某人	
+in one's honor	四六级	四六级常考词组必备.xlsx	为向某人表示敬意	
+in one's presence	四六级	四六级常考词组必备.xlsx	当着某人的面	
+influence upon ...	四六级	四六级常考词组必备.xlsx	对……的影响	
+influence with ...	四六级	四六级常考词组必备.xlsx	对……的影响力	
+jump a queue	四六级	四六级常考词组必备.xlsx	插队	
+launch in	四六级	四六级常考词组必备.xlsx	开始；投入（常为 launch into，建议核对）	
+lay great emphasis on	四六级	四六级常考词组必备.xlsx	非常强调；极度重视	
+make a top priority	四六级	四六级常考词组必备.xlsx	作为最优先处理的事	
+make one's acquaintance of sb.	四六级	四六级常考词组必备.xlsx	结识某人（惯用 make sb.'s acquaintance，建议核对）	
+mediate in	四六级	四六级常考词组必备.xlsx	在……中进行调解	
+on one's own behalf	四六级	四六级常考词组必备.xlsx	代表自己；为了自己	
+orient toward	四六级	四六级常考词组必备.xlsx	朝向……；以……为导向	
+persist for	四六级	四六级常考词组必备.xlsx	持续（一段时间）	
+persist in doing sth.	四六级	四六级常考词组必备.xlsx	坚持不懈地做某事	
+propose to doing	四六级	四六级常考词组必备.xlsx	建议（做）……（通常为 propose to do，建议核对）	
+queue for	四六级	四六级常考词组必备.xlsx	排队等候	
+range from A to B	四六级	四六级常考词组必备.xlsx	（范围）从 A 到 B 不等	
+reaction against	四六级	四六级常考词组必备.xlsx	对……的反抗（反感）	
+shake one's belief	四六级	四六级常考词组必备.xlsx	动摇某人的信念	
+stream into	四六级	四六级常考词组必备.xlsx	源源涌入	
+talk sb. into doing	四六级	四六级常考词组必备.xlsx	说服某人做某事	
+the ability for sth.	四六级	四六级常考词组必备.xlsx	从事某事的能力	
+the ability in doing sth.	四六级	四六级常考词组必备.xlsx	做某事的能力	
+the ability to do sth.	四六级	四六级常考词组必备.xlsx	做某事的能力	
+to all intents	四六级	四六级常考词组必备.xlsx	实际上；无论从哪点看（常接 and purposes）	
+twist one's ankle	四六级	四六级常考词组必备.xlsx	扭伤脚踝	
+apologize to sb. for doing sth.	高中	高中英语常考短语与句型.xlsx	因做某事向某人道歉	
+bargain with sb. for sth.	高中	高中英语常考短语与句型.xlsx	为某物与某人讨价还价	
+be pleased about	高中	高中英语常考短语与句型.xlsx	对……感到满意（高兴）	
+can't wait to	高中	高中英语常考短语与句型.xlsx	迫不及待要（做）……	
+distinguish between ... and ...	高中	高中英语常考短语与句型.xlsx	区分……与……	
+have a desire to do	高中	高中英语常考短语与句型.xlsx	有做……的愿望	
+have a population of	高中	高中英语常考短语与句型.xlsx	有……的人口	
+have sth. in stock	高中	高中英语常考短语与句型.xlsx	备有某物的存货	
+have trouble in doing sth.	高中	高中英语常考短语与句型.xlsx	做某事有困难	
+in the history of	高中	高中英语常考短语与句型.xlsx	在……的历史上	
+in whispers	高中	高中英语常考短语与句型.xlsx	低声地；悄声地	
+make one's way toward	高中	高中英语常考短语与句型.xlsx	向……走去	
+on one's way to	高中	高中英语常考短语与句型.xlsx	在去……的路上	
+on the one hand ... on the other ...	高中	高中英语常考短语与句型.xlsx	一方面……另一方面……	
+on the point of doing sth.	高中	高中英语常考短语与句型.xlsx	正要做某事	
+out of respect	高中	高中英语常考短语与句型.xlsx	出于尊敬	
+persuade sb. to do sth.	高中	高中英语常考短语与句型.xlsx	说服某人做某事	
+prefer to do rather than do	高中	高中英语常考短语与句型.xlsx	宁愿做……而不愿做……	
+prevent sb. from doing sth.	高中	高中英语常考短语与句型.xlsx	阻止某人做某事	
+push one's way through	高中	高中英语常考短语与句型.xlsx	挤出一条路；挤过人群	
+quarrel with sb. about sth.	高中	高中英语常考短语与句型.xlsx	为某事与某人争吵	
+quarrel with sb. over sth.	高中	高中英语常考短语与句型.xlsx	为某事与某人争吵	
+remind sb. not to do sth.	高中	高中英语常考短语与句型.xlsx	提醒某人不要做某事	
+remind sb. to do sth.	高中	高中英语常考短语与句型.xlsx	提醒某人做某事	
+rise up against	高中	高中英语常考短语与句型.xlsx	起来反抗；起义反对	
+take sb. in one's arms	高中	高中英语常考短语与句型.xlsx	把某人搂（抱）在怀里	
+take sb.'s advice	高中	高中英语常考短语与句型.xlsx	接受某人的建议	
+to sb.'s delight	高中	高中英语常考短语与句型.xlsx	使某人高兴的是	
+to sb.'s surprise	高中	高中英语常考短语与句型.xlsx	使某人吃惊的是	
+trick sb. into doing sth.	高中	高中英语常考短语与句型.xlsx	诱骗某人做某事	
+under sb.'s direction	高中	高中英语常考短语与句型.xlsx	在某人的指导下	
+warn sb. against doing sth.	高中	高中英语常考短语与句型.xlsx	告诫某人不要做某事	
+waste ... doing sth.	高中	高中英语常考短语与句型.xlsx	浪费……（时间）做某事	
+waste ... in doing sth.	高中	高中英语常考短语与句型.xlsx	浪费……（时间）做某事	
+with an average of	高中	高中英语常考短语与句型.xlsx	平均为……	
+would love to do sth.	高中	高中英语常考短语与句型.xlsx	很愿意（想要）做某事	

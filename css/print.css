@@ -1,0 +1,91 @@
+/* =====================================================================
+   print.css — G3 打印/PDF 导出（2026-09-03）
+   入口：错题本 #/mistakes、复习队列 #/review-queue、生词本 #/words
+   三页的「打印」按钮（data-action="print-page"），Ctrl+P 直接打印
+   任意页面也走这套规则兜底。
+
+   设计原则：纸是给学生看题的，不是交互界面的复制品——
+   · 导航、顶栏、按钮、排期标签、交互提示（「点单词可查词典」）全部隐去；
+   · 底色一律纸白 + 墨黑：暖纸主题的底色带色相，打印只会浪费墨；
+   · .mistake-item 整条防跨页断裂，题目看着一半翻页最伤复习节奏；
+   · details 无法用 CSS 强制展开（折叠内容根本不参与渲染），
+     由打印按钮先展开再调 window.print()；直接 Ctrl+P 时解析维持
+     折叠（答案对比行本来就在折叠外，题干+答案仍完整）。
+   ===================================================================== */
+
+/* 释义行由 app.js 的 injectWordMeanings() 在点「打印」时注入，
+   屏幕上永不显示（快照护栏对比的屏幕 DOM 不受影响）。 */
+.print-meaning { display: none; }
+
+@media print {
+  @page { size: A4; margin: 15mm 13mm; }
+
+  html, body {
+    background: #fff !important;
+    color: #000;
+    font-size: 10.5pt;
+  }
+
+  /* —— 纸上无意义：屏幕专用的壳与交互件 —— */
+  .site-nav, .topbar, .skip-link,
+  .toast-live, .undo-bar, .store-warning, .sync-confirm,
+  .lookup-hint, .eyebrow,
+  button, .text-btn, .primary-btn, .ghost-btn,
+  .mistake-actions, .review-status-actions, .cause-editor,
+  .word-row-actions, .word-row-sched,
+  .queue-hero, .queue-upcoming,
+  .empty-state,
+  details > summary {
+    display: none !important;
+  }
+
+  a {
+    color: inherit;
+    text-decoration: none;
+  }
+
+  /* 折叠块展开后 summary 已隐去，内容直接平铺 */
+  details > *:not(summary) { display: block; }
+
+  /* —— 错题条目：整条不断页，满框细线（P-38：不做单侧竖线装饰） —— */
+  .mistake-item {
+    break-inside: avoid;
+    page-break-inside: avoid;
+    border: 0.5pt solid #555;
+    background: #fff;
+    padding: 4mm 5mm;
+    margin: 0 0 4mm;
+  }
+
+  .mistake-top b { font-size: 11pt; }
+  .mistake-answer { margin: 1.5mm 0; }
+  .explanation {
+    background: none;
+    border-top: 0.25pt solid #999;
+    padding-top: 1.5mm;
+    margin-top: 1mm;
+  }
+
+  /* —— 生词本：词 + 释义两栏，虚线分隔像抄写本 —— */
+  .word-row {
+    display: flex;
+    align-items: baseline;
+    gap: 4mm;
+    border-bottom: 0.25pt dotted #888;
+    padding: 1.2mm 0;
+    break-inside: avoid;
+  }
+  .word-row-term { font-weight: 600; min-width: 30mm; }
+  .print-meaning { display: inline; color: #000; flex: 1; }
+  .word-card { break-inside: avoid-page; margin: 0 0 5mm; }
+  .word-card-title { font-size: 11pt; margin: 0 0 2mm; }
+
+  /* —— 页面骨架：标题留下，其余装饰归零 —— */
+  .library-head { margin-bottom: 4mm; border-bottom: 0.5pt solid #333; padding-bottom: 2mm; }
+  .library-head h1 { font-size: 15pt; margin: 0; }
+  main.shell, .mistakes, .word-page {
+    max-width: none;
+    padding: 0;
+    margin: 0;
+  }
+}

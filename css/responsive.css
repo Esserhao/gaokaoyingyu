@@ -1,0 +1,103 @@
+/* =========================================================
+   移动端响应式补丁 (css/responsive.css)
+   --------------------------------------------------------------
+   现有 6 个 CSS 文件里的 @media 已经覆盖了 800/720/640 三档断点。
+   但 390px（多数真机视口）下仍有 5 类容器溢出或折行错乱：
+     1. 顶导 4 项 + 品牌副标题 → 横向超出
+     2. 训练首页 8 卡 2 列 / 选材页 2 列 → 右半整列被裁
+     3. 仪表盘 6 卡 2 列 → 右半整列被裁
+     4. 知识图谱 3 KPI 卡 + 关系列表 4 列固定 grid → 溢出
+     5. 知识图谱 SVG → 撑破页面
+   这一文件统一收口到 <=720 / <=640 / <=480 三档，
+   不重定义桌面样式，只在更窄时收敛或换行。
+   模板断行规则同其他 CSS：单行压缩 + 大括号紧贴。
+   ========================================================= */
+
+/* 全局：阻止任何子元素撑破页面（横向滚动条统一到 body 收口）
+
+   ⚠ 必须用 clip 而不是 hidden。overflow-x:hidden 会强制另一轴变成 auto，
+   使 html/body 成为滚动容器 —— 连带让所有后代的 position:sticky 失效
+   （右侧悬浮答题卡就是这么废掉的：sticky 退化为普通定位，卡片随页面滚走）。
+   overflow-x:clip 同样裁剪横向溢出，但不创建滚动容器，sticky 照常工作。
+   clip 需要 Chrome/Edge 90+、Firefox 81+、Safari 16+。 */
+html, body { overflow-x: clip; }
+
+/* 训练首页 hero / 选材页 hero：极窄屏收紧内距与字号。
+   桌面 var(--fs-hero-lg) 在 390px 下到 42px，仍偏大；
+   这条规则把它再降一档，但保留桌面所有样式不动。 */
+@media (max-width: 480px) {
+  .training-hero { padding: var(--sp-9) var(--sp-5) var(--sp-6) !important; }
+  .training-hero h1 { font-size: var(--fs-5xl) !important; line-height:var(--lh-display)!important; }
+  .training-hero p { font-size: var(--fs-base) !important; }
+  .topic-picker .program-hero h1 { font-size: var(--fs-4xl); line-height:var(--lh-display); }
+  .topic-picker .program-hero p { font-size: var(--fs-base); }
+  .reference-hero { padding: var(--sp-9) var(--sp-4) var(--sp-8) !important; }
+  .reference-hero h1 { font-size: var(--fs-6xl) !important; line-height:var(--lh-display)!important; }
+  .reference-hero p { font-size: var(--fs-base) !important; }
+  .report-hero { padding: var(--sp-7) 0 var(--sp-5) !important; }
+  .report-hero h1 { font-size: var(--fs-4xl) !important; line-height:var(--lh-display)!important; }
+}
+
+/* 训练首页 8 卡网格：<=720 已 2 列；<=480 降为 1 列 */
+@media (max-width: 480px) {
+  .topic-grid { grid-template-columns: 1fr; padding: var(--sp-5) var(--sp-4); }
+  /* 选材页文章网格同样收敛 */
+  .topic-choice-grid { grid-template-columns: 1fr; }
+  /* 仪表盘 6 卡同样收敛为 1 列 */
+  .dashboard-stats { grid-template-columns: 1fr; }
+  /* 仪表盘下一步绿卡 h2 字号收紧 */
+  .dashboard-hero h2 { font-size: var(--fs-2xl); }
+}
+
+/* 顶导：品牌副标题在极窄屏横向溢出。
+   允许 wrap + 隐藏品牌副标题，避免错乱换行。 */
+@media (max-width: 640px) {
+  .reference-header { flex-wrap: wrap; row-gap: var(--sp-2-5); padding: var(--sp-5) var(--sp-4) var(--sp-3); }
+  .reference-brand small { display: none; }
+  .reference-brand b { font-size: var(--fs-md2); }
+}
+
+/* 考试顶栏（exambar-inner）：计时 + 标题 + 交卷按钮在 390px 拥挤。
+   品牌标题截断、按钮紧凑。现有 @media(max-width:800px) 已处理一部分，
+   这里只补 640 以下再收敛一档。 */
+@media (max-width: 640px) {
+  .exambar-inner .brand b { max-width: 100px; font-size: var(--fs-md); overflow: hidden; white-space: nowrap; text-overflow: ellipsis; }
+  .exambar-inner .timer { font-size: var(--fs-md); }
+}
+
+/* 仪表盘"继续专题练习"行卡（150+1fr+auto 三列 grid）：
+   <=640 改为单列堆叠，避免 3 段内容互相挤压。 */
+@media (max-width: 640px) {
+  .continue-item { grid-template-columns: 1fr; row-gap: var(--sp-1-5); padding: var(--sp-3) var(--sp-3-5); }
+  .continue-item small { grid-column: 1; }
+  .continue-item strong { justify-self: start; }
+}
+
+/* 知识图谱 3 个 KPI 卡（display:flex）：<=720 允许 wrap。 */
+@media (max-width: 720px) {
+  .kg-stats { flex-wrap: wrap; }
+  .kg-stats div { flex: 1 1 calc(50% - 9px); min-width: 0; }
+}
+@media (max-width: 480px) {
+  .kg-stats div { flex-basis: 100%; }
+}
+
+/* 能力概览行：桌面是 [题型 | 进度条 | 百分比] 横向，<=480 换行让百分比独占一行 */
+@media (max-width: 480px) {
+  .ability-row { flex-wrap: wrap; row-gap: var(--sp-1-5); }
+  .ability-row b { width: 100%; text-align: right; margin-top: var(--sp-1); }
+}
+
+/* 专题训练页"材料 + 题目"双栏（topic-grid-layout）：
+   现有 @media(max-width:720px) 已降至 1 列。
+   极窄屏再收紧左右内距让长行不溢出。 */
+@media (max-width: 480px) {
+  .topic-workspace, .topic-report { padding: 0 var(--sp-3-5) var(--sp-9) !important; }
+  .topic-intro h1 { font-size: var(--fs-3xl) !important; line-height:var(--lh-num)!important; }
+  .topic-question-panel, .topic-reading-paper { padding: var(--sp-5) var(--sp-4) !important; }
+}
+
+/* 通用：长字段（原文、解析）在窄屏不断字/不断行 */
+@media (max-width: 640px) {
+  .passage, .exam-content, .topic-passage, .knowledge-detail-hero p { overflow-wrap: anywhere; word-break: break-word; }
+}

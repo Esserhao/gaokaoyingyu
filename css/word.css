@@ -1,0 +1,152 @@
+/* =====================================================================
+   查词（#/word，C4）+ 点击查词（C6）
+   词条页沿用浅色学术风，复用全站 token 与 .library-head / .syn-chip /
+   .syn-rel 等既有类；本文件只定义词条页新增类名与查词提示。
+   ===================================================================== */
+
+.word-page { max-width: var(--w-mid); }
+
+/* 搜索卡与提示 */
+.word-search-card {
+  background: var(--paper);
+  border: 1px solid var(--line);
+  border-radius: var(--r-lg);
+  box-shadow: var(--shadow);
+  padding: var(--sp-4) var(--sp-5);
+  margin-bottom: var(--sp-5);
+}
+.word-note { margin: var(--sp-3) 0 0; color: var(--ink-2); font-size: var(--fs-sm); line-height:var(--lh-body); }
+.word-examples { display: flex; flex-wrap: wrap; gap: var(--sp-2); margin-top: var(--sp-3); }
+.word-examples .syn-chip { text-decoration: none; display: inline-flex; }
+.word-loading { color: var(--ink-3); font-size: var(--fs-md); padding: var(--sp-3) 0; }
+
+/* 词条卡 */
+.word-card {
+  background: var(--paper);
+  border: 1px solid var(--line);
+  border-radius: var(--r-lg);
+  box-shadow: var(--shadow);
+  padding: var(--sp-5);
+  margin-bottom: var(--sp-4);
+}
+.word-hw {
+  font-family: var(--serif);
+  font-size: var(--fs-5xl);
+  color: var(--ink);
+  margin: 0 var(--sp-3) 0 0;
+}
+.word-card .word-pos, .word-card .word-ph { display: inline-block; margin-right: var(--sp-2); }
+.word-pos { font-size: var(--fs-sm); color: var(--accent); }
+.word-ph { font-size: var(--fs-md); color: var(--ink-3); }
+.word-card-title { font-family: var(--serif); font-size: var(--fs-lg2); color: var(--ink); margin: 0 0 var(--sp-3); }
+
+/* 各词书释义行 */
+.word-entry {
+  padding: var(--sp-3) 0;
+  border-top: 1px solid var(--line);
+  margin-top: var(--sp-3);
+}
+.word-book-badge {
+  display: inline-block;
+  font-size: var(--fs-xs);
+  font-weight: 700;
+  padding: var(--sp-1) var(--sp-2-5);
+  border-radius: var(--r-pill);
+  background: var(--bg);
+  color: var(--ink-2);
+  margin-right: var(--sp-2);
+}
+/* 未人工复核词书的灰标（上海考纲词汇 verified=false，2026-09-15） */
+.word-unverified {
+  font-style: normal;
+  font-size: var(--fs-xs);
+  color: var(--amber);
+  margin-right: var(--sp-2);
+}
+.word-m { margin-top: var(--sp-1); color: var(--ink); font-size: var(--fs-base); line-height:var(--lh-body); }
+
+/* 关系卡与按钮间距 */
+.word-rel-cards .primary-btn { margin-top: var(--sp-3); }
+.word-actions { display: flex; align-items: center; gap: var(--sp-2); margin: var(--sp-3) 0; }
+
+/* ---------- 生词本（C5） ---------- */
+.word-row {
+  display: grid;
+  grid-template-columns: 1fr auto auto;
+  align-items: center;
+  gap: var(--sp-3);
+  padding: var(--sp-2-5) 0;
+  border-bottom: 1px solid var(--line);
+}
+.word-row:last-child { border-bottom: none; }
+.word-row-term {
+  font-family: var(--serif);
+  font-size: var(--fs-md2);
+  color: var(--ink);
+  text-decoration: none;
+}
+.word-row-term:hover { color: var(--accent); }
+.word-row-sched { font-size: var(--fs-xs); color: var(--ink-3); }
+.word-row-actions { display: inline-flex; gap: var(--sp-1-5); }
+@media (max-width: 640px) {
+  .word-row { grid-template-columns: 1fr auto; }
+  .word-row-sched { display: none; }
+}
+
+/* 点击查词提示（错题详情 / 知识详情 / 解析页） */
+.lookup-hint {
+  display: inline-block;
+  font-size: var(--fs-xs);
+  font-style: normal;
+  color: var(--ink-3);
+  font-weight: 400;
+}
+.mistake-detail-hero .lookup-hint { margin-top: var(--sp-1-5); }
+.result-banner .lookup-hint { color: var(--ink-3); }
+[data-lookup] { cursor: pointer; }
+
+/* ---------- 真题考频（附录 C3，2026-09-05）---------- */
+.word-freq .word-freq-line { margin: 0 0 var(--sp-2-5); }
+.word-freq .word-freq-line b { color: var(--accent); font-family: var(--serif); }
+.word-freq-ex {
+  display: flex; flex-direction: column; gap: var(--sp-1);
+  padding: var(--sp-2-5) var(--sp-3);
+  margin: 0 0 var(--sp-2);
+  border: 1px solid var(--line); border-left: 3px solid var(--accent-line);
+  background: var(--paper-2);
+  color: var(--ink); text-decoration: none;
+  font-family: var(--serif); line-height: var(--lh-body);
+}
+.word-freq-ex:hover { border-color: var(--accent-line); background: var(--accent-soft); }
+.word-freq-ex small { color: var(--ink-3); font-family: inherit; }
+
+/* ---------- 真题考频徽标（附录 D）----------
+   生词本/词组闪卡行内第 4 列：该词（组）在真题里出现的卷次。
+   空徽标（无考频数据）占位零宽，保持各列对齐。 */
+.word-row { grid-template-columns: 1fr auto auto auto; }
+.word-row-freq {
+  font-style: normal;
+  font-size: var(--fs-xs);
+  color: var(--accent);
+  background: var(--accent-soft);
+  border-radius: 999px;
+  padding: 2px var(--sp-2-5);
+  white-space: nowrap;
+}
+@media (max-width: 720px) {
+  .word-row { grid-template-columns: 1fr auto auto; }
+}
+
+/* 词汇指南（2026-09-19）：做法行 + 证据分级小签。 */
+.guide-do { margin: var(--sp-2) 0; color: var(--ink-2); line-height: 1.7; }
+.guide-do b { color: var(--ink); margin-right: var(--sp-1); }
+.guide-evidence {
+  font-style: normal;
+  font-size: var(--fs-2xs);
+  color: var(--ink-3);
+  border: 1px solid var(--line);
+  border-radius: var(--r-sm);
+  padding: 0 var(--sp-1-5);
+  margin-left: var(--sp-1);
+  white-space: nowrap;
+}

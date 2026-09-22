@@ -1,0 +1,968 @@
+{
+  "source_file": "2024年高考英语试卷（全国甲卷）",
+  "sections": [
+    {
+      "key": "listening",
+      "partTitle": "listening",
+      "questions": []
+    },
+    {
+      "key": "reading",
+      "partTitle": "reading",
+      "questions": [
+        {
+          "id": 1,
+          "type": "reading",
+          "stem": "Where are the speakers going?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "A new restaurant.        B. A convenience store.        C. Their office."
+            },
+            {
+              "letter": "B",
+              "text": "A convenience store.        C. Their office."
+            },
+            {
+              "letter": "C",
+              "text": "Their office."
+            }
+          ],
+          "answer": "",
+          "explanation": null
+        },
+        {
+          "id": 2,
+          "type": "reading",
+          "stem": "When is the class presentation according to Vicky?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "On Thursday.        B. On Wednesday.        C. On Tuesday."
+            },
+            {
+              "letter": "B",
+              "text": "On Wednesday.        C. On Tuesday."
+            },
+            {
+              "letter": "C",
+              "text": "On Tuesday."
+            }
+          ],
+          "answer": "",
+          "explanation": null
+        },
+        {
+          "id": 3,
+          "type": "reading",
+          "stem": "Why does the woman make the call?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "To check the price.        B. To make an apology.        C. To cancel her order."
+            },
+            {
+              "letter": "B",
+              "text": "To make an apology.        C. To cancel her order."
+            },
+            {
+              "letter": "C",
+              "text": "To cancel her order."
+            }
+          ],
+          "answer": "",
+          "explanation": null
+        },
+        {
+          "id": 4,
+          "type": "reading",
+          "stem": "What is the probable relationship between the speakers?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Husband and wife.        B. Boss and employee.        C. Salesperson and customer."
+            },
+            {
+              "letter": "B",
+              "text": "Boss and employee.        C. Salesperson and customer."
+            },
+            {
+              "letter": "C",
+              "text": "Salesperson and customer."
+            }
+          ],
+          "answer": "",
+          "explanation": null
+        },
+        {
+          "id": 5,
+          "type": "reading",
+          "stem": "What are the speakers mainly talking about?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Their move to a new place.        B. Tom's friends at school.        C. A sports center."
+            },
+            {
+              "letter": "B",
+              "text": "Tom's friends at school.        C. A sports center."
+            },
+            {
+              "letter": "C",
+              "text": "A sports center.  第二节（共15小题; 每小题1. 5分, 满分22. 5分）"
+            }
+          ],
+          "answer": "",
+          "explanation": null
+        }
+      ]
+    },
+    {
+      "key": "reading",
+      "partTitle": "reading",
+      "questions": [
+        {
+          "id": 6,
+          "type": "reading",
+          "stem": "What does the girl tell her dad?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "She decides to quit college."
+            },
+            {
+              "letter": "B",
+              "text": "She worries about her academic ability."
+            },
+            {
+              "letter": "C",
+              "text": "She is unpopular with her classmates."
+            }
+          ],
+          "answer": "",
+          "explanation": null
+        },
+        {
+          "id": 7,
+          "type": "reading",
+          "stem": "How does the father help his daughter?",
+          "options": [],
+          "answer": "",
+          "explanation": null
+        },
+        {
+          "id": 8,
+          "type": "reading",
+          "stem": "Who is the man?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "A researcher.        B. A bird watcher.        C. A radio host."
+            },
+            {
+              "letter": "B",
+              "text": "A bird watcher.        C. A radio host."
+            },
+            {
+              "letter": "C",
+              "text": "A radio host."
+            }
+          ],
+          "answer": "",
+          "explanation": null
+        },
+        {
+          "id": 9,
+          "type": "reading",
+          "stem": "When do birds sing quieter?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "On weekend mornings.        B. During rush hours.        C. In early evenings."
+            },
+            {
+              "letter": "B",
+              "text": "During rush hours.        C. In early evenings."
+            },
+            {
+              "letter": "C",
+              "text": "In early evenings."
+            }
+          ],
+          "answer": "",
+          "explanation": null
+        },
+        {
+          "id": 10,
+          "type": "reading",
+          "stem": "What is Dr. Zollinger going to do next?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Summarize her studies.        B. Play some recordings.        C. Answer more questions."
+            },
+            {
+              "letter": "B",
+              "text": "Play some recordings.        C. Answer more questions."
+            },
+            {
+              "letter": "C",
+              "text": "Answer more questions.  听第8段材料, 回答第11至13题。"
+            }
+          ],
+          "answer": "",
+          "explanation": null
+        },
+        {
+          "id": 11,
+          "type": "reading",
+          "stem": "Where was Jena born?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "In Canada.        B. In Japan.        C. In Australia."
+            },
+            {
+              "letter": "B",
+              "text": "In Japan.        C. In Australia."
+            },
+            {
+              "letter": "C",
+              "text": "In Australia."
+            }
+          ],
+          "answer": "",
+          "explanation": null
+        },
+        {
+          "id": 12,
+          "type": "reading",
+          "stem": "How old was Mike when he left Glasgow?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Five.        B. Six.        C. Ten."
+            },
+            {
+              "letter": "B",
+              "text": "Six.        C. Ten."
+            },
+            {
+              "letter": "C",
+              "text": "Ten."
+            }
+          ],
+          "answer": "",
+          "explanation": null
+        },
+        {
+          "id": 13,
+          "type": "reading",
+          "stem": "What do we know about Mike's parents?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "They enjoy living abroad."
+            },
+            {
+              "letter": "B",
+              "text": "They first met at the age of 20."
+            },
+            {
+              "letter": "C",
+              "text": "They will start their own company.  听第9段材料, 回答第14至16题。"
+            }
+          ],
+          "answer": "",
+          "explanation": null
+        },
+        {
+          "id": 14,
+          "type": "reading",
+          "stem": "What is the first question to Mr. Green about?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "His adventure in space.        B. His physical condition.        C. His doctor's advice."
+            },
+            {
+              "letter": "B",
+              "text": "His physical condition.        C. His doctor's advice."
+            },
+            {
+              "letter": "C",
+              "text": "His doctor's advice."
+            }
+          ],
+          "answer": "",
+          "explanation": null
+        },
+        {
+          "id": 15,
+          "type": "reading",
+          "stem": "How does Mr. Green feel about traveling to Mars?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "It's unlikely to happen."
+            },
+            {
+              "letter": "B",
+              "text": "It's physically demanding."
+            },
+            {
+              "letter": "C",
+              "text": "It's a chance not to be missed."
+            }
+          ],
+          "answer": "",
+          "explanation": null
+        },
+        {
+          "id": 16,
+          "type": "reading",
+          "stem": "Which is Mr. Green's favorite movie?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Apollo 13.        B. Blue Earth.        C. Space Station."
+            },
+            {
+              "letter": "B",
+              "text": "Blue Earth.        C. Space Station."
+            },
+            {
+              "letter": "C",
+              "text": "Space Station.  听第10段材料, 回答第17至20题。"
+            }
+          ],
+          "answer": "",
+          "explanation": null
+        },
+        {
+          "id": 17,
+          "type": "reading",
+          "stem": "What is the speaker doing?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Giving a report."
+            },
+            {
+              "letter": "B",
+              "text": "Introducing a musical play."
+            },
+            {
+              "letter": "C",
+              "text": "Making an announcement."
+            }
+          ],
+          "answer": "",
+          "explanation": null
+        },
+        {
+          "id": 18,
+          "type": "reading",
+          "stem": "What are the students expected to do?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Carry school flags.        B. Wear fun clothes.        C. Design fancy masks."
+            },
+            {
+              "letter": "B",
+              "text": "Wear fun clothes.        C. Design fancy masks."
+            },
+            {
+              "letter": "C",
+              "text": "Design fancy masks."
+            }
+          ],
+          "answer": "",
+          "explanation": null
+        },
+        {
+          "id": 19,
+          "type": "reading",
+          "stem": "Where can the parents stand and watch?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "On the sidewalk.        B. On the playground.        C. In front of the office."
+            },
+            {
+              "letter": "B",
+              "text": "On the playground.        C. In front of the office."
+            },
+            {
+              "letter": "C",
+              "text": "In front of the office."
+            }
+          ],
+          "answer": "",
+          "explanation": null
+        },
+        {
+          "id": 20,
+          "type": "reading",
+          "stem": "What should the students do if they don't take part?",
+          "options": [],
+          "answer": "",
+          "explanation": null
+        }
+      ]
+    },
+    {
+      "key": "reading",
+      "partTitle": "reading",
+      "questions": []
+    },
+    {
+      "key": "reading",
+      "partTitle": "reading",
+      "questions": []
+    },
+    {
+      "key": "reading",
+      "partTitle": "reading",
+      "questions": [
+        {
+          "id": 1,
+          "type": "reading",
+          "stem": "What do we know about ARTS FIRST?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "It is an exhibition of oil paintings.\tB. It offers art courses for all ages."
+            },
+            {
+              "letter": "B",
+              "text": "It offers art courses for all ages."
+            },
+            {
+              "letter": "C",
+              "text": "It presents recreational activities.\tD. It is a major tourist attraction."
+            },
+            {
+              "letter": "D",
+              "text": "It is a major tourist attraction."
+            }
+          ],
+          "answer": "",
+          "explanation": null
+        },
+        {
+          "id": 2,
+          "type": "reading",
+          "stem": "Which program will you join if you're interested in drawing pictures?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Light Awash in Watercolor.\tB. Spineless Artists: Invertebrate Creativity."
+            },
+            {
+              "letter": "B",
+              "text": "Spineless Artists: Invertebrate Creativity."
+            },
+            {
+              "letter": "C",
+              "text": "Wheel Throwing.\tD. Knitting and Pom-Pom Making."
+            },
+            {
+              "letter": "D",
+              "text": "Knitting and Pom-Pom Making."
+            }
+          ],
+          "answer": "",
+          "explanation": null
+        },
+        {
+          "id": 3,
+          "type": "reading",
+          "stem": "What can you do together with Javier Marin?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Practice a traditional dance.\tB. Make handcrafts."
+            },
+            {
+              "letter": "B",
+              "text": "Make handcrafts."
+            },
+            {
+              "letter": "C",
+              "text": "Visit a local museum.\tD. Feed invertebrates."
+            },
+            {
+              "letter": "D",
+              "text": "Feed invertebrates. B Animals can express their needs using a lot of ways. For instance, almost all animals have distinct vocals (声音) that they rely on to either ask for help,  scare away any dangerous animals or look for shelter. But cats are special creatures who possess amazing vocalization skills. They are able to have entire conversations with humans using meows and you're able to interpret it. If a pet cat is hungry, it will keep meowing to attract attention and find food. However, when a cat is looking for affection, they tend to produce stretched and soft meows. Meowing starts as soon as a baby cat is brought to life and uses it to get the mother's attention and be fed. Cats have many heightened senses, but their sense of smell is quite impressive. They use their noses to assess their environment and look out for any signs of danger. They will sniff out specific areas before they choose a place to relax. However, another way the cats are able to distinguish between situations is by looking for familiar smells. Your cat will likely smell your face and store the smell in its memory and use it to recognize you in the future. That's why most pet cats are able to tell immediately if their owners were around any other cats, which they don't usually like. Dogs are known for their impressive fetching habit, but cats take this behavior up a notch. Many cats will find random objects outside and bring them to their owners. This is a very old habit that's been present in all kinds of predators (食肉动物). Cats bring gifts for their owners to show they love you. These adorable little hunters are just doing something that it's been in their nature since the beginning of time. So just go along with it!"
+            }
+          ],
+          "answer": "",
+          "explanation": null
+        },
+        {
+          "id": 4,
+          "type": "reading",
+          "stem": "What can be learned about cats' meowing from the first paragraph?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "It's a survival skill.\tB. It's taught by mother cats."
+            },
+            {
+              "letter": "B",
+              "text": "It's taught by mother cats."
+            },
+            {
+              "letter": "C",
+              "text": "It's hard to interpret.\tD. It's getting louder with age."
+            },
+            {
+              "letter": "D",
+              "text": "It's getting louder with age."
+            }
+          ],
+          "answer": "",
+          "explanation": null
+        },
+        {
+          "id": 5,
+          "type": "reading",
+          "stem": "How does a pet cat assess different situations?",
+          "options": [],
+          "answer": "",
+          "explanation": null
+        }
+      ]
+    },
+    {
+      "key": "listening",
+      "partTitle": "listening",
+      "questions": [
+        {
+          "id": 6,
+          "type": "listening",
+          "stem": "Which best explains the phrase \"take. . . up notch\" in paragraph 3?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Perform appropriately.\tB. Move faster.\tC. Act strangely.\tD. Do better."
+            },
+            {
+              "letter": "B",
+              "text": "Move faster.\tC. Act strangely.\tD. Do better."
+            },
+            {
+              "letter": "C",
+              "text": "Act strangely.\tD. Do better."
+            },
+            {
+              "letter": "D",
+              "text": "Do better."
+            }
+          ],
+          "answer": "",
+          "explanation": null
+        },
+        {
+          "id": 7,
+          "type": "listening",
+          "stem": "What is a suitable title for the text?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Tips on Finding a Smart Cat\tB. Understanding Your Cat's Behavior"
+            },
+            {
+              "letter": "B",
+              "text": "Understanding Your Cat's Behavior"
+            },
+            {
+              "letter": "C",
+              "text": "Have Fun with Your Cat\tD. How to Keep Your Cat Healthy"
+            },
+            {
+              "letter": "D",
+              "text": "How to Keep Your Cat Healthy C The Saint Lukas train doesn’t accept passengers — it accepts only the sick. The Saint Lukas is one of five government-sponsored medical trains that travel to remote towns in central and eastern Russia. Each stop lasts an average of two days, and during that time the doctors and nurses on board provide rural (乡村) populations with basic medical care, X-ray scans and prescriptions. “People started queuing to make an appointment early in the morning,” says Emile Ducke, a German photographer who traveled with the staff of the Saint Lukas for a two-week trip in November through the vast regions (区域) of Krasnoyarsk and Khakassia. Russia’s public health care service has been in serious need of modernization. The government has struggled to come up with measures to address the problem, particularly in the poorer, rural areas east of the Volga River, including arranging doctor’s appointments by video chat and expanding financial aid programs to motivate doctors to practice medicine in remote parts of the country like Krasnoyarsk. The annual arrival of the Saint Lukas is another attempt to improve the situation. For 10 months every year, the train stops at about eight stations over two weeks, before returning to the regional capital to refuel and restock (补给). Then it starts all over again the next month. Most stations wait about a year between visits. Doctors see up to 150 patients every day. The train’s equipment allows for basic checkups. “I was very impressed by the doctors and their assistants working and living in such little space but still staying focused and very concerned,” says Ducke. “They were the best chance for many rural people to get the treatment they want. ”"
+            }
+          ],
+          "answer": "",
+          "explanation": null
+        },
+        {
+          "id": 8,
+          "type": "listening",
+          "stem": "How is the Saint Lukas different from other trains?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "It runs across countries.\tB. It reserves seats for the seniors."
+            },
+            {
+              "letter": "B",
+              "text": "It reserves seats for the seniors."
+            },
+            {
+              "letter": "C",
+              "text": "It functions as a hospital.\tD. It travels along a river."
+            },
+            {
+              "letter": "D",
+              "text": "It travels along a river."
+            }
+          ],
+          "answer": "",
+          "explanation": null
+        },
+        {
+          "id": 9,
+          "type": "listening",
+          "stem": "What can we infer from paragraph 3 about Krasnoyarsk?",
+          "options": [],
+          "answer": "",
+          "explanation": null
+        },
+        {
+          "id": 10,
+          "type": "listening",
+          "stem": "How long can the Saint Lukas work with one supply?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "About a year.\tB. About ten months."
+            },
+            {
+              "letter": "B",
+              "text": "About ten months."
+            },
+            {
+              "letter": "C",
+              "text": "About two months.\tD. About two weeks."
+            },
+            {
+              "letter": "D",
+              "text": "About two weeks."
+            }
+          ],
+          "answer": "",
+          "explanation": null
+        },
+        {
+          "id": 11,
+          "type": "listening",
+          "stem": "What is Ducke’s attitude toward the Saint Lukas’ services?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Appreciative.\tB. Doubtful\tC. Ambiguous.\tD. Cautious."
+            },
+            {
+              "letter": "B",
+              "text": "Doubtful\tC. Ambiguous.\tD. Cautious."
+            },
+            {
+              "letter": "C",
+              "text": "Ambiguous.\tD. Cautious."
+            },
+            {
+              "letter": "D",
+              "text": "Cautious. D"
+            }
+          ],
+          "answer": "",
+          "explanation": null
+        }
+      ]
+    },
+    {
+      "key": "reading",
+      "partTitle": "reading",
+      "questions": []
+    },
+    {
+      "key": "writing",
+      "partTitle": "writing",
+      "questions": [
+        {
+          "id": 1,
+          "type": "writing",
+          "stem": "But writing the end — that’s hard. It’s hard for writers because endings carry so much weight with readers. You have to balance creating an ending that's unpredictable, but doesn’t seem to come from nowhere, one that fits what’s right for the characters.",
+          "modelAnswer": "",
+          "explanation": null
+        }
+      ]
+    },
+    {
+      "key": "writing",
+      "partTitle": "writing",
+      "questions": [
+        {
+          "id": 1,
+          "type": "writing",
+          "stem": "That’s why this issue (期) of Writer’s Digest aims to help you figure out how to write the best ending for whatever kind of writing you’re doing. If it’s short stories, Peter Mountford breaks down six techniques you can try to see which one helps you stick the landing. Elizabeth Sims analyzes the final chapters of five great novels to see what key points they include and how you can adapt them for your work. \nThis issue won’t tell you what your ending should be — that’s up to you and the story you’re telling — but it might provide what you need to get there.\n12. Why did the author go to Prof. Gracie?\nA. To discuss a novel.\tB. To submit a book report.",
+          "modelAnswer": "",
+          "explanation": null
+        }
+      ]
+    },
+    {
+      "key": "reading",
+      "partTitle": "reading",
+      "questions": [
+        {
+          "id": 13,
+          "type": "reading",
+          "stem": "What did the author realize after seeing Gracie?",
+          "options": [],
+          "answer": "",
+          "explanation": null
+        }
+      ]
+    },
+    {
+      "key": "writing",
+      "partTitle": "writing",
+      "questions": [
+        {
+          "id": 1,
+          "type": "writing",
+          "stem": "A. Writing is a matter of personal preferences.\nB. Readers are often carried away by character.\nC. Each type of literature has its unique end.\nD. A story which begins well will end well.\n14 What is expected of a good ending?\nA. It satisfies readers’ taste.\tB. It fits with the story development.\nC. It is usually positive.\tD. It is open for imagination.\n15. Why does the author mention Peter Mountford and Elizabeth Sims?\nA. To give examples of great novelists.\tB. To stress the theme of this issue.",
+          "modelAnswer": "",
+          "explanation": null
+        }
+      ]
+    },
+    {
+      "key": "writing",
+      "partTitle": "writing",
+      "questions": [
+        {
+          "id": 1,
+          "type": "writing",
+          "stem": "C. To encourage writing for the magazine.\tD. To recommend their new books.\n第二节（共5小题; 每小题2分, 满分10分）\n根据短文内容, 从短文后的选项中选出能填入空白处的最佳选项。选项中有两项为多余选项。\nWhat is moderation (适度)? Basically, it means eating only as much food as your body needs. You should feel satisfied at the end of a meal, but not too full. ____16____ But it doesn't mean saying goodbye to the foods you love. \nTake your time. It's important to slow down and think about food as something nutritious rather than just something to eat in between meetings. ____17____ It actually takes a few minutes for your brain to tell your body that it has had enough food, so eat slowly and stop eating before you feel full. \nEat with others whenever possible. Eating alone, “specially in front of the TV or computer, often leads to mindless overeating. And be careful about the foods you keep at hand. It's more challenging to eat in moderation if you have unhealthy snacks at the ready, like cookies. ____18____\nControl emotional (情绪) eating. ____19____ Many of us also turn to food to deal with unpleasant emotions such as sadness, loneliness, or boredom. But by learning healthier ways to manage emotions, you can regain control over the food you eat and your feelings. \n____20____ A healthy breakfast can start your metabolism (新陈代谢), while eating small, healthy meals keeps your energy up all day. Avoid eating late at night. Try to eat dinner earlier and fast for 14 — 16 hours until breakfast the next morning. Studies suggest that eating only when you're most active and giving your digestive system a long break each day may help to regulate weight.\nA. Eat properly throughout the day.\nB. We don't always eat just to satisfy hunger.\nC. Don't swallow a meal on the way to work.\nD. Most of us need to double the amount we eat.\nE. Instead, surround yourself with healthy choices.\nF. For many of us, moderation means eating less than we do now.\nG. That won't lead to cheating or giving up on your new eating plan.\n第三部分  语言知识运用（共两节, 满分45分）\n第一节（共20小题; 每小题1. 5分, 满分30分）",
+          "modelAnswer": "",
+          "explanation": null
+        }
+      ]
+    },
+    {
+      "key": "reading",
+      "partTitle": "reading",
+      "questions": []
+    },
+    {
+      "key": "listening",
+      "partTitle": "listening",
+      "questions": [
+        {
+          "id": 21,
+          "type": "listening",
+          "stem": "A. sitting room\tB. kitchen\tC. yard\tD. dining hall",
+          "options": [],
+          "answer": "",
+          "explanation": null
+        },
+        {
+          "id": 22,
+          "type": "listening",
+          "stem": "A. As always\tB. By the way\tC. For example\tD. Here and now",
+          "options": [],
+          "answer": "",
+          "explanation": null
+        },
+        {
+          "id": 23,
+          "type": "listening",
+          "stem": "A. adjusted\tB. promoted\tC. achieved\tD. experienced",
+          "options": [],
+          "answer": "",
+          "explanation": null
+        },
+        {
+          "id": 24,
+          "type": "listening",
+          "stem": "A. work\tB. school\tC. court\tD. press",
+          "options": [],
+          "answer": "",
+          "explanation": null
+        },
+        {
+          "id": 25,
+          "type": "listening",
+          "stem": "A. favored\tB. tolerated\tC. trusted\tD. acknowledged",
+          "options": [],
+          "answer": "",
+          "explanation": null
+        },
+        {
+          "id": 26,
+          "type": "listening",
+          "stem": "A. gardening\tB. homework\tC. business\tD. housework",
+          "options": [],
+          "answer": "",
+          "explanation": null
+        },
+        {
+          "id": 27,
+          "type": "listening",
+          "stem": "A. exercise\tB. study\tC. explore\tD. teach",
+          "options": [],
+          "answer": "",
+          "explanation": null
+        },
+        {
+          "id": 28,
+          "type": "listening",
+          "stem": "A. food\tB. guests\tC. lessons\tD. tea",
+          "options": [],
+          "answer": "",
+          "explanation": null
+        },
+        {
+          "id": 29,
+          "type": "listening",
+          "stem": "A. closely\tB. directly\tC. nervously\tD. freely",
+          "options": [],
+          "answer": "",
+          "explanation": null
+        },
+        {
+          "id": 30,
+          "type": "listening",
+          "stem": "A. professional\tB. awkward\tC. simple\tD. practical",
+          "options": [],
+          "answer": "",
+          "explanation": null
+        },
+        {
+          "id": 31,
+          "type": "listening",
+          "stem": "A. market\tB. mountain\tC. beach\tD. class",
+          "options": [],
+          "answer": "",
+          "explanation": null
+        },
+        {
+          "id": 32,
+          "type": "listening",
+          "stem": "A. secret\tB. breath\tC. view\tD. tongue",
+          "options": [],
+          "answer": "",
+          "explanation": null
+        },
+        {
+          "id": 33,
+          "type": "listening",
+          "stem": "A. admire\tB. notice\tC. adopt\tD. value",
+          "options": [],
+          "answer": "",
+          "explanation": null
+        },
+        {
+          "id": 34,
+          "type": "listening",
+          "stem": "A. hands\tB. mouth\tC. eyes\tD. arms",
+          "options": [],
+          "answer": "",
+          "explanation": null
+        },
+        {
+          "id": 35,
+          "type": "listening",
+          "stem": "A. difficult\tB. complex\tC. happy\tD. similar",
+          "options": [],
+          "answer": "",
+          "explanation": null
+        },
+        {
+          "id": 36,
+          "type": "listening",
+          "stem": "A. grateful\tB. surprised\tC. convinced\tD. regretful",
+          "options": [],
+          "answer": "",
+          "explanation": null
+        },
+        {
+          "id": 37,
+          "type": "listening",
+          "stem": "A. reflect upon\tB. go through\tC. ask about\tD. prepare for",
+          "options": [],
+          "answer": "",
+          "explanation": null
+        },
+        {
+          "id": 38,
+          "type": "listening",
+          "stem": "A. unemployment\tB. health\tC. education\tD. communication",
+          "options": [],
+          "answer": "",
+          "explanation": null
+        },
+        {
+          "id": 39,
+          "type": "listening",
+          "stem": "A. attend\tB. refer\tC. lead\tD. talk",
+          "options": [],
+          "answer": "",
+          "explanation": null
+        },
+        {
+          "id": 40,
+          "type": "listening",
+          "stem": "A. come true\tB. come round\tC. come out\tD. come alive",
+          "options": [],
+          "answer": "",
+          "explanation": null
+        }
+      ]
+    },
+    {
+      "key": "reading",
+      "partTitle": "reading",
+      "questions": []
+    },
+    {
+      "key": "writing",
+      "partTitle": "writing",
+      "questions": [
+        {
+          "id": 1,
+          "type": "writing",
+          "stem": "第四部分 写作（共两节, 满分35分）",
+          "modelAnswer": "",
+          "explanation": null
+        }
+      ]
+    },
+    {
+      "key": "proofreading",
+      "partTitle": "proofreading",
+      "questions": [
+        {
+          "id": 1,
+          "type": "proofreading",
+          "material": "第一节短文改错（共10小题; 每小题1分, 满分10分）\n51. 假定英语课上老师要求同桌之间交换修改作文, 请你修改你同桌写的以下作文。文中共有10处语言错误, 每句中最多有两处。每处错误仅涉及一个单词的增加、删除或修改。\n增加: 在缺词处加一个漏字符号（^）, 并在其下面写出该加的词。\n删除: 把多余的词用斜线（\\）划掉。\n修改: 在错词下画一横线, 并在该词下面写出修改后的词。\n注意: 1. 每处错误及其修改均仅限一词; \n2. 只允许修改10处, 多者（从第11处起）不计分。\nLast week, I saw a program about Chongqing hotpot on TV. I was curious but planned a special one-day trip there with a friend of me. Our fast train was packing with passengers. A attendant gave us some travel brochures about Chongqing. When we arrived, we went straight a famous restaurant and ordered dishes, which tasted greatly. The atmosphere here made the meal all the more enjoyed. Hotpot is meant for families and friends to sit together, dip everything they like this in one pot, and shared friendship and love.",
+          "modelAnswer": "",
+          "explanation": {
+            "summary": "",
+            "points": []
+          }
+        }
+      ]
+    },
+    {
+      "key": "writing",
+      "partTitle": "writing",
+      "questions": [
+        {
+          "id": 1,
+          "type": "writing",
+          "stem": "第二节书面表达（满分25分）\n52. 英语课要求做课堂展示, 请你根据所给图片，以Development of Transport in China为题写一篇发言稿。\n\n\n注意: \n1. 词数 100 左右; \n2. 题目和首句已为你写好。\nDevelopment of Transport in China\nFrom the vehicle of horses to today's convenient transport, Chinese transport has an enormous development. \n___________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________\n1—5 ACBCA        6—10 BBCAB       11—15 ABABC       16—20 ACBCA",
+          "modelAnswer": "",
+          "explanation": null
+        }
+      ]
+    }
+  ]
+}

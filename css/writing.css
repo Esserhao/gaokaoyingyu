@@ -1,0 +1,203 @@
+/* =====================================================================
+   参考范文库（#/writing/models）+ 写作专题的两处新入口。
+   纸面原则：整块背景 + 整边框（P-38：禁左侧竖线装饰）。
+   ===================================================================== */
+
+/* ---------- 工具栏：题型页签 / 搜索 / 展开全部 / 计数 ---------- */
+.wm-toolbar {
+  display: flex;
+  align-items: center;
+  gap: var(--sp-3);
+  flex-wrap: wrap;
+  margin: var(--sp-6) 0 var(--sp-5);
+  padding-bottom: var(--sp-3);
+  border-bottom: 1px solid var(--line);
+}
+.wm-tabs { display: flex; gap: var(--sp-2); flex-wrap: wrap; }
+.wm-tab {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--sp-2);
+  padding: var(--sp-2) var(--sp-3);
+  border: 1px solid var(--line);
+  border-radius: var(--r-pill, 999px);
+  background: var(--paper-1);
+  color: var(--ink-2);
+  font-size: var(--fs-sm, 14px);
+  cursor: pointer;
+}
+.wm-tab > span {
+  min-width: var(--sp-5);
+  padding: 0 var(--sp-1-5);
+  border-radius: var(--r-pill, 999px);
+  background: var(--paper-2);
+  font-size: var(--fs-xs, 12px);
+}
+.wm-tab.is-active {
+  border-color: var(--accent-line);
+  background: var(--accent-soft);
+  color: var(--accent);
+}
+.wm-search {
+  flex: 1 1 220px;
+  min-width: 180px;
+  padding: var(--sp-2) var(--sp-3);
+  border: 1px solid var(--line);
+  border-radius: var(--r-md);
+  background: var(--paper-1);
+  color: var(--ink);
+  font: inherit;
+}
+.wm-count { margin-left: auto; color: var(--ink-2); font-size: var(--fs-sm, 14px); }
+.wm-loading {
+  margin: var(--sp-9) auto;
+  padding: var(--sp-8);
+  text-align: center;
+  background: var(--paper-1);
+  border: 1px solid var(--line);
+}
+.wm-loading b { font-weight: 600; }
+
+/* ---------- 范文卡 ---------- */
+.wm-list { display: grid; gap: var(--sp-4); }
+.wm-card {
+  padding: var(--sp-5) var(--sp-5) var(--sp-4);
+  background: var(--paper-1);
+  border: 1px solid var(--line);
+  border-radius: var(--r-md);
+}
+.wm-card[hidden] { display: none; }
+.wm-card-top {
+  display: flex;
+  align-items: center;
+  gap: var(--sp-2-5);
+  flex-wrap: wrap;
+  padding-bottom: var(--sp-3);
+  border-bottom: 1px solid var(--line);
+}
+.wm-card-top > b { font-size: var(--fs-base, 15px); }
+.wm-chip {
+  padding: var(--sp-1) var(--sp-2-5);
+  border: 1px solid var(--accent-line);
+  border-radius: var(--r-pill, 999px);
+  background: var(--accent-soft);
+  color: var(--accent);
+  font-size: var(--fs-xs, 12px);
+}
+.wm-source { margin-left: auto; color: var(--ink-2); font-size: var(--fs-xs, 12px); }
+
+.wm-prompt { margin: var(--sp-4) 0 0; }
+.wm-label {
+  display: block;
+  margin-bottom: var(--sp-1-5);
+  color: var(--accent);
+  font-size: var(--fs-xs, 12px);
+  letter-spacing: .12em;
+}
+.wm-prompt > p {
+  margin: 0;
+  color: var(--ink);
+  font-size: var(--fs-sm, 14px);
+  line-height: var(--lh-body, 1.75);
+}
+
+/* ---------- 折叠的范文 ---------- */
+.wm-model { margin-top: var(--sp-3-5); }
+.wm-model > summary {
+  display: inline-block;
+  padding: var(--sp-2) var(--sp-3);
+  border: 1px solid var(--line);
+  border-radius: var(--r-md);
+  background: var(--paper-2);
+  color: var(--ink-2);
+  font-size: var(--fs-sm, 14px);
+  cursor: pointer;
+}
+.wm-model[open] > summary { margin-bottom: var(--sp-3); }
+.wm-model > pre {
+  margin: 0;
+  padding: var(--sp-4);
+  background: var(--paper-2);
+  border: 1px solid var(--line);
+  border-radius: var(--r-md);
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: var(--fs-base, 15px);
+  line-height: var(--lh-read, 1.9);
+  white-space: pre-wrap;
+  word-break: break-word;
+  color: var(--ink);
+}
+.wm-src {
+  margin: var(--sp-2) 0 0;
+  color: var(--ink-2);
+  font-size: var(--fs-xs, 12px);
+  line-height: var(--lh-body, 1.75);
+}
+
+/* ---------- 卡片底部动作 ---------- */
+.wm-actions {
+  display: flex;
+  align-items: center;
+  gap: var(--sp-2-5);
+  flex-wrap: wrap;
+  margin-top: var(--sp-4);
+}
+.wm-footnote {
+  margin-top: var(--sp-7);
+  padding: var(--sp-5);
+  background: var(--paper-2);
+  border: 1px solid var(--line);
+  border-radius: var(--r-md);
+}
+.wm-footnote > b { display: block; margin-bottom: var(--sp-2); }
+.wm-footnote p {
+  margin: 0 0 var(--sp-2);
+  color: var(--ink-2);
+  font-size: var(--fs-sm, 14px);
+  line-height: var(--lh-body, 1.75);
+}
+.wm-footnote p:last-child { margin-bottom: 0; }
+
+/* ---------- 写作专题选材页的范文入口 ---------- */
+.writing-models-entry { margin-top: var(--sp-6); }
+.writing-models-entry > a {
+  display: flex;
+  align-items: baseline;
+  gap: var(--sp-3);
+  flex-wrap: wrap;
+  padding: var(--sp-4) var(--sp-5);
+  background: var(--paper-2);
+  border: 1px solid var(--accent-line);
+  border-radius: var(--r-md);
+  color: var(--ink);
+  text-decoration: none;
+}
+.writing-models-entry > a:hover { background: var(--accent-soft); }
+.writing-models-entry b { color: var(--accent); }
+.writing-models-entry span { color: var(--ink-2); font-size: var(--fs-sm, 14px); }
+
+/* ---------- 整卷页写作题的「去自评」入口 ---------- */
+.writing-studio-link {
+  display: flex;
+  align-items: center;
+  gap: var(--sp-3);
+  flex-wrap: wrap;
+  margin-top: var(--sp-4);
+  padding: var(--sp-4) var(--sp-5);
+  background: var(--paper-2);
+  border: 1px solid var(--line);
+  border-radius: var(--r-md);
+}
+.writing-studio-link > span {
+  color: var(--ink-2);
+  font-size: var(--fs-sm, 14px);
+  line-height: var(--lh-body, 1.75);
+}
+
+@media (max-width: 720px) {
+  .wm-search { flex: 1 1 100%; }
+  .wm-count { margin-left: 0; }
+  .wm-card { padding: var(--sp-4); }
+  .wm-source { margin-left: 0; }
+  .wm-model > pre { padding: var(--sp-3); font-size: var(--fs-sm, 14px); }
+}

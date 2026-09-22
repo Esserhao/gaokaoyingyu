@@ -1,0 +1,22 @@
+{
+  "source_file": "2023年新课标全国Ⅱ卷英语真题（含听力）（解析版）",
+  "total_sections": 36,
+  "total_questions": 71,
+  "issues": [
+    {
+      "type": "question_id_gap",
+      "section": "reading",
+      "msg": "题号不连续: [6, 8, 9, 10, 11, 12, 13, 14, 15, 16]..."
+    },
+    {
+      "type": "question_id_gap",
+      "section": "reading",
+      "msg": "题号不连续: [57, 58, 60, 61, 62, 64]..."
+    }
+  ],
+  "review_required": [],
+  "summary": {
+    "total_issues": 2,
+    "needs_review": true
+  }
+}

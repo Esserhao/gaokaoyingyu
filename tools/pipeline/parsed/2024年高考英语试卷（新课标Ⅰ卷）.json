@@ -1,0 +1,947 @@
+{
+  "source_file": "2024年高考英语试卷（新课标Ⅰ卷）",
+  "sections": [
+    {
+      "key": "listening",
+      "partTitle": "listening",
+      "questions": []
+    },
+    {
+      "key": "reading",
+      "partTitle": "reading",
+      "questions": [
+        {
+          "id": 1,
+          "type": "reading",
+          "stem": "【此处可播放相关音频，请去附件查看】",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Boarding a flight.\tB. Arranging a trip.\tC. Seeing a friend off."
+            },
+            {
+              "letter": "B",
+              "text": "Arranging a trip.\tC. Seeing a friend off."
+            },
+            {
+              "letter": "C",
+              "text": "Seeing a friend off."
+            }
+          ],
+          "answer": "",
+          "explanation": null
+        },
+        {
+          "id": 2,
+          "type": "reading",
+          "stem": "此处可播放相关音频，请去附件查看】",
+          "options": [
+            {
+              "letter": "A",
+              "text": "A pop star.\tB. An old song.\tC. A radio program."
+            },
+            {
+              "letter": "B",
+              "text": "An old song.\tC. A radio program."
+            },
+            {
+              "letter": "C",
+              "text": "A radio program."
+            }
+          ],
+          "answer": "",
+          "explanation": null
+        },
+        {
+          "id": 3,
+          "type": "reading",
+          "stem": "【此处可播放相关音频，请去附件查看】",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Go to an art show.\tB. Meet the man's aunt.\tC. Eat out with Mark."
+            },
+            {
+              "letter": "B",
+              "text": "Meet the man's aunt.\tC. Eat out with Mark."
+            },
+            {
+              "letter": "C",
+              "text": "Eat out with Mark."
+            }
+          ],
+          "answer": "",
+          "explanation": null
+        },
+        {
+          "id": 4,
+          "type": "reading",
+          "stem": "【此处可播放相关音频，请去附件查看】",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Cancel an order.\tB. Ask for a receipt.\tC. Reschedule a delivery."
+            },
+            {
+              "letter": "B",
+              "text": "Ask for a receipt.\tC. Reschedule a delivery."
+            },
+            {
+              "letter": "C",
+              "text": "Reschedule a delivery."
+            }
+          ],
+          "answer": "",
+          "explanation": null
+        },
+        {
+          "id": 5,
+          "type": "reading",
+          "stem": "【此处可播放相关音频，请去附件查看】",
+          "options": [
+            {
+              "letter": "A",
+              "text": "At 9:45.\tB. At 10:15.\tC. At 11:00."
+            },
+            {
+              "letter": "B",
+              "text": "At 10:15.\tC. At 11:00."
+            },
+            {
+              "letter": "C",
+              "text": "At 11:00. 第二节  （共15小题；每小题1.5分，满分22.5分）"
+            }
+          ],
+          "answer": "",
+          "explanation": null
+        }
+      ]
+    },
+    {
+      "key": "reading",
+      "partTitle": "reading",
+      "questions": [
+        {
+          "id": 6,
+          "type": "reading",
+          "stem": "What will the weather be like today?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Stormy.\tB. Sunny.\tC. Foggy."
+            },
+            {
+              "letter": "B",
+              "text": "Sunny.\tC. Foggy."
+            },
+            {
+              "letter": "C",
+              "text": "Foggy."
+            }
+          ],
+          "answer": "",
+          "explanation": null
+        },
+        {
+          "id": 7,
+          "type": "reading",
+          "stem": "What is the man going to do?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Plant a tree.\tB. Move his car.\tC. Check the map."
+            },
+            {
+              "letter": "B",
+              "text": "Move his car.\tC. Check the map."
+            },
+            {
+              "letter": "C",
+              "text": "Check the map. 听下面一段较长对话，回答以下小题。【此处可播放相关音频，请去附件查看】 8 Why is Kathy in California now? A. She is on vacation there.\tB. She has just moved there.\tC. She is doing business there."
+            }
+          ],
+          "answer": "",
+          "explanation": null
+        },
+        {
+          "id": 9,
+          "type": "reading",
+          "stem": "What is the relationship between Tom and Fiona?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Husband and wife.\tB. Brother and sister.\tC. Father and daughter."
+            },
+            {
+              "letter": "B",
+              "text": "Brother and sister.\tC. Father and daughter."
+            },
+            {
+              "letter": "C",
+              "text": "Father and daughter."
+            }
+          ],
+          "answer": "",
+          "explanation": null
+        },
+        {
+          "id": 10,
+          "type": "reading",
+          "stem": "What does Kathy thank Dave for?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Finding her a new job.\tB. Sending her a present.\tC. Calling on her mother."
+            },
+            {
+              "letter": "B",
+              "text": "Sending her a present.\tC. Calling on her mother."
+            },
+            {
+              "letter": "C",
+              "text": "Calling on her mother. 听下面一段较长对话，回答以下小题。【此处可播放相关音频，请去附件查看】"
+            }
+          ],
+          "answer": "",
+          "explanation": null
+        },
+        {
+          "id": 11,
+          "type": "reading",
+          "stem": "How did Jack go to school when he was a child?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "By bike.\tB. On foot.\tC. By bus."
+            },
+            {
+              "letter": "B",
+              "text": "On foot.\tC. By bus."
+            },
+            {
+              "letter": "C",
+              "text": "By bus."
+            }
+          ],
+          "answer": "",
+          "explanation": null
+        },
+        {
+          "id": 12,
+          "type": "reading",
+          "stem": "What is Jack's attitude toward parents driving their kids to school?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Disapproving.\tB. Encouraging.\tC. Understanding."
+            },
+            {
+              "letter": "B",
+              "text": "Encouraging.\tC. Understanding."
+            },
+            {
+              "letter": "C",
+              "text": "Understanding."
+            }
+          ],
+          "answer": "",
+          "explanation": null
+        },
+        {
+          "id": 13,
+          "type": "reading",
+          "stem": "What is the problem with some parents according to the woman?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Overprotecting their children."
+            },
+            {
+              "letter": "B",
+              "text": "Pushing their children too hard."
+            },
+            {
+              "letter": "C",
+              "text": "Having no time for their children. 听下面一段较长对话，回答以下小题。【此处可播放相关音频，请去附件查看】"
+            }
+          ],
+          "answer": "",
+          "explanation": null
+        },
+        {
+          "id": 14,
+          "type": "reading",
+          "stem": "Why did Marie post her kitchen gardening online at first?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "To keep records of her progress."
+            },
+            {
+              "letter": "B",
+              "text": "To sell home-grown vegetables."
+            },
+            {
+              "letter": "C",
+              "text": "To motivate her fellow gardeners."
+            }
+          ],
+          "answer": "",
+          "explanation": null
+        },
+        {
+          "id": 15,
+          "type": "reading",
+          "stem": "Why does Marie recommend beginners to grow strawberries?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "They need no special care."
+            },
+            {
+              "letter": "B",
+              "text": "They can be used in cooking."
+            },
+            {
+              "letter": "C",
+              "text": "They bear a lot of fruit soon. 16 What is difficult for Marie to grow? A. Herbs.\tB. Carrots.\tC. Pears."
+            }
+          ],
+          "answer": "",
+          "explanation": null
+        },
+        {
+          "id": 17,
+          "type": "reading",
+          "stem": "What is Marie's advice to those interested in kitchen gardening?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Aim high.\tB. Keep focused.\tC. Stay optimistic."
+            },
+            {
+              "letter": "B",
+              "text": "Keep focused.\tC. Stay optimistic."
+            },
+            {
+              "letter": "C",
+              "text": "Stay optimistic. 听下面一段独白，回答以下小题。【此处可播放相关音频，请去附件查看】"
+            }
+          ],
+          "answer": "",
+          "explanation": null
+        },
+        {
+          "id": 18,
+          "type": "reading",
+          "stem": "What is \"Life of Johnson\"?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "A magazine column.\tB. A TV series.\tC. A historical novel."
+            },
+            {
+              "letter": "B",
+              "text": "A TV series.\tC. A historical novel."
+            },
+            {
+              "letter": "C",
+              "text": "A historical novel. 19 What is Johnson famous for?"
+            }
+          ],
+          "answer": "",
+          "explanation": null
+        }
+      ]
+    },
+    {
+      "key": "writing",
+      "partTitle": "writing",
+      "questions": [
+        {
+          "id": 1,
+          "type": "writing",
+          "stem": "A. His acting talent.\tB. His humorous writing.\tC. His long sports career.\n20. When did Johnson join Sports Times?\nA. In 1981.\tB. In 1983.\tC. In 1985.",
+          "modelAnswer": "",
+          "explanation": null
+        }
+      ]
+    },
+    {
+      "key": "reading",
+      "partTitle": "reading",
+      "questions": []
+    },
+    {
+      "key": "reading",
+      "partTitle": "reading",
+      "questions": [
+        {
+          "id": 21,
+          "type": "reading",
+          "stem": "What is the aim of the Habitat Restoration Team?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "To discover mineral resources.\tB. To develop new wildlife parks."
+            },
+            {
+              "letter": "B",
+              "text": "To develop new wildlife parks."
+            },
+            {
+              "letter": "C",
+              "text": "To protect the local ecosystem.\tD. To conduct biological research."
+            },
+            {
+              "letter": "D",
+              "text": "To conduct biological research."
+            }
+          ],
+          "answer": "",
+          "explanation": null
+        },
+        {
+          "id": 22,
+          "type": "reading",
+          "stem": "What is the lower age limit for joining the Habitat Restoration Team?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "5.\tB. 10.\tC. 15.\tD. 18."
+            },
+            {
+              "letter": "B",
+              "text": "10.\tC. 15.\tD. 18."
+            },
+            {
+              "letter": "C",
+              "text": "15.\tD. 18."
+            },
+            {
+              "letter": "D",
+              "text": "18."
+            }
+          ],
+          "answer": "",
+          "explanation": null
+        },
+        {
+          "id": 23,
+          "type": "reading",
+          "stem": "What are the volunteers expected to do?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Bring their own tools.\tB. Work even in bad weather."
+            },
+            {
+              "letter": "B",
+              "text": "Work even in bad weather."
+            },
+            {
+              "letter": "C",
+              "text": "Wear a team uniform.\tD. Do at least three projects."
+            },
+            {
+              "letter": "D",
+              "text": "Do at least three projects. B “I am not crazy,” says Dr. William Farber, shortly after performing acupuncture (针灸) on a rabbit. “I am ahead of my time.” If he seems a little defensive, it might be because even some of his coworkers occasionally laugh at his unusual methods. But Farber is certain he’ll have the last laugh. He’s one of a small but growing number of American veterinarians (兽医) now practicing “holistic” medicine-combining traditional Western treatments with acupuncture, chiropractic (按摩疗法) and herbal medicine. Farber, a graduate of Colorado State University, started out as a more conventional veterinarian. He became interested in alternative treatments 20 years ago when he suffered from terrible back pain. He tried muscle-relaxing drugs but found little relief. Then he tried acupuncture, an ancient Chinese practice, and was amazed that he improved after two or three treatments. What worked on a veterinarian seemed likely to work on his patients. So, after studying the techniques for a couple of years, he began offering them to pets. Leigh Tindale’s dog Charlie had a serious heart condition. After Charlie had a heart attack, Tindale says, she was prepared to put him to sleep, but Farber’s treatments eased her dog’s suffering so much that she was able to keep him alive for an additional five months. And Priscilla Dewing reports that her horse, Nappy, “moves more easily and rides more comfortably” after a chiropractic adjustment. Farber is certain that the holistic approach will grow more popular with time, and if the past is any indication, he may be right: Since 1982, membership in the American Holistic Veterinary Medical Association has grown from 30 to over 700. “Sometimes it surprises me that it works so well,” he says. “I will do anything to help an animal. That’s my job.”"
+            }
+          ],
+          "answer": "",
+          "explanation": null
+        },
+        {
+          "id": 24,
+          "type": "reading",
+          "stem": "What do some of Farber’s coworkers think of him?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "He’s odd.\tB. He’s strict.\tC. He’s brave.\tD. He’s rude."
+            },
+            {
+              "letter": "B",
+              "text": "He’s strict.\tC. He’s brave.\tD. He’s rude."
+            },
+            {
+              "letter": "C",
+              "text": "He’s brave.\tD. He’s rude."
+            },
+            {
+              "letter": "D",
+              "text": "He’s rude."
+            }
+          ],
+          "answer": "",
+          "explanation": null
+        },
+        {
+          "id": 25,
+          "type": "reading",
+          "stem": "Why did Farber decide to try acupuncture on pets?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "He was trained in it at university.\tB. He was inspired by another veterinarian."
+            },
+            {
+              "letter": "B",
+              "text": "He was inspired by another veterinarian."
+            },
+            {
+              "letter": "C",
+              "text": "He benefited from it as a patient.\tD. He wanted to save money for pet owners."
+            },
+            {
+              "letter": "D",
+              "text": "He wanted to save money for pet owners."
+            }
+          ],
+          "answer": "",
+          "explanation": null
+        },
+        {
+          "id": 26,
+          "type": "reading",
+          "stem": "What does paragraph 3 mainly talk about?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Steps of a chiropractic treatment.\tB. The complexity of veterinarians’ work."
+            },
+            {
+              "letter": "B",
+              "text": "The complexity of veterinarians’ work."
+            },
+            {
+              "letter": "C",
+              "text": "Examples of rare animal diseases.\tD. The effectiveness of holistic medicine."
+            },
+            {
+              "letter": "D",
+              "text": "The effectiveness of holistic medicine."
+            }
+          ],
+          "answer": "",
+          "explanation": null
+        },
+        {
+          "id": 27,
+          "type": "reading",
+          "stem": "Why does the author mention the American Holistic Veterinary Medical Association?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "To prove Farber’s point.\tB. To emphasize its importance."
+            },
+            {
+              "letter": "B",
+              "text": "To emphasize its importance."
+            },
+            {
+              "letter": "C",
+              "text": "To praise veterinarians.\tD. To advocate animal protection."
+            },
+            {
+              "letter": "D",
+              "text": "To advocate animal protection. C"
+            }
+          ],
+          "answer": "",
+          "explanation": null
+        }
+      ]
+    },
+    {
+      "key": "listening",
+      "partTitle": "listening",
+      "questions": []
+    },
+    {
+      "key": "reading",
+      "partTitle": "reading",
+      "questions": []
+    },
+    {
+      "key": "reading",
+      "partTitle": "reading",
+      "questions": []
+    },
+    {
+      "key": "reading",
+      "partTitle": "reading",
+      "questions": [
+        {
+          "id": 28,
+          "type": "reading",
+          "stem": "What does the underlined phrase “shine through” in paragraph 2 mean?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Seem unlikely to last.\tB. Seem hard to explain."
+            },
+            {
+              "letter": "B",
+              "text": "Seem hard to explain."
+            },
+            {
+              "letter": "C",
+              "text": "Become ready to use.\tD. Become easy to notice."
+            },
+            {
+              "letter": "D",
+              "text": "Become easy to notice. 29 What does the shallowing hypothesis assume? A. Readers treat digital texts lightly.\tB. Digital texts are simpler to understand. C. People select digital texts randomly.\tD. Digital texts are suitable for social media."
+            }
+          ],
+          "answer": "",
+          "explanation": null
+        },
+        {
+          "id": 30,
+          "type": "reading",
+          "stem": "Why are audio and video increasingly used by university teachers?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "They can hold students' attention.\tB. They are more convenient to prepare."
+            },
+            {
+              "letter": "B",
+              "text": "They are more convenient to prepare."
+            },
+            {
+              "letter": "C",
+              "text": "They help develop advanced skills.\tD. They are more informative than text."
+            },
+            {
+              "letter": "D",
+              "text": "They are more informative than text."
+            }
+          ],
+          "answer": "",
+          "explanation": null
+        },
+        {
+          "id": 31,
+          "type": "reading",
+          "stem": "What does the author imply in the last paragraph?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Students should apply multiple learning techniques."
+            },
+            {
+              "letter": "B",
+              "text": "Teachers should produce their own teaching material."
+            },
+            {
+              "letter": "C",
+              "text": "Print texts cannot be entirely replaced in education."
+            },
+            {
+              "letter": "D",
+              "text": "Education outside the classroom cannot be ignored. D In the race to document the species on Earth before they go extinct, researchers and citizen scientists have collected billions of records. Today, most records of biodiversity are often in the form of photos, videos, and other digital records. Though they are useful for detecting shifts in the number and variety of species in an area, a new Stanford study has found that this type of record is not perfect. “With the rise of technology it is easy for people to make observations of different species with the aid of a mobile application,” said Barnabas Daru, who is lead author of the study and assistant professor of biology in the Stanford School of Humanities and Sciences. “These observations now outnumber the primary data that comes from physical specimens (标本), and since we are increasingly using observational data to investigate how species are responding to global change, I wanted to know: Are they usable?” Using a global dataset of 1.9 billion records of plants, insects, birds, and animals, Daru and his team tested how well these data represent actual global biodiversity patterns. “We were particularly interested in exploring the aspects of sampling that tend to bias (使有偏差) data, like the greater likelihood of a citizen scientist to take a picture of a flowering plant instead of the grass right next to it,” said Daru. Their study revealed that the large number of observation-only records did not lead to better global coverage. Moreover, these data are biased and favor certain regions, time periods, and species. This makes sense because the people who get observational biodiversity data on mobile devices are often citizen scientists recording their encounters with species in areas nearby. These data are also biased toward certain species with attractive or eye-catching features. What can we do with the imperfect datasets of biodiversity? “Quite a lot,” Daru explained. “Biodiversity apps can use our study results to inform users of oversampled areas and lead them to places — and even species — that are not well-sampled. To improve the quality of observational data, biodiversity apps can also encourage users to have an expert confirm the identification of their uploaded image.”"
+            }
+          ],
+          "answer": "",
+          "explanation": null
+        },
+        {
+          "id": 32,
+          "type": "reading",
+          "stem": "What do we know about the records of species collected now?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "They are becoming outdated.\tB. They are mostly in electronic form."
+            },
+            {
+              "letter": "B",
+              "text": "They are mostly in electronic form."
+            },
+            {
+              "letter": "C",
+              "text": "They are limited in number.\tD. They are used for public exhibition."
+            },
+            {
+              "letter": "D",
+              "text": "They are used for public exhibition."
+            }
+          ],
+          "answer": "",
+          "explanation": null
+        },
+        {
+          "id": 33,
+          "type": "reading",
+          "stem": "What does Daru’s study focus on?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Threatened species.\tB. Physical specimens."
+            },
+            {
+              "letter": "B",
+              "text": "Physical specimens."
+            },
+            {
+              "letter": "C",
+              "text": "Observational data.\tD. Mobile applications."
+            },
+            {
+              "letter": "D",
+              "text": "Mobile applications."
+            }
+          ],
+          "answer": "",
+          "explanation": null
+        },
+        {
+          "id": 34,
+          "type": "reading",
+          "stem": "What has led to the biases according to the study?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Mistakes in data analysis.\tB. Poor quality of uploaded pictures."
+            },
+            {
+              "letter": "B",
+              "text": "Poor quality of uploaded pictures."
+            },
+            {
+              "letter": "C",
+              "text": "Improper way of sampling.\tD. Unreliable data collection devices."
+            },
+            {
+              "letter": "D",
+              "text": "Unreliable data collection devices."
+            }
+          ],
+          "answer": "",
+          "explanation": null
+        },
+        {
+          "id": 35,
+          "type": "reading",
+          "stem": "What is Daru’s suggestion for biodiversity apps?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Review data from certain areas.\tB. Hire experts to check the records."
+            },
+            {
+              "letter": "B",
+              "text": "Hire experts to check the records."
+            },
+            {
+              "letter": "C",
+              "text": "Confirm the identity of the users.\tD. Give guidance to citizen scientists."
+            },
+            {
+              "letter": "D",
+              "text": "Give guidance to citizen scientists. 第二节  （共5小题；每小题2.5分，满分12.5分）"
+            }
+          ],
+          "answer": "",
+          "explanation": null
+        }
+      ]
+    },
+    {
+      "key": "reading",
+      "partTitle": "reading",
+      "questions": []
+    },
+    {
+      "key": "grammar",
+      "partTitle": "grammar",
+      "questions": []
+    },
+    {
+      "key": "reading",
+      "partTitle": "reading",
+      "questions": [
+        {
+          "id": 41,
+          "type": "reading",
+          "stem": "A. knew\tB. held\tC. won\tD. quit",
+          "options": [],
+          "answer": "",
+          "explanation": null
+        },
+        {
+          "id": 42,
+          "type": "reading",
+          "stem": "A. regularly\tB. silently\tC. proudly\tD. recently",
+          "options": [],
+          "answer": "",
+          "explanation": null
+        },
+        {
+          "id": 43,
+          "type": "reading",
+          "stem": "A. asking\tB. looking\tC. waiting\tD. training",
+          "options": [],
+          "answer": "",
+          "explanation": null
+        },
+        {
+          "id": 44,
+          "type": "reading",
+          "stem": "A. made\tB. believed\tC. hated\tD. deserved",
+          "options": [],
+          "answer": "",
+          "explanation": null
+        },
+        {
+          "id": 45,
+          "type": "reading",
+          "stem": "A. advantage\tB. achievement\tC. contribution\tD. influence",
+          "options": [],
+          "answer": "",
+          "explanation": null
+        },
+        {
+          "id": 46,
+          "type": "reading",
+          "stem": "A. way\tB. risk\tC. place\tD. reason",
+          "options": [],
+          "answer": "",
+          "explanation": null
+        },
+        {
+          "id": 47,
+          "type": "reading",
+          "stem": "A. gave up\tB. went on\tC. turned to\tD. dealt with",
+          "options": [],
+          "answer": "",
+          "explanation": null
+        },
+        {
+          "id": 48,
+          "type": "reading",
+          "stem": "A. heard\tB. dreamed\tC. complained\tD. approved",
+          "options": [],
+          "answer": "",
+          "explanation": null
+        },
+        {
+          "id": 49,
+          "type": "reading",
+          "stem": "A. painted\tB. borrowed\tC. bought\tD. parked",
+          "options": [],
+          "answer": "",
+          "explanation": null
+        },
+        {
+          "id": 50,
+          "type": "reading",
+          "stem": "A. problem\tB. secret\tC. principle\tD. advice",
+          "options": [],
+          "answer": "",
+          "explanation": null
+        },
+        {
+          "id": 51,
+          "type": "reading",
+          "stem": "A. dangers\tB. events\tC. opponents\tD. challenges",
+          "options": [],
+          "answer": "",
+          "explanation": null
+        },
+        {
+          "id": 52,
+          "type": "reading",
+          "stem": "A. passed\tB. convinced\tC. admired\tD. stopped",
+          "options": [],
+          "answer": "",
+          "explanation": null
+        },
+        {
+          "id": 53,
+          "type": "reading",
+          "stem": "A. reliable\tB. convenient\tC. familiar\tD. appealing",
+          "options": [],
+          "answer": "",
+          "explanation": null
+        },
+        {
+          "id": 54,
+          "type": "reading",
+          "stem": "A. traveled\tB. matured\tC. missed\tD. worried",
+          "options": [],
+          "answer": "",
+          "explanation": null
+        },
+        {
+          "id": 55,
+          "type": "reading",
+          "stem": "A. limits\tB. dates\tC. goals\tD. tests",
+          "options": [],
+          "answer": "",
+          "explanation": null
+        }
+      ]
+    },
+    {
+      "key": "reading",
+      "partTitle": "reading",
+      "questions": []
+    },
+    {
+      "key": "writing",
+      "partTitle": "writing",
+      "questions": [
+        {
+          "id": 1,
+          "type": "writing",
+          "stem": "第四部分  写作（共两节，满分40分）\n第一节  （满分15分）\n66. 假定你是李华，上周五你们班在公园上了一堂美术课。请你给英国朋友Chris写一封邮件分享这次经历，内容包括：\n（1）你完成的作品；\n（2）你的感想。\n注意：",
+          "modelAnswer": "",
+          "explanation": null
+        }
+      ]
+    },
+    {
+      "key": "writing",
+      "partTitle": "writing",
+      "questions": [
+        {
+          "id": 1,
+          "type": "writing",
+          "stem": "（1）写作词数应为80个左右；\n（2）请按如下格式在答题纸的相应位置作答。\nDear Chris,",
+          "modelAnswer": "",
+          "explanation": null
+        }
+      ]
+    },
+    {
+      "key": "writing",
+      "partTitle": "writing",
+      "questions": [
+        {
+          "id": 1,
+          "type": "writing",
+          "stem": "I’m writing to share with you an art class I had in a park last Friday.\n______________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________\nYours,\nLi Hua\n第二节  （满分25分）",
+          "modelAnswer": "",
+          "explanation": null
+        }
+      ]
+    },
+    {
+      "key": "reading",
+      "partTitle": "reading",
+      "questions": [
+        {
+          "id": 67,
+          "type": "reading",
+          "stem": "阅读下面材料，根据其内容和所给段落开头语续写两段，使之构成一篇完整的短文。",
+          "options": [],
+          "answer": "",
+          "explanation": null
+        }
+      ]
+    }
+  ]
+}

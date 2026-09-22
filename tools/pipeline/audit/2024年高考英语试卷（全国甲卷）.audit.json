@@ -1,0 +1,18 @@
+{
+  "source_file": "2024年高考英语试卷（全国甲卷）",
+  "total_sections": 19,
+  "total_questions": 59,
+  "issues": [
+    {
+      "type": "empty_stem",
+      "msg": "题目题干为空",
+      "section": "proofreading",
+      "question_id": 1
+    }
+  ],
+  "review_required": [],
+  "summary": {
+    "total_issues": 1,
+    "needs_review": true
+  }
+}

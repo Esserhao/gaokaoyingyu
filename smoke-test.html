@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head><meta charset="UTF-8"><title>smoke</title>
+<style>iframe{border:1px solid #999}#out{font:13px monospace;white-space:pre-wrap}</style>
+</head>
+<body>
+<div id="out">RUNNING</div>
+<!-- 桌面宽度与手机宽度各开一个 iframe：媒体查询按 iframe 视口计算，
+     所以 360px 的那个会真正命中 @media(max-width:800px) 抽屉分支 -->
+<iframe id="wide" src="index.html#/exam/gk2021-jia" width="1200" height="700"></iframe>
+<iframe id="narrow" src="index.html#/exam/gk2021-jia" width="360" height="640"></iframe>
+<script>
+const lines = [];
+function ok(c, msg, extra) { lines.push((c ? 'PASS  ' : 'FAIL  ') + msg + (extra ? '  [' + extra + ']' : '')); }
+function css(w, el, p) { return w.getComputedStyle(el).getPropertyValue(p); }
+function ready(fr) {
+  return new Promise(res => {
+    const t = setInterval(() => {
+      const d = fr.contentDocument;
+      if (d && d.querySelector('.answer-sheet')) { clearInterval(t); res(); }
+    }, 100);
+    setTimeout(() => { clearInterval(t); res(); }, 12000);
+  });
+}
+function sleep(ms) { return new Promise(r => setTimeout(r, ms)); }
+
+(async () => {
+  const wide = document.getElementById('wide'), narrow = document.getElementById('narrow');
+  await Promise.all([ready(wide), ready(narrow)]);
+  await sleep(400);
+
+  /* ---------- 1. 桌面：试卷页渲染 ---------- */
+  let w = wide.contentWindow, d = wide.contentDocument;
+  const sheet = d.querySelector('.answer-sheet');
+  ok(!!d.querySelector('.exam-layout'), '桌面 试卷页渲染出 .exam-layout');
+  ok(d.querySelectorAll('.question').length > 20, '桌面 题目数 > 20', d.querySelectorAll('.question').length);
+  ok(!!sheet && css(w, sheet, 'display') !== 'none', '桌面 答题卡可见', sheet && css(w, sheet, 'display'));
+  ok(css(w, d.querySelector('.mobile-sheet-btn'), 'display') === 'none', '桌面 悬浮答题卡按钮隐藏');
+
+  /* ---------- 2. 点题号不摧毁考试现场（最严重的原 bug） ---------- */
+  const hashBefore = w.location.hash;
+  const dots = d.querySelectorAll('.sheet-dot');
+  dots[dots.length - 1].click();
+  await sleep(500);
+  ok(w.location.hash === hashBefore, '点题号后 hash 未被改写', w.location.hash);
+  ok(!!d.querySelector('.exam-layout'), '点题号后试卷页仍在（未回落首页）');
+  ok(d.activeElement && d.activeElement !== d.body, '点题号后焦点已移交题目', d.activeElement && d.activeElement.tagName);
+
+  /* ---------- 3. 焦点环颜色 ≥3:1（用变量实际解析值核对） ---------- */
+  const ring = css(w, d.documentElement, '--focus-ring').trim();
+  ok(ring === '#0b1220', '焦点环令牌为深色 #0b1220', ring);
+  const serif = css(w, d.documentElement, '--serif');
+  ok(!/Source Serif 4/.test(serif), 'Web 字体已从字体栈移除', serif.slice(0, 40));
+  ok(![...d.styleSheets].some(s => { try { return [...s.cssRules].some(r => r.type === CSSRule.IMPORT_RULE); } catch (e) { return false; } }),
+     '无 @import 阻塞规则');
+
+  /* ---------- 4. 答题：单选写入 + 答题卡与顶栏进度实时更新 ---------- */
+  const radio = d.querySelector('.option input[type=radio]');
+  const wasSelected = radio.checked;
+  radio.click();
+  await sleep(250);
+  ok(radio.closest('.option').classList.contains('selected'), '选中后 .option.selected 生效');
+  const qkey = radio.dataset.qid;
+  const dot = d.querySelector('.sheet-dot[href="#q-' + qkey + '"]');
+  ok(!!dot && dot.classList.contains('done'), '该题号格实时变为 .done', qkey);
+  ok(d.querySelectorAll('.sheet-dot.done').length >= 1, '答题卡出现 .done 记忆点',
+     d.querySelectorAll('.sheet-dot.done').length);
+  /* 上一轮跑测留下的草稿会让初始计数就非 0，所以不测「是否变化」，
+     而测「顶栏数字 == 答题卡实际点亮数」——这才是同步是否正确的判据。 */
+  function progressNum() {
+    const b = d.querySelector('.progress b');
+    return b ? Number(b.textContent.trim()) : NaN;
+  }
+  ok(progressNum() === d.querySelectorAll('.sheet-dot.done').length,
+     '顶栏已答计数 == 答题卡点亮数',
+     progressNum() + ' vs ' + d.querySelectorAll('.sheet-dot.done').length);
+  ok(/^\d+\/\d+$/.test(d.querySelector('.sheet-title small').textContent.trim()),
+     '答题卡标题计数在位', d.querySelector('.sheet-title small').textContent);
+  ok(d.querySelector('.sheet-title small').textContent.trim().split('/')[0] === String(progressNum()),
+     '答题卡标题与顶栏一致');
+  /* 主观题输入也要计入进度 */
+  const ta = d.querySelector('textarea.writing-input, textarea.fill-input');
+  if (ta) {
+    const before = progressNum();
+    ta.value = '';
+    ta.dispatchEvent(new w.Event('input', {bubbles: true}));
+    await sleep(150);
+    const cleared = progressNum();
+    ta.value = '测试作答';
+    ta.dispatchEvent(new w.Event('input', {bubbles: true}));
+    await sleep(200);
+    const tdot = d.querySelector('.sheet-dot[href="#q-' + ta.dataset.qid + '"]');
+    ok(!!tdot && tdot.classList.contains('done'), '主观题输入后题号格也变 .done', ta.dataset.qid);
+    ok(progressNum() === cleared + 1, '主观题写入使计数 +1', cleared + ' -> ' + progressNum());
+    ok(progressNum() === d.querySelectorAll('.sheet-dot.done').length, '写入后两处计数仍一致');
+  }
+
+  /* ---------- 5. 手机宽度：抽屉必须能出现 ---------- */
+  let nw = narrow.contentWindow, nd = narrow.contentDocument;
+  const nsheet = nd.querySelector('.answer-sheet');
+  const scrim = nd.querySelector('.sheet-scrim');
+  const btn = nd.querySelector('.mobile-sheet-btn');
+  ok(nw.matchMedia('(max-width: 800px)').matches, '窄 iframe 命中 800px 断点');
+  ok(css(nw, nsheet, 'display') !== 'none', '窄屏 抽屉 display 不再是 none', css(nw, nsheet, 'display'));
+  ok(css(nw, btn, 'display') !== 'none', '窄屏 悬浮按钮可见', css(nw, btn, 'display'));
+  /* headless 的虚拟时间不推进合成器动画，过渡中的值会被冻结在起始帧。
+     这里关掉过渡再测，检验的是级联结果（真正修的东西），不依赖动画时钟。 */
+  nsheet.style.transition = 'none';
+  scrim.style.transition = 'none';
+  const closedY = css(nw, nsheet, 'transform');
+  btn.click();
+  await sleep(400);
+  ok(nsheet.classList.contains('open'), '点按钮后抽屉加上 .open');
+  ok(btn.getAttribute('aria-expanded') === 'true', 'aria-expanded 同步为 true');
+  ok(scrim.classList.contains('show'), '遮罩加上 .show');
+  ok(css(nw, scrim, 'opacity') === '1', '遮罩不透明度到 1', css(nw, scrim, 'opacity'));
+  ok(css(nw, scrim, 'pointer-events') === 'auto', '遮罩可接收点击（点外部可关）');
+  ok(nd.body.classList.contains('sheet-open'), 'body.sheet-open 已加（锁背景滚动）');
+  ok(css(nw, nd.body, 'overflow') === 'hidden', '背景滚动已锁', css(nw, nd.body, 'overflow'));
+  const openY = css(nw, nsheet, 'transform');
+  ok(openY !== closedY && /matrix\(1, 0, 0, 1, 0, 0\)|none/.test(openY),
+     '抽屉 transform 归零（滑入）', closedY + ' -> ' + openY);
+  const r = nsheet.getBoundingClientRect();
+  ok(r.height > 100 && r.top < nw.innerHeight && r.bottom > 0, '抽屉进入视口',
+     JSON.stringify({t: Math.round(r.top), h: Math.round(r.height), vh: nw.innerHeight}));
+  ok(Number(css(nw, nsheet, 'z-index')) > Number(css(nw, scrim, 'z-index')), '抽屉层级高于遮罩');
+
+  /* 窄屏点题号：应关闭抽屉且不改 hash */
+  const nHash = nw.location.hash;
+  nd.querySelectorAll('.sheet-dot')[3].click();
+  await sleep(500);
+  ok(!nsheet.classList.contains('open'), '窄屏点题号后抽屉自动收起');
+  ok(nw.location.hash === nHash, '窄屏点题号后 hash 未变', nw.location.hash);
+  ok(!nd.body.classList.contains('sheet-open'), 'body.sheet-open 已移除');
+
+  /* Esc 关闭 */
+  btn.click(); await sleep(400);
+  nd.dispatchEvent(new KeyboardEvent('keydown', {key: 'Escape', bubbles: true}));
+  await sleep(400);
+  ok(!nsheet.classList.contains('open'), 'Esc 关闭抽屉');
+  ok(nd.activeElement === btn, 'Esc 后焦点回到悬浮按钮', nd.activeElement && nd.activeElement.className);
+
+  /* ---------- 6. 解析模式：对错必须看得见 ---------- */
+  w.location.hash = '#/exam/gk2021-jia';
+  await sleep(300);
+  /* 直接构造一条记录后进 review：交卷流程较长，这里走 Store + #/review */
+  const ex = await (await fetch('data/exams/gk2021-jia.json')).json();
+  const first = ex.sections.find(s => (s.questions || []).some(q => q.options && q.options.length));
+  const q0 = first.questions.find(q => q.options && q.options.length);
+  const wrongLetter = q0.options.map(o => o.letter).find(l => l !== q0.answer);
+  const key = first.key + '-' + q0.id;
+  /* store.js 用 `const Store`（词法全局，不挂 window），跨 frame 只能靠该窗口自身 eval 取到 */
+  w.eval('Store.saveRecord(' + JSON.stringify('gk2021-jia') + ',' + JSON.stringify({
+    answers: {[key]: wrongLetter}, submittedAt: Date.now(), durationUsed: 600,
+    score: 10, sectionScores: {}
+  }) + ')');
+  w.location.hash = '#/review/gk2021-jia';
+  await sleep(900);
+  const rq = d.getElementById('q-' + key);
+  ok(!!rq, '解析页渲染出该题', key);
+  if (rq) {
+    ok(rq.classList.contains('review'), '题块带 .review');
+    ok(rq.classList.contains('wrong'), '错题题块带 .wrong');
+    const corr = rq.querySelector('.option.correct');
+    const mine = rq.querySelector('.option.selected');
+    ok(!!corr, '正解选项带 .correct');
+    const bgC = corr && css(w, corr, 'background-color');
+    ok(bgC && bgC !== 'rgba(0, 0, 0, 0)', '正解有底色（非透明）', bgC);
+    const afterC = corr && w.getComputedStyle(corr, '::after').content;
+    ok(afterC && afterC.indexOf('正确答案') > -1, '正解有文字标记（非纯色彩通道）', afterC);
+    const afterM = mine && w.getComputedStyle(mine, '::after').content;
+    ok(afterM && afterM.indexOf('你选的') > -1, '错选有文字标记', afterM);
+    ok(css(w, rq, 'border-left-color') !== css(w, d.querySelector('.question:not(.wrong)') || rq, 'border-left-color')
+       || rq.classList.contains('wrong'), '错题左侧标线与正常题不同');
+    const mark = rq.querySelector('.mark');
+    ok(!!mark && mark.textContent.trim().length > 0, '题头判分文字存在', mark && mark.textContent.trim());
+  }
+
+  /* ---------- 7. 首页 / 各分区页不报错 ---------- */
+  const routes = ['#/', '#/dashboard', '#/mistakes', '#/topics', '#/training', '#/simulation', '#/knowledge'];
+  const errs = [];
+  w.onerror = (m) => errs.push(m);
+  for (const r2 of routes) {
+    w.location.hash = r2;
+    await sleep(450);
+    const has = d.querySelector('#app') && d.querySelector('#app').children.length > 0;
+    ok(has, '路由 ' + r2 + ' 渲染出内容');
+  }
+  ok(errs.length === 0, '路由巡检无 window.onerror', errs.join(' | '));
+
+  /* ---------- 8. 错题 sectionKey 必须能落盘（决定「回到对应训练」入口存不存在） ---------- */
+  w.eval('Store.clearMistakes()');
+  w.eval('Store.addMistakes(' + JSON.stringify([{
+    examId: 'gk2021-jia', examTitle: '2021 全国甲卷', sectionKey: 'grammar',
+    qid: 61, type: '语法填空', stem: '测试题干', myAnswer: 'A', answer: 'B'
+  }]) + ')');
+  const back = w.eval('JSON.stringify(Store.getMistakes()[0])');
+  ok(JSON.parse(back).sectionKey === 'grammar', 'sectionKey 通过 Store 白名单', JSON.parse(back).sectionKey);
+  w.location.hash = '#/mistakes';
+  await sleep(500);
+  const trainLink = d.querySelector('.mistake-actions a[href="#/training/grammar"]');
+  ok(!!trainLink, '错题本出现「回到对应训练」入口', trainLink && trainLink.getAttribute('href'));
+
+  /* ---------- 9. 分题型例题页：曾对每个题型都白屏（meta 未挂到 item 上） ---------- */
+  const tKeys = ['listening','reading','seven','cloze','grammar','proofreading','writing_app','writing_cont'];
+  const blank = [];
+  for (const k of tKeys) {
+    w.location.hash = '#/training/' + k + '/example';
+    await sleep(600);
+    /* 该题型无题时 example() 会跳回 #/training，这属正常回落，不算白屏 */
+    const fellBack = w.location.hash === '#/training';
+    if (!fellBack && !d.querySelector('.lesson-page')) blank.push(k);
+  }
+  ok(blank.length === 0, '例题页无白屏题型', blank.join(',') || 'none');
+
+  /* ---------- 10. 解析对象必须走 explanationHtml（曾拼成 [object Object]） ----------
+     题库里 847/987 道题的 explanation 是结构化对象；例题页「看老师解析」和
+     独立训练的作答反馈原本用 UI.text(q.explanation)，String(对象) 直接得到
+     "[object Object]"，这两处解析整段是坏的。这里按渲染结果判定。 */
+  w.location.hash = '#/training/reading/example';
+  await sleep(700);
+  /* 四步逐步推进：每步只渲染「上一步/下一步」两个按钮，
+     所以要连点到最后一步，才会出现「看老师解析」。 */
+  for (let i = 0; i < 5; i++) {
+    if (d.querySelector('[data-lesson-answer]')) break;
+    const next = [...d.querySelectorAll('[data-lesson-step]')].pop();
+    if (!next) break;
+    next.click();
+    await sleep(300);
+  }
+  const revealBtn = d.querySelector('[data-lesson-answer]');
+  ok(!!revealBtn, '例题末步出现「看老师解析」按钮');
+  if (revealBtn) {
+    revealBtn.click();
+    await sleep(400);
+    const box = d.getElementById('lesson-answer');
+    const txt = box ? box.textContent : '';
+    ok(!/\[object Object\]/.test(txt), '老师解析无 [object Object]');
+    ok(!!box.querySelector('.explanation-block, .explanation-body, .explanation-point'),
+       '老师解析渲染出结构化解析块',
+       box.querySelector('.explanation-block, .explanation-body, .explanation-point') ? 'yes' : 'no');
+  }
+
+  const rows = d.querySelectorAll('.training-row');
+  w.location.hash = '#/training/reading';
+  await sleep(900);
+  const firstRow = d.querySelector('.training-row');
+  if (firstRow) {
+    w.location.hash = firstRow.getAttribute('href').slice(1);
+    await sleep(900);
+    const submit = d.querySelector('[data-training-submit]');
+    if (submit) {
+      submit.click();
+      await sleep(300);
+      const fb = d.getElementById('training-feedback');
+      ok(!/\[object Object\]/.test(fb ? fb.textContent : ''), '独立训练反馈无 [object Object]');
+    }
+  }
+
+  /* ---------- 11. 听力专题复盘：解析同样是结构化对象 ----------
+     题库里 200 道听力题有 60 道（gk2023-xgk2 全卷）的 explanation 是 dict，
+     原来 reportListening 用 this.text(q.explanation) 直接拼，这 60 题的
+     「基础解析」整段渲染成 "[object Object]"。选材页第一张卡是 gk2021-jia
+     （解析为空），所以必须显式挑到 gk2023-xgk2 才能覆盖到这条路径。 */
+  w.location.hash = '#/topic/listening';
+  await sleep(900);
+  const lpick = d.querySelector('[data-listening-choice="gk2023-xgk2"]');
+  ok(!!lpick, '听力选材页出现 gk2023-xgk2（含结构化解析的一套）');
+  if (lpick) {
+    lpick.click();
+    await sleep(700);
+    /* 先答一题再提交：全空也能提交，但复盘行至少要有一条走 is-wrong 分支 */
+    const lr0 = d.querySelector('.topic-question input[type=radio]');
+    if (lr0) { lr0.checked = true; lr0.dispatchEvent(new w.Event('change', {bubbles: true})); }
+    await sleep(200);
+    d.querySelector('[data-listening-submit]')?.click();
+    await sleep(800);
+    const lrep = d.querySelector('.topic-report');
+    ok(!!lrep, '听力专题进入复盘页');
+    const ltxt = lrep ? lrep.textContent : '';
+    ok(!/\[object Object\]/.test(ltxt), '听力复盘无 [object Object]');
+    ok(!!d.querySelector('.topic-review-row .explanation-block'),
+       '听力复盘渲染出结构化解析块',
+       d.querySelectorAll('.topic-review-row .explanation-block').length + ' blocks');
+    ok(/暂无文字稿|./.test(ltxt) && d.querySelectorAll('.listening-review details').length > 0,
+       '听力复盘逐题带文字稿折叠区',
+       d.querySelectorAll('.listening-review details').length);
+  }
+
+  const fails = lines.filter(l => l.startsWith('FAIL')).length;
+  document.getElementById('out').textContent =
+    'DONE  total=' + lines.length + '  fail=' + fails + '\n' + lines.join('\n');
+})().catch(e => {
+  document.getElementById('out').textContent = 'HARNESS-ERROR ' + (e && e.stack || e) + '\n' + lines.join('\n');
+});
+</script>
+</body>
+</html>

@@ -1,0 +1,17 @@
+{
+  "source_file": "2022年新高考全国一卷英语真题（解析版）",
+  "total_sections": 16,
+  "total_questions": 34,
+  "issues": [
+    {
+      "type": "question_id_gap",
+      "section": "reading",
+      "msg": "题号不连续: [37, 39, 40, 41, 43, 44]..."
+    }
+  ],
+  "review_required": [],
+  "summary": {
+    "total_issues": 1,
+    "needs_review": true
+  }
+}

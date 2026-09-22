@@ -1,0 +1,721 @@
+{
+  "source_file": "2022年全国乙卷英语高考真题（原卷版）",
+  "sections": [
+    {
+      "key": "listening",
+      "partTitle": "listening",
+      "questions": []
+    },
+    {
+      "key": "reading",
+      "partTitle": "reading",
+      "questions": [
+        {
+          "id": 1,
+          "type": "reading",
+          "stem": "What does the man want to do?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Have breakfast.      B. Take a walk.      C. Call his office."
+            },
+            {
+              "letter": "B",
+              "text": "Take a walk.      C. Call his office."
+            },
+            {
+              "letter": "C",
+              "text": "Call his office."
+            }
+          ],
+          "answer": "",
+          "explanation": null
+        },
+        {
+          "id": 2,
+          "type": "reading",
+          "stem": "What was George doing last night?",
+          "options": [],
+          "answer": "",
+          "explanation": null
+        },
+        {
+          "id": 3,
+          "type": "reading",
+          "stem": "Why does the man suggest going to the park?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "It’s big.      B. It’s quiet.      C. It’s new."
+            },
+            {
+              "letter": "B",
+              "text": "It’s quiet.      C. It’s new."
+            },
+            {
+              "letter": "C",
+              "text": "It’s new."
+            }
+          ],
+          "answer": "",
+          "explanation": null
+        },
+        {
+          "id": 4,
+          "type": "reading",
+          "stem": "How does the woman sound?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Annoyed.      B. Pleased.      C. Puzzled."
+            },
+            {
+              "letter": "B",
+              "text": "Pleased.      C. Puzzled."
+            },
+            {
+              "letter": "C",
+              "text": "Puzzled."
+            }
+          ],
+          "answer": "",
+          "explanation": null
+        },
+        {
+          "id": 5,
+          "type": "reading",
+          "stem": "Where is the man’s table?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Near the door.      B. By the window.      C. In the corner."
+            },
+            {
+              "letter": "B",
+              "text": "By the window.      C. In the corner."
+            },
+            {
+              "letter": "C",
+              "text": "In the corner.  第二节(共15小题;每小题1.5分，满分22.5分)"
+            }
+          ],
+          "answer": "",
+          "explanation": null
+        }
+      ]
+    },
+    {
+      "key": "reading",
+      "partTitle": "reading",
+      "questions": [
+        {
+          "id": 6,
+          "type": "reading",
+          "stem": "What are the speakers going to do tonight?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Eat out.      B. Go shopping.      C. Do sports."
+            },
+            {
+              "letter": "B",
+              "text": "Go shopping.      C. Do sports."
+            },
+            {
+              "letter": "C",
+              "text": "Do sports."
+            }
+          ],
+          "answer": "",
+          "explanation": null
+        },
+        {
+          "id": 7,
+          "type": "reading",
+          "stem": "What is the probable relationship between the speakers?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Boss and secretary.      B. Hostess and guest.      C. Husband and wife."
+            },
+            {
+              "letter": "B",
+              "text": "Hostess and guest.      C. Husband and wife."
+            },
+            {
+              "letter": "C",
+              "text": "Husband and wife.  听第7段材料，回答第8、9题。"
+            }
+          ],
+          "answer": "",
+          "explanation": null
+        },
+        {
+          "id": 8,
+          "type": "reading",
+          "stem": "Why does the woman think July is the best time to move?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Their business is slow.      B. The weather is favorable.      C. It’s easy to hire people."
+            },
+            {
+              "letter": "B",
+              "text": "The weather is favorable.      C. It’s easy to hire people."
+            },
+            {
+              "letter": "C",
+              "text": "It’s easy to hire people."
+            }
+          ],
+          "answer": "",
+          "explanation": null
+        },
+        {
+          "id": 9,
+          "type": "reading",
+          "stem": "How will they handle the moving?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Finish it all at once.      B. Have the sales section go first.      C. Do one department at a time."
+            },
+            {
+              "letter": "B",
+              "text": "Have the sales section go first.      C. Do one department at a time."
+            },
+            {
+              "letter": "C",
+              "text": "Do one department at a time.  听第8段材料，回答第10至12题。"
+            }
+          ],
+          "answer": "",
+          "explanation": null
+        },
+        {
+          "id": 10,
+          "type": "reading",
+          "stem": "What did Peter learn from his grandfather?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "How to appreciate art works.      B. How to deal with artists.      C. How to run a museum."
+            },
+            {
+              "letter": "B",
+              "text": "How to deal with artists.      C. How to run a museum."
+            },
+            {
+              "letter": "C",
+              "text": "How to run a museum."
+            }
+          ],
+          "answer": "",
+          "explanation": null
+        },
+        {
+          "id": 11,
+          "type": "reading",
+          "stem": "What did Peter do in Chicago?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "He studied at a college.      B. He served in the army.      C. He worked in a gallery."
+            },
+            {
+              "letter": "B",
+              "text": "He served in the army.      C. He worked in a gallery."
+            },
+            {
+              "letter": "C",
+              "text": "He worked in a gallery."
+            }
+          ],
+          "answer": "",
+          "explanation": null
+        },
+        {
+          "id": 12,
+          "type": "reading",
+          "stem": "Whose works did Peter like best?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Rembrandt’s.      B. Botticelli’s.      C. Rubens’."
+            },
+            {
+              "letter": "B",
+              "text": "Botticelli’s.      C. Rubens’."
+            },
+            {
+              "letter": "C",
+              "text": "Rubens’.  听第9段材料，回答第13至16题。"
+            }
+          ],
+          "answer": "",
+          "explanation": null
+        },
+        {
+          "id": 13,
+          "type": "reading",
+          "stem": "Where does the conversation take place?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "At a library.      B. In a law firm.      C. On a train."
+            },
+            {
+              "letter": "B",
+              "text": "In a law firm.      C. On a train."
+            },
+            {
+              "letter": "C",
+              "text": "On a train."
+            }
+          ],
+          "answer": "",
+          "explanation": null
+        },
+        {
+          "id": 14,
+          "type": "reading",
+          "stem": "By what time did John plan to finish his term paper?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "March.      B. August.      C. October."
+            },
+            {
+              "letter": "B",
+              "text": "August.      C. October."
+            },
+            {
+              "letter": "C",
+              "text": "October."
+            }
+          ],
+          "answer": "",
+          "explanation": null
+        },
+        {
+          "id": 15,
+          "type": "reading",
+          "stem": "Why did John quit his part-time job?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Carefree.      B. Understanding.      C. Forgiving."
+            },
+            {
+              "letter": "B",
+              "text": "Understanding.      C. Forgiving."
+            },
+            {
+              "letter": "C",
+              "text": "Forgiving.  听第10段材料，回答第17至20题。"
+            }
+          ],
+          "answer": "",
+          "explanation": null
+        },
+        {
+          "id": 17,
+          "type": "reading",
+          "stem": "What did the speaker do before the year 2012?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "A fitness coach.      B. A chess player.      C. A marathon runner."
+            },
+            {
+              "letter": "B",
+              "text": "A chess player.      C. A marathon runner."
+            },
+            {
+              "letter": "C",
+              "text": "A marathon runner."
+            }
+          ],
+          "answer": "",
+          "explanation": null
+        },
+        {
+          "id": 18,
+          "type": "reading",
+          "stem": "Why was the 2016 Olympics important for the speaker?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "He was motivated by Bolt.      B. He broke a world record.      C. He won fifth place."
+            },
+            {
+              "letter": "B",
+              "text": "He broke a world record.      C. He won fifth place."
+            },
+            {
+              "letter": "C",
+              "text": "He won fifth place."
+            }
+          ],
+          "answer": "",
+          "explanation": null
+        },
+        {
+          "id": 19,
+          "type": "reading",
+          "stem": "Which is the hardest for the speaker?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Getting over an injury.      B. Doing strength training.      C. Representing Botswana."
+            },
+            {
+              "letter": "B",
+              "text": "Doing strength training.      C. Representing Botswana."
+            },
+            {
+              "letter": "C",
+              "text": "Representing Botswana."
+            }
+          ],
+          "answer": "",
+          "explanation": null
+        },
+        {
+          "id": 20,
+          "type": "reading",
+          "stem": "What is the speaker mainly talking about?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "His plan to go for the gold."
+            },
+            {
+              "letter": "B",
+              "text": "His experience on the track."
+            },
+            {
+              "letter": "C",
+              "text": "His love for his home country."
+            }
+          ],
+          "answer": "",
+          "explanation": null
+        }
+      ]
+    },
+    {
+      "key": "reading",
+      "partTitle": "reading",
+      "questions": []
+    },
+    {
+      "key": "reading",
+      "partTitle": "reading",
+      "questions": [
+        {
+          "id": 2,
+          "type": "reading",
+          "stem": "How much would a couple with two children under 12 pay for admission?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "£4.\tB. £8.\tC. £12.\tD. £16."
+            },
+            {
+              "letter": "B",
+              "text": "£8.\tC. £12.\tD. £16."
+            },
+            {
+              "letter": "C",
+              "text": "£12.\tD. £16."
+            },
+            {
+              "letter": "D",
+              "text": "£16."
+            }
+          ],
+          "answer": "",
+          "explanation": null
+        },
+        {
+          "id": 3,
+          "type": "reading",
+          "stem": "How can full-time students get group discounts?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "They should go on Sunday mornings.\tB. They should come from art schools."
+            },
+            {
+              "letter": "B",
+              "text": "They should come from art schools."
+            },
+            {
+              "letter": "C",
+              "text": "They must be led by teachers.\tD. They must have ID cards with them."
+            },
+            {
+              "letter": "D",
+              "text": "They must have ID cards with them. B In 1916, two girls of wealthy families, best friends from Auburn, N. Y.—Dorothy Woodruff and Rosamond Underwood—traveled to a settlement in the Rocky Mountains to teach in a one-room schoolhouse. The girls had gone to Smith College. They wore expensive clothes. So for them to move to Elkhead, Colo. to instruct the children whose shoes were held together with string was a surprise. Their stay in Elkhead is the subject of Nothing Daunted: The Unexpected Education of Two Society Girls in the West by Dorothy Wickenden, who is a magazine editor and Dorothy Woodruff’s granddaughter. Why did they go then? Well, they wanted to do something useful. Soon, however, they realized what they had undertaken. They moved in with a local family, the Harrisons, and, like them, had little privacy, rare baths, and a blanket of snow on their quilt when they woke up in the morning. Some mornings, Rosamond and Dorothy would arrive at the schoolhouse to find the children weeping from the cold. In spring, the snow was replaced by mud over ice. In Wickenden’s book, she expanded on the history of the West and also on feminism, which of course influenced the girls’ decision to go to Elkhead. A hair-raising section concerns the building of the railroads, which entailed (牵涉) drilling through the Rockies, often in blinding snowstorms. The book ends with Rosamond and Dorothy’s return to Auburn."
+            }
+          ],
+          "answer": "",
+          "explanation": null
+        }
+      ]
+    },
+    {
+      "key": "writing",
+      "partTitle": "writing",
+      "questions": [
+        {
+          "id": 1,
+          "type": "writing",
+          "stem": "Wickenden is a very good storyteller. The sweep of the land and the stoicism (坚忍) of the people move her to some beautiful writing. Here is a picture of Dorothy Woodruff, on her horse, looking down from a hill top: “When the sun slipped behind the mountains, it shed a rosy glow all around them. Then a full moon rose. The snow was marked only by small animals: foxes, coyotes, mice, and varying hares, which turned white in the winter.” \n4. Why did Dorothy and Rosamond go to the Rocky Mountains?\nA. To teach in a school.\tB. To study American history.\nC. To write a book.\tD. To do sightseeing.\n5. What can we learn about the girls from paragraph 3?\nA. They enjoyed much respect.\tB. They had a room with a bathtub.\nC. They lived with the local kids.\tD. They suffered severe hardships.",
+          "modelAnswer": "",
+          "explanation": null
+        }
+      ]
+    },
+    {
+      "key": "writing",
+      "partTitle": "writing",
+      "questions": [
+        {
+          "id": 1,
+          "type": "writing",
+          "stem": "6. Which part of Wickenden’s writing is hair-raising?\nA. The extreme climate of Auburn.\tB. The living conditions in Elkhead.\nC. The railroad building in the Rockies.\tD. The natural beauty of the West.\n7. What is the text?\nA. A news report.\tB. A book review.\tC. A children’s story.\tD. A diary entry.\nC\nCan a small group of drones(无人机)guarantee the safety and reliability of railways and, at the same time, help railway operators save billions of euros each year? That is the very likely future of applying today’s “eyes in the sky” technology to making sure that the millions of kilometres of rail tracks and infrastructure(基础设施)worldwide are safe for trains on a 24/7 basis. \nDrones are already being used to examine high-tension electrical lines. They could do precisely the same thing to inspect railway lines and other vital aspects of rail infrastructure such as the correct position of railway tracks and switching points. The more regularly they can be inspected, the more railway safety, reliability and on-time performance will be improved. Costs would be cut and operations would be more efficient(高效)across the board. \nThat includes huge savings in maintenance costs and better protection of railway personnel safety. It is calculated that European railways alone spend approximately 20 billion euros a year on maintenance, including sending maintenance staff, often at night, to inspect and repair the rail infrastructure. That can be dangerous work that could be avoided with drones assisting the crews’ efforts. \nBy using the latest technologies, drones could also start providing higher-value services for railways, detecting faults in the rail or switches, before they can cause any safety problems. To perform these tasks, drones for rail don’t need to be flying overhead. Engineers are now working on a new concept: the rail drones of the future. They will be moving on the track ahead of the train, and programmed to run autonomously. Very small drones with advanced sensors and AI and travelling ahead of the train could guide it like a co-pilot. With their ability to see ahead, they could signal any problem, so that fast-moving trains would be able to react in time.\n8. What makes the application of drones to rail lines possible?\nA. The use of drones in checking on power lines.\tB. Drones’ ability to work at high altitudes.\nC. The reduction of cost in designing drones.\tD. Drones’ reliable performance in remote areas.\n9. What does “maintenance” underlined in paragraph 3 refer to?\nA. Personnel safety.\tB. Assistance from drones.\nC. Inspection and repair.\tD. Construction of infrastructure.\n10. What function is expected of the rail drones?\nA. To provide early warning.\tB. To make trains run automatically.\nC. To earn profits for the crews.\tD. To accelerate transportation.\n11. Which is the most suitable title for the text?\nA. What Faults Can Be Detected with Drones\nB. How Production of Drones Can Be Expanded\nC. What Difficulty Drone Development Will Face\nD. How Drones Will Change the Future of Railways\nD\nThe Government's sugar tax on soft drinks has brought in half as much money as Ministers first predicted it would generate, the first official data on the policy has shown. \nFirst announced in April, 2016, the tax which applies to soft drinks containing more than 5g of sugar per 100ml, was introduced to help reduce childhood obesity（肥胖）. It is believed that today's children and teenagers are consuming three times the recommended level of sugar, putting them at a higher risk of the disease. \nInitially the sugar tax was expected to make £520m a year for the Treasury. However, data of the first six months showed it would make less than half this amount. At present it is expected to generate £240m for the year ending in April 2019, which will go to school sports. \nIt comes after more than half of soft drinks sold in shops have had their sugar levels cut by manufacturers（制造商）so they can avoid paying the tax. Drinks now contain 45 million fewer kilos of sugar as a result of manufacturers' efforts to avoid the charge, according to Treasury figures. Since April drinks companies have been forced to pay between 18p and 24p for every litre of sugary drink they produce or import, depending on the sugar content. \nHowever, some high sugar brands, like Classic Coca Cola, have accepted the sugar tax and are refusing to change for fear of upsetting consumers. Fruit juices, milk-based drinks and most alcoholic drinks are free of the tax, as are small companies manufacturing fewer than 1m litres per year. \nToday's figures, according to one government official, show the positive influence the sugar tax is having by raising millions of pounds for sports facilities（设施）and healthier eating in schools. Helping the next generation to have a healthy and active childhood is of great importance, and the industry is playing its part. \n12. Why was the sugar tax introduced?\nA. To collect money for schools.\tB. To improve the quality of drinks.\nC. To protect children’s health.\tD. To encourage research in education.\n13. How did some drinks companies respond to the sugar tax?\nA. They turned to overseas markets.\tB. They raised the prices of their products.\nC. They cut down on their production.\tD. They reduced their products’ sugar content.\n14. From which of the following is the sugar tax collected?\nA. Most alcoholic drinks.\tB. Milk-based drinks.\tC. Fruit juices.\tD. Classic Coke.\n15. What can be inferred about the adoption of the sugar tax policy?\nA. It is a short-sighted decision.\tB. It is a success story.\nC. It benefits manufacturers.\tD. It upsets customers.\n第二节(共5小题;每小题2分，满分10分)\n根据短文内容，从短文后的选项中选出能填入空白处的最佳选项。选项中有两项为多余选项。\nFriendship needs care and attention to keep it in good health. Here are five ways to sustain (保持) long-distance friendships. \n·Set a regular date\nLong-lasting friendships share the characteristic that both sides equally contact (联系) and share with one another. With busy schedules, squeezing in phone calls can be a challenge. ___16___. \n·More isn’t always merrier\nMake sure you have communicated with your friend about how frequently each of you wants to be contacted and what method works best for you both. ___17___. There are alternatives to constant written communication, such as leaving voice messages or having a group chat. \n·Practise empathy (共情)\n___18___. The friend who is remaining needs to be sensitive to all the additional time demands placed on the friend who has moved. The one in the new environment should be sympathetic to the fact that your friend may feel abandoned. \n· ___19___ \nAnniversaries and birthdays carry even more weight in long-distance friendships. Although technology might make day-to-day communication possible, extra effort goes a long way on special days. Simply keeping a diary that keeps track of friends’ birthdays and other important dates will make sure nothing slips by you. \n·Don’t rely on technology alone\n___20___, but long-distance friendships — even close ones — may require more conscious effort to sustain. Try to seek out chances to renew friendships. How to do it? Just spend face-to-face time together whenever possible.\nA. Remember important dates",
+          "modelAnswer": "",
+          "explanation": null
+        }
+      ]
+    },
+    {
+      "key": "writing",
+      "partTitle": "writing",
+      "questions": [
+        {
+          "id": 1,
+          "type": "writing",
+          "stem": "B. Compensate by writing letters\nC. It is also helpful for you to be a friendship keeper\nD. Try to find a time that works for both of you and stick to it\nE. Friends need to talk about their preferred methods of communication\nF. It is easy to have a sense of connectedness through social media\nG. You may be the friend who left or the one who was left behind\n语言知识运用(共两节，满分45分)\n第一节(共20小题;每小题1.5分，满分30分)",
+          "modelAnswer": "",
+          "explanation": null
+        }
+      ]
+    },
+    {
+      "key": "reading",
+      "partTitle": "reading",
+      "questions": [
+        {
+          "id": 21,
+          "type": "reading",
+          "stem": "A. following\tB. taking\tC. escaping\tD. directing",
+          "options": [],
+          "answer": "",
+          "explanation": null
+        },
+        {
+          "id": 22,
+          "type": "reading",
+          "stem": "A. clever\tB. bad\tC. scared\tD. quick",
+          "options": [],
+          "answer": "",
+          "explanation": null
+        },
+        {
+          "id": 23,
+          "type": "reading",
+          "stem": "A. exposed\tB. examined\tC. untouched\tD. imbalanced",
+          "options": [],
+          "answer": "",
+          "explanation": null
+        },
+        {
+          "id": 24,
+          "type": "reading",
+          "stem": "A. supported\tB. guaranteed\tC. imagined\tD. interpreted",
+          "options": [],
+          "answer": "",
+          "explanation": null
+        },
+        {
+          "id": 25,
+          "type": "reading",
+          "stem": "A. disappointing\tB. mixed\tC. surprising\tD. desired",
+          "options": [],
+          "answer": "",
+          "explanation": null
+        },
+        {
+          "id": 26,
+          "type": "reading",
+          "stem": "A. explained\tB. confirmed\tC. contradicted\tD. tested",
+          "options": [],
+          "answer": "",
+          "explanation": null
+        },
+        {
+          "id": 27,
+          "type": "reading",
+          "stem": "A. parent\tB. child\tC. researcher\tD. doctor",
+          "options": [],
+          "answer": "",
+          "explanation": null
+        },
+        {
+          "id": 28,
+          "type": "reading",
+          "stem": "A. feet\tB. nose\tC. hands\tD. ears",
+          "options": [],
+          "answer": "",
+          "explanation": null
+        },
+        {
+          "id": 29,
+          "type": "reading",
+          "stem": "A. see\tB. help\tC. reach\tD. fool",
+          "options": [],
+          "answer": "",
+          "explanation": null
+        },
+        {
+          "id": 30,
+          "type": "reading",
+          "stem": "A. event\tB. thing\tC. action\tD. accident",
+          "options": [],
+          "answer": "",
+          "explanation": null
+        },
+        {
+          "id": 31,
+          "type": "reading",
+          "stem": "A. Yet\tB. Now\tC. Soon\tD. Once",
+          "options": [],
+          "answer": "",
+          "explanation": null
+        },
+        {
+          "id": 32,
+          "type": "reading",
+          "stem": "A. speak\tB. listen\tC. turn\tD. wave",
+          "options": [],
+          "answer": "",
+          "explanation": null
+        },
+        {
+          "id": 33,
+          "type": "reading",
+          "stem": "A. instructions\tB. descriptions\tC. experiments\tD. assumptions",
+          "options": [],
+          "answer": "",
+          "explanation": null
+        },
+        {
+          "id": 34,
+          "type": "reading",
+          "stem": "A. comprehended\tB. predicted\tC. explored\tD. ignored",
+          "options": [],
+          "answer": "",
+          "explanation": null
+        },
+        {
+          "id": 35,
+          "type": "reading",
+          "stem": "A. partly\tB. honestly\tC. vaguely\tD. exactly",
+          "options": [],
+          "answer": "",
+          "explanation": null
+        },
+        {
+          "id": 36,
+          "type": "reading",
+          "stem": "A. responses\tB. approaches\tC. contribution\tD. sensitivity",
+          "options": [],
+          "answer": "",
+          "explanation": null
+        },
+        {
+          "id": 37,
+          "type": "reading",
+          "stem": "A. ability\tB. belief\tC. identity\tD. purpose",
+          "options": [],
+          "answer": "",
+          "explanation": null
+        },
+        {
+          "id": 38,
+          "type": "reading",
+          "stem": "A. hold back\tB. relate to\tC. insist on\tD. make up",
+          "options": [],
+          "answer": "",
+          "explanation": null
+        },
+        {
+          "id": 39,
+          "type": "reading",
+          "stem": "A. limitations\tB. requirements\tC. theories\tD. findings",
+          "options": [],
+          "answer": "",
+          "explanation": null
+        },
+        {
+          "id": 40,
+          "type": "reading",
+          "stem": "A. tentative\tB. impressive\tC. creative\tD. effective",
+          "options": [],
+          "answer": "",
+          "explanation": null
+        }
+      ]
+    },
+    {
+      "key": "reading",
+      "partTitle": "reading",
+      "questions": []
+    },
+    {
+      "key": "writing",
+      "partTitle": "writing",
+      "questions": [
+        {
+          "id": 1,
+          "type": "writing",
+          "stem": "第四部分 写作(共两节，满分35分)",
+          "modelAnswer": "",
+          "explanation": null
+        }
+      ]
+    },
+    {
+      "key": "proofreading",
+      "partTitle": "proofreading",
+      "questions": [
+        {
+          "id": 1,
+          "type": "proofreading",
+          "material": "第一节，短文改错(共10小题;每小题1分，满分10分)\n51. 假定英语课上老师要求同桌之间交换修改作文，请你修改你同桌写的以下作文。文中共有10处语言错误，每句中最多有两处。每处错误仅涉及一个单词的增加、删除或修改\n增加：在缺词处加一个漏字符号(^)，并在其下面写出该加的词。\n删除：把多余的词用斜线(\\)划掉。\n修改：在错的词下划一横线，并在该词下面写出修改后的词。\n注意：1．每处错误及其修改均仅限一词;\n2．只允许修改10处，多者(从第11处起)不计分。\nWe all know that cycling is a greatly exercise. A doctor tells me people who lives the longest are dancers and cyclists. Maybe it is because the combination of fresh air, smooth movement and exercise. Whether you ride a bicycle, you don’t use petrol. So they are not producing carbon dioxide and not cause air pollution. Just see how cars have been taken over our cities. They often run at high speeds, what may put our lives in danger. And there were traffic jams, too. Our cities will be better places if we replace cars with bicycle.",
+          "modelAnswer": "",
+          "explanation": {
+            "summary": "",
+            "points": []
+          }
+        }
+      ]
+    },
+    {
+      "key": "writing",
+      "partTitle": "writing",
+      "questions": [
+        {
+          "id": 1,
+          "type": "writing",
+          "stem": "第二节 书面表达(满分25分)\n52. 学校英文报正在开展以Learning English Beyond the Classroom为题的讨论。请使用图表中的调查结果写一篇短文投稿，内容包括：\n1. 学习活动状况描述：\n2. 简单评论;\n3. 你的建议。\n\n注意：\n1. 词数100左右;\n2. 短文的题目和首句已为你写好。\n\n\nAn Introduction to Raeburn\nSunday 26 Oct., 15.00\nDUNCAN THOMSON | Raeburn’s English Contemporaries\nThursday 30 Oct. 13.10\nJUDY EGERTON\nCharacters and Characterisation in \nRaeburn’s Portraits\nThursday 6 Nov., 13.10\nNICHOLAS PHILLIPSON | Raeburn and Artist’s Training in the \n18th Century\nThursday 13 Nov., 13.10\nMARTIN POSTLE",
+          "modelAnswer": "",
+          "explanation": null
+        }
+      ]
+    }
+  ]
+}

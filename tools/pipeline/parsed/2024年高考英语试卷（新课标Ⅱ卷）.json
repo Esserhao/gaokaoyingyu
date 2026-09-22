@@ -1,0 +1,992 @@
+{
+  "source_file": "2024年高考英语试卷（新课标Ⅱ卷）",
+  "sections": [
+    {
+      "key": "listening",
+      "partTitle": "listening",
+      "questions": []
+    },
+    {
+      "key": "listening",
+      "partTitle": "listening",
+      "questions": []
+    },
+    {
+      "key": "listening",
+      "partTitle": "listening",
+      "questions": []
+    },
+    {
+      "key": "listening",
+      "partTitle": "listening",
+      "questions": []
+    },
+    {
+      "key": "reading",
+      "partTitle": "reading",
+      "questions": [
+        {
+          "id": 1,
+          "type": "reading",
+          "stem": "What did the woman do yesterday evening?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "She watched TV.         B. She went shopping.         C. She attended a show."
+            },
+            {
+              "letter": "B",
+              "text": "She went shopping.         C. She attended a show."
+            },
+            {
+              "letter": "C",
+              "text": "She attended a show."
+            }
+          ],
+          "answer": "",
+          "explanation": null
+        },
+        {
+          "id": 2,
+          "type": "reading",
+          "stem": "What is the man's suggestion?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Taking a rest.         B. Going for a coffee.         C. Having a snack."
+            },
+            {
+              "letter": "B",
+              "text": "Going for a coffee.         C. Having a snack."
+            },
+            {
+              "letter": "C",
+              "text": "Having a snack."
+            }
+          ],
+          "answer": "",
+          "explanation": null
+        },
+        {
+          "id": 3,
+          "type": "reading",
+          "stem": "What are the speakers mainly talking about?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "A weekend plan.         B. A wedding invitation.         C. A business deal."
+            },
+            {
+              "letter": "B",
+              "text": "A wedding invitation.         C. A business deal."
+            },
+            {
+              "letter": "C",
+              "text": "A business deal."
+            }
+          ],
+          "answer": "",
+          "explanation": null
+        },
+        {
+          "id": 4,
+          "type": "reading",
+          "stem": "Where is Barbara going tonight?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "To a gym.         B. To her grandma's.         C. To the doctor's."
+            },
+            {
+              "letter": "B",
+              "text": "To her grandma's.         C. To the doctor's."
+            },
+            {
+              "letter": "C",
+              "text": "To the doctor's."
+            }
+          ],
+          "answer": "",
+          "explanation": null
+        },
+        {
+          "id": 5,
+          "type": "reading",
+          "stem": "What is Alex doing?",
+          "options": [],
+          "answer": "",
+          "explanation": null
+        }
+      ]
+    },
+    {
+      "key": "reading",
+      "partTitle": "reading",
+      "questions": []
+    },
+    {
+      "key": "reading",
+      "partTitle": "reading",
+      "questions": [
+        {
+          "id": 6,
+          "type": "reading",
+          "stem": "Where does the conversation probably take place?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "In a fitness center.         B. In a sports shop.         C. In a clinic."
+            },
+            {
+              "letter": "B",
+              "text": "In a sports shop.         C. In a clinic."
+            },
+            {
+              "letter": "C",
+              "text": "In a clinic."
+            }
+          ],
+          "answer": "",
+          "explanation": null
+        },
+        {
+          "id": 7,
+          "type": "reading",
+          "stem": "What does the man advise the woman to do?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Buy high-quality sportswear."
+            },
+            {
+              "letter": "B",
+              "text": "Keep working out regularly."
+            },
+            {
+              "letter": "C",
+              "text": "Avoid over-exercising.  听第7段材料, 回答第8至10题。"
+            }
+          ],
+          "answer": "",
+          "explanation": null
+        },
+        {
+          "id": 8,
+          "type": "reading",
+          "stem": "Why does the man make the call?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "To reserve a table.         B. To ask about a party.         C. To postpone a meeting."
+            },
+            {
+              "letter": "B",
+              "text": "To ask about a party.         C. To postpone a meeting."
+            },
+            {
+              "letter": "C",
+              "text": "To postpone a meeting."
+            }
+          ],
+          "answer": "",
+          "explanation": null
+        },
+        {
+          "id": 9,
+          "type": "reading",
+          "stem": "What time should the man arrive on Friday evening?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "At 5:30.         B. At 6:30.         C. At 8:00."
+            },
+            {
+              "letter": "B",
+              "text": "At 6:30.         C. At 8:00."
+            },
+            {
+              "letter": "C",
+              "text": "At 8:00."
+            }
+          ],
+          "answer": "",
+          "explanation": null
+        },
+        {
+          "id": 10,
+          "type": "reading",
+          "stem": "What is the man's name?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Brown.         B. Anderson.         C. Howard."
+            },
+            {
+              "letter": "B",
+              "text": "Anderson.         C. Howard."
+            },
+            {
+              "letter": "C",
+              "text": "Howard.  听第8段材料, 回答第11至13题。"
+            }
+          ],
+          "answer": "",
+          "explanation": null
+        },
+        {
+          "id": 11,
+          "type": "reading",
+          "stem": "Why does Sarah come to talk to Jacob?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "To make an appointment.         B. To seek his advice.         C. To explain a decision."
+            },
+            {
+              "letter": "B",
+              "text": "To seek his advice.         C. To explain a decision."
+            },
+            {
+              "letter": "C",
+              "text": "To explain a decision."
+            }
+          ],
+          "answer": "",
+          "explanation": null
+        },
+        {
+          "id": 12,
+          "type": "reading",
+          "stem": "How many people are there in Sarah's group?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Three.         B. Four.         C. Five."
+            },
+            {
+              "letter": "B",
+              "text": "Four.         C. Five."
+            },
+            {
+              "letter": "C",
+              "text": "Five."
+            }
+          ],
+          "answer": "",
+          "explanation": null
+        },
+        {
+          "id": 13,
+          "type": "reading",
+          "stem": "What is the relationship between the speakers?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Classmates.         B. Fellow workers.         C. Teacher and student."
+            },
+            {
+              "letter": "B",
+              "text": "Fellow workers.         C. Teacher and student."
+            },
+            {
+              "letter": "C",
+              "text": "Teacher and student.  听第9段材料, 回答第14至16题。"
+            }
+          ],
+          "answer": "",
+          "explanation": null
+        },
+        {
+          "id": 14,
+          "type": "reading",
+          "stem": "How often does the band come to perform in the park?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Three times a year.         B. Once a year.         C. Every other year."
+            },
+            {
+              "letter": "B",
+              "text": "Once a year.         C. Every other year."
+            },
+            {
+              "letter": "C",
+              "text": "Every other year."
+            }
+          ],
+          "answer": "",
+          "explanation": null
+        },
+        {
+          "id": 15,
+          "type": "reading",
+          "stem": "What kind of music will be played this evening?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Country music.         B. Jazz.         C. Rock and roll."
+            },
+            {
+              "letter": "B",
+              "text": "Jazz.         C. Rock and roll."
+            },
+            {
+              "letter": "C",
+              "text": "Rock and roll."
+            }
+          ],
+          "answer": "",
+          "explanation": null
+        },
+        {
+          "id": 16,
+          "type": "reading",
+          "stem": "What will Jannie do next?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Catch a bus.         B. Listen to a lecture.         C. Go to the library."
+            },
+            {
+              "letter": "B",
+              "text": "Listen to a lecture.         C. Go to the library."
+            },
+            {
+              "letter": "C",
+              "text": "Go to the library.  听第10段材料, 回答第17至20题。"
+            }
+          ],
+          "answer": "",
+          "explanation": null
+        },
+        {
+          "id": 17,
+          "type": "reading",
+          "stem": "Why did the speaker go to the hotel?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "To deliver a speech."
+            },
+            {
+              "letter": "B",
+              "text": "To arrange a conference."
+            },
+            {
+              "letter": "C",
+              "text": "To interview Mr. Rochester."
+            }
+          ],
+          "answer": "",
+          "explanation": null
+        },
+        {
+          "id": 18,
+          "type": "reading",
+          "stem": "What did Mr. Rochester do soon after he bought the hotel?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "He talked with the staff members."
+            },
+            {
+              "letter": "B",
+              "text": "He had the old carpets replaced."
+            },
+            {
+              "letter": "C",
+              "text": "He ran a six-month training project."
+            }
+          ],
+          "answer": "",
+          "explanation": null
+        },
+        {
+          "id": 19,
+          "type": "reading",
+          "stem": "What did Susan do when she met Mr. Rochester the second time?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "She was a cleaner.         B. She was a secretary.         C. She was a receptionist."
+            },
+            {
+              "letter": "B",
+              "text": "She was a secretary.         C. She was a receptionist."
+            },
+            {
+              "letter": "C",
+              "text": "She was a receptionist."
+            }
+          ],
+          "answer": "",
+          "explanation": null
+        },
+        {
+          "id": 20,
+          "type": "reading",
+          "stem": "What does the speaker think is key to Mr. Rochester's success?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Managing time efficiently."
+            },
+            {
+              "letter": "B",
+              "text": "Valuing human relationships."
+            },
+            {
+              "letter": "C",
+              "text": "Possessing a good memory."
+            }
+          ],
+          "answer": "",
+          "explanation": null
+        }
+      ]
+    },
+    {
+      "key": "reading",
+      "partTitle": "reading",
+      "questions": []
+    },
+    {
+      "key": "reading",
+      "partTitle": "reading",
+      "questions": [
+        {
+          "id": 1,
+          "type": "reading",
+          "stem": "Which walk takes the shortest time?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "The Natural World.\tB. Introduction to Hillwalking."
+            },
+            {
+              "letter": "B",
+              "text": "Introduction to Hillwalking."
+            },
+            {
+              "letter": "C",
+              "text": "Moonlight Under the Stars.\tD. Photographic Walk in Kilbrannish Forest."
+            },
+            {
+              "letter": "D",
+              "text": "Photographic Walk in Kilbrannish Forest."
+            }
+          ],
+          "answer": "",
+          "explanation": null
+        },
+        {
+          "id": 2,
+          "type": "reading",
+          "stem": "What are participants in Walk 3 required to do?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Wear proper clothes.\tB. Join a walking club."
+            },
+            {
+              "letter": "B",
+              "text": "Join a walking club."
+            },
+            {
+              "letter": "C",
+              "text": "Get special permits.\tD. Bring a survival guide."
+            },
+            {
+              "letter": "D",
+              "text": "Bring a survival guide."
+            }
+          ],
+          "answer": "",
+          "explanation": null
+        },
+        {
+          "id": 3,
+          "type": "reading",
+          "stem": "What do the four walks have in common?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "They involve difficult climbing.\tB. They are for experienced walkers."
+            },
+            {
+              "letter": "B",
+              "text": "They are for experienced walkers."
+            },
+            {
+              "letter": "C",
+              "text": "They share the same start point.\tD. They are scheduled for the weekend."
+            },
+            {
+              "letter": "D",
+              "text": "They are scheduled for the weekend. B Do you ever get to the train station and realize you forgot to bring something to read? Yes, we all have our phones, but many of us still like to go old school and read something printed. Well, there’s a kiosk (小亭) for that. In the San Francisco Bay Area, at least. “You enter the fare gates (检票口) and you’ll see a kiosk that is lit up and it tells you can get a one-minute, a three-minute, or a five-minute story,” says Alicia Trost, the chief communications officer for the San Francisco Bay Area Rapid Transit — known as BART. “You choose which length you want and it gives you a receipt-like short story.” It’s that simple. Riders have printed nearly 20,000 short stories and poems since the program was launched last March. Some are classic short stories, and some are new original works. Trost also wants to introduce local writers to local riders. “We wanted to do something where we do a call to artists in the Bay Area to submit stories for a contest,” Trost says. “And as of right now, we’ve received about 120 submissions. The winning stories would go into our kiosk and then you would be a published artist.” Ridership on transit (交通) systems across the country has been down the past half century, so could short stories save transit? Trost thinks so. “At the end of the day all transit agencies right now are doing everything they can to improve the rider experience. So I absolutely think we will get more riders just because of short stories,” she says. And you’ll never be without something to read."
+            }
+          ],
+          "answer": "",
+          "explanation": null
+        },
+        {
+          "id": 4,
+          "type": "reading",
+          "stem": "Why did BART start the kiosk program?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "To promote the local culture.\tB. To discourage phone use."
+            },
+            {
+              "letter": "B",
+              "text": "To discourage phone use."
+            },
+            {
+              "letter": "C",
+              "text": "To meet passengers’ needs.\tD. To reduce its running costs."
+            },
+            {
+              "letter": "D",
+              "text": "To reduce its running costs."
+            }
+          ],
+          "answer": "",
+          "explanation": null
+        },
+        {
+          "id": 5,
+          "type": "reading",
+          "stem": "How are the stories categorized in the kiosk?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "By popularity.\tB. By length."
+            },
+            {
+              "letter": "B",
+              "text": "By length."
+            },
+            {
+              "letter": "C",
+              "text": "By theme.\tD. By language."
+            },
+            {
+              "letter": "D",
+              "text": "By language."
+            }
+          ],
+          "answer": "",
+          "explanation": null
+        },
+        {
+          "id": 6,
+          "type": "reading",
+          "stem": "What has Trost been doing recently?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Organizing a story contest.\tB. Doing a survey of customers."
+            },
+            {
+              "letter": "B",
+              "text": "Doing a survey of customers."
+            },
+            {
+              "letter": "C",
+              "text": "Choosing a print publisher.\tD. Conducting interviews with artists."
+            },
+            {
+              "letter": "D",
+              "text": "Conducting interviews with artists."
+            }
+          ],
+          "answer": "",
+          "explanation": null
+        },
+        {
+          "id": 7,
+          "type": "reading",
+          "stem": "What is Trost’s opinion about BART’s future?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "It will close down.\tB. Its profits will decline."
+            },
+            {
+              "letter": "B",
+              "text": "Its profits will decline."
+            },
+            {
+              "letter": "C",
+              "text": "It will expand nationwide.\tD. Its ridership will increase."
+            },
+            {
+              "letter": "D",
+              "text": "Its ridership will increase. C We all know fresh is best when it comes to food. However, most produce at the store went through weeks of travel and covered hundreds of miles before reaching the table. While farmer’s markets are a solid choice to reduce the journey, Babylon Micro-Farm (BMF) shortens it even more. BMF is an indoor garden system. It can be set up for a family. Additionally, it could serve a larger audience such as a hospital, restaurant or school. The innovative design requires little effort to achieve a reliable weekly supply of fresh greens. Specifically, it’s a farm that relies on new technology. By connecting through the Cloud, BMF is remotely monitored. Also, there is a convenient app that provides growing data in real time. Because the system is automated, it significantly reduces the amount of water needed to grow plants. Rather than watering rows of soil, the system provides just the right amount to each plant. After harvest, users simply replace the plants with a new pre-seeded pod (容器) to get the next growth cycle started. Moreover, having a system in the same building where it’s eaten means zero emissions (排放) from transporting plants from soil to salad. In addition, there’s no need for pesticides and other chemicals that pollute traditional farms and the surrounding environment. BMF employees live out sustainability in their everyday lives. About half of them walk or bike to work. Inside the office, they encourage recycling and waste reduction by limiting garbage cans and avoiding single-use plastic. “We are passionate about reducing waste, carbon and chemicals in our environment,” said a BMF employee."
+            }
+          ],
+          "answer": "",
+          "explanation": null
+        },
+        {
+          "id": 8,
+          "type": "reading",
+          "stem": "What can be learned about BMF from paragraph 1?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "It guarantees the variety of food.\tB. It requires day-to-day care."
+            },
+            {
+              "letter": "B",
+              "text": "It requires day-to-day care."
+            },
+            {
+              "letter": "C",
+              "text": "It cuts the farm-to-table distance.\tD. It relies on farmer’s markets."
+            },
+            {
+              "letter": "D",
+              "text": "It relies on farmer’s markets."
+            }
+          ],
+          "answer": "",
+          "explanation": null
+        },
+        {
+          "id": 9,
+          "type": "reading",
+          "stem": "What information does the convenient app offer?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Real-time weather changes.\tB. Current condition of the plants."
+            },
+            {
+              "letter": "B",
+              "text": "Current condition of the plants."
+            },
+            {
+              "letter": "C",
+              "text": "Chemical pollutants in the soil.\tD. Availability of pre-seeded pods."
+            },
+            {
+              "letter": "D",
+              "text": "Availability of pre-seeded pods."
+            }
+          ],
+          "answer": "",
+          "explanation": null
+        },
+        {
+          "id": 10,
+          "type": "reading",
+          "stem": "What can be concluded about BMF employees?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "They have a great passion for sports."
+            },
+            {
+              "letter": "B",
+              "text": "They are devoted to community service."
+            },
+            {
+              "letter": "C",
+              "text": "They are fond of sharing daily experiences. D They have a strong environmental awareness."
+            }
+          ],
+          "answer": "",
+          "explanation": null
+        },
+        {
+          "id": 11,
+          "type": "reading",
+          "stem": "What does the text mainly talk about?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "BMF’s major strengths.\tB. BMF’s general management."
+            },
+            {
+              "letter": "B",
+              "text": "BMF’s general management."
+            },
+            {
+              "letter": "C",
+              "text": "BMF’s global influence.\tD. BMF’s technical standards."
+            },
+            {
+              "letter": "D",
+              "text": "BMF’s technical standards. D Given the astonishing potential of AI to transform our lives we all need to take action to deal with our AI-powered future, and this is where AI by Design: A Plan for Living with Artificial Intelligence comes in. This absorbing new book by Catriona Campbell is a practical roadmap addressing the challenges posed by the forthcoming AI revolution (变革). In the wrong hands, such a book could prove as complicated to process as the computer code (代码) that powers AI but, thankfully, Campbell has more than two decades’ professional experience translating the heady into the understandable. She writes from the practical angle of a business person rather than as an academic, making for a guide which is highly accessible and informative and which, by the close, will make you feel almost as smart as AI. As we soon come to learn from AI by Design, AI is already super-smart and will become more capable, moving from the current generation of “narrow-AI” to Artificial General Intelligence. From there, Campbell says, will come Artificial Dominant Intelligence. This is why Campbell has set out to raise awareness of AI and its future now-several decades before these developments are expected to take place. She says it is essential that we keep control of artificial intelligence, or risk being sidelined and perhaps even worse. Campbell’s point is to wake up those responsible for AI-the technology companies and world leaders-so they are on the same page as all the experts currently developing it. She explains we are at a “tipping point” in history and must act now to prevent an extinction-level event for humanity. We need to consider how we want our future with AI to pan out. Such structured thinking, followed by global regulation, will enable us to achieve greatness rather than our downfall. AI will affect us all, and if you only read one book on the subject, this is it."
+            }
+          ],
+          "answer": "",
+          "explanation": null
+        },
+        {
+          "id": 12,
+          "type": "reading",
+          "stem": "What does the phrase “In the wrong hands” in paragraph 2 probably mean?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "If read by someone poorly educated.\tB. If reviewed by someone ill-intentioned."
+            },
+            {
+              "letter": "B",
+              "text": "If reviewed by someone ill-intentioned."
+            },
+            {
+              "letter": "C",
+              "text": "If written by someone less competent.\tD. If translated by someone unacademic."
+            },
+            {
+              "letter": "D",
+              "text": "If translated by someone unacademic."
+            }
+          ],
+          "answer": "",
+          "explanation": null
+        },
+        {
+          "id": 13,
+          "type": "reading",
+          "stem": "What is a feature of AI by Design according to the text?",
+          "options": [],
+          "answer": "",
+          "explanation": null
+        }
+      ]
+    },
+    {
+      "key": "writing",
+      "partTitle": "writing",
+      "questions": [
+        {
+          "id": 1,
+          "type": "writing",
+          "stem": "A. It is packed with complex codes.\tB. It adopts a down-to-earth writing style.\nC. It provides step-by-step instructions.\tD. It is intended for AI professionals.\n14. What does Campbell urge people to do regarding AI development?\nA. Observe existing regulations on it.\nB. Reconsider expert opinions about it.\nC. Make joint efforts to keep it under control.\nD. Learn from prior experience to slow it down.",
+          "modelAnswer": "",
+          "explanation": null
+        }
+      ]
+    },
+    {
+      "key": "writing",
+      "partTitle": "writing",
+      "questions": [
+        {
+          "id": 1,
+          "type": "writing",
+          "stem": "15. What is the author’s purpose in writing the text?\nA. To recommend a book on AI.\tB. To give a brief account of AI history.\nC. To clarify the definition of AI.\tD. To honor an outstanding AI expert.\n第二节（共5小题; 每小题2.5分, 满分12.5分）",
+          "modelAnswer": "",
+          "explanation": null
+        }
+      ]
+    },
+    {
+      "key": "reading",
+      "partTitle": "reading",
+      "questions": []
+    },
+    {
+      "key": "reading",
+      "partTitle": "reading",
+      "questions": [
+        {
+          "id": 21,
+          "type": "reading",
+          "stem": "A. study\tB. rent\tC. visit\tD. settle",
+          "options": [],
+          "answer": "",
+          "explanation": null
+        },
+        {
+          "id": 22,
+          "type": "reading",
+          "stem": "A. planned\tB. struggled\tC. refused\tD. happened",
+          "options": [],
+          "answer": "",
+          "explanation": null
+        },
+        {
+          "id": 23,
+          "type": "reading",
+          "stem": "A. string\tB. hang\tC. mix\tD. match",
+          "options": [],
+          "answer": "",
+          "explanation": null
+        },
+        {
+          "id": 24,
+          "type": "reading",
+          "stem": "A. improved\tB. assessed\tC. admired\tD. praised",
+          "options": [],
+          "answer": "",
+          "explanation": null
+        },
+        {
+          "id": 25,
+          "type": "reading",
+          "stem": "A. course\tB. barrier\tC. area\tD. test",
+          "options": [],
+          "answer": "",
+          "explanation": null
+        },
+        {
+          "id": 26,
+          "type": "reading",
+          "stem": "A. open-minded\tB. strong-willed\tC. warm-hearted\tD. well-informed",
+          "options": [],
+          "answer": "",
+          "explanation": null
+        },
+        {
+          "id": 27,
+          "type": "reading",
+          "stem": "A. remind\tB. allow\tC. persuade\tD. order",
+          "options": [],
+          "answer": "",
+          "explanation": null
+        },
+        {
+          "id": 28,
+          "type": "reading",
+          "stem": "A. tricks\tB. promises\tC. acts\tD. duties",
+          "options": [],
+          "answer": "",
+          "explanation": null
+        },
+        {
+          "id": 29,
+          "type": "reading",
+          "stem": "A. ambition\tB. success\tC. appetite\tD. growth",
+          "options": [],
+          "answer": "",
+          "explanation": null
+        },
+        {
+          "id": 30,
+          "type": "reading",
+          "stem": "A. costume\tB. dish\tC. symbol\tD. tale",
+          "options": [],
+          "answer": "",
+          "explanation": null
+        },
+        {
+          "id": 31,
+          "type": "reading",
+          "stem": "A. gather\tB. cheer\tC. leave\tD. wait",
+          "options": [],
+          "answer": "",
+          "explanation": null
+        },
+        {
+          "id": 32,
+          "type": "reading",
+          "stem": "A. put up with\tB. stand up for\tC. come up with\tD. make up for",
+          "options": [],
+          "answer": "",
+          "explanation": null
+        },
+        {
+          "id": 33,
+          "type": "reading",
+          "stem": "A. signaled\tB. confirmed\tC. represented\tD. accompanied",
+          "options": [],
+          "answer": "",
+          "explanation": null
+        },
+        {
+          "id": 34,
+          "type": "reading",
+          "stem": "A. disadvantages\tB. meanings\tC. surprises\tD. opportunities",
+          "options": [],
+          "answer": "",
+          "explanation": null
+        },
+        {
+          "id": 35,
+          "type": "reading",
+          "stem": "A. created\tB. forgotten\tC. understood\tD. identified",
+          "options": [],
+          "answer": "",
+          "explanation": null
+        }
+      ]
+    },
+    {
+      "key": "reading",
+      "partTitle": "reading",
+      "questions": []
+    },
+    {
+      "key": "writing",
+      "partTitle": "writing",
+      "questions": [
+        {
+          "id": 1,
+          "type": "writing",
+          "stem": "Tang and Shakespeare were contemporaries and both died in 1616. Although they could never have met, there are common ___37___ (theme)in their works, said Paul Edmondson, head of research for the Shakespeare Birthplace Trust. “Some of the things that Tang was writing about ___38___ (be)also Shakespeare’s concerns. I happen to know that Tang’s play The Peony Pavilion (《牡丹亭》) is similar in some ways ___39___ Romeo and Juliet.”\nA statue commemorating Shakespeare and Tang was put up at Shakespeare’s Birthplace Garden in 2017. Two years later, a six-meter-tall pavilion, ___40___ (inspire)by The Peony Pavilion, ___41___ (build)at the Firs Garden, just ten minutes’ walk from Shakespeare’s birthplace. \nThose cultural elements have increased Stratford’s international ___42___ (visible), said Edmondson, adding that visitors walking through the Birthplace Garden were often amazed ___43___ (find)the connection between the two great writers. \n___44___ (recall)watching a Chinese opera version of Shakespeare’s play Richard III in Shanghai and meeting Chinese actors who came to Stratford a few years ago to perform parts of The Peony Pavilion, Edmondson said, “It was very exciting to hear the Chinese language ____45____ see how Tang’s play was being performed.”",
+          "modelAnswer": "",
+          "explanation": null
+        }
+      ]
+    },
+    {
+      "key": "writing",
+      "partTitle": "writing",
+      "questions": [
+        {
+          "id": 1,
+          "type": "writing",
+          "stem": "第四部分 写作（共两节, 满分40分）\n第一节（满分15分）\n46. 假定你是李华，上周五你们班在公园上了一堂美术课。请你给英国朋友Chris写一封邮件分享这次经历，内容包括：\n（1）你完成的作品；\n（2）你的感想。\n注意：",
+          "modelAnswer": "",
+          "explanation": null
+        }
+      ]
+    },
+    {
+      "key": "writing",
+      "partTitle": "writing",
+      "questions": [
+        {
+          "id": 1,
+          "type": "writing",
+          "stem": "（1）写作词数应为80个左右；\n（2）请按如下格式在答题纸的相应位置作答。\nDear Chris,",
+          "modelAnswer": "",
+          "explanation": null
+        }
+      ]
+    },
+    {
+      "key": "writing",
+      "partTitle": "writing",
+      "questions": [
+        {
+          "id": 1,
+          "type": "writing",
+          "stem": "I’m writing to share with you an art class I had in a park last Friday\n______________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________\nYours,\nLi Hua\n第二节（满分25分）",
+          "modelAnswer": "",
+          "explanation": null
+        }
+      ]
+    },
+    {
+      "key": "reading",
+      "partTitle": "reading",
+      "questions": [
+        {
+          "id": 47,
+          "type": "reading",
+          "stem": "阅读下面材料，根据其内容和所给段落开头语续写两段，使之构成一篇完整的短文。",
+          "options": [],
+          "answer": "",
+          "explanation": null
+        }
+      ]
+    }
+  ]
+}

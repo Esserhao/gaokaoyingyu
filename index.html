@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title>高考英语真题在线 - 限时练习 · 即时判分</title>
+<!-- 主题预置（附录 C1）+ 做题页字号预置（附录 E3）：样式表加载前就把
+     主题/字号类挂到 <html> 上，避免首帧闪错底色。
+     合法值：主题 day / night（空 = 纸墨默认），字号 lg / xl（空 = 默认）；
+     写入方是 app.js 的 theme-cycle / UI.bumpFs。 -->
+<script>try{var _t=localStorage.getItem('gkyy_theme');if(_t==='day'||_t==='night')document.documentElement.classList.add('theme-'+_t);var _f=localStorage.getItem('gkyy_fs');if(_f==='lg'||_f==='xl')document.documentElement.classList.add('fs-'+_f);}catch(e){}</script>
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/app.css">
+<link rel="stylesheet" href="css/reference.css">
+<link rel="stylesheet" href="css/training.css">
+<link rel="stylesheet" href="css/platform.css">
+<link rel="stylesheet" href="css/design-system.css">
+<!-- components.css：全站可复用组件层（容器/卡片/网格/字段/状态）。
+     插在 design-system.css 之后、learn/synonyms/word 之前，让页面级 CSS
+     既能引用组件类，又能在需要时覆盖。 -->
+<link rel="stylesheet" href="css/components.css">
+<!-- 分台阶学习页（#/learn）专用样式，仅定义本页新增类名，复用全站 token -->
+<link rel="stylesheet" href="css/learn.css">
+<!-- 做题方法卡（M1）样式 -->
+<link rel="stylesheet" href="css/methods.css">
+<link rel="stylesheet" href="css/shanghai.css">
+<!-- 同义近义反义（#/synonyms）星座探索页专用样式 -->
+<link rel="stylesheet" href="css/synonyms.css">
+<link rel="stylesheet" href="css/word.css">
+<!-- 参考范文库（#/writing/models）+ 写作专题的新入口样式 -->
+<link rel="stylesheet" href="css/writing.css">
+<link rel="stylesheet" href="css/responsive.css">
+<!-- 主题三态（附录 C1）：纸墨默认 / 白昼 / 夜间。只覆盖 style.css 的变量层，
+     组件规则一律不改；排在 responsive 之后确保变量覆盖生效。 -->
+<link rel="stylesheet" href="css/themes.css">
+<!-- G3 打印/PDF 导出：错题本/复习队列/生词本三页的「打印」按钮 +
+     Ctrl+P 兜底。全是 @media print 规则，不影响屏幕渲染。 -->
+<link rel="stylesheet" href="css/print.css">
+<!-- PWA（F9）：file:// 打开时浏览器会忽略 manifest（fetch 受限），http(s)
+     部署后即可被识别为可安装应用。图标用 SVG，免生成多尺寸位图。 -->
+<link rel="manifest" href="manifest.json">
+<link rel="icon" href="assets/icon.svg" type="image/svg+xml">
+<meta name="theme-color" content="#2e6b46">
+</head>
+<body>
+<!-- 跳过导航：键盘/读屏用户第一个 Tab 就能直达主内容，不必逐个穿过顶栏链接。
+     聚焦逻辑在 js/a11y.js（不写 location.hash，否则会触发路由回落到首页）。 -->
+<a class="skip-link" href="#main">跳到主要内容</a>
+<div id="app"></div>
+<!-- 39 个外部脚本统一带 defer（2026-09-19）：下载并行、执行顺序不变 ——
+     下面整条加载链依赖的就是这个顺序；defer 保证全部解析完才执行，
+     #app 不必等 39 个脚本逐个串行下载完才见到内容。
+     review.js 是纯计算（错题的间隔复习阶梯），被 js/store.js 的
+     markMistakeReviewed 与各页面读取，排在 store.js 之前最省心。 -->
+<script defer src="js/review.js"></script>
+<script defer src="js/store.js"></script>
+<!-- diagnose.js 只导出 Diagnose 常量，被 js/exam.js 的 collectMistakes 调用，
+     必须排在它之前（这里全是普通 <script>，没有模块解析顺序兜底）。 -->
+<script defer src="js/diagnose.js"></script>
+<!-- subskill.js：12 个题型子技能的定义、节点→家族映射与三档度量（§8.4）。
+     被 exam.js（交卷落账）、training.js（进度板）、mistakes.js（详情分派）引用。 -->
+<script defer src="js/subskill.js"></script>
+<!-- diagnostic.js：学业诊断组卷器 + 学业分析规则引擎（纯逻辑，E1/E3），
+     被 app.js（开始诊断）与 ui/analysis.js（画像/方案）调用。 -->
+<script defer src="js/diagnostic.js"></script>
+<!-- redo.js：错题重做组卷器（附录 E1，纯逻辑），被 app.js 的 /redo 路由、
+     openPaper 还原分支与结果页入口按钮调用；排在 ui/base.js 之后也兼容
+     （eq 函数运行时取 UI.eqAnswer），这里紧随 diagnostic.js 同类纯逻辑。 -->
+<script defer src="js/redo.js"></script>
+<!-- 本地数据改为 <script> 注入全局变量（取代 fetch 本地 JSON）：file:// 双击
+     打开时 fetch 会被 CORS 拦截，整站会卡在「页面加载失败」。这些 .js 在
+     data-loader.js 之前加载，把数据挂到 window.__EXAMS__ / __KB__ /
+     __EXAMS_CACHE__ 上；原 data/*.json 仍保留、内容不变。 -->
+<script defer src="data/index.js"></script>
+<!-- 每卷考点词（附录 E2，tools/build_examfreq.py 产出）：仅数 KB 的每卷
+     top15 高考核心词榜，做题页卷头「考前 2 分钟」折叠块读取，window.__EXAM_WORDS__。 -->
+<script defer src="data/examwords.js"></script>
+<!-- 知识体系已重建为手写权威内容，入口改为 data/knowledge/index.js（window.__KB__），
+     与考试加载链路(gen_data_js.py)分离；旧 data/knowledge.json / data/knowledge.js 不再加载。 -->
+<script defer src="data/knowledge/index.js"></script>
+<!-- 做题方法卡（M1，#/methods 数据源）：全国卷五大客观题型的自著候选流程，
+     每步 = 动作 + 禁止 + 卡住回退；步骤词表与错题「错在哪一步」标签共用。 -->
+<script defer src="data/methods/index.js"></script>
+<!-- 定位改写标注试点（2026-09-19）：AI 标注·未人核，与 verified 试卷数据
+     分文件存放（window.__LOC__）；人核流程见文件头注释。 -->
+<script defer src="data/loc/index.js"></script>
+<!-- 上海专区：真题登记框架（papers 暂空）与考纲词汇（官方 PDF 解析，未人核）。
+     与全国卷数据完全分开；上海卷制式不同，禁止复用 legacy/new 折算口径。
+     sh-kaogang.js（226KB）已改为进上海词汇相关页时按需注入（js/ui/shanghai.js
+     的 shVocabReady，与 examfreq/dict 同一懒加载模式），不再急载。 -->
+<script defer src="data/shanghai/exams.js"></script>
+<!-- 知识星图（#/knowledge-graph）的数据来自 __KB__（related 派生边），
+     旧 knowledge_graph.json/.js 已随 D1 改造退役删除。 -->
+<!-- 词库（高考/高中/初中/六级词汇，来自三个 git 仓库）：注册表 + 惰性 loader。
+     各词书本体按需由 window.__VOCAB__.load(id) 注入，避免一次性加载全部。 -->
+<script defer src="data/vocab/index.js"></script>
+<!-- 同义/近义/反义词族（#/synonyms 数据源）：手写权威整理，window.__SYN__ -->
+<script defer src="data/vocab/synonyms.js"></script>
+<!-- 词缀表（前缀/后缀，#/synonyms 词缀派生连接的数据源）：手写权威整理，window.__AFFIX__。
+     派生关系由页面运行时与高中词书逐词比对计算（去词缀后仍是词表词才成立）。 -->
+<script defer src="data/vocab/affixes.js"></script>
+<!-- 通用英汉词典（AsunDictionary，MIT，12.2 万词）：查词兜底，按首字母分片懒加载。 -->
+<script defer src="data/vocab/dict.js"></script>
+<!-- 真题考频（附录 C3，tools/build_examfreq.py 离线统计）不在此急加载：
+     生成物约 MB 级，词条页 _fillWord 时才由 UI._freqReady() 按需注入
+     data/examfreq.js（与 dict 分片同一懒加载模式），保持首屏轻。 -->
+<script defer src="js/data-loader.js"></script>
+<!-- js/ui/*.js：原 js/render.js 拆分而来。base.js 必须排在最前 ——
+     它创建 UI 对象本体，其余四个文件用 Object.assign(UI, {…}) 往上挂页面。 -->
+<script defer src="js/ui/base.js"></script>
+<script defer src="js/ui/library.js"></script>
+<script defer src="js/ui/exam-page.js"></script>
+<script defer src="js/ui/dashboard.js"></script>
+<script defer src="js/ui/mistakes.js"></script>
+<!-- 做题方法卡（M1）：#/methods 门厅与单卡 + 错题「错在哪一步」chips 与聚合 -->
+<script defer src="js/ui/methods.js"></script>
+<!-- 上海专区：门厅 + 真题册（框架）+ 考纲词汇浏览 -->
+<script defer src="js/ui/shanghai.js"></script>
+<script defer src="js/ui/insights.js"></script>
+<script defer src="js/ui/drill.js"></script>
+<script defer src="js/ui/search.js"></script>
+<script defer src="js/ui/synonyms.js"></script>
+<!-- 查词模块（C4/C6）：#/word 词条页 + 点击查词取词逻辑 -->
+<script defer src="js/ui/word.js"></script>
+<script defer src="js/ui/phrases.js"></script>
+<!-- 学业分析（E1/E2/E3）：#/analysis 画像与每日方案、诊断说明/结果页。
+     依赖 js/diagnostic.js（组卷+规则引擎），排在它之后。 -->
+<script defer src="js/ui/analysis.js"></script>
+<script defer src="js/exam.js"></script>
+<script defer src="js/training.js"></script>
+<script defer src="js/training-page.js"></script>
+<script defer src="js/topic.js"></script>
+<!-- 参考范文库（#/writing/models）：汇总各卷 modelAnswer，按题型筛选搜索。
+     调 Topic.writingType 复用同一套细分类型规则，必须排在 topic.js 之后。 -->
+<script defer src="js/ui/writing.js"></script>
+<script defer src="js/knowledge-graph.js"></script>
+<script defer src="js/app.js"></script>
+<script defer src="js/ui-sheet.js"></script>
+<script defer src="js/a11y.js"></script>
+</body>
+</html>

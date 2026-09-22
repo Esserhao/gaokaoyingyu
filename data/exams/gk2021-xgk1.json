@@ -1,0 +1,1951 @@
+{
+  "id": "gk2021-xgk1",
+  "year": 2021,
+  "paper": "新高考Ⅰ卷",
+  "region": "山东、河北、湖北、湖南、江苏、广东、福建",
+  "title": "2021年新高考Ⅰ卷英语",
+  "format": "new",
+  "duration": 120,
+  "totalScore": 150,
+  "hasAudio": true,
+  "audio": "audio/listening-2021-xgk1.mp3",
+  "quality": "verified",
+  "proofreadingConfirmed": true,
+  "sections": [
+    {
+      "key": "listening",
+      "partTitle": "第一部分 听力（共两节，满分30分）",
+      "secTitle": "第一节（共5小题；每小题1.5分，满分7.5分）听下面5段对话。每段对话后有一个小题，从题中所给的A、B、C三个选项中选出最佳选项。听完每段对话后，你都有10秒钟的时间来回答有关小题和阅读下一小题。每段对话仅读一遍。",
+      "passages": [],
+      "pool": [],
+      "questions": [
+        {
+          "id": 1,
+          "stem": "Why did the woman go to Mallorca?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "To teach Spanish."
+            },
+            {
+              "letter": "B",
+              "text": "To look for a job."
+            },
+            {
+              "letter": "C",
+              "text": "To see a friend."
+            }
+          ],
+          "answer": "C",
+          "type": "listening",
+          "score": 1.5,
+          "transcript": "W: I was in Mallorca last week.\nM: Oh, what were you doing there?\nW: My best friend worked there. And I went to visit her. It was a good chance to practice my Spanish."
+        },
+        {
+          "id": 2,
+          "stem": "What does the man ask the woman to do?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Take him to hospital."
+            },
+            {
+              "letter": "B",
+              "text": "Go to a class with him."
+            },
+            {
+              "letter": "C",
+              "text": "Submit a report for him."
+            }
+          ],
+          "answer": "C",
+          "type": "listening",
+          "score": 1.5,
+          "transcript": "M: Ruth, I've got this terrible cold and I have to see a doctor. I am afraid I can't go to the class. Could you help me hand in my lab report to Dr. Davidson?\nW: Sure, no problem. Just take care of yourself and don't worry about the class."
+        },
+        {
+          "id": 3,
+          "stem": "Who will look after the children?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Jennifer."
+            },
+            {
+              "letter": "B",
+              "text": "Suzy."
+            },
+            {
+              "letter": "C",
+              "text": "Marie."
+            }
+          ],
+          "answer": "B",
+          "type": "listening",
+          "score": 1.5,
+          "transcript": "M: Marie, if no one takes care of your children while you're away, Jennifer and I will be glad to have them stay with us.\nW: That's very kind of you. But they've already left for their Grandma's. You know, Suzy lives close by."
+        },
+        {
+          "id": 4,
+          "stem": "What are the speakers going to do?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Drive home."
+            },
+            {
+              "letter": "B",
+              "text": "Go shopping."
+            },
+            {
+              "letter": "C",
+              "text": "Eat out."
+            }
+          ],
+          "answer": "A",
+          "type": "listening",
+          "score": 1.5,
+          "transcript": "M: Hurry up with your food, Sally. They say there's a big storm coming. We'd better get home before that.\nW: Okay, I'm done. Let's get back to the car. Could you carry these shopping bags?\nM: Oh, sure."
+        },
+        {
+          "id": 5,
+          "stem": "What are the speakers talking about?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "How to fry fish."
+            },
+            {
+              "letter": "B",
+              "text": "How to make coffee."
+            },
+            {
+              "letter": "C",
+              "text": "How to remove a bad smell."
+            }
+          ],
+          "answer": "C",
+          "type": "listening",
+          "score": 1.5,
+          "transcript": "M: We deep fried fish three days ago in the kitchen, but the unpleasant smell stays.\nW: There is a method you can try. Every time you make coffee, dry the leftover coffee grounds and keep them in small bowls, then place the bowls in the kitchen."
+        },
+        {
+          "id": 6,
+          "stem": "When does Gomez watch a football game on TV?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "When he fails to get a ticket."
+            },
+            {
+              "letter": "B",
+              "text": "When the stadium is crowded."
+            },
+            {
+              "letter": "C",
+              "text": "When his friends are too busy."
+            }
+          ],
+          "answer": "A",
+          "type": "listening",
+          "score": 1.5,
+          "group": "听下面一段较长对话，回答第6至7小题。",
+          "transcript": "W: Are you a football fan, Gomez?\nM: Yes, I go to the stadium whenever there is a good game. And if I can't get a ticket, I watch the game on TV. That way, they're less exciting though.\nW: Is the ticket expensive?\nM: It depends. It usually costs about 20 to 50 dollars. Last time I paid 25.\nW: That's not very expensive. Maybe we can go together sometime.\nM: Great! It'll be more fun to watch the game with a friend."
+        },
+        {
+          "id": 7,
+          "stem": "How much did Gomez pay for the football game last time?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "$20."
+            },
+            {
+              "letter": "B",
+              "text": "$25."
+            },
+            {
+              "letter": "C",
+              "text": "$50."
+            }
+          ],
+          "answer": "B",
+          "type": "listening",
+          "score": 1.5,
+          "group": "听下面一段较长对话，回答第6至7小题。"
+        },
+        {
+          "id": 8,
+          "stem": "What did Alex do in the afternoon?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "He had a walk."
+            },
+            {
+              "letter": "B",
+              "text": "He went hunting."
+            },
+            {
+              "letter": "C",
+              "text": "He planted trees."
+            }
+          ],
+          "answer": "A",
+          "type": "listening",
+          "score": 1.5,
+          "group": "听下面一段较长对话，回答第8至10小题。",
+          "transcript": "W: You're out the whole afternoon, Alex? What did you do?\nM: I took a walk by myself.\nW: You just kept walking and walking for four hours?\nM: Actually, it's not so boring. Walking in the woods is a grand adventure. Your feet can take you to the most amazing places.\nW: What did you do in the woods?\nM: I smelt the flowers, looked at the birds, and yeah, I picked many tree leaves. I will make bookmarks with them. Look!\nW: Aren't they beautiful?\nM: Then I met Bob at the lake. He was fishing while his kids were having a swim.\nW: Did you talk to him?\nM: No, I walked on and took a lot of pictures. There's just so much out there to see."
+        },
+        {
+          "id": 9,
+          "stem": "What did Alex bring back?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Flowers."
+            },
+            {
+              "letter": "B",
+              "text": "Leaves."
+            },
+            {
+              "letter": "C",
+              "text": "Books."
+            }
+          ],
+          "answer": "B",
+          "type": "listening",
+          "score": 1.5,
+          "group": "听下面一段较长对话，回答第8至10小题。"
+        },
+        {
+          "id": 10,
+          "stem": "What was Bob doing when Alex saw him?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Fishing."
+            },
+            {
+              "letter": "B",
+              "text": "Taking pictures."
+            },
+            {
+              "letter": "C",
+              "text": "Swimming."
+            }
+          ],
+          "answer": "A",
+          "type": "listening",
+          "score": 1.5,
+          "group": "听下面一段较长对话，回答第8至10小题。"
+        },
+        {
+          "id": 11,
+          "stem": "What did David do on his most recent holiday?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "He had a boat trip."
+            },
+            {
+              "letter": "B",
+              "text": "He took a balloon flight."
+            },
+            {
+              "letter": "C",
+              "text": "He climbed a mountain."
+            }
+          ],
+          "answer": "C",
+          "type": "listening",
+          "score": 1.5,
+          "group": "听下面一段较长对话，回答第11至13小题。",
+          "transcript": "W: David, how was your holiday?\nM: Great, I climbed Mount Fuji. It was really beautiful. Now I can check one more thing off my list.\nW: Your list?\nM: Yes. When I was 12, I made a list of things I wanted to do some day.\nW: That's interesting. How many of the things on your list have you done so far?\nM: Almost half. I have pictures. Would you like to see them?\nW: Yes, sure.\nM: Here I am on top of Mount Fuji. And here I am in a hot air balloon.\nW: Wonderful! What about the Amazon? You should go there next time — it's a place you'll never forget."
+        },
+        {
+          "id": 12,
+          "stem": "What is on David's list?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Gifts he needed to buy."
+            },
+            {
+              "letter": "B",
+              "text": "Things he wished to do."
+            },
+            {
+              "letter": "C",
+              "text": "Dates he had to remember."
+            }
+          ],
+          "answer": "B",
+          "type": "listening",
+          "score": 1.5,
+          "group": "听下面一段较长对话，回答第11至13小题。"
+        },
+        {
+          "id": 13,
+          "stem": "Where does the woman suggest David go for his next holiday?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Australia."
+            },
+            {
+              "letter": "B",
+              "text": "California."
+            },
+            {
+              "letter": "C",
+              "text": "The Amazon."
+            }
+          ],
+          "answer": "C",
+          "type": "listening",
+          "score": 1.5,
+          "group": "听下面一段较长对话，回答第11至13小题。"
+        },
+        {
+          "id": 14,
+          "stem": "Why did Sarah make the phone call?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "To ask a favor."
+            },
+            {
+              "letter": "B",
+              "text": "To pass on a message."
+            },
+            {
+              "letter": "C",
+              "text": "To make an appointment."
+            }
+          ],
+          "answer": "A",
+          "type": "listening",
+          "score": 1.5,
+          "group": "听下面一段较长对话，回答第14至17小题。",
+          "transcript": "W: Hello, Michael.\nM: Hi, Sarah.\nW: Are you attending the conference tomorrow morning at the Shelton Hotel?\nM: Yes. Are you?\nW: Yeah, but when I arrived home five minutes ago, I found that my car wouldn't start. And John is in Brighton on business.\nM: Do you know what's wrong with the car?\nW: I'm not exactly sure. I think there is a problem with the engine. Er… I wonder if you could give me a ride to the hotel tomorrow morning.\nM: Sure. When shall I be at your place?\nW: Well, what about 8:00? From my place to Shelton, we have to drive through the quarters, so we'd better leave early to avoid the traffic.\nM: OK. No problem. It takes twenty minutes to reach your place. So I'll set off at 7:40. By the way, do you also need me to drive you home tomorrow afternoon?\nW: No, John will be back then, and he'll get me home. Thank you, Michael."
+        },
+        {
+          "id": 15,
+          "stem": "Where is Sarah now?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "In Brighton."
+            },
+            {
+              "letter": "B",
+              "text": "At her home."
+            },
+            {
+              "letter": "C",
+              "text": "At the Shelton Hotel."
+            }
+          ],
+          "answer": "B",
+          "type": "listening",
+          "score": 1.5,
+          "group": "听下面一段较长对话，回答第14至17小题。"
+        },
+        {
+          "id": 16,
+          "stem": "What time is Michael leaving his place tomorrow morning?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "At 7:40."
+            },
+            {
+              "letter": "B",
+              "text": "At 8:00."
+            },
+            {
+              "letter": "C",
+              "text": "At 8:20."
+            }
+          ],
+          "answer": "A",
+          "type": "listening",
+          "score": 1.5,
+          "group": "听下面一段较长对话，回答第14至17小题。"
+        },
+        {
+          "id": 17,
+          "stem": "What is the probable relationship between John and Sarah?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Neighbors."
+            },
+            {
+              "letter": "B",
+              "text": "Fellow workers."
+            },
+            {
+              "letter": "C",
+              "text": "Husband and wife."
+            }
+          ],
+          "answer": "C",
+          "type": "listening",
+          "score": 1.5,
+          "group": "听下面一段较长对话，回答第14至17小题。"
+        },
+        {
+          "id": 18,
+          "stem": "What do most people think is very important in spoken communication?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Pronunciation."
+            },
+            {
+              "letter": "B",
+              "text": "Vocabulary."
+            },
+            {
+              "letter": "C",
+              "text": "Grammar."
+            }
+          ],
+          "answer": "B",
+          "type": "listening",
+          "score": 1.5,
+          "group": "听下面一段独白，回答第18至20小题。",
+          "transcript": "W: Hello, everyone. Today I'll talk about how to improve your pronunciation. Language researchers say pronunciation and fluency are the biggest barriers, followed by grammar, in effective spoken English. However, most people don't regard pronunciation as a very important part of communication skills. They're more focused on vocabulary. One reason is that most people are not even aware of their mispronunciations. So it's important to first find out the words you mispronounce. You should listen to experts. By experts, I mean those who are less likely to make pronunciation mistakes. When listening to them, pay attention to words that sound strange — strange because you pronounce the same words differently. When you come across such words, check a dictionary to confirm their exact pronunciations. You can also search for difficult-to-pronounce words and names, and make a list of them. The last suggestion is to read aloud. Now you've got the correct pronunciations of the words, it's time to practice reading them every day."
+        },
+        {
+          "id": 19,
+          "stem": "Why should you listen to experts according to the speaker?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "To develop your reading fluency."
+            },
+            {
+              "letter": "B",
+              "text": "To improve your note-taking skills."
+            },
+            {
+              "letter": "C",
+              "text": "To find out your mispronunciations."
+            }
+          ],
+          "answer": "C",
+          "type": "listening",
+          "score": 1.5,
+          "group": "听下面一段独白，回答第18至20小题。"
+        },
+        {
+          "id": 20,
+          "stem": "What is the speaker's last suggestion?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Spell out the difficult words."
+            },
+            {
+              "letter": "B",
+              "text": "Check the words in a dictionary."
+            },
+            {
+              "letter": "C",
+              "text": "Practice reading the words aloud."
+            }
+          ],
+          "answer": "C",
+          "type": "listening",
+          "score": 1.5,
+          "group": "听下面一段独白，回答第18至20小题。"
+        }
+      ]
+    },
+    {
+      "key": "reading",
+      "partTitle": "第二部分 阅读（共两节，满分50分）",
+      "secTitle": "第一节（共15小题；每小题2.5分，满分37.5分）阅读下列短文，从每题所给的A、B、C和D四个选项中，选出最佳选项。",
+      "passages": [
+        {
+          "label": "A",
+          "text": "Rome can be pricey for travelers, which is why many choose to stay in a hostel（旅社）. The hostels in Rome offer a bed in a dorm room for around $25 a night, and for that, you'll often get to stay in a central location（位置）with security and comfort.\n\nYellow Hostel\nIf I had to make just one recommendation for where to stay in Rome, it would be Yellow Hostel. It's one of the best-rated hostels in the city, and for good reason. It's affordable, and it's got a fun atmosphere without being too noisy. As an added bonus, it's close to the main train station.\n\nHostel Alessandro Palace\nIf you love social hostels, this is the best hostel for you in Rome. Hostel Alessandro Palace is fun. Staff members hold plenty of bar events for guests like free shots, bar crawls and karaoke. There's also an area on the rooftop for hanging out with other travelers during the summer.\n\nYouth Station Hostel\nIf you're looking for cleanliness and a modern hostel, look no further than Youth Station. It offers beautiful furnishings and beds. There are plenty of other benefits, too; it doesn't charge city tax; it has both air conditioning and a heater for the rooms; it also has free Wi-Fi in every room.\n\nHotel and Hostel Des Artistes\nHotel and Hostel Des Artistes is located just a 10-minute walk from the central city station and it's close to all of the city's main attractions. The staff is friendly and helpful, providing you with a map of the city when you arrive, and offering advice if you require some. However, you need to pay 2 euros a day for Wi-Fi."
+        },
+        {
+          "label": "B",
+          "text": "By day, Robert Titterton is a lawyer. In his spare time, however, he goes on stage beside pianist Maria Raspopova — not as a musician but as her page turner. \"I'm not a trained musician, but I've learnt to read music so I can help Maria in her performance.\"\n\nMr Titterton is chairman of the Omega Ensemble but has been the group's official page turner for the past four years. His job is to sit beside the pianist and turn the pages of the score so the musician doesn't have to break the flow of sound by doing it themselves. He said he became just as nervous as those playing instruments on stage.\n\n\"A lot of skills are needed for the job. You have to make sure you don't turn two pages at once and make sure you find the repeats in the music when you have to go back to the right spot.\" Mr Titterton explained.\n\nBeing a page turner requires plenty of practice. Some pieces of music can go for 40 minutes and require up to 50 page turns, including back turns for repeat passages. Silent onstage communication is key, and each pianist has their own style of \"nodding\" to indicate a page turn which they need to practise with their page turner.\n\nBut like all performances, there are moments when things go wrong. \"I was turning the page to get ready for the next page, but the draft wind from the turn caused the spare pages to fall off the stand,\" Mr Titterton said, \"Luckily I was able to catch them and put them back.\"\n\nMost page turners are piano students or up-and-coming concert pianists, although Ms Raspopova has once asked her husband to help her out on stage.\n\n\"My husband is the worst page turner,\" she laughed. \"He's interested in the music, feeling every note, and I have to say: 'Turn, turn!'\" \"Robert is the best page turner I've had in my entire life.\""
+        },
+        {
+          "label": "C",
+          "text": "When the explorers first set foot upon the continent of North America, the skies and lands were alive with an astonishing variety of wildlife. Native Americans had taken care of these precious natural resources wisely. Unfortunately, it took the explorers and the settlers who followed only a few decades to decimate a large part of these resources. Millions of waterfowl（水禽）were killed at the hands of market hunters and a handful of overly ambitious sportsmen. Millions of acres of wetlands were dried to feed and house the ever-increasing populations, greatly reducing waterfowl habitat.\n\nIn 1934, with the passage of the Migratory Bird Hunting Stamp Act (Act), an increasingly concerned nation took firm action to stop the destruction of migratory（迁徙）waterfowl and the wetlands so vital to their survival. Under this Act, all waterfowl hunters 16 years of age and over must annually purchase and carry a Federal Duck Stamp. The very first Federal Duck Stamp was designed by J.N. \"Ding\" Darling, a political cartoonist from Des Moines, Iowa, who at that time was appointed by President Franklin Roosevelt as Director of the Bureau of Biological Survey. Hunters willingly pay the stamp price to ensure the survival of our natural resources.\n\nAbout 98 cents of every duck stamp dollar goes directly into the Migratory Bird Conservation Fund to purchase wetlands and wildlife habitat for inclusion into the National Wildlife Refuge System — a fact that ensures this land will be protected and available for all generations to come. Since 1934, better than half a billion dollars has gone into that Fund to purchase more than 5 million acres of habitat. Little wonder the Federal Duck Stamp Program has been called one of the most successful conservation programs ever initiated."
+        },
+        {
+          "label": "D",
+          "text": "Popularization has in some cases changed the original meaning of emotional（情感的）intelligence. Many people now misunderstand emotional intelligence as almost everything desirable in a person's makeup that cannot be measured by an IQ test, such as character, motivation, confidence, mental stability, optimism and \"people skills.\" Research has shown that emotional skills may contribute to some of these qualities, but most of them move far beyond skill-based emotional intelligence.\n\nWe prefer to describe emotional intelligence as a specific set of skills that can be used for either good or bad purposes. The ability to accurately understand how others are feeling may be used by a doctor to find how best to help her patients, while a cheater might use it to control potential victims. Being emotionally intelligent does not necessarily make one a moral person.\n\nAlthough popular beliefs regarding emotional intelligence run far ahead of what research can reasonably support, the overall effects of the publicity have been more beneficial than harmful. The most positive aspect of this popularization is a new and much needed emphasis（重视）on emotion by employers, educators and others interested in promoting social well-being. The popularization of emotional intelligence has helped both the public and researchers re-evaluate the functionality of emotions and how they serve people adaptively in everyday life.\n\nAlthough the continuing popular appeal of emotional intelligence is desirable, we hope that such attention will excite a greater interest in the scientific and scholarly study of emotion. It is our hope that in coming decades, advances in science will offer new perspectives（视角）from which to study how people manage their lives. Emotional intelligence, with its focus on both head and heart, may serve to point us in the right direction."
+        }
+      ],
+      "pool": [],
+      "questions": [
+        {
+          "id": 21,
+          "passageLabel": "A",
+          "stem": "What is probably the major concern of travelers who choose to stay in a hostel?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Comfort."
+            },
+            {
+              "letter": "B",
+              "text": "Security."
+            },
+            {
+              "letter": "C",
+              "text": "Price."
+            },
+            {
+              "letter": "D",
+              "text": "Location."
+            }
+          ],
+          "answer": "C",
+          "type": "reading",
+          "score": 2.5,
+          "explanation": {
+            "summary": "细节理解题｜本文是应用文，介绍罗马几家价格低廉、安全舒适的旅社。",
+            "question": "问选择住旅社的旅行者最可能关心什么。",
+            "evidence": "Rome can be pricey for travelers, which is why many choose to stay in a hostel（旅社）.",
+            "answer": "C。罗马物价昂贵正是许多人选择住旅社的原因，故最关心价格。"
+          }
+        },
+        {
+          "id": 22,
+          "passageLabel": "A",
+          "stem": "Which hotel best suits people who enjoy an active social life?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Yellow Hostel."
+            },
+            {
+              "letter": "B",
+              "text": "Hostel Alessandro Palace."
+            },
+            {
+              "letter": "C",
+              "text": "Youth Station Hostel."
+            },
+            {
+              "letter": "D",
+              "text": "Hotel and Hostel Des Artistes."
+            }
+          ],
+          "answer": "B",
+          "type": "reading",
+          "score": 2.5,
+          "explanation": {
+            "summary": "细节理解题",
+            "question": "问哪家最适合喜欢活跃社交生活的人。",
+            "evidence": "If you love social hostels, this is the best hostel for you in Rome. Hostel Alessandro Palace is fun.",
+            "answer": "B。该旅社常举办各种酒吧活动，最适合社交需求。"
+          }
+        },
+        {
+          "id": 23,
+          "passageLabel": "A",
+          "stem": "What is the disadvantage of Hotel and Hostel Des Artistes?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "It gets noisy at night."
+            },
+            {
+              "letter": "B",
+              "text": "Its staff is too talkative."
+            },
+            {
+              "letter": "C",
+              "text": "It charges for Wi-Fi."
+            },
+            {
+              "letter": "D",
+              "text": "It's inconveniently located."
+            }
+          ],
+          "answer": "C",
+          "type": "reading",
+          "score": 2.5,
+          "explanation": {
+            "summary": "细节理解题",
+            "question": "问 Hotel and Hostel Des Artistes 的缺点。",
+            "evidence": "However, you need to pay 2 euros a day for Wi-Fi.",
+            "answer": "C。Wi-Fi 需每天付费 2 欧元。"
+          }
+        },
+        {
+          "id": 24,
+          "passageLabel": "B",
+          "stem": "What should Titterton be able to do to be a page turner?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Read music."
+            },
+            {
+              "letter": "B",
+              "text": "Play the piano."
+            },
+            {
+              "letter": "C",
+              "text": "Sing songs."
+            },
+            {
+              "letter": "D",
+              "text": "Fix the instruments."
+            }
+          ],
+          "answer": "A",
+          "type": "reading",
+          "score": 2.5,
+          "explanation": {
+            "summary": "细节理解题｜本文是记叙文，讲述为钢琴演奏者翻谱的 Robert Titterton 及其工作。",
+            "question": "问做翻谱者需要具备什么能力。",
+            "evidence": "I'm not a trained musician, but I've learnt to read music so I can help Maria in her performance.",
+            "answer": "A。他因为学会了识谱才能胜任翻谱工作。"
+          }
+        },
+        {
+          "id": 25,
+          "passageLabel": "B",
+          "stem": "Which of the following best describes Titterton's job on stage?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Boring."
+            },
+            {
+              "letter": "B",
+              "text": "Well-paid."
+            },
+            {
+              "letter": "C",
+              "text": "Demanding."
+            },
+            {
+              "letter": "D",
+              "text": "Dangerous."
+            }
+          ],
+          "answer": "C",
+          "type": "reading",
+          "score": 2.5,
+          "explanation": {
+            "summary": "推理判断题",
+            "question": "问哪个词最能描述他在舞台上的工作。",
+            "evidence": "A lot of skills are needed for the job. You have to make sure you don't turn two pages at once and make sure you find the repeats in the music when you have to go back to the right spot.",
+            "answer": "C。这项工作需要很多技巧，可见要求很高。"
+          }
+        },
+        {
+          "id": 26,
+          "passageLabel": "B",
+          "stem": "What does Titterton need to practise?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Counting the pages."
+            },
+            {
+              "letter": "B",
+              "text": "Recognizing the \"nodding\"."
+            },
+            {
+              "letter": "C",
+              "text": "Catching falling objects."
+            },
+            {
+              "letter": "D",
+              "text": "Performing in his own style."
+            }
+          ],
+          "answer": "B",
+          "type": "reading",
+          "score": 2.5,
+          "explanation": {
+            "summary": "细节理解题",
+            "question": "问他需要练习什么。",
+            "evidence": "each pianist has their own style of \"nodding\" to indicate a page turn which they need to practise with their page turner",
+            "answer": "B。需要与钢琴家一起练习识别其“点头”示意。"
+          }
+        },
+        {
+          "id": 27,
+          "passageLabel": "B",
+          "stem": "Why is Ms Raspopova's husband \"the worst page turner\"?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "He has very poor eyesight."
+            },
+            {
+              "letter": "B",
+              "text": "He ignores the audience."
+            },
+            {
+              "letter": "C",
+              "text": "He has no interest in music."
+            },
+            {
+              "letter": "D",
+              "text": "He forgets to do his job."
+            }
+          ],
+          "answer": "D",
+          "type": "reading",
+          "score": 2.5,
+          "explanation": {
+            "summary": "细节理解题",
+            "question": "问为何她的丈夫是“最差的翻谱者”。",
+            "evidence": "He's interested in the music, feeling every note, and I have to say: 'Turn, turn!'",
+            "answer": "D。他沉浸于音乐而忘了翻页，需要她提醒。"
+          }
+        },
+        {
+          "id": 28,
+          "passageLabel": "C",
+          "stem": "What was a cause of the waterfowl population decline in North America?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Loss of wetlands."
+            },
+            {
+              "letter": "B",
+              "text": "Popularity of water sports."
+            },
+            {
+              "letter": "C",
+              "text": "Pollution of rivers."
+            },
+            {
+              "letter": "D",
+              "text": "Arrival of other wild animals."
+            }
+          ],
+          "answer": "A",
+          "type": "reading",
+          "score": 2.5,
+          "explanation": {
+            "summary": "细节理解题｜本文是说明文，讲述美国联邦鸭票（Federal Duck Stamp）保护水禽栖息地的故事。",
+            "question": "问北美水禽数量下降的原因之一。",
+            "evidence": "Millions of acres of wetlands were dried to feed and house the ever-increasing populations, greatly reducing waterfowl habitat.",
+            "answer": "A。湿地被抽干、栖息地锐减导致水禽减少。"
+          }
+        },
+        {
+          "id": 29,
+          "passageLabel": "C",
+          "stem": "What does the underlined word \"decimate\" mean in the first paragraph?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Acquire."
+            },
+            {
+              "letter": "B",
+              "text": "Export."
+            },
+            {
+              "letter": "C",
+              "text": "Destroy."
+            },
+            {
+              "letter": "D",
+              "text": "Distribute."
+            }
+          ],
+          "answer": "C",
+          "type": "reading",
+          "score": 2.5,
+          "explanation": {
+            "summary": "词义猜测题",
+            "question": "猜测首段划线词 decimate 的含义。",
+            "evidence": "Native Americans had taken care of these precious natural resources wisely. Unfortunately, it took the explorers and the settlers who followed only a few decades to decimate a large part of these resources.",
+            "answer": "C。Unfortunately 表明与前句形成转折，指移民“破坏”了这些资源。"
+          }
+        },
+        {
+          "id": 30,
+          "passageLabel": "C",
+          "stem": "What is a direct result of the Act passed in 1934?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "The stamp price has gone down."
+            },
+            {
+              "letter": "B",
+              "text": "The migratory birds have flown away."
+            },
+            {
+              "letter": "C",
+              "text": "The hunters have stopped hunting."
+            },
+            {
+              "letter": "D",
+              "text": "The government has collected money."
+            }
+          ],
+          "answer": "D",
+          "type": "reading",
+          "score": 2.5,
+          "explanation": {
+            "summary": "推理判断题",
+            "question": "问 1934 年该法案的直接结果。",
+            "evidence": "Since 1934, better than half a billion dollars has gone into that Fund to purchase more than 5 million acres of habitat.",
+            "answer": "D。通过发行鸭票，政府筹集到大量资金。"
+          }
+        },
+        {
+          "id": 31,
+          "passageLabel": "C",
+          "stem": "Which of the following is a suitable title for the text?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "The Federal Duck Stamp Story"
+            },
+            {
+              "letter": "B",
+              "text": "The National Wildlife Refuge System"
+            },
+            {
+              "letter": "C",
+              "text": "The Benefits of Saving Waterfowl"
+            },
+            {
+              "letter": "D",
+              "text": "The History of Migratory Bird Hunting"
+            }
+          ],
+          "answer": "A",
+          "type": "reading",
+          "score": 2.5,
+          "explanation": {
+            "summary": "标题判断题",
+            "question": "为文章选择合适的标题。",
+            "evidence": "全文围绕鸭票的由来、机制与保护成效展开。",
+            "answer": "A。“联邦鸭票的故事”概括全文主旨。"
+          }
+        },
+        {
+          "id": 32,
+          "passageLabel": "D",
+          "stem": "What is a common misunderstanding of emotional intelligence?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "It can be measured by an IQ test."
+            },
+            {
+              "letter": "B",
+              "text": "It helps to exercise a person's mind."
+            },
+            {
+              "letter": "C",
+              "text": "It includes a set of emotional skills."
+            },
+            {
+              "letter": "D",
+              "text": "It refers to a person's positive qualities."
+            }
+          ],
+          "answer": "D",
+          "type": "reading",
+          "score": 2.5,
+          "explanation": {
+            "summary": "细节理解题｜本文是说明文，讨论情商概念被普及化后的误解及对未来研究的期待。",
+            "question": "问对情商常见的误解是什么。",
+            "evidence": "Many people now misunderstand emotional intelligence as almost everything desirable in a person's makeup…Research has shown that emotional skills may contribute to some of these qualities, but most of them move far beyond skill-based emotional intelligence.",
+            "answer": "D。人们误把情商等同于一个人的各种积极品质。"
+          }
+        },
+        {
+          "id": 33,
+          "passageLabel": "D",
+          "stem": "Why does the author mention \"doctor\" and \"cheater\" in paragraph 2?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "To explain a rule."
+            },
+            {
+              "letter": "B",
+              "text": "To clarify a concept."
+            },
+            {
+              "letter": "C",
+              "text": "To present a fact."
+            },
+            {
+              "letter": "D",
+              "text": "To make a prediction."
+            }
+          ],
+          "answer": "B",
+          "type": "reading",
+          "score": 2.5,
+          "explanation": {
+            "summary": "推理判断题",
+            "question": "问第二段提到“医生”和“骗子”的用意。",
+            "evidence": "The ability to accurately understand how others are feeling may be used by a doctor…while a cheater might use it to control potential victims. Being emotionally intelligent does not necessarily make one a moral person.",
+            "answer": "B。举例是为了阐明“情商是一套可用于善恶两端的技能”这一概念。"
+          }
+        },
+        {
+          "id": 34,
+          "passageLabel": "D",
+          "stem": "What is the author's attitude to the popularization of emotional intelligence?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Favorable."
+            },
+            {
+              "letter": "B",
+              "text": "Intolerant."
+            },
+            {
+              "letter": "C",
+              "text": "Doubtful."
+            },
+            {
+              "letter": "D",
+              "text": "Unclear."
+            }
+          ],
+          "answer": "A",
+          "type": "reading",
+          "score": 2.5,
+          "explanation": {
+            "summary": "推理判断题（态度题）",
+            "question": "问作者对情商普及化的态度。",
+            "evidence": "the overall effects of the publicity have been more beneficial than harmful…The popularization of emotional intelligence has helped both the public and researchers re-evaluate the functionality of emotions",
+            "answer": "A。作者认为利大于弊，态度是赞成的。"
+          }
+        },
+        {
+          "id": 35,
+          "passageLabel": "D",
+          "stem": "What does the last paragraph mainly talk about concerning emotional intelligence?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Its appeal to the public."
+            },
+            {
+              "letter": "B",
+              "text": "Expectations for future studies."
+            },
+            {
+              "letter": "C",
+              "text": "Its practical application."
+            },
+            {
+              "letter": "D",
+              "text": "Scientists with new perspectives."
+            }
+          ],
+          "answer": "B",
+          "type": "reading",
+          "score": 2.5,
+          "explanation": {
+            "summary": "主旨大意题（段落）",
+            "question": "问末段主要谈论情商的什么。",
+            "evidence": "we hope that such attention will excite a greater interest in the scientific and scholarly study of emotion. It is our hope that in coming decades, advances in science will offer new perspectives…",
+            "answer": "B。末段表达对未来研究的期待。"
+          }
+        }
+      ]
+    },
+    {
+      "key": "seven",
+      "partTitle": "第二部分 阅读（共两节，满分50分）",
+      "secTitle": "第二节（共5小题；每小题2.5分，满分12.5分）根据短文内容，从短文后的选项中选出可以填入空白处的最佳选项。选项中有两项为多余选项。",
+      "passages": [
+        {
+          "label": "E",
+          "text": "My husband and I just spent a week in Paris. ____36____ So the first thing we did was rent a fantastically expensive sixth-floor apartment the size of a cupboard. It was so tiny that we had to leave our suitcases in the hallway.\n\nThe place wasn't entirely authentic, though. Unlike a normal Parisian apartment, the plumbing（水管）worked. ____37____ Our building even had a tiny lift with a female voice that said, \"Ouverture des portes,\" in perfect French. That is the only French phrase I mastered, and it's a shame I don't have much use for it.\n\nParisians are different from you and me. They never look lazy or untidy. As someone noted in this paper a couple of weeks ago, they eat great food and never gain weight. ____38____ French strawberries do not taste like cardboard. Instead, they explode in your mouth like little flavor bombs.\n\n____39____ On our first morning in Paris, I went around the corner to the food market to pick up some groceries. I bought a handful of perfectly ripe small strawberries and a little sweet melon. My husband and I agreed they were the best fruit we had ever eaten. But they cost $18!\n\nIn France, quality of life is much more important than efficiency. You can tell this by cafés life. French cafés are always crowded. ____40____ When do these people work? The French take their 35-hour workweek seriously — so seriously that some labor unions recently struck a deal with a group of companies limiting the number of hours that independent contractors can be on call."
+        }
+      ],
+      "pool": [
+        {
+          "letter": "A",
+          "text": "Not all the customers are tourists."
+        },
+        {
+          "letter": "B",
+          "text": "The quality of life in France is equally excellent."
+        },
+        {
+          "letter": "C",
+          "text": "There was a nice kitchen and a comfortable bed."
+        },
+        {
+          "letter": "D",
+          "text": "The amazing food is mainly consumed by local farmers."
+        },
+        {
+          "letter": "E",
+          "text": "That's not the only reason the French eat less than we do."
+        },
+        {
+          "letter": "F",
+          "text": "Our aim was to see if we could live, in some way, like real Parisians."
+        },
+        {
+          "letter": "G",
+          "text": "The food is so delicious that you don't need much of it to make you happy."
+        }
+      ],
+      "questions": [
+        {
+          "id": 36,
+          "passageLabel": "E",
+          "stem": "第36空",
+          "answer": "F",
+          "type": "seven",
+          "score": 2.5,
+          "explanation": {
+            "summary": "七选五｜本文是说明文，记述作者夫妇在巴黎居住一周的感受。",
+            "question": "空前交代背景，空后是“所以我们做的第一件事就是租了一间极贵的小公寓”，空处应填原因。",
+            "evidence": "So the first thing we did was rent a fantastically expensive sixth-floor apartment…",
+            "answer": "F。“我们的目标是看看能否在某种程度上像真正的巴黎人一样生活”与下文构成因果关系。"
+          },
+          "options": [
+            {
+              "letter": "A",
+              "text": "Not all the customers are tourists."
+            },
+            {
+              "letter": "B",
+              "text": "The quality of life in France is equally excellent."
+            },
+            {
+              "letter": "C",
+              "text": "There was a nice kitchen and a comfortable bed."
+            },
+            {
+              "letter": "D",
+              "text": "The amazing food is mainly consumed by local farmers."
+            },
+            {
+              "letter": "E",
+              "text": "That's not the only reason the French eat less than we do."
+            },
+            {
+              "letter": "F",
+              "text": "Our aim was to see if we could live, in some way, like real Parisians."
+            },
+            {
+              "letter": "G",
+              "text": "The food is so delicious that you don't need much of it to make you happy."
+            }
+          ]
+        },
+        {
+          "id": 37,
+          "passageLabel": "E",
+          "stem": "第37空",
+          "answer": "C",
+          "type": "seven",
+          "score": 2.5,
+          "explanation": {
+            "summary": "七选五",
+            "question": "本段中心句说这地方并不完全地道，随后列举公寓的各项配置。",
+            "evidence": "Unlike a normal Parisian apartment, the plumbing（水管）worked.…Our building even had a tiny lift…",
+            "answer": "C。“有一个漂亮的厨房和一张舒适的床”同属公寓配置，与上下文一致。"
+          },
+          "options": [
+            {
+              "letter": "A",
+              "text": "Not all the customers are tourists."
+            },
+            {
+              "letter": "B",
+              "text": "The quality of life in France is equally excellent."
+            },
+            {
+              "letter": "C",
+              "text": "There was a nice kitchen and a comfortable bed."
+            },
+            {
+              "letter": "D",
+              "text": "The amazing food is mainly consumed by local farmers."
+            },
+            {
+              "letter": "E",
+              "text": "That's not the only reason the French eat less than we do."
+            },
+            {
+              "letter": "F",
+              "text": "Our aim was to see if we could live, in some way, like real Parisians."
+            },
+            {
+              "letter": "G",
+              "text": "The food is so delicious that you don't need much of it to make you happy."
+            }
+          ]
+        },
+        {
+          "id": 38,
+          "passageLabel": "E",
+          "stem": "第38空",
+          "answer": "G",
+          "type": "seven",
+          "score": 2.5,
+          "explanation": {
+            "summary": "七选五",
+            "question": "空前说巴黎人吃得好却不长胖，空后说法国草莓味道极佳。",
+            "evidence": "they eat great food and never gain weight.…French strawberries do not taste like cardboard.",
+            "answer": "G。“食物如此美味，不用吃很多就能满足”既承接美味，又解释了为何吃得少。"
+          },
+          "options": [
+            {
+              "letter": "A",
+              "text": "Not all the customers are tourists."
+            },
+            {
+              "letter": "B",
+              "text": "The quality of life in France is equally excellent."
+            },
+            {
+              "letter": "C",
+              "text": "There was a nice kitchen and a comfortable bed."
+            },
+            {
+              "letter": "D",
+              "text": "The amazing food is mainly consumed by local farmers."
+            },
+            {
+              "letter": "E",
+              "text": "That's not the only reason the French eat less than we do."
+            },
+            {
+              "letter": "F",
+              "text": "Our aim was to see if we could live, in some way, like real Parisians."
+            },
+            {
+              "letter": "G",
+              "text": "The food is so delicious that you don't need much of it to make you happy."
+            }
+          ]
+        },
+        {
+          "id": 39,
+          "passageLabel": "E",
+          "stem": "第39空",
+          "answer": "E",
+          "type": "seven",
+          "score": 2.5,
+          "explanation": {
+            "summary": "七选五",
+            "question": "空处为段首概括句，下文写水果好吃但要 18 美元。",
+            "evidence": "My husband and I agreed they were the best fruit we had ever eaten. But they cost $18!",
+            "answer": "E。“这并不是法国人吃得比我们少的唯一原因”承上启下，引出“物价贵”这一原因。"
+          },
+          "options": [
+            {
+              "letter": "A",
+              "text": "Not all the customers are tourists."
+            },
+            {
+              "letter": "B",
+              "text": "The quality of life in France is equally excellent."
+            },
+            {
+              "letter": "C",
+              "text": "There was a nice kitchen and a comfortable bed."
+            },
+            {
+              "letter": "D",
+              "text": "The amazing food is mainly consumed by local farmers."
+            },
+            {
+              "letter": "E",
+              "text": "That's not the only reason the French eat less than we do."
+            },
+            {
+              "letter": "F",
+              "text": "Our aim was to see if we could live, in some way, like real Parisians."
+            },
+            {
+              "letter": "G",
+              "text": "The food is so delicious that you don't need much of it to make you happy."
+            }
+          ]
+        },
+        {
+          "id": 40,
+          "passageLabel": "E",
+          "stem": "第40空",
+          "answer": "A",
+          "type": "seven",
+          "score": 2.5,
+          "explanation": {
+            "summary": "七选五",
+            "question": "空前说法国咖啡馆总是很拥挤，空后问“这些人什么时候工作？”",
+            "evidence": "French cafés are always crowded.…When do these people work?",
+            "answer": "A。“并非所有顾客都是游客”意味着多为当地人，正好引出下文对工作时间的疑问。"
+          },
+          "options": [
+            {
+              "letter": "A",
+              "text": "Not all the customers are tourists."
+            },
+            {
+              "letter": "B",
+              "text": "The quality of life in France is equally excellent."
+            },
+            {
+              "letter": "C",
+              "text": "There was a nice kitchen and a comfortable bed."
+            },
+            {
+              "letter": "D",
+              "text": "The amazing food is mainly consumed by local farmers."
+            },
+            {
+              "letter": "E",
+              "text": "That's not the only reason the French eat less than we do."
+            },
+            {
+              "letter": "F",
+              "text": "Our aim was to see if we could live, in some way, like real Parisians."
+            },
+            {
+              "letter": "G",
+              "text": "The food is so delicious that you don't need much of it to make you happy."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "cloze",
+      "partTitle": "第三部分 语言运用（共两节，满分30分）",
+      "secTitle": "第一节（共15小题；每小题1分，满分15分）阅读下面短文，从每题所给的A、B、C和D四个选项中，选出可以填入空白处的最佳选项。",
+      "passages": [
+        {
+          "label": "F",
+          "text": "My life as a tax-paying employed person began in middle school, when, for three whole days, I worked in a baking factory.\n\nMy best friend Betsy's father was a manager at Hough Bakeries, which, at Easter time, ____41____ little bunny（兔子）cakes for all its ____42____ throughout Cleveland. It happened that the plant downtown needed eight kids for ____43____ help during our spring break, for which I had no ____44____ beyond listening to my favorite records. I'd ____45____ minimum wage. I'd see how a factory ____46____. My parents thought all of this was a grand idea and called Betsy's dad with their ____47____.\n\nOur ____48____ in the factory were simple: Place cakes on a moving belt. Attach icing（糖霜）ears. Apply icing eyes and nose. ____49____ bunny from the belt. This was ____50____ than it sounds. ____51____ a bit and the cakes pile up. As I told my parents at dinner that first night, it was all a little more high-pressure than I'd ____52____.\n\nDad ____53____. The son of a grocer, he'd spent the summers of his childhood ____54____ food in Bernardsville, New Jersey. This was the sort of work that made you ____55____ the dollars you earned and respect those who did the work, he told me."
+        }
+      ],
+      "pool": [],
+      "questions": [
+        {
+          "id": 41,
+          "passageLabel": "F",
+          "stem": "第41空",
+          "options": [
+            {
+              "letter": "A",
+              "text": "sold"
+            },
+            {
+              "letter": "B",
+              "text": "ordered"
+            },
+            {
+              "letter": "C",
+              "text": "made"
+            },
+            {
+              "letter": "D",
+              "text": "reserved"
+            }
+          ],
+          "answer": "C",
+          "type": "cloze",
+          "score": 1,
+          "explanation": {
+            "summary": "考查动词词义辨析｜本文是记叙文，讲作者中学春假在面包厂打工的经历与父亲的感悟。",
+            "question": "句意：复活节期间，这家面包店为克利夫兰所有商店制作小兔子蛋糕。",
+            "evidence": "Our ____48____ in the factory were simple: Place cakes on a moving belt. Attach icing ears.",
+            "answer": "C。下文的流水线工序说明工厂是“制作”蛋糕。sold 卖；ordered 订购；reserved 预订。"
+          }
+        },
+        {
+          "id": 42,
+          "passageLabel": "F",
+          "stem": "第42空",
+          "options": [
+            {
+              "letter": "A",
+              "text": "stores"
+            },
+            {
+              "letter": "B",
+              "text": "families"
+            },
+            {
+              "letter": "C",
+              "text": "schools"
+            },
+            {
+              "letter": "D",
+              "text": "citizens"
+            }
+          ],
+          "answer": "A",
+          "type": "cloze",
+          "score": 1,
+          "explanation": {
+            "summary": "考查名词词义辨析",
+            "question": "句意：为克利夫兰各地所有的商店制作兔子蛋糕。",
+            "evidence": "throughout Cleveland",
+            "answer": "A。面包连锁企业向旗下各“商店”供货最合逻辑。"
+          }
+        },
+        {
+          "id": 43,
+          "passageLabel": "F",
+          "stem": "第43空",
+          "options": [
+            {
+              "letter": "A",
+              "text": "generous"
+            },
+            {
+              "letter": "B",
+              "text": "financial"
+            },
+            {
+              "letter": "C",
+              "text": "technical"
+            },
+            {
+              "letter": "D",
+              "text": "temporary"
+            }
+          ],
+          "answer": "D",
+          "type": "cloze",
+          "score": 1,
+          "explanation": {
+            "summary": "考查形容词词义辨析",
+            "question": "句意：市中心的工厂需要八个孩子在春假期间做临时帮工。",
+            "evidence": "during our spring break",
+            "answer": "D。只在春假期间帮忙，是 temporary（临时的）工作。"
+          }
+        },
+        {
+          "id": 44,
+          "passageLabel": "F",
+          "stem": "第44空",
+          "options": [
+            {
+              "letter": "A",
+              "text": "plans"
+            },
+            {
+              "letter": "B",
+              "text": "problems"
+            },
+            {
+              "letter": "C",
+              "text": "excuses"
+            },
+            {
+              "letter": "D",
+              "text": "hobbies"
+            }
+          ],
+          "answer": "A",
+          "type": "cloze",
+          "score": 1,
+          "explanation": {
+            "summary": "考查名词词义辨析",
+            "question": "句意：那个春假我除了听喜欢的唱片没有别的计划。",
+            "evidence": "beyond listening to my favorite records",
+            "answer": "A。had no plans beyond… 表示“除…之外没有别的安排”。"
+          }
+        },
+        {
+          "id": 45,
+          "passageLabel": "F",
+          "stem": "第45空",
+          "options": [
+            {
+              "letter": "A",
+              "text": "offer"
+            },
+            {
+              "letter": "B",
+              "text": "earn"
+            },
+            {
+              "letter": "C",
+              "text": "set"
+            },
+            {
+              "letter": "D",
+              "text": "suggest"
+            }
+          ],
+          "answer": "B",
+          "type": "cloze",
+          "score": 1,
+          "explanation": {
+            "summary": "考查动词词义辨析",
+            "question": "句意：我将挣到最低工资。",
+            "evidence": "minimum wage",
+            "answer": "B。与 wage 搭配表示“挣得”，用 earn。"
+          }
+        },
+        {
+          "id": 46,
+          "passageLabel": "F",
+          "stem": "第46空",
+          "options": [
+            {
+              "letter": "A",
+              "text": "worked"
+            },
+            {
+              "letter": "B",
+              "text": "closed"
+            },
+            {
+              "letter": "C",
+              "text": "developed"
+            },
+            {
+              "letter": "D",
+              "text": "survived"
+            }
+          ],
+          "answer": "A",
+          "type": "cloze",
+          "score": 1,
+          "explanation": {
+            "summary": "考查动词词义辨析",
+            "question": "句意：我可以看看一家工厂是如何运作的。",
+            "evidence": "I'd see how a factory ____46____.",
+            "answer": "A。how a factory worked 指工厂如何运转。"
+          }
+        },
+        {
+          "id": 47,
+          "passageLabel": "F",
+          "stem": "第47空",
+          "options": [
+            {
+              "letter": "A",
+              "text": "ambition"
+            },
+            {
+              "letter": "B",
+              "text": "permission"
+            },
+            {
+              "letter": "C",
+              "text": "experience"
+            },
+            {
+              "letter": "D",
+              "text": "invitation"
+            }
+          ],
+          "answer": "B",
+          "type": "cloze",
+          "score": 1,
+          "explanation": {
+            "summary": "考查名词词义辨析",
+            "question": "句意：父母认为这是个好主意，就打电话给 Betsy 的父亲表示同意。",
+            "evidence": "My parents thought all of this was a grand idea and called Betsy's dad with their ____47____.",
+            "answer": "B。下文作者确实去了工厂，说明父母给了 permission（许可）。"
+          }
+        },
+        {
+          "id": 48,
+          "passageLabel": "F",
+          "stem": "第48空",
+          "options": [
+            {
+              "letter": "A",
+              "text": "joys"
+            },
+            {
+              "letter": "B",
+              "text": "ideas"
+            },
+            {
+              "letter": "C",
+              "text": "roles"
+            },
+            {
+              "letter": "D",
+              "text": "choices"
+            }
+          ],
+          "answer": "C",
+          "type": "cloze",
+          "score": 1,
+          "explanation": {
+            "summary": "考查名词词义辨析",
+            "question": "句意：我们在工厂里的任务很简单。",
+            "evidence": "Place cakes on a moving belt. Attach icing ears. Apply icing eyes and nose.",
+            "answer": "C。后文列举的都是分配的工作，roles 指职责、任务。"
+          }
+        },
+        {
+          "id": 49,
+          "passageLabel": "F",
+          "stem": "第49空",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Save"
+            },
+            {
+              "letter": "B",
+              "text": "Keep"
+            },
+            {
+              "letter": "C",
+              "text": "Stop"
+            },
+            {
+              "letter": "D",
+              "text": "Remove"
+            }
+          ],
+          "answer": "D",
+          "type": "cloze",
+          "score": 1,
+          "explanation": {
+            "summary": "考查动词词义辨析",
+            "question": "句意：把兔子蛋糕从传送带上取下来。",
+            "evidence": "____49____ bunny from the belt.",
+            "answer": "D。remove…from… 表示“把…从…移走”。"
+          }
+        },
+        {
+          "id": 50,
+          "passageLabel": "F",
+          "stem": "第50空",
+          "options": [
+            {
+              "letter": "A",
+              "text": "harder"
+            },
+            {
+              "letter": "B",
+              "text": "better"
+            },
+            {
+              "letter": "C",
+              "text": "longer"
+            },
+            {
+              "letter": "D",
+              "text": "cheaper"
+            }
+          ],
+          "answer": "A",
+          "type": "cloze",
+          "score": 1,
+          "explanation": {
+            "summary": "考查形容词比较级辨析",
+            "question": "句意：这比听起来要难得多。",
+            "evidence": "____51____ a bit and the cakes pile up.",
+            "answer": "A。稍一慢蛋糕就会堆积，说明工作比听起来更难。"
+          }
+        },
+        {
+          "id": 51,
+          "passageLabel": "F",
+          "stem": "第51空",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Calm down"
+            },
+            {
+              "letter": "B",
+              "text": "Slow down"
+            },
+            {
+              "letter": "C",
+              "text": "Stay on"
+            },
+            {
+              "letter": "D",
+              "text": "Move on"
+            }
+          ],
+          "answer": "B",
+          "type": "cloze",
+          "score": 1,
+          "explanation": {
+            "summary": "考查动词短语辨析",
+            "question": "句意：稍微慢一点，蛋糕就堆积起来了。",
+            "evidence": "and the cakes pile up",
+            "answer": "B。slow down（放慢）才会造成蛋糕堆积的结果。"
+          }
+        },
+        {
+          "id": 52,
+          "passageLabel": "F",
+          "stem": "第52空",
+          "options": [
+            {
+              "letter": "A",
+              "text": "indicated"
+            },
+            {
+              "letter": "B",
+              "text": "witnessed"
+            },
+            {
+              "letter": "C",
+              "text": "expected"
+            },
+            {
+              "letter": "D",
+              "text": "remembered"
+            }
+          ],
+          "answer": "C",
+          "type": "cloze",
+          "score": 1,
+          "explanation": {
+            "summary": "考查动词词义辨析",
+            "question": "句意：一切都比我预料的更紧张。",
+            "evidence": "it was all a little more high-pressure than I'd ____52____",
+            "answer": "C。than I'd expected 表示“比我预期的”。"
+          }
+        },
+        {
+          "id": 53,
+          "passageLabel": "F",
+          "stem": "第53空",
+          "options": [
+            {
+              "letter": "A",
+              "text": "cried"
+            },
+            {
+              "letter": "B",
+              "text": "smiled"
+            },
+            {
+              "letter": "C",
+              "text": "hesitated"
+            },
+            {
+              "letter": "D",
+              "text": "refused"
+            }
+          ],
+          "answer": "B",
+          "type": "cloze",
+          "score": 1,
+          "explanation": {
+            "summary": "考查动词词义辨析",
+            "question": "句意：爸爸笑了。",
+            "evidence": "The son of a grocer, he'd spent the summers of his childhood ____54____ food…",
+            "answer": "B。父亲想起自己童年类似的经历，会心一笑。"
+          }
+        },
+        {
+          "id": 54,
+          "passageLabel": "F",
+          "stem": "第54空",
+          "options": [
+            {
+              "letter": "A",
+              "text": "tasting"
+            },
+            {
+              "letter": "B",
+              "text": "finding"
+            },
+            {
+              "letter": "C",
+              "text": "sharing"
+            },
+            {
+              "letter": "D",
+              "text": "delivering"
+            }
+          ],
+          "answer": "D",
+          "type": "cloze",
+          "score": 1,
+          "explanation": {
+            "summary": "考查动词词义辨析",
+            "question": "句意：作为杂货店老板的儿子，他童年的夏天都在新泽西州伯纳兹维尔送货。",
+            "evidence": "The son of a grocer",
+            "answer": "D。杂货店的活儿是 delivering food（送货）。"
+          }
+        },
+        {
+          "id": 55,
+          "passageLabel": "F",
+          "stem": "第55空",
+          "options": [
+            {
+              "letter": "A",
+              "text": "withdraw"
+            },
+            {
+              "letter": "B",
+              "text": "donate"
+            },
+            {
+              "letter": "C",
+              "text": "receive"
+            },
+            {
+              "letter": "D",
+              "text": "appreciate"
+            }
+          ],
+          "answer": "D",
+          "type": "cloze",
+          "score": 1,
+          "explanation": {
+            "summary": "考查动词词义辨析",
+            "question": "句意：这种工作会让你珍惜自己挣的每一块钱，并尊重做这份工作的人。",
+            "evidence": "the dollars you earned and respect those who did the work",
+            "answer": "D。与 respect 并列，appreciate 表示“珍惜、感激”。"
+          }
+        }
+      ]
+    },
+    {
+      "key": "grammar",
+      "partTitle": "第三部分 语言运用（共两节，满分30分）",
+      "secTitle": "第二节（共10小题；每小题1.5分，满分15分）阅读下面短文，在空白处填入1个适当的单词或括号内单词的正确形式。",
+      "passages": [
+        {
+          "label": "G",
+          "text": "Going to Mount Huangshan reminds me of the popular Beatles' song \"The Long and Winding Road\". ____56____ is so breathtaking about the experience is the out-of-this-world scenes. The rolling sea of clouds you see once you are at the top will remind you how tiny we ____57____（human）are.\n\nThe hot spring at the foot of the mountain is something you must try after the climb. It will ____58____（undoubted）help you get refreshed! The amazing thing about the spring is that the colder the temperature gets, the ____59____（hot）the spring! Strange, isn't it? But that's how nature is — always leaving us ____60____（astonish）.\n\nWhat comes next is the endless series of steps. You can't help wondering how hard it ____61____（be）for the people then to put all those rocks into place. Though it is the only unnatural thing on your way up the mountain, still it highlights the whole adventure ____62____ offers a place where you can sit down to rest your ____63____（ache）legs.\n\nAs the song goes, this long and winding road \"will never disappear\", and it will always stick in the visitor's memory. It sure does in ____64____（I）. While you're in China, Mount Huangshan is ____65____ must to visit!"
+        }
+      ],
+      "pool": [],
+      "questions": [
+        {
+          "id": 56,
+          "passageLabel": "G",
+          "stem": "第56空",
+          "options": [],
+          "answer": "What",
+          "type": "grammar",
+          "score": 1.5,
+          "explanation": {
+            "summary": "考查主语从句｜本文是说明文，介绍黄山的云海、温泉与台阶。",
+            "question": "句意：这次经历中令人惊叹的是那超凡的景色。",
+            "evidence": "____56____ is so breathtaking about the experience is the out-of-this-world scenes.",
+            "answer": "What。主语从句缺主语且指“事情”，用 what 引导，句首大写。"
+          }
+        },
+        {
+          "id": 57,
+          "passageLabel": "G",
+          "stem": "第57空（human）",
+          "options": [],
+          "answer": "humans",
+          "type": "grammar",
+          "score": 1.5,
+          "explanation": {
+            "summary": "考查名词复数",
+            "question": "句意：站在山顶看到翻涌的云海，会让你想到我们人类多么渺小。",
+            "evidence": "how tiny we ____57____（human）are",
+            "answer": "humans。human 作 we 的同位语，we 为复数，故用复数 humans。"
+          }
+        },
+        {
+          "id": 58,
+          "passageLabel": "G",
+          "stem": "第58空（undoubted）",
+          "options": [],
+          "answer": "undoubtedly",
+          "type": "grammar",
+          "score": 1.5,
+          "explanation": {
+            "summary": "考查副词",
+            "question": "句意：它无疑会帮你恢复精神！",
+            "evidence": "It will ____58____（undoubted）help you get refreshed!",
+            "answer": "undoubtedly。修饰动词 help，须用副词。"
+          }
+        },
+        {
+          "id": 59,
+          "passageLabel": "G",
+          "stem": "第59空（hot）",
+          "options": [],
+          "answer": "hotter",
+          "type": "grammar",
+          "score": 1.5,
+          "explanation": {
+            "summary": "考查形容词比较级",
+            "question": "句意：气温越低，温泉越热。",
+            "evidence": "the colder the temperature gets, the ____59____（hot）the spring",
+            "answer": "hotter。“the+比较级，the+比较级”结构，表示“越…越…”。"
+          }
+        },
+        {
+          "id": 60,
+          "passageLabel": "G",
+          "stem": "第60空（astonish）",
+          "options": [],
+          "answer": "astonished",
+          "type": "grammar",
+          "score": 1.5,
+          "explanation": {
+            "summary": "考查形容词（-ed 形式）",
+            "question": "句意：大自然就是这样——总是让我们感到惊讶。",
+            "evidence": "always leaving us ____60____（astonish）",
+            "answer": "astonished。leave+宾语+宾补，说明 us 的感受，用 -ed 形容词。"
+          }
+        },
+        {
+          "id": 61,
+          "passageLabel": "G",
+          "stem": "第61空（be）",
+          "options": [],
+          "answer": "was",
+          "type": "grammar",
+          "score": 1.5,
+          "explanation": {
+            "summary": "考查动词时态与主谓一致",
+            "question": "句意：你不禁想，对当时的人们来说，把这些石头安置到位有多难。",
+            "evidence": "how hard it ____61____（be）for the people then to put all those rocks into place",
+            "answer": "was。it 是形式主语、不定式为真正主语，谓语用单数；then 指过去，用一般过去时。"
+          }
+        },
+        {
+          "id": 62,
+          "passageLabel": "G",
+          "stem": "第62空",
+          "options": [],
+          "answer": "and",
+          "type": "grammar",
+          "score": 1.5,
+          "explanation": {
+            "summary": "考查并列连词",
+            "question": "句意：它突出了整场冒险，并且提供了一个可以坐下歇脚的地方。",
+            "evidence": "it highlights the whole adventure ____62____ offers a place where you can sit down",
+            "answer": "and。highlights 与 offers 是并列谓语，用 and 连接。"
+          }
+        },
+        {
+          "id": 63,
+          "passageLabel": "G",
+          "stem": "第63空（ache）",
+          "options": [],
+          "answer": "aching",
+          "type": "grammar",
+          "score": 1.5,
+          "explanation": {
+            "summary": "考查形容词（-ing 形式）",
+            "question": "句意：让你坐下来歇一歇酸痛的双腿。",
+            "evidence": "rest your ____63____（ache）legs",
+            "answer": "aching。作定语修饰 legs，表示“疼痛的”。"
+          }
+        },
+        {
+          "id": 64,
+          "passageLabel": "G",
+          "stem": "第64空（I）",
+          "options": [],
+          "answer": "mine",
+          "type": "grammar",
+          "score": 1.5,
+          "explanation": {
+            "summary": "考查名词性物主代词",
+            "question": "句意：它会永远留在游客的记忆中，对我来说确实如此。",
+            "evidence": "it will always stick in the visitor's memory. It sure does in ____64____（I）.",
+            "answer": "mine。此处需名词性物主代词指代 my memory，故填 mine。"
+          }
+        },
+        {
+          "id": 65,
+          "passageLabel": "G",
+          "stem": "第65空",
+          "options": [],
+          "answer": "a",
+          "type": "grammar",
+          "score": 1.5,
+          "explanation": {
+            "summary": "考查冠词",
+            "question": "句意：你在中国时，黄山是一个必去之地。",
+            "evidence": "Mount Huangshan is ____65____ must to visit!",
+            "answer": "a。must 此处作可数名词“必须做的事”，泛指用不定冠词；must 以辅音音素开头，用 a。"
+          }
+        }
+      ]
+    },
+    {
+      "key": "writing_app",
+      "partTitle": "第四部分 写作（共两节，满分40分）",
+      "secTitle": "第一节（满分15分）",
+      "passages": [],
+      "pool": [],
+      "questions": [
+        {
+          "id": 66,
+          "stem": "你校英文报Youth正在庆祝创刊十周年。请你写一篇短文投稿，内容包括：\n1. 读报的经历；\n2. 喜爱的栏目；\n3. 期望和祝福。\n注意：\n1. 写作词数应为80左右；\n2. 请按如下格式在答题卡的相应位置作答。\n\nYouth and Me",
+          "options": [],
+          "type": "writing",
+          "score": 15,
+          "modelAnswer": "Youth and Me\n\nIt has been 10 years since Youth was founded. In my memory, it is Youth that accompanies me through my whole high school. When feeling depressed, I often choose to enjoy the novel part which includes a lot of imaginative stories. These stories can relieve my stress and broaden my horizon. Besides, I even submitted my own fiction to Youth. Refused as I was, I still received some great encouragement, which gives me confidence to be a writer.\n\nI do expect Youth can publish more classic works and have a promising future.",
+          "explanation": {
+            "summary": "应用文（投稿短文）· 写作要点",
+            "question": "需覆盖三个要点：读报经历、喜爱的栏目、期望与祝福。题目已给定标题 Youth and Me，词数 80 左右。",
+            "evidence": "词汇积累：建立 found→establish；沮丧的 upset→depressed；得到 receive→obtain；赏析 enjoy→appreciate。句式拓展：These stories can relieve my stress and broaden my horizon. → Not only can these stories relieve my stress, but also they can broaden my horizon.",
+            "answer": "高分句型①which 引导的限制性定语从句：the novel part which includes a lot of imaginative stories；②as 引导的让步状语从句 + which 引导的非限制性定语从句：Refused as I was, I still received some great encouragement, which gives me confidence to be a writer。"
+          },
+          "reviewStatus": "已人工核对"
+        }
+      ]
+    },
+    {
+      "key": "writing_cont",
+      "partTitle": "第四部分 写作（共两节，满分40分）",
+      "secTitle": "第二节（满分25分）读后续写",
+      "passages": [
+        {
+          "label": "H",
+          "text": "A MOTHER'S DAY SURPRISE\n\nThe twins were filled with excitement as they thought of the surprise they were planning for Mother's Day. How pleased and proud Mother would be when they brought her breakfast in bed. They planned to make French toast and chicken porridge. They had watched their mother in the kitchen. There was nothing to it. Jenna and Jeff knew exactly what to do.\n\nThe big day came at last. The alarm rang at 6 a.m. The pair went down the stairs quietly to the kitchen. They decided to boil the porridge first. They put some rice into a pot of water and left it to boil while they made the French toast. Jeff broke two eggs into a plate and added in some milk. Jenna found the bread and put two slices into the egg mixture. Next, Jeff turned on the second stove burner to heat up the frying pan. Everything was going smoothly until Jeff started frying the bread. The pan was too hot and the bread turned black within seconds. Jenna threw the burnt piece into the sink and put in the other slice of bread. This time, she turned down the fire so it cooked nicely.\n\nThen Jeff noticed steam shooting out of the pot and the lid starting to shake. The next minute, the porridge boiled over and put out the fire. Jenna panicked. Thankfully, Jeff stayed calm and turned off the gas quickly. But the stove was a mess now. Jenna told Jeff to clean it up so they could continue to cook the rest of the porridge. But Jeff's hand touched the hot burner and he gave a cry of pain. Jenna made him put his hand in cold water. Then she caught the smell of burning. Oh dear! The piece of bread in the pan had turned black as well."
+        }
+      ],
+      "pool": [],
+      "questions": [
+        {
+          "id": 67,
+          "passageLabel": "H",
+          "stem": "阅读上面材料，根据其内容和所给段落开头语续写两段，使之构成一篇完整的短文。\n注意：\n1. 续写词数应为150左右；\n2. 请按如下格式在答题卡的相应位置作答。\n\nParagraph 1: As the twins looked around them in disappointment, their father appeared.\n\nParagraph 2: The twins carried the breakfast upstairs and woke their mother up.",
+          "options": [],
+          "type": "writing",
+          "score": 25,
+          "modelAnswer": "As the twins looked around them in disappointment, their father appeared. Father's appearing was like a savior to the two children. Under the guidance of their father, they took positive actions and started all over again. They made the bread and then went on cooking porridge. Father helped them adjust the fire, which was the key to success. It was all right this time. Delicious breakfast was ready. How happy they were!\n\nThe twins carried the breakfast upstairs and woke their mother up. When their mother saw the delicious and perfect breakfast in front of her, she was very surprised. It was not only the gift, but the love of the children for her that moved her very much. The two children could finish cooking a breakfast, which she didn't expect. The children said loudly, \"Happy Mother's Day!\" Mother hugged them tightly and kissed them again and again.",
+          "explanation": {
+            "summary": "读后续写 · 情节与语言要点",
+            "question": "第一段由“父亲出现了”入手，写父亲指导两人重新准备早餐并成功；第二段写把早餐端给母亲，母亲被孩子的心意深深感动。续写线索：帮助→指导→积极→献礼→感动。",
+            "evidence": "词汇激活：帮助 help/assist；指导 guide/conduct；献礼 present a gift/give a gift；积极 positive/take positive actions；感动 moved/touched。",
+            "answer": "高分句型①which 引导的非限制性定语从句：Father helped them adjust the fire, which was the key to success；②not only…but (also) + 强调句型：It was not only the breakfast, but the love of the children for her that moved her very much。"
+          },
+          "reviewStatus": "已人工核对"
+        }
+      ]
+    }
+  ]
+}

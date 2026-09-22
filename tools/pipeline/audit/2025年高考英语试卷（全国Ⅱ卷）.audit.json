@@ -1,0 +1,22 @@
+{
+  "source_file": "2025年高考英语试卷（全国Ⅱ卷）",
+  "total_sections": 12,
+  "total_questions": 50,
+  "issues": [
+    {
+      "type": "question_id_gap",
+      "section": "reading",
+      "msg": "题号不连续: [1, 2, 3, 5, 6, 7, 8, 9, 10, 11]..."
+    },
+    {
+      "type": "question_id_gap",
+      "section": "seven",
+      "msg": "题号不连续: [21, 22, 23, 24, 25, 26, 27, 29, 30, 31]..."
+    }
+  ],
+  "review_required": [],
+  "summary": {
+    "total_issues": 2,
+    "needs_review": true
+  }
+}

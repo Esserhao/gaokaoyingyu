@@ -1,0 +1,1705 @@
+{
+  "id": "gk2022-yi",
+  "year": 2022,
+  "paper": "全国乙卷",
+  "region": "河南、山西、江西、安徽、陕西、甘肃、青海、内蒙古、宁夏、新疆",
+  "title": "2022年全国乙卷英语（笔试部分）",
+  "format": "legacy",
+  "duration": 100,
+  "totalScore": 120,
+  "hasAudio": false,
+  "audio": null,
+  "quality": "verified",
+  "proofreadingConfirmed": true,
+  "answerSource": "2022年全国乙卷英语高考真题（解析版）",
+  "note": "源档为解析版，听力 20 题只给出题干与选项、未给任何答案与听力原文，故本卷只收录笔试部分，题号 1—52（阅读 1—15、七选五 16—20、完形 21—40、语法填空 41—50、短文改错 51、书面表达 52），totalScore 120、duration 100。听力题干选项已备份到「题库待补清单.md」。另：阅读 A 篇的讲座时间表在 docx 抽取时被移到文末（表格单元格），已按原表还原进 passage；书面表达的调查图表未能抽出，已在题干中用文字补明四项百分比。",
+  "sections": [
+    {
+      "key": "reading",
+      "partTitle": "第二部分 阅读理解（共两节，满分40分）",
+      "secTitle": "第一节（共15小题；每小题2分，满分30分）阅读下列短文，从每题所给的A、B、C和D四个选项中，选出最佳选项。",
+      "pool": [],
+      "passages": [
+        {
+          "label": "A",
+          "text": "Henry Raeburn (1756-1823)\n\nThe Exhibition\n\nThis exhibition of some sixty masterpieces celebrating the life and work of Scotland's best loved painter, Sir Henry Raeburn, comes to London. Selected from collections throughout the world, it is the first major exhibition of his work to be held in over forty years.\n\nLecture Series\n\nScottish National Portrait (肖像画) Gallery presents a series of lectures for the general public. They are held in the Lecture Room. Admission to lectures is free.\n\n| 讲座 | 时间 | 主讲人 |\n|---|---|---|\n| An Introduction to Raeburn | Sunday 26 Oct., 15.00 | DUNCAN THOMSON |\n| Raeburn's English Contemporaries | Thursday 30 Oct., 13.10 | JUDY EGERTON |\n| Characters and Characterisation in Raeburn's Portraits | Thursday 6 Nov., 13.10 | NICHOLAS PHILLIPSON |\n| Raeburn and Artist's Training in the 18th Century | Thursday 13 Nov., 13.10 | — |\n\nExhibition Times\n\nMonday-Saturday 10.00-17.45　　Sunday 12.00-17.45\n\nLast admission to the exhibition: 17.15. There is no re-admission.\n\nClosed: 24-26 December and 1 January.\n\nAdmission\n\n£4. Children under 12 years accompanied by an adult are admitted free.\n\nSchools and Colleges\n\nA special low entrance charge of £2 per person is available to all in full-time education, up to and including those at first degree level, in organised groups with teachers."
+        },
+        {
+          "label": "B",
+          "text": "In 1916, two girls of wealthy families, best friends from Auburn, N. Y. — Dorothy Woodruff and Rosamond Underwood — traveled to a settlement in the Rocky Mountains to teach in a one-room schoolhouse. The girls had gone to Smith College. They wore expensive clothes. So for them to move to Elkhead, Colo. to instruct the children whose shoes were held together with string was a surprise. Their stay in Elkhead is the subject of Nothing Daunted: The Unexpected Education of Two Society Girls in the West by Dorothy Wickenden, who is a magazine editor and Dorothy Woodruff's granddaughter.\n\nWhy did they go then? Well, they wanted to do something useful. Soon, however, they realized what they had undertaken.\n\nThey moved in with a local family, the Harrisons, and, like them, had little privacy, rare baths, and a blanket of snow on their quilt when they woke up in the morning. Some mornings, Rosamond and Dorothy would arrive at the schoolhouse to find the children weeping from the cold. In spring, the snow was replaced by mud over ice.\n\nIn Wickenden's book, she expanded on the history of the West and also on feminism, which of course influenced the girls' decision to go to Elkhead. A hair-raising section concerns the building of the railroads, which entailed (牵涉) drilling through the Rockies, often in blinding snowstorms. The book ends with Rosamond and Dorothy's return to Auburn.\n\nWickenden is a very good storyteller. The sweep of the land and the stoicism (坚忍) of the people move her to some beautiful writing. Here is a picture of Dorothy Woodruff, on her horse, looking down from a hill top: \"When the sun slipped behind the mountains, it shed a rosy glow all around them. Then a full moon rose. The snow was marked only by small animals: foxes, coyotes, mice, and varying hares, which turned white in the winter.\""
+        },
+        {
+          "label": "C",
+          "text": "Can a small group of drones (无人机) guarantee the safety and reliability of railways and, at the same time, help railway operators save billions of euros each year? That is the very likely future of applying today's \"eyes in the sky\" technology to making sure that the millions of kilometres of rail tracks and infrastructure (基础设施) worldwide are safe for trains on a 24/7 basis.\n\nDrones are already being used to examine high-tension electrical lines. They could do precisely the same thing to inspect railway lines and other vital aspects of rail infrastructure such as the correct position of railway tracks and switching points. The more regularly they can be inspected, the more railway safety, reliability and on-time performance will be improved. Costs would be cut and operations would be more efficient (高效) across the board.\n\nThat includes huge savings in maintenance costs and better protection of railway personnel safety. It is calculated that European railways alone spend approximately 20 billion euros a year on maintenance, including sending maintenance staff, often at night, to inspect and repair the rail infrastructure. That can be dangerous work that could be avoided with drones assisting the crews' efforts.\n\nBy using the latest technologies, drones could also start providing higher-value services for railways, detecting faults in the rail or switches, before they can cause any safety problems. To perform these tasks, drones for rail don't need to be flying overhead. Engineers are now working on a new concept: the rail drones of the future. They will be moving on the track ahead of the train, and programmed to run autonomously. Very small drones with advanced sensors and AI and travelling ahead of the train could guide it like a co-pilot. With their ability to see ahead, they could signal any problem, so that fast-moving trains would be able to react in time."
+        },
+        {
+          "label": "D",
+          "text": "The Government's sugar tax on soft drinks has brought in half as much money as Ministers first predicted it would generate, the first official data on the policy has shown.\n\nFirst announced in April, 2016, the tax which applies to soft drinks containing more than 5g of sugar per 100ml, was introduced to help reduce childhood obesity (肥胖). It is believed that today's children and teenagers are consuming three times the recommended level of sugar, putting them at a higher risk of the disease.\n\nInitially the sugar tax was expected to make £520m a year for the Treasury. However, data of the first six months showed it would make less than half this amount. At present it is expected to generate £240m for the year ending in April 2019, which will go to school sports.\n\nIt comes after more than half of soft drinks sold in shops have had their sugar levels cut by manufacturers (制造商) so they can avoid paying the tax. Drinks now contain 45 million fewer kilos of sugar as a result of manufacturers' efforts to avoid the charge, according to Treasury figures. Since April drinks companies have been forced to pay between 18p and 24p for every litre of sugary drink they produce or import, depending on the sugar content.\n\nHowever, some high sugar brands, like Classic Coca Cola, have accepted the sugar tax and are refusing to change for fear of upsetting consumers. Fruit juices, milk-based drinks and most alcoholic drinks are free of the tax, as are small companies manufacturing fewer than 1m litres per year.\n\nToday's figures, according to one government official, show the positive influence the sugar tax is having by raising millions of pounds for sports facilities (设施) and healthier eating in schools. Helping the next generation to have a healthy and active childhood is of great importance, and the industry is playing its part."
+        }
+      ],
+      "questions": [
+        {
+          "id": 1,
+          "passageLabel": "A",
+          "stem": "What is the right time for attending Raeburn's English Contemporaries?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Sun. 26 Oct."
+            },
+            {
+              "letter": "B",
+              "text": "Thurs. 30 Oct."
+            },
+            {
+              "letter": "C",
+              "text": "Thurs. 6 Nov."
+            },
+            {
+              "letter": "D",
+              "text": "Thurs. 13 Nov."
+            }
+          ],
+          "answer": "B",
+          "type": "reading",
+          "score": 2,
+          "explanation": {
+            "summary": "细节理解题｜本文是应用文，介绍纪念苏格兰画家亨利·雷伯恩的展览及配套讲座。",
+            "question": "问参加 Raeburn's English Contemporaries 讲座的正确时间。",
+            "evidence": "讲座表：Raeburn's English Contemporaries — Thursday 30 Oct., 13.10",
+            "answer": "B。讲座时间表中该场次对应 10 月 30 日星期四。"
+          }
+        },
+        {
+          "id": 2,
+          "passageLabel": "A",
+          "stem": "How much would a couple with two children under 12 pay for admission?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "£4."
+            },
+            {
+              "letter": "B",
+              "text": "£8."
+            },
+            {
+              "letter": "C",
+              "text": "£12."
+            },
+            {
+              "letter": "D",
+              "text": "£16."
+            }
+          ],
+          "answer": "B",
+          "type": "reading",
+          "score": 2,
+          "explanation": {
+            "summary": "细节理解题｜本文是应用文，介绍纪念苏格兰画家亨利·雷伯恩的展览及配套讲座。",
+            "question": "问一对夫妇带两个 12 岁以下孩子的门票总额。",
+            "evidence": "£4. Children under 12 years accompanied by an adult are admitted free.",
+            "answer": "B。成人每人 £4，两人共 £8；12 岁以下儿童由成人陪同免费，故共 £8。"
+          }
+        },
+        {
+          "id": 3,
+          "passageLabel": "A",
+          "stem": "How can full-time students get group discounts?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "They should go on Sunday mornings."
+            },
+            {
+              "letter": "B",
+              "text": "They should come from art schools."
+            },
+            {
+              "letter": "C",
+              "text": "They must be led by teachers."
+            },
+            {
+              "letter": "D",
+              "text": "They must have ID cards with them."
+            }
+          ],
+          "answer": "C",
+          "type": "reading",
+          "score": 2,
+          "explanation": {
+            "summary": "细节理解题｜本文是应用文，介绍纪念苏格兰画家亨利·雷伯恩的展览及配套讲座。",
+            "question": "问全日制学生如何获得团体优惠。",
+            "evidence": "A special low entrance charge of £2 per person is available to all in full-time education…in organised groups with teachers.",
+            "answer": "C。享受 £2 优惠的条件是「由教师带领的有组织团体」。"
+          }
+        },
+        {
+          "id": 4,
+          "passageLabel": "B",
+          "stem": "Why did Dorothy and Rosamond go to the Rocky Mountains?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "To teach in a school."
+            },
+            {
+              "letter": "B",
+              "text": "To study American history."
+            },
+            {
+              "letter": "C",
+              "text": "To write a book."
+            },
+            {
+              "letter": "D",
+              "text": "To do sightseeing."
+            }
+          ],
+          "answer": "A",
+          "type": "reading",
+          "score": 2,
+          "explanation": {
+            "summary": "细节理解题｜本文是书评，介绍 Dorothy Wickenden 的《Nothing Daunted》一书。",
+            "question": "问两位女孩为什么前往落基山脉。",
+            "evidence": "traveled to a settlement in the Rocky Mountains to teach in a one-room schoolhouse",
+            "answer": "A。她们是去一间只有一个房间的校舍教书。"
+          }
+        },
+        {
+          "id": 5,
+          "passageLabel": "B",
+          "stem": "What can we learn about the girls from paragraph 3?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "They enjoyed much respect."
+            },
+            {
+              "letter": "B",
+              "text": "They had a room with a bathtub."
+            },
+            {
+              "letter": "C",
+              "text": "They lived with the local kids."
+            },
+            {
+              "letter": "D",
+              "text": "They suffered severe hardships."
+            }
+          ],
+          "answer": "D",
+          "type": "reading",
+          "score": 2,
+          "explanation": {
+            "summary": "推理判断题｜本文是书评，介绍 Dorothy Wickenden 的《Nothing Daunted》一书。",
+            "question": "问从第三段能了解到关于两位女孩的什么信息。",
+            "evidence": "had little privacy, rare baths, and a blanket of snow on their quilt when they woke up／In spring, the snow was replaced by mud over ice.",
+            "answer": "D。几无隐私、少有沐浴、醒来被子上积雪，可见生活条件极为艰苦。"
+          }
+        },
+        {
+          "id": 6,
+          "passageLabel": "B",
+          "stem": "Which part of Wickenden's writing is hair-raising?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "The extreme climate of Auburn."
+            },
+            {
+              "letter": "B",
+              "text": "The living conditions in Elkhead."
+            },
+            {
+              "letter": "C",
+              "text": "The railroad building in the Rockies."
+            },
+            {
+              "letter": "D",
+              "text": "The natural beauty of the West."
+            }
+          ],
+          "answer": "C",
+          "type": "reading",
+          "score": 2,
+          "explanation": {
+            "summary": "细节理解题｜本文是书评，介绍 Dorothy Wickenden 的《Nothing Daunted》一书。",
+            "question": "问书中哪一部分令人毛骨悚然。",
+            "evidence": "A hair-raising section concerns the building of the railroads, which entailed drilling through the Rockies, often in blinding snowstorms.",
+            "answer": "C。原文直接点明「令人毛骨悚然的一节」讲的是穿越落基山脉的铁路修建。"
+          }
+        },
+        {
+          "id": 7,
+          "passageLabel": "B",
+          "stem": "What is the text?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "A news report."
+            },
+            {
+              "letter": "B",
+              "text": "A book review."
+            },
+            {
+              "letter": "C",
+              "text": "A children's story."
+            },
+            {
+              "letter": "D",
+              "text": "A diary entry."
+            }
+          ],
+          "answer": "B",
+          "type": "reading",
+          "score": 2,
+          "explanation": {
+            "summary": "推理判断题｜本文是书评，介绍 Dorothy Wickenden 的《Nothing Daunted》一书。",
+            "question": "问本文的文体。",
+            "evidence": "The book ends with Rosamond and Dorothy's return to Auburn.／Wickenden is a very good storyteller.",
+            "answer": "B。文章概述书的内容并对作者文笔作出评价，属书评。"
+          }
+        },
+        {
+          "id": 8,
+          "passageLabel": "C",
+          "stem": "What makes the application of drones to rail lines possible?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "The use of drones in checking on power lines."
+            },
+            {
+              "letter": "B",
+              "text": "Drones' ability to work at high altitudes."
+            },
+            {
+              "letter": "C",
+              "text": "The reduction of cost in designing drones."
+            },
+            {
+              "letter": "D",
+              "text": "Drones' reliable performance in remote areas."
+            }
+          ],
+          "answer": "A",
+          "type": "reading",
+          "score": 2,
+          "explanation": {
+            "summary": "细节理解题｜本文是说明文，讲无人机将如何改变铁路的巡检与运营。",
+            "question": "问是什么使无人机应用于铁路成为可能。",
+            "evidence": "Drones are already being used to examine high-tension electrical lines. They could do precisely the same thing to inspect railway lines…",
+            "answer": "A。已用于高压电线巡检的成熟经验可完全平移到铁路线路。"
+          }
+        },
+        {
+          "id": 9,
+          "passageLabel": "C",
+          "stem": "What does \"maintenance\" underlined in paragraph 3 refer to?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Personnel safety."
+            },
+            {
+              "letter": "B",
+              "text": "Assistance from drones."
+            },
+            {
+              "letter": "C",
+              "text": "Inspection and repair."
+            },
+            {
+              "letter": "D",
+              "text": "Construction of infrastructure."
+            }
+          ],
+          "answer": "C",
+          "type": "reading",
+          "score": 2,
+          "explanation": {
+            "summary": "词义猜测题｜本文是说明文，讲无人机将如何改变铁路的巡检与运营。",
+            "question": "问第三段划线词 maintenance 的指代内容。",
+            "evidence": "spend approximately 20 billion euros a year on maintenance, including sending maintenance staff, often at night, to inspect and repair the rail infrastructure",
+            "answer": "C。同句 including 后的解释即「检查与维修」。"
+          }
+        },
+        {
+          "id": 10,
+          "passageLabel": "C",
+          "stem": "What function is expected of the rail drones?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "To provide early warning."
+            },
+            {
+              "letter": "B",
+              "text": "To make trains run automatically."
+            },
+            {
+              "letter": "C",
+              "text": "To earn profits for the crews."
+            },
+            {
+              "letter": "D",
+              "text": "To accelerate transportation."
+            }
+          ],
+          "answer": "B",
+          "type": "reading",
+          "score": 2,
+          "explanation": {
+            "summary": "推理判断题｜本文是说明文，讲无人机将如何改变铁路的巡检与运营。",
+            "question": "问人们期待铁路无人机具备什么功能。",
+            "evidence": "the rail drones of the future. They will be moving on the track ahead of the train, and programmed to run autonomously",
+            "answer": "B。源解析据「被设定为自动运行」判定为 B（让列车自动运行）。注：末句 they could signal any problem 亦可支持 A（提前预警），此题争议较大，此处按官方/解析答案取 B。"
+          }
+        },
+        {
+          "id": 11,
+          "passageLabel": "C",
+          "stem": "Which is the most suitable title for the text?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "What Faults Can Be Detected with Drones"
+            },
+            {
+              "letter": "B",
+              "text": "How Production of Drones Can Be Expanded"
+            },
+            {
+              "letter": "C",
+              "text": "What Difficulty Drone Development Will Face"
+            },
+            {
+              "letter": "D",
+              "text": "How Drones Will Change the Future of Railways"
+            }
+          ],
+          "answer": "D",
+          "type": "reading",
+          "score": 2,
+          "explanation": {
+            "summary": "主旨大意题｜本文是说明文，讲无人机将如何改变铁路的巡检与运营。",
+            "question": "问最合适的标题。",
+            "evidence": "Can a small group of drones guarantee the safety and reliability of railways…That is the very likely future…",
+            "answer": "D。全文围绕无人机如何改变铁路的未来展开（巡检、省钢、护人、预警、领航）。"
+          }
+        },
+        {
+          "id": 12,
+          "passageLabel": "D",
+          "stem": "Why was the sugar tax introduced?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "To collect money for schools."
+            },
+            {
+              "letter": "B",
+              "text": "To improve the quality of drinks."
+            },
+            {
+              "letter": "C",
+              "text": "To protect children's health."
+            },
+            {
+              "letter": "D",
+              "text": "To encourage research in education."
+            }
+          ],
+          "answer": "C",
+          "type": "reading",
+          "score": 2,
+          "explanation": {
+            "summary": "细节理解题｜本文是说明文，介绍英国软饮料糖税的实施情况与成效。",
+            "question": "问推出糖税的目的。",
+            "evidence": "the tax…was introduced to help reduce childhood obesity (肥胖)",
+            "answer": "C。目的是减少儿童肥胖，即保护儿童健康。为学校筹款（A）是税收用途而非初衷。"
+          }
+        },
+        {
+          "id": 13,
+          "passageLabel": "D",
+          "stem": "How did some drinks companies respond to the sugar tax?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "They turned to overseas markets."
+            },
+            {
+              "letter": "B",
+              "text": "They raised the prices of their products."
+            },
+            {
+              "letter": "C",
+              "text": "They cut down on their production."
+            },
+            {
+              "letter": "D",
+              "text": "They reduced their products' sugar content."
+            }
+          ],
+          "answer": "D",
+          "type": "reading",
+          "score": 2,
+          "explanation": {
+            "summary": "细节理解题｜本文是说明文，介绍英国软饮料糖税的实施情况与成效。",
+            "question": "问一些饮料公司如何应对糖税。",
+            "evidence": "more than half of soft drinks sold in shops have had their sugar levels cut by manufacturers so they can avoid paying the tax",
+            "answer": "D。厂商通过下调含糖量来规避征税。"
+          }
+        },
+        {
+          "id": 14,
+          "passageLabel": "D",
+          "stem": "From which of the following is the sugar tax collected?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Most alcoholic drinks."
+            },
+            {
+              "letter": "B",
+              "text": "Milk-based drinks."
+            },
+            {
+              "letter": "C",
+              "text": "Fruit juices."
+            },
+            {
+              "letter": "D",
+              "text": "Classic Coke."
+            }
+          ],
+          "answer": "D",
+          "type": "reading",
+          "score": 2,
+          "explanation": {
+            "summary": "细节理解题｜本文是说明文，介绍英国软饮料糖税的实施情况与成效。",
+            "question": "问下列哪一项需缴纳糖税。",
+            "evidence": "some high sugar brands, like Classic Coca Cola, have accepted the sugar tax／Fruit juices, milk-based drinks and most alcoholic drinks are free of the tax",
+            "answer": "D。果汁、奶制饮料与多数酒精饮料免税；经典可乐属高糖品牌，已接受征税。"
+          }
+        },
+        {
+          "id": 15,
+          "passageLabel": "D",
+          "stem": "What can be inferred about the adoption of the sugar tax policy?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "It is a short-sighted decision."
+            },
+            {
+              "letter": "B",
+              "text": "It is a success story."
+            },
+            {
+              "letter": "C",
+              "text": "It benefits manufacturers."
+            },
+            {
+              "letter": "D",
+              "text": "It upsets customers."
+            }
+          ],
+          "answer": "B",
+          "type": "reading",
+          "score": 2,
+          "explanation": {
+            "summary": "推理判断题｜本文是说明文，介绍英国软饮料糖税的实施情况与成效。",
+            "question": "问关于糖税政策的实施可以推断出什么。",
+            "evidence": "Today's figures…show the positive influence the sugar tax is having by raising millions of pounds for sports facilities and healthier eating in schools.",
+            "answer": "B。官员强调其积极影响，且含糖量大幅下降，说明政策是成功的。"
+          }
+        }
+      ]
+    },
+    {
+      "key": "seven",
+      "partTitle": "第二部分 阅读理解（共两节，满分40分）",
+      "secTitle": "第二节（共5小题；每小题2分，满分10分）根据短文内容，从短文后的选项中选出能填入空白处的最佳选项。选项中有两项为多余选项。",
+      "pool": [
+        {
+          "letter": "A",
+          "text": "Remember important dates"
+        },
+        {
+          "letter": "B",
+          "text": "Compensate by writing letters"
+        },
+        {
+          "letter": "C",
+          "text": "It is also helpful for you to be a friendship keeper"
+        },
+        {
+          "letter": "D",
+          "text": "Try to find a time that works for both of you and stick to it"
+        },
+        {
+          "letter": "E",
+          "text": "Friends need to talk about their preferred methods of communication"
+        },
+        {
+          "letter": "F",
+          "text": "It is easy to have a sense of connectedness through social media"
+        },
+        {
+          "letter": "G",
+          "text": "You may be the friend who left or the one who was left behind"
+        }
+      ],
+      "passages": [
+        {
+          "label": "",
+          "text": "Friendship needs care and attention to keep it in good health. Here are five ways to sustain (保持) long-distance friendships.\n\n· Set a regular date\n\nLong-lasting friendships share the characteristic that both sides equally contact (联系) and share with one another. With busy schedules, squeezing in phone calls can be a challenge. ___16___.\n\n· More isn't always merrier\n\nMake sure you have communicated with your friend about how frequently each of you wants to be contacted and what method works best for you both. ___17___. There are alternatives to constant written communication, such as leaving voice messages or having a group chat.\n\n· Practise empathy (共情)\n\n___18___. The friend who is remaining needs to be sensitive to all the additional time demands placed on the friend who has moved. The one in the new environment should be sympathetic to the fact that your friend may feel abandoned.\n\n· ___19___\n\nAnniversaries and birthdays carry even more weight in long-distance friendships. Although technology might make day-to-day communication possible, extra effort goes a long way on special days. Simply keeping a diary that keeps track of friends' birthdays and other important dates will make sure nothing slips by you.\n\n· Don't rely on technology alone\n\n___20___, but long-distance friendships — even close ones — may require more conscious effort to sustain. Try to seek out chances to renew friendships. How to do it? Just spend face-to-face time together whenever possible."
+        }
+      ],
+      "questions": [
+        {
+          "id": 16,
+          "stem": "___16___",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Remember important dates"
+            },
+            {
+              "letter": "B",
+              "text": "Compensate by writing letters"
+            },
+            {
+              "letter": "C",
+              "text": "It is also helpful for you to be a friendship keeper"
+            },
+            {
+              "letter": "D",
+              "text": "Try to find a time that works for both of you and stick to it"
+            },
+            {
+              "letter": "E",
+              "text": "Friends need to talk about their preferred methods of communication"
+            },
+            {
+              "letter": "F",
+              "text": "It is easy to have a sense of connectedness through social media"
+            },
+            {
+              "letter": "G",
+              "text": "You may be the friend who left or the one who was left behind"
+            }
+          ],
+          "answer": "D",
+          "type": "seven",
+          "score": 2,
+          "explanation": {
+            "summary": "本文是应用文，介绍五种维系异地友谊的方法。",
+            "question": "空处在「设定固定日期」小节末尾。",
+            "evidence": "With busy schedules, squeezing in phone calls can be a challenge.",
+            "answer": "D。上文说双方都忙、挤时间打电话很难，D 项「尽量找一个双方都合适的时间并坚持下去」正是解决办法，且 a time 与小标题 a regular date 呼应。"
+          }
+        },
+        {
+          "id": 17,
+          "stem": "___17___",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Remember important dates"
+            },
+            {
+              "letter": "B",
+              "text": "Compensate by writing letters"
+            },
+            {
+              "letter": "C",
+              "text": "It is also helpful for you to be a friendship keeper"
+            },
+            {
+              "letter": "D",
+              "text": "Try to find a time that works for both of you and stick to it"
+            },
+            {
+              "letter": "E",
+              "text": "Friends need to talk about their preferred methods of communication"
+            },
+            {
+              "letter": "F",
+              "text": "It is easy to have a sense of connectedness through social media"
+            },
+            {
+              "letter": "G",
+              "text": "You may be the friend who left or the one who was left behind"
+            }
+          ],
+          "answer": "B",
+          "type": "seven",
+          "score": 2,
+          "explanation": {
+            "summary": "本文是应用文，介绍五种维系异地友谊的方法。",
+            "question": "空处位于「联系并非越多越好」小节中间。",
+            "evidence": "上句 …what method works best for you both.；下句 There are alternatives to constant written communication, such as leaving voice messages…",
+            "answer": "B。上句谈沟通方式的商定，B 项「可以通过写信来弥补」举出一种方式，下句的 constant written communication 正与 writing letters 呼应。"
+          }
+        },
+        {
+          "id": 18,
+          "stem": "___18___",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Remember important dates"
+            },
+            {
+              "letter": "B",
+              "text": "Compensate by writing letters"
+            },
+            {
+              "letter": "C",
+              "text": "It is also helpful for you to be a friendship keeper"
+            },
+            {
+              "letter": "D",
+              "text": "Try to find a time that works for both of you and stick to it"
+            },
+            {
+              "letter": "E",
+              "text": "Friends need to talk about their preferred methods of communication"
+            },
+            {
+              "letter": "F",
+              "text": "It is easy to have a sense of connectedness through social media"
+            },
+            {
+              "letter": "G",
+              "text": "You may be the friend who left or the one who was left behind"
+            }
+          ],
+          "answer": "G",
+          "type": "seven",
+          "score": 2,
+          "explanation": {
+            "summary": "本文是应用文，介绍五种维系异地友谊的方法。",
+            "question": "空处是「练习共情」小节首句。",
+            "evidence": "The friend who is remaining…／The one in the new environment…",
+            "answer": "G。G 项「你可能是离开的一方，也可能是被留下的一方」总起下文两种处境，the friend who left / the one who was left behind 分别对应下文两句。"
+          }
+        },
+        {
+          "id": 19,
+          "stem": "___19___",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Remember important dates"
+            },
+            {
+              "letter": "B",
+              "text": "Compensate by writing letters"
+            },
+            {
+              "letter": "C",
+              "text": "It is also helpful for you to be a friendship keeper"
+            },
+            {
+              "letter": "D",
+              "text": "Try to find a time that works for both of you and stick to it"
+            },
+            {
+              "letter": "E",
+              "text": "Friends need to talk about their preferred methods of communication"
+            },
+            {
+              "letter": "F",
+              "text": "It is easy to have a sense of connectedness through social media"
+            },
+            {
+              "letter": "G",
+              "text": "You may be the friend who left or the one who was left behind"
+            }
+          ],
+          "answer": "A",
+          "type": "seven",
+          "score": 2,
+          "explanation": {
+            "summary": "本文是应用文，介绍五种维系异地友谊的方法。",
+            "question": "空处是第四种方法的小标题。",
+            "evidence": "Anniversaries and birthdays carry even more weight in long-distance friendships.／keeping a diary that keeps track of friends' birthdays and other important dates",
+            "answer": "A。本段讲纪念日与生日的重要性，A 项「记住重要的日子」正是该段小标题。"
+          }
+        },
+        {
+          "id": 20,
+          "stem": "___20___",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Remember important dates"
+            },
+            {
+              "letter": "B",
+              "text": "Compensate by writing letters"
+            },
+            {
+              "letter": "C",
+              "text": "It is also helpful for you to be a friendship keeper"
+            },
+            {
+              "letter": "D",
+              "text": "Try to find a time that works for both of you and stick to it"
+            },
+            {
+              "letter": "E",
+              "text": "Friends need to talk about their preferred methods of communication"
+            },
+            {
+              "letter": "F",
+              "text": "It is easy to have a sense of connectedness through social media"
+            },
+            {
+              "letter": "G",
+              "text": "You may be the friend who left or the one who was left behind"
+            }
+          ],
+          "answer": "F",
+          "type": "seven",
+          "score": 2,
+          "explanation": {
+            "summary": "本文是应用文，介绍五种维系异地友谊的方法。",
+            "question": "空处在末段句首，其后由 but 引出转折。",
+            "evidence": "___20___, but long-distance friendships — even close ones — may require more conscious effort to sustain.／小标题 Don't rely on technology alone",
+            "answer": "F。F 项「通过社交媒体很容易产生联结感」与 but 后的「需要更自觉的努力」构成转折，其中 social media 呼应小标题的 technology。"
+          }
+        }
+      ]
+    },
+    {
+      "key": "cloze",
+      "partTitle": "第三部分 语言知识运用（共两节，满分45分）",
+      "secTitle": "第一节（共20小题；每小题1.5分，满分30分）阅读下面短文，从短文后各题所给的A、B、C和D四个选项中，选出可以填入空白处的最佳选项。",
+      "pool": [],
+      "passages": [
+        {
+          "label": "",
+          "text": "Young children across the globe enjoy playing games of hide and seek. For them, there's something highly exciting about ___21___ someone else's glance and making oneself unable to be seen.\n\nHowever, we all witness that preschool children are remarkably ___22___ at hiding. They often cover only their eyes with their hands, leaving the rest of their bodies ___23___.\n\nFor a long time, this ineffective hiding method was ___24___ as evidence that children are hopelessly \"egocentric\" (自我中心的) creatures. But our ___25___ research results in child developmental psychology ___26___ that idea.\n\nWe brought young children aged 2-4 into our Minds in Development Lab at USC. Each ___27___ sat down with an adult who covered her own eyes or ___28___. We then asked the child if she could ___29___ or hear the adult. Surprisingly, children replied that they couldn't. The same ___30___ happened when the adult covered her own mouth: ___31___ children said that they couldn't ___32___ to her.\n\nA number of ___33___ ruled out that the children misunderstood what they were being asked. The results were clear: Our young subjects ___34___ the questions and knew ___35___ what was asked of them. Their ___36___ to the questions reflected their true ___37___ that \"I can see you only if you can see me, too.\" They simply ___38___ mutual (相互的) recognition and regard. Our ___39___ suggest when a child \"hides\" by putting a blanket over her head, it is not a result of egocentrism. In fact, children consider this method ___40___ when others use it."
+        }
+      ],
+      "questions": [
+        {
+          "id": 21,
+          "stem": "___21___",
+          "options": [
+            {
+              "letter": "A",
+              "text": "following"
+            },
+            {
+              "letter": "B",
+              "text": "taking"
+            },
+            {
+              "letter": "C",
+              "text": "escaping"
+            },
+            {
+              "letter": "D",
+              "text": "directing"
+            }
+          ],
+          "answer": "C",
+          "type": "cloze",
+          "score": 1.5,
+          "explanation": {
+            "summary": "本文是说明文。通过实验证明幼儿捉迷藏时只遮眼睛并非自我中心，而是坚持「相互看见」的原则。",
+            "question": "考查动词词义辨析。句意：对他们而言，避开别人的目光、让自己无法被看见是件非常兴奋的事。",
+            "evidence": "Young children across the globe enjoy playing games of hide and seek.",
+            "answer": "C。following 跟随；taking 拿走；escaping 避开、躲开；directing 指导。捉迷藏就是要躲开别人的目光。"
+          }
+        },
+        {
+          "id": 22,
+          "stem": "___22___",
+          "options": [
+            {
+              "letter": "A",
+              "text": "clever"
+            },
+            {
+              "letter": "B",
+              "text": "bad"
+            },
+            {
+              "letter": "C",
+              "text": "scared"
+            },
+            {
+              "letter": "D",
+              "text": "quick"
+            }
+          ],
+          "answer": "B",
+          "type": "cloze",
+          "score": 1.5,
+          "explanation": {
+            "summary": "本文是说明文，讲幼儿「遮眼即隐身」现象背后的心理机制。",
+            "question": "考查形容词词义辨析。句意：然而我们都看到，学龄前儿童非常不擅长躲藏。",
+            "evidence": "They often cover only their eyes with their hands, leaving the rest of their bodies ___.",
+            "answer": "B。be bad at「不擅长」；下文说他们只遮眼睛、身体全露，正说明躲得很差。"
+          }
+        },
+        {
+          "id": 23,
+          "stem": "___23___",
+          "options": [
+            {
+              "letter": "A",
+              "text": "exposed"
+            },
+            {
+              "letter": "B",
+              "text": "examined"
+            },
+            {
+              "letter": "C",
+              "text": "untouched"
+            },
+            {
+              "letter": "D",
+              "text": "imbalanced"
+            }
+          ],
+          "answer": "A",
+          "type": "cloze",
+          "score": 1.5,
+          "explanation": {
+            "summary": "本文是说明文，讲幼儿「遮眼即隐身」现象背后的心理机制。",
+            "question": "考查形容词词义辨析。句意：他们往往只用手遮住眼睛，身体其余部分都露在外面。",
+            "evidence": "They often cover only their eyes with their hands",
+            "answer": "A。exposed「暴露的、无遮蔽的」，与「只遮眼睛」形成对照。"
+          }
+        },
+        {
+          "id": 24,
+          "stem": "___24___",
+          "options": [
+            {
+              "letter": "A",
+              "text": "supported"
+            },
+            {
+              "letter": "B",
+              "text": "guaranteed"
+            },
+            {
+              "letter": "C",
+              "text": "imagined"
+            },
+            {
+              "letter": "D",
+              "text": "interpreted"
+            }
+          ],
+          "answer": "D",
+          "type": "cloze",
+          "score": 1.5,
+          "explanation": {
+            "summary": "本文是说明文，讲幼儿「遮眼即隐身」现象背后的心理机制。",
+            "question": "考查动词词义辨析。句意：长期以来，这种无效的躲藏方式被解读为儿童是「自我中心」生物的证据。",
+            "evidence": "was ___ as evidence that children are hopelessly \"egocentric\" creatures",
+            "answer": "D。interpret A as B「把 A 解读为 B」，与 as evidence 搭配自然。"
+          }
+        },
+        {
+          "id": 25,
+          "stem": "___25___",
+          "options": [
+            {
+              "letter": "A",
+              "text": "disappointing"
+            },
+            {
+              "letter": "B",
+              "text": "mixed"
+            },
+            {
+              "letter": "C",
+              "text": "surprising"
+            },
+            {
+              "letter": "D",
+              "text": "desired"
+            }
+          ],
+          "answer": "C",
+          "type": "cloze",
+          "score": 1.5,
+          "explanation": {
+            "summary": "本文是说明文，讲幼儿「遮眼即隐身」现象背后的心理机制。",
+            "question": "考查形容词词义辨析。句意：但我们在儿童发展心理学上令人惊讶的研究结果与这一看法相矛盾。",
+            "evidence": "research results in child developmental psychology ___ that idea",
+            "answer": "C。结果推翻了长期成见，故是「令人惊讶的」。"
+          }
+        },
+        {
+          "id": 26,
+          "stem": "___26___",
+          "options": [
+            {
+              "letter": "A",
+              "text": "explained"
+            },
+            {
+              "letter": "B",
+              "text": "confirmed"
+            },
+            {
+              "letter": "C",
+              "text": "contradicted"
+            },
+            {
+              "letter": "D",
+              "text": "tested"
+            }
+          ],
+          "answer": "C",
+          "type": "cloze",
+          "score": 1.5,
+          "explanation": {
+            "summary": "本文是说明文，讲幼儿「遮眼即隐身」现象背后的心理机制。",
+            "question": "考查动词词义辨析。句意：我们的研究结果与那个观点相矛盾。",
+            "evidence": "Our ___ suggest when a child \"hides\"…it is not a result of egocentrism.",
+            "answer": "C。文末明确否定「自我中心」的解释，故与旧观点相矛盾（contradict）。"
+          }
+        },
+        {
+          "id": 27,
+          "stem": "___27___",
+          "options": [
+            {
+              "letter": "A",
+              "text": "parent"
+            },
+            {
+              "letter": "B",
+              "text": "child"
+            },
+            {
+              "letter": "C",
+              "text": "researcher"
+            },
+            {
+              "letter": "D",
+              "text": "doctor"
+            }
+          ],
+          "answer": "B",
+          "type": "cloze",
+          "score": 1.5,
+          "explanation": {
+            "summary": "本文是说明文，讲幼儿「遮眼即隐身」现象背后的心理机制。",
+            "question": "考查名词词义辨析。句意：每个孩子都和一位成年人坐在一起。",
+            "evidence": "We brought young children aged 2-4 into our Minds in Development Lab／We then asked the child if…",
+            "answer": "B。受试者是 2—4 岁儿童，与 an adult 相对。"
+          }
+        },
+        {
+          "id": 28,
+          "stem": "___28___",
+          "options": [
+            {
+              "letter": "A",
+              "text": "feet"
+            },
+            {
+              "letter": "B",
+              "text": "nose"
+            },
+            {
+              "letter": "C",
+              "text": "hands"
+            },
+            {
+              "letter": "D",
+              "text": "ears"
+            }
+          ],
+          "answer": "D",
+          "type": "cloze",
+          "score": 1.5,
+          "explanation": {
+            "summary": "本文是说明文，讲幼儿「遮眼即隐身」现象背后的心理机制。",
+            "question": "考查名词词义辨析。句意：成年人遮住自己的眼睛或耳朵。",
+            "evidence": "We then asked the child if she could ___ or hear the adult.",
+            "answer": "D。下文问「能否看见或听见」，与 eyes 并列的应是 ears。"
+          }
+        },
+        {
+          "id": 29,
+          "stem": "___29___",
+          "options": [
+            {
+              "letter": "A",
+              "text": "see"
+            },
+            {
+              "letter": "B",
+              "text": "help"
+            },
+            {
+              "letter": "C",
+              "text": "reach"
+            },
+            {
+              "letter": "D",
+              "text": "fool"
+            }
+          ],
+          "answer": "A",
+          "type": "cloze",
+          "score": 1.5,
+          "explanation": {
+            "summary": "本文是说明文，讲幼儿「遮眼即隐身」现象背后的心理机制。",
+            "question": "考查动词词义辨析。句意：我们随后问孩子能否看见或听见这位成年人。",
+            "evidence": "an adult who covered her own eyes or ears",
+            "answer": "A。与 hear 并列、对应遮住眼睛的情形，用 see。"
+          }
+        },
+        {
+          "id": 30,
+          "stem": "___30___",
+          "options": [
+            {
+              "letter": "A",
+              "text": "event"
+            },
+            {
+              "letter": "B",
+              "text": "thing"
+            },
+            {
+              "letter": "C",
+              "text": "action"
+            },
+            {
+              "letter": "D",
+              "text": "accident"
+            }
+          ],
+          "answer": "B",
+          "type": "cloze",
+          "score": 1.5,
+          "explanation": {
+            "summary": "本文是说明文，讲幼儿「遮眼即隐身」现象背后的心理机制。",
+            "question": "考查名词词义辨析。句意：当成年人捂住自己的嘴时，同样的事情发生了。",
+            "evidence": "The same ___ happened when the adult covered her own mouth",
+            "answer": "B。the same thing happened「同样的事情发生了」为习惯表达；event 指大事，accident 指事故，均不合。"
+          }
+        },
+        {
+          "id": 31,
+          "stem": "___31___",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Yet"
+            },
+            {
+              "letter": "B",
+              "text": "Now"
+            },
+            {
+              "letter": "C",
+              "text": "Soon"
+            },
+            {
+              "letter": "D",
+              "text": "Once"
+            }
+          ],
+          "answer": "B",
+          "type": "cloze",
+          "score": 1.5,
+          "explanation": {
+            "summary": "本文是说明文，讲幼儿「遮眼即隐身」现象背后的心理机制。",
+            "question": "考查副词词义辨析。句意：这一次孩子们说他们没法和她说话了。",
+            "evidence": "The same thing happened when the adult covered her own mouth: ___ children said that they couldn't ___ to her.",
+            "answer": "B。Now 指「此时、这一回」，指向换成捂嘴之后的这一情形。"
+          }
+        },
+        {
+          "id": 32,
+          "stem": "___32___",
+          "options": [
+            {
+              "letter": "A",
+              "text": "speak"
+            },
+            {
+              "letter": "B",
+              "text": "listen"
+            },
+            {
+              "letter": "C",
+              "text": "turn"
+            },
+            {
+              "letter": "D",
+              "text": "wave"
+            }
+          ],
+          "answer": "A",
+          "type": "cloze",
+          "score": 1.5,
+          "explanation": {
+            "summary": "本文是说明文，讲幼儿「遮眼即隐身」现象背后的心理机制。",
+            "question": "考查动词词义辨析。句意：孩子们说他们没法和她说话。",
+            "evidence": "when the adult covered her own mouth",
+            "answer": "A。speak to sb.「和某人说话」；成年人捂住的是嘴，故对应说话。"
+          }
+        },
+        {
+          "id": 33,
+          "stem": "___33___",
+          "options": [
+            {
+              "letter": "A",
+              "text": "instructions"
+            },
+            {
+              "letter": "B",
+              "text": "descriptions"
+            },
+            {
+              "letter": "C",
+              "text": "experiments"
+            },
+            {
+              "letter": "D",
+              "text": "assumptions"
+            }
+          ],
+          "answer": "C",
+          "type": "cloze",
+          "score": 1.5,
+          "explanation": {
+            "summary": "本文是说明文，讲幼儿「遮眼即隐身」现象背后的心理机制。",
+            "question": "考查名词词义辨析。句意：一系列实验排除了孩子误解问题的可能。",
+            "evidence": "A number of ___ ruled out that the children misunderstood what they were being asked.",
+            "answer": "C。全文语境是实验室研究，用 experiments 排除干扰因素。"
+          }
+        },
+        {
+          "id": 34,
+          "stem": "___34___",
+          "options": [
+            {
+              "letter": "A",
+              "text": "comprehended"
+            },
+            {
+              "letter": "B",
+              "text": "predicted"
+            },
+            {
+              "letter": "C",
+              "text": "explored"
+            },
+            {
+              "letter": "D",
+              "text": "ignored"
+            }
+          ],
+          "answer": "A",
+          "type": "cloze",
+          "score": 1.5,
+          "explanation": {
+            "summary": "本文是说明文，讲幼儿「遮眼即隐身」现象背后的心理机制。",
+            "question": "考查动词词义辨析。句意：我们的小受试者理解了这些问题。",
+            "evidence": "ruled out that the children misunderstood what they were being asked／knew ___ what was asked of them",
+            "answer": "A。既已排除误解，就是「理解了」问题。"
+          }
+        },
+        {
+          "id": 35,
+          "stem": "___35___",
+          "options": [
+            {
+              "letter": "A",
+              "text": "partly"
+            },
+            {
+              "letter": "B",
+              "text": "honestly"
+            },
+            {
+              "letter": "C",
+              "text": "vaguely"
+            },
+            {
+              "letter": "D",
+              "text": "exactly"
+            }
+          ],
+          "answer": "D",
+          "type": "cloze",
+          "score": 1.5,
+          "explanation": {
+            "summary": "本文是说明文，讲幼儿「遮眼即隐身」现象背后的心理机制。",
+            "question": "考查副词词义辨析。句意：并且确切地知道别人在问什么。",
+            "evidence": "The results were clear: Our young subjects comprehended the questions",
+            "answer": "D。与 comprehended 并列、强调结果清晰，用 exactly「确切地」。"
+          }
+        },
+        {
+          "id": 36,
+          "stem": "___36___",
+          "options": [
+            {
+              "letter": "A",
+              "text": "responses"
+            },
+            {
+              "letter": "B",
+              "text": "approaches"
+            },
+            {
+              "letter": "C",
+              "text": "contribution"
+            },
+            {
+              "letter": "D",
+              "text": "sensitivity"
+            }
+          ],
+          "answer": "A",
+          "type": "cloze",
+          "score": 1.5,
+          "explanation": {
+            "summary": "本文是说明文，讲幼儿「遮眼即隐身」现象背后的心理机制。",
+            "question": "考查名词词义辨析。句意：他们对问题的回答反映了他们真实的信念。",
+            "evidence": "Their ___ to the questions reflected their true ___",
+            "answer": "A。response to the questions「对问题的回答」。"
+          }
+        },
+        {
+          "id": 37,
+          "stem": "___37___",
+          "options": [
+            {
+              "letter": "A",
+              "text": "ability"
+            },
+            {
+              "letter": "B",
+              "text": "belief"
+            },
+            {
+              "letter": "C",
+              "text": "identity"
+            },
+            {
+              "letter": "D",
+              "text": "purpose"
+            }
+          ],
+          "answer": "B",
+          "type": "cloze",
+          "score": 1.5,
+          "explanation": {
+            "summary": "本文是说明文，讲幼儿「遮眼即隐身」现象背后的心理机制。",
+            "question": "考查名词词义辨析。句意：反映了他们真实的信念：「只有你也能看见我，我才能看见你。」",
+            "evidence": "that \"I can see you only if you can see me, too.\"",
+            "answer": "B。that 后的同位语从句是一种观念、信念，用 belief。"
+          }
+        },
+        {
+          "id": 38,
+          "stem": "___38___",
+          "options": [
+            {
+              "letter": "A",
+              "text": "hold back"
+            },
+            {
+              "letter": "B",
+              "text": "relate to"
+            },
+            {
+              "letter": "C",
+              "text": "insist on"
+            },
+            {
+              "letter": "D",
+              "text": "make up"
+            }
+          ],
+          "answer": "C",
+          "type": "cloze",
+          "score": 1.5,
+          "explanation": {
+            "summary": "本文是说明文，讲幼儿「遮眼即隐身」现象背后的心理机制。",
+            "question": "考查动词短语辨析。句意：他们只是坚持相互的认可与尊重。",
+            "evidence": "\"I can see you only if you can see me, too.\"",
+            "answer": "C。insist on「坚持」；孩子坚持「看见」必须是双向的。"
+          }
+        },
+        {
+          "id": 39,
+          "stem": "___39___",
+          "options": [
+            {
+              "letter": "A",
+              "text": "limitations"
+            },
+            {
+              "letter": "B",
+              "text": "requirements"
+            },
+            {
+              "letter": "C",
+              "text": "theories"
+            },
+            {
+              "letter": "D",
+              "text": "findings"
+            }
+          ],
+          "answer": "D",
+          "type": "cloze",
+          "score": 1.5,
+          "explanation": {
+            "summary": "本文是说明文，讲幼儿「遮眼即隐身」现象背后的心理机制。",
+            "question": "考查名词词义辨析。句意：我们的研究发现表明，孩子用毯子蒙头「躲藏」并非自我中心所致。",
+            "evidence": "We brought young children aged 2-4 into our Minds in Development Lab at USC.",
+            "answer": "D。文章基于实验，用 findings「研究发现」。"
+          }
+        },
+        {
+          "id": 40,
+          "stem": "___40___",
+          "options": [
+            {
+              "letter": "A",
+              "text": "tentative"
+            },
+            {
+              "letter": "B",
+              "text": "impressive"
+            },
+            {
+              "letter": "C",
+              "text": "creative"
+            },
+            {
+              "letter": "D",
+              "text": "effective"
+            }
+          ],
+          "answer": "D",
+          "type": "cloze",
+          "score": 1.5,
+          "explanation": {
+            "summary": "本文是说明文，讲幼儿「遮眼即隐身」现象背后的心理机制。",
+            "question": "考查形容词词义辨析。句意：事实上，当别人使用这种方法时，孩子们认为它是有效的。",
+            "evidence": "They simply insist on mutual recognition and regard.",
+            "answer": "D。在孩子的「相互看见」逻辑下，蒙头这一招在他们看来确实「有效」。"
+          }
+        }
+      ]
+    },
+    {
+      "key": "grammar",
+      "partTitle": "第三部分 语言知识运用（共两节，满分45分）",
+      "secTitle": "第二节（共10小题；每小题1.5分，满分15分）阅读下面短文，在空白处填入1个适当的单词或括号内单词的正确形式。",
+      "pool": [],
+      "passages": [
+        {
+          "label": "",
+          "text": "May 21st this year marks the first International Tea Day, which was named officially ___41___ the United Nations on November 27th, 2019. To celebrate ___42___ festival, a number of events took place at the Chinese Businessman Museum in Beijing on Thursday.\n\nThe chairman of the China Culture Promotion Society ___43___ (address) the opening ceremony. \"As a main promoter of the International Tea Day, the birthplace of tea and the ___44___ (large) tea-producing country, China has a ___45___ (responsible) to work with other countries to promote the healthy development of the tea industry. It can help to build a community with a ___46___ (share) future for mankind,\" he said.\n\nThe \"First International Tea Day Tea Road Cooperative Initiative\" issued (发布) at the ceremony calls for people working in the tea industry to come together to promote international cooperation ___47___ cultural exchanges. A four-year tea promotion — Tea Road Cooperative Plan — was also issued in accordance with the initiative.\n\n___48___ (strengthen) the connection with young people, the event included a number of public promotional activities on social media, ___49___ (invite) twenty-nine tea professionals from around the world to have thirty-six hours of uninterrupted live broadcasts.\n\nThe Chinese Ancient Tea Museum was officially unveiled (揭幕) at the ceremony, opening ___50___ (it) first exhibition: The Avenue of Truth — A Special Exhibition of Pu'er Tea."
+        }
+      ],
+      "questions": [
+        {
+          "id": 41,
+          "stem": "___41___",
+          "options": [],
+          "answer": "by",
+          "type": "grammar",
+          "score": 1.5,
+          "explanation": {
+            "summary": "本文是说明文，介绍为庆祝首个国际茶日在中国商人博物馆举办的系列活动。",
+            "question": "考查介词。句意：今年 5 月 21 日是首个国际茶日，它由联合国于 2019 年 11 月 27 日正式命名。",
+            "evidence": "which was named officially ___ the United Nations",
+            "answer": "by。被动语态中「由……」用 be + 过去分词 + by。"
+          }
+        },
+        {
+          "id": 42,
+          "stem": "___42___",
+          "options": [],
+          "answer": "the",
+          "type": "grammar",
+          "score": 1.5,
+          "explanation": {
+            "summary": "本文是说明文，介绍为庆祝首个国际茶日在中国商人博物馆举办的系列活动。",
+            "question": "考查冠词。句意：为庆祝这一节日，周四在北京的中国商人博物馆举办了一系列活动。",
+            "evidence": "To celebrate ___ festival",
+            "answer": "the。特指上文提到的 International Tea Day，用定冠词 the。"
+          }
+        },
+        {
+          "id": 43,
+          "stem": "___43___ (address)",
+          "options": [],
+          "answer": "addressed",
+          "type": "grammar",
+          "score": 1.5,
+          "explanation": {
+            "summary": "本文是说明文，介绍为庆祝首个国际茶日在中国商人博物馆举办的系列活动。",
+            "question": "考查时态。句意：中国文化促进会会长在开幕式上致辞。",
+            "evidence": "a number of events took place…on Thursday",
+            "answer": "addressed。叙述已发生的事，全文用一般过去时，address 作谓语用过去式。"
+          }
+        },
+        {
+          "id": 44,
+          "stem": "___44___ (large)",
+          "options": [],
+          "answer": "largest",
+          "type": "grammar",
+          "score": 1.5,
+          "explanation": {
+            "summary": "本文是说明文，介绍为庆祝首个国际茶日在中国商人博物馆举办的系列活动。",
+            "question": "考查形容词最高级。句意：作为国际茶日的主要推动者、茶的发源地和最大的产茶国……",
+            "evidence": "the birthplace of tea and the ___ tea-producing country",
+            "answer": "largest。前有定冠词 the，且表示同类中程度最高，用最高级。"
+          }
+        },
+        {
+          "id": 45,
+          "stem": "___45___ (responsible)",
+          "options": [],
+          "answer": "responsibility",
+          "type": "grammar",
+          "score": 1.5,
+          "explanation": {
+            "summary": "本文是说明文，介绍为庆祝首个国际茶日在中国商人博物馆举办的系列活动。",
+            "question": "考查名词。句意：中国有责任与其他国家共同推动茶产业的健康发展。",
+            "evidence": "China has a ___ to work with other countries",
+            "answer": "responsibility。不定冠词 a 后接可数名词单数，have a responsibility to do sth.「有责任做某事」。"
+          }
+        },
+        {
+          "id": 46,
+          "stem": "___46___ (share)",
+          "options": [],
+          "answer": "shared",
+          "type": "grammar",
+          "score": 1.5,
+          "explanation": {
+            "summary": "本文是说明文，介绍为庆祝首个国际茶日在中国商人博物馆举办的系列活动。",
+            "question": "考查非谓语动词。句意：这有助于构建人类命运共同体。",
+            "evidence": "a community with a ___ future for mankind",
+            "answer": "shared。share 与 future 是被动关系，用过去分词作定语，a shared future「共同的未来」。"
+          }
+        },
+        {
+          "id": 47,
+          "stem": "___47___",
+          "options": [],
+          "answer": "and",
+          "type": "grammar",
+          "score": 1.5,
+          "explanation": {
+            "summary": "本文是说明文，介绍为庆祝首个国际茶日在中国商人博物馆举办的系列活动。",
+            "question": "考查连词。句意：呼吁茶行业从业者携手推动国际合作与文化交流。",
+            "evidence": "promote international cooperation ___ cultural exchanges",
+            "answer": "and。两个名词短语并列作 promote 的宾语，语义顺承，用 and。"
+          }
+        },
+        {
+          "id": 48,
+          "stem": "___48___ (strengthen)",
+          "options": [],
+          "answer": "To strengthen",
+          "type": "grammar",
+          "score": 1.5,
+          "explanation": {
+            "summary": "本文是说明文，介绍为庆祝首个国际茶日在中国商人博物馆举办的系列活动。",
+            "question": "考查非谓语动词。句意：为加强与年轻人的联系，活动包含了一系列社交媒体宣传。",
+            "evidence": "___ the connection with young people, the event included…",
+            "answer": "To strengthen。表目的用动词不定式作状语，位于句首首字母大写。"
+          }
+        },
+        {
+          "id": 49,
+          "stem": "___49___ (invite)",
+          "options": [],
+          "answer": "inviting",
+          "type": "grammar",
+          "score": 1.5,
+          "explanation": {
+            "summary": "本文是说明文，介绍为庆祝首个国际茶日在中国商人博物馆举办的系列活动。",
+            "question": "考查非谓语动词。句意：邀请了来自世界各地的 29 位茶专业人士进行 36 小时不间断直播。",
+            "evidence": "the event included a number of public promotional activities on social media, ___ twenty-nine tea professionals…",
+            "answer": "inviting。逻辑主语 the event 与 invite 是主动关系，用现在分词作结果/伴随状语。"
+          }
+        },
+        {
+          "id": 50,
+          "stem": "___50___ (it)",
+          "options": [],
+          "answer": "its",
+          "type": "grammar",
+          "score": 1.5,
+          "explanation": {
+            "summary": "本文是说明文，介绍为庆祝首个国际茶日在中国商人博物馆举办的系列活动。",
+            "question": "考查代词。句意：中国古茶博物馆在开幕式上正式揭幕，开启了它的首个展览。",
+            "evidence": "opening ___ first exhibition",
+            "answer": "its。修饰名词 exhibition 要用形容词性物主代词。"
+          }
+        }
+      ]
+    },
+    {
+      "key": "proofreading",
+      "partTitle": "第四部分 写作（共两节，满分35分）",
+      "secTitle": "第一节 短文改错（共10小题；每小题1分，满分10分）",
+      "passages": [],
+      "pool": [],
+      "questions": [
+        {
+          "id": 51,
+          "stem": "假定英语课上老师要求同桌之间交换修改作文，请你修改你同桌写的以下作文。文中共有10处语言错误，每句中最多有两处。每处错误仅涉及一个单词的增加、删除或修改。",
+          "options": [],
+          "material": "增加：在缺词处加一个漏字符号（∧），并在其下面写出该加的词。\n删除：把多余的词用斜线（\\）划掉。\n修改：在错的词下划一横线，并在该词下面写出修改后的词。\n注意：1. 每处错误及其修改均仅限一词；\n2. 只允许修改10处，多者（从第11处起）不计分。\n\nWe all know that cycling is a greatly exercise. A doctor tells me people who lives the longest are dancers and cyclists. Maybe it is because the combination of fresh air, smooth movement and exercise. Whether you ride a bicycle, you don't use petrol. So they are not producing carbon dioxide and not cause air pollution. Just see how cars have been taken over our cities. They often run at high speeds, what may put our lives in danger. And there were traffic jams, too. Our cities will be better places if we replace cars with bicycle.",
+          "type": "proofreading",
+          "score": 10,
+          "modelAnswer": "1. 把‘greatly’改为‘great’\n2. 把‘lives’改为‘live’\n3. 在‘because’后加上‘of’\n4. 把‘Whether’改为‘If（或 When）’\n5. 把‘they’改为‘you’\n6. 把‘cause’改为‘causing’\n7. 删去‘have 后的 been’\n8. 把‘what’改为‘which’\n9. 把‘were’改为‘are’\n10. 把‘bicycle’改为‘bicycles’",
+          "explanation": {
+            "summary": "本文是议论文，作者论述骑自行车这项运动带来的种种好处。",
+            "points": [
+              {
+                "number": 1,
+                "errorType": "词性",
+                "knowledgeNode": "形容词作定语修饰名词",
+                "operation": "修改",
+                "wrong": "greatly",
+                "correct": "great",
+                "note": "修饰名词 exercise 需用形容词 great，副词 greatly 不能作定语。"
+              },
+              {
+                "number": 2,
+                "errorType": "主谓一致",
+                "knowledgeNode": "people 作集合名词谓语用复数",
+                "operation": "修改",
+                "wrong": "lives",
+                "correct": "live",
+                "note": "定语从句先行词 people 视为复数，从句谓语用 live。"
+              },
+              {
+                "number": 3,
+                "errorType": "缺词",
+                "knowledgeNode": "because of + 名词短语",
+                "operation": "增加",
+                "correct": "of",
+                "note": "because 接从句，接名词短语须用 because of；后接 the combination of… 为名词短语。"
+              },
+              {
+                "number": 4,
+                "errorType": "连词",
+                "knowledgeNode": "条件/时间状语从句连词",
+                "operation": "修改",
+                "wrong": "Whether",
+                "correct": "If",
+                "note": "句意为「（当/如果）你骑自行车时，就不用汽油」，陈述事实，用 If 或 When；句首首字母大写。"
+              },
+              {
+                "number": 5,
+                "errorType": "代词",
+                "knowledgeNode": "人称前后一致",
+                "operation": "修改",
+                "wrong": "they",
+                "correct": "you",
+                "note": "上句主语为 you，此处应保持人称一致。"
+              },
+              {
+                "number": 6,
+                "errorType": "非谓语动词",
+                "knowledgeNode": "and 连接并列的现在分词",
+                "operation": "修改",
+                "wrong": "cause",
+                "correct": "causing",
+                "note": "本句为现在进行时 are not producing…and not causing…，and 连接两个并列的现在分词。"
+              },
+              {
+                "number": 7,
+                "errorType": "语态",
+                "knowledgeNode": "主动语态",
+                "operation": "删除",
+                "wrong": "been",
+                "note": "cars 与 take over 是主谓关系，应用主动语态 have taken over。"
+              },
+              {
+                "number": 8,
+                "errorType": "定语从句",
+                "knowledgeNode": "which 引导非限制性定语从句指代整句",
+                "operation": "修改",
+                "wrong": "what",
+                "correct": "which",
+                "note": "逗号后为非限制性定语从句，先行词是前面整个句子，在从句中作主语，用 which。"
+              },
+              {
+                "number": 9,
+                "errorType": "时态",
+                "knowledgeNode": "一般现在时",
+                "operation": "修改",
+                "wrong": "were",
+                "correct": "are",
+                "note": "上下文均为一般现在时，此处应用 are。"
+              },
+              {
+                "number": 10,
+                "errorType": "名词数",
+                "knowledgeNode": "可数名词复数",
+                "operation": "修改",
+                "wrong": "bicycle",
+                "correct": "bicycles",
+                "note": "与前面的 cars 对应，bicycle 为可数名词，此处用复数。"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "key": "writing_app",
+      "partTitle": "第四部分 写作（共两节，满分35分）",
+      "secTitle": "第二节 书面表达（满分25分）",
+      "passages": [],
+      "pool": [],
+      "questions": [
+        {
+          "id": 52,
+          "stem": "学校英文报正在开展以 Learning English Beyond the Classroom 为题的讨论。请使用图表中的调查结果写一篇短文投稿，内容包括：\n1. 学习活动状况描述；\n2. 简单评论；\n3. 你的建议。\n注意：\n1. 词数100左右；\n2. 短文的题目和首句已为你写好。",
+          "options": [],
+          "material": "调查结果（原卷为条形图，此处以文字列出）：\n听英文歌 listening to English songs　65%\n看英文电影 watching English movies　50%\n读英文书籍 reading English books　18%\n访问英语学习网站 visiting English learning websites　12%",
+          "type": "writing",
+          "score": 25,
+          "modelAnswer": "Learning English Beyond the Classroom\n\nNowadays, with the growing popularity of smartphones and computers, an increasing number of students are choosing to learn English beyond the classroom in various ways.\n\nIt can easily be seen that the percentage of students who choose listening to English songs and watching English movies is respectively 65% and 50%. However, those choosing reading English books and visiting English learning websites only account for 18% and 12%.\n\nAs far as I'm concerned, it is a disturbing trend. For students, what benefits most to their study is reading English books. Because of their lack of self-discipline, they're more easily addicted to chatting online or playing games. It's urgent for students themselves to improve their self-discipline, and it's also urgent for parents and teachers to strengthen the guidance.",
+          "explanation": {
+            "summary": "书面表达｜说明文（图表作文），根据调查图表描述课外学英语的方式、作出评论并提出建议。",
+            "question": "三个要点：① 描述图表所示四项活动的比例；② 作简单评论；③ 提出建议。词数 100 左右，题目与首句已给出、不计入词数。描述数据用一般现在时，评论与建议可用 as far as I'm concerned、it's urgent for sb. to do 等结构。建议三段式：首句总起 → 数据描述 → 评论 + 建议。",
+            "evidence": "词汇积累：选择 choose → select；提高 improve → strengthen；各种各样的 various → diverse；就我而言 as far as I'm concerned → from my perspective。",
+            "answer": "高分句型：it 作形式主语 + that 主语从句 + who 定语从句 It can easily be seen that the percentage of students who choose… is respectively 65% and 50%.；it 作形式主语 It's urgent for students themselves to improve their self-discipline.。句式拓展：简单句变复合句，原句 Nowadays, with the growing popularity of smartphones and computers, … 可改为 Nowadays, because smartphones and computers are becoming more and more popular, …。"
+          }
+        }
+      ]
+    }
+  ]
+}

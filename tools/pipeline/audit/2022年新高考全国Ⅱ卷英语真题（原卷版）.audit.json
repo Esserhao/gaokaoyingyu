@@ -1,0 +1,22 @@
+{
+  "source_file": "2022年新高考全国Ⅱ卷英语真题（原卷版）",
+  "total_sections": 16,
+  "total_questions": 37,
+  "issues": [
+    {
+      "type": "question_id_gap",
+      "section": "seven",
+      "msg": "题号不连续: [8, 9, 11, 12, 13, 14, 15]..."
+    },
+    {
+      "type": "question_id_gap",
+      "section": "reading",
+      "msg": "题号不连续: [21, 22, 23, 24, 25, 26, 27, 29, 30, 31]..."
+    }
+  ],
+  "review_required": [],
+  "summary": {
+    "total_issues": 2,
+    "needs_review": true
+  }
+}

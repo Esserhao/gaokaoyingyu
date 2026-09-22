@@ -1,0 +1,71 @@
+{
+  "source_file": "2023年全国甲卷英语真题（解析版）",
+  "total_sections": 13,
+  "total_questions": 60,
+  "issues": [
+    {
+      "type": "answer_out_of_range",
+      "msg": "答案 D 不在选项 ['A', 'B', 'C'] 中",
+      "section": "reading",
+      "question_id": 3
+    },
+    {
+      "type": "answer_out_of_range",
+      "msg": "答案 D 不在选项 ['A', 'B', 'C'] 中",
+      "section": "reading",
+      "question_id": 7
+    },
+    {
+      "type": "answer_out_of_range",
+      "msg": "答案 C 不在选项 ['A', 'B'] 中",
+      "section": "reading",
+      "question_id": 8
+    },
+    {
+      "type": "answer_out_of_range",
+      "msg": "答案 D 不在选项 ['A', 'B', 'C'] 中",
+      "section": "reading",
+      "question_id": 9
+    },
+    {
+      "type": "answer_out_of_range",
+      "msg": "答案 D 不在选项 ['A', 'B', 'C'] 中",
+      "section": "reading",
+      "question_id": 11
+    },
+    {
+      "type": "answer_out_of_range",
+      "msg": "答案 E 不在选项 ['A', 'B', 'C'] 中",
+      "section": "listening",
+      "question_id": 17
+    },
+    {
+      "type": "answer_out_of_range",
+      "msg": "答案 F 不在选项 ['A', 'B', 'C'] 中",
+      "section": "listening",
+      "question_id": 20
+    },
+    {
+      "type": "answer_out_of_range",
+      "msg": "答案 D 不在选项 ['A', 'B'] 中",
+      "section": "reading",
+      "question_id": 9
+    },
+    {
+      "type": "question_id_gap",
+      "section": "reading",
+      "msg": "题号不连续: [42, 44, 46, 47, 48, 50]..."
+    },
+    {
+      "type": "empty_stem",
+      "msg": "题目题干为空",
+      "section": "proofreading",
+      "question_id": 1
+    }
+  ],
+  "review_required": [],
+  "summary": {
+    "total_issues": 10,
+    "needs_review": true
+  }
+}

@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head><meta charset="UTF-8"><title>contrast audit</title>
+<style>#out{font:12px monospace;white-space:pre-wrap}</style></head>
+<body>
+<div id="out">RUNNING</div>
+<iframe id="f" src="index.html#/" width="1200" height="800"></iframe>
+<script>
+/* 在真实渲染结果上量对比度：不猜背景，而是沿祖先链找第一个不透明底色，
+   这样「白卡片上的灰字」和「页面底色上的灰字」不会被算成同一个值。 */
+const routes = ['#/', '#/dashboard', '#/mistakes', '#/mistake/0', '#/review-queue',
+  '#/knowledge',
+  '#/knowledge-graph', '#/topics', '#/topic/reading', '#/topic/listening',
+  '#/topic/cloze', '#/topic/seven', '#/topic/grammar', '#/topic/proofreading',
+  '#/topic/writing', '#/training', '#/training/reading', '#/training/cloze',
+  '#/training/reading/example', '#/simulation',
+  '#/exam/gk2021-jia', '#/review/gk2021-jia', '#/result/gk2021-jia'];
+
+function lin(c) { c /= 255; return c <= 0.03928 ? c / 12.92 : Math.pow((c + 0.055) / 1.055, 2.4); }
+function lum(rgb) { return 0.2126 * lin(rgb[0]) + 0.7152 * lin(rgb[1]) + 0.0722 * lin(rgb[2]); }
+function parse(s) {
+  const m = s.match(/rgba?\(([\d.]+),\s*([\d.]+),\s*([\d.]+)(?:,\s*([\d.]+))?\)/);
+  if (!m) return null;
+  return [+m[1], +m[2], +m[3], m[4] === undefined ? 1 : +m[4]];
+}
+function over(fg, bg) { /* alpha 合成 */
+  const a = fg[3];
+  return [0, 1, 2].map(i => fg[i] * a + bg[i] * (1 - a));
+}
+function ratio(a, b) {
+  const la = lum(a), lb = lum(b), hi = Math.max(la, lb), lo = Math.min(la, lb);
+  return (hi + 0.05) / (lo + 0.05);
+}
+function effBg(w, el) {
+  let stack = [], n = el;
+  while (n && n.nodeType === 1) {
+    const c = parse(w.getComputedStyle(n).backgroundColor);
+    if (c && c[3] > 0) { stack.push(c); if (c[3] === 1) break; }
+    n = n.parentElement;
+  }
+  let base = [255, 255, 255];
+  for (let i = stack.length - 1; i >= 0; i--) base = over(stack[i], base);
+  return base;
+}
+function ownText(el) {
+  for (const n of el.childNodes) if (n.nodeType === 3 && n.textContent.trim()) return n.textContent.trim();
+  return '';
+}
+function sig(el) {
+  let s = el.tagName.toLowerCase();
+  if (el.className && typeof el.className === 'string') s += '.' + el.className.trim().split(/\s+/).join('.');
+  return s;
+}
+function ready(fr) {
+  return new Promise(res => {
+    const t = setInterval(() => {
+      const d = fr.contentDocument;
+      if (d && d.getElementById('app') && d.getElementById('app').children.length) { clearInterval(t); res(); }
+    }, 100);
+    setTimeout(() => { clearInterval(t); res(); }, 12000);
+  });
+}
+const sleep = ms => new Promise(r => setTimeout(r, ms));
+
+(async () => {
+  const fr = document.getElementById('f');
+  await ready(fr);
+  const w = fr.contentWindow, d = fr.contentDocument;
+
+  /* 让 #/result 与 #/review 有记录可读 */
+  const ex = await (await fetch('data/exams/gk2021-jia.json')).json();
+  const sec = ex.sections.find(s => (s.questions || []).some(q => q.options && q.options.length));
+  const q0 = sec.questions.find(q => q.options && q.options.length);
+  const wrong = q0.options.map(o => o.letter).find(l => l !== q0.answer);
+  w.eval('Store.saveRecord("gk2021-jia",' + JSON.stringify({
+    answers: {[sec.key + '-' + q0.id]: wrong}, submittedAt: Date.now(),
+    durationUsed: 600, score: 96, total: 150,
+    sectionScores: {'听力部分': {correct: 12, total: 20, manual: 0}}
+  }) + ')');
+  /* 造一条错题，让错题本/知识页有内容可量。
+     causeSource:'auto' 是为了让「自动判定 · 可修正」徽标出现在页面上 ——
+     它有自己的一套配色（css/reference.css 的 .cause-auto），
+     不种这个字段，这块新增的蓝底蓝字就没人量对比度。 */
+  w.eval('Store.addMistakes(' + JSON.stringify([{
+    examId: 'gk2021-jia', examTitle: ex.title, sectionKey: sec.key, qid: q0.id,
+    type: sec.partTitle, stem: q0.stem, myAnswer: wrong, answer: q0.answer,
+    explanation: q0.explanation || '',
+    cause: '篇章', subCause: '细节定位', knowledgeNode: '细节理解', causeSource: 'auto'
+  }]) + ')');
+
+  const bad = new Map();
+  const empty = [];
+  for (const r of routes) {
+    w.location.hash = r;
+    await sleep(900);
+    const app = d.getElementById('app');
+    if (!app || !app.children.length || app.querySelector('.empty-state')) empty.push(r);
+    for (const el of d.querySelectorAll('#app *')) {
+      const t = ownText(el);
+      if (!t) continue;
+      const cs = w.getComputedStyle(el);
+      if (cs.visibility === 'hidden' || cs.display === 'none' || +cs.opacity === 0) continue;
+      const fg = parse(cs.color);
+      if (!fg || fg[3] === 0) continue;
+      const bg = effBg(w, el);
+      const cRatio = ratio(over(fg, bg), bg);
+      const px = parseFloat(cs.fontSize);
+      const boldish = +cs.fontWeight >= 700;
+      const large = px >= 24 || (px >= 18.66 && boldish);   /* WCAG large-text 定义 */
+      const need = large ? 3 : 4.5;
+      if (cRatio < need - 0.005) {
+        const k = sig(el) + '|' + cs.color + '|' + Math.round(px);
+        if (!bad.has(k)) bad.set(k, {
+          sel: sig(el), color: cs.color, bg: 'rgb(' + bg.map(Math.round).join(',') + ')',
+          ratio: cRatio.toFixed(2), need, px: Math.round(px), route: r, text: t.slice(0, 18)
+        });
+      }
+    }
+  }
+  const rows = [...bad.values()].sort((a, b) => a.ratio - b.ratio);
+  document.getElementById('out').textContent =
+    'AUDIT-DONE  routes=' + routes.length + '  violations=' + rows.length +
+    '  emptyRoutes=' + (empty.join(',') || 'none') + '\n' +
+    rows.map(x => x.ratio + ' (need ' + x.need + ')  ' + x.px + 'px  ' + x.color + ' on ' + x.bg +
+                  '  ' + x.sel + '  @' + x.route + '  «' + x.text + '»').join('\n');
+})().catch(e => { document.getElementById('out').textContent = 'HARNESS-ERROR ' + (e && e.stack || e); });
+</script>
+</body>
+</html>

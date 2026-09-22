@@ -1,0 +1,274 @@
+/* ===== 高考英语真题在线 · 基础层（令牌 + 顶栏 + 少量试卷补充） =====
+   作用域说明（避免再次长出死代码）：
+     · 本文件 = 全站设计令牌 + .topbar 顶栏 + 成绩/错题卡片的外观补充
+     · 题库首页、试卷页主体、答题卡：app.css
+     · 学习平台 / 专题 / 错题本 / 知识图谱：platform.css
+     · 题库档案页与解析排版：reference.css
+     · 分题型训练与讲义：training.css
+     · 无障碍、移动端答题卡抽屉、判分状态：design-system.css
+   清理记录：本文件原有 105 条 render.js 从未输出的选择器（另一套首页卡片
+   .exam-card/.exam-grid、另一套试卷排版 .paper/.opt/.q-block/.blank、
+   计时器 .timer-box、交卷弹窗 .modal、成绩条 .section-bars 等，占文件 65%），
+   以及被 app.css 完全覆盖的重复定义（.exam-layout/.q-head/.brand/.exam-meta），
+   均已删除。新增样式前请先确认 render 层真的会输出该类名。 */
+
+/* =====================================================================
+   设计令牌（唯一事实源：项目根目录 DESIGN.md）
+   方向：C · 铅字印刷 —— 米黄纸 / 油墨黑 / 双线报头 / 等宽方括号题号
+   旧令牌名（--bg / --blue / --gold …）保留为别名并指向新值，
+   使既有 CSS 与 6000 行 JS 无需同步改动即可迁移；分区配色与成就金退役。
+   ===================================================================== */
+:root {
+  /* ---------- 纸与墨：中性骨架 ----------
+     底色是米黄纸 #f0e9d8 —— 品牌基底，全站不用纯白作页面底。 */
+  --paper-0: #f0e9d8;                    /* 页面底：米黄纸 */
+  --paper-1: #f7f2e7;                    /* 卡片 / 抬升面 */
+  --paper-2: #fbf8f1;                    /* 最高面：输入框、弹层、悬浮答题卡 */
+  --paper-1-glass: rgba(247, 242, 231, .92);  /* 顶栏半透明，融入页面不悬空 */
+
+  /* 对比度为实测值（WCAG 2.1，纸底 #f0e9d8 / 卡面 #f7f2e7）。
+     三级文字与功能色一律按 AA 正文 4.5:1 校准，不靠“看着还行”放行。 */
+  --ink:   #1c1917;   /* 主文字：油墨黑   14.45:1 / 15.66:1  AAA */
+  --ink-2: #57534d;   /* 次要文字          6.31:1 /  6.84:1  AA  */
+  --ink-3: #6e695f;   /* 三级 / 元信息     4.51:1 /  4.89:1  AA
+                         原 #857e73 实测仅 3.32:1，不达 AA，已压暗至达标。 */
+
+  --line:        #d6ccb4;   /* 常规分隔：分栏线、列表分隔（装饰性，不承载信息 1.32:1） */
+  --line-strong: #bdb096;   /* 强调分隔：边框、输入框、报头细线（1.77:1） */
+
+  /* ---------- 重音：全站唯一（深墨绿） ---------- */
+  --accent:      #24503f;   /* 7.56:1 / 8.20:1  AA */
+  --accent-soft: #e3ece4;   /* 选中态底色 */
+  --accent-line: #637c6c;   /* 选中态边框 3.75:1 / 4.06:1，非文本 ≥3:1
+                               原 #9db8a8 实测仅 1.76:1，选中反馈几乎看不见，已压暗。 */
+
+  /* ---------- 功能色：语义固定，必配图标或文字，不以色为唯一载体 ---------- */
+  --red: #a3352b;   --red-soft: #f7e8e5;    /* 5.59:1 / 6.06:1 */
+  --green: #187746; --green-soft: #e6efe4;  /* 4.61:1 / 4.99:1
+                                               原 #1a7f4b 实测 4.15:1，不达 AA，已压暗。
+                                               仍比 --accent 亮 0.074L，保住“结构色/判分色”明度分野。 */
+  --amber: #8a6212; --amber-soft: #f6efdd;  /* 4.52:1 / 4.90:1（贴线达标，勿再调浅） */
+
+  /* ---------- 热力图四档：同色相四阶明度 ----------
+     打卡日历与知识热力图用，与「统一重音」不冲突——它不是品牌色，
+     是「活动密度」的视觉编码。从最浅到最深：极少→大量 */
+  --heat-1: #dfece4;
+  --heat-2: #b3d2c1;
+  --heat-3: #6fa98f;
+  /* heat-4 = --green：最多 */
+
+  /* ---------- 星图页「夜间章节」：全站唯一的有意例外 ----------
+     星座图需要夜空语境，所以这里允许一套暗底与关系色。这不是遗漏，是设计决定：
+     六种关系是语义（同义/近义/反义/前缀/后缀/词组），不是装饰，故各自成令牌。
+     约束：这套色只能在星图页使用，其它页面一律回到纸墨 + 单一重音。 */
+  --rel-syn:  #6fd3a4;   /* 同义 */
+  --rel-near: #86b6f2;   /* 近义 */
+  --rel-ant:  #f2938c;   /* 反义 */
+  --rel-pre:  #b48ce0;   /* 前缀（夜空上的亮变体） */
+  --rel-suf:  #64d8cb;   /* 后缀（夜空上的亮变体） */
+  --rel-pre-deep: #8a5b9b;  /* 前缀（纸面上的深变体） */
+  --rel-suf-deep: #2f9c92;  /* 后缀（纸面上的深变体） */
+  --rel-phr:  #f2b46f;   /* 词组（夜空上的亮变体） */
+  --rel-phr-deep: #b5772a;  /* 词组（纸面上的深变体） */
+  --rel-sim:  #f0a3c2;   /* 形近（夜空上的亮变体：粉） */
+  --rel-sim-deep: #a84a72;  /* 形近（纸面上的深变体） */
+
+  /* 纸面变体：星图页不只有夜空画布，详情卡与列表仍落在纸上。
+     夜空色（#86b6f2 之类）放到米黄纸上只有 2:1 上下，根本读不清，
+     所以每种关系再配一个「纸面变体」：同色相、压暗到 AA。
+     一个色值要同时满足两种用法，故明度必须压到 L≤0.16：
+       · chip 文字：色 on 卡面 #f7f2e7 / 最高面 #fbf8f1 / 页面底 #f0e9d8
+       · badge 底色：承 #fff 白字
+     实测（纸底 #f0e9d8 / 卡面 #f7f2e7 / 白字）：
+       near #3e6ba3 → 4.52 / 4.90 / 5.47:1
+       suf  #25746b → 4.58 / 4.96 / 5.54:1
+       syn  --green → 4.99:1（卡面），白字 5.9:1
+       ant  --red   → 6.06:1（卡面），白字 5.3:1   */
+  --rel-pre-ink:  #7a4fa8;       /* 前缀：纸面紫 */
+  --rel-phr-ink:  #8a5a1a;       /* 词组：纸面橙（夜空 #f2b46f 的同色相压暗） */
+  --rel-sim-ink:  #9c4269;       /* 形近：纸面粉（夜空 #f0a3c2 的同色相压暗） */
+
+  /* ---------- 等级阶梯：中性 → 浅重音 → 满重音 ----------
+     难度（基础/进阶/挑战）与掌握度是序数，不是并列的三个类别，
+     所以用同一重音的三级强度做阶梯，而不是绿/蓝/琥珀三种色相——
+     那正是被退役的分区配色思路。三级之间靠「有无底色 + 底色深浅」区分，
+     不靠左侧竖线（P-38）。
+     实测：5.14:1 / 7.58:1 / 9.15:1，全部 AA。 */
+  --lv-1: var(--ink-3);   --lv-1-bg: var(--paper-2);     --lv-1-line: var(--line);
+  --lv-2: var(--accent);  --lv-2-bg: var(--accent-soft); --lv-2-line: var(--accent-line);
+  --lv-3: #fff;           --lv-3-bg: var(--accent);      --lv-3-line: var(--accent);
+
+  /* ---------- 兼容别名：旧名 → 新值 ----------
+     --blue / --gold 系列全部收敛到墨绿（分区配色与成就金退役）。 */
+  --bg: var(--paper-0);
+  --paper: var(--paper-1);
+  --blue: var(--accent);
+  --gold: var(--accent);
+  --gold-soft: var(--accent-soft);
+
+  /* ---------- 字体：全系统栈，零 webfont ----------
+     衬线 = 被阅读的内容；无衬线 = 被操作的 UI；等宽 = 数字（题号/计时/统计） */
+  --font-serif: Georgia, "Times New Roman", "Songti SC", STSong, SimSun, serif;
+  --font-sans: -apple-system, BlinkMacSystemFont, "PingFang SC", "Hiragino Sans GB",
+               "Microsoft YaHei", "Noto Sans SC", sans-serif;
+  --font-mono: ui-monospace, SFMono-Regular, Menlo, Consolas, "Courier New", monospace;
+  --serif: var(--font-serif);   /* 旧名 */
+  --sans: var(--font-sans);     /* 旧名 */
+
+  /* ---------- 字阶（语义递进，非等差） ----------
+     档间以"视觉递进"为原则而不是等差——正文 14→15→16 几乎不可分，
+     但 16→17→18 是清晰的"题干→段首→小标题"递进，所以非等差。
+     改值前先看 DESIGN.md §3。 */
+  --fs-2xs: 11px;     /* 角标、页脚注 */
+  --fs-xs:  12px;     /* 标签、辅助说明 */
+  --fs-sm:  13px;     /* 次要正文、表格 */
+  --fs-md:  14px;     /* UI 正文（中文下限） */
+  --fs-base:15px;     /* 正文基准（与 body 默认一致） */
+  --fs-md2: 16px;     /* 题干（英文主导） */
+  --fs-lg:  17px;     /* 题干、段首 */
+  --fs-lg2: 18px;     /* 强调小标题、题号 */
+  --fs-xl:  20px;     /* 小标题 */
+  --fs-2xl: 22px;     /* 副标题（响应式收紧档） */
+  --fs-3xl: 24px;     /* 区块标题 */
+  --fs-4xl: 28px;     /* 大数字、徽标数字 */
+  --fs-5xl: 30px;     /* 页标题 */
+  --fs-6xl: 32px;     /* 大标题、卷名 */
+  --fs-7xl: 38px;     /* 首页大标题 */
+  --fs-8xl: 42px;     /* 章节 hero 字号（与 7xl 形成 4 档递进） */
+  --fs-9xl: 48px;     /* 极大数字（成绩、统计徽标） */
+
+  /* 流体标题：只留两档，且只允许用在页面级 hero 上。
+     原先散着 5 种 clamp（38/6vw/60、36/6vw/66、42/7vw/68、42/7vw/82…），
+     同一层级的标题在不同页面差出 22px，是「看着不舒服」的直接来源之一。
+     下限对齐 --fs-7xl / --fs-8xl，上限不再超过 68px——再放大只是把版心撑散，
+     不增加信息量。 */
+  --fs-hero:    clamp(38px, 6vw, 60px);   /* 页面 hero：卷名 / 专题名 / 训练营名 */
+  --fs-hero-lg: clamp(42px, 7vw, 68px);   /* 全屏 hero：资料库首屏 */
+  --fs-hero-sm: clamp(24px, 4vw, 38px);   /* 卡片内 hero：仪表盘标题 */
+
+  /* ---------- 行高：中文笔画密，比英文更需呼吸 ----------
+     全站只有这 5 档。原先散着 18 种数值（1 / 1.1 / 1.15 / 1.2 / 1.5 / 1.6 /
+     1.7 / 1.75 / 1.8 / 1.85 / 1.9 / 2 …），同一个「正文」在不同页面行距差到
+     20%，跨页翻动时纵向节奏一直在变——这是最隐蔽也最伤眼的不一致。 */
+  --lh-display: 1.12;/* 流体大标题（38–68px）：越大越要收紧，否则字间散架 */
+  --lh-tight: 1;     /* 单行数字 / 题号：盒子与字等高 */
+  --lh-num:   1.2;   /* 等宽数字、计数徽标 */
+  --lh-ui:    1.45;  /* UI 文本：按钮、选项、表格、注释 */
+  --lh-head:  1.3;   /* 小标题（20–32px） */
+  --lh-body:  1.7;   /* 中文正文 / 题干 */
+  --lh-read:  1.9;   /* 长文阅读：阅读题文章、逐条讲解 */
+
+  /* ---------- 间距（4px 基准 + 关键中间档） ----------
+     主轴仍是 4px 倍数，但补充 6/14/20/28/40/56 六个常用档位
+     （取代 5/9/11/13/15/18/22/26/30/34/38/42/52/60 等碎片值），
+     使 196 处越界间距可吸附归位而不强行四舍五入。 */
+  --sp-1: 4px;
+  --sp-1-5: 6px;   /* 取代 5/7 */
+  --sp-2: 8px;
+  --sp-2-5: 10px;  /* 取代 9/11 */
+  --sp-3: 12px;
+  --sp-3-5: 14px;  /* 取代 13/15 */
+  --sp-4: 16px;
+  --sp-5: 20px;    /* 取代 18/22 */
+  --sp-6: 24px;
+  --sp-7: 28px;    /* 取代 26/30 */
+  --sp-8: 32px;
+  --sp-9: 40px;    /* 取代 34/35/38/42；也是 44 触控目标的余量 */
+  --sp-10: 48px;
+  --sp-11: 56px;   /* 取代 52/60 */
+  --sp-12: 64px;
+  --sp-13: 96px;   /* 章节间距 */
+
+  /* ---------- 容器宽度（统一全站 max-width） ----------
+     原 18 种 max-width（760/900/980/1100/1120/1160/1240…）碎片化，
+     收敛到这 5 个语义档。多给一档 --w-mid，是因为 980 与 1100 差 120px：
+     硬并到 1100 会把学习路径/写作台的行宽拉到不舒服，硬压到 760 又会
+     浪费整屏宽度——宽度档位是「用途」而非「随便凑整」，不能为少一档牺牲版式。
+       --w-read   ：长文阅读，68ch ≈ 760px，中英文都舒适
+       --w-narrow ：单卡页（成绩/错题详情/单条词条）
+       --w-mid    ：工作台（学习路径/写作台/专题报告）
+       --w-content：内容页（仪表盘/学习/词库/训练/知识点）
+       --w-exam   ：试卷页（带右侧 132px 悬浮答题卡） */
+  --w-read:    68ch;
+  --w-narrow:  760px;
+  --w-mid:     980px;
+  --w-content: 1100px;
+  --w-exam:    1240px;
+
+  /* ---------- 圆角：印刷气质用小圆角，方形感是来源 ---------- */
+  --r-sm: 3px; --r-md: 4px; --r-lg: 6px; --r-pill: 999px;
+
+  /* ---------- 阴影：只给真正的浮层（抽屉 / 弹层 / 悬浮答题卡） ---------- */
+  --shadow-3: 0 4px 16px rgba(28, 25, 23, .10);
+  --shadow: 0 1px 3px rgba(28, 25, 23, .07), 0 8px 24px rgba(28, 25, 23, .06);
+
+  /* ---------- 动效（强度 3/10） ---------- */
+  --ease-out: cubic-bezier(0.23, 1, 0.32, 1);
+  --ease-inout: cubic-bezier(0.77, 0, 0.175, 1);
+
+  /* ---------- 焦点环：油墨黑，纸底上 14.45:1 ---------- */
+  --focus-ring: #1c1917;
+
+  /* ---------- 文字在重音/油墨实色上的反白（替代裸 #fff，统一令牌） ---------- */
+  --on-accent: #fbf8f1;   /* 墨绿按钮 / 题格上的字：用最高纸面而非纯白，更「印上去」 */
+  --on-ink:    #f7f2e7;   /* 油墨黑块（skip-link）上的字 */
+
+  /* ---------- 纸纤维噪点（签名氛围层，见 body::before） ----------
+     极淡的 fractalNoise 叠在米黄纸之上，模拟油印卷面的纤维感；
+     不承载信息，仅营造「这是一份考卷」的触觉。opacity 压到 0.035，
+     灰度 multiply，绝不影响正文对比度。 */
+  --paper-grain: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='180' height='180'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.82' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html { scroll-behavior: smooth; }
+body {
+  background: var(--paper-0); color: var(--ink);
+  font-family: var(--font-sans); font-size: var(--fs-md); line-height: var(--lh-body);
+  text-rendering: optimizeLegibility; -webkit-font-smoothing: antialiased;
+}
+
+/* ---------- 签名氛围层：纸纤维噪点（固定、不挡交互、不滚动） ----------
+   只给「纸感」，不给阴影、不给渐变光晕——这是印刷逻辑，不是玻璃拟态。 */
+body::before {
+  content: ""; position: fixed; inset: 0; z-index: 0; pointer-events: none;
+  background-image: var(--paper-grain); background-size: 180px 180px;
+  opacity: .04; mix-blend-mode: multiply;
+}
+
+/* ---------- 签名动作：选区高亮（油墨黑底 + 墨绿字，全站一致） ---------- */
+::selection { background: var(--ink); color: var(--on-ink); }
+::-moz-selection { background: var(--ink); color: var(--on-ink); }
+
+#app { position: relative; z-index: 1; }   /* 抬到纸纤维层之上 */
+a { color: var(--accent); text-decoration: none; }
+button { font-family: inherit; cursor: pointer; }
+
+/* ---------- 顶栏（本文件独有；试卷页用 app.css 的 .exambar） ---------- */
+.topbar {
+  position: sticky; top: 0; z-index: 50;
+  background: var(--paper-1-glass); backdrop-filter: blur(8px);
+  border-bottom: 1px solid var(--line);
+}
+.topbar-inner {
+  max-width:var(--w-content); margin: 0 auto; padding: var(--sp-2-5) var(--sp-5);
+  display: flex; align-items: center; gap: var(--sp-3-5); flex-wrap: wrap;
+}
+
+/* ---------- 语法填空输入行（topic.js 的 .topic-free.grammar-input） ---------- */
+.grammar-input {
+  margin: var(--sp-1-5) 0 var(--sp-1) var(--sp-6); display: flex; align-items: center; gap: var(--sp-2);
+  font-family: var(--serif);
+}
+.grammar-input input {
+  font-family: var(--serif); font-size: var(--fs-base); padding: var(--sp-1-5) var(--sp-3);
+  border: 1px solid var(--line); border-radius: var(--r-sm); min-width: 220px;
+}
+.grammar-input input:focus-visible { border-color: var(--accent); }
+
+/* ---------- 成绩页 / 错题本：卡片外观补充（其余定位在 app.css） ---------- */
+.result-hero {
+  background: var(--paper); border: 1px solid var(--line);
+  border-radius:var(--r-md); box-shadow: var(--shadow); margin-bottom: var(--sp-5);
+}
+.mistake-item { border-radius: var(--r-md); box-shadow: var(--shadow); }

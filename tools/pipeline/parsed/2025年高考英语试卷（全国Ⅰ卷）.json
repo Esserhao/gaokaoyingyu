@@ -1,0 +1,769 @@
+{
+  "source_file": "2025年高考英语试卷（全国Ⅰ卷）",
+  "sections": [
+    {
+      "key": "listening",
+      "partTitle": "listening",
+      "questions": []
+    },
+    {
+      "key": "reading",
+      "partTitle": "reading",
+      "questions": [
+        {
+          "id": 1,
+          "type": "reading",
+          "stem": "【此处可播放相关音频，请去附件查看】",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Unpack his suitcase."
+            },
+            {
+              "letter": "B",
+              "text": "Board a flight."
+            },
+            {
+              "letter": "C",
+              "text": "Fill out a form."
+            }
+          ],
+          "answer": "",
+          "explanation": null
+        },
+        {
+          "id": 2,
+          "type": "reading",
+          "stem": "【此处可播放相关音频，请去附件查看】",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Do volunteer work."
+            },
+            {
+              "letter": "B",
+              "text": "Pursue a higher degree."
+            },
+            {
+              "letter": "C",
+              "text": "Run the family business."
+            }
+          ],
+          "answer": "",
+          "explanation": null
+        },
+        {
+          "id": 3,
+          "type": "reading",
+          "stem": "【此处可播放相关音频，请去附件查看】",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Buying a car."
+            },
+            {
+              "letter": "B",
+              "text": "Moving house."
+            },
+            {
+              "letter": "C",
+              "text": "Fixing the window."
+            }
+          ],
+          "answer": "",
+          "explanation": null
+        },
+        {
+          "id": 4,
+          "type": "reading",
+          "stem": "【此处可播放相关音频，请去附件查看】",
+          "options": [
+            {
+              "letter": "A",
+              "text": "It’s a bit crowded."
+            },
+            {
+              "letter": "B",
+              "text": "It has poor snow."
+            },
+            {
+              "letter": "C",
+              "text": "It’s too far away."
+            }
+          ],
+          "answer": "",
+          "explanation": null
+        },
+        {
+          "id": 5,
+          "type": "reading",
+          "stem": "此处可播放相关音频，请去附件查看】",
+          "options": [
+            {
+              "letter": "A",
+              "text": "The Art Centre."
+            },
+            {
+              "letter": "B",
+              "text": "The Grand Theatre."
+            },
+            {
+              "letter": "C",
+              "text": "The Stone Bridge. 第二节(共15小题;每小题1. 5分，满分22. 5分)"
+            }
+          ],
+          "answer": "",
+          "explanation": null
+        }
+      ]
+    },
+    {
+      "key": "reading",
+      "partTitle": "reading",
+      "questions": [
+        {
+          "id": 6,
+          "type": "reading",
+          "stem": "What did the woman do?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "She went over the speed limit."
+            },
+            {
+              "letter": "B",
+              "text": "She parked in a school zone."
+            },
+            {
+              "letter": "C",
+              "text": "She drove through a red light."
+            }
+          ],
+          "answer": "",
+          "explanation": null
+        },
+        {
+          "id": 7,
+          "type": "reading",
+          "stem": "What time does school finish on Wednesdays?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "At 2:00 pm.\tB. At 2:30 pm.\tC. At 3:30 pm."
+            },
+            {
+              "letter": "B",
+              "text": "At 2:30 pm.\tC. At 3:30 pm."
+            },
+            {
+              "letter": "C",
+              "text": "At 3:30 pm. 听下面一段较长对话，回答以下小题【此处可播放相关音频，请去附件查看】"
+            }
+          ],
+          "answer": "",
+          "explanation": null
+        },
+        {
+          "id": 8,
+          "type": "reading",
+          "stem": "What is the relationship between the speakers?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Fellow workers."
+            },
+            {
+              "letter": "B",
+              "text": "Former schoolmates."
+            },
+            {
+              "letter": "C",
+              "text": "Family relatives."
+            }
+          ],
+          "answer": "",
+          "explanation": null
+        },
+        {
+          "id": 9,
+          "type": "reading",
+          "stem": "Who will Grace have dinner with?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Fiona.\tB. Jennifer.\tC. David."
+            },
+            {
+              "letter": "B",
+              "text": "Jennifer.\tC. David."
+            },
+            {
+              "letter": "C",
+              "text": "David."
+            }
+          ],
+          "answer": "",
+          "explanation": null
+        },
+        {
+          "id": 10,
+          "type": "reading",
+          "stem": "What is Kevin going to do next?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Buy a drink.\tB. Play basketball.\tC. Greet a friend."
+            },
+            {
+              "letter": "B",
+              "text": "Play basketball.\tC. Greet a friend."
+            },
+            {
+              "letter": "C",
+              "text": "Greet a friend. 听下面一段较长对话，回答以下小题。【此处可播放相关音频，请去附件查看】"
+            }
+          ],
+          "answer": "",
+          "explanation": null
+        },
+        {
+          "id": 11,
+          "type": "reading",
+          "stem": "What does the woman say about news programs?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "They are replaced by documentaries."
+            },
+            {
+              "letter": "B",
+              "text": "They have been reduced in number."
+            },
+            {
+              "letter": "C",
+              "text": "They focus on the life of celebrities."
+            }
+          ],
+          "answer": "",
+          "explanation": null
+        },
+        {
+          "id": 12,
+          "type": "reading",
+          "stem": "What is the man’s attitude toward reality shows?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Favorable.\tB. Critical.\tC. Uncertain."
+            },
+            {
+              "letter": "B",
+              "text": "Critical.\tC. Uncertain."
+            },
+            {
+              "letter": "C",
+              "text": "Uncertain."
+            }
+          ],
+          "answer": "",
+          "explanation": null
+        },
+        {
+          "id": 13,
+          "type": "reading",
+          "stem": "What does the woman expect TV programs to be?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Educational.\tB. Diverse.\tC. Entertaining."
+            },
+            {
+              "letter": "B",
+              "text": "Diverse.\tC. Entertaining."
+            },
+            {
+              "letter": "C",
+              "text": "Entertaining. 听下面一段较长对话，回答以下小题。【此处可播放相关音频，请去附件查看】"
+            }
+          ],
+          "answer": "",
+          "explanation": null
+        },
+        {
+          "id": 14,
+          "type": "reading",
+          "stem": "Who is Cathy?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "A school teacher.\tB. A radio host.\tC. A government official."
+            },
+            {
+              "letter": "B",
+              "text": "A radio host.\tC. A government official."
+            },
+            {
+              "letter": "C",
+              "text": "A government official."
+            }
+          ],
+          "answer": "",
+          "explanation": null
+        },
+        {
+          "id": 15,
+          "type": "reading",
+          "stem": "What can the visiting adults do in the school?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Give speeches.\tB. Observe classes.\tC. Organize activities."
+            },
+            {
+              "letter": "B",
+              "text": "Observe classes.\tC. Organize activities."
+            },
+            {
+              "letter": "C",
+              "text": "Organize activities."
+            }
+          ],
+          "answer": "",
+          "explanation": null
+        },
+        {
+          "id": 16,
+          "type": "reading",
+          "stem": "How can the students benefit from the school program?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Earn extra credits\tB. Find job opportunities.\tC. Learn about adult’s life."
+            },
+            {
+              "letter": "B",
+              "text": "Find job opportunities.\tC. Learn about adult’s life."
+            },
+            {
+              "letter": "C",
+              "text": "Learn about adult’s life."
+            }
+          ],
+          "answer": "",
+          "explanation": null
+        },
+        {
+          "id": 17,
+          "type": "reading",
+          "stem": "What is the goal of the school program?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "To improve student-teacher relationship."
+            },
+            {
+              "letter": "B",
+              "text": "To promote the idea of work-life balance."
+            },
+            {
+              "letter": "C",
+              "text": "To enhance school-community interaction. 听下面一段独白，回答以下小题。【此处可播放相关音频，请去附件查看】"
+            }
+          ],
+          "answer": "",
+          "explanation": null
+        },
+        {
+          "id": 18,
+          "type": "reading",
+          "stem": "Where is the speaker’s city located?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "By the lake.\tB. On the coast.\tC. In the Valley."
+            },
+            {
+              "letter": "B",
+              "text": "On the coast.\tC. In the Valley."
+            },
+            {
+              "letter": "C",
+              "text": "In the Valley."
+            }
+          ],
+          "answer": "",
+          "explanation": null
+        },
+        {
+          "id": 19,
+          "type": "reading",
+          "stem": "What do the numbers on the signs stand for?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "The duration of flooding.\tB. The rise in air temperature.\tC. The height above sea level."
+            },
+            {
+              "letter": "B",
+              "text": "The rise in air temperature.\tC. The height above sea level."
+            },
+            {
+              "letter": "C",
+              "text": "The height above sea level."
+            }
+          ],
+          "answer": "",
+          "explanation": null
+        },
+        {
+          "id": 20,
+          "type": "reading",
+          "stem": "What does the success of the project indicate?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Art can make a difference."
+            },
+            {
+              "letter": "B",
+              "text": "The homeowners are creative."
+            },
+            {
+              "letter": "C",
+              "text": "Climate change is controllable."
+            }
+          ],
+          "answer": "",
+          "explanation": null
+        }
+      ]
+    },
+    {
+      "key": "reading",
+      "partTitle": "reading",
+      "questions": []
+    },
+    {
+      "key": "reading",
+      "partTitle": "reading",
+      "questions": [
+        {
+          "id": 21,
+          "type": "reading",
+          "stem": "What percentage of global transport emissions did road vehicles account for in 2018?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "11.6%.\tB. 45.1%.\tC. 74.5%.\tD. 86.1%."
+            },
+            {
+              "letter": "B",
+              "text": "45.1%.\tC. 74.5%.\tD. 86.1%."
+            },
+            {
+              "letter": "C",
+              "text": "74.5%.\tD. 86.1%."
+            },
+            {
+              "letter": "D",
+              "text": "86.1%."
+            }
+          ],
+          "answer": "",
+          "explanation": null
+        },
+        {
+          "id": 22,
+          "type": "reading",
+          "stem": "Which mode of transport can go green comparatively easily?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Planes.\tB. Trucks.\tC. Trains.\tD. Ships."
+            },
+            {
+              "letter": "B",
+              "text": "Trucks.\tC. Trains.\tD. Ships."
+            },
+            {
+              "letter": "C",
+              "text": "Trains.\tD. Ships."
+            },
+            {
+              "letter": "D",
+              "text": "Ships."
+            }
+          ],
+          "answer": "",
+          "explanation": null
+        },
+        {
+          "id": 23,
+          "type": "reading",
+          "stem": "What does Wipke suggest regarding energy transition?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Limiting fuel consumption.\tB. Putting more effort into renewables."
+            },
+            {
+              "letter": "B",
+              "text": "Putting more effort into renewables."
+            },
+            {
+              "letter": "C",
+              "text": "Improving energy efficiency.\tD. Making electricity more affordable."
+            },
+            {
+              "letter": "D",
+              "text": "Making electricity more affordable. B"
+            }
+          ],
+          "answer": "",
+          "explanation": null
+        }
+      ]
+    },
+    {
+      "key": "writing",
+      "partTitle": "writing",
+      "questions": [
+        {
+          "id": 1,
+          "type": "writing",
+          "stem": "In my ninth-grade writing class last year, I met a cowboy who saved his town, a strict father who demanded his son earn straight A’s, and a modern-day Juliet who died of heartbreak after her parents rejected the love of her young life. More than once, I found myself wondering just how my students, who’d created these people, knew their subjects so well.",
+          "modelAnswer": "",
+          "explanation": null
+        }
+      ]
+    },
+    {
+      "key": "writing",
+      "partTitle": "writing",
+      "questions": [
+        {
+          "id": 1,
+          "type": "writing",
+          "stem": "But things were different for their first essay, which was about the question: “Why is writing important?” Most of the essays filled less than one page, and few contained a sentence that could be interpreted as a thesis (论点) statement. I was shocked. Then I realized that the problem was the question itself. They could have written pages on the necessity of computers, but writing, in and of itself, simply didn’t strike them as important. This would have to change.",
+          "modelAnswer": "",
+          "explanation": null
+        }
+      ]
+    },
+    {
+      "key": "writing",
+      "partTitle": "writing",
+      "questions": [
+        {
+          "id": 1,
+          "type": "writing",
+          "stem": "As a new unit started, I asked everyone to write a persuasive piece on a health-related topic of their choice. This time they found the exercise much more interesting. For the next two assignments, a personal-narrative unit followed by a creative-writing workshop, I only required that the piece meet the specifications of its genre (体裁) and that it contain a thesis. The results were staggering. The students took on diverse topics and turned in stories, 10 to 20 pages each, with characters that broadened my view and touched my heart.",
+          "modelAnswer": "",
+          "explanation": null
+        }
+      ]
+    },
+    {
+      "key": "writing",
+      "partTitle": "writing",
+      "questions": [
+        {
+          "id": 1,
+          "type": "writing",
+          "stem": "I walked into class believing that writing is important as a means of communication. However, my students demonstrated something more important to me. When the final bell rang in June, I walked away with a yearbook full of messages about writing’s most powerful significance — the ability to connect people, to put us in another’s skin, to teach us what it means to be human.\n24. Who are the people mentioned at the beginning of paragraph 1?\nA. Ninth graders.\tB. Students’ parents.\nC. Modern writers.\tD. Fictional characters.",
+          "modelAnswer": "",
+          "explanation": null
+        }
+      ]
+    },
+    {
+      "key": "writing",
+      "partTitle": "writing",
+      "questions": [
+        {
+          "id": 1,
+          "type": "writing",
+          "stem": "25 Why did the students perform poorly in writing their first essay?\nA They were not given enough time.\tB. They had a very limited vocabulary.\nC. They misunderstood the question.\tD. They had little interest in the topic.\n26. What does the underlined word “staggering” in paragraph 3 mean?\nA. Mixed.\tB. Amazing.\tC. Similar.\tD. Disturbing.\n27. What does the author’s experience show?\nA. Teaching is learning.\tB. Still waters run deep.\nC. Knowledge is power.\tD. Practice makes perfect.\nC\nWhile safety improvements might have been made to our streets in recent years, transport studies also show declines in pedestrian (行人) mobility, especially among young children. Many parents say there’s too much traffic on the roads for their children to walk safely to school, so they pack them into the car instead. \nDutch authors Thalia Verkade and Marco te Brömmelstroet are bothered by facts like these. In their new book Movement: How to Take Back Our Streets and Transform Our Lives, they call for a rethink of our streets and the role they play in our lives. \nLife on city streets started to change decades ago. Whole neighbourhoods were destroyed to make way for new road networks and kids had to play elsewhere. Some communities fought back. Most famously, a Canadian journalist who had moved her family to Manhattan in the early 1950s led a campaign to stop the destruction of her local park. Describing her alarm at its proposed replacement with an expressway, Jane Jacobs called on her mayor (市长) to champion “New York as a decent place to live, and not just rush through.” Similar campaigns occurred in Australia in the late 1960s and 1970s as well. \nAlthough these campaigns were widespread, the reality is that the majority of the western cities were completely redesigned around the needs of the motor car. The number of cars on roads has been increasing rapidly. In Australia we now have over twenty million cars for just over twenty-six million people, among the highest rate of car ownership in the world. \nWe invest a lot in roads that help us rush through, but we fail to account for the true costs. Do we really recognise what it costs us as a society when children can’t move safely around our communities? The authors of Movement have it right: it’s time to think differently about that street outside your front door.\n28. What phenomenon does the author point out in paragraph 1?\nA. Cars often get stuck on the road.\tB. Traffic accidents occur frequently.\nC. People walk less and drive more.\tD. Pedestrians fail to follow the rules.\n29. What were the Canadian journalist and other campaigners trying to do?\nA. Keep their cities livable.\tB. Promote cultural diversity.\nC. Help the needy families.\tD. Make expressways accessible.\n30. What can be inferred about the campaigns in Australia in the late 1960s and 1970s?\nA. They boosted the sales of cars.\tB. They turned out largely ineffective.\nC. They won government support.\tD. They advocated building new parks.\n31. What can be a suitable title for the text?\nA. Why the Rush?\tB. What’s Next?\nC. Where to Stay?\tD. Who to Blame?\nD\nMicroplastics have become a common source of pollution across the Earth — they have settled in the deep sea and on the Himalayas, stuck inside volcanic rocks, filled the stomachs of seabirds and even fallen in fresh Antarctic snow. They are even appearing inside humans. \nNow, new research suggests that a simple, cheap measure may significantly reduce the level of microplastics in water from your tap (水龙头): boiling and filtering (过滤) it. In a study published Wednesday in Environmental Science & Technology Letters, researchers from China found that boiling tap water for just five minutes — then filtering it after it cools — could remove at least 80 percent of its microplastics. \nCrucially, this process relies on the water containing enough calcium carbonate (碳酸钙) to trap the plastics. In the study, boiling hard water containing 300 milligrams of calcium carbonate led to an almost 90 percent drop in plastics. But in samples with less than 60 milligrams of calcium carbonate, boiling reduced the level of plastics by just 25 percent. Additionally, the research didn’t include all types of plastics. The team focused only on three common types — polystyrene, polyethylene and polypropylene — and they didn’t study other chemicals previously found in water such as vinyl chloride. \nStill, the findings show a potential path forward for reducing microplastic exposure — a task that’s becoming increasingly difficult. Even bottled water, scientists found earlier this year, contains 10 to 1,000 times more microplastics than originally thought. \nScientists are still trying to determine how harmful microplastics are — but what they do know has raised concerns. The new study suggests boiling tap water could be a tool to limit intake. “The way they demonstrated how microplastics were trapped through the boiling process was nice,” Caroline Gauchotte-Lindsay, an environmental engineer of the University of Glasgow in Scotland who was not involved in the research, tells New Scientist. “We should be looking into upgrading drinking water treatment plants so they remove microplastics.”\n32. How does the author present the issue in the first paragraph?\nA. By quoting an expert.\tB. By defining a concept.\nC. By giving examples.\tD. By providing statistics.\n33. What determines the effectiveness of trapping microplastics in water?\nA. The hardness of water.\tB. The length of cooling time.\nC. The frequency of filtering.\tD. The type of plastic in water.\n34. What does the author try to illustrate by mentioning bottled water in paragraph 4?\nA. The importance of plastic recycling.\tB. The severity of the microplastic problem.\nC. The danger in overusing pure water.\tD. The difficulty in treating polluted water.\n35. What is Gauchotte-Lindsay’s suggestion about?\nA. Choice of new research methods.\tB. Possible direction for further study.\nC. Need to involve more researchers.\tD. Potential application of the findings.\n第二节(共5小题; 每小题2.5分, 满分12.5分)",
+          "modelAnswer": "",
+          "explanation": null
+        }
+      ]
+    },
+    {
+      "key": "reading",
+      "partTitle": "reading",
+      "questions": []
+    },
+    {
+      "key": "reading",
+      "partTitle": "reading",
+      "questions": [
+        {
+          "id": 41,
+          "type": "reading",
+          "stem": "A. painting over\tB. looking around\tC. emptying out\tD. pulling down",
+          "options": [],
+          "answer": "",
+          "explanation": null
+        },
+        {
+          "id": 42,
+          "type": "reading",
+          "stem": "A. hotel\tB. office\tC. cottage\tD. apartment",
+          "options": [],
+          "answer": "",
+          "explanation": null
+        },
+        {
+          "id": 43,
+          "type": "reading",
+          "stem": "A. store\tB. display\tC. sell\tD. repair",
+          "options": [],
+          "answer": "",
+          "explanation": null
+        },
+        {
+          "id": 44,
+          "type": "reading",
+          "stem": "A. covered\tB. decorated\tC. stuffed\tD. equipped",
+          "options": [],
+          "answer": "",
+          "explanation": null
+        },
+        {
+          "id": 45,
+          "type": "reading",
+          "stem": "A. conventional\tB. valuable\tC. complicated\tD. tolerable",
+          "options": [],
+          "answer": "",
+          "explanation": null
+        },
+        {
+          "id": 46,
+          "type": "reading",
+          "stem": "A. fees\tB. photos\tC. receipts\tD. models",
+          "options": [],
+          "answer": "",
+          "explanation": null
+        },
+        {
+          "id": 47,
+          "type": "reading",
+          "stem": "A. move\tB. pay\tC. market\tD. work",
+          "options": [],
+          "answer": "",
+          "explanation": null
+        },
+        {
+          "id": 48,
+          "type": "reading",
+          "stem": "A. warning\tB. request\tC. description\tD. reply",
+          "options": [],
+          "answer": "",
+          "explanation": null
+        },
+        {
+          "id": 49,
+          "type": "reading",
+          "stem": "A. Confused\tB. Interested\tC. Disappointed\tD. Encouraged",
+          "options": [],
+          "answer": "",
+          "explanation": null
+        },
+        {
+          "id": 50,
+          "type": "reading",
+          "stem": "A. visits\tB. reports\tC. advice\tD. money",
+          "options": [],
+          "answer": "",
+          "explanation": null
+        },
+        {
+          "id": 51,
+          "type": "reading",
+          "stem": "A. remove\tB. spare\tC. find\tD. check",
+          "options": [],
+          "answer": "",
+          "explanation": null
+        },
+        {
+          "id": 52,
+          "type": "reading",
+          "stem": "A. investigated\tB. recognized\tC. encountered\tD. recommended",
+          "options": [],
+          "answer": "",
+          "explanation": null
+        },
+        {
+          "id": 53,
+          "type": "reading",
+          "stem": "A. giveaways\tB. posts\tC. contributions\tD. belongings",
+          "options": [],
+          "answer": "",
+          "explanation": null
+        },
+        {
+          "id": 54,
+          "type": "reading",
+          "stem": "A. joy\tB. part\tC. care\tD. time",
+          "options": [],
+          "answer": "",
+          "explanation": null
+        },
+        {
+          "id": 55,
+          "type": "reading",
+          "stem": "A. anticipating\tB. appreciating\tC. delivering\tD. withdrawing",
+          "options": [],
+          "answer": "",
+          "explanation": null
+        }
+      ]
+    },
+    {
+      "key": "reading",
+      "partTitle": "reading",
+      "questions": []
+    },
+    {
+      "key": "writing",
+      "partTitle": "writing",
+      "questions": [
+        {
+          "id": 1,
+          "type": "writing",
+          "stem": "第四部分 写作(共两节, 满分40分)\n第一节(满分15分)\n66. 假定你是李华，你班的英语报要增设一个栏目。外教 Jenny 提出“Fun at my school”和“Guess who I am”两个选项供大家选择。请给Jenny写一封邮件，内容包括：\n(1)你的选择；\n(2)说明理由。\n注意：",
+          "modelAnswer": "",
+          "explanation": null
+        }
+      ]
+    },
+    {
+      "key": "writing",
+      "partTitle": "writing",
+      "questions": [
+        {
+          "id": 1,
+          "type": "writing",
+          "stem": "(1)写作词数应为80个左右；\n(2)请按如下格式在答题卡的相应位置作答。\nDear Jenny, \nI really like the idea of adding a new column to our English newspaper. \n___________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________\nYours, \nLi Hua\n第二节(满分25分)",
+          "modelAnswer": "",
+          "explanation": null
+        }
+      ]
+    },
+    {
+      "key": "reading",
+      "partTitle": "reading",
+      "questions": [
+        {
+          "id": 67,
+          "type": "reading",
+          "stem": "阅读下面材料，根据其内容和所给段落开头语续写两段，使之构成一篇完整的短文。",
+          "options": [],
+          "answer": "",
+          "explanation": null
+        }
+      ]
+    }
+  ]
+}

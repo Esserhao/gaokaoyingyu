@@ -1,0 +1,985 @@
+{
+  "source_file": "2025年高考英语试卷（全国Ⅱ卷）",
+  "sections": [
+    {
+      "key": "listening",
+      "partTitle": "listening",
+      "questions": []
+    },
+    {
+      "key": "reading",
+      "partTitle": "reading",
+      "questions": [
+        {
+          "id": 1,
+          "type": "reading",
+          "stem": "How will the woman probably get to Baxley?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "On foot.         B. By taxi.         C. By bus."
+            },
+            {
+              "letter": "B",
+              "text": "By taxi.         C. By bus."
+            },
+            {
+              "letter": "C",
+              "text": "By bus."
+            }
+          ],
+          "answer": "",
+          "explanation": null
+        },
+        {
+          "id": 2,
+          "type": "reading",
+          "stem": "What is the man going to do?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Have some dessert.     B. Pay the bill.         C. Cancel the trip."
+            },
+            {
+              "letter": "B",
+              "text": "Pay the bill.         C. Cancel the trip."
+            },
+            {
+              "letter": "C",
+              "text": "Cancel the trip."
+            }
+          ],
+          "answer": "",
+          "explanation": null
+        },
+        {
+          "id": 3,
+          "type": "reading",
+          "stem": "What are the speakers talking about?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Buying a computer.     B. Doing research.         C. Saving money."
+            },
+            {
+              "letter": "B",
+              "text": "Doing research.         C. Saving money."
+            },
+            {
+              "letter": "C",
+              "text": "Saving money."
+            }
+          ],
+          "answer": "",
+          "explanation": null
+        },
+        {
+          "id": 4,
+          "type": "reading",
+          "stem": "What is the man’s major?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Psychology.         B. Biology.         C. English."
+            },
+            {
+              "letter": "B",
+              "text": "Biology.         C. English."
+            },
+            {
+              "letter": "C",
+              "text": "English."
+            }
+          ],
+          "answer": "",
+          "explanation": null
+        },
+        {
+          "id": 5,
+          "type": "reading",
+          "stem": "What does Linda suggest?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Buying a sports watch.     B. Borrowing Mary’s watch.     C. Getting the watch repaired."
+            },
+            {
+              "letter": "B",
+              "text": "Borrowing Mary’s watch.     C. Getting the watch repaired."
+            },
+            {
+              "letter": "C",
+              "text": "Getting the watch repaired.  第二节(共15小题;每小题1. 5分，满分22. 5分)"
+            }
+          ],
+          "answer": "",
+          "explanation": null
+        }
+      ]
+    },
+    {
+      "key": "reading",
+      "partTitle": "reading",
+      "questions": [
+        {
+          "id": 6,
+          "type": "reading",
+          "stem": "Why does Peter make the call?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "To arrange a visit.     B. To extend an invitation.     C. To confirm an appointment."
+            },
+            {
+              "letter": "B",
+              "text": "To extend an invitation.     C. To confirm an appointment."
+            },
+            {
+              "letter": "C",
+              "text": "To confirm an appointment."
+            }
+          ],
+          "answer": "",
+          "explanation": null
+        },
+        {
+          "id": 7,
+          "type": "reading",
+          "stem": "Where will the speakers meet on Tuesday evening?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "At the theatre.         B. At a snack bar.         C. At Delia’s office."
+            },
+            {
+              "letter": "B",
+              "text": "At a snack bar.         C. At Delia’s office."
+            },
+            {
+              "letter": "C",
+              "text": "At Delia’s office.  听第7段材料，回答第8、9题。"
+            }
+          ],
+          "answer": "",
+          "explanation": null
+        },
+        {
+          "id": 8,
+          "type": "reading",
+          "stem": "What does Sam say about his daughter?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "She dislikes doing homework.     B. She overuses her smartphone.     C. She feels lonely at school."
+            },
+            {
+              "letter": "B",
+              "text": "She overuses her smartphone.     C. She feels lonely at school."
+            },
+            {
+              "letter": "C",
+              "text": "She feels lonely at school."
+            }
+          ],
+          "answer": "",
+          "explanation": null
+        },
+        {
+          "id": 9,
+          "type": "reading",
+          "stem": "What is Sam’s attitude towards the school policies?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Supportive.         B. Uncertain.         C. Disapproving."
+            },
+            {
+              "letter": "B",
+              "text": "Uncertain.         C. Disapproving."
+            },
+            {
+              "letter": "C",
+              "text": "Disapproving.  听第8段材料，回答第10至12题。"
+            }
+          ],
+          "answer": "",
+          "explanation": null
+        },
+        {
+          "id": 10,
+          "type": "reading",
+          "stem": "What is the probable relationship between the speakers?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Tourist and guide.     B. Husband and wife.     C. Trainer and trainee."
+            },
+            {
+              "letter": "B",
+              "text": "Husband and wife.     C. Trainer and trainee."
+            },
+            {
+              "letter": "C",
+              "text": "Trainer and trainee."
+            }
+          ],
+          "answer": "",
+          "explanation": null
+        },
+        {
+          "id": 11,
+          "type": "reading",
+          "stem": "Who came up with the idea of going rock climbing?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Billy.         B. Karen.         C. Max."
+            },
+            {
+              "letter": "B",
+              "text": "Karen.         C. Max."
+            },
+            {
+              "letter": "C",
+              "text": "Max."
+            }
+          ],
+          "answer": "",
+          "explanation": null
+        },
+        {
+          "id": 12,
+          "type": "reading",
+          "stem": "What is Jessie’s plan for tomorrow?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Going horseback riding.     B. Playing table tennis.     C. Rowing on the lake."
+            },
+            {
+              "letter": "B",
+              "text": "Playing table tennis.     C. Rowing on the lake."
+            },
+            {
+              "letter": "C",
+              "text": "Rowing on the lake.  听第9段材料，回答第13至16题。"
+            }
+          ],
+          "answer": "",
+          "explanation": null
+        },
+        {
+          "id": 13,
+          "type": "reading",
+          "stem": "What did Frank do before coming to Susanna?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "He went to a tech fair.     B. He signed a contract.     C. He had a job interview."
+            },
+            {
+              "letter": "B",
+              "text": "He signed a contract.     C. He had a job interview."
+            },
+            {
+              "letter": "C",
+              "text": "He had a job interview."
+            }
+          ],
+          "answer": "",
+          "explanation": null
+        },
+        {
+          "id": 14,
+          "type": "reading",
+          "stem": "What does Frank hope to get?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "A promotion.         B. A vacation.         C. A bonus."
+            },
+            {
+              "letter": "B",
+              "text": "A vacation.         C. A bonus."
+            },
+            {
+              "letter": "C",
+              "text": "A bonus."
+            }
+          ],
+          "answer": "",
+          "explanation": null
+        },
+        {
+          "id": 15,
+          "type": "reading",
+          "stem": "When will Frank know the result from his company?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Wednesday.         B. Thursday.         C. Friday."
+            },
+            {
+              "letter": "B",
+              "text": "Thursday.         C. Friday."
+            },
+            {
+              "letter": "C",
+              "text": "Friday."
+            }
+          ],
+          "answer": "",
+          "explanation": null
+        },
+        {
+          "id": 16,
+          "type": "reading",
+          "stem": "Who is Susanna?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Frank’s client.         B. Frank’s lawyer.         C. Frank’s boss."
+            },
+            {
+              "letter": "B",
+              "text": "Frank’s lawyer.         C. Frank’s boss."
+            },
+            {
+              "letter": "C",
+              "text": "Frank’s boss.  听第10段材料，回答第17至20题。"
+            }
+          ],
+          "answer": "",
+          "explanation": null
+        },
+        {
+          "id": 17,
+          "type": "reading",
+          "stem": "Who is the Mini Camp intended for?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Four-year-olds.         B. Five-year-olds.         C. Six-year-olds."
+            },
+            {
+              "letter": "B",
+              "text": "Five-year-olds.         C. Six-year-olds."
+            },
+            {
+              "letter": "C",
+              "text": "Six-year-olds."
+            }
+          ],
+          "answer": "",
+          "explanation": null
+        },
+        {
+          "id": 18,
+          "type": "reading",
+          "stem": "Which activity does the Older Summer Camp organize?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Museum visits.         B. Bowling games.     C. Family gatherings."
+            },
+            {
+              "letter": "B",
+              "text": "Bowling games.     C. Family gatherings."
+            },
+            {
+              "letter": "C",
+              "text": "Family gatherings."
+            }
+          ],
+          "answer": "",
+          "explanation": null
+        },
+        {
+          "id": 19,
+          "type": "reading",
+          "stem": "What is a requirement for joining the field trips?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Camping experience.     B. Parental permission.     C. Swimming skills."
+            },
+            {
+              "letter": "B",
+              "text": "Parental permission.     C. Swimming skills."
+            },
+            {
+              "letter": "C",
+              "text": "Swimming skills."
+            }
+          ],
+          "answer": "",
+          "explanation": null
+        },
+        {
+          "id": 20,
+          "type": "reading",
+          "stem": "What will the speaker do next?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Collect fees.         B. Answer questions.     C. Show a short video."
+            },
+            {
+              "letter": "B",
+              "text": "Answer questions.     C. Show a short video."
+            },
+            {
+              "letter": "C",
+              "text": "Show a short video."
+            }
+          ],
+          "answer": "",
+          "explanation": null
+        }
+      ]
+    },
+    {
+      "key": "reading",
+      "partTitle": "reading",
+      "questions": []
+    },
+    {
+      "key": "reading",
+      "partTitle": "reading",
+      "questions": [
+        {
+          "id": 1,
+          "type": "reading",
+          "stem": "Where can you find an original copy of the Magna Carta?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "In the Ludlow Castle.\tB. In the Foodie Center of England."
+            },
+            {
+              "letter": "B",
+              "text": "In the Foodie Center of England."
+            },
+            {
+              "letter": "C",
+              "text": "In the Hereford Cathedral.\tD. In the Black and White House Museum."
+            },
+            {
+              "letter": "D",
+              "text": "In the Black and White House Museum."
+            }
+          ],
+          "answer": "",
+          "explanation": null
+        },
+        {
+          "id": 2,
+          "type": "reading",
+          "stem": "What is a feature of Shrewsbury Town Center?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "It’s situated near a big island.\tB. It’s almost surrounded by water."
+            },
+            {
+              "letter": "B",
+              "text": "It’s almost surrounded by water."
+            },
+            {
+              "letter": "C",
+              "text": "It’s known for its flower festival.\tD. It’s easily accessible from London."
+            },
+            {
+              "letter": "D",
+              "text": "It’s easily accessible from London."
+            }
+          ],
+          "answer": "",
+          "explanation": null
+        },
+        {
+          "id": 3,
+          "type": "reading",
+          "stem": "What does the author suggest visitors do in Mevagissey?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Try the Cornish pie.\tB. Watch a British TV show."
+            },
+            {
+              "letter": "B",
+              "text": "Watch a British TV show."
+            },
+            {
+              "letter": "C",
+              "text": "Go fishing in the sea.\tD. Take pictures of the harbor."
+            },
+            {
+              "letter": "D",
+              "text": "Take pictures of the harbor. B Kathy Ho teaches high school inside Lucile Packard Children’s Hospital Stanford (LPCH). “Sometimes I don’t like saying that I’m a teacher,” says Ho. “People get in their minds an idea of what teachers do, but that’s not really what it is here.” “Here” is room 386, where each year, about 500 LPCH patients also become students. The hospital school is free of parents, doctors, and medical procedures. It’s a place of learning. About half of Ho’s students stay for a week or less; others are there for more than a year. Most of Ho’s students will recover, which means that preparing them to return to school is an increasingly important component of care. Still, in room 386, academics don’t come first. Physical health and mental health are the priority. “If you’re scared about something and thinking only about that, there’s no way you’re going to be able to learn,” Ho says. “I’m a coach, an adviser, and a comforter, and that’s what it means to be a hospital teacher.” There are up to 30 students at any given time in Ho’s class. She generally works with their regular teachers to get lessons and tests being used at their home schools. Some teachers don’t give the kids any assignments; they express sympathy instead. “I feel like it is a disservice to the kids,” Ho says. “They think their teachers don’t care about their schoolwork.” Ho recognizes the psychological benefit of helping kids keep up with their peers (同龄人) outside the hospital. “I actually think the medicine is only a small piece for some problems,” says Julie Good, director of pain management services at LPCH. “It’s about problem-solving around what it means to have a full life. Those kids have dreams. School can keep those dreams alive by giving kids a way to learn and grow.” 4 Who does Ho teach at LPCH? A. Sick children.\tB. Young nurses. C. Medical students.\tD. Patients’ parents."
+            }
+          ],
+          "answer": "",
+          "explanation": null
+        },
+        {
+          "id": 5,
+          "type": "reading",
+          "stem": "What is a characteristic of Ho’s job?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Prioritizing academics.\tB. Encouraging innovation."
+            },
+            {
+              "letter": "B",
+              "text": "Encouraging innovation."
+            },
+            {
+              "letter": "C",
+              "text": "Treating various diseases.\tD. Playing multiple roles."
+            },
+            {
+              "letter": "D",
+              "text": "Playing multiple roles."
+            }
+          ],
+          "answer": "",
+          "explanation": null
+        },
+        {
+          "id": 6,
+          "type": "reading",
+          "stem": "What does the underlined word “it” refer to in paragraph 4?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Offering regular lessons.\tB. Paying extra attention."
+            },
+            {
+              "letter": "B",
+              "text": "Paying extra attention."
+            },
+            {
+              "letter": "C",
+              "text": "Assigning no schoolwork.\tD. Showing no sympathy."
+            },
+            {
+              "letter": "D",
+              "text": "Showing no sympathy."
+            }
+          ],
+          "answer": "",
+          "explanation": null
+        },
+        {
+          "id": 7,
+          "type": "reading",
+          "stem": "How does the hospital school benefit the students according to Good?",
+          "options": [],
+          "answer": "",
+          "explanation": null
+        },
+        {
+          "id": 8,
+          "type": "reading",
+          "stem": "How was Detrinidad’s business when it started?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "It faced tough competition.\tB. It suffered a great loss."
+            },
+            {
+              "letter": "B",
+              "text": "It suffered a great loss."
+            },
+            {
+              "letter": "C",
+              "text": "It got lots of financial support.\tD. It went surprisingly well."
+            },
+            {
+              "letter": "D",
+              "text": "It went surprisingly well."
+            }
+          ],
+          "answer": "",
+          "explanation": null
+        },
+        {
+          "id": 9,
+          "type": "reading",
+          "stem": "What is one of Knuth’s findings about plants?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "They appeal more to students.\tB. They purify the environment."
+            },
+            {
+              "letter": "B",
+              "text": "They purify the environment."
+            },
+            {
+              "letter": "C",
+              "text": "They raise the cortisol level.\tD. They enhance productivity."
+            },
+            {
+              "letter": "D",
+              "text": "They enhance productivity."
+            }
+          ],
+          "answer": "",
+          "explanation": null
+        },
+        {
+          "id": 10,
+          "type": "reading",
+          "stem": "What does Detrinidad try to explain by mentioning doctors and lawyers?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "The necessity of social skills.\tB. The meaning of sustainability."
+            },
+            {
+              "letter": "B",
+              "text": "The meaning of sustainability."
+            },
+            {
+              "letter": "C",
+              "text": "The importance of repeated efforts.\tD. The value of professional opinions."
+            },
+            {
+              "letter": "D",
+              "text": "The value of professional opinions."
+            }
+          ],
+          "answer": "",
+          "explanation": null
+        },
+        {
+          "id": 11,
+          "type": "reading",
+          "stem": "What can be a suitable title for the text?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Time to Replace Houseplants\tB. Plants Boost Your Mood"
+            },
+            {
+              "letter": "B",
+              "text": "Plants Boost Your Mood"
+            },
+            {
+              "letter": "C",
+              "text": "Tips on Choosing Houseplants\tD. Plants Brighten Your Home"
+            },
+            {
+              "letter": "D",
+              "text": "Plants Brighten Your Home D Does your soul die a little every time you throw away unused food? Mine does. Maybe that feeling comes from growing up in South Africa, where the phrase “there are children starving in Africa” was more of an uncomfortable reminder of fact than a prayer at dinner time. Food waste is a growing concern in the restaurant, supermarket, and supply chain industries. From technological solutions to educational campaigns, food producers and sellers are looking for ways to use more of what we’re already growing. But last month, one popular New York City restaurant tried a different way: It changed its menu to exclusively (专门) offer food that would otherwise be thrown away. For two weeks in March, Greenwich Village’s Blue Hill restaurant was renamed wastED, and served items like fried skate cartilage, a juice pulp burger, and a dumpster diver’s vegetable salad. Each dish was tailor-made to raise awareness regarding food waste. A study by the Food Waste Alliance determined that the average restaurant generates 33 pounds of food waste for every $1,000 in revenue (收入), and of that waste only 15.7% is donated or recycled. Up to 84.3% is simply thrown out. Restaurants like Silo in the UK have experimented with zero-waste systems, but wastED took the concept to its logical conclusion. It should be noted that none of the items on wastED’s menu was technically made from garbage. Instead, all the ingredients (配料) used were examples of meat cuts and produce that most restaurants would never consider serving. Things like kale ribs, fish collars, rejected sweet potatoes, and cucumber butts were all re-appropriated and, with the help of a number of good chefs, turned into excellent cuisine. Though wastED received enthusiastic reviews, it was designed from the start as a short-lived experiment; Blue Hill has since returned to its regular menu. Nevertheless, it serves as a reminder that there are many ways to address problems of sustainability, and that you can make an amazing meal out of almost anything."
+            }
+          ],
+          "answer": "",
+          "explanation": null
+        },
+        {
+          "id": 12,
+          "type": "reading",
+          "stem": "What can be inferred about the author’s early life?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "He witnessed food shortage.\tB. He enjoyed the local cuisine."
+            },
+            {
+              "letter": "B",
+              "text": "He enjoyed the local cuisine."
+            },
+            {
+              "letter": "C",
+              "text": "He donated food to Africans.\tD. He helped to cook at home."
+            },
+            {
+              "letter": "D",
+              "text": "He helped to cook at home."
+            }
+          ],
+          "answer": "",
+          "explanation": null
+        },
+        {
+          "id": 13,
+          "type": "reading",
+          "stem": "Why did Blue Hill carry out the experiment?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "To customize dishes for guests.\tB. To make the public aware of food waste."
+            },
+            {
+              "letter": "B",
+              "text": "To make the public aware of food waste."
+            },
+            {
+              "letter": "C",
+              "text": "To test a food processing method.\tD. To improve the UK’s zero-waste systems."
+            },
+            {
+              "letter": "D",
+              "text": "To improve the UK’s zero-waste systems."
+            }
+          ],
+          "answer": "",
+          "explanation": null
+        },
+        {
+          "id": 14,
+          "type": "reading",
+          "stem": "What is paragraph 5 mainly about?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Why the ingredients were used.\tB. Which dishes were best liked."
+            },
+            {
+              "letter": "B",
+              "text": "Which dishes were best liked."
+            },
+            {
+              "letter": "C",
+              "text": "What the dishes were made of.\tD. Where the ingredients were bought."
+            },
+            {
+              "letter": "D",
+              "text": "Where the ingredients were bought."
+            }
+          ],
+          "answer": "",
+          "explanation": null
+        },
+        {
+          "id": 15,
+          "type": "reading",
+          "stem": "What can we learn about wastED?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "It has ended as planned.\tB. It is creating new jobs."
+            },
+            {
+              "letter": "B",
+              "text": "It is creating new jobs."
+            },
+            {
+              "letter": "C",
+              "text": "It has regained popularity.\tD. It is criticized by top chefs."
+            },
+            {
+              "letter": "D",
+              "text": "It is criticized by top chefs. 第二节(共5小题;每小题2. 5分，满分12. 5分)"
+            }
+          ],
+          "answer": "",
+          "explanation": null
+        }
+      ]
+    },
+    {
+      "key": "reading",
+      "partTitle": "reading",
+      "questions": []
+    },
+    {
+      "key": "reading",
+      "partTitle": "reading",
+      "questions": []
+    },
+    {
+      "key": "seven",
+      "partTitle": "seven",
+      "questions": [
+        {
+          "id": 21,
+          "type": "seven",
+          "stem": "A. write\tB. travel\tC. exercise\tD. recover",
+          "options": [],
+          "answer": "",
+          "explanation": null
+        },
+        {
+          "id": 22,
+          "type": "seven",
+          "stem": "A. goodwill\tB. timeout\tC. long-distance\tD. wake-up",
+          "options": [],
+          "answer": "",
+          "explanation": null
+        },
+        {
+          "id": 23,
+          "type": "seven",
+          "stem": "A. normally\tB. ultimately\tC. suddenly\tD. automatically",
+          "options": [],
+          "answer": "",
+          "explanation": null
+        },
+        {
+          "id": 24,
+          "type": "seven",
+          "stem": "A. change\tB. fortune\tC. wish\tD. deal",
+          "options": [],
+          "answer": "",
+          "explanation": null
+        },
+        {
+          "id": 25,
+          "type": "seven",
+          "stem": "A. risky\tB. traditional\tC. comfortable\tD. healthy",
+          "options": [],
+          "answer": "",
+          "explanation": null
+        },
+        {
+          "id": 26,
+          "type": "seven",
+          "stem": "A. demand\tB. secret\tC. passion\tD. cure",
+          "options": [],
+          "answer": "",
+          "explanation": null
+        },
+        {
+          "id": 27,
+          "type": "seven",
+          "stem": "A. peace\tB. fitness\tC. fun\tD. nature",
+          "options": [
+            {
+              "letter": "A",
+              "text": "grow\tB. control\tC. activate\tD. relax"
+            },
+            {
+              "letter": "B",
+              "text": "control\tC. activate\tD. relax"
+            },
+            {
+              "letter": "C",
+              "text": "activate\tD. relax"
+            },
+            {
+              "letter": "D",
+              "text": "relax"
+            }
+          ],
+          "answer": "",
+          "explanation": null
+        },
+        {
+          "id": 29,
+          "type": "seven",
+          "stem": "A. need\tB. choice\tC. reason\tD. difference",
+          "options": [],
+          "answer": "",
+          "explanation": null
+        },
+        {
+          "id": 30,
+          "type": "seven",
+          "stem": "A. green light\tB. road block\tC. passing mark\tD. stepping stone",
+          "options": [],
+          "answer": "",
+          "explanation": null
+        },
+        {
+          "id": 31,
+          "type": "seven",
+          "stem": "A. Help\tB. Consult\tC. Follow\tD. Forgive",
+          "options": [
+            {
+              "letter": "A",
+              "text": "accepted\tB. shared\tC. expected\tD. celebrated"
+            },
+            {
+              "letter": "B",
+              "text": "shared\tC. expected\tD. celebrated"
+            },
+            {
+              "letter": "C",
+              "text": "expected\tD. celebrated"
+            },
+            {
+              "letter": "D",
+              "text": "celebrated"
+            }
+          ],
+          "answer": "",
+          "explanation": null
+        },
+        {
+          "id": 33,
+          "type": "seven",
+          "stem": "A. goal\tB. case\tC. duty\tD. cost",
+          "options": [],
+          "answer": "",
+          "explanation": null
+        },
+        {
+          "id": 34,
+          "type": "seven",
+          "stem": "A. instructors\tB. admirers\tC. beginners\tD. doubters",
+          "options": [],
+          "answer": "",
+          "explanation": null
+        },
+        {
+          "id": 35,
+          "type": "seven",
+          "stem": "A. authority\tB. excuse\tC. inspiration\tD. option",
+          "options": [],
+          "answer": "",
+          "explanation": null
+        }
+      ]
+    },
+    {
+      "key": "reading",
+      "partTitle": "reading",
+      "questions": []
+    },
+    {
+      "key": "writing",
+      "partTitle": "writing",
+      "questions": [
+        {
+          "id": 1,
+          "type": "writing",
+          "stem": "第四部分  写作(共两节，满分40分)\n第一节(满分15分)\n46. 假定你是校英文报编辑李华，外教Chris上个月答应写一篇介绍加拿大体育运动的文章。请给 Chris写一封邮件，内容包括：\n(1)询问进展；\n(2)提醒交稿时间。\n注意：",
+          "modelAnswer": "",
+          "explanation": null
+        }
+      ]
+    },
+    {
+      "key": "writing",
+      "partTitle": "writing",
+      "questions": [
+        {
+          "id": 1,
+          "type": "writing",
+          "stem": "(1)写作词数应为80个左右；\n(2)请按如下格式在答题卡的相应位置作答。\nDear Chris, \n___________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________\nBest wishes, \nLi Hua\n第二节(满分25分)",
+          "modelAnswer": "",
+          "explanation": null
+        }
+      ]
+    },
+    {
+      "key": "reading",
+      "partTitle": "reading",
+      "questions": [
+        {
+          "id": 47,
+          "type": "reading",
+          "stem": "阅读下面材料，根据其内容和所给段落开头语续写两段，使之构成一篇完整的短文。",
+          "options": [],
+          "answer": "",
+          "explanation": null
+        }
+      ]
+    }
+  ]
+}

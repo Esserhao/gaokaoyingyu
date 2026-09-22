@@ -1,0 +1,45 @@
+/* Reference-inspired paper archive layout */
+.reference-home{min-height:100vh;background: var(--paper-1);color: var(--ink)}.reference-header{max-width:var(--w-mid);margin:auto;padding:var(--sp-6) var(--sp-6) var(--sp-5);display:flex;justify-content:space-between;align-items:center}.reference-brand{display:flex;gap:var(--sp-3);align-items:center;color: var(--ink)}.reference-brand b{display:block;font-size:var(--fs-lg2)}.reference-brand small{display:block;color: var(--ink-2);font-size:var(--fs-xs);margin-top:var(--sp-1)}.reference-brand .brand-mark{background: var(--accent-soft);border-radius:50%;width:var(--sp-9);height:var(--sp-9)}.mistake-link{font-size:var(--fs-sm);color: var(--ink-2);border-bottom: 1px solid var(--line);padding-bottom:var(--sp-1)}.reference-hero{max-width:var(--w-mid);margin:0 auto;padding:var(--sp-13) var(--sp-6) var(--sp-12)}.reference-kicker{letter-spacing:.18em;font-size:var(--fs-2xs);color: var(--accent);font-weight:700}.reference-hero h1{font-family:Georgia,"Songti SC",serif;font-size:var(--fs-hero-lg);font-weight:500;margin:var(--sp-5) 0 var(--sp-3);letter-spacing:-.04em}.reference-hero p{font-size:var(--fs-lg2);color: var(--ink-2)}.reference-list{max-width:var(--w-mid);margin:auto;padding:var(--sp-6)}.reference-year{padding:var(--sp-9) 0;border-bottom: 1px solid var(--line)}.reference-year h2{font:500 var(--fs-2xl) Georgia,"Songti SC",serif;margin-bottom:var(--sp-4)}.paper-list{border-top: 1px solid var(--line)}.paper-row{display:flex;align-items:center;gap:var(--sp-4);padding:var(--sp-4) var(--sp-2);border-bottom: 1px solid var(--line);color: var(--ink);transition:background .16s,padding .16s}.paper-row:hover{background: var(--paper-2);padding-left:var(--sp-3-5)}.row-index{width:var(--sp-8);height:var(--sp-8);display:grid;place-items:center;background: var(--paper-2);color: var(--accent);border-radius:50%;font-size:var(--fs-2xs);font-weight:700}.row-main{display:flex;flex-direction:column;gap:var(--sp-1)}.row-main b{font-size:var(--fs-base);font-weight:600}.row-main small{color: var(--ink-2);font-size:var(--fs-xs)}.row-status{margin-left:auto;color: var(--ink-2);font-size:var(--fs-xs)}.row-status strong{color: var(--accent);font-size:var(--fs-lg2);margin-left:var(--sp-2-5)}.reference-footer{max-width:var(--w-mid);margin:auto;padding:var(--sp-8) var(--sp-6) var(--sp-10);color: var(--ink-2);font-size:var(--fs-xs)}.reference-footer a{color: var(--accent)}@media(max-width:640px){.reference-header{padding:var(--sp-5) var(--sp-4)}.reference-hero{padding:var(--sp-12) var(--sp-4) var(--sp-11)}.reference-list{padding:var(--sp-3) var(--sp-4)}.paper-row{gap:var(--sp-2-5)}.row-main b{font-size:var(--fs-md)}.row-status{font-size:0}.row-status strong{font-size:var(--fs-xl)}}
+
+.quality-note{font-size:var(--fs-2xs);color: var(--amber);font-style:normal;line-height:var(--lh-ui)}.paper-row.needs-review{background:var(--amber-soft);padding-left:var(--sp-1-5)}.exam-quality-warning{color: var(--amber);font-weight:600}.proofreading-format{display:grid;gap:var(--sp-1-5);padding:var(--sp-3) var(--sp-3-5);margin:var(--sp-3-5) 0;background: var(--paper-2);border:1px solid var(--amber);color:var(--amber);font-size:var(--fs-sm)}.proofreading-material{white-space:pre-wrap;line-height:var(--lh-read);padding:var(--sp-5);background: var(--paper-2);border: 1px solid var(--line);font-family:Georgia,"Songti SC",serif}.proofreading-input{width:100%;min-height:150px;margin-top:var(--sp-3-5);padding:var(--sp-3-5);border: 1px solid var(--line);resize:vertical;font:14px/1.8 inherit}.proofreading-answer{margin-top:var(--sp-3-5);padding:var(--sp-3-5);background: var(--paper-2);border: 1px solid var(--line)}.proofreading-answer pre{white-space:pre-wrap;line-height:var(--lh-read);margin:var(--sp-2) 0}.mark.manual{color: var(--amber)}.explanation-body{white-space:normal;line-height:var(--lh-read);color: var(--ink-2)}.explanation-block{display:grid;gap:var(--sp-1-5);margin:var(--sp-2-5) 0;line-height:var(--lh-body)}.explanation-block b{font-size:var(--fs-xs);color: var(--accent)}.explanation-block span{display:block}.explanation-point{margin:var(--sp-3) 0;padding:var(--sp-3) var(--sp-3-5);background:var(--paper-2);border:1px solid var(--amber)}.explanation-point header{display:flex;align-items:center;gap:var(--sp-2);flex-wrap:wrap}.explanation-point header span{font-size:var(--fs-2xs);padding:var(--sp-1) var(--sp-1-5);background: var(--paper-1);color: var(--accent)}.explanation-point header strong{font-size:var(--fs-xs);color: var(--amber)}.explanation-point p{margin:var(--sp-2) 0 0;line-height:var(--lh-body)}.explanation-answer{color: var(--amber)}
+
+.cause-editor{display:flex;flex-wrap:wrap;gap:var(--sp-2-5);margin-top:var(--sp-3-5);padding-top:var(--sp-3);border-top: 1px solid var(--line);font-size:var(--fs-xs);color: var(--ink-2)}.cause-editor label{display:flex;align-items:center;gap:var(--sp-1-5)}.cause-editor select,.cause-editor input{border: 1px solid var(--line);background: var(--paper-1);padding:var(--sp-1-5) var(--sp-2);color: var(--ink)}.knowledge-page{padding-bottom:var(--sp-11)}.knowledge-intro{color: var(--ink-2);margin:var(--sp-3) 0 var(--sp-6)}.lineage-tree{display:grid;gap:var(--sp-2-5);max-width:var(--w-narrow)}.lineage-node{display:flex;align-items:center;justify-content:space-between;padding:var(--sp-4) var(--sp-5);border:1px solid var(--line);background:var(--paper-2)}.lineage-node div{display:grid;gap:var(--sp-1)}.lineage-node span{font-size:var(--fs-xs);color: var(--ink-2)}.lineage-node strong{font-size:var(--fs-sm);color: var(--accent)}.knowledge-log{margin-top:var(--sp-7);border-top: 1px solid var(--line);padding-top:var(--sp-5)}.knowledge-log span{display:inline-block;margin:var(--sp-1-5) var(--sp-2) 0 0;padding:var(--sp-1-5) var(--sp-2-5);background: var(--paper-2);color: var(--accent);font-size:var(--fs-xs)}.knowledge-log p{color: var(--ink-2)}
+/* 「自动判定 · 可修正」徽标：错题本列表里挂在 .cause-editor 末尾，
+   错题详情页里挂在 .review-tags 内（那里 .review-tags span 的选择器
+   更具体，所以要单独再写一条，否则会被同化成普通标签）。
+   蓝底蓝字取自 .knowledge-log span 同一套配色，对比度 5.0:1。 */
+.cause-auto{padding:var(--sp-1-5) var(--sp-2);background: var(--paper-2);color: var(--accent);font-size:var(--fs-xs)}
+.review-tags .cause-auto{background: var(--paper-2);color: var(--accent);border-radius:8px}
+
+/* 间隔复习（js/review.js）新增的三处样式。
+   .review-due 是错题本每条右侧那句「3 天后复习」，故意用中性灰 ——
+   它是状态而非动作，抢了 .mistake-status 的注意力反而看不清哪条该做。
+   .queue-hero 用和 .dashboard-stats 相同的卡片语言，让复习队列页
+   一眼认得出是「统计 + 列表」而不是又一个错题本。
+   颜色沿用站内既有的 #217963 / #706b65 / #f7f4ee，未引入新色值。 */
+.review-due{color: var(--ink-2);font-size:var(--fs-xs)}
+.queue-hero{display:grid;grid-template-columns:repeat(3,1fr);gap:var(--sp-3);margin:var(--sp-5) 0}
+.queue-hero>div{padding:var(--sp-5) var(--sp-5);background: var(--paper-1);border: 1px solid var(--line);border-radius:var(--r-md)}
+.queue-hero b{display:block;font:600 var(--fs-5xl) Georgia,"Songti SC",serif;color: var(--accent)}
+.queue-hero span{color: var(--ink-2);font-size:var(--fs-sm)}
+.queue-hero p{grid-column:1/-1;margin:0;padding:var(--sp-3-5) var(--sp-5);background: var(--paper-1);border:1px solid var(--line);color:var(--ink-2);line-height:var(--lh-body)}
+.queue-upcoming{margin-top:var(--sp-4)}
+.queue-upcoming-row{display:flex;justify-content:space-between;gap:var(--sp-3);padding:var(--sp-3) 0;border-bottom: 1px solid var(--line)}
+.queue-upcoming-row b{color: var(--ink-2);font-size:var(--fs-sm);font-weight:400}
+@media(max-width:720px){.queue-hero{grid-template-columns:1fr 1fr}}
+/* 短文改错子题（整卷页拆 10 小题） */
+.proofreading-subs{display:grid;gap:var(--sp-3-5);grid-template-columns:repeat(auto-fill,minmax(300px,1fr));margin-top:var(--sp-3-5)}
+.proofreading-sub{margin:0;border:1px solid var(--line);border-radius:var(--r-md);padding:var(--sp-3-5) var(--sp-4);background: var(--paper-1)}
+.proof-sub-input{width:100%;border: 1px solid var(--line);padding:var(--sp-2-5) var(--sp-3);font:inherit;margin-top:var(--sp-2-5);background: var(--paper-2);color:var(--ink-2)}
+.proof-sub-input:focus-visible{outline:3px solid var(--focus-ring);outline-offset:2px}
+.proof-analysis{margin:var(--sp-1-5) 0 0;color: var(--ink-2);font-size:var(--fs-sm);line-height:var(--lh-body)}
+.proofreading-sub .proof-self{margin-top:var(--sp-2-5)}
+.proof-self-summary-exam{margin-top:var(--sp-3-5);padding:var(--sp-2-5) var(--sp-3-5);border-radius:var(--r-md);background: var(--accent-soft);color: var(--ink);font-size:var(--fs-md);font-weight:600}
+/* 短文改错三列修改方法：答题格式块与每道子题答题框共用 UI.proofMethodsHtml()，
+   保证「答题格式」和「每题答题框提示」文字完全相同，也与数据规范三式对应。 */
+.proof-methods{display:grid;grid-template-columns:repeat(3,1fr);gap:var(--sp-2-5);margin-top:var(--sp-2-5)}
+.proof-method{border:1px solid var(--line);border-radius:var(--r-md);padding:var(--sp-2) var(--sp-2-5);background: var(--paper-1)}
+.proof-method b{display:block;font-size:var(--fs-xs);color: var(--accent);margin-bottom:var(--sp-1)}
+.proof-method span{font-size:var(--fs-xs);line-height:var(--lh-ui);color: var(--ink-2)}
+.proof-methods-sub{margin:var(--sp-2) 0 0}
+@media(max-width:560px){.proof-methods{grid-template-columns:1fr}}

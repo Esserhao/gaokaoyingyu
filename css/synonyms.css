@@ -1,0 +1,457 @@
+/* =====================================================================
+   同义·近义·反义（#/synonyms）—— 星空星座探索 + 词族列表
+   星座区为深蓝夜空：背景星野 + 四角星形星点（闪烁）+ 中心辐射线 +
+   同类星座链线；关系色在深底上用亮色变体（同义=绿 近义=蓝 反义=红）。
+   其余区域沿用浅色学术风，复用 .library-head / .primary-btn /
+   .text-btn 等既有样式，保证视觉一致。
+   ===================================================================== */
+
+.syn-page { max-width:var(--w-mid); margin: 0 auto; }
+
+/* ---------- Hero ---------- */
+.syn-hero {
+  background: var(--paper);
+  border: 1px solid var(--line);
+  border-radius: var(--r-lg);
+  box-shadow: var(--shadow);
+  padding: var(--sp-5);
+  margin-bottom: var(--sp-5);
+}
+.syn-hero h1 {
+  font-family: var(--serif);
+  font-size: var(--fs-3xl);
+  color: var(--ink);
+  margin: 0 0 var(--sp-2);
+}
+.syn-hero p { margin: 0 0 var(--sp-4); color: var(--ink-2); line-height:var(--lh-body); max-width: 64ch; }
+
+.syn-explore-row { display: flex; flex-wrap: wrap; gap: var(--sp-2); align-items: center; }
+.syn-explore-input {
+  flex: 1 1 260px;
+  min-height: var(--sp-9);
+  font-size: var(--fs-base);
+  padding: 0 var(--sp-4);
+  color: var(--ink);
+  background: var(--bg);
+  border: 1px solid var(--line);
+  border-radius: var(--r-pill);
+  outline: none;
+}
+.syn-explore-input:focus { border-color: var(--accent-line); }
+.syn-hint { margin-top: var(--sp-2); min-height: var(--sp-5); color: var(--red); font-size: var(--fs-sm); }
+
+/* ---------- 星座区（夜空星图） ----------
+   深蓝夜空底 + 固定种子背景星野 + 四角星形星点（闪烁）+
+   中心辐射线（关系色）+ 同类相邻星虚线链。
+   关系色在深底上用亮色变体（--green/--blue/--red 是浅底配色，直接用会发闷）。 */
+.syn-constellation-wrap { margin-bottom: var(--sp-5); }
+.syn-constellation {
+  position: relative;
+  height: 440px;
+  max-width:var(--w-narrow);
+  margin: 0 auto;
+  background: radial-gradient(ellipse at 50% 36%, #1e3159 0%, #16233f 55%, #0d1730 100%);
+  border: 1px solid #2a3a5e;
+  border-radius: var(--r-lg);
+  overflow: hidden;
+  box-shadow: var(--shadow), inset 0 0 70px rgba(0, 0, 0, .5);
+}
+.syn-svg { position: absolute; inset: 0; width: 100%; height: 100%; }
+
+/* 背景星野：远处小星，少数闪烁 */
+.syn-bgstar { fill: #cfe0ff; opacity: .3; }
+.syn-bgstar-tw { animation: syn-sky-twinkle 3.4s ease-in-out infinite alternate; }
+@keyframes syn-sky-twinkle { from { opacity: .12; } to { opacity: .62; } }
+
+/* 连线①：中心 → 星（当前图的关系色）；连线②：相邻星的星座链（虚线勾轮廓）；
+   连线③：中心 → 词缀门户星的短虚线。一张图上只出现一种颜色。 */
+.syn-line { stroke-width: 1.6; opacity: .5; }
+.syn-line-syn  { stroke: var(--rel-syn); }
+.syn-line-near { stroke: var(--rel-near); }
+.syn-line-ant  { stroke: var(--rel-ant); }
+.syn-line-sim  { stroke: var(--rel-sim); }
+.syn-line-pre  { stroke: var(--rel-pre); }
+.syn-line-suf  { stroke: var(--rel-suf); }
+.syn-line-phr  { stroke: var(--rel-phr); }
+.syn-line-chain { stroke-width: 1.2; opacity: .32; stroke-dasharray: 5 7; }
+.syn-line-chain-syn  { stroke: var(--rel-syn); }
+.syn-line-chain-near { stroke: var(--rel-near); }
+.syn-line-chain-ant  { stroke: var(--rel-ant); }
+.syn-line-chain-sim  { stroke: var(--rel-sim); }
+.syn-line-chain-pre  { stroke: var(--rel-pre); }
+.syn-line-chain-suf  { stroke: var(--rel-suf); }
+.syn-line-chain-phr  { stroke: var(--rel-phr); }
+.syn-line-gate { stroke-width: 1.3; opacity: .6; stroke-dasharray: 3 4; }
+.syn-line-gate-pre { stroke: var(--rel-pre); }
+.syn-line-gate-suf { stroke: var(--rel-suf); }
+
+/* 星点：星形 + 词标，无底框；词标颜色即关系色（亮变体） */
+.syn-node {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--sp-1);
+  background: none;
+  border: none;
+  padding: var(--sp-1) var(--sp-1-5);
+  font-family: var(--sans);
+  font-size: var(--fs-sm);
+  font-weight: 600;
+  color: #e8effc;
+  cursor: pointer;
+  white-space: nowrap;
+  line-height:var(--lh-num);
+}
+.syn-node:focus-visible { outline: 2px solid #cfe0ff; outline-offset: 2px; border-radius: 8px; }
+.syn-node-word { text-shadow: 0 1px 4px rgba(0, 0, 0, .8); }
+.syn-star-glyph {
+  width: var(--sp-3-5);
+  height: var(--sp-3-5);
+  color: inherit;
+  animation: syn-star-tw 2.4s ease-in-out infinite alternate;
+  filter: drop-shadow(0 0 4px currentColor);
+}
+.syn-star-glyph path { fill: currentColor; }
+@keyframes syn-star-tw {
+  from { opacity: .6; transform: scale(.9); }
+  to   { opacity: 1;  transform: scale(1.12); }
+}
+.syn-star-above { flex-direction: column-reverse; }   /* 上半圈：词标朝星点上方 */
+.syn-star-syn  { color: #8fe6bd; }
+.syn-star-near { color: #a9ccf7; }
+.syn-star-ant  { color: #f8b3ac; }
+.syn-star-sim  { color: #f4bcd3; }                    /* 形近：粉 */
+.syn-star-pre  { color: #c9a8f0; }                    /* 前缀：紫 */
+.syn-star-suf  { color: #7fe6dc; }                    /* 后缀：青 */
+.syn-star-phr  { color: #f7cd93; }                    /* 词组：橙 */
+.syn-star:hover .syn-star-glyph { animation: none; transform: scale(1.35); }
+.syn-star:hover .syn-node-word { color: #fff; text-shadow: 0 0 10px currentColor; }
+
+/* 词缀门户星：比翼上的派生星更大一档，点它进整个词缀家族 */
+.syn-star-gate { z-index: 2; }
+.syn-star-gate .syn-node-word { font-weight: 700; }
+.syn-star-glyph-gate { width: var(--sp-5); height: var(--sp-5); }
+
+/* 派生星上的词缀小标（un- / -ment）：颜色跟随所在图的星色 */
+.syn-star-tag {
+  font-size: var(--fs-2xs);
+  font-weight: 700;
+  color: inherit;
+  opacity: .85;
+  letter-spacing: .04em;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, .8);
+}
+.syn-star-above .syn-star-tag { order: 3; }           /* 词标朝上时小标垫底 */
+
+/* 中心：金色大星（北极星位），不参与闪烁 */
+.syn-node-center { gap: var(--sp-1-5); z-index: 2; cursor: default; }
+.syn-node-center .syn-node-word {
+  font-family: var(--serif);
+  font-size: var(--fs-lg2);
+  color: #fff;
+  text-shadow: 0 0 16px rgba(207, 224, 255, .95), 0 1px 4px rgba(0, 0, 0, .8);
+}
+.syn-star-glyph-center {
+  width: var(--sp-6);
+  height: var(--sp-6);
+  color: #ffe9b8;
+  animation: none;
+  filter: drop-shadow(0 0 9px rgba(255, 233, 184, .85));
+}
+/* 词缀中心：紫金大星 */
+.syn-node-center-aff .syn-node-word { text-shadow: 0 0 16px rgba(201, 168, 240, .9), 0 1px 4px rgba(0, 0, 0, .8); }
+.syn-node-center-aff .syn-star-glyph-center { color: #c9a8f0; filter: drop-shadow(0 0 9px rgba(180, 140, 224, .9)); }
+/* 词组中心：橙金大星 */
+.syn-node-center-phr .syn-node-word { text-shadow: 0 0 16px rgba(247, 205, 147, .9), 0 1px 4px rgba(0, 0, 0, .8); }
+.syn-node-center-phr .syn-star-glyph-center { color: #f7cd93; filter: drop-shadow(0 0 9px rgba(242, 180, 111, .9)); }
+
+/* ---------- 星图集页签（六张图，各带星数） ---------- */
+.syn-map-tabs { max-width:var(--w-narrow); margin: 0 auto var(--sp-3); }
+.syn-map-tabs-inner { display: flex; flex-wrap: wrap; gap: var(--sp-2); }
+.syn-map-tab {
+  display: inline-flex; align-items: center; gap: var(--sp-2);
+  padding: var(--sp-2) var(--sp-3-5); min-height: var(--sp-9);
+  font-family: var(--sans); font-size: var(--fs-md); font-weight: 600;
+  color: var(--ink-2); background: var(--paper);
+  border: 1px solid var(--line); border-radius: var(--r-pill);
+  cursor: pointer;
+  transition: transform .14s var(--ease-out), background .14s, color .14s, border-color .14s;
+}
+.syn-map-tab:hover:not(:disabled) { transform: translateY(-1px); border-color: var(--mc); color: var(--mc); }
+.syn-map-tab-n {
+  font-size: var(--fs-xs); font-weight: 700; min-width: var(--sp-5); padding: var(--sp-1) var(--sp-1-5);
+  text-align: center; border-radius: var(--r-pill);
+  background: var(--bg); color: var(--ink-3);
+}
+.syn-map-tab.active { background: var(--mc); border-color: var(--mc); color: #fff; }
+.syn-map-tab.active .syn-map-tab-n { background: rgba(255, 255, 255, .24); color: #fff; }
+.syn-map-tab:disabled { opacity: .38; cursor: not-allowed; }
+.syn-map-tab-syn  { --mc: #3f9c72; }
+.syn-map-tab-near { --mc: #3f78c4; }
+.syn-map-tab-ant  { --mc: #c2564d; }
+.syn-map-tab-sim  { --mc: var(--rel-sim-deep); }
+.syn-map-tab-pre  { --mc: var(--rel-pre-deep); }
+.syn-map-tab-suf  { --mc: var(--rel-suf-deep); }
+.syn-map-tab-phr  { --mc: var(--rel-phr-deep); }
+
+/* 图例（夜空右上角）：只讲当前这张图，六图切换交给页签，不重复列六项 */
+.syn-legend {
+  position: absolute;
+  top: var(--sp-2-5);
+  right: var(--sp-3);
+  display: inline-flex;
+  align-items: center;
+  gap: var(--sp-1-5);
+  max-width: 62%;
+  font-size: var(--fs-xs);
+  line-height:var(--lh-ui);
+  color: #b9c7e6;
+  z-index: 3;
+}
+.syn-dot { width: var(--sp-2); height: var(--sp-2); display: inline-block; border-radius: 50%; flex: none; }
+.syn-dot-syn  { background: var(--rel-syn); }
+.syn-dot-near { background: var(--rel-near); }
+.syn-dot-ant  { background: var(--rel-ant); }
+.syn-dot-sim  { background: var(--rel-sim); }
+.syn-dot-pre  { background: var(--rel-pre); }
+.syn-dot-suf  { background: var(--rel-suf); }
+.syn-dot-phr  { background: var(--rel-phr); }
+
+/* 空图引导：除了说明，还给一颗「去别的图」的按钮，别让人卡在空图上 */
+.syn-no-stars {
+  position: absolute; left: 50%; top: 46%; transform: translate(-50%,-50%);
+  color: #b9c7e6; font-size: var(--fs-md); text-align: center; width: 84%;
+}
+.syn-empty-jump {
+  display: inline-block; margin-top: var(--sp-3);
+  padding: var(--sp-2) var(--sp-4); font-family: var(--sans); font-size: var(--fs-sm); font-weight: 600;
+  color: #cfe0ff; background: rgba(207, 224, 255, .1);
+  border: 1px solid #4a5f8f; border-radius: var(--r-pill); cursor: pointer;
+}
+.syn-empty-jump:hover { background: rgba(207, 224, 255, .2); border-color: #6d84b8; }
+
+/* 星太多时的截断说明（全量在详情卡里） */
+.syn-trunc-note {
+  position: absolute; left: 50%; bottom: var(--sp-2-5); transform: translateX(-50%);
+  margin: 0; color: #93a5c9; font-size: var(--fs-xs); text-align: center; white-space: nowrap;
+}
+
+/* 闪烁对前庭敏感的用户是噪音：跟随系统减少动态设置 */
+@media (prefers-reduced-motion: reduce) {
+  .syn-bgstar-tw, .syn-star-glyph { animation: none; }
+  .syn-star-glyph { opacity: 1; transform: none; }
+}
+
+/* ---------- 详情「界面」卡片 ---------- */
+.syn-detail { margin-bottom: var(--sp-6); }
+.syn-detail-card {
+  background: var(--paper);
+  border: 1px solid var(--line);
+  border-radius: var(--r-lg);
+  box-shadow: var(--shadow);
+  padding: var(--sp-5);
+}
+.syn-detail-head { display: flex; align-items: baseline; gap: var(--sp-3); flex-wrap: wrap; margin-bottom: var(--sp-3); }
+.syn-detail-head h3 { font-family: var(--serif); font-size: var(--fs-2xl); color: var(--ink); margin: 0; }
+.syn-detail-meaning { color: var(--ink-3); font-size: var(--fs-md); }
+
+.syn-vocab { margin: var(--sp-2) 0 var(--sp-4); padding: var(--sp-3) var(--sp-4); background: var(--bg); border-radius: var(--r-md); }
+.syn-vocab-w { font-family: var(--serif); font-size: var(--fs-lg); color: var(--ink); }
+.syn-vocab-pos { font-family: var(--sans); font-size: var(--fs-xs); color: var(--accent); margin: 0 var(--sp-1); }
+.syn-vocab-ph { font-size: var(--fs-sm); color: var(--ink-3); }
+.syn-vocab-m { margin-top: var(--sp-1); color: var(--ink-2); font-size: var(--fs-md); }
+.syn-vocab-ex { margin-top: var(--sp-1-5); color: var(--ink); font-size: var(--fs-sm); line-height:var(--lh-ui); font-style: italic; }
+.syn-vocab-excn { color: var(--ink-3); font-size: var(--fs-sm); }
+.syn-vocab-src { margin-top: var(--sp-2); color: var(--ink-3); font-size: var(--fs-xs); }
+.syn-vocab-none, .syn-loading { color: var(--ink-3); font-size: var(--fs-sm); }
+
+.syn-rel-block { display: flex; flex-direction: column; gap: var(--sp-2); }
+.syn-rel { display: flex; align-items: center; flex-wrap: wrap; gap: var(--sp-2); }
+.syn-rel > b {
+  font-size: var(--fs-xs); font-weight: 700; padding: var(--sp-1) var(--sp-2-5); border-radius: var(--r-pill);
+  color: #fff;
+}
+.syn-rel-syn  > b { background: var(--green); }
+.syn-rel-near > b { background: var(--accent); }
+.syn-rel-ant  > b { background: var(--red); }
+.syn-rel-sim  > b { background: var(--rel-sim-deep); }
+.syn-rel-pre  > b { background: var(--rel-pre-deep); }
+.syn-rel-suf  > b { background: var(--rel-suf-deep); }
+.syn-rel-aff  > b { background: var(--rel-pre-deep); }
+.syn-rel-phr  > b { background: var(--rel-phr-deep); }
+.syn-rel-none { color: var(--ink-3); font-size: var(--fs-sm); }
+
+/* 近义图专属：与每个近义词的一对一辨析 */
+.syn-near-notes{ margin-top: var(--sp-2); border:1px solid var(--accent-line);padding:var(--sp-2) var(--sp-3); }
+.syn-near-note { margin: 0 0 var(--sp-1-5); padding-left: var(--sp-3); color: var(--ink-2); font-size: var(--fs-sm); line-height:var(--lh-body); }
+.syn-near-note:last-child { margin-bottom: 0; }
+.syn-near-note b { font-family: var(--serif); font-size: var(--fs-md); color: var(--ink); }
+
+/* 派生图口径说明：只声明词形派生，不声明词义 */
+.syn-derive-rule { margin: var(--sp-2) 0 0; color: var(--ink-3); font-size: var(--fs-xs); line-height:var(--lh-body); }
+
+/* 卡底固定动作：与查词模块（#/word/<词>）互通 */
+.syn-detail-foot { margin-top: var(--sp-4); padding-top: var(--sp-3); border-top: 1px solid var(--line); }
+.syn-to-word {
+  display: inline-flex; align-items: center;
+  font-size: var(--fs-sm); font-weight: 600; color: var(--accent); text-decoration: none;
+}
+.syn-to-word:hover { text-decoration: underline; }
+
+.syn-chip {
+  font-size: var(--fs-sm); font-weight: 600;
+  padding: var(--sp-1) var(--sp-3);
+  background: var(--paper);
+  border: 1px solid var(--line);
+  border-radius: var(--r-pill);
+  cursor: pointer;
+  transition: transform .12s var(--ease-out), background .12s, color .12s, border-color .12s;
+}
+.syn-chip:hover { transform: translateY(-1px); }
+.syn-chip-syn  { border-color: var(--green); color: var(--green); }
+.syn-chip-near { border-color: var(--accent);  color: var(--accent); }
+.syn-chip-ant  { border-color: var(--red);   color: var(--red); }
+.syn-chip-syn:hover  { background: var(--green); color: #fff; border-color: var(--green); }
+.syn-chip-near:hover { background: var(--accent);  color: #fff; border-color: var(--accent); }
+.syn-chip-ant:hover  { background: var(--red);   color: #fff; border-color: var(--red); }
+.syn-chip-sim  { border-color: var(--rel-sim); color: var(--rel-sim-ink); }
+.syn-chip-sim:hover { background: var(--rel-sim-deep); color: #fff; border-color: var(--rel-sim-deep); }
+.syn-chip-pre { border-color: var(--rel-pre); color: var(--rel-pre-ink); }
+.syn-chip-suf { border-color: var(--rel-suf); color: #21867c; }
+.syn-chip-pre:hover { background: var(--rel-pre-deep); color: #fff; border-color: var(--rel-pre-deep); }
+.syn-chip-suf:hover { background: var(--rel-suf-deep); color: #fff; border-color: var(--rel-suf-deep); }
+.syn-chip-phr { border-color: var(--rel-phr); color: var(--rel-phr-ink); }
+.syn-chip-phr:hover { background: var(--rel-phr-deep); color: #fff; border-color: var(--rel-phr-deep); }
+.syn-chip-aff {
+  border-color: var(--rel-pre); color: var(--rel-pre-ink);
+  display: inline-flex; align-items: center; gap: var(--sp-1-5);
+}
+.syn-chip-aff:hover { background: var(--rel-pre-deep); color: #fff; border-color: var(--rel-pre-deep); }
+.syn-chip-tag { font-size: var(--fs-2xs); font-weight: 700; opacity: .75; }
+
+/* ---------- 词缀速查表 ---------- */
+.syn-affixes-wrap { margin-bottom: var(--sp-5); }
+.syn-affix-note { color: var(--ink-3); font-size: var(--fs-sm); }
+.syn-affixes { display: flex; flex-direction: column; gap: var(--sp-3); }
+.syn-affix-row {
+  background: var(--paper); border: 1px solid var(--line); border-color:var(--rel-pre-deep); border-radius: var(--r-md);
+  padding: var(--sp-3) var(--sp-4); box-shadow: var(--shadow);
+}
+.syn-affix-row-title { font-family: var(--serif); font-size: var(--fs-base); color: var(--ink); }
+.syn-affix-chips { display: flex; flex-wrap: wrap; gap: var(--sp-1-5); margin-top: var(--sp-2); }
+
+/* ---------- 词缀详情卡 ---------- */
+.syn-kind-badge {
+  font-size: var(--fs-xs); font-weight: 700; padding: var(--sp-1) var(--sp-2-5);
+  border-radius: var(--r-pill); color: #fff; background: var(--rel-pre-deep);
+}
+.syn-affix-count { margin: 0 0 var(--sp-3); color: var(--ink-2); font-size: var(--fs-sm); }
+.syn-affix-family { display: flex; flex-wrap: wrap; gap: var(--sp-1-5); }
+.syn-affix-rule { margin: var(--sp-3) 0 0; color: var(--ink-3); font-size: var(--fs-xs); line-height:var(--lh-body); }
+
+/* ---------- 全部词族列表 ---------- */
+.syn-groups-head {
+  display: flex; align-items: center; justify-content: space-between;
+  gap: var(--sp-4); flex-wrap: wrap; margin-bottom: var(--sp-4);
+}
+.syn-groups-head h2 { font-family: var(--serif); font-size: var(--fs-xl); color: var(--ink); margin: 0; }
+
+.syn-filters { display: flex; flex-wrap: wrap; gap: var(--sp-2); align-items: center; }
+.syn-filter {
+  display: inline-flex; align-items: center; gap: var(--sp-1-5);
+  padding: var(--sp-2) var(--sp-4); min-height: var(--sp-9); font-size: var(--fs-md); font-weight: 600;
+  color: var(--ink-2); background: var(--paper);
+  border: 1px solid var(--line); border-radius: var(--r-pill); cursor: pointer;
+  transition: transform .15s var(--ease-out), background .15s, color .15s, border-color .15s;
+}
+.syn-filter:hover { border-color: var(--accent-line); }
+.syn-filter.active { background: var(--accent); color: #fff; border-color: var(--accent); }
+.syn-list-search {
+  min-height: var(--sp-9); padding: 0 var(--sp-4); font-size: var(--fs-md); color: var(--ink);
+  background: var(--bg); border: 1px solid var(--line); border-radius: var(--r-pill); outline: none;
+}
+.syn-list-search:focus { border-color: var(--accent-line); }
+
+.syn-groups { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: var(--sp-4); }
+.syn-group {
+  background: var(--paper); border: 1px solid var(--line); border-radius: var(--r-md);
+  padding: var(--sp-4); box-shadow: var(--shadow);
+}
+/* 关系类型用头部徽标区分（.syn-badge-* 已在下面），不再用左侧竖线（P-38） */
+.syn-group-syn  { border-color: var(--green);  }
+.syn-group-near { border-color: var(--accent); }
+.syn-group-ant  { border-color: var(--red);    }
+.syn-group-head { display: flex; align-items: center; gap: var(--sp-2); margin-bottom: var(--sp-3); flex-wrap: wrap; }
+.syn-badge { font-size: var(--fs-xs); font-weight: 700; padding: var(--sp-1) var(--sp-2-5); border-radius: var(--r-pill); color: #fff; }
+.syn-badge-syn  { background: var(--green); }
+.syn-badge-near { background: var(--accent); }
+.syn-badge-ant  { background: var(--red); }
+.syn-group-meaning { font-size: var(--fs-base); color: var(--ink); font-weight: 600; }
+.syn-group-words { display: flex; flex-wrap: wrap; gap: var(--sp-1-5); }
+.syn-group-note { margin: var(--sp-3) 0 0; color: var(--ink-2); font-size: var(--fs-sm); line-height:var(--lh-body); }
+.syn-empty { color: var(--ink-3); font-size: var(--fs-md); }
+
+/* ---------- 移动端 ---------- */
+@media (max-width: 640px) {
+  .syn-constellation { height: 360px; }
+  .syn-node { font-size: var(--fs-xs); }
+  .syn-node-center .syn-node-word { font-size: var(--fs-md2); }
+  .syn-star-glyph-center { width: var(--sp-5); height: var(--sp-5); }
+  .syn-star-glyph-gate { width: var(--sp-4); height: var(--sp-4); }
+  .syn-map-tabs { max-width: 100%; }
+  .syn-map-tab { padding: var(--sp-1-5) var(--sp-3); font-size: var(--fs-sm); min-height: var(--sp-9); }
+  .syn-legend { max-width: 78%; font-size: var(--fs-2xs); }
+  .syn-groups { grid-template-columns: 1fr; }
+  .syn-groups-head { flex-direction: column; align-items: flex-start; }
+}
+
+/* =====================================================================
+   星图集 v3（2026-09-01）：门厅六栏 + 单图球面星空
+   门厅（#/synonyms）：六栏星图入口（--sync 为各图关系色）；
+   单图（#/synonyms/<map>）：SVG 球面（斐波那契布点 + 深度投影），
+   拖拽/自转只做重投影，不走 innerHTML。二阶关联星（半亮）与
+   二阶连线（细虚线）参考 ai-knowledge-graph 的 degrees=2 邻域高亮。
+   ===================================================================== */
+
+/* ---------- 门厅六栏 ---------- */
+.syn-gate { display: grid; grid-template-columns: repeat(3, 1fr); gap: var(--sp-3-5); margin: 0 0 var(--sp-5); }
+.syn-gate-col {
+  display: flex; flex-direction: column; gap: var(--sp-1-5); padding: var(--sp-5) var(--sp-5);
+  background: var(--paper-1); border: 1px solid var(--line); border-radius: var(--r-md);
+  text-decoration: none; color: var(--ink);
+  transition: border-color .15s, transform .15s;
+}
+.syn-gate-col:hover { border-color: var(--sync); transform: translateY(-2px); }
+.syn-gate-kicker { font: 600 12px var(--sans); letter-spacing: .08em; }
+.syn-gate-count { font-size: var(--fs-6xl); line-height:var(--lh-num); color: var(--sync); }
+.syn-gate-sub { font-size: var(--fs-xs); color: var(--ink-3); }
+.syn-gate-blurb { margin: var(--sp-1-5) 0 var(--sp-1); font-size: var(--fs-sm); color: var(--ink-2); line-height:var(--lh-body); min-height: var(--sp-9); }
+.syn-gate-go { margin-top: auto; font-size: var(--fs-sm); font-weight: 600; color: var(--sync); }
+
+/* ---------- 单图球面 ---------- */
+.syn-sky {
+  height: 560px; max-width:var(--w-narrow);
+  touch-action: none; user-select: none; -webkit-user-select: none;
+}
+.syn-sky-tools { display: flex; align-items: center; gap: var(--sp-3-5); margin: 0 0 var(--sp-1-5); flex-wrap: wrap; }
+.syn-snode { cursor: default; }
+.syn-snode text { font: 12px var(--sans); pointer-events: none; }
+.syn-snode-hub text { font-weight: 700; font-size: var(--fs-md); }
+.syn-snode[data-action] { cursor: pointer; }
+.syn-snode[data-action]:hover text { fill: #fff !important; }
+.syn-snode[data-action]:focus-visible { outline: none; }
+.syn-snode[data-action]:focus path { filter: drop-shadow(0 0 5px currentColor); }
+.syn-star-tag { font-size: var(--fs-2xs); font-weight: 600; }
+.syn-line { stroke-width: 1.4; }
+.syn-line-gate { stroke-width: 1.2; stroke-dasharray: 3 4; }
+.syn-line-g2 { stroke: #9aa7b8; stroke-width: 1; stroke-dasharray: 2 4; pointer-events: none; }
+.syn-line[data-ea] { pointer-events: none; }
+
+/* ---------- 响应式 ---------- */
+@media (max-width: 900px) { .syn-gate { grid-template-columns: repeat(2, 1fr); } }
+@media (max-width: 640px) {
+  .syn-gate { grid-template-columns: 1fr; }
+  .syn-sky { height: 420px; }
+}

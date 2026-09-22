@@ -1,0 +1,1527 @@
+{
+ "id": "gk2023-xkb1",
+ "year": 2023,
+ "paper": "新课标Ⅰ卷",
+ "title": "2023年新课标Ⅰ卷英语",
+ "format": "new",
+ "duration": 120,
+ "totalScore": 150,
+ "hasAudio": false,
+ "audio": null,
+ "source": "2023年新课标全国Ⅰ卷英语真题（含听力）（解析版）.docx",
+ "sections": [
+  {
+   "key": "listening",
+   "partTitle": "第一部分 听力",
+   "secTitle": "",
+   "passages": [],
+   "pool": [],
+   "questions": [
+    {
+     "id": 1,
+     "stem": "What will Jack probably do this weekend?",
+     "options": [
+      {
+       "letter": "A",
+       "text": "Go camping."
+      },
+      {
+       "letter": "B",
+       "text": "Visit a friend."
+      },
+      {
+       "letter": "C",
+       "text": "Watch a film."
+      }
+     ],
+     "transcript": "【原文】W: Jack, are you going camping with your friends this weekend?\nM: It depends. If it’s sunny, we’ll go.\nW: The weatherman says it’s going to rain.\nM: In that case, we’ll go to the cinema instead.",
+     "answer": "C",
+     "type": "listening",
+     "score": 1.5
+    },
+    {
+     "id": 2,
+     "stem": "What does the woman ask the man to do?",
+     "options": [
+      {
+       "letter": "A",
+       "text": "Take care of her bags."
+      },
+      {
+       "letter": "B",
+       "text": "Pack the food for her."
+      },
+      {
+       "letter": "C",
+       "text": "Check the train schedule."
+      }
+     ],
+     "transcript": "【原文】W: Excuse me, could you mind my bags for a moment? I want to buy some food at the convenience store.\nM: No problem. But be quick. It was announced that my train would arrive in 10 minutes.",
+     "answer": "A",
+     "type": "listening",
+     "score": 1.5
+    },
+    {
+     "id": 3,
+     "stem": "When will the man see Bob?",
+     "options": [
+      {
+       "letter": "A",
+       "text": "This Friday."
+      },
+      {
+       "letter": "B",
+       "text": "This Saturday."
+      },
+      {
+       "letter": "C",
+       "text": "Next Monday."
+      }
+     ],
+     "transcript": "【原文】W: Mark came out of hospital last Friday. Have you got a chance to visit him?\nM: I plan to see him this Saturday.\nW: Aren’t you going to the conference then?\nM: No. It has been rescheduled for next Monday.",
+     "answer": "B",
+     "type": "listening",
+     "score": 1.5
+    },
+    {
+     "id": 4,
+     "stem": "Why does the man apologize?",
+     "options": [
+      {
+       "letter": "A",
+       "text": "For the terrible food."
+      },
+      {
+       "letter": "B",
+       "text": "For the overcharge."
+      },
+      {
+       "letter": "C",
+       "text": "For the waiter’s rudeness."
+      }
+     ],
+     "transcript": "【原文】M: Sorry, Miss. We made a terrible mistake adding up the bill. Here is the ten dollars we have to return to you.\nW: Oh, I didn’t notice that. It’s OK. Don’t blame the waiter. He’s been really nice.",
+     "answer": "B",
+     "type": "listening",
+     "score": 1.5
+    },
+    {
+     "id": 5,
+     "stem": "What are the speakers talking about?",
+     "options": [
+      {
+       "letter": "A",
+       "text": "Writing a book."
+      },
+      {
+       "letter": "B",
+       "text": "Holding a celebration."
+      },
+      {
+       "letter": "C",
+       "text": "Buying a present."
+      }
+     ],
+     "transcript": "【原文】W: Do you think we should get Steve a book for the new year?\nM: Books are good. But Steve wouldn’t take just any book. He has had this particular one on geography.",
+     "answer": "C",
+     "type": "listening",
+     "score": 1.5
+    },
+    {
+     "id": 6,
+     "stem": "Why does Sara make the phone call?",
+     "options": [
+      {
+       "letter": "A",
+       "text": "To ask for advice."
+      },
+      {
+       "letter": "B",
+       "text": "To arrange an outing."
+      },
+      {
+       "letter": "C",
+       "text": "To cancel an appointment."
+      }
+     ],
+     "transcript": "【原文】M: Hello, Sara.\nW: Hello, David. I can’t come for dinner tonight. Sorry.\nM: Oh, what happened?\nW: We’ve got a new case and things get pretty crazy here in the office.\nM: Well, then I’ll come to you.\nW: No, no, not tonight. Let me see if I can arrange another night.\nM: Sara, please. We need to talk. It’s about my job.\nW: Then tell me on the phone.\nM: No, it’s better if we do it in person. How about tomorrow night?\nW: I’m not sure. You can give me a call tomorrow afternoon.\nM: OK.\n听下面一段较长对话，回答以下小题。",
+     "answer": "C",
+     "type": "listening",
+     "score": 1.5
+    },
+    {
+     "id": 7,
+     "stem": "What does David want to do?",
+     "options": [
+      {
+       "letter": "A",
+       "text": "Go to a dinner party."
+      },
+      {
+       "letter": "B",
+       "text": "Talk to Sara in person."
+      },
+      {
+       "letter": "C",
+       "text": "Work on the new case."
+      }
+     ],
+     "transcript": "【原文】M: Hello, Sara.\nW: Hello, David. I can’t come for dinner tonight. Sorry.\nM: Oh, what happened?\nW: We’ve got a new case and things get pretty crazy here in the office.\nM: Well, then I’ll come to you.\nW: No, no, not tonight. Let me see if I can arrange another night.\nM: Sara, please. We need to talk. It’s about my job.\nW: Then tell me on the phone.\nM: No, it’s better if we do it in person. How about tomorrow night?\nW: I’m not sure. You can give me a call tomorrow afternoon.\nM: OK.\n听下面一段较长对话，回答以下小题。",
+     "answer": "B",
+     "type": "listening",
+     "score": 1.5
+    },
+    {
+     "id": 8,
+     "stem": "Where is Jim now?",
+     "options": [
+      {
+       "letter": "A",
+       "text": "In a taxi."
+      },
+      {
+       "letter": "B",
+       "text": "On a bus."
+      },
+      {
+       "letter": "C",
+       "text": "In his office."
+      }
+     ],
+     "transcript": "【原文】W: Jim will call on us this afternoon. Do you know where he is now?\nM: Er... wait. Let me see. He has sent two messages saying that he’s done with his work at the office and got a taxi and... and he’ll arrive in twenty minutes.\nW: We can’t keep him waiting outside our home. We have to hurry.\nM: But it takes at least half an hour to get to the city center by bus. Look at the traffic.\nW: Let’s get off. We can save at least twenty minutes by walking through the park.\nM: Are you sure?\nW: Yes. A hundred percent.\n听下面一段较长对话，回答以下小题。",
+     "answer": "A",
+     "type": "listening",
+     "score": 1.5
+    },
+    {
+     "id": 9,
+     "stem": "What is the woman’s suggestion?",
+     "options": [
+      {
+       "letter": "A",
+       "text": "Going to the city center."
+      },
+      {
+       "letter": "B",
+       "text": "Taking a short cut home."
+      },
+      {
+       "letter": "C",
+       "text": "Meeting Jim in the park."
+      }
+     ],
+     "transcript": "【原文】W: Jim will call on us this afternoon. Do you know where he is now?\nM: Er... wait. Let me see. He has sent two messages saying that he’s done with his work at the office and got a taxi and... and he’ll arrive in twenty minutes.\nW: We can’t keep him waiting outside our home. We have to hurry.\nM: But it takes at least half an hour to get to the city center by bus. Look at the traffic.\nW: Let’s get off. We can save at least twenty minutes by walking through the park.\nM: Are you sure?\nW: Yes. A hundred percent.\n听下面一段较长对话，回答以下小题。",
+     "answer": "B",
+     "type": "listening",
+     "score": 1.5
+    },
+    {
+     "id": 10,
+     "stem": "What did Clara do at the weekend?",
+     "options": [
+      {
+       "letter": "A",
+       "text": "She planted vegetables."
+      },
+      {
+       "letter": "B",
+       "text": "She went to a yard sale."
+      },
+      {
+       "letter": "C",
+       "text": "She visited her grandpa."
+      }
+     ],
+     "transcript": "【原文】W: Morning, Mark.\nM: Morning, Clara. How was your weekend?\nW: Great. I went to my grandpa’s. He invited us to pick vegetables on his farm. My daughter had a great time there. What about you?\nM: Oh, I had a truly incredible experience. I dropped by a yard sale on Saturday and got several books.\nW: Novels?\nM: A novel and two poetry collections. As I leafed through the novel, a piece of paper fell out. It was an air ticket from 2012. The flight was from Los Angeles to Chicago and the name on the ticket was Ashley Louis.\nW: Was it?\nM: Yes. Ashley, my sister. In 2012, she lived in Los Angeles and her husband worked in Chicago. Both of them often flew between two cities. I asked the seller where he got the book. He said it was bought at a second-hand bookstore in Los Angeles three years ago. Last year, he and his family moved from Los Angeles to Philadelphia.\nW: So, all the way across the country, your sister’s old book landed in your hands. That’s really crazy.\n听下面一段较长对话，回答以下小题。",
+     "answer": "C",
+     "type": "listening",
+     "score": 1.5
+    },
+    {
+     "id": 11,
+     "stem": "What did Mark find inside one of the books he bought?",
+     "options": [
+      {
+       "letter": "A",
+       "text": "A plane ticket."
+      },
+      {
+       "letter": "B",
+       "text": "A family photo."
+      },
+      {
+       "letter": "C",
+       "text": "A post card."
+      }
+     ],
+     "transcript": "【原文】W: Morning, Mark.\nM: Morning, Clara. How was your weekend?\nW: Great. I went to my grandpa’s. He invited us to pick vegetables on his farm. My daughter had a great time there. What about you?\nM: Oh, I had a truly incredible experience. I dropped by a yard sale on Saturday and got several books.\nW: Novels?\nM: A novel and two poetry collections. As I leafed through the novel, a piece of paper fell out. It was an air ticket from 2012. The flight was from Los Angeles to Chicago and the name on the ticket was Ashley Louis.\nW: Was it?\nM: Yes. Ashley, my sister. In 2012, she lived in Los Angeles and her husband worked in Chicago. Both of them often flew between two cities. I asked the seller where he got the book. He said it was bought at a second-hand bookstore in Los Angeles three years ago. Last year, he and his family moved from Los Angeles to Philadelphia.\nW: So, all the way across the country, your sister’s old book landed in your hands. That’s really crazy.\n听下面一段较长对话，回答以下小题。",
+     "answer": "A",
+     "type": "listening",
+     "score": 1.5
+    },
+    {
+     "id": 12,
+     "stem": "Where does Mark live?",
+     "options": [
+      {
+       "letter": "A",
+       "text": "Los Angeles."
+      },
+      {
+       "letter": "B",
+       "text": "Chicago."
+      },
+      {
+       "letter": "C",
+       "text": "Philadelphia."
+      }
+     ],
+     "transcript": "【原文】W: Morning, Mark.\nM: Morning, Clara. How was your weekend?\nW: Great. I went to my grandpa’s. He invited us to pick vegetables on his farm. My daughter had a great time there. What about you?\nM: Oh, I had a truly incredible experience. I dropped by a yard sale on Saturday and got several books.\nW: Novels?\nM: A novel and two poetry collections. As I leafed through the novel, a piece of paper fell out. It was an air ticket from 2012. The flight was from Los Angeles to Chicago and the name on the ticket was Ashley Louis.\nW: Was it?\nM: Yes. Ashley, my sister. In 2012, she lived in Los Angeles and her husband worked in Chicago. Both of them often flew between two cities. I asked the seller where he got the book. He said it was bought at a second-hand bookstore in Los Angeles three years ago. Last year, he and his family moved from Los Angeles to Philadelphia.\nW: So, all the way across the country, your sister’s old book landed in your hands. That’s really crazy.\n听下面一段较长对话，回答以下小题。",
+     "answer": "C",
+     "type": "listening",
+     "score": 1.5
+    },
+    {
+     "id": 13,
+     "stem": "What is the relationship between Mark and Ashley?",
+     "options": [
+      {
+       "letter": "A",
+       "text": "Brother and sister."
+      },
+      {
+       "letter": "B",
+       "text": "Husband and wife."
+      },
+      {
+       "letter": "C",
+       "text": "Father and daughter."
+      }
+     ],
+     "transcript": "【原文】W: Morning, Mark.\nM: Morning, Clara. How was your weekend?\nW: Great. I went to my grandpa’s. He invited us to pick vegetables on his farm. My daughter had a great time there. What about you?\nM: Oh, I had a truly incredible experience. I dropped by a yard sale on Saturday and got several books.\nW: Novels?\nM: A novel and two poetry collections. As I leafed through the novel, a piece of paper fell out. It was an air ticket from 2012. The flight was from Los Angeles to Chicago and the name on the ticket was Ashley Louis.\nW: Was it?\nM: Yes. Ashley, my sister. In 2012, she lived in Los Angeles and her husband worked in Chicago. Both of them often flew between two cities. I asked the seller where he got the book. He said it was bought at a second-hand bookstore in Los Angeles three years ago. Last year, he and his family moved from Los Angeles to Philadelphia.\nW: So, all the way across the country, your sister’s old book landed in your hands. That’s really crazy.\n听下面一段较长对话，回答以下小题。",
+     "answer": "A",
+     "type": "listening",
+     "score": 1.5
+    },
+    {
+     "id": 14,
+     "stem": "What is probably the woman?",
+     "options": [
+      {
+       "letter": "A",
+       "text": "A teacher."
+      },
+      {
+       "letter": "B",
+       "text": "A journalist."
+      },
+      {
+       "letter": "C",
+       "text": "An athlete."
+      }
+     ],
+     "transcript": "【原文】W: Victor, you’ve been here in Indiana for six weeks now. How are you feeling?\nM: I think I’ve got used to college life, going to classes, working out and hanging out with my friends. Though there’s pressure to meet deadlines, life here is never boring.\nW: What’s been hard about being an Indianan basketball player?\nM: Well, the training is very competitive, weightlifting and running every day. It’s not like high school. In high school, I really didn’t have to do that. I’m just trying to get used to it. And I think I am.\nW: At this point, how do you see yourself fitting into this group?\nM: I think we’re all different. George is from Britain. Chris and Leo are from Australia. I’m from France. And the rest are Americans. But I get along with everybody. You know, we are really starting to bond. It’s great to see how we grow each day as a team.\nW: Thanks, Victor. I wish you a very happy and fruitful stay in Indiana.\n听下面一段独白，回答以下小题。",
+     "answer": "B",
+     "type": "listening",
+     "score": 1.5
+    },
+    {
+     "id": 15,
+     "stem": "What does Victor find difficult as a member of the basketball team?",
+     "options": [
+      {
+       "letter": "A",
+       "text": "Adapting himself to the intense training."
+      },
+      {
+       "letter": "B",
+       "text": "Dealing with the pressure from the coach."
+      },
+      {
+       "letter": "C",
+       "text": "Regaining the skills learned in high school."
+      }
+     ],
+     "transcript": "【原文】W: Victor, you’ve been here in Indiana for six weeks now. How are you feeling?\nM: I think I’ve got used to college life, going to classes, working out and hanging out with my friends. Though there’s pressure to meet deadlines, life here is never boring.\nW: What’s been hard about being an Indianan basketball player?\nM: Well, the training is very competitive, weightlifting and running every day. It’s not like high school. In high school, I really didn’t have to do that. I’m just trying to get used to it. And I think I am.\nW: At this point, how do you see yourself fitting into this group?\nM: I think we’re all different. George is from Britain. Chris and Leo are from Australia. I’m from France. And the rest are Americans. But I get along with everybody. You know, we are really starting to bond. It’s great to see how we grow each day as a team.\nW: Thanks, Victor. I wish you a very happy and fruitful stay in Indiana.\n听下面一段独白，回答以下小题。",
+     "answer": "A",
+     "type": "listening",
+     "score": 1.5
+    },
+    {
+     "id": 16,
+     "stem": "What does Victor say about the players on the team?",
+     "options": [
+      {
+       "letter": "A",
+       "text": "They are of the same age."
+      },
+      {
+       "letter": "B",
+       "text": "They are similar in character."
+      },
+      {
+       "letter": "C",
+       "text": "They are from different countries."
+      }
+     ],
+     "transcript": "【原文】W: Victor, you’ve been here in Indiana for six weeks now. How are you feeling?\nM: I think I’ve got used to college life, going to classes, working out and hanging out with my friends. Though there’s pressure to meet deadlines, life here is never boring.\nW: What’s been hard about being an Indianan basketball player?\nM: Well, the training is very competitive, weightlifting and running every day. It’s not like high school. In high school, I really didn’t have to do that. I’m just trying to get used to it. And I think I am.\nW: At this point, how do you see yourself fitting into this group?\nM: I think we’re all different. George is from Britain. Chris and Leo are from Australia. I’m from France. And the rest are Americans. But I get along with everybody. You know, we are really starting to bond. It’s great to see how we grow each day as a team.\nW: Thanks, Victor. I wish you a very happy and fruitful stay in Indiana.\n听下面一段独白，回答以下小题。",
+     "answer": "C",
+     "type": "listening",
+     "score": 1.5
+    },
+    {
+     "id": 17,
+     "stem": "How does Victor feel about his team now?",
+     "options": [
+      {
+       "letter": "A",
+       "text": "It’s about to break up."
+      },
+      {
+       "letter": "B",
+       "text": "It’s the best in Indiana."
+      },
+      {
+       "letter": "C",
+       "text": "It’s getting stronger."
+      }
+     ],
+     "transcript": "【原文】W: Victor, you’ve been here in Indiana for six weeks now. How are you feeling?\nM: I think I’ve got used to college life, going to classes, working out and hanging out with my friends. Though there’s pressure to meet deadlines, life here is never boring.\nW: What’s been hard about being an Indianan basketball player?\nM: Well, the training is very competitive, weightlifting and running every day. It’s not like high school. In high school, I really didn’t have to do that. I’m just trying to get used to it. And I think I am.\nW: At this point, how do you see yourself fitting into this group?\nM: I think we’re all different. George is from Britain. Chris and Leo are from Australia. I’m from France. And the rest are Americans. But I get along with everybody. You know, we are really starting to bond. It’s great to see how we grow each day as a team.\nW: Thanks, Victor. I wish you a very happy and fruitful stay in Indiana.\n听下面一段独白，回答以下小题。",
+     "answer": "C",
+     "type": "listening",
+     "score": 1.5
+    },
+    {
+     "id": 18,
+     "stem": "Who is Tom Hokinson?",
+     "options": [
+      {
+       "letter": "A",
+       "text": "Founder of a magazine."
+      },
+      {
+       "letter": "B",
+       "text": "Publisher of a novel."
+      },
+      {
+       "letter": "C",
+       "text": "Editor of a newspaper."
+      }
+     ],
+     "transcript": "【原文】W: Good evening, dear listeners. When was the last time you enjoyed leisure activities? Do you want to live a full and happy life? Today,I’m going to introduce to you a magazine that features the art of living. The Idler was launched by Tom Hodgkinson, back in 1993. With the intention of providing a bit of fun, freedom and achievement in the busy world, it is now published bimonthly.In every issue, you will find an interesting mix of interviews and essays on the good life, history, philosophy, arts and fashion photography. You will find much to laugh at and much useful stuff as well, from recipes for making bacon to guides to housekeeping.If you ever felt that there is more to life than boring jobs, then why not subscribe to it? The Idler is a cheering read that makes you feel better about life. You can download the application and subscribe today to get your first issue free.",
+     "answer": "A",
+     "type": "listening",
+     "score": 1.5
+    },
+    {
+     "id": 19,
+     "stem": "What do we know about the content of The Idler?",
+     "options": [
+      {
+       "letter": "A",
+       "text": "It’s old-fashioned."
+      },
+      {
+       "letter": "B",
+       "text": "It’s wide-ranging."
+      },
+      {
+       "letter": "C",
+       "text": "It’s student-targeted."
+      }
+     ],
+     "transcript": "【原文】W: Good evening, dear listeners. When was the last time you enjoyed leisure activities? Do you want to live a full and happy life? Today,I’m going to introduce to you a magazine that features the art of living. The Idler was launched by Tom Hodgkinson, back in 1993. With the intention of providing a bit of fun, freedom and achievement in the busy world, it is now published bimonthly.In every issue, you will find an interesting mix of interviews and essays on the good life, history, philosophy, arts and fashion photography. You will find much to laugh at and much useful stuff as well, from recipes for making bacon to guides to housekeeping.If you ever felt that there is more to life than boring jobs, then why not subscribe to it? The Idler is a cheering read that makes you feel better about life. You can download the application and subscribe today to get your first issue free.",
+     "answer": "B",
+     "type": "listening",
+     "score": 1.5
+    },
+    {
+     "id": 20,
+     "stem": "Why does the speaker give the talk?",
+     "options": [
+      {
+       "letter": "A",
+       "text": "To do a promotion."
+      },
+      {
+       "letter": "B",
+       "text": "To discuss an issue."
+      },
+      {
+       "letter": "C",
+       "text": "To introduce a lecturer."
+      }
+     ],
+     "transcript": "【原文】W: Good evening, dear listeners. When was the last time you enjoyed leisure activities? Do you want to live a full and happy life? Today,I’m going to introduce to you a magazine that features the art of living. The Idler was launched by Tom Hodgkinson, back in 1993. With the intention of providing a bit of fun, freedom and achievement in the busy world, it is now published bimonthly.In every issue, you will find an interesting mix of interviews and essays on the good life, history, philosophy, arts and fashion photography. You will find much to laugh at and much useful stuff as well, from recipes for making bacon to guides to housekeeping.If you ever felt that there is more to life than boring jobs, then why not subscribe to it? The Idler is a cheering read that makes you feel better about life. You can download the application and subscribe today to get your first issue free.",
+     "answer": "A",
+     "type": "listening",
+     "score": 1.5
+    }
+   ]
+  },
+  {
+   "key": "reading",
+   "partTitle": "第二部分  阅读(共两节，满分50分)",
+   "secTitle": "第一节  (共15小题;每小题2.5分，满分37.5分)",
+   "passages": [
+    {
+     "label": "A",
+     "text": "阅读下列短文，从每题所给的A、B、C、D四个选项中选出最佳选项。"
+    },
+    {
+     "label": "A",
+     "text": "Bike Rental & Guided Tours\nWelcome to Amsterdam, welcome to MacBike. You see much more from the seat of a bike! Cycling is the most economical, sustainable and fun way to explore the city, with its beautiful canals, parks, squares and countless lights. You can also bike along lovely landscapes outside of Amsterdam.\nWhy MacBike\nMacBike has been around for almost 30 years and is the biggest bicycle rental company in Amsterdam. With over 2,500 bikes stored in our five rental shops at strategic locations, we make sure there is always a bike available for you. We offer the newest bicycles in a wide variety, including basic bikes with foot brake (刹车), bikes with hand brake and gears (排挡), bikes with child seats, and children’s bikes.\nPrices\nGuided City Tours\nThe 2.5-hour tour covers the Gooyer Windmill, the Skinny Bridge, the Rijksmuseum, Heineken Brewery and much more. The tour departs from Dam Square every hour on the hour, starting at 1:00 pm every day. You can buy your ticket in a MacBike shop or book online."
+    },
+    {
+     "label": "B",
+     "text": "When John Todd was a child, he loved to explore the woods around his house, observing how nature solved problems. A dirty stream, for example, often became clear after flowing through plants and along rocks where tiny creatures lived. When he got older, John started to wonder if this process could be used to clean up the messes people were making.\nAfter studying agriculture, medicine, and fisheries in college, John went back to observing nature and asking questions. Why can certain plants trap harmful bacteria (细菌)? Which kinds of fish can eat cancer-causing chemicals? With the right combination of animals and plants, he figured, maybe he could clean up waste the way nature did. He decided to build what he would later call an eco-machine.\nThe task John set for himself was to remove harmful substances from some sludge (污泥). First, he constructed a series of clear fiberglass tanks connected to each other. Then he went around to local ponds and streams and brought back some plants and animals. He placed them in the tanks and waited. Little by little, these different kinds of life got used to one another and formed their own ecosystem. After a few weeks, John added the sludge.\nHe was amazed at the results. The plants and animals in the eco-machine took the sludge as food and began to eat it! Within weeks, it had all been digested, and all that was left was pure water.\nOver the years, John has taken on many big jobs. He developed a greenhouse — like facility that treated sewage (污水) from 1,600 homes in South Burlington. He also designed an eco-machine to clean canal water in Fuzhou, a city in southeast China.\n“Ecological design” is the name John gives to what he does. “Life on Earth is kind of a box of spare parts for the inventor,” he says. “You put organisms in new relationships and observe what’s happening. Then you let these new systems develop their own ways to self-repair.”"
+    },
+    {
+     "label": "C",
+     "text": "The goal of this book is to make the case for digital minimalism, including a detailed exploration of what it asks and why it works, and then to teach you how to adopt this philosophy if you decide it’s right for you.\nTo do so, I divided the book into two parts. In part one, I describe the philosophical foundations of digital minimalism, starting with an examination of the forces that are making so many people’s digital lives increasingly intolerable, before moving on to a detailed discussion of the digital minimalism philosophy.\nPart one concludes by introducing my suggested method for adopting this philosophy: the digital declutter. This process requires you to step away from optional online activities for thirty days. At the end of the thirty days, you will then add back a small number of carefully chosen online activities that you believe will provide massive benefits to the things you value.\nIn the final chapter of part one, I’ll guide you through carrying out your own digital declutter. In doing so, I’ll draw on an experiment I ran in 2018 in which over 1,600 people agreed to perform a digital declutter. You’ll hear these participants’ stories and learn what strategies worked well for them, and what traps they encountered that you should avoid.\nThe second part of this book takes a closer look at some ideas that will help you cultivate (培养) a sustainable digital minimalism lifestyle. In these chapters, I examine issues such as the importance of solitude (独处) and the necessity of cultivating high-quality leisure to replace the time most now spend on mindless device use. Each chapter concludes with a collection of practices, which are designed to help you act on the big ideas of the chapter. You can view these practices as a toolbox meant to aid your efforts to build a minimalist lifestyle that works for your particular circumstances."
+    },
+    {
+     "label": "D",
+     "text": "On March 7, 1907, the English statistician Francis Galton published a paper which illustrated what has come to be known as the “wisdom of crowds” effect. The experiment of estimation he conducted showed that in some cases, the average of a large number of independent estimates could be quite accurate.\nThis effect capitalizes on the fact that when people make errors, those errors aren’t always the same. Some people will tend to overestimate, and some to underestimate. When enough of these errors are averaged together, they cancel each other out, resulting in a more accurate estimate. If people are similar and tend to make the same errors, then their errors won’t cancel each other out. In more technical terms, the wisdom of crowds requires that people’s estimates be independent. If for whatever reasons, people’s errors become correlated or dependent, the accuracy of the estimate will go down.\nBut a new study led by Joaquin Navajas offered an interesting twist (转折) on this classic phenomenon. The key finding of the study was that when crowds were further divided into smaller groups that were allowed to have a discussion, the averages from these groups were more accurate than those from an equal number of independent individuals. For instance, the average obtained from the estimates of four discussion groups of five was significantly more accurate than the average obtained from 20 independent individuals.\nIn a follow-up study with 100 university students, the researchers tried to get a better sense of what the group members actually did in their discussion. Did they tend to go with those most confident about their estimates? Did they follow those least willing to change their minds? This happened some of the time, but it wasn’t the dominant response. Most frequently, the groups reported that they “shared arguments and reasoned together”. Somehow, these arguments and reasoning resulted in a global reduction in error. Although the studies led by Navajas have limitations and many questions remain, the potential implications for group discussion and decision-making are enormous."
+    }
+   ],
+   "pool": [],
+   "questions": [
+    {
+     "id": 21,
+     "stem": "What is an advantage of MacBike?",
+     "options": [
+      {
+       "letter": "A",
+       "text": "It gives children a discount."
+      },
+      {
+       "letter": "B",
+       "text": "It offers many types of bikes."
+      },
+      {
+       "letter": "C",
+       "text": "It organizes free cycle tours."
+      },
+      {
+       "letter": "D",
+       "text": "It has over 2,500 rental shops."
+      }
+     ],
+     "passageLabel": "A",
+     "explanation": "推理判断题。根据文章第二段“We offer the newest bicycles in a wide variety, including basic bikes with foot brake (刹车), bikes with hand brake and gears (排挡), bikes with child seats, and children’s bikes. (我们提供种类繁多最新自行车，包括有脚刹的基本自行车、有手刹和带排挡的自行车、带儿童座椅的自行车和儿童自行车)”可推知，MacBike的优势是它提供许多类型的自行车。故选B。",
+     "type": "reading",
+     "score": 2.5,
+     "answer": "B"
+    },
+    {
+     "id": 22,
+     "stem": "How much do you pay for renting a bike with hand brake and three gears for two days?",
+     "options": [
+      {
+       "letter": "A",
+       "text": "€15.75."
+      },
+      {
+       "letter": "B",
+       "text": "€19.50."
+      },
+      {
+       "letter": "C",
+       "text": "€22.75."
+      },
+      {
+       "letter": "D",
+       "text": "€29.50."
+      }
+     ],
+     "passageLabel": "A",
+     "explanation": "细节理解题。根据定价表可知，租一辆带手刹和三档的自行车一天需要14.75欧元，额外增加天数每天8欧元。所以租一辆带手刹和三档的自行车两天需要14.75+8=22.75欧元。故选C。",
+     "type": "reading",
+     "score": 2.5,
+     "answer": "C"
+    },
+    {
+     "id": 23,
+     "stem": "Where does the guided city tour start?",
+     "options": [
+      {
+       "letter": "A",
+       "text": "The Gooyer, Windmill."
+      },
+      {
+       "letter": "B",
+       "text": "The Skinny Bridge."
+      },
+      {
+       "letter": "C",
+       "text": "Heineken Brewery."
+      },
+      {
+       "letter": "D",
+       "text": "Dam Square."
+      }
+     ],
+     "passageLabel": "A",
+     "explanation": "细节理解题。根据文章最后一段“The tour departs from Dam Square every hour on the hour, starting at 1:00 pm every day. (旅游团每小时从大坝广场出发，每天下午1点开始)”可知，导游城市之旅从大坝广场开始。故选D。",
+     "type": "reading",
+     "score": 2.5,
+     "answer": "D"
+    },
+    {
+     "id": 24,
+     "stem": "What can we learn about John from the first two paragraphs?",
+     "options": [
+      {
+       "letter": "A",
+       "text": "He was fond of traveling."
+      },
+      {
+       "letter": "B",
+       "text": "He enjoyed being alone."
+      },
+      {
+       "letter": "C",
+       "text": "He had an inquiring mind."
+      },
+      {
+       "letter": "D",
+       "text": "He longed to be a doctor."
+      }
+     ],
+     "passageLabel": "B",
+     "explanation": "细节理解题。根据第一段“When John Todd was a child, he loved to explore the woods around his house, observing how nature solved problems. A dirty stream, for example, often became clear after flowing through plants and along rocks where tiny creatures lived. When he got older, John started to wonder if this process could be used to clean up the messes people were making. (当约翰·托德还是个孩子的时候，他喜欢探索房子周围的树林，观察大自然是如何解决问题的。例如，一条肮脏的小溪流经植物和微小生物居住的岩石后，往往会变得清澈。长大后，约翰开始思考这个过程是否可以用来清理人们制造的混乱)”以及第二段“After studying agriculture, medicine, and fisheries in college, John went back to observing nature and asking questions. Why can certain plants trap harmful bacteria (细菌)? Which kinds of fish can eat cancer-causing chemicals? (在大学学习了农业、医学和渔业之后，约翰又回到了观察自然和提出问题的生活中。为什么某些植物能捕获有害细菌？哪些鱼类会食用致癌化学物质？)”可知，约翰聪颖好学、好奇心很强。故选C。",
+     "type": "reading",
+     "score": 2.5,
+     "answer": "C"
+    },
+    {
+     "id": 25,
+     "stem": "Why did John put the sludge into the tanks?",
+     "options": [
+      {
+       "letter": "A",
+       "text": "To feed the animals."
+      },
+      {
+       "letter": "B",
+       "text": "To build an ecosystem."
+      },
+      {
+       "letter": "C",
+       "text": "To protect the plants."
+      },
+      {
+       "letter": "D",
+       "text": "To test the eco-machine."
+      }
+     ],
+     "passageLabel": "B",
+     "explanation": "细节理解题。根据第三段“After a few weeks, John added the sludge. (几个星期后，约翰把污泥加了进去)”以及倒数第三段“He was amazed at the results. The plants and animals in the eco-machine took the sludge as food and began to eat it! Within weeks, it had all been digested, and all that was left was pure water. (他对结果感到惊讶。生态机器里的动植物把污泥当成了食物，开始吃了起来！几周之内，它就被消化了，只剩下纯净水)”可知，约翰把污泥放进罐子里是为了测试生态机器。故选D。",
+     "type": "reading",
+     "score": 2.5,
+     "answer": "D"
+    },
+    {
+     "id": 26,
+     "stem": "What is the author’s purpose in mentioning Fuzhou?",
+     "options": [
+      {
+       "letter": "A",
+       "text": "To review John’s research plans."
+      },
+      {
+       "letter": "B",
+       "text": "To show an application of John’s idea."
+      },
+      {
+       "letter": "C",
+       "text": "To compare John’s different jobs."
+      },
+      {
+       "letter": "D",
+       "text": "To erase doubts about John’s invention."
+      }
+     ],
+     "passageLabel": "B",
+     "explanation": "推理判断题。根据倒数第二段“Over the years, John has taken on many big jobs. He developed a greenhouse — like facility that treated sewage (污水) from 1,600 homes in South Burlington. He also designed an eco-machine to clean canal water in Fuzhou, a city in southeast China. (这些年来，约翰承担了许多重大工作。他开发了一个类似温室的设施，可以处理来自南伯灵顿1600户家庭的污水。他还设计了一种生态机器来清洁中国东南部城市福州的运河水)”可推知，作者提到福州的目的是展示约翰想法的应用。故选B。",
+     "type": "reading",
+     "score": 2.5,
+     "answer": "B"
+    },
+    {
+     "id": 27,
+     "stem": "What is the basis for John’s work?",
+     "options": [
+      {
+       "letter": "A",
+       "text": "Nature can repair itself."
+      },
+      {
+       "letter": "B",
+       "text": "Organisms need water to survive."
+      },
+      {
+       "letter": "C",
+       "text": "Life on Earth is diverse."
+      },
+      {
+       "letter": "D",
+       "text": "Most tiny creatures live in groups."
+      }
+     ],
+     "passageLabel": "B",
+     "explanation": "推理判断题。根据最后一段“You put organisms in new relationships and observe what’s happening. Then you let these new systems develop their own ways to self-repair. (你把生物体放在新的关系中，观察会发生什么。然后让这些新系统自行发展自我修复的方式)”可知，约翰工作的基础是自然可以自我修复。故选A。",
+     "type": "reading",
+     "score": 2.5,
+     "answer": "A"
+    },
+    {
+     "id": 28,
+     "stem": "What is the book aimed at?",
+     "options": [
+      {
+       "letter": "A",
+       "text": "Teaching critical thinking skills."
+      },
+      {
+       "letter": "B",
+       "text": "Advocating a simple digital lifestyle."
+      },
+      {
+       "letter": "C",
+       "text": "Solving philosophical problems."
+      },
+      {
+       "letter": "D",
+       "text": "Promoting the use of a digital device."
+      }
+     ],
+     "passageLabel": "C",
+     "explanation": "细节理解题。根据文章第一段“The goal of this book is to make the case for digital minimalism, including a detailed exploration of what it asks and why it works, and then to teach you how to adopt this philosophy if you decide it’s right for you. (这本书的目标是为数字极简主义辩护，包括详细探索它的要求和为什么有效，然后如果你认为它适合你，教你如何采用这种哲学)”可知，这本书的目的是倡导简单的数字生活方式。故选B。",
+     "type": "reading",
+     "score": 2.5,
+     "answer": "B"
+    },
+    {
+     "id": 29,
+     "stem": "What does the underlined word “declutter” in paragraph 3 mean?",
+     "options": [
+      {
+       "letter": "A",
+       "text": "Clear-up."
+      },
+      {
+       "letter": "B",
+       "text": "Add-on."
+      },
+      {
+       "letter": "C",
+       "text": "Check-in."
+      },
+      {
+       "letter": "D",
+       "text": "Take-over."
+      }
+     ],
+     "passageLabel": "C",
+     "explanation": "词句猜测题。根据画线词下文“This process requires you to step away from optional online activities for thirty days. At the end of the thirty days, you will then add back a small number of carefully chosen online activities that you believe will provide massive benefits to the things you value. (这个过程要求你在30天内远离可选的在线活动。在30天结束的时候，你再加上一些你认为会给你所看重的东西带来巨大好处的精心挑选的在线活动)”可推知，画线词“declutter”的意思是“清理”，对在线活动进行清理和挑选。故选A。",
+     "type": "reading",
+     "score": 2.5,
+     "answer": "A"
+    },
+    {
+     "id": 30,
+     "stem": "What is presented in the final chapter of part one?",
+     "options": [
+      {
+       "letter": "A",
+       "text": "Theoretical models."
+      },
+      {
+       "letter": "B",
+       "text": "Statistical methods."
+      },
+      {
+       "letter": "C",
+       "text": "Practical examples."
+      },
+      {
+       "letter": "D",
+       "text": "Historical analyses."
+      }
+     ],
+     "passageLabel": "C",
+     "explanation": "推理判断题。通过文章第四段“In the final chapter of part one, I’ll guide you through carrying out your own digital declutter. In doing so, I’ll draw on an experiment I ran in 2018 in which over 1,600 people agreed to perform a digital declutter. (在第一部分的最后一章中，我将指导您进行自己的数字清理。在这样做的过程中，我将借鉴我在2018年进行的一项实验，在该实验中，1600多人同意进行数字清理)”可推知，第一部分的最后一章介绍了实验与数字清理的实际例子。故选C。",
+     "type": "reading",
+     "score": 2.5,
+     "answer": "C"
+    },
+    {
+     "id": 31,
+     "stem": "What does the author suggest readers do with the practices offered in part two?",
+     "options": [
+      {
+       "letter": "A",
+       "text": "Use them as needed."
+      },
+      {
+       "letter": "B",
+       "text": "Recommend them to friends."
+      },
+      {
+       "letter": "C",
+       "text": "Evaluate their effects."
+      },
+      {
+       "letter": "D",
+       "text": "Identify the ideas behind them."
+      }
+     ],
+     "passageLabel": "C",
+     "explanation": "推理判断题。通过文章最后一段“You can view these practices as a toolbox meant to aid your efforts to build a minimalist lifestyle that words for your particular circumstances. (你可以将这些实践视为一个工具箱，旨在帮助你建立一种适合自己特定情况的极简主义生活方式)”可推知，作者建议读者根据需要与实际情况使用第二部分中提及的实践。故选A。",
+     "type": "reading",
+     "score": 2.5,
+     "answer": "A"
+    },
+    {
+     "id": 32,
+     "stem": "What is paragraph 2 of the text mainly about?",
+     "options": [
+      {
+       "letter": "A",
+       "text": "The methods of estimation."
+      },
+      {
+       "letter": "B",
+       "text": "The underlying logic of the effect."
+      },
+      {
+       "letter": "C",
+       "text": "The causes of people’s errors."
+      },
+      {
+       "letter": "D",
+       "text": "The design of Galton’s experiment."
+      }
+     ],
+     "passageLabel": "D",
+     "explanation": "主旨大意题。根据第二段内容“This effect capitalizes on the fact that when people make errors, those errors aren’t always the same. Some people will tend to overestimate, and come to underestimate. When enough of these errors are averaged together, they cancel each other out, resulting in a more accurate estimate. If people are similar and tend to make the same errors, then their errors won’t cancel each other out. In more technical terms, the wisdom of crowds requires that people’s estimates be independent. If for whatever reasons, people s errors become correlated or dependent, the accuracy of the estimate will go down. (这种效应利用了这样一个事实，即当人们犯错误时，这些错误并不总是相同的。有些人常常会高估，或者低估。当这些误差中有足够多的误差被平均在一起时，它们会相互抵消，从而产生更准确的估计。如果相似的人倾向于犯同样的错误，那么他们的错误不会相互抵消。从更专业的角度来说，群众的智慧要求人们的估计是独立的。如果由于任何原因，人们的错误变得相关或依赖，估计的准确性就会下降)”可知，本段阐述了人们所犯的错误不总是相同的，各不相同的误差平均在一起，相互抵消就会产生更准确的估计，讨论了独立估计的平均如何由于误差的消除而产生更准确的预测。因此本段主要解释了“群体智慧”效应这一现象的基本逻辑。故选B。",
+     "type": "reading",
+     "score": 2.5,
+     "answer": "B"
+    },
+    {
+     "id": 33,
+     "stem": "Navajas’ study found that the average accuracy could increase even if ________.",
+     "options": [
+      {
+       "letter": "A",
+       "text": "the crowds were relatively small"
+      },
+      {
+       "letter": "B",
+       "text": "there were occasional underestimates"
+      },
+      {
+       "letter": "C",
+       "text": "individuals did not communicate"
+      },
+      {
+       "letter": "D",
+       "text": "estimates were not fully independent"
+      }
+     ],
+     "passageLabel": "D",
+     "explanation": "细节理解题。根据第二段的“In more technical terms, the wisdom of crowds requires that people’s estimates be independent. (从更专业的角度来说，群众的智慧要求人们的估计是独立的)”和第三段的“The key finding of the study was that when crowds were further divided into smaller groups that were allowed to have a discussion, the averages from these groups were more accurate than those from an equal number of independent individuals. For instance, the average obtained from the estimates of four discussion groups of five was significantly more accurate than the average obtained from 20 independent individuals. (这项研究的关键发现是，当人群被进一步划分为允许进行讨论的小组时，这些小组的平均值比同等数量的独立个体的平均值更准确。例如，从四个五人讨论组的估计中获得的平均值明显比从20个独立个体获得的平均值更准确)”可知，人们在没有独立的情况下，分成更小群体，平均值是更准确的，说明即使在估计数字并非完全独立的情况下，准确率提高也是可以做到的。故选D。",
+     "type": "reading",
+     "score": 2.5,
+     "answer": "D"
+    },
+    {
+     "id": 34,
+     "stem": "What did the follow-up study focus on?",
+     "options": [
+      {
+       "letter": "A",
+       "text": "The size of the groups."
+      },
+      {
+       "letter": "B",
+       "text": "The dominant members."
+      },
+      {
+       "letter": "C",
+       "text": "The discussion process."
+      },
+      {
+       "letter": "D",
+       "text": "The individual estimates."
+      }
+     ],
+     "passageLabel": "D",
+     "explanation": "推理判断题。根据第四段的“In a follow-up study with 100 university students, the researchers tried to get a better sense of what the group members actually did in their discussion. Did they tend to go with those most confident about their estimates? Did they follow those least willing to change their minds? (在一项针对100名大学生的后续研究中，研究人员试图更好地了解小组成员在讨论中的实际行为。他们是否倾向于选择那些对自己的估计最有信心的人？他们追随那些最不愿意改变主意的人吗)”可知，在后续研究中，研究人员试图更好地了解小组成员在讨论中实际做了什么。结合两个问题，因此可知后续研究的重点是小组内的讨论过程。故选C。",
+     "type": "reading",
+     "score": 2.5,
+     "answer": "C"
+    },
+    {
+     "id": 35,
+     "stem": "What is the author’s attitude toward Navajas’ studies?",
+     "options": [
+      {
+       "letter": "A",
+       "text": "Unclear."
+      },
+      {
+       "letter": "B",
+       "text": "Dismissive."
+      },
+      {
+       "letter": "C",
+       "text": "Doubtful."
+      },
+      {
+       "letter": "D",
+       "text": "Approving."
+      }
+     ],
+     "passageLabel": "D",
+     "explanation": "推理判断题。根据最后一段内容“Although the studies led by Navajas have limitations and many questions remain, the potential implications for group discussion and decision-making are enormous. (尽管Navajas领导的研究有局限性，仍存在许多问题，但对小组讨论和决策的潜在影响是巨大的)”可知，作者认为虽然Navajas领导的研究有局限性也存在许多问题，但对小组讨论和决策的潜在影响巨大。因此推断作者对于Navajas的研究表示一定的赞许和支持。故选D。",
+     "type": "reading",
+     "score": 2.5,
+     "answer": "D"
+    }
+   ]
+  },
+  {
+   "key": "seven",
+   "partTitle": "第二部分  阅读(共两节，满分50分)",
+   "secTitle": "第二节  (共5小题;每小题2.5分，满分12.5分)",
+   "passages": [
+    {
+     "label": "",
+     "text": "阅读下面短文，从短文后的选项中选出可以填入空白处的最佳选项。选项中有两项为多余选项。\nPersonal Forgiveness\nTaking responsibility for mistakes is a positive step, but don’t beat yourself up about them. To err (犯错) is human. ____36____ You can use the following writing exercise to help you do this.\nIn a journal or on a piece of paper, put the heading “Personal strengths.” ____37____ Are you caring? Creative? Generous? A good listener? Fun to be around? They don’t have to be world-changing, just aspects of your personality that you’re proud of.\nAt the top of a second page, put the heading “Acts of kindness.” On this one, list all the positive things you’ve done for others. It might be the time when you helped a friend with their homework, when you did the ironing without being asked, or when you baked cookies after the family had had a tiring day. ____38____\nYou could ask a friend or family member to help add to your list. ____39____ That way, you could exchange thoughts on what makes each of you special and the aspects of your personality that shine through. In fact, don’t wait until you’ve made a mistake to try this — it’s a great way to boost self-confidence at any time.\nIt’s something of a cliché (陈词滥调) that most people learn not from their successes but their mistakes. The thing is, it’s true. ____40____ We’ re all changing and learning all the time and mistakes are a positive way to develop and grow."
+    }
+   ],
+   "pool": [
+    {
+     "letter": "A",
+     "text": "A little self-forgiveness also goes a long way."
+    },
+    {
+     "letter": "B",
+     "text": "Now list all the characteristics you like about yourself."
+    },
+    {
+     "letter": "C",
+     "text": "They might even like to have a go at doing the exercise."
+    },
+    {
+     "letter": "D",
+     "text": "It’s just as important to show yourself some forgiveness."
+    },
+    {
+     "letter": "E",
+     "text": "It doesn’t mean you have to ignore what’s happened or forget it."
+    },
+    {
+     "letter": "F",
+     "text": "Whatever it is, no matter how small it might seem, write it down."
+    },
+    {
+     "letter": "G",
+     "text": "Whatever the mistake, remember it isn’t a fixed aspect of your personality."
+    }
+   ],
+   "questions": [
+    {
+     "id": 36,
+     "stem": "",
+     "options": [],
+     "type": "seven",
+     "score": 2.5,
+     "answer": "D"
+    },
+    {
+     "id": 37,
+     "stem": "",
+     "options": [],
+     "type": "seven",
+     "score": 2.5,
+     "answer": "B"
+    },
+    {
+     "id": 38,
+     "stem": "",
+     "options": [],
+     "type": "seven",
+     "score": 2.5,
+     "answer": "F"
+    },
+    {
+     "id": 39,
+     "stem": "",
+     "options": [],
+     "type": "seven",
+     "score": 2.5,
+     "answer": "C"
+    },
+    {
+     "id": 40,
+     "stem": "",
+     "options": [],
+     "type": "seven",
+     "score": 2.5,
+     "answer": "G"
+    }
+   ]
+  },
+  {
+   "key": "cloze",
+   "partTitle": "第三部分  语言运用(共两节，满分30分)",
+   "secTitle": "第一节  (共15小题;每小题1分，满分15分)",
+   "passages": [
+    {
+     "label": "",
+     "text": "阅读下面短文，从每题所给的A、B、C、D四个选项中选出可以填入空白处的最佳选项。\nOn Oct. 11, hundreds of runners competed in a cross-country race in Minnesota. Melanie Bailey should have ____41____ the course earlier than she did. Her ____42____ came because she was carrying a ____43____ across the finish line.\nAs reported by a local newspaper, Bailey was more than two-thirds of the way through her ____44____ when a runner in front of her began crying in pain. She ____45____ to help her fellow runner, Danielle Lenoue. Bailey took her arm to see if she could walk forward with ____46____. She couldn’t. Bailey then ____47____ to let Lenoue climb onto her back and carried her all the way to the finish line, then another 300 feet to where Lenoue could get ____48____ attention.\nOnce there, Lenoue was ____49____ and later taken to a hospital, where she learned that she had serious injuries in one of her knees. She would have struggled with extreme ____50____ to make it to that aid checkpoint without Bailey’s help.\nAs for Bailey, she is more ____51____ about why her act is considered a big ____52____. “She was just crying. I couldn’t ____53____ her,” Bailey told the reporter. “I feel like I was just doing the right thing.”\nAlthough the two young women were strangers before the ____54____, they’ve since become friends. Neither won the race, but the ____55____ of human kindness won the day."
+    }
+   ],
+   "pool": [],
+   "questions": [
+    {
+     "id": 41,
+     "stem": "",
+     "options": [
+      {
+       "letter": "A",
+       "text": "designed"
+      },
+      {
+       "letter": "B",
+       "text": "followed"
+      },
+      {
+       "letter": "C",
+       "text": "changed"
+      },
+      {
+       "letter": "D",
+       "text": "finished"
+      }
+     ],
+     "explanation": "考查动词词义辨析。句意：Melanie Bailey应该更早完成比赛。A. designed设计；B. followed跟随；C. changed改变；D. finished完成。根据下一段的“carried her all the way to the finish line, then another 300 feet to where Lenoue could get ____8____ attention”可知，Bailey在比赛中背一名参赛者，所以完成比赛晚了，因此句子表示“Melanie Bailey应该更早完成比赛”。故选D。",
+     "type": "cloze",
+     "score": 1,
+     "answer": "D"
+    },
+    {
+     "id": 42,
+     "stem": "",
+     "options": [
+      {
+       "letter": "A",
+       "text": "delay"
+      },
+      {
+       "letter": "B",
+       "text": "chance"
+      },
+      {
+       "letter": "C",
+       "text": "trouble"
+      },
+      {
+       "letter": "D",
+       "text": "excuse"
+      }
+     ],
+     "explanation": "考查名词词义辨析。句意：她的延迟是因为她背着一名竞争对手冲过终点线。A. delay延误；B. chance机会；C. trouble麻烦；D. excuse借口。根据上文“Melanie Bailey should have ____1____ the course earlier than she did”和上一题的解析可知，Melanie Bailey应该更早完成比赛，她的延迟是因为她背着一名竞争对手冲过终点线。故选A。",
+     "type": "cloze",
+     "score": 1,
+     "answer": "A"
+    },
+    {
+     "id": 43,
+     "stem": "",
+     "options": [
+      {
+       "letter": "A",
+       "text": "judge"
+      },
+      {
+       "letter": "B",
+       "text": "volunteer"
+      },
+      {
+       "letter": "C",
+       "text": "classmate"
+      },
+      {
+       "letter": "D",
+       "text": "competitor"
+      }
+     ],
+     "explanation": "考查名词词义辨析。句意：她的延迟是因为她背着一名参赛者冲过终点线。A. judge裁判；B. volunteer志愿者；C. classmate同学；D. competitor参赛者。根据第一段的“hundreds of runners competed in a cross-country race”可知，她是背着一名参赛者冲过终点线。故选D。",
+     "type": "cloze",
+     "score": 1,
+     "answer": "D"
+    },
+    {
+     "id": 44,
+     "stem": "",
+     "options": [
+      {
+       "letter": "A",
+       "text": "race"
+      },
+      {
+       "letter": "B",
+       "text": "school"
+      },
+      {
+       "letter": "C",
+       "text": "town"
+      },
+      {
+       "letter": "D",
+       "text": "training"
+      }
+     ],
+     "explanation": "考查名词词义辨析。句意：据当地一家报纸报道，当Bailey跑到比赛的三分之二多的时候，她前面的一名选手开始痛苦地哭泣。A. race比赛；B. school学校；C. town城镇；D. training训练。根据第一段的“hundreds of runners competed in a cross-country race”可知，此处是说“当Bailey跑到比赛的三分之二多的时候”。故选A。",
+     "type": "cloze",
+     "score": 1,
+     "answer": "A"
+    },
+    {
+     "id": 45,
+     "stem": "",
+     "options": [
+      {
+       "letter": "A",
+       "text": "agreed"
+      },
+      {
+       "letter": "B",
+       "text": "returned"
+      },
+      {
+       "letter": "C",
+       "text": "stopped"
+      },
+      {
+       "letter": "D",
+       "text": "promised"
+      }
+     ],
+     "explanation": "考查动词词义辨析。句意：她停下来帮助她同伴Danielle Lenoue。A. agreed同意；B. returned回来；C. stopped停止；D. promised答应。根据下文“to help her fellow runner”可知，她停下来帮助她的同伴Danielle Lenoue。故选C。",
+     "type": "cloze",
+     "score": 1,
+     "answer": "C"
+    },
+    {
+     "id": 46,
+     "stem": "",
+     "options": [
+      {
+       "letter": "A",
+       "text": "courage"
+      },
+      {
+       "letter": "B",
+       "text": "aid"
+      },
+      {
+       "letter": "C",
+       "text": "patience"
+      },
+      {
+       "letter": "D",
+       "text": "advice"
+      }
+     ],
+     "explanation": "考查名词词义辨析。句意：Bailey扶着她的胳膊，看看她能否帮助下向前走。A. courage勇气；B. aid帮助；C. patience耐心；D. advice建议。根据上文“Bailey took her arm”可知，此处表示看她是否能在她的帮助下向前走。故选B。",
+     "type": "cloze",
+     "score": 1,
+     "answer": "B"
+    },
+    {
+     "id": 47,
+     "stem": "",
+     "options": [
+      {
+       "letter": "A",
+       "text": "went away"
+      },
+      {
+       "letter": "B",
+       "text": "stood up"
+      },
+      {
+       "letter": "C",
+       "text": "stepped aside"
+      },
+      {
+       "letter": "D",
+       "text": "bent down"
+      }
+     ],
+     "explanation": "考查动词短语辨析。句意：然后Bailey弯下腰，让Lenoue爬到她的背上，一路背着她走到终点线，然后又走了300英尺，到Lenoue接受治疗的地方。A. went away离开； B. stood up站起来；C. stepped aside让路；D. bent down弯腰。根据下文“let Lenoue climb onto her back”可知，Bailey弯下腰，让勒诺爬到她的背上。故选D。",
+     "type": "cloze",
+     "score": 1,
+     "answer": "D"
+    },
+    {
+     "id": 48,
+     "stem": "",
+     "options": [
+      {
+       "letter": "A",
+       "text": "medical"
+      },
+      {
+       "letter": "B",
+       "text": "public"
+      },
+      {
+       "letter": "C",
+       "text": "constant"
+      },
+      {
+       "letter": "D",
+       "text": "equal"
+      }
+     ],
+     "explanation": "考查形容词词义辨析。句意：然后Bailey弯下腰，让Lenoue爬到她的背上，一路背着她走到终点线，然后又走了300英尺，到Lenoue接受治疗的地方。A. medical医疗的；B. public公众的；C. constant持续不断的；D. equal平等的。根据上文“began crying in pain”可知，Danielle Lenoue很疼，所以是要接受治疗，medical attention意为“医疗救助”。故选A。",
+     "type": "cloze",
+     "score": 1,
+     "answer": "A"
+    },
+    {
+     "id": 49,
+     "stem": "",
+     "options": [
+      {
+       "letter": "A",
+       "text": "interrupted"
+      },
+      {
+       "letter": "B",
+       "text": "assessed"
+      },
+      {
+       "letter": "C",
+       "text": "identified"
+      },
+      {
+       "letter": "D",
+       "text": "appreciated"
+      }
+     ],
+     "explanation": "考查动词词义辨析。句意：Lenoue在那里接受了检查，后来被送往医院，在那里她得知自己的一个膝盖受了重伤。A. interrupted打断；B. assessed评估；C. identified识别；D. appreciated感激。根据下文“later taken to a hospital”可知，她是先接受了检查，再被送往医院，也就是先接受评估。故选B。",
+     "type": "cloze",
+     "score": 1,
+     "answer": "B"
+    },
+    {
+     "id": 50,
+     "stem": "",
+     "options": [
+      {
+       "letter": "A",
+       "text": "hunger"
+      },
+      {
+       "letter": "B",
+       "text": "pain"
+      },
+      {
+       "letter": "C",
+       "text": "cold"
+      },
+      {
+       "letter": "D",
+       "text": "tiredness"
+      }
+     ],
+     "explanation": "考查名词词义辨析。句意：如果没有Bailey的帮助，她可能会在极度的痛苦中挣扎着到达那个援助检查站。A. hunger饥饿；B. pain疼痛；C. cold感冒；D. tiredness疲劳。根据第5空前的“began crying in pain”可知，此处表示“如果没有Bailey的帮助，她可能会在极度的痛苦中挣扎着到达那个援助检查站”。故选B。",
+     "type": "cloze",
+     "score": 1,
+     "answer": "B"
+    },
+    {
+     "id": 51,
+     "stem": "",
+     "options": [
+      {
+       "letter": "A",
+       "text": "worried"
+      },
+      {
+       "letter": "B",
+       "text": "ashamed"
+      },
+      {
+       "letter": "C",
+       "text": "confused"
+      },
+      {
+       "letter": "D",
+       "text": "discouraged"
+      }
+     ],
+     "explanation": "考查形容词词义辨析。句意：至于Bailey，她更困惑的是为什么她的行为被认为是一件大事。A. worried担心的；B. ashamed惭愧的；C. confused困惑的；D. discouraged泄气的。根据下文“I feel like I was just doing the right thing”可知，Bailey觉得自己只是做了正确的事情，所以她对她的行为被认为是一件大事感到困惑。故选C。",
+     "type": "cloze",
+     "score": 1,
+     "answer": "C"
+    },
+    {
+     "id": 52,
+     "stem": "",
+     "options": [
+      {
+       "letter": "A",
+       "text": "game"
+      },
+      {
+       "letter": "B",
+       "text": "problem"
+      },
+      {
+       "letter": "C",
+       "text": "lesson"
+      },
+      {
+       "letter": "D",
+       "text": "deal"
+      }
+     ],
+     "explanation": "考查名词词义辨析。句意：至于Bailey，她更困惑的是为什么她的行为被认为是一件大事。A. game游戏；B. problem问题；C. lesson课；D. deal交易，局面。根据下文“I feel like I was just doing the right thing”可知，Bailey觉得自己只是做了正确的事情，所以她对她的行为被认为是一件大事感到困惑，a big deal意为“非常重要的事”。故选D。",
+     "type": "cloze",
+     "score": 1,
+     "answer": "D"
+    },
+    {
+     "id": 53,
+     "stem": "",
+     "options": [
+      {
+       "letter": "A",
+       "text": "leave"
+      },
+      {
+       "letter": "B",
+       "text": "cure"
+      },
+      {
+       "letter": "C",
+       "text": "bother"
+      },
+      {
+       "letter": "D",
+       "text": "understand"
+      }
+     ],
+     "explanation": "考查动词词义辨析。句意：我不能离开她。A. leave离开；B. cure治愈；C. bother打扰；D. understand理解。根据上文“She was just crying”以及Lenoue爬到她的背上，一路背着她走到终点线，然后又走了300英尺。可知，Bailey看见Lenoue哭喊，所以觉得不能离开她。故选A。",
+     "type": "cloze",
+     "score": 1,
+     "answer": "A"
+    },
+    {
+     "id": 54,
+     "stem": "",
+     "options": [
+      {
+       "letter": "A",
+       "text": "ride"
+      },
+      {
+       "letter": "B",
+       "text": "test"
+      },
+      {
+       "letter": "C",
+       "text": "meet"
+      },
+      {
+       "letter": "D",
+       "text": "show"
+      }
+     ],
+     "explanation": "考查名词词义辨析。句意：虽然这两个年轻女子在那场体育比赛之前是陌生人，但后来她们成了朋友。A. ride短途旅程；B. test测试；C. meet体育比赛；D. show展示。根据第一段“hundreds of runners competed in a cross-country race”及空前的“the two young women were strangers before”可知，当时是一场比赛，句子表示“这两个年轻女子在那场体育比赛之前是陌生人”。故选C。\n55题详解】\n考查名词词义辨析。句意：两人都没有赢得比赛，但展示出的人类善良赢得了胜利。A. secret秘密；B. display展示；C. benefit利益；D. exchange交换。根据第二段的“let Lenoue climb onto her back and carried her all the way to the finish line, then another 300 feet to where Lenoue could get ____8____ attention”可知，Bailey背着一个参赛者过终点，并背她去接受检查，这展示了人类的善良。故选B。",
+     "type": "cloze",
+     "score": 1,
+     "answer": "C"
+    },
+    {
+     "id": 55,
+     "stem": "",
+     "options": [
+      {
+       "letter": "A",
+       "text": "secret"
+      },
+      {
+       "letter": "B",
+       "text": "display"
+      },
+      {
+       "letter": "C",
+       "text": "benefit"
+      },
+      {
+       "letter": "D",
+       "text": "exchange"
+      }
+     ],
+     "explanation": "【导语】本文是一篇记叙文。文章主要讲述了在明尼苏达州举行的一次越野赛中，Melanie Bailey背着另一个参赛者Danielle Lenoue过终点线并接受医疗检查的善行义举。",
+     "type": "cloze",
+     "score": 1,
+     "answer": "B"
+    }
+   ]
+  },
+  {
+   "key": "grammar",
+   "partTitle": "第三部分  语言运用(共两节，满分30分)",
+   "secTitle": "第二节  (共10小题;每小题1.5分，满分15分)",
+   "passages": [
+    {
+     "label": "",
+     "text": "阅读下面短文，在空白处填入1个适当的单词或括号内单词的正确形式。\nXiao long bao (soup dumplings), those amazing constructions of delicate dumpling wrappers, encasing hot, ____56____ (taste) soup and sweet, fresh meat, are far and away my favorite Chinese street food. The dumplings arrive steaming and dangerously hot. To eat one, you have to decide whether ____57____ (bite) a small hole in it first, releasing the stream and risking a spill (溢出), ____58____ to put the whole dumpling in your mouth, letting the hot soup explode on your tongue. Shanghai may be the ____59____ (recognize) home of the soup dumplings but food historians will actually point you to the neighboring canal town of Nanxiang as Xiao long Bao’s birthplace. There you will find them prepared differently- more dumpling and less soup, and the wrappers are pressed ____60____ hand rather than rolled. Nanxiang aside, the best Xiao long bao have a fine skin, allowing them ____61____ (lift) out of the steamer basket without allowing them tearing or spilling any of ____62____ (they) contents. The meat should be fresh with ____63____ touch of sweetness and the soup hot, clear and delicious.\nNo matter where I buy them, one steamer is ____64____ (rare) enough, yet two seems greedy, so I am always left ______65______ (want) more next time.\n57. to bite\n58. or    59. recognized\n60. by    61. to be lifted\n62. their    63. a\n64. rarely    65. wanting"
+    }
+   ],
+   "pool": [],
+   "questions": [
+    {
+     "id": 56,
+     "stem": "",
+     "options": [],
+     "explanation": "考查形容词。句意：小笼包(汤包)，那些精致的饺子皮，包裹着热腾腾的美味汤和甜甜的鲜肉，是我最喜欢的中国街头小吃。形容词需修饰后面的名词soup(汤)，故空格需用tasty“美味的”作定语，故填tasty。",
+     "type": "grammar",
+     "score": 1.5,
+     "answer": "tasty"
+    },
+    {
+     "id": 57,
+     "stem": "",
+     "options": [],
+     "explanation": "考查非谓语动词。句意：吃小笼包的时候，你必须要决定是先咬一个小口流出汤汁，还是把整个小笼包放进嘴里，让热汤在舌头上爆炸。decide to do sth.“决定做某事”，用不定式作宾语，空处与后面to put并列作宾语，故填to bite。",
+     "type": "grammar",
+     "score": 1.5,
+     "answer": "to bite"
+    },
+    {
+     "id": 58,
+     "stem": "",
+     "options": [],
+     "explanation": "考查连词。句意：吃小笼包的时候，你必须要决定是先咬一个小口流出汤汁，还是把整个小笼包放进嘴里，让热汤在舌头上爆炸。whether...or... “是……还是……”，固定搭配，根据句意，故填or。",
+     "type": "grammar",
+     "score": 1.5,
+     "answer": "or"
+    },
+    {
+     "id": 59,
+     "stem": "",
+     "options": [],
+     "explanation": "考查非谓语动词。句意：上海可能是公认的小笼包之乡，但美食历史学家会告诉你，邻近的运河小镇南翔才是小笼包的发源地。空格在名词home前面作定语，recognize与home是逻辑上动宾关系，需填过去分词recognized作定语，recognized“被公认的”也可以看作是形容词作定语。故填recognized。",
+     "type": "grammar",
+     "score": 1.5,
+     "answer": "recognized"
+    },
+    {
+     "id": 60,
+     "stem": "",
+     "options": [],
+     "explanation": "考查介词。句意：在那里，你会发现它们的制作方式不同——更多汤包，更少的汤，包子皮是用手压的，而不是擀出来的。by hand“用手”是固定搭配，根据句意，故填by。",
+     "type": "grammar",
+     "score": 1.5,
+     "answer": "by"
+    },
+    {
+     "id": 61,
+     "stem": "",
+     "options": [],
+     "explanation": "考查非谓语动词。句意：除了南翔，最好的小笼包有一个精致的，可以让它们从蒸笼篮中拿出来，而不会撕裂或溢出里面的东西。根据搭配allow sb. to do sth.“允许某人做某事”可知，空格需用动词不定式作宾语补足语，补足语lift out与宾语them（指代小笼包）是逻辑上的动宾关系，空格需填动词不定式的被动式to be lifted。故填to be lifted。",
+     "type": "grammar",
+     "score": 1.5,
+     "answer": "to be lifted"
+    },
+    {
+     "id": 62,
+     "stem": "",
+     "options": [],
+     "explanation": "考查代词。句意：除了南翔，最好的小笼包有一个精致的外皮，可以让它们从蒸笼篮中拿出来，而不会撕裂或溢出里面的东西。修饰后面的名词contents(东西)需用形容词性物主代词their。故填their。",
+     "type": "grammar",
+     "score": 1.5,
+     "answer": "their"
+    },
+    {
+     "id": 63,
+     "stem": "",
+     "options": [],
+     "explanation": "考查冠词。句意：肉应该是新鲜的，有一点甜味，汤应该是热的，清澈的，美味的。a touch of “一点点；稍许”，常用搭配，touch“轻微；稍许”常用作单数。故填a。",
+     "type": "grammar",
+     "score": 1.5,
+     "answer": "a"
+    },
+    {
+     "id": 64,
+     "stem": "",
+     "options": [],
+     "explanation": "考查副词。句意：无论我在哪里买，一蒸笼都不够，而两蒸笼又显得太贪心了，所以我总是想下次再买。修饰形容词用副词作状语，rarely“少有”，故填rarely。",
+     "type": "grammar",
+     "score": 1.5,
+     "answer": "rarely"
+    },
+    {
+     "id": 65,
+     "stem": "",
+     "options": [],
+     "explanation": "考查非谓语动词。句意：无论我在哪里买，一蒸笼都不够，而两蒸笼又显得太贪心了，所以我总是想下次再买。分析句子可知，此处考查“leave sb+宾语补足语”，本句是被动语态，want是主语补足语，根据句意，I与want之间是主动的逻辑关系，用现在分词wanting。故填wanting。",
+     "type": "grammar",
+     "score": 1.5,
+     "answer": "wanting"
+    }
+   ]
+  },
+  {
+   "key": "writing_app",
+   "partTitle": "第三部分  写作(共两节，满分40分)",
+   "secTitle": "第一节  (满分15分)",
+   "passages": [],
+   "pool": [],
+   "questions": [
+    {
+     "id": 66,
+     "stem": "假定你是李华，外教Ryan准备将学生随机分为两人一组，让大家课后练习口语，你认为这样分组存在问题。请你给外教写一封邮件，内容包括：",
+     "options": [],
+     "material": "1. 说明问题；\n2. 提出建议。\n注意：\n1. 写作词数应为80个左右；\n2. 请按如下格式在答题卡的相应位置作答。\nDear Ryan,\nI’m Li Hua from Class 3.\n______________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________\nYours sincerely,\nLi Hua\nTo begin with, randomly pairing up students may lead to unbalanced language abilities within the groups. This can hinder the progress of students as the more advanced one may dominate the conversation, leaving little room for the other students to improve. Besides, students may feel uncomfortable or less motivated if paired with someone who they don’t get along with or have difficulty communicating with.\nMy suggestion is to group students based on their language abilities or to let students choose their own partners. This way, everyone can feel more comfortable practicing and improving their spoken English together.\n Thank you for considering my suggestion.\n Yours sincerely,\n Li Hua\n2. 句式拓展\n简单句变复合句\n原句：My suggestion is to group students based on their language abilities or to let students choose their own partners.\n拓展句：My suggestion is that we are supposed to group students based on their language abilities or to let students choose their own partners.\n【点睛】[高分句型1]\nThis can hinder the progress of students as the more advanced one may dominate the conversation, leaving little room for the other students to improve.（运用了现在分词作状语）\n[高分句型2]\nBesides, Students may feel uncomfortable or less motivated if paired with someone who they don’t get along with or have difficulty communicating with.（运用了省略句和who引导定语从句）\n",
+     "explanation": "【导语】本篇是应用文写作，要求考生给外教写一封邮件，告诉他将学生随机分为两人一组，让大家课后练习口语，你认为这样分组存在问题。\n【详解】1. 词汇积累\n首先：to begin with → first of all\n提高：improve → progress\n建议：suggestion → advice\n选择：choose → select",
+     "type": "writing_app",
+     "score": 15,
+     "modelAnswer": "Dear Ryan,\n I’m Li Hua from Class 3. I think it’s not a good idea to randomly pair up students for the spoken English training after class. The reasons are as follows. To begin with, randomly pairing up students may lead to unbalanced language abilities within the groups. This can hinder the progress of students as the more advanced one may dominate the conversation, leaving little room for the other students to improve. Besides, students may feel uncomfortable or less motivated if paired with someone who they don’t get along with or have difficulty communicating with. My suggestion is to group students based on their language abilities or to let students choose their own partners. This way, everyone can feel more comfortable practicing and improving their spoken English together.\n Thank you for considering my suggestion.\n Yours sincerely,\n Li Hua"
+    }
+   ]
+  },
+  {
+   "key": "writing_cont",
+   "partTitle": "第三部分  写作(共两节，满分40分)",
+   "secTitle": "第二节  (满分25分)",
+   "passages": [],
+   "pool": [],
+   "questions": [
+    {
+     "id": 67,
+     "stem": "阅读下面材料, 根据其内容和所给段落开头语续写两段, 使之构成一篇完整的短文。",
+     "options": [],
+     "material": "When I was in middle school, my social studies teacher asked me to enter a writing contest. I said no without thinking. I did not love writing. My family came from Brazil, so English was only my second language. Writing was so difficult and painful for me that my teacher had allowed me to present my paper on the sinking of the Titanic by acting out a play, where I played all the parts. No one laughed harder than he did.\nSo, why did he suddenly force me to do something at which I was sure to fail? His reply: “Because I love your stories. If you’re willing to apply yourself, I think you have a good shot at this.” Encouraged by his words, I agreed to give it a try.\nI chose Paul Revere’s horse as my subject. Paul Revere was a silversmith (银匠) in Boston who rode a horse at night on April 18, 1775 to Lexington to warn people that British soldiers were coming. My story would come straight from the horse’s mouth. Not a brilliant idea, but funny; and unlikely to be anyone else’s choice.\nWhat did the horse think, as he sped through the night? Did he get tired? Have doubts? Did he want to quit? I sympathized immediately. I got tired. I had doubts. I wanted to quit. But, like Revere’s horse, I kept going. I worked hard. I checked my spelling. I asked my older sister to correct my grammar. I checked out a half dozen books on Paul Revere from the library. I even read a few of them.\nWhen I handed in the essay to my teacher, he read it, laughed out loud, and said, “Great. Now, write it again.” I wrote it again, and again and again. When I finally finished it, the thought of winning had given way to the enjoyment of writing. If I didn’t win, I wouldn’t care.\n注意:\n1. 续写词数应为150个左右；\n2. 请按如下格式在答题卡的相应位置作答。\nA few weeks later, when I almost forgot the contest, there came the news.\n______________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________\nI went to my teacher’s office after the award presentation.\n______________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________\nI went to my teacher’s office after the award presentation. My teacher was waiting for me. Holding my hands, he said “Congratulations! You are a good writer, so keep writing.” “You know I didn’t like writing before, but now I am crazy about it! I will try my best to create good works.” I said seriously. Since then, I have written many good works and now I am a famous writer. I owe my success to my social teacher who is a beacon in my life on the road to writing.\n",
+     "explanation": "【导语】本文以人物为线索展开，讲述了作者上中学的时候，社会学老师邀请作者参加一个写作比赛。作者不喜欢写作，于是想都没想就拒绝了。但是在老师的鼓励下，作者同意试一试。作者在写作过程中虽然很累，但是没有放弃，坚持下来了。在作者最终完成写作时，作者感到写作让他很快乐，他已经不在乎输赢了。\n【详解】1.段落续写：\n①由第一段首句内容“几个星期后，当我几乎忘记比赛时候，传来了消息。”和第二段首句“颁奖后我去了老师的办公室。”可知，第一段可描写作者获得比赛一等奖，在颁奖典礼上作者表达了对社会老师的感激。\n②由第二段首句内容“颁奖后我去了老师的办公室。”可知，第二段可描写老师鼓励作者继续写作，自此作者坚持写作取得了成功，作者将这一切归功于自己的老师。\n2.续写线索：比赛消息传来——作者获奖——高兴——颁奖典礼感谢老师——颁奖后来到老师办公室——老师告诉作者坚持写作——作者表达了对写作的喜爱——作者写作取得了成功——感激老师\n3.词汇激活\n行为类\n①告知：inform/tell\n②成功做到：make it/succeed\n③表达：express/convey\n情绪类\n①高兴的：happy/glad\n②激动地：excitedly/with excitement\n【点睛】[高分句型1]  I was informed that I won the first prize in the writing contest and that there would be an award presentation in two days. （运用了由连接词that引导的宾语从句）\n[高分句型2] It’s you who make me fall in love with writing, my social studies teacher.（运用了强调句）\n[高分句型3] I owe my success to my social teacher who is a beacon in my life on the road to writing.（运用了who引导的限制性定语从句）",
+     "type": "writing_cont",
+     "score": 25,
+     "modelAnswer": "A few weeks later, when I almost forgot the contest, there came the news. I was informed that I won the first prize in the writing contest and that there would be an award presentation in two days. I was so happy to hear the news that I immediately shared it with my teacher. “I knew you’d win! I am proud of you. You made it!” he said excitedly. Then came the big day. When I was invited to the stage to receive the award, I expressed my thanks to my teacher. I said, “It’s you who make me fall in love with writing, my social studies teacher. Without your recognition and guidance, I couldn’t have written this article. Again thank you very much!” I went to my teacher’s office after the award presentation. My teacher was waiting for me. Holding my hands, he said “Congratulations! You are a good writer, so keep writing.” “You know I didn’t like writing before, but now I am crazy about it! I will try my best to create good works.” I said seriously. Since then, I have written many good works and now I am a famous writer. I owe my success to my social teacher who is a beacon in my life on the road to writing."
+    }
+   ]
+  }
+ ]
+}

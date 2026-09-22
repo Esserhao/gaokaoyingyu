@@ -1,0 +1,120 @@
+/* application layer styles */
+.shell{max-width:var(--w-content);margin:0 auto;padding:var(--sp-9) var(--sp-6)}.brand{display:flex;align-items:center;gap:var(--sp-2-5);color:var(--ink)}.brand small{display:block;color:var(--ink-3);font-size:var(--fs-2xs);font-weight:400}.brand-mark{display:grid;place-items:center;width:var(--sp-9);height:var(--sp-9);background:var(--accent);color:var(--on-accent);border-radius:var(--r-md);font-weight:800}.nav-note,.nav-back{margin-left:auto;color:var(--ink-3);font-size:var(--fs-sm)}.eyebrow{color:var(--accent);font-size:var(--fs-2xs);letter-spacing:.14em;font-weight:800}.library-head{display:flex;justify-content:space-between;align-items:end;margin:var(--sp-11) 0 var(--sp-6)}.library-head h1,.library-head h2{margin-top:var(--sp-2);font-family:var(--serif);font-size:var(--fs-6xl)}.mistake-top{display:flex;justify-content:space-between}.exambar{position:sticky;top:0;z-index:10;background:var(--paper-1-glass);backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px);border-bottom:1px solid var(--line)}.exambar-inner{max-width:var(--w-exam);margin:auto;padding:var(--sp-3) var(--sp-6);display:flex;align-items:center;gap:var(--sp-5)}.progress{margin-left:auto;color:var(--ink-3);font-size:var(--fs-sm)}.timer{font-variant-numeric:tabular-nums;font-weight:800;font-size:var(--fs-xl);color:var(--accent)}.timer.urgent{color:var(--red)}.primary-btn,.ghost-btn,.text-btn{display:inline-flex;align-items:center;justify-content:center;padding:var(--sp-2-5) var(--sp-4);border:1px solid var(--accent);background:var(--accent);color:var(--on-accent);font-weight:700;font-size:var(--fs-sm)}.ghost-btn{background:var(--paper-1);color:var(--accent)}.text-btn{border:0;background:transparent;color:var(--accent)}.exam-layout{max-width:var(--w-exam);margin:auto;display:grid;grid-template-columns:minmax(0,1fr) 250px;gap:var(--sp-6);padding:var(--sp-8) var(--sp-6)}.exam-content{min-width:0}.exam-title{font-family:var(--serif);font-size:var(--fs-6xl)}.exam-meta{color:var(--ink-3);font-size:var(--fs-sm);margin:var(--sp-2) 0 var(--sp-7)}.section-heading{display:flex;justify-content:space-between;border-top:3px double var(--ink);padding:var(--sp-3) 0;margin-top:var(--sp-9);font-weight:800}.section-heading b{color:var(--ink-3);font-size:var(--fs-xs)}.passage{background:var(--paper-1);border:1px solid var(--line);padding:var(--sp-5) var(--sp-5);margin:var(--sp-3-5) 0;font-family:var(--serif);line-height:var(--lh-read)}.passage b{display:block;color:var(--accent);font-family:var(--sans);margin-bottom:var(--sp-2)}.question{padding:var(--sp-5) 0;border-bottom:1px solid var(--line)}.q-head{display:flex;gap:var(--sp-3);align-items:center}.q-head>b{color:var(--accent);font-size:var(--fs-lg2)}.q-head>span{color:var(--ink-3);font-size:var(--fs-xs)}.q-head .mark{margin-left:auto;font-size:var(--fs-xs)}.mark.ok{color:var(--green)}.mark.bad{color:var(--red)}.stem{font-family:var(--serif);font-size:var(--fs-md2);margin:var(--sp-2) 0 var(--sp-3)}.option{display:flex;gap:var(--sp-2-5);align-items:flex-start;padding:var(--sp-2-5) var(--sp-3);margin:var(--sp-1) 0;border:1px solid transparent;cursor:pointer}.option:hover,.option.selected{background:var(--accent-soft);border-color:var(--accent-line)}.option{position:relative}/* 铅字印刷的选项标记：□ 未选 / ■ 已选（C 方向签名元素）。
+   原生单选圈只做视觉隐藏，仍留在 DOM 与 Tab 序中，读屏和键盘操作不受影响；
+   焦点环因此必须改画在 label 上，否则键盘用户会失去焦点提示。*/
+.option input{position:absolute;width:var(--sp-1);height:var(--sp-1);opacity:0;margin:0;pointer-events:none}
+.option::before{content:"□";flex:none;font-family:var(--font-mono);font-size:var(--fs-base);line-height:var(--lh-ui);color:var(--ink-3)}
+.option.selected::before{content:"■";color:var(--accent)}
+.option:has(input:focus-visible){outline:2px solid var(--focus-ring);outline-offset:2px}
+.question.review .option.correct::before{content:"■";color:var(--green)}
+.question.review .option.selected:not(.correct)::before{content:"■";color:var(--red)}.option-letter{font-weight:700;color:var(--accent)}
+/* ===== 标题语义化后的外观保持 =====
+   为了让读屏用户能按「标题」在 72 道题之间跳转，render.js 把
+   部分标题 span→h2、题号 b→h3、答题卡标题 div→h2。
+   h2/h3 自带的大字号与外边距会破坏原排版，这里显式压回原样式，
+   视觉与改动前完全一致，仅语义层发生变化。 */
+.section-heading h2{font-size:inherit;font-weight:inherit;font-family:inherit;margin:0}
+.q-head>h3{color:var(--accent);font-size:var(--fs-lg2);font-weight:700;font-family:inherit;margin:0;line-height:var(--lh-tight)}
+.answer-sheet h2.sheet-title{font-size:inherit;font-family:inherit;margin:0 0 var(--sp-3-5)}
+/* ===== 答案解析模式（mode!=='practice'）=====
+   render.js 输出 .question.review / .question.wrong / .option.correct，
+   此前全站无任何规则匹配它们 —— 复盘页看不出哪题错、哪项才是正解。
+   判分信号不靠颜色单通道：正解补「✓ 正确答案」、错选补「✗ 你选的」，
+   色盲与灰度打印同样可读。以下规则须排在 .option.selected 之后才能生效。 */
+.question.review{padding:var(--sp-3) var(--sp-3-5);border:1px solid var(--accent-line);background:var(--accent-soft)}
+.question.review.wrong{border-color:var(--red)}
+.question.review .option{cursor:default}
+.question.review .option:hover{background:none;border-color:transparent}
+.question.review .option.correct,
+.question.review .option.selected.correct{
+  background:var(--green-soft);border-color:var(--green);color:var(--ink)}
+.question.review .option.correct .option-letter{color:var(--green)}
+.question.review .option.correct::after{
+  content:"✓ 正确答案";margin-left:auto;flex:none;padding-left:var(--sp-2-5);
+  color:var(--green);font-size:var(--fs-xs);font-weight:700;white-space:nowrap}
+.question.review .option.selected:not(.correct){
+  background:var(--red-soft);border-color:var(--red)}
+.question.review .option.selected:not(.correct) .option-letter{color:var(--red)}
+.question.review .option.selected:not(.correct)::after{
+  content:"✗ 你选的";margin-left:auto;flex:none;padding-left:var(--sp-2-5);
+  color:var(--red);font-size:var(--fs-xs);font-weight:700;white-space:nowrap}
+/* 主观题：解析模式下把考生原答案与参考答案并排给出 */
+.question.review .fill-input,.question.review .writing-input{
+  background:var(--paper-2);color:var(--ink-2)}
+.question.review .mark{font-weight:700}.fill-input,.writing-input{display:block;width:100%;border:1px solid var(--line);padding:var(--sp-3);font:inherit;margin-top:var(--sp-2-5)}.writing-input{min-height:150px}.explanation{margin-top:var(--sp-3-5);padding:var(--sp-3-5) var(--sp-4);background:var(--accent-soft);border:1px solid var(--accent-line);font-size:var(--fs-sm)}.explanation b{color:var(--accent)}.explanation-loc{margin-top:var(--sp-3);padding:var(--sp-3) var(--sp-3-5);background:var(--paper-0);border:1px dashed var(--line-strong);border-radius:var(--r-md)}.explanation-loc b{display:block;margin-bottom:var(--sp-1)}.explanation-loc p{margin:var(--sp-1) 0;color:var(--ink-2)}.explanation-loc .loc-unverified{display:inline-block;margin-top:var(--sp-1);font-size:var(--fs-2xs);font-style:normal;color:var(--ink-3);border:1px solid var(--line);border-radius:var(--r-sm);padding:0 var(--sp-1-5)}.answer-sheet{position:sticky;top:76px;align-self:start;background:var(--paper-2);border:1px solid var(--line);padding:var(--sp-4);box-shadow:var(--shadow-3);max-height:calc(100vh - 100px);overflow:auto}.sheet-title{display:flex;justify-content:space-between;font-weight:800;margin-bottom:var(--sp-3-5)}.sheet-title small{color:var(--ink-3)}.sheet-section{margin:var(--sp-3-5) 0}.sheet-section>span{font-size:var(--fs-2xs);color:var(--ink-3);display:block;margin-bottom:var(--sp-2)}.sheet-section>div{display:flex;flex-wrap:wrap;gap:var(--sp-1-5)}.sheet-dot{width:var(--sp-8);height:var(--sp-8);display:grid;place-items:center;border:1px solid var(--line);color:var(--ink-2);font-size:var(--fs-2xs)}.sheet-dot.done{background:var(--accent);border-color:var(--accent);color:var(--on-accent)}.result-page{max-width:var(--w-narrow)}.result-hero{text-align:center;padding:var(--sp-11) var(--sp-5) var(--sp-9)}.result-hero h1{font:40px var(--serif);margin:var(--sp-3-5) 0}.score-ring{display:grid;place-items:center;width:172px;height:172px;background:var(--accent-soft);border:3px solid var(--accent-line);border-radius:50%;margin:var(--sp-8) auto var(--sp-4)}.score-ring strong{font:700 52px var(--serif);color:var(--accent);font-variant-numeric:tabular-nums}.score-ring span{color:var(--ink-3);font-size:var(--fs-xs)}.result-hero p{color:var(--ink-2)}.result-actions{display:flex;gap:var(--sp-2-5);justify-content:center;flex-wrap:wrap}.score-list{margin-top:var(--sp-9);border-top:1px solid var(--line)}.score-list>div{display:grid;grid-template-columns:1fr 80px 180px;gap:var(--sp-3-5);align-items:center;padding:var(--sp-3-5) 0;border-bottom:1px solid var(--line);font-size:var(--fs-sm)}.score-list b{text-align:right}.score-list i{height:var(--sp-2);background:var(--line)}.score-list u{display:block;height:100%;background:var(--accent);text-decoration:none}.mistake-item{background:var(--paper-1);border:1px solid var(--line);padding:var(--sp-5);margin:var(--sp-3) 0}.mistake-top{font-size:var(--fs-sm);color:var(--ink-2)}.mistake-top span{color:var(--ink-3)}.mistake-item>p{font-family:var(--serif);margin:var(--sp-3-5) 0}.mistake-answer{font-size:var(--fs-sm);color:var(--ink-2)}.mistake-answer b{color:var(--green)}.empty-state{text-align:center;padding:100px var(--sp-5);color:var(--ink-3)}.empty-state strong{display:block;color:var(--ink);font:28px var(--serif);margin-bottom:var(--sp-2-5)}.empty-state .primary-btn{margin-top:var(--sp-5)}/* 答题卡：>=960px 右侧悬浮；<960px 撤出网格，由 design-system.css 的底部抽屉接管。
+   断点必须与该文件的抽屉媒体查询一致，否则中间尺寸会两种都没有。 */
+@media(max-width:960px){.exam-layout{grid-template-columns:1fr;padding:var(--sp-6) var(--sp-5)}.answer-sheet{display:none}}
+@media(max-width:800px){.exambar-inner{padding:var(--sp-2-5) var(--sp-3-5);gap:var(--sp-2-5)}.exambar-inner .brand b{max-width:150px;overflow:hidden;white-space:nowrap;text-overflow:ellipsis}.progress{display:none}.library-head{display:block}.shell{padding:var(--sp-7) var(--sp-4)}.score-list>div{grid-template-columns:1fr 70px 90px}}
+
+/* ---------- 卷面模式（2026-09-05，交流纪要附录 C2）----------
+   整卷页贴近真实高考卷：卷头居中衬线 + 报头线；多篇阅读按「原文 → 该篇
+   题目」真卷分组流（.passage-group 由 exam-page.js examSection 产出）；
+   原文两端对齐更像纸。只动外观，作答数据结构零改动。 */
+.exam-head{max-width:var(--w-read,720px);margin:0 auto var(--sp-7);padding:var(--sp-5) 0;text-align:center;border-top:3px double var(--line-strong);border-bottom:1px solid var(--line)}
+.exam-head .exam-title{font-size:var(--fs-5xl);margin:0}
+.exam-head .exam-meta{margin:var(--sp-3) 0 0}
+.exam-content .passage div{text-align:justify}
+.passage-flow{margin:var(--sp-2) 0}
+.passage-group{margin:var(--sp-5) 0}
+.passage-group .passage{margin:0 0 var(--sp-3-5)}
+
+/* ---------- 本卷考点词（2026-09-05，纪要附录 E2）----------
+   卷头下的可折叠块：这套卷出现较多的高考核心词，点击直达词条页。 */
+.exam-words{margin-top:var(--sp-4);text-align:left}
+.exam-words summary{cursor:pointer;color:var(--accent);font-size:var(--fs-sm)}
+.exam-words summary:hover{color:var(--accent-line)}
+.exam-words-row{display:flex;flex-wrap:wrap;gap:var(--sp-2);margin-top:var(--sp-3)}
+.exam-word-chip{display:inline-flex;align-items:baseline;gap:var(--sp-1);padding:var(--sp-1-5) var(--sp-3);border:1px solid var(--line);border-radius:999px;background:var(--paper-1);color:var(--ink);text-decoration:none;font-family:var(--serif);font-size:var(--fs-sm)}
+.exam-word-chip small{color:var(--ink-3);font-size:var(--fs-xs)}
+.exam-word-chip:hover{border-color:var(--accent-line);background:var(--accent-soft)}
+
+/* ---------- 做题页字号三档（纪要附录 E3）----------
+   只放大做题页（.exam-content）的原文/题干/选项文字，不动全站版式；
+   类挂 <html>（index.html 首帧预置），档位落 localStorage.gkyy_fs。 */
+.fs-toggle{display:inline-flex;gap:var(--sp-1)}
+.fs-toggle .text-btn{padding:var(--sp-1) var(--sp-2);border:1px solid var(--line);border-radius:6px;background:var(--paper-1);font-size:var(--fs-xs)}
+.fs-toggle .text-btn[disabled]{opacity:.4;cursor:default}
+html.fs-lg .exam-content .passage div{font-size:1.12rem}
+html.fs-lg .exam-content .stem,html.fs-lg .exam-content .question>p{font-size:1.02rem}
+html.fs-lg .exam-content .option{font-size:1rem}
+html.fs-xl .exam-content .passage div{font-size:1.26rem}
+html.fs-xl .exam-content .stem,html.fs-xl .exam-content .question>p{font-size:1.12rem}
+html.fs-xl .exam-content .option{font-size:1.08rem}
+
+/* ===== 听力组件（2026-09-15 A-1/A-2：播放器 / 文字稿 / 边界提示） ===== */
+.listen-audio {
+  margin: var(--sp-3) 0 var(--sp-4);
+  padding: var(--sp-3) var(--sp-4);
+  background: var(--paper-2);
+  border: 1px solid var(--line);
+  border-radius: var(--r-md, 10px);
+}
+.listen-audio audio { width: 100%; max-width: 560px; display: block; }
+.listen-audio small { display: block; margin-top: var(--sp-2); color: var(--ink-3, var(--ink-2)); }
+.listen-ts { margin: var(--sp-2) 0 var(--sp-3); }
+.listen-ts summary { color: var(--ink-2); cursor: pointer; font-size: var(--fs-sm, 14px); }
+.listen-ts p {
+  margin: var(--sp-2) 0 0;
+  padding: var(--sp-3);
+  background: var(--paper-2);
+  border: 1px solid var(--line);
+  line-height: var(--lh-read, 1.9);
+}
+.listen-ts-open b { color: var(--accent); font-size: var(--fs-xs, 12px); }
+.exam-listen-note {
+  margin: var(--sp-2) 0 0;
+  padding: var(--sp-2-5, 10px) var(--sp-3);
+  background: var(--amber-soft);
+  border: 1px solid var(--amber);
+  border-radius: var(--r-sm, 8px);
+  color: var(--amber);
+  font-size: var(--fs-sm, 14px);
+  line-height: var(--lh-body, 1.7);
+}
+.listen-badge {
+  font-style: normal;
+  font-size: var(--fs-2xs, 11px);
+  color: var(--amber);
+  margin-right: var(--sp-2, 8px);
+}
+.listen-badge.has-audio { color: var(--accent); }

@@ -1,0 +1,30 @@
+# ===== 测试 / 构建垃圾（绝不入库） =====
+# .work/ 是 112M 的无头快照、chrome 用户数据、备份与探针产物
+.work/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+_*.log
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ===== AI 设计探索产物（非站点代码） =====
+qiaomu-design/
+pencil-ui-design/
+huashu-design/
+design-previews/
+
+# ===== 内部交流纪要（非站点代码） =====
+交流纪要/
+
+# ===== 私有工作区：记忆 / 技能配置 =====
+.workbuddy/
+
+# ===== 依赖（本项目无构建步骤，纯前端，无需 node_modules） =====
+node_modules/
+
+# ===== 环境自身状态（WorkBuddy hook 会话态，非项目文件） =====
+.mimosa/

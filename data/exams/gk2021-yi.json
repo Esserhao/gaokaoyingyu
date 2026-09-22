@@ -1,0 +1,2193 @@
+{
+  "id": "gk2021-yi",
+  "year": 2021,
+  "paper": "全国乙卷",
+  "region": "全国",
+  "title": "2021年全国乙卷英语",
+  "format": "legacy",
+  "duration": 120,
+  "totalScore": 150,
+  "hasAudio": true,
+  "audio": "audio/listening-2021-jiayi.mp3",
+  "source": "2021年全国高考乙卷英语试题（解析版）",
+  "sections": [
+    {
+      "key": "listening",
+      "partTitle": "第一部分 听力（共两节，满分30分）",
+      "secTitle": "第一节（共5小题；每小题1.5分，满分7.5分）听下面5段对话。每段对话后有一个小题，从题中所给的A、B、C三个选项中选出最佳选项。每段对话仅读一遍。",
+      "passages": [],
+      "pool": [],
+      "questions": [
+        {
+          "id": 1,
+          "stem": "What is the man doing?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Asking the way."
+            },
+            {
+              "letter": "B",
+              "text": "Giving directions."
+            },
+            {
+              "letter": "C",
+              "text": "Correcting a mistake."
+            }
+          ],
+          "answer": "A",
+          "type": "listening",
+          "score": 1.5,
+          "transcript": "M: Excuse me, I got lost. I took a bus to city hall, but I can't find the place.\nW: This is the concert hall, not city hall. To go there, you should take the bus at Grand Hotel over there."
+        },
+        {
+          "id": 2,
+          "stem": "What dress size does the woman want?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "8."
+            },
+            {
+              "letter": "B",
+              "text": "10."
+            },
+            {
+              "letter": "C",
+              "text": "12."
+            }
+          ],
+          "answer": "C",
+          "type": "listening",
+          "score": 1.5,
+          "transcript": "M: Can I help you?\nW: I'm looking for a size twelve dress.\nM: Oh, let me see. An eight, a ten. Ah, you're lucky. I have the prettiest dress here in a twelve. Why don't you try it on?"
+        },
+        {
+          "id": 3,
+          "stem": "What is the woman likely to do?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Make a phone call."
+            },
+            {
+              "letter": "B",
+              "text": "Handle the problem."
+            },
+            {
+              "letter": "C",
+              "text": "Have a rest."
+            }
+          ],
+          "answer": "C",
+          "type": "listening",
+          "score": 1.5,
+          "transcript": "W: Do you think you can take care of everything in the office today?\nM: No problem. Just go home and take a rest. If there is anything I feel I cannot handle, I'll call you."
+        },
+        {
+          "id": 4,
+          "stem": "Which tour does the man seem to be interested in?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "The evening tour."
+            },
+            {
+              "letter": "B",
+              "text": "The half-day tour."
+            },
+            {
+              "letter": "C",
+              "text": "The full-day tour."
+            }
+          ],
+          "answer": "B",
+          "type": "listening",
+          "score": 1.5,
+          "transcript": "W: We have a half-day tour, a full-day tour and an evening tour. Which one would you like?\nM: What is the schedule of the half-day tour?\nW: It sets out at 8:30 a.m. and returns at 2:00 p.m."
+        },
+        {
+          "id": 5,
+          "stem": "Where are the speakers?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "At a canteen."
+            },
+            {
+              "letter": "B",
+              "text": "At a clinic."
+            },
+            {
+              "letter": "C",
+              "text": "At a bank."
+            }
+          ],
+          "answer": "B",
+          "type": "listening",
+          "score": 1.5,
+          "transcript": "M: Now, what seems to be the trouble, Mrs. Stevens?\nW: I've been very dizzy lately. And last night, I had some chest pain.\nM: Don't worry. Let me have a look."
+        },
+        {
+          "id": 6,
+          "stem": "What does the woman think of the match?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Entertaining."
+            },
+            {
+              "letter": "B",
+              "text": "Discouraging."
+            },
+            {
+              "letter": "C",
+              "text": "Boring."
+            }
+          ],
+          "answer": "A",
+          "type": "listening",
+          "score": 1.5,
+          "group": "听下面一段较长对话，回答第6、7小题。",
+          "transcript": "W: Wow. That was a great match. I really like watching tennis games.\nM: Me too. I think tennis is an exciting sport.\nW: I think so. Do you play tennis, John?\nM: Yes, but not very well. Do you play?\nW: A little. How about a game on Tuesday afternoon?\nM: Sure."
+        },
+        {
+          "id": 7,
+          "stem": "What do the speakers plan to do on Tuesday afternoon?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Watch a game."
+            },
+            {
+              "letter": "B",
+              "text": "Play tennis."
+            },
+            {
+              "letter": "C",
+              "text": "Go to the cinema."
+            }
+          ],
+          "answer": "B",
+          "type": "listening",
+          "score": 1.5,
+          "group": "听下面一段较长对话，回答第6、7小题。"
+        },
+        {
+          "id": 8,
+          "stem": "What does the man advise Mrs. White to do?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Go on a diet."
+            },
+            {
+              "letter": "B",
+              "text": "Do more exercise."
+            },
+            {
+              "letter": "C",
+              "text": "Get enough sleep."
+            }
+          ],
+          "answer": "A",
+          "type": "listening",
+          "score": 1.5,
+          "group": "听下面一段较长对话，回答第8至10小题。",
+          "transcript": "M: Mrs. White, I'm afraid we have to put you on a strict diet. From now on, you're going to have to stay away from salty food.\nW: Does that mean I can't have any more fast food?\nM: Right. You can't have any fried food or steaks.\nW: What about breakfast food like eggs and sausages?\nM: Those are all bad for you. But you can have porridge, bread and orange juice.\nW: Well, what about lunch and dinner?\nM: Have a salad for lunch. As for dinner, you can have all the vegetables you want. Fish and chicken are also okay.\nW: What about dessert? Can I still have ice cream?\nM: Yes, but not too much."
+        },
+        {
+          "id": 9,
+          "stem": "Which can be included in Mrs. White's breakfast?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Eggs."
+            },
+            {
+              "letter": "B",
+              "text": "Sausages."
+            },
+            {
+              "letter": "C",
+              "text": "Porridge."
+            }
+          ],
+          "answer": "C",
+          "type": "listening",
+          "score": 1.5,
+          "group": "听下面一段较长对话，回答第8至10小题。"
+        },
+        {
+          "id": 10,
+          "stem": "What is the man?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "A teacher."
+            },
+            {
+              "letter": "B",
+              "text": "A physician."
+            },
+            {
+              "letter": "C",
+              "text": "A chef."
+            }
+          ],
+          "answer": "B",
+          "type": "listening",
+          "score": 1.5,
+          "group": "听下面一段较长对话，回答第8至10小题。"
+        },
+        {
+          "id": 11,
+          "stem": "How does Nancy look to Daniel?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Confused."
+            },
+            {
+              "letter": "B",
+              "text": "Excited."
+            },
+            {
+              "letter": "C",
+              "text": "Anxious."
+            }
+          ],
+          "answer": "C",
+          "type": "listening",
+          "score": 1.5,
+          "group": "听下面一段较长对话，回答第11至14小题。",
+          "transcript": "M: Hi Nancy! You look worried. What's wrong?\nW: Well Daniel, have you ever felt nervous on stage?\nM: Sure. Do you remember that play I was in a few years ago? I knew my lines, but I was terrified to have to recite them in front of an audience. As soon as I saw the crowd of people down there, my heart beat so fast that I was unable to say a single word.\nW: That's how I feel just thinking about the spelling competition next week.\nM: I didn't know you made it to the finals.\nW: I'm worried I'll get nervous and freeze on stage. I might forget how to spell everything, even my own name. I don't know what to do.\nM: Nancy, I know that you're not going to forget how to spell your name. I'll help you get through this. I'll go to the school hall with you to practice. Then I'll teach you an exercise my baseball coach taught me. Believe me. It works.\nW: I feel much better now. Thanks, Daniel."
+        },
+        {
+          "id": 12,
+          "stem": "Why does Daniel mention his performance in a play?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "To comfort Nancy."
+            },
+            {
+              "letter": "B",
+              "text": "To express his regret."
+            },
+            {
+              "letter": "C",
+              "text": "To show his pride."
+            }
+          ],
+          "answer": "A",
+          "type": "listening",
+          "score": 1.5,
+          "group": "听下面一段较长对话，回答第11至14小题。"
+        },
+        {
+          "id": 13,
+          "stem": "What is Nancy going to do next week?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Take a school test."
+            },
+            {
+              "letter": "B",
+              "text": "Have a check-up."
+            },
+            {
+              "letter": "C",
+              "text": "Go in for a competition."
+            }
+          ],
+          "answer": "C",
+          "type": "listening",
+          "score": 1.5,
+          "group": "听下面一段较长对话，回答第11至14小题。"
+        },
+        {
+          "id": 14,
+          "stem": "What does Daniel offer to do for Nancy?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Rewrite her lines."
+            },
+            {
+              "letter": "B",
+              "text": "Drive her to the theatre."
+            },
+            {
+              "letter": "C",
+              "text": "Help her with the practice."
+            }
+          ],
+          "answer": "C",
+          "type": "listening",
+          "score": 1.5,
+          "group": "听下面一段较长对话，回答第11至14小题。"
+        },
+        {
+          "id": 15,
+          "stem": "What was Prof. Stone's grandfather afraid of?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Leaving his home."
+            },
+            {
+              "letter": "B",
+              "text": "Parting from his son."
+            },
+            {
+              "letter": "C",
+              "text": "Taking early retirement."
+            }
+          ],
+          "answer": "A",
+          "type": "listening",
+          "score": 1.5,
+          "group": "听下面一段较长对话，回答第15至17小题。",
+          "transcript": "W: Hello, ladies and gentlemen! Today, we have invited Prof. Stone to talk about the role of elderly people in our society. Welcome to our show, Prof. Stone.\nM: To begin with, I'd like to tell a story from my own life. Several years ago, when my grandparents were well into their 80s, they were no longer able to care for themselves very well. My grandfather was afraid of leaving the only home they had known for the past 60 years. The idea of having to sell their home and move into a retirement home was an extremely painful experience for them. Indeed, old age for them, and many old Americans can mean not only the possible failure of one's health, but the loss of identity and self-worth.\nW: Yes, it's true. What do you have to say about the problem of old age?\nM: Many experts have given talks here that have focused on the medical care, and the development of public services for senior citizens. Today, I'd like to focus my comments on the meaningful roles that elderly can play and should play in our society."
+        },
+        {
+          "id": 16,
+          "stem": "What does old age mean to many elderly Americans?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Lack of moral support."
+            },
+            {
+              "letter": "B",
+              "text": "Loss of self-worth."
+            },
+            {
+              "letter": "C",
+              "text": "Change of living habits."
+            }
+          ],
+          "answer": "B",
+          "type": "listening",
+          "score": 1.5,
+          "group": "听下面一段较长对话，回答第15至17小题。"
+        },
+        {
+          "id": 17,
+          "stem": "What will Prof. Stone talk about next concerning elderly people?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Public services they ask for."
+            },
+            {
+              "letter": "B",
+              "text": "Health care available to them."
+            },
+            {
+              "letter": "C",
+              "text": "Contributions they can make."
+            }
+          ],
+          "answer": "C",
+          "type": "listening",
+          "score": 1.5,
+          "group": "听下面一段较长对话，回答第15至17小题。"
+        },
+        {
+          "id": 18,
+          "stem": "What does the speaker's mother want her to be?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "A confident person."
+            },
+            {
+              "letter": "B",
+              "text": "A warm-hearted person."
+            },
+            {
+              "letter": "C",
+              "text": "A humorous person."
+            }
+          ],
+          "answer": "A",
+          "type": "listening",
+          "score": 1.5,
+          "group": "听下面一段独白，回答第18至20小题。",
+          "transcript": "W: Talking about personal relationships. Well, I'd naturally think of my relationship with my mother. Whenever I need help, my mother is always there for me. She often tells me that I can be anyone I want, as long as I'm confident of myself. She sees my talent and pushes me to do the best I possibly can. As I was growing up, we were often on the move. I had to admit that moving so often made me feel lonely. But my mother did everything she could to help me feel happy. In fact, so much traveling was really a good thing because it made us close. I respect my mother so much as she never treats me as a child, but as an equal. She gives me the freedom to make mistakes and to learn from them all. Unlike friendships that can fade or break, I know I'll always be connected to my mother no matter what I face. She is not just a role model, but someone I love."
+        },
+        {
+          "id": 19,
+          "stem": "Why did the speaker feel lonely in her childhood?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "She often traveled by herself."
+            },
+            {
+              "letter": "B",
+              "text": "Her family moved frequently."
+            },
+            {
+              "letter": "C",
+              "text": "Her mother was busy working."
+            }
+          ],
+          "answer": "B",
+          "type": "listening",
+          "score": 1.5,
+          "group": "听下面一段独白，回答第18至20小题。"
+        },
+        {
+          "id": 20,
+          "stem": "What does the speaker mainly talk about?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Importance of home schooling."
+            },
+            {
+              "letter": "B",
+              "text": "Mother-daughter relationship."
+            },
+            {
+              "letter": "C",
+              "text": "A role model in her family."
+            }
+          ],
+          "answer": "B",
+          "type": "listening",
+          "score": 1.5,
+          "group": "听下面一段独白，回答第18至20小题。"
+        }
+      ]
+    },
+    {
+      "key": "reading",
+      "partTitle": "第二部分 阅读理解（共两节，满分40分）",
+      "secTitle": "第一节（共15小题；每小题2分，满分30分）阅读下列短文，从每题所给的A、B、C和D四个选项中，选出最佳选项。",
+      "passages": [
+        {
+          "label": "A",
+          "title": "The Biggest Stadiums in the World",
+          "text": "People have been pouring into stadiums since the days of ancient Greece. In around 80 A.D., the Romans built the Colosseum, which remains the world's best known stadium and continues to inform contemporary design. Rome's Colosseum was 157 feet tall and had 80 entrances, seating 50,000 people. However, that was small fry compared with the city's Circus Maximus, which accommodated around 250,000 people.\n\nThese days, safety regulations—not to mention the modern sports fan's desire for a good view and comfortable seat—tend to keep stadium capacities（容量）slightly lower. Even soccer fans tend to have a seat each; gone are the days of thousands standing to watch the match.\n\nFor the biggest stadiums in the world, we have used data supplied by the World Atlas list so far, which ranks them by their stated permanent capacity, as well as updated information from official stadium websites.\n\nAll these stadiums are still functional, still open and still hosting the biggest events in world sport.\n\n· Rungrado 1st of May Stadium, Pyongyang D.P.R. Korea. Capacity: 150,000. Opened: May 1, 1989.\n· Michigan Stadium, Ann Arbor, Michigan, U.S. Capacity: 107,601. Opened: October 1, 1927.\n· Beaver Stadium, State College, Pennsylvania, U.S. Capacity: 106,572. Opened: September 17, 1960.\n· Ohio Stadium, Columbus, Ohio, U.S. Capacity: 104,944. Opened: October 7, 1922.\n· Kyle Field, College Station, Texas, U.S. Capacity: 102,512. Opened: September 24, 1927."
+        },
+        {
+          "label": "B",
+          "text": "When almost everyone has a mobile phone, why are more than half of Australian homes still paying for a landline（座机）?\n\nThese days you'd be hard pressed to find anyone in Australia over the age of 15 who doesn't own a mobile phone. In fact plenty of younger kids have one in their pocket. Practically everyone can make and receive calls anywhere, anytime.\n\nStill, 55 percent of Australians have a landline phone at home and only just over a quarter（29%）rely only on their smartphones according to a survey（调查）. Of those Australians who still have a landline, a third concede that it's not really necessary and they're keeping it as a security blanket — 19 percent say they never use it while a further 13 percent keep it in case of emergencies. I think my home falls into that category.\n\nMore than half of Australian homes are still choosing to stick with their home phone. Age is naturally a factor（因素）— only 58 percent of Generation Ys still use landlines now and then, compared to 84 percent of Baby Boomers who've perhaps had the same home number for 50 years. Age isn't the only factor; I'd say it's also to do with the makeup of your household.\n\nGeneration Xers with young families, like my wife and I, can still find it convenient to have a home phone rather than providing a mobile phone for every family member. That said, to be honest the only people who ever ring our home phone are our Baby Boomers parents, to the point where we play a game and guess who is calling before we pick up the phone（using Caller ID would take the fun out of it）.\n\nHow attached are you to your landline? How long until they go the way of gas street lamps and morning milk deliveries?"
+        },
+        {
+          "label": "C",
+          "text": "You've heard that plastic is polluting the oceans — between 4.8 and 12.7 million tonnes enter ocean ecosystems every year. But does one plastic straw or cup really make a difference? Artist Benjamin Von Wong wants you to know that it does. He builds massive sculptures out of plastic garbage, forcing viewers to re-examine their relationship to single-use plastic products.\n\nAt the beginning of the year, the artist built a piece called \"Strawpocalypse,\" a pair of 10-foot-tall plastic waves, frozen mid-crash. Made of 168,000 plastic straws collected from several volunteer beach cleanups, the sculpture made its first appearance at the Estella Place shopping center in Ho Chi Minh City, Vietnam.\n\nJust 9% of global plastic waste is recycled. Plastic straws are by no means the biggest source（来源）of plastic pollution, but they've recently come under fire because most people don't need them to drink with and, because of their small size and weight, they cannot be recycled. Every straw that's part of Von Wong's artwork likely came from a drink that someone used for only a few minutes. Once the drink is gone, the straw will take centuries to disappear.\n\nIn a piece from 2018, Von Wong wanted to illustrate（说明）a specific statistic: Every 60 seconds, a truckload's worth of plastic enters the ocean. For this work, titled \"Truckload of Plastic,\" Von Wong and a group of volunteers collected more than 10,000 pieces of plastic, which were then tied together to look like they'd been dumped（倾倒）from a truck all at once.\n\nVon Wong hopes that his work will also help pressure big companies to reduce their plastic footprint."
+        },
+        {
+          "label": "D",
+          "text": "During an interview for one of my books, my interviewer said something I still think about often. Annoyed by the level of distraction（干扰）in his open office, he said, \"That's why I have a membership at the coworking space across the street — so I can focus\". His comment struck me as strange. After all, coworking spaces also typically use an open office layout（布局）. But I recently came across a study that shows why his approach works.\n\nThe researchers examined various levels of noise on participants as they completed tests of creative thinking. They were randomly divided into four groups and exposed to various noise levels in the background, from total silence to 50 decibels（分贝）, 70 decibels, and 85 decibels. The differences between most of the groups were statistically insignificant; however, the participants in the 70 decibels group — those exposed to a level of noise similar to background chatter in a coffee shop — significantly outperformed the other groups. Since the effects were small, this may suggest that our creative thinking does not differ that much in response to total silence and 85 decibels of background noise.\n\nBut since the results at 70 decibels were significant, the study also suggests that the right level of background noise — not too loud and not total silence — may actually improve one's creative thinking ability. The right level of background noise may interrupt our normal patterns of thinking just enough to allow our imaginations to wander, without making it impossible to focus. This kind of \"distracted focus\" appears to be the best state for working on creative tasks.\n\nSo why do so many of us hate our open offices? The problem may be that, in our offices, we can't stop ourselves from getting drawn into others' conversations while we're trying to focus. Indeed, the researchers found that face-to-face interactions and conversations affect the creative process, and yet a coworking space or a coffee shop provides a certain level of noise while also providing freedom from interruptions."
+        }
+      ],
+      "pool": [],
+      "questions": [
+        {
+          "id": 21,
+          "passageLabel": "A",
+          "stem": "How many people could the Circus Maximus hold?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "104,944."
+            },
+            {
+              "letter": "B",
+              "text": "107,601."
+            },
+            {
+              "letter": "C",
+              "text": "About 150,000."
+            },
+            {
+              "letter": "D",
+              "text": "About 250,000."
+            }
+          ],
+          "answer": "D",
+          "type": "reading",
+          "score": 2,
+          "explanation": {
+            "summary": "细节理解题｜本文是说明文，介绍世界上著名大型竞技场的基本情况。",
+            "question": "题干问 Circus Maximus 能容纳多少人。",
+            "evidence": "However, that was small fry compared with the city's Circus Maximus, which accommodated around 250,000 people.",
+            "answer": "D。原文明确其可容纳约 250,000 人。"
+          }
+        },
+        {
+          "id": 22,
+          "passageLabel": "A",
+          "stem": "Of the following stadiums, which is the oldest?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Michigan Stadium."
+            },
+            {
+              "letter": "B",
+              "text": "Beaver Stadium."
+            },
+            {
+              "letter": "C",
+              "text": "Ohio Stadium."
+            },
+            {
+              "letter": "D",
+              "text": "Kyle Field."
+            }
+          ],
+          "answer": "C",
+          "type": "reading",
+          "score": 2,
+          "explanation": {
+            "summary": "细节理解题",
+            "question": "比较四个体育场的开放时间，找出最早的。",
+            "evidence": "Ohio Stadium… Opened: October 7, 1922.（其余为 1927、1960、1927 年）",
+            "answer": "C。Ohio Stadium 1922 年开放，年代最久。"
+          }
+        },
+        {
+          "id": 23,
+          "passageLabel": "A",
+          "stem": "What do the listed stadiums have in common?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "They host big games."
+            },
+            {
+              "letter": "B",
+              "text": "They have become tourist attractions."
+            },
+            {
+              "letter": "C",
+              "text": "They were built by Americans."
+            },
+            {
+              "letter": "D",
+              "text": "They are favored by architects."
+            }
+          ],
+          "answer": "A",
+          "type": "reading",
+          "score": 2,
+          "explanation": {
+            "summary": "细节理解题",
+            "question": "问所列体育场的共同点。",
+            "evidence": "All these stadiums are still functional, still open and still hosting the biggest events in world sport.",
+            "answer": "A。它们都仍在举办大型体育赛事。"
+          }
+        },
+        {
+          "id": 24,
+          "passageLabel": "B",
+          "stem": "What does paragraph 2 mainly tell us about mobile phones?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Their target users."
+            },
+            {
+              "letter": "B",
+              "text": "Their wide popularity."
+            },
+            {
+              "letter": "C",
+              "text": "Their major functions."
+            },
+            {
+              "letter": "D",
+              "text": "Their complex design."
+            }
+          ],
+          "answer": "B",
+          "type": "reading",
+          "score": 2,
+          "explanation": {
+            "summary": "主旨大意题｜本文是说明文，介绍澳大利亚固定电话的使用情况。",
+            "question": "问第二段主要讲手机的什么。",
+            "evidence": "These days you'd be hard pressed to find anyone in Australia over the age of 15 who doesn't own a mobile phone… Practically everyone can make and receive calls anywhere, anytime.",
+            "answer": "B。该段说明手机在澳大利亚广受欢迎。"
+          }
+        },
+        {
+          "id": 25,
+          "passageLabel": "B",
+          "stem": "What does the underlined word \"concede\" in paragraph 3 mean?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Admit."
+            },
+            {
+              "letter": "B",
+              "text": "Argue."
+            },
+            {
+              "letter": "C",
+              "text": "Remember."
+            },
+            {
+              "letter": "D",
+              "text": "Remark."
+            }
+          ],
+          "answer": "A",
+          "type": "reading",
+          "score": 2,
+          "explanation": {
+            "summary": "词义猜测题",
+            "question": "猜测第三段划线词 concede 的含义。",
+            "evidence": "a third concede that it's not really necessary and they're keeping it as a security blanket — 19 percent say they never use it…",
+            "answer": "A。此处指他们“承认”座机并非必需，故与 admit 同义。"
+          }
+        },
+        {
+          "id": 26,
+          "passageLabel": "B",
+          "stem": "What can we say about Baby Boomers?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "They like smartphone games."
+            },
+            {
+              "letter": "B",
+              "text": "They enjoy guessing callers' identity."
+            },
+            {
+              "letter": "C",
+              "text": "They keep using landline phones."
+            },
+            {
+              "letter": "D",
+              "text": "They are attached to their family."
+            }
+          ],
+          "answer": "C",
+          "type": "reading",
+          "score": 2,
+          "explanation": {
+            "summary": "推理判断题",
+            "question": "问关于婴儿潮一代可以得出什么结论。",
+            "evidence": "84 percent of Baby Boomers who've perhaps had the same home number for 50 years；the only people who ever ring our home phone are our Baby Boomers parents",
+            "answer": "C。婴儿潮一代一直在使用固定电话。"
+          }
+        },
+        {
+          "id": 27,
+          "passageLabel": "B",
+          "stem": "What can be inferred about the landline from the last paragraph?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "It remains a family necessity."
+            },
+            {
+              "letter": "B",
+              "text": "It will fall out of use some day."
+            },
+            {
+              "letter": "C",
+              "text": "It may increase daily expenses."
+            },
+            {
+              "letter": "D",
+              "text": "It is as important as the gas light."
+            }
+          ],
+          "answer": "B",
+          "type": "reading",
+          "score": 2,
+          "explanation": {
+            "summary": "推理判断题",
+            "question": "根据末段推断座机的命运。",
+            "evidence": "How long until they go the way of gas street lamps and morning milk deliveries?",
+            "answer": "B。作者用煤气路灯、送奶上门被淘汰作类比，暗示座机终将退出使用。"
+          }
+        },
+        {
+          "id": 28,
+          "passageLabel": "C",
+          "stem": "What are Von Wong's artworks intended for?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Beautifying the city he lives in."
+            },
+            {
+              "letter": "B",
+              "text": "Introducing eco-friendly products."
+            },
+            {
+              "letter": "C",
+              "text": "Drawing public attention to plastic waste."
+            },
+            {
+              "letter": "D",
+              "text": "Reducing garbage on the beach."
+            }
+          ],
+          "answer": "C",
+          "type": "reading",
+          "score": 2,
+          "explanation": {
+            "summary": "推理判断题｜本文是说明文，介绍艺术家 Benjamin Von Wong 用塑料垃圾制作巨型雕塑唤醒环保意识。",
+            "question": "问 Von Wong 的作品目的何在。",
+            "evidence": "He builds massive sculptures out of plastic garbage, forcing viewers to re-examine their relationship to single-use plastic products.",
+            "answer": "C。作品意在引起公众对塑料垃圾的关注。"
+          }
+        },
+        {
+          "id": 29,
+          "passageLabel": "C",
+          "stem": "Why does the author discuss plastic straws in paragraph 3?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "To show the difficulty of their recycling."
+            },
+            {
+              "letter": "B",
+              "text": "To explain why they are useful."
+            },
+            {
+              "letter": "C",
+              "text": "To voice his views on modern art."
+            },
+            {
+              "letter": "D",
+              "text": "To find a substitute for them."
+            }
+          ],
+          "answer": "A",
+          "type": "reading",
+          "score": 2,
+          "explanation": {
+            "summary": "推理判断题",
+            "question": "问第三段讨论塑料吸管的意图。",
+            "evidence": "because of their small size and weight, they cannot be recycled… the straw will take centuries to disappear.",
+            "answer": "A。吸管体积小重量轻无法回收，说明其回收之难。"
+          }
+        },
+        {
+          "id": 30,
+          "passageLabel": "C",
+          "stem": "What effect would \"Truckload of Plastic\" have on viewers?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Calming."
+            },
+            {
+              "letter": "B",
+              "text": "Disturbing."
+            },
+            {
+              "letter": "C",
+              "text": "Refreshing."
+            },
+            {
+              "letter": "D",
+              "text": "Challenging."
+            }
+          ],
+          "answer": "C",
+          "type": "reading",
+          "score": 2,
+          "explanation": {
+            "summary": "推理判断题",
+            "question": "问该作品会给观众带来何种效果。",
+            "evidence": "Von Wong and a group of volunteers collected more than 10,000 pieces of plastic, which were then tied together to look like they'd been dumped from a truck all at once.",
+            "answer": "C。作品以新颖方式呈现塑料入海的速度与体量，令观众耳目一新。"
+          }
+        },
+        {
+          "id": 31,
+          "passageLabel": "C",
+          "stem": "Which of the following can be the best title for the text?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Artists' Opinions on Plastic Safety"
+            },
+            {
+              "letter": "B",
+              "text": "Media Interest in Contemporary Art"
+            },
+            {
+              "letter": "C",
+              "text": "Responsibility Demanded of Big Companies"
+            },
+            {
+              "letter": "D",
+              "text": "Ocean Plastics Transformed into Sculptures"
+            }
+          ],
+          "answer": "D",
+          "type": "reading",
+          "score": 2,
+          "explanation": {
+            "summary": "标题判断题",
+            "question": "为文章选择最佳标题。",
+            "evidence": "全文围绕 Von Wong 用海洋塑料垃圾制成巨型雕塑、唤起环保意识展开。",
+            "answer": "D。“海洋塑料变成雕塑”契合主旨。"
+          }
+        },
+        {
+          "id": 32,
+          "passageLabel": "D",
+          "stem": "Why does the interviewer prefer a coworking space?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "It helps him concentrate."
+            },
+            {
+              "letter": "B",
+              "text": "It blocks out background noise."
+            },
+            {
+              "letter": "C",
+              "text": "It has a pleasant atmosphere."
+            },
+            {
+              "letter": "D",
+              "text": "It encourages face-to-face interactions."
+            }
+          ],
+          "answer": "A",
+          "type": "reading",
+          "score": 2,
+          "explanation": {
+            "summary": "细节理解题｜本文是说明文，讨论背景噪音水平与创造性思维的关系。",
+            "question": "问采访者为何偏爱共享办公空间。",
+            "evidence": "That's why I have a membership at the coworking space across the street — so I can focus.",
+            "answer": "A。因为那里能帮他集中精力。"
+          }
+        },
+        {
+          "id": 33,
+          "passageLabel": "D",
+          "stem": "Which level of background noise may promote creative thinking ability?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Total silence."
+            },
+            {
+              "letter": "B",
+              "text": "50 decibels."
+            },
+            {
+              "letter": "C",
+              "text": "70 decibels."
+            },
+            {
+              "letter": "D",
+              "text": "85 decibels."
+            }
+          ],
+          "answer": "C",
+          "type": "reading",
+          "score": 2,
+          "explanation": {
+            "summary": "细节理解题",
+            "question": "问哪种背景噪音水平有助于提升创造性思维。",
+            "evidence": "the participants in the 70 decibels group… significantly outperformed the other groups；the right level of background noise — not too loud and not total silence — may actually improve one's creative thinking ability",
+            "answer": "C。70 分贝组表现显著优于其他组。"
+          }
+        },
+        {
+          "id": 34,
+          "passageLabel": "D",
+          "stem": "What makes an open office unwelcome to many people?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Personal privacy unprotected."
+            },
+            {
+              "letter": "B",
+              "text": "Limited working space."
+            },
+            {
+              "letter": "C",
+              "text": "Restrictions on group discussion."
+            },
+            {
+              "letter": "D",
+              "text": "Constant interruptions."
+            }
+          ],
+          "answer": "D",
+          "type": "reading",
+          "score": 2,
+          "explanation": {
+            "summary": "细节理解题",
+            "question": "问开放式办公室不受欢迎的原因。",
+            "evidence": "in our offices, we can't stop ourselves from getting drawn into others' conversations while we're trying to focus",
+            "answer": "D。人们不断被他人谈话打扰。"
+          }
+        },
+        {
+          "id": 35,
+          "passageLabel": "D",
+          "stem": "What can we infer about the author from the text?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "He's a news reporter."
+            },
+            {
+              "letter": "B",
+              "text": "He's an office manager."
+            },
+            {
+              "letter": "C",
+              "text": "He's a professional designer."
+            },
+            {
+              "letter": "D",
+              "text": "He's a published writer."
+            }
+          ],
+          "answer": "D",
+          "type": "reading",
+          "score": 2,
+          "explanation": {
+            "summary": "推理判断题",
+            "question": "推断作者的身份。",
+            "evidence": "During an interview for one of my books, my interviewer said something I still think about often.",
+            "answer": "D。作者提到自己有出版的书接受采访，可推知他是作家。"
+          }
+        }
+      ]
+    },
+    {
+      "key": "seven",
+      "partTitle": "第二部分 阅读理解（共两节，满分40分）",
+      "secTitle": "第二节（共5小题；每小题2分，满分10分）根据短文内容，从短文后的选项中选出能填入空白处的最佳选项。选项中有两项为多余选项。",
+      "passages": [
+        {
+          "label": "七选五",
+          "text": "According to Jessica Hagy, author of How to Be Interesting, it's not difficult to make yourself interesting at a dinner party.\n\n___36___, if you're out of your comfort zone or if you're wandering into somebody's house for the first time. So the main thing is just to show up and be adventurous, trying different foods and talking to strangers.\n\nPeople love to talk about themselves. If you can start the conversation with a question other than \"What do you do for a living?\", you'll be able to get a lot more interesting conversation out of whomever it is you're talking to. ___37___, it can bring in \"I have this old, broken-down vehicle\" or \"I rode the bus with these crazy people who were laughing at silly jokes in the back.\" It just opens up conversation.\n\n___38___? If you can't take their wine away, you should certainly try to take away their soapbox（讲台）. If you're the host, you can ask them to help you in the kitchen with something and just remove them from the situation. ___39___.\n\nAnd what about that other dinner-party killer: awkward silence? If you're faced with an awkward silence at a dinner party, the only thing that always gets everyone talking again is to give the host a compliment（赞扬）. ___40___. Just quickly turn around and say, \"This cake is extremely delicious and you have to tell me all about it.\"\n\nSo being interesting at a dinner party isn't that hard."
+        }
+      ],
+      "pool": [
+        {
+          "letter": "A",
+          "text": "How do you know the host"
+        },
+        {
+          "letter": "B",
+          "text": "The first step is to go exploring"
+        },
+        {
+          "letter": "C",
+          "text": "If you ask the question \"How did you get here?\""
+        },
+        {
+          "letter": "D",
+          "text": "Be prepared to have awkward conversations with strangers"
+        },
+        {
+          "letter": "E",
+          "text": "Or turn the conversation into a topic where they have little to say"
+        },
+        {
+          "letter": "F",
+          "text": "What about that person who had too much to drink or won't stop talking"
+        },
+        {
+          "letter": "G",
+          "text": "He or she is the person who is feeling the weight of that awkwardness the most"
+        }
+      ],
+      "questions": [
+        {
+          "id": 36,
+          "passageLabel": "七选五",
+          "stem": "第36空",
+          "options": [
+            {
+              "letter": "A",
+              "text": "How do you know the host"
+            },
+            {
+              "letter": "B",
+              "text": "The first step is to go exploring"
+            },
+            {
+              "letter": "C",
+              "text": "If you ask the question \"How did you get here?\""
+            },
+            {
+              "letter": "D",
+              "text": "Be prepared to have awkward conversations with strangers"
+            },
+            {
+              "letter": "E",
+              "text": "Or turn the conversation into a topic where they have little to say"
+            },
+            {
+              "letter": "F",
+              "text": "What about that person who had too much to drink or won't stop talking"
+            },
+            {
+              "letter": "G",
+              "text": "He or she is the person who is feeling the weight of that awkwardness the most"
+            }
+          ],
+          "answer": "B",
+          "type": "seven",
+          "score": 2,
+          "explanation": {
+            "summary": "段首过渡句｜本文是说明文，介绍在晚宴上让自己显得有趣的方法。",
+            "question": "空处位于段首，需承接上文“让自己变得有趣并不难”，并引出下文。",
+            "evidence": "So the main thing is just to show up and be adventurous, trying different foods and talking to strangers.",
+            "answer": "B。“第一步是去探索”承上启下。"
+          }
+        },
+        {
+          "id": 37,
+          "passageLabel": "七选五",
+          "stem": "第37空",
+          "options": [
+            {
+              "letter": "A",
+              "text": "How do you know the host"
+            },
+            {
+              "letter": "B",
+              "text": "The first step is to go exploring"
+            },
+            {
+              "letter": "C",
+              "text": "If you ask the question \"How did you get here?\""
+            },
+            {
+              "letter": "D",
+              "text": "Be prepared to have awkward conversations with strangers"
+            },
+            {
+              "letter": "E",
+              "text": "Or turn the conversation into a topic where they have little to say"
+            },
+            {
+              "letter": "F",
+              "text": "What about that person who had too much to drink or won't stop talking"
+            },
+            {
+              "letter": "G",
+              "text": "He or she is the person who is feeling the weight of that awkwardness the most"
+            }
+          ],
+          "answer": "C",
+          "type": "seven",
+          "score": 2,
+          "explanation": {
+            "summary": "句间逻辑",
+            "question": "空后举出对方可能的回答，需要一个具体提问作为触发。",
+            "evidence": "it can bring in \"I have this old, broken-down vehicle\" or \"I rode the bus with these crazy people…\"",
+            "answer": "C。“如果你问‘你是怎么到这里来的？’”正好引出这些回答。"
+          }
+        },
+        {
+          "id": 38,
+          "passageLabel": "七选五",
+          "stem": "第38空",
+          "options": [
+            {
+              "letter": "A",
+              "text": "How do you know the host"
+            },
+            {
+              "letter": "B",
+              "text": "The first step is to go exploring"
+            },
+            {
+              "letter": "C",
+              "text": "If you ask the question \"How did you get here?\""
+            },
+            {
+              "letter": "D",
+              "text": "Be prepared to have awkward conversations with strangers"
+            },
+            {
+              "letter": "E",
+              "text": "Or turn the conversation into a topic where they have little to say"
+            },
+            {
+              "letter": "F",
+              "text": "What about that person who had too much to drink or won't stop talking"
+            },
+            {
+              "letter": "G",
+              "text": "He or she is the person who is feeling the weight of that awkwardness the most"
+            }
+          ],
+          "answer": "F",
+          "type": "seven",
+          "score": 2,
+          "explanation": {
+            "summary": "设问引出问题",
+            "question": "空处以问号结尾，下文给出解决办法，故空处应提出一个棘手问题。",
+            "evidence": "If you can't take their wine away, you should certainly try to take away their soapbox.",
+            "answer": "F。“喝太多或说个不停的人怎么办”与下文的应对措施对应。"
+          }
+        },
+        {
+          "id": 39,
+          "passageLabel": "七选五",
+          "stem": "第39空",
+          "options": [
+            {
+              "letter": "A",
+              "text": "How do you know the host"
+            },
+            {
+              "letter": "B",
+              "text": "The first step is to go exploring"
+            },
+            {
+              "letter": "C",
+              "text": "If you ask the question \"How did you get here?\""
+            },
+            {
+              "letter": "D",
+              "text": "Be prepared to have awkward conversations with strangers"
+            },
+            {
+              "letter": "E",
+              "text": "Or turn the conversation into a topic where they have little to say"
+            },
+            {
+              "letter": "F",
+              "text": "What about that person who had too much to drink or won't stop talking"
+            },
+            {
+              "letter": "G",
+              "text": "He or she is the person who is feeling the weight of that awkwardness the most"
+            }
+          ],
+          "answer": "E",
+          "type": "seven",
+          "score": 2,
+          "explanation": {
+            "summary": "并列补充",
+            "question": "空处与上文的办法并列，是又一条应对建议。",
+            "evidence": "you can ask them to help you in the kitchen with something and just remove them from the situation.",
+            "answer": "E。“或者把谈话转向他们无话可说的话题”是另一个解决办法。"
+          }
+        },
+        {
+          "id": 40,
+          "passageLabel": "七选五",
+          "stem": "第40空",
+          "options": [
+            {
+              "letter": "A",
+              "text": "How do you know the host"
+            },
+            {
+              "letter": "B",
+              "text": "The first step is to go exploring"
+            },
+            {
+              "letter": "C",
+              "text": "If you ask the question \"How did you get here?\""
+            },
+            {
+              "letter": "D",
+              "text": "Be prepared to have awkward conversations with strangers"
+            },
+            {
+              "letter": "E",
+              "text": "Or turn the conversation into a topic where they have little to say"
+            },
+            {
+              "letter": "F",
+              "text": "What about that person who had too much to drink or won't stop talking"
+            },
+            {
+              "letter": "G",
+              "text": "He or she is the person who is feeling the weight of that awkwardness the most"
+            }
+          ],
+          "answer": "G",
+          "type": "seven",
+          "score": 2,
+          "explanation": {
+            "summary": "承上启下",
+            "question": "上文说赞美主人能化解尴尬，空处需解释为何要赞美主人。",
+            "evidence": "the only thing that always gets everyone talking again is to give the host a compliment.",
+            "answer": "G。“他或她是最能感受到那种尴尬的人”解释了原因。"
+          }
+        }
+      ]
+    },
+    {
+      "key": "cloze",
+      "partTitle": "第三部分 语言知识运用（共两节，满分45分）",
+      "secTitle": "第一节（共20小题；每小题1.5分，满分30分）阅读下面短文，从短文后各题所给的A、B、C、D四个选项中，选出可以填入空白处的最佳选项。",
+      "passages": [
+        {
+          "label": "完形填空",
+          "text": "Simply saying thank you doesn't seem enough in certain situations. I was considering this while working as a ___41___ just a few weeks ago. And it came to me then how much easier it would be if we had a range of words that express different ___42___ of gratitude（感谢）.\n\nMy thoughts were soon ___43___. We had a woman patient who was ___44___ from a knee replacement operation. One afternoon, while ___45___ to get into bed she collapsed（倒下）from what was ___46___ discovered to be a heart attack. The collapse was disastrous, ___47___ the emergency medical team and good teamwork. But she recovered, though ___48___, and was ready for discharge（出院）after four weeks.\n\nShe was ___49___ for everything that the medical and nursing team had done for her. On her day of discharge, we shared in her ___50___ at her recovery. As she was ___51___ she was eager to say ___52___ to each of us in the nursing team. When she ___53___ one nurse, she tried to press a five-pound note into her hand. My colleague ___54___ to accept it, saying that we were all just ___55___ our job. The patient looked puzzled, and then ___56___: \"Oh this isn't for the ___57___ I had. I take that as a ___58___. No, this is for setting my hair yesterday.\"\n\nAnd there you have it. To many people, ___59___ lives is part of the job but styling hair is an ___60___ and should be rewarded."
+        }
+      ],
+      "pool": [],
+      "questions": [
+        {
+          "id": 41,
+          "passageLabel": "完形填空",
+          "stem": "第41空",
+          "options": [
+            {
+              "letter": "A",
+              "text": "cleaner"
+            },
+            {
+              "letter": "B",
+              "text": "chemist"
+            },
+            {
+              "letter": "C",
+              "text": "nurse"
+            },
+            {
+              "letter": "D",
+              "text": "doctor"
+            }
+          ],
+          "answer": "C",
+          "type": "cloze",
+          "score": 1.5,
+          "explanation": {
+            "summary": "名词词义辨析｜本文夹叙夹议，借作者做护士时遇到的一位女病人，说明应真诚感谢他人的付出。",
+            "question": "A. 清洁工；B. 化学家/药剂师；C. 护士；D. 医生。",
+            "evidence": "she was eager to say ___52___ to each of us in the nursing team",
+            "answer": "C。作者属于护理团队，当时在做护士。"
+          }
+        },
+        {
+          "id": 42,
+          "passageLabel": "完形填空",
+          "stem": "第42空",
+          "options": [
+            {
+              "letter": "A",
+              "text": "grades"
+            },
+            {
+              "letter": "B",
+              "text": "meanings"
+            },
+            {
+              "letter": "C",
+              "text": "needs"
+            },
+            {
+              "letter": "D",
+              "text": "expectations"
+            }
+          ],
+          "answer": "A",
+          "type": "cloze",
+          "score": 1.5,
+          "explanation": {
+            "summary": "名词词义辨析",
+            "question": "A. 程度/等级；B. 意思；C. 需求；D. 期待。",
+            "evidence": "Simply saying thank you doesn't seem enough in certain situations.",
+            "answer": "A。作者设想若有表达不同“程度”感激的词就好办了。"
+          }
+        },
+        {
+          "id": 43,
+          "passageLabel": "完形填空",
+          "stem": "第43空",
+          "options": [
+            {
+              "letter": "A",
+              "text": "brushed aside"
+            },
+            {
+              "letter": "B",
+              "text": "put to the test"
+            },
+            {
+              "letter": "C",
+              "text": "brought under discussion"
+            },
+            {
+              "letter": "D",
+              "text": "taken into account"
+            }
+          ],
+          "answer": "B",
+          "type": "cloze",
+          "score": 1.5,
+          "explanation": {
+            "summary": "动词短语辨析",
+            "question": "A. 撇开；B. 受到检验；C. 提交讨论；D. 被考虑。",
+            "evidence": "下文即讲述女病人如何以行动回应“感谢”这一话题。",
+            "answer": "B。作者的想法很快就受到了检验。"
+          }
+        },
+        {
+          "id": 44,
+          "passageLabel": "完形填空",
+          "stem": "第44空",
+          "options": [
+            {
+              "letter": "A",
+              "text": "departing"
+            },
+            {
+              "letter": "B",
+              "text": "escaping"
+            },
+            {
+              "letter": "C",
+              "text": "retiring"
+            },
+            {
+              "letter": "D",
+              "text": "recovering"
+            }
+          ],
+          "answer": "D",
+          "type": "cloze",
+          "score": 1.5,
+          "explanation": {
+            "summary": "动词词义辨析",
+            "question": "A. 离开；B. 逃跑；C. 退休；D. 康复（recover from）。",
+            "evidence": "a woman patient who was ___44___ from a knee replacement operation",
+            "answer": "D。病人在膝关节置换手术后康复中。"
+          }
+        },
+        {
+          "id": 45,
+          "passageLabel": "完形填空",
+          "stem": "第45空",
+          "options": [
+            {
+              "letter": "A",
+              "text": "attempting"
+            },
+            {
+              "letter": "B",
+              "text": "choosing"
+            },
+            {
+              "letter": "C",
+              "text": "pausing"
+            },
+            {
+              "letter": "D",
+              "text": "promising"
+            }
+          ],
+          "answer": "A",
+          "type": "cloze",
+          "score": 1.5,
+          "explanation": {
+            "summary": "动词词义辨析",
+            "question": "A. 试图；B. 选择；C. 暂停；D. 承诺。",
+            "evidence": "while ___45___ to get into bed she collapsed",
+            "answer": "A。她试图上床时倒下了。"
+          }
+        },
+        {
+          "id": 46,
+          "passageLabel": "完形填空",
+          "stem": "第46空",
+          "options": [
+            {
+              "letter": "A",
+              "text": "eventually"
+            },
+            {
+              "letter": "B",
+              "text": "fortunately"
+            },
+            {
+              "letter": "C",
+              "text": "casually"
+            },
+            {
+              "letter": "D",
+              "text": "secretly"
+            }
+          ],
+          "answer": "A",
+          "type": "cloze",
+          "score": 1.5,
+          "explanation": {
+            "summary": "副词词义辨析",
+            "question": "A. 最终；B. 幸运地；C. 随意地；D. 秘密地。",
+            "evidence": "from what was ___46___ discovered to be a heart attack",
+            "answer": "A。最终查明倒下的原因是心脏病发作。"
+          }
+        },
+        {
+          "id": 47,
+          "passageLabel": "完形填空",
+          "stem": "第47空",
+          "options": [
+            {
+              "letter": "A",
+              "text": "assessing"
+            },
+            {
+              "letter": "B",
+              "text": "requiring"
+            },
+            {
+              "letter": "C",
+              "text": "forming"
+            },
+            {
+              "letter": "D",
+              "text": "proving"
+            }
+          ],
+          "answer": "B",
+          "type": "cloze",
+          "score": 1.5,
+          "explanation": {
+            "summary": "动词词义辨析",
+            "question": "A. 评估；B. 需要；C. 形成；D. 证明。",
+            "evidence": "The collapse was disastrous, ___47___ the emergency medical team and good teamwork.",
+            "answer": "B。情况危急，需要急救团队和良好协作。"
+          }
+        },
+        {
+          "id": 48,
+          "passageLabel": "完形填空",
+          "stem": "第48空",
+          "options": [
+            {
+              "letter": "A",
+              "text": "slightly"
+            },
+            {
+              "letter": "B",
+              "text": "accidentally"
+            },
+            {
+              "letter": "C",
+              "text": "slowly"
+            },
+            {
+              "letter": "D",
+              "text": "happily"
+            }
+          ],
+          "answer": "C",
+          "type": "cloze",
+          "score": 1.5,
+          "explanation": {
+            "summary": "副词词义辨析",
+            "question": "A. 轻微地；B. 意外地；C. 缓慢地；D. 幸福地。",
+            "evidence": "But she recovered, though ___48___, and was ready for discharge after four weeks.",
+            "answer": "C。虽康复缓慢，但四周后可以出院。"
+          }
+        },
+        {
+          "id": 49,
+          "passageLabel": "完形填空",
+          "stem": "第49空",
+          "options": [
+            {
+              "letter": "A",
+              "text": "grateful"
+            },
+            {
+              "letter": "B",
+              "text": "thoughtful"
+            },
+            {
+              "letter": "C",
+              "text": "sorrowful"
+            },
+            {
+              "letter": "D",
+              "text": "fearful"
+            }
+          ],
+          "answer": "A",
+          "type": "cloze",
+          "score": 1.5,
+          "explanation": {
+            "summary": "形容词词义辨析",
+            "question": "A. 感激的；B. 体贴的；C. 悲伤的；D. 恐惧的。",
+            "evidence": "She was ___49___ for everything that the medical and nursing team had done for her.",
+            "answer": "A。她对医护团队所做的一切充满感激。"
+          }
+        },
+        {
+          "id": 50,
+          "passageLabel": "完形填空",
+          "stem": "第50空",
+          "options": [
+            {
+              "letter": "A",
+              "text": "surprise"
+            },
+            {
+              "letter": "B",
+              "text": "delight"
+            },
+            {
+              "letter": "C",
+              "text": "curiosity"
+            },
+            {
+              "letter": "D",
+              "text": "disappointment"
+            }
+          ],
+          "answer": "B",
+          "type": "cloze",
+          "score": 1.5,
+          "explanation": {
+            "summary": "名词词义辨析",
+            "question": "A. 惊讶；B. 喜悦；C. 好奇；D. 失望。",
+            "evidence": "we shared in her ___50___ at her recovery",
+            "answer": "B。大家分享她康复的喜悦。"
+          }
+        },
+        {
+          "id": 51,
+          "passageLabel": "完形填空",
+          "stem": "第51空",
+          "options": [
+            {
+              "letter": "A",
+              "text": "operating"
+            },
+            {
+              "letter": "B",
+              "text": "thinking"
+            },
+            {
+              "letter": "C",
+              "text": "hesitating"
+            },
+            {
+              "letter": "D",
+              "text": "leaving"
+            }
+          ],
+          "answer": "D",
+          "type": "cloze",
+          "score": 1.5,
+          "explanation": {
+            "summary": "动词词义辨析",
+            "question": "A. 手术；B. 思考；C. 犹豫；D. 离开。",
+            "evidence": "On her day of discharge…As she was ___51___",
+            "answer": "D。出院当天，她即将离开医院。"
+          }
+        },
+        {
+          "id": 52,
+          "passageLabel": "完形填空",
+          "stem": "第52空",
+          "options": [
+            {
+              "letter": "A",
+              "text": "sorry"
+            },
+            {
+              "letter": "B",
+              "text": "hello"
+            },
+            {
+              "letter": "C",
+              "text": "goodbye"
+            },
+            {
+              "letter": "D",
+              "text": "yes"
+            }
+          ],
+          "answer": "C",
+          "type": "cloze",
+          "score": 1.5,
+          "explanation": {
+            "summary": "名词词义辨析",
+            "question": "A. 抱歉；B. 你好；C. 再见；D. 同意。",
+            "evidence": "she was eager to say ___52___ to each of us in the nursing team",
+            "answer": "C。她急切地想与护理团队每个人道别。"
+          }
+        },
+        {
+          "id": 53,
+          "passageLabel": "完形填空",
+          "stem": "第53空",
+          "options": [
+            {
+              "letter": "A",
+              "text": "reached"
+            },
+            {
+              "letter": "B",
+              "text": "consulted"
+            },
+            {
+              "letter": "C",
+              "text": "introduced"
+            },
+            {
+              "letter": "D",
+              "text": "persuaded"
+            }
+          ],
+          "answer": "A",
+          "type": "cloze",
+          "score": 1.5,
+          "explanation": {
+            "summary": "动词词义辨析",
+            "question": "A. 到达/走到；B. 咨询；C. 介绍；D. 说服。",
+            "evidence": "When she ___53___ one nurse, she tried to press a five-pound note into her hand.",
+            "answer": "A。当她走到某位护士跟前时。"
+          }
+        },
+        {
+          "id": 54,
+          "passageLabel": "完形填空",
+          "stem": "第54空",
+          "options": [
+            {
+              "letter": "A",
+              "text": "wished"
+            },
+            {
+              "letter": "B",
+              "text": "pretended"
+            },
+            {
+              "letter": "C",
+              "text": "failed"
+            },
+            {
+              "letter": "D",
+              "text": "refused"
+            }
+          ],
+          "answer": "D",
+          "type": "cloze",
+          "score": 1.5,
+          "explanation": {
+            "summary": "动词词义辨析",
+            "question": "A. 希望；B. 假装；C. 失败；D. 拒绝。",
+            "evidence": "My colleague ___54___ to accept it, saying that we were all just ___55___ our job.",
+            "answer": "D。同事拒绝接受这笔钱。"
+          }
+        },
+        {
+          "id": 55,
+          "passageLabel": "完形填空",
+          "stem": "第55空",
+          "options": [
+            {
+              "letter": "A",
+              "text": "enjoying"
+            },
+            {
+              "letter": "B",
+              "text": "doing"
+            },
+            {
+              "letter": "C",
+              "text": "securing"
+            },
+            {
+              "letter": "D",
+              "text": "starting"
+            }
+          ],
+          "answer": "B",
+          "type": "cloze",
+          "score": 1.5,
+          "explanation": {
+            "summary": "动词词义辨析",
+            "question": "A. 享受；B. 做；C. 获得/保护；D. 开始。",
+            "evidence": "saying that we were all just ___55___ our job",
+            "answer": "B。她认为大家只是在做本职工作。"
+          }
+        },
+        {
+          "id": 56,
+          "passageLabel": "完形填空",
+          "stem": "第56空",
+          "options": [
+            {
+              "letter": "A",
+              "text": "repeated"
+            },
+            {
+              "letter": "B",
+              "text": "recited"
+            },
+            {
+              "letter": "C",
+              "text": "replied"
+            },
+            {
+              "letter": "D",
+              "text": "reported"
+            }
+          ],
+          "answer": "C",
+          "type": "cloze",
+          "score": 1.5,
+          "explanation": {
+            "summary": "动词词义辨析",
+            "question": "A. 重复；B. 背诵；C. 回答；D. 报道。",
+            "evidence": "The patient looked puzzled, and then ___56___: \"Oh this isn't for the ___57___ I had.\"",
+            "answer": "C。这是病人对护士说法的回应。"
+          }
+        },
+        {
+          "id": 57,
+          "passageLabel": "完形填空",
+          "stem": "第57空",
+          "options": [
+            {
+              "letter": "A",
+              "text": "courage"
+            },
+            {
+              "letter": "B",
+              "text": "patience"
+            },
+            {
+              "letter": "C",
+              "text": "duty"
+            },
+            {
+              "letter": "D",
+              "text": "care"
+            }
+          ],
+          "answer": "D",
+          "type": "cloze",
+          "score": 1.5,
+          "explanation": {
+            "summary": "名词词义辨析",
+            "question": "A. 勇气；B. 耐心；C. 职责；D. 照顾。",
+            "evidence": "No, this is for setting my hair yesterday.",
+            "answer": "D。钱不是为了她所受到的“照顾”。"
+          }
+        },
+        {
+          "id": 58,
+          "passageLabel": "完形填空",
+          "stem": "第58空",
+          "options": [
+            {
+              "letter": "A",
+              "text": "goal"
+            },
+            {
+              "letter": "B",
+              "text": "given"
+            },
+            {
+              "letter": "C",
+              "text": "push"
+            },
+            {
+              "letter": "D",
+              "text": "greeting"
+            }
+          ],
+          "answer": "B",
+          "type": "cloze",
+          "score": 1.5,
+          "explanation": {
+            "summary": "名词词义辨析",
+            "question": "A. 目标；B. 理所当然之事（a given）；C. 推力；D. 问候。",
+            "evidence": "I take that as a ___58___. No, this is for setting my hair yesterday.",
+            "answer": "B。她认为护理是理所当然应得的。"
+          }
+        },
+        {
+          "id": 59,
+          "passageLabel": "完形填空",
+          "stem": "第59空",
+          "options": [
+            {
+              "letter": "A",
+              "text": "risking"
+            },
+            {
+              "letter": "B",
+              "text": "changing"
+            },
+            {
+              "letter": "C",
+              "text": "saving"
+            },
+            {
+              "letter": "D",
+              "text": "building"
+            }
+          ],
+          "answer": "C",
+          "type": "cloze",
+          "score": 1.5,
+          "explanation": {
+            "summary": "动词词义辨析",
+            "question": "A. 冒险；B. 改变；C. 拯救；D. 建设。",
+            "evidence": "To many people, ___59___ lives is part of the job",
+            "answer": "C。对许多人而言，救命是医护工作的一部分。"
+          }
+        },
+        {
+          "id": 60,
+          "passageLabel": "完形填空",
+          "stem": "第60空",
+          "options": [
+            {
+              "letter": "A",
+              "text": "honour"
+            },
+            {
+              "letter": "B",
+              "text": "ability"
+            },
+            {
+              "letter": "C",
+              "text": "opening"
+            },
+            {
+              "letter": "D",
+              "text": "extra"
+            }
+          ],
+          "answer": "D",
+          "type": "cloze",
+          "score": 1.5,
+          "explanation": {
+            "summary": "名词词义辨析",
+            "question": "A. 荣誉；B. 能力；C. 开口处；D. 额外之事。",
+            "evidence": "but styling hair is an ___60___ and should be rewarded",
+            "answer": "D。做发型属于本职之外的额外付出，应得到回报。"
+          }
+        }
+      ]
+    },
+    {
+      "key": "grammar",
+      "partTitle": "第三部分 语言知识运用（共两节，满分45分）",
+      "secTitle": "第二节（共10小题；每小题1.5分，满分15分）阅读下面短文，在空白处填入1个适当的单词或括号内单词的正确形式。",
+      "passages": [
+        {
+          "label": "语法填空",
+          "text": "Ecotourism is commonly regarded as low impact（影响）travel to undisturbed places. It is different from traditional tourism because it allows the traveler to become ___61___ (educate) about the areas — both in terms of geographical conditions and cultural characteristics, and often provides money for conservation and benefits the ___62___ (develop) of the local areas.\n\nEcotourism has ___63___ (it) origin with the environmental movement of the 1970s. It was not widely accepted as a travel concept ___64___ the late 1980s. During that time, increasing environmental awareness made it desirable.\n\nDue to ___65___ growing popularity of environmentally-related and adventure travel, various types ___66___ trips are now being classified as ecotourism. Actually, a true eco-friendly trip must meet the following principles:\n\n· Minimize the impact of ___67___ (visit) the place.\n· Build respect for and awareness of the environment and cultural practices.\n· Provide ___68___ (finance) aid and other benefits for local peoples.\n· Make sure that the tourism provides experiences for both the visitors and the hosts.\n\nKomodo National Park, officially recognized in 1980, is popular for ecotourism because of its unique biodiversity. ___69___ (activity) there range from whale watching to hiking（远足）and accommodations aim ___70___ (have) a low impact on the natural environment."
+        }
+      ],
+      "pool": [],
+      "questions": [
+        {
+          "id": 61,
+          "passageLabel": "语法填空",
+          "stem": "第61空 it allows the traveler to become ___61___ (educate) about the areas",
+          "options": [],
+          "answer": "educated",
+          "type": "grammar",
+          "score": 1.5,
+          "explanation": {
+            "summary": "形容词（固定搭配）",
+            "question": "become educated about… 意为“对……有所了解”，空处用过去分词转化的形容词作系动词补语。",
+            "evidence": "it allows the traveler to become ___61___ (educate) about the areas",
+            "answer": "educated"
+          }
+        },
+        {
+          "id": 62,
+          "passageLabel": "语法填空",
+          "stem": "第62空 benefits the ___62___ (develop) of the local areas",
+          "options": [],
+          "answer": "development",
+          "type": "grammar",
+          "score": 1.5,
+          "explanation": {
+            "summary": "名词",
+            "question": "空前有定冠词 the、空后有 of 短语，需填名词作 benefits 的宾语。",
+            "evidence": "and benefits the ___62___ (develop) of the local areas",
+            "answer": "development"
+          }
+        },
+        {
+          "id": 63,
+          "passageLabel": "语法填空",
+          "stem": "第63空 Ecotourism has ___63___ (it) origin with the environmental movement",
+          "options": [],
+          "answer": "its",
+          "type": "grammar",
+          "score": 1.5,
+          "explanation": {
+            "summary": "代词（形容词性物主代词）",
+            "question": "修饰名词 origin 需用形容词性物主代词。",
+            "evidence": "Ecotourism has ___63___ (it) origin with the environmental movement of the 1970s.",
+            "answer": "its"
+          }
+        },
+        {
+          "id": 64,
+          "passageLabel": "语法填空",
+          "stem": "第64空 It was not widely accepted as a travel concept ___64___ the late 1980s.",
+          "options": [],
+          "answer": "until",
+          "type": "grammar",
+          "score": 1.5,
+          "explanation": {
+            "summary": "固定句型 not…until…",
+            "question": "句意为“直到20世纪80年代后期才被广泛接受”。",
+            "evidence": "It was not widely accepted as a travel concept ___64___ the late 1980s.",
+            "answer": "until"
+          }
+        },
+        {
+          "id": 65,
+          "passageLabel": "语法填空",
+          "stem": "第65空 Due to ___65___ growing popularity of…",
+          "options": [],
+          "answer": "the",
+          "type": "grammar",
+          "score": 1.5,
+          "explanation": {
+            "summary": "冠词",
+            "question": "popularity 后有 of 短语特指，需用定冠词。",
+            "evidence": "Due to ___65___ growing popularity of environmentally-related and adventure travel",
+            "answer": "the"
+          }
+        },
+        {
+          "id": 66,
+          "passageLabel": "语法填空",
+          "stem": "第66空 various types ___66___ trips",
+          "options": [],
+          "answer": "of",
+          "type": "grammar",
+          "score": 1.5,
+          "explanation": {
+            "summary": "介词",
+            "question": "various types of 为固定搭配，意为“各种各样的”。",
+            "evidence": "various types ___66___ trips are now being classified as ecotourism",
+            "answer": "of"
+          }
+        },
+        {
+          "id": 67,
+          "passageLabel": "语法填空",
+          "stem": "第67空 Minimize the impact of ___67___ (visit) the place.",
+          "options": [],
+          "answer": "visiting",
+          "type": "grammar",
+          "score": 1.5,
+          "explanation": {
+            "summary": "动名词作介词宾语",
+            "question": "空前为介词 of，需用动名词。",
+            "evidence": "Minimize the impact of ___67___ (visit) the place.",
+            "answer": "visiting"
+          }
+        },
+        {
+          "id": 68,
+          "passageLabel": "语法填空",
+          "stem": "第68空 Provide ___68___ (finance) aid and other benefits",
+          "options": [],
+          "answer": "financial",
+          "type": "grammar",
+          "score": 1.5,
+          "explanation": {
+            "summary": "词性转换（名词→形容词）",
+            "question": "修饰名词 aid 需用形容词，finance 的形容词形式为 financial。",
+            "evidence": "Provide ___68___ (finance) aid and other benefits for local peoples.",
+            "answer": "financial"
+          }
+        },
+        {
+          "id": 69,
+          "passageLabel": "语法填空",
+          "stem": "第69空 ___69___ (activity) there range from whale watching to hiking",
+          "options": [],
+          "answer": "Activities",
+          "type": "grammar",
+          "score": 1.5,
+          "explanation": {
+            "summary": "名词复数",
+            "question": "谓语为 range（复数形式），主语需用可数名词复数；位于句首首字母大写。",
+            "evidence": "___69___ (activity) there range from whale watching to hiking",
+            "answer": "Activities"
+          }
+        },
+        {
+          "id": 70,
+          "passageLabel": "语法填空",
+          "stem": "第70空 accommodations aim ___70___ (have) a low impact",
+          "options": [],
+          "answer": "to have",
+          "type": "grammar",
+          "score": 1.5,
+          "explanation": {
+            "summary": "非谓语动词（固定搭配）",
+            "question": "aim to do sth. 意为“旨在做某事”。",
+            "evidence": "accommodations aim ___70___ (have) a low impact on the natural environment.",
+            "answer": "to have"
+          }
+        }
+      ]
+    },
+    {
+      "key": "proofreading",
+      "partTitle": "第四部分 写作（共两节，满分35分）",
+      "secTitle": "第一节 短文改错（共10小题；每小题1分，满分10分）",
+      "passages": [],
+      "pool": [],
+      "questions": [
+        {
+          "id": 71,
+          "stem": "假定英语课上老师要求同桌之间交换修改作文，请你修改你同桌写的以下作文。文中共有10处语言错误，每句中最多有两处。每处错误仅涉及一个单词的增加、删除或修改。",
+          "options": [],
+          "material": "增加：在缺词处加一个漏字符号（∧），并在其下面写出该加的词。\n删除：把多余的词用斜线（\\）划掉。\n修改：在错的词下划一横线，并在该词下面写出修改后的词。\n注意：1. 每处错误及其修改均仅限一词；\n2. 只允许修改10处，多者（从第11处起）不计分。\n\nI love doing housework. I always assist my parents in doing the dish after meals. I also water the flowers in the yard and tidying up my own bedroom whatever necessary. In my opinion, students can benefit a lot doing some housework. Firstly, doing housework was helpful for us to be a responsible person. Also, it gives our parents more time to do what they are like and it improves the family relationship. What's most, doing housework can be a form of mentally relaxation from study. That's our view on housework. And hopes this can inspire more thinking on the topic!",
+          "type": "proofreading",
+          "score": 10,
+          "modelAnswer": "1. 把‘dish’改为‘dishes’\n2. 把‘tidying’改为‘tidy’\n3. 把‘whatever’改为‘whenever’\n4. 在‘doing’前加上‘from’\n5. 把‘was’改为‘is’\n6. 删去‘are’\n7. 把‘most’改为‘more’\n8. 把‘mentally’改为‘mental’\n9. 把‘our’改为‘my’\n10. 把‘hopes’改为‘hope’",
+          "explanation": {
+            "summary": "本文是一篇记叙文，讲述作者对做家务的看法以及做家务带来的好处。",
+            "points": [
+              {
+                "number": 1,
+                "errorType": "名词单复数",
+                "knowledgeNode": "词形变化",
+                "operation": "修改",
+                "wrong": "dish",
+                "correct": "dishes",
+                "note": "do the dishes 为固定短语，意为“洗餐具”。"
+              },
+              {
+                "number": 2,
+                "errorType": "并列谓语",
+                "knowledgeNode": "动词形式",
+                "operation": "修改",
+                "wrong": "tidying",
+                "correct": "tidy",
+                "note": "and 连接并列谓语，与 water 保持一致，用动词原形。"
+              },
+              {
+                "number": 3,
+                "errorType": "连词",
+                "knowledgeNode": "状语从句",
+                "operation": "修改",
+                "wrong": "whatever",
+                "correct": "whenever",
+                "note": "句意为“必要时”，用 whenever 引导时间/让步状语从句。"
+              },
+              {
+                "number": 4,
+                "errorType": "介词",
+                "knowledgeNode": "固定搭配",
+                "operation": "增加",
+                "correct": "from",
+                "note": "benefit from doing sth.“从做某事中获益”。"
+              },
+              {
+                "number": 5,
+                "errorType": "动词时态",
+                "knowledgeNode": "时态",
+                "operation": "修改",
+                "wrong": "was",
+                "correct": "is",
+                "note": "全文陈述客观事实用一般现在时，主语 doing housework 视为单数。"
+              },
+              {
+                "number": 6,
+                "errorType": "多余成分",
+                "knowledgeNode": "动词形式",
+                "operation": "删除",
+                "wrong": "are",
+                "note": "what they like 中 like 为实义动词，无需系动词 are。"
+              },
+              {
+                "number": 7,
+                "errorType": "固定搭配",
+                "knowledgeNode": "固定搭配",
+                "operation": "修改",
+                "wrong": "most",
+                "correct": "more",
+                "note": "what's more 意为“此外”。"
+              },
+              {
+                "number": 8,
+                "errorType": "词性",
+                "knowledgeNode": "词形变化",
+                "operation": "修改",
+                "wrong": "mentally",
+                "correct": "mental",
+                "note": "修饰名词 relaxation 需用形容词。"
+              },
+              {
+                "number": 9,
+                "errorType": "代词",
+                "knowledgeNode": "代词",
+                "operation": "修改",
+                "wrong": "our",
+                "correct": "my",
+                "note": "全文以第一人称单数叙述自己的看法。"
+              },
+              {
+                "number": 10,
+                "errorType": "祈使句",
+                "knowledgeNode": "句子结构",
+                "operation": "修改",
+                "wrong": "hopes",
+                "correct": "hope",
+                "note": "此处为祈使句，动词用原形。"
+              }
+            ]
+          },
+          "reviewStatus": "已人工核对"
+        }
+      ]
+    },
+    {
+      "key": "writing_app",
+      "partTitle": "第四部分 写作（共两节，满分35分）",
+      "secTitle": "第二节 书面表达（满分25分）",
+      "passages": [],
+      "pool": [],
+      "questions": [
+        {
+          "id": 72,
+          "stem": "你校将举办英语演讲比赛。请你以 Be smart online learners 为题写一篇发言稿参赛，内容包括：\n1. 分析优势与不足；\n2. 提出学习建议。\n注意：\n1. 词数100左右；\n2. 题目和首句已为你写好。",
+          "options": [],
+          "type": "writing",
+          "score": 25,
+          "modelAnswer": "Be smart online learners\n\nNetwork learning has increasingly become an important means for people to acquire knowledge and solve problems. But being smart online learners has its advantages and disadvantages.\n\nFirst of all, as smart online learners, we can make full use of the most extensive educational resources to broaden the horizon. Besides, we can take the initiative in our study by ourselves without time and space limit.\n\nOf course, the disadvantages are as follows. Faced with all kinds of information on the internet, we can't tell the difference between the true and the false, which may be harmful to our study and life. On the other hand, online learning itself has some imperfections, making it difficult for us not to be affected.\n\nIn conclusion, we should have a good understanding of its advantages and disadvantages and find a proper way to make our study more efficient.",
+          "explanation": {
+            "summary": "应用文（演讲稿）· 写作要点",
+            "question": "以 Be smart online learners 为题写演讲稿，需完成两项任务：分析在线学习的优势与不足；提出学习建议。时态以一般现在时为主，人称以第一人称复数 we 为主。",
+            "evidence": "词汇积累：make full use of / make the most of（充分利用）、broaden→enrich（丰富）、all kinds of→varieties of（各种各样）、imperfection→defect（不完美）。高分句型：Faced with all kinds of information on the internet, we can't tell…, which may be harmful…（过去分词作状语 + which 引导非限制性定语从句）；online learning itself has some imperfections, making it difficult for us not to be affected（现在分词作结果状语）。",
+            "answer": "参考范文见上方“参考答案”。评分关注要点齐全（优势、不足、建议）、演讲稿格式、语言准确度与句式丰富度。"
+          },
+          "reviewStatus": "已人工核对"
+        }
+      ]
+    }
+  ]
+}

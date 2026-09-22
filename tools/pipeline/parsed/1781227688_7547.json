@@ -1,0 +1,1048 @@
+{
+  "source_file": "1781227688_7547",
+  "sections": [
+    {
+      "key": "listening",
+      "partTitle": "listening",
+      "questions": []
+    },
+    {
+      "key": "reading",
+      "partTitle": "reading",
+      "questions": [
+        {
+          "id": 1,
+          "type": "reading",
+          "stem": "【此处可播放相关音频，请去附件查看】",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Tohostaparty. B.TopickupKevin. C.Tobuyagift."
+            },
+            {
+              "letter": "B",
+              "text": "TopickupKevin. C.Tobuyagift."
+            },
+            {
+              "letter": "C",
+              "text": "Tobuyagift."
+            }
+          ],
+          "answer": "",
+          "explanation": null
+        },
+        {
+          "id": 2,
+          "type": "reading",
+          "stem": "【此处可播放相关音频，请去附件查看】",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Theslowprogress. B.Thecoldwater. C.Thepoorfacilities."
+            },
+            {
+              "letter": "B",
+              "text": "Thecoldwater. C.Thepoorfacilities."
+            },
+            {
+              "letter": "C",
+              "text": "Thepoorfacilities."
+            }
+          ],
+          "answer": "",
+          "explanation": null
+        },
+        {
+          "id": 3,
+          "type": "reading",
+          "stem": "【此处可播放相关音频，请去附件查看】",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Carrots. B.Beans. C.Potatoes."
+            },
+            {
+              "letter": "B",
+              "text": "Beans. C.Potatoes."
+            },
+            {
+              "letter": "C",
+              "text": "Potatoes."
+            }
+          ],
+          "answer": "",
+          "explanation": null
+        },
+        {
+          "id": 4,
+          "type": "reading",
+          "stem": "【此处可播放相关音频，请去附件查看】",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Tidyuphisoffice. B.Workfromhome. C.Getsomerelaxation."
+            },
+            {
+              "letter": "B",
+              "text": "Workfromhome. C.Getsomerelaxation."
+            },
+            {
+              "letter": "C",
+              "text": "Getsomerelaxation."
+            }
+          ],
+          "answer": "",
+          "explanation": null
+        },
+        {
+          "id": 5,
+          "type": "reading",
+          "stem": "【此处可播放相关音频，请去附件查看】",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Sheisquiet. B.Sheispolite. C.Sheishumorous."
+            },
+            {
+              "letter": "B",
+              "text": "Sheispolite. C.Sheishumorous."
+            },
+            {
+              "letter": "C",
+              "text": "Sheishumorous. 第二节(共15小题;每小题1.5分，满分22.5分) 听下面5段录音。每段录音后有几个小题，从题中所给的A、B、C三个选项中选出最佳选项。"
+            }
+          ],
+          "answer": "",
+          "explanation": null
+        }
+      ]
+    },
+    {
+      "key": "reading",
+      "partTitle": "reading",
+      "questions": [
+        {
+          "id": 6,
+          "type": "reading",
+          "stem": "Whatdoesthemanwanttodo?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Bookaticket. B.Confirmaseat. C.Rescheduleaflight."
+            },
+            {
+              "letter": "B",
+              "text": "Confirmaseat. C.Rescheduleaflight."
+            },
+            {
+              "letter": "C",
+              "text": "Rescheduleaflight."
+            }
+          ],
+          "answer": "C",
+          "explanation": null
+        },
+        {
+          "id": 7,
+          "type": "reading",
+          "stem": "WhenwillthemanleaveforSwansea?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "OnJune15th. B.OnJune17th. C.OnJune18th."
+            },
+            {
+              "letter": "B",
+              "text": "OnJune17th. C.OnJune18th."
+            },
+            {
+              "letter": "C",
+              "text": "OnJune18th. 听下面一段对话，回答以下小题。【此处可播放相关音频，请去附件查看】"
+            }
+          ],
+          "answer": "B",
+          "explanation": null
+        },
+        {
+          "id": 8,
+          "type": "reading",
+          "stem": "Whoisthewomanprobably?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Asportsjournalist. B.Aprivatedoctor. C.Afitnesstrainer."
+            },
+            {
+              "letter": "B",
+              "text": "Aprivatedoctor. C.Afitnesstrainer."
+            },
+            {
+              "letter": "C",
+              "text": "Afitnesstrainer."
+            }
+          ],
+          "answer": "A",
+          "explanation": null
+        },
+        {
+          "id": 9,
+          "type": "reading",
+          "stem": "HowdidAlexfeelbeforeclimbing?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Deeplyregretful. B.Quiteembarrassed. C.Fairlynervous."
+            },
+            {
+              "letter": "B",
+              "text": "Quiteembarrassed. C.Fairlynervous."
+            },
+            {
+              "letter": "C",
+              "text": "Fairlynervous."
+            }
+          ],
+          "answer": "C",
+          "explanation": null
+        },
+        {
+          "id": 10,
+          "type": "reading",
+          "stem": "WhatwillAlexdothisafternoon?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Takeagoodrest. B.Dostrengthtraining. C.Goclimbingagain."
+            },
+            {
+              "letter": "B",
+              "text": "Dostrengthtraining. C.Goclimbingagain."
+            },
+            {
+              "letter": "C",
+              "text": "Goclimbingagain. 听下面一段对话，回答以下小题。【此处可播放相关音频，请去附件查看】"
+            }
+          ],
+          "answer": "B",
+          "explanation": null
+        },
+        {
+          "id": 11,
+          "type": "reading",
+          "stem": "Whatarethespeakersmainlytalkingabout?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Bob’scareerplan. B.Ajobopening. C.Studentloans."
+            },
+            {
+              "letter": "B",
+              "text": "Ajobopening. C.Studentloans."
+            },
+            {
+              "letter": "C",
+              "text": "Studentloans."
+            }
+          ],
+          "answer": "A",
+          "explanation": null
+        },
+        {
+          "id": 12,
+          "type": "reading",
+          "stem": "WhatadvicedoesthewomangiveBob?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Aimhigh. B.Becreative. C.Thinktwice."
+            },
+            {
+              "letter": "B",
+              "text": "Becreative. C.Thinktwice."
+            },
+            {
+              "letter": "C",
+              "text": "Thinktwice."
+            }
+          ],
+          "answer": "C",
+          "explanation": null
+        },
+        {
+          "id": 13,
+          "type": "reading",
+          "stem": "WhatisBob’sfinaldecision?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Tosetuphisownbusiness."
+            },
+            {
+              "letter": "B",
+              "text": "Topursuefurthereducation."
+            },
+            {
+              "letter": "C",
+              "text": "Toacceptthejoboffer. 听下面一段对话，回答以下小题。【此处可播放相关音频，请去附件查看】"
+            }
+          ],
+          "answer": "A",
+          "explanation": null
+        },
+        {
+          "id": 14,
+          "type": "reading",
+          "stem": "Whobrokethetoyhouse?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Sophia. B.Henry. C.Sally."
+            },
+            {
+              "letter": "B",
+              "text": "Henry. C.Sally."
+            },
+            {
+              "letter": "C",
+              "text": "Sally."
+            }
+          ],
+          "answer": "B",
+          "explanation": null
+        },
+        {
+          "id": 15,
+          "type": "reading",
+          "stem": "Whydothespeakersworryaboutrebuildingthetoyhouse?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Theyareshortoftime. 第3页/共15页"
+            },
+            {
+              "letter": "B",
+              "text": "Somepartsaremissing."
+            },
+            {
+              "letter": "C",
+              "text": "Thedirectionsareconfusing."
+            }
+          ],
+          "answer": "A",
+          "explanation": null
+        },
+        {
+          "id": 16,
+          "type": "reading",
+          "stem": "Whatwillthespeakersprobablydo?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Fixthewindowsanddoors."
+            },
+            {
+              "letter": "B",
+              "text": "Orderanewtoyhouse."
+            },
+            {
+              "letter": "C",
+              "text": "Asksomeoneforhelp. 听下面一段独白，回答以下小题。【此处可播放相关音频，请去附件查看】"
+            }
+          ],
+          "answer": "C",
+          "explanation": null
+        },
+        {
+          "id": 17,
+          "type": "reading",
+          "stem": "Whatwasthegroup’sfirststopinMelbourne?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "TownHall. B.EurekaTower. C.Chinatown."
+            },
+            {
+              "letter": "B",
+              "text": "EurekaTower. C.Chinatown."
+            },
+            {
+              "letter": "C",
+              "text": "Chinatown."
+            }
+          ],
+          "answer": "B",
+          "explanation": null
+        },
+        {
+          "id": 18,
+          "type": "reading",
+          "stem": "Wheredidthegroupmeetafamouswriter?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "AttheStateLibrary. B.IntheBotanicalGardens. C.OnSwantonStreet."
+            },
+            {
+              "letter": "B",
+              "text": "IntheBotanicalGardens. C.OnSwantonStreet."
+            },
+            {
+              "letter": "C",
+              "text": "OnSwantonStreet."
+            }
+          ],
+          "answer": "A",
+          "explanation": null
+        },
+        {
+          "id": 19,
+          "type": "reading",
+          "stem": "Howlongdoesthegroup’striplast?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Twodays. B.Threedays. C.Fourdays."
+            },
+            {
+              "letter": "B",
+              "text": "Threedays. C.Fourdays."
+            },
+            {
+              "letter": "C",
+              "text": "Fourdays."
+            }
+          ],
+          "answer": "B",
+          "explanation": null
+        },
+        {
+          "id": 20,
+          "type": "reading",
+          "stem": "Whatisthegroupgoingtodonext?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Goforlunch. B.Returntoschool. C.Writeareview."
+            },
+            {
+              "letter": "B",
+              "text": "Returntoschool. C.Writeareview."
+            },
+            {
+              "letter": "C",
+              "text": "Writeareview."
+            }
+          ],
+          "answer": "B",
+          "explanation": null
+        }
+      ]
+    },
+    {
+      "key": "reading",
+      "partTitle": "reading",
+      "questions": []
+    },
+    {
+      "key": "reading",
+      "partTitle": "reading",
+      "questions": [
+        {
+          "id": 21,
+          "type": "reading",
+          "stem": "WhatserviceisavailableonlyatPandaGourmet?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Call-inorders. B.Freepacking."
+            },
+            {
+              "letter": "B",
+              "text": "Freepacking."
+            },
+            {
+              "letter": "C",
+              "text": "Takeoutdelivery. D.Onlinepickuporders."
+            },
+            {
+              "letter": "D",
+              "text": "Onlinepickuporders."
+            }
+          ],
+          "answer": "C",
+          "explanation": null
+        },
+        {
+          "id": 22,
+          "type": "reading",
+          "stem": "Whichrestaurantcanyougotoforbeefwithricecakes?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "PandaGourmet. B.ShanghaiTaste."
+            },
+            {
+              "letter": "B",
+              "text": "ShanghaiTaste."
+            },
+            {
+              "letter": "C",
+              "text": "GourmetInspirations. D.Queen’sEnglish."
+            },
+            {
+              "letter": "D",
+              "text": "Queen’sEnglish."
+            }
+          ],
+          "answer": "B",
+          "explanation": null
+        },
+        {
+          "id": 23,
+          "type": "reading",
+          "stem": "WhatdoweknowabouttheCantoneserestaurantinColumbiaHeights?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Itisopenonlyonweekdays. B.Itadoptsano-petpolicy."
+            },
+            {
+              "letter": "B",
+              "text": "Itadoptsano-petpolicy."
+            },
+            {
+              "letter": "C",
+              "text": "Ittakesnoreservations. D.Itservesonlydinner."
+            },
+            {
+              "letter": "D",
+              "text": "Itservesonlydinner. B RolandReisleyturned101yearsoldinMayandisinremarkablehealth.Butthat’snotthethingheprides himselfon.“IamthelastoriginalclientofFrankLloydWright,stilllivinginthehomehedesignedforme,” Reisleysaid,sittinginthebrightopenlivingroomofthehomedesignedbythefamousarchitect. ThehousewhereReisleyhaslivedfor73yearsislocatedinthewoodsofWestchesterCounty,NewYork,just 30milesnorthofManhattan.It’soneof47thatmakeupthepeacefulmid-20th-centurymodernvillageofUsonia. Backin1951,Reisleywasjust26,newlymarriedandreadytoputdownroots.Heandhiswifebeganlooking foraplaceinManhattan.Butwhattheyliked,theycouldn’taffordonhissoundengineer’ssalaryandwhatthey 第5页/共15页 学科网（北京）股份有限公司could,theydidn’tlike.ThentheyheardaboutUsonia.Ontheirfirsttripout,theyweregreetedwithsuch enthusiasmfromthe10familieswho’dalreadyestablishedhomestherethattheydecidedtojoin. ThehousehassignatureWrightfeatures.Itismadewithlocalmaterials,hasaflatroof,woodpaneling, concretefloorsandcustom-madefurniture.Overthedecades,Reisleyhasopenedhisdoorstovisitors.Thehouseis nowlistedontheNationalRegisterofHistoricPlaces.Reisleysaidhe’striedhisbesttobeagoodsteward(管家) notjustoftheWrightcreationhelivesin,butallothersaswell.Heco-foundedtheFrankLloydWrightBuilding Conservancy,anorganizationengagedinthepreservationofallofWright’sremainingbuildings.Reisleybelieves thathisdevotiontothehomeandthecommunityarewhathavekepthiminsuchgoodhealthalloftheseyears."
+            }
+          ],
+          "answer": "D",
+          "explanation": null
+        },
+        {
+          "id": 24,
+          "type": "reading",
+          "stem": "HowdoesReisleyfeelabouthavingWrightashishousedesigner?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Honored. B.Amused. C.Stressed. D.Inspired."
+            },
+            {
+              "letter": "B",
+              "text": "Amused. C.Stressed. D.Inspired."
+            },
+            {
+              "letter": "C",
+              "text": "Stressed. D.Inspired."
+            },
+            {
+              "letter": "D",
+              "text": "Inspired."
+            }
+          ],
+          "answer": "A",
+          "explanation": null
+        },
+        {
+          "id": 25,
+          "type": "reading",
+          "stem": "WhatmadeReisleyfinallydecidetosettledowninUsonia?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Itsnaturalenvironment. B.Itslarge-sizedhouses."
+            },
+            {
+              "letter": "B",
+              "text": "Itslarge-sizedhouses."
+            },
+            {
+              "letter": "C",
+              "text": "Theconvenienceofitslocation. D.Thewarmthofitsresidents."
+            },
+            {
+              "letter": "D",
+              "text": "Thewarmthofitsresidents."
+            }
+          ],
+          "answer": "D",
+          "explanation": null
+        },
+        {
+          "id": 26,
+          "type": "reading",
+          "stem": "WhatcanwelearnaboutReisley’shouse?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Itisolderthanitsowner. B.Ituseslocalmaterials."
+            },
+            {
+              "letter": "B",
+              "text": "Ituseslocalmaterials."
+            },
+            {
+              "letter": "C",
+              "text": "Ithasapointedroof. D.Itisputupforsale."
+            },
+            {
+              "letter": "D",
+              "text": "Itisputupforsale."
+            }
+          ],
+          "answer": "B",
+          "explanation": null
+        },
+        {
+          "id": 27,
+          "type": "reading",
+          "stem": "WhatcanbeinferredaboutReisleyfromthelastparagraph?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "HeisveryattachedtoWrightbuildings."
+            },
+            {
+              "letter": "B",
+              "text": "Heisdevotedtohealtheducation."
+            },
+            {
+              "letter": "C",
+              "text": "Heisanexpertinhomedecoration."
+            },
+            {
+              "letter": "D",
+              "text": "Heispassionateabouttourism. C ThepeakofMountQomolangma,8,849metersabovesealevel.Chimborazo,6,263m;MontBlanc,4,806m; Pradidalihut,atthefootofthePalagroupintheDolomites,2,278m.Itiscommonpracticetoprovidetheelevation"
+            }
+          ],
+          "answer": "A",
+          "explanation": null
+        }
+      ]
+    },
+    {
+      "key": "reading",
+      "partTitle": "reading",
+      "questions": []
+    },
+    {
+      "key": "reading",
+      "partTitle": "reading",
+      "questions": [
+        {
+          "id": 28,
+          "type": "reading",
+          "stem": "Whatdoestheauthorpointoutatthebeginningofthetext?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Somemountainsaregettinghigher. B.Dataonwearablesaremisleading."
+            },
+            {
+              "letter": "B",
+              "text": "Dataonwearablesaremisleading."
+            },
+            {
+              "letter": "C",
+              "text": "Theconceptofelevationisrelative. D.Thereferencepointishardtolocate."
+            },
+            {
+              "letter": "D",
+              "text": "Thereferencepointishardtolocate."
+            }
+          ],
+          "answer": "C",
+          "explanation": null
+        },
+        {
+          "id": 29,
+          "type": "reading",
+          "stem": "Whatisparagraph3mainlyabout?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Howthealtimeterwasinvented. B.Whatinitiatedtheauthor’sresearch."
+            },
+            {
+              "letter": "B",
+              "text": "Whatinitiatedtheauthor’sresearch."
+            }
+          ],
+          "answer": "B",
+          "explanation": null
+        }
+      ]
+    },
+    {
+      "key": "reading",
+      "partTitle": "reading",
+      "questions": [
+        {
+          "id": 30,
+          "type": "reading",
+          "stem": "Whatdoestheunderlinedword“it”refertointhelastparagraph?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Thebook. B.Theproject. C.Theissue. D.Thedevelopment."
+            },
+            {
+              "letter": "B",
+              "text": "Theproject. C.Theissue. D.Thedevelopment."
+            },
+            {
+              "letter": "C",
+              "text": "Theissue. D.Thedevelopment."
+            },
+            {
+              "letter": "D",
+              "text": "Thedevelopment."
+            }
+          ],
+          "answer": "C",
+          "explanation": null
+        },
+        {
+          "id": 31,
+          "type": "reading",
+          "stem": "Whatcanbethetitleofthebookmentionedinthetext?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "TheAltimeter:AMust-Have B.SeaLevel:AHistory"
+            },
+            {
+              "letter": "B",
+              "text": "SeaLevel:AHistory"
+            },
+            {
+              "letter": "C",
+              "text": "MeaningofZero:NothingorEverything D.MountainstoSeas:UpsandDowns"
+            },
+            {
+              "letter": "D",
+              "text": "MountainstoSeas:UpsandDowns D TheBarcelonasubwaypullsintothestation,thedoorsslideopenandpassengerspourouttogoabouttheir dailybusiness.Littledotheyknowthatastheydoso,aburstofenergyissentuptostreetleveltohelpchargean electriccar. Barcelonahasputtogetherapackageofcleanenergytechnologiestohelppublictransportationgogreener, whilealsodoingitsparttotackleclimatechangeandaidEurope’sdifficultshifttotheprivatelyownedelectric vehiclemarket. SixteenstationsofBarcelona’ssubwaysystemarepartofitsnewMetroChargeproject,wherebytheenergy fromtheundergroundtrains’brakes(刹车)isusedtopowerthetrainsandthestationsthemselves,whilethe remainderissentsnakingthroughcables(电缆)tothesurfacetopowerplug-instationsforprivatelyowned vehicles. 第7页/共15页 学科网（北京）股份有限公司BernardoEspinoza,anengineerwhotakesthesubwayeveryday,ownsanelectriccar.“Iampleasantly surprised,becauseIamalwayslookingforwheretoplugitin,”Espinozasaidbeforecatchingthesubwayina working-classareaofsouthernBarcelona.“Andifitisfromenergyfromthetrains’brakes,thenevenbetter.” Regenerativebrakeshavebeenintrainsfordecadesandarealsousedinsomecars.Theyconsistofanelectric motorwhichcollectsenergyusedinthebrakingactionthatwouldbelostasheatbyconventionalbrakes.That energycanbeimmediatelyusedtoaccelerate(加速)thevehicleor,inthecaseoftheBarcelonasubwaysystem, sentalongcablestosupplyelectricityforthestationorforelectriccarchargers. AlvaroLuna,aprofessorofelectricalengineering,saidthatthesystemisinnovativeinsofarasitallowsfor recycledenergytoberedirectedtospecificlocaluses—inthiscasepoweringelectriccarsparkednearby.That,he said,boostsefficiency."
+            }
+          ],
+          "answer": "B",
+          "explanation": null
+        },
+        {
+          "id": 32,
+          "type": "reading",
+          "stem": "WhydoesBarcelonalaunchtheMetroChargeproject?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Tofuelthecity’seconomy. B.Toenhancepassengers’experience."
+            },
+            {
+              "letter": "B",
+              "text": "Toenhancepassengers’experience."
+            },
+            {
+              "letter": "C",
+              "text": "Topromotegreentransportation. D.Toraisethequalityofelectriccars."
+            },
+            {
+              "letter": "D",
+              "text": "Toraisethequalityofelectriccars."
+            }
+          ],
+          "answer": "C",
+          "explanation": null
+        },
+        {
+          "id": 33,
+          "type": "reading",
+          "stem": "WhatisEspinoza’sconcern?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Howtocuthistravelexpenses. B.Wheretogetaparkingspace."
+            },
+            {
+              "letter": "B",
+              "text": "Wheretogetaparkingspace."
+            },
+            {
+              "letter": "C",
+              "text": "Howtoavoidrush-hourtraffic. D.Wheretofindachargingpoint."
+            },
+            {
+              "letter": "D",
+              "text": "Wheretofindachargingpoint."
+            }
+          ],
+          "answer": "D",
+          "explanation": null
+        },
+        {
+          "id": 34,
+          "type": "reading",
+          "stem": "Whataspectofregenerativebrakesisdiscussedinparagraph5?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Theiroperatingconditions. B.Theirconventionalstandard."
+            },
+            {
+              "letter": "B",
+              "text": "Theirconventionalstandard."
+            },
+            {
+              "letter": "C",
+              "text": "Theirpotentialrisks. D.Theirworkingmechanism."
+            },
+            {
+              "letter": "D",
+              "text": "Theirworkingmechanism."
+            }
+          ],
+          "answer": "D",
+          "explanation": null
+        },
+        {
+          "id": 35,
+          "type": "reading",
+          "stem": "WhatdidLunasayaboutthesystem?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Itusesreclaimedenergycreatively. B.Itimprovesworkers’efficiency."
+            },
+            {
+              "letter": "B",
+              "text": "Itimprovesworkers’efficiency."
+            },
+            {
+              "letter": "C",
+              "text": "Itprioritizesthesafetyoftrains. D.Itgeneratesjobsforthelocals."
+            },
+            {
+              "letter": "D",
+              "text": "Itgeneratesjobsforthelocals. 第二节(共5小题;每小题2.5分，满分12.5分)"
+            }
+          ],
+          "answer": "A",
+          "explanation": null
+        }
+      ]
+    },
+    {
+      "key": "reading",
+      "partTitle": "reading",
+      "questions": []
+    },
+    {
+      "key": "reading",
+      "partTitle": "reading",
+      "questions": []
+    },
+    {
+      "key": "writing",
+      "partTitle": "writing",
+      "questions": [
+        {
+          "id": 1,
+          "type": "writing",
+          "stem": "perceivedasamajor____42____.Aftermyundergraduatedegree,convincedthatwritingwasn’tforme,\nI____43____tostudyteaching.\nThencameanafternoonthat____44____everything.Iwasteachingpoetry,encouragingstudentstowrite\nabouttheir____45____.Andthen,attheendofthelesson,onechildaskedmeaquestion:“Haveyoualways\n\n第9页/共15页\n学科网（北京）股份有限公司wantedtobea____46____,Miss?”IexplainedthatwhenIwashisage,Iactuallywantedtobeawriter,butI\ndidn’tthinkIquitehadwhatit____47____.Theboyrepliedwitha____48____look,“Well,youaretellingusto\nliveourdreamswhenyouhaven’tevendoneityourself.Haveyoueven____49____?”\nIwasstruckspeechless—hewas____50____.WhowasIto____51____themonbraveryandriskwhenI\nhadnevertakenmyselfformyown____52____seriously?",
+          "modelAnswer": "",
+          "explanation": null
+        }
+      ]
+    },
+    {
+      "key": "writing",
+      "partTitle": "writing",
+      "questions": [
+        {
+          "id": 1,
+          "type": "writing",
+          "stem": "Onthebasisofthat____53____,Iappliedtogobacktouniversityandstudycreativewriting.Therewere\ntimeswhenIfoundmyselfwonderingifIshouldpackitallin,buttheboy’swordskeptringinginmyears:Iknew\nIneedednothingelsetosucceedbutabitof____54____andhardwork.I____55____tofindawayoutofmy\nshameandintoapatternofworkthatIloved.\n41.A.medical B.artistic C.scientific D.literary\n42.A.subject B.problem C.event D.breakthrough\n43.A.steppedaside B.gotup C.wentoff D.turnedback\n44.A.changed B.ruined C.revealed D.interrupted\n45.A.hobbies B.families C.dreams D.lessons\n46.A.writer B.teacher C.reporter D.publisher\n47.A.kept B.left C.held D.took\n48.A.satisfied B.guilty C.grateful D.disapproving\n49.A.tried B.noticed C.asked D.waited\n50.A.rude B.right C.shy D.silent\n51.A.examine B.congratulate C.lecture D.consult\n52.A.values B.imagination C.inspiration D.desires\n53.A.cooperation B.conversation C.administration D.explanation\n54.A.self-belief B.know-how C.brainstorming D.teamwork\n55.A.remembered B.agreed C.managed D.hesitated\n第二节(共10小题;每小题1.5分，满分15分)",
+          "modelAnswer": "",
+          "explanation": null
+        }
+      ]
+    },
+    {
+      "key": "reading",
+      "partTitle": "reading",
+      "questions": []
+    },
+    {
+      "key": "writing",
+      "partTitle": "writing",
+      "questions": [
+        {
+          "id": 1,
+          "type": "writing",
+          "stem": "第四部分写作(共两节，满分40分)\n第一节(满分15分)\n66.假定你是李华，外教Kate计划将你们班的英语作文汇编成册。请给Kate写封邮件，内容包括：\n(1)建议配图。\n(2)自荐承担画图工作。\n注意：",
+          "modelAnswer": "",
+          "explanation": null
+        }
+      ]
+    },
+    {
+      "key": "writing",
+      "partTitle": "writing",
+      "questions": [
+        {
+          "id": 1,
+          "type": "writing",
+          "stem": "(1)写作词数应为80个左右。\n(2)请按如下格式在答题卡的相应位置作答。\nDearKate,\nIt’sagreatideatomakeacollectionofourEnglishessays.\n____________________________________________________________________________________________\n____________________________________________________________________________________________\n____________________________________________________________________________________________\n____________________________________________________________________________________________\n__________________________________________________________________________________\nYours,\nLiHua\n第二节(满分25分)",
+          "modelAnswer": "",
+          "explanation": null
+        }
+      ]
+    },
+    {
+      "key": "reading",
+      "partTitle": "reading",
+      "questions": [
+        {
+          "id": 67,
+          "type": "reading",
+          "stem": "阅读下面材料，根据其内容和所给段落开头语续写两段，使之构成一篇完整的短文。",
+          "options": [],
+          "answer": "",
+          "explanation": null
+        },
+        {
+          "id": 1,
+          "type": "reading",
+          "stem": "答卷前，考生务必将自己的姓名、准考证号填写在答题卡上，并将自己的姓名、准考证号、",
+          "options": [],
+          "answer": "",
+          "explanation": null
+        },
+        {
+          "id": 2,
+          "type": "reading",
+          "stem": "回答选择题时，选出每小题答案后，用2B铅笔把答题卡上对应题目的答案标号涂黑;如需",
+          "options": [],
+          "answer": "",
+          "explanation": null
+        },
+        {
+          "id": 3,
+          "type": "reading",
+          "stem": "作答非选择题时，将答案书写在答题卡上，书写在本试卷上无效。",
+          "options": [],
+          "answer": "",
+          "explanation": null
+        },
+        {
+          "id": 4,
+          "type": "reading",
+          "stem": "考试结束后，将本试卷和答题卡一并交回。",
+          "options": [],
+          "answer": "",
+          "explanation": null
+        }
+      ]
+    },
+    {
+      "key": "listening",
+      "partTitle": "listening",
+      "questions": []
+    },
+    {
+      "key": "reading",
+      "partTitle": "reading",
+      "questions": []
+    },
+    {
+      "key": "reading",
+      "partTitle": "reading",
+      "questions": []
+    },
+    {
+      "key": "reading",
+      "partTitle": "reading",
+      "questions": []
+    },
+    {
+      "key": "reading",
+      "partTitle": "reading",
+      "questions": []
+    },
+    {
+      "key": "reading",
+      "partTitle": "reading",
+      "questions": []
+    },
+    {
+      "key": "reading",
+      "partTitle": "reading",
+      "questions": [
+        {
+          "id": 57,
+          "type": "reading",
+          "stem": "instructor",
+          "options": [],
+          "answer": "",
+          "explanation": null
+        },
+        {
+          "id": 58,
+          "type": "reading",
+          "stem": "and59.feet",
+          "options": [],
+          "answer": "",
+          "explanation": null
+        },
+        {
+          "id": 60,
+          "type": "reading",
+          "stem": "amsupposed",
+          "options": [],
+          "answer": "",
+          "explanation": null
+        },
+        {
+          "id": 61,
+          "type": "reading",
+          "stem": "which62.descriptive",
+          "options": [],
+          "answer": "",
+          "explanation": null
+        },
+        {
+          "id": 63,
+          "type": "reading",
+          "stem": "on64.being",
+          "options": [],
+          "answer": "",
+          "explanation": null
+        },
+        {
+          "id": 65,
+          "type": "reading",
+          "stem": "tomeet",
+          "options": [],
+          "answer": "",
+          "explanation": null
+        }
+      ]
+    },
+    {
+      "key": "writing",
+      "partTitle": "writing",
+      "questions": [
+        {
+          "id": 1,
+          "type": "writing",
+          "stem": "第四部分写作(共两节，满分40分)\n第一节(满分15分)\n【66题答案】\n【答案】DearKate,\nIt’sagreatideatomakeacollectionofourEnglishessays.Thiscompilationwillsurelybeawonderful\nshowcaseofourEnglishlearningachievements.Ihaveasuggestionthatmightenhancetheoverallqualityofthis\ncollection—addingrelevantpictures.\nPicturescanplayavitalroleinmakingtheessaysmoreengaging.Forexample,ifanessayisaboutatravel\nexperience,avividpictureofthedescribedscenerycanbringthestorytolife,helpingreadersbettervisualizethe\nplacesandemotions.\nI’mquiteinterestedincontributingtothisproject.AsIhavebeenlearningdrawingforyearsandhaveagood\ncommandofvariousdrawingtechniques,IbelieveIcancreatepicturesthatperfectlymatchthethemesofthe\nessays.\nLookingforwardtoyourreply.\nYours,\nLiHua\n第二节(满分25分)\n【67题答案】\n【答案】\nStruckbythedoctor’swarning,IknewIhadtomakeachange.Thatverynight,Iinitiatedmybattleagainst\n\n第15页/共15页\n学科网（北京）股份有限公司mydeep-rootedhabits.Iforciblyswitchedoffmylaptopandphoneat10p.m.,placingthemcompletelyoutof\nreach.However,myrebelliousbiologicalclockrefusedtocooperate.Itossedandturnedinthedarkness,thesilence\noftheroomamplifyingmyanxiety.Theurgetograbmyphoneanddrowninvideoswasoverwhelminglytempting.\nJustasmywillpowerwasabouttocrumble,thedoctor'ssternvoiceandthatterrifyingsharppaininmychest\nechoedinmymind,anchoringmebacktoreality.Isqueezedmyeyesshut,practicingdeepbreathinguntil\nexhaustionfinallyclaimedme.\nSlowlybutsurely,myeffortstoadjusttothenewroutinepaidoff.Themornings,whichusedtobemy\ngreatestenemy,graduallytransformedintoawelcomingfriend.Insteadofracingthroughassignmentswithafoggy\nbrainatmidnight,Ifoundmyselftacklingthemwithaclearandfocusedmindinthegoldensunlight.Notonlydid\ntheheavyburdenonmychestvanish,butanunprecedentedsenseofvitalityalsoflowedthroughmyveins.WhenI\nproudlyshowedmyparentsmyimprovedmedicalreportduringtheholiday,theirrelievedsmilesweremybest\nreward.Ifinallyrealizedthattruecomfortisn'tfoundintheunrulyhoursofthenight,butinthevibrantrhythmofa\ndisciplinedlife.",
+          "modelAnswer": "",
+          "explanation": null
+        }
+      ]
+    }
+  ],
+  "jiexi_filled": 30
+}

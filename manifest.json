@@ -1,0 +1,18 @@
+{
+  "name": "高考英语真题在线",
+  "short_name": "高考英语",
+  "description": "历年真题练习、错题间隔复习与知识点掌握追踪",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#faf9f6",
+  "theme_color": "#2e6b46",
+  "icons": [
+    {
+      "src": "assets/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+/* =====================================================================
+   主题三态（2026-09-05，交流纪要附录 C1）
+   纸墨（默认，本文件不动它）/ 白昼 html.theme-day / 夜间 html.theme-night。
+   做法：只覆盖 style.css :root 的变量层（与参考站 zhenti 的
+   body.eye-protect-mode / body.night-mode 同一思路），组件规则一律不改。
+   挂点在 <html> 上（index.html 头部内联脚本首帧预置，app.js theme-cycle 切换），
+   html.主题类 (0,1,1) 特异性高于 :root (0,1,0)，无需 !important。
+   对比度按 AA 校准：夜间各文字色对卡面 #2c2c31 实测见行尾注释。
+
+   星图页「夜间章节」自带夜空底色，不随主题翻面；只有它的「纸面变体」
+   关系色（--rel-*-deep，用于门厅纸面）在夜间落在暗底上，直接换用亮变体。
+   ===================================================================== */
+
+/* ---------- 白昼：标准白纸底（想要打印感/投影时的选择） ---------- */
+html.theme-day {
+  --paper-0: #ffffff;
+  --paper-1: #fbfbf9;
+  --paper-2: #ffffff;
+  --paper-1-glass: rgba(255, 255, 255, .92);
+  --line: #e3e1da;
+  --line-strong: #c9c6bd;
+  --accent-soft: #e9f0ea;
+}
+
+/* ---------- 夜间：暗室晚自习 ---------- */
+html.theme-night {
+  --paper-0: #232327;                       /* 页面底 */
+  --paper-1: #2c2c31;                       /* 卡片 */
+  --paper-2: #36363c;                       /* 输入框、弹层 */
+  --paper-1-glass: rgba(44, 44, 49, .92);
+
+  --ink:   #d6d3cc;   /* 主文字  ~12.5:1 */
+  --ink-2: #a8a49b;   /* 次要    ~6.3:1  */
+  --ink-3: #9b978e;   /* 三级 ~4.6:1（2026-09-19 由 #8f8b82 提亮：答题卡小字
+                         等落在 paper-2 弹层底上，旧值对卡面只有 ~4.1:1 不达
+                         AA；新值按对最暗常用底的实测校准） */
+  --focus-ring: #d6d3cc;
+
+  --line: #45454c;
+  --line-strong: #5c5c64;
+
+  --accent:      #8ec7a6;   /* ~7.2:1 */
+  --accent-soft: #2e3d34;
+  --accent-line: #5d8a72;   /* 非文本 ~3.4:1 */
+
+  --red: #e08a80;   --red-soft: #3c2c29;
+  --green: #79c496; --green-soft: #28352c;
+  --amber: #d9b36a; --amber-soft: #38311f;
+
+  --heat-1: #2f3d36;
+  --heat-2: #3c5a4a;
+  --heat-3: #54876c;
+  /* heat-4 仍 = --green */
+
+  --rel-pre-deep: var(--rel-pre);
+  --rel-suf-deep: var(--rel-suf);
+  --rel-phr-deep: var(--rel-phr);
+  --rel-sim-deep: var(--rel-sim);
+}
+
+/* ---------- 切换按钮（顶栏右侧，唯一新增的组件外观） ---------- */
+.theme-toggle {
+  margin-left: auto;
+  padding: var(--sp-1-5) var(--sp-3);
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  background: var(--paper-1);
+  color: var(--ink-2);
+  font-size: var(--fs-xs);
+  cursor: pointer;
+  white-space: nowrap;
+}
+.theme-toggle:hover { border-color: var(--accent-line); color: var(--accent); }

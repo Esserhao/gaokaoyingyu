@@ -1,0 +1,22 @@
+{
+  "source_file": "1781227688_7547",
+  "total_sections": 24,
+  "total_questions": 51,
+  "issues": [
+    {
+      "type": "question_id_gap",
+      "section": "reading",
+      "msg": "题号不连续: [67, 1, 2, 3, 4]..."
+    },
+    {
+      "type": "question_id_gap",
+      "section": "reading",
+      "msg": "题号不连续: [57, 58, 60, 61, 63, 65]..."
+    }
+  ],
+  "review_required": [],
+  "summary": {
+    "total_issues": 2,
+    "needs_review": true
+  }
+}

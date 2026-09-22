@@ -1,0 +1,1408 @@
+{
+  "id": "gk2024-xgk1",
+  "year": 2024,
+  "paper": "新课标Ⅰ卷",
+  "region": "山东、河北、湖北、湖南、江苏、广东、福建、浙江",
+  "title": "2024年新课标Ⅰ卷英语",
+  "format": "new",
+  "duration": 120,
+  "totalScore": 150,
+  "hasAudio": false,
+  "audio": null,
+  "quality": "verified",
+  "proofreadingConfirmed": true,
+  "answerSource": "2024新课标1答案.docx（官方参考答案，仅答案与作文范文，无逐题解析、无听力原文）",
+  "sections": [
+    {
+      "key": "listening",
+      "partTitle": "第一部分 听力（共两节，满分30分）",
+      "secTitle": "第一节（共5小题；每小题1.5分，满分7.5分）听下面5段对话。每段对话后有一个小题，从题中所给的A、B、C三个选项中选出最佳选项。听完每段对话后，你都有10秒钟的时间来回答有关小题和阅读下一小题。每段对话仅读一遍。",
+      "pool": [],
+      "passages": [],
+      "questions": [
+        {
+          "id": 1,
+          "stem": "What is Kate doing?",
+          "options": [
+            { "letter": "A", "text": "Boarding a flight." },
+            { "letter": "B", "text": "Arranging a trip." },
+            { "letter": "C", "text": "Seeing a friend off." }
+          ],
+          "answer": "C",
+          "type": "listening",
+          "score": 1.5,
+          "transcript": "",
+          "explanation": {
+            "summary": "听力第一节｜短对话。",
+            "question": "问 Kate 正在做什么。",
+            "evidence": "本卷官方参考答案未附听力原文，暂无原文可引。",
+            "answer": "C。"
+          }
+        },
+        {
+          "id": 2,
+          "stem": "What are the speakers talking about?",
+          "options": [
+            { "letter": "A", "text": "A pop star." },
+            { "letter": "B", "text": "An old song." },
+            { "letter": "C", "text": "A radio program." }
+          ],
+          "answer": "B",
+          "type": "listening",
+          "score": 1.5,
+          "transcript": "",
+          "explanation": {
+            "summary": "听力第一节｜短对话。",
+            "question": "问两人在谈什么。",
+            "evidence": "本卷官方参考答案未附听力原文，暂无原文可引。",
+            "answer": "B。"
+          }
+        },
+        {
+          "id": 3,
+          "stem": "What will the speakers do today?",
+          "options": [
+            { "letter": "A", "text": "Go to an art show." },
+            { "letter": "B", "text": "Meet the man's aunt." },
+            { "letter": "C", "text": "Eat out with Mark." }
+          ],
+          "answer": "A",
+          "type": "listening",
+          "score": 1.5,
+          "transcript": "",
+          "explanation": {
+            "summary": "听力第一节｜短对话。",
+            "question": "问两人今天要做什么。",
+            "evidence": "本卷官方参考答案未附听力原文，暂无原文可引。",
+            "answer": "A。"
+          }
+        },
+        {
+          "id": 4,
+          "stem": "What does the man want to do?",
+          "options": [
+            { "letter": "A", "text": "Cancel an order." },
+            { "letter": "B", "text": "Ask for a receipt." },
+            { "letter": "C", "text": "Reschedule a delivery." }
+          ],
+          "answer": "C",
+          "type": "listening",
+          "score": 1.5,
+          "transcript": "",
+          "explanation": {
+            "summary": "听力第一节｜短对话。",
+            "question": "问男士想做什么。",
+            "evidence": "本卷官方参考答案未附听力原文，暂无原文可引。",
+            "answer": "C。"
+          }
+        },
+        {
+          "id": 5,
+          "stem": "When will the next train to Bedford leave?",
+          "options": [
+            { "letter": "A", "text": "At 9:45." },
+            { "letter": "B", "text": "At 10:15." },
+            { "letter": "C", "text": "At 11:00." }
+          ],
+          "answer": "A",
+          "type": "listening",
+          "score": 1.5,
+          "transcript": "",
+          "explanation": {
+            "summary": "听力第一节｜短对话。",
+            "question": "问下一班开往 Bedford 的列车何时发车。",
+            "evidence": "本卷官方参考答案未附听力原文，暂无原文可引。",
+            "answer": "A。"
+          }
+        },
+        {
+          "id": 6,
+          "stem": "What will the weather be like today?",
+          "options": [
+            { "letter": "A", "text": "Stormy." },
+            { "letter": "B", "text": "Sunny." },
+            { "letter": "C", "text": "Foggy." }
+          ],
+          "answer": "A",
+          "type": "listening",
+          "score": 1.5,
+          "group": "听下面一段较长对话，回答第6、7小题。",
+          "transcript": "",
+          "explanation": {
+            "summary": "听力第二节｜长对话。",
+            "question": "问今天天气如何。",
+            "evidence": "本卷官方参考答案未附听力原文，暂无原文可引。",
+            "answer": "A。"
+          }
+        },
+        {
+          "id": 7,
+          "stem": "What is the man going to do?",
+          "options": [
+            { "letter": "A", "text": "Plant a tree." },
+            { "letter": "B", "text": "Move his car." },
+            { "letter": "C", "text": "Check the map." }
+          ],
+          "answer": "B",
+          "type": "listening",
+          "score": 1.5,
+          "group": "听下面一段较长对话，回答第6、7小题。",
+          "transcript": "",
+          "explanation": {
+            "summary": "听力第二节｜长对话。",
+            "question": "问男士打算做什么。",
+            "evidence": "本卷官方参考答案未附听力原文，暂无原文可引。",
+            "answer": "B。"
+          }
+        },
+        {
+          "id": 8,
+          "stem": "Why is Kathy in California now?",
+          "options": [
+            { "letter": "A", "text": "She is on vacation there." },
+            { "letter": "B", "text": "She has just moved there." },
+            { "letter": "C", "text": "She is doing business there." }
+          ],
+          "answer": "B",
+          "type": "listening",
+          "score": 1.5,
+          "group": "听下面一段较长对话，回答第8至10小题。",
+          "transcript": "",
+          "explanation": {
+            "summary": "听力第二节｜长对话。",
+            "question": "问 Kathy 现在为什么在加利福尼亚。",
+            "evidence": "本卷官方参考答案未附听力原文，暂无原文可引。",
+            "answer": "B。"
+          }
+        },
+        {
+          "id": 9,
+          "stem": "What is the relationship between Tom and Fiona?",
+          "options": [
+            { "letter": "A", "text": "Husband and wife." },
+            { "letter": "B", "text": "Brother and sister." },
+            { "letter": "C", "text": "Father and daughter." }
+          ],
+          "answer": "B",
+          "type": "listening",
+          "score": 1.5,
+          "group": "听下面一段较长对话，回答第8至10小题。",
+          "transcript": "",
+          "explanation": {
+            "summary": "听力第二节｜长对话。",
+            "question": "问 Tom 与 Fiona 是什么关系。",
+            "evidence": "本卷官方参考答案未附听力原文，暂无原文可引。",
+            "answer": "B。"
+          }
+        },
+        {
+          "id": 10,
+          "stem": "What does Kathy thank Dave for?",
+          "options": [
+            { "letter": "A", "text": "Finding her a new job." },
+            { "letter": "B", "text": "Sending her a present." },
+            { "letter": "C", "text": "Calling on her mother." }
+          ],
+          "answer": "C",
+          "type": "listening",
+          "score": 1.5,
+          "group": "听下面一段较长对话，回答第8至10小题。",
+          "transcript": "",
+          "explanation": {
+            "summary": "听力第二节｜长对话。",
+            "question": "问 Kathy 为什么感谢 Dave。",
+            "evidence": "本卷官方参考答案未附听力原文，暂无原文可引。",
+            "answer": "C。"
+          }
+        },
+        {
+          "id": 11,
+          "stem": "How did Jack go to school when he was a child?",
+          "options": [
+            { "letter": "A", "text": "By bike." },
+            { "letter": "B", "text": "On foot." },
+            { "letter": "C", "text": "By bus." }
+          ],
+          "answer": "B",
+          "type": "listening",
+          "score": 1.5,
+          "group": "听下面一段较长对话，回答第11至13小题。",
+          "transcript": "",
+          "explanation": {
+            "summary": "听力第二节｜长对话。",
+            "question": "问 Jack 小时候怎么上学。",
+            "evidence": "本卷官方参考答案未附听力原文，暂无原文可引。",
+            "answer": "B。"
+          }
+        },
+        {
+          "id": 12,
+          "stem": "What is Jack's attitude toward parents driving their kids to school?",
+          "options": [
+            { "letter": "A", "text": "Disapproving." },
+            { "letter": "B", "text": "Encouraging." },
+            { "letter": "C", "text": "Understanding." }
+          ],
+          "answer": "C",
+          "type": "listening",
+          "score": 1.5,
+          "group": "听下面一段较长对话，回答第11至13小题。",
+          "transcript": "",
+          "explanation": {
+            "summary": "听力第二节｜长对话。",
+            "question": "问 Jack 对家长开车送孩子上学持何态度。",
+            "evidence": "本卷官方参考答案未附听力原文，暂无原文可引。",
+            "answer": "C。"
+          }
+        },
+        {
+          "id": 13,
+          "stem": "What is the problem with some parents according to the woman?",
+          "options": [
+            { "letter": "A", "text": "Overprotecting their children." },
+            { "letter": "B", "text": "Pushing their children too hard." },
+            { "letter": "C", "text": "Having no time for their children." }
+          ],
+          "answer": "A",
+          "type": "listening",
+          "score": 1.5,
+          "group": "听下面一段较长对话，回答第11至13小题。",
+          "transcript": "",
+          "explanation": {
+            "summary": "听力第二节｜长对话。",
+            "question": "问女士认为一些家长的问题是什么。",
+            "evidence": "本卷官方参考答案未附听力原文，暂无原文可引。",
+            "answer": "A。"
+          }
+        },
+        {
+          "id": 14,
+          "stem": "Why did Marie post her kitchen gardening online at first?",
+          "options": [
+            { "letter": "A", "text": "To keep records of her progress." },
+            { "letter": "B", "text": "To sell home-grown vegetables." },
+            { "letter": "C", "text": "To motivate her fellow gardeners." }
+          ],
+          "answer": "A",
+          "type": "listening",
+          "score": 1.5,
+          "group": "听下面一段较长对话，回答第14至17小题。",
+          "transcript": "",
+          "explanation": {
+            "summary": "听力第二节｜长对话。",
+            "question": "问 Marie 起初为什么把自家菜园的情况发到网上。",
+            "evidence": "本卷官方参考答案未附听力原文，暂无原文可引。",
+            "answer": "A。"
+          }
+        },
+        {
+          "id": 15,
+          "stem": "Why does Marie recommend beginners to grow strawberries?",
+          "options": [
+            { "letter": "A", "text": "They need no special care." },
+            { "letter": "B", "text": "They can be used in cooking." },
+            { "letter": "C", "text": "They bear a lot of fruit soon." }
+          ],
+          "answer": "C",
+          "type": "listening",
+          "score": 1.5,
+          "group": "听下面一段较长对话，回答第14至17小题。",
+          "transcript": "",
+          "explanation": {
+            "summary": "听力第二节｜长对话。",
+            "question": "问 Marie 为什么建议新手种草莓。",
+            "evidence": "本卷官方参考答案未附听力原文，暂无原文可引。",
+            "answer": "C。"
+          }
+        },
+        {
+          "id": 16,
+          "stem": "What is difficult for Marie to grow?",
+          "options": [
+            { "letter": "A", "text": "Herbs." },
+            { "letter": "B", "text": "Carrots." },
+            { "letter": "C", "text": "Pears." }
+          ],
+          "answer": "B",
+          "type": "listening",
+          "score": 1.5,
+          "group": "听下面一段较长对话，回答第14至17小题。",
+          "transcript": "",
+          "explanation": {
+            "summary": "听力第二节｜长对话。",
+            "question": "问 Marie 觉得什么难种。",
+            "evidence": "本卷官方参考答案未附听力原文，暂无原文可引。",
+            "answer": "B。"
+          }
+        },
+        {
+          "id": 17,
+          "stem": "What is Marie's advice to those interested in kitchen gardening?",
+          "options": [
+            { "letter": "A", "text": "Aim high." },
+            { "letter": "B", "text": "Keep focused." },
+            { "letter": "C", "text": "Stay optimistic." }
+          ],
+          "answer": "C",
+          "type": "listening",
+          "score": 1.5,
+          "group": "听下面一段较长对话，回答第14至17小题。",
+          "transcript": "",
+          "explanation": {
+            "summary": "听力第二节｜长对话。",
+            "question": "问 Marie 给有兴趣做家庭菜园的人什么建议。",
+            "evidence": "本卷官方参考答案未附听力原文，暂无原文可引。",
+            "answer": "C。"
+          }
+        },
+        {
+          "id": 18,
+          "stem": "What is \"Life of Johnson\"?",
+          "options": [
+            { "letter": "A", "text": "A magazine column." },
+            { "letter": "B", "text": "A TV series." },
+            { "letter": "C", "text": "A historical novel." }
+          ],
+          "answer": "A",
+          "type": "listening",
+          "score": 1.5,
+          "group": "听下面一段独白，回答第18至20小题。",
+          "transcript": "",
+          "explanation": {
+            "summary": "听力第二节｜独白。",
+            "question": "问“Life of Johnson”是什么。",
+            "evidence": "本卷官方参考答案未附听力原文，暂无原文可引。",
+            "answer": "A。"
+          }
+        },
+        {
+          "id": 19,
+          "stem": "What is Johnson famous for?",
+          "options": [
+            { "letter": "A", "text": "His acting talent." },
+            { "letter": "B", "text": "His humorous writing." },
+            { "letter": "C", "text": "His long sports career." }
+          ],
+          "answer": "B",
+          "type": "listening",
+          "score": 1.5,
+          "group": "听下面一段独白，回答第18至20小题。",
+          "transcript": "",
+          "explanation": {
+            "summary": "听力第二节｜独白。",
+            "question": "问 Johnson 因什么而闻名。",
+            "evidence": "本卷官方参考答案未附听力原文，暂无原文可引。",
+            "answer": "B。"
+          }
+        },
+        {
+          "id": 20,
+          "stem": "When did Johnson join Sports Times?",
+          "options": [
+            { "letter": "A", "text": "In 1981." },
+            { "letter": "B", "text": "In 1983." },
+            { "letter": "C", "text": "In 1985." }
+          ],
+          "answer": "C",
+          "type": "listening",
+          "score": 1.5,
+          "group": "听下面一段独白，回答第18至20小题。",
+          "transcript": "",
+          "explanation": {
+            "summary": "听力第二节｜独白。",
+            "question": "问 Johnson 何时加入《Sports Times》。",
+            "evidence": "本卷官方参考答案未附听力原文，暂无原文可引。",
+            "answer": "C。"
+          }
+        }
+      ]
+    },
+    {
+      "key": "reading",
+      "partTitle": "第二部分 阅读（共两节，满分50分）",
+      "secTitle": "第一节（共15小题；每小题2.5分，满分37.5分）阅读下列短文，从每题所给的A、B、C、D四个选项中选出最佳选项。",
+      "pool": [],
+      "passages": [
+        {
+          "label": "A",
+          "text": "HABITAT RESTORATION TEAM\n\nHelp restore and protect Marin's natural areas from the Marin Headlands to Bolinas Ridge. We'll explore beautiful park sites while conducting invasive (侵入的) plant removal, winter planting, and seed collection. Habitat Restoration Team volunteers play a vital role in restoring sensitive resources and protecting endangered species across the ridges and valleys.\n\nGROUPS\nGroups of five or more require special arrangements and must be confirmed in advance. Please review the List of Available Projects and fill out the Group Project Request Form.\n\nAGE, SKILLS, WHAT TO BRING\nVolunteers aged 10 and over are welcome. Read our Youth Policy Guidelines for youth under the age of 15.\nBring your completed Volunteer Agreement Form. Volunteers under the age of 18 must have the parent/guardian approval section signed.\nWe'll be working rain or shine. Wear clothes that can get dirty. Bring layers for changing weather and a raincoat if necessary.\nBring a personal water bottle, sunscreen, and lunch.\nNo experience necessary. Training and tools will be provided. Fulfills (满足) community service requirements.\n\nUPCOMING EVENTS\nTime | Meeting Location\nSunday, Jan. 15  10:00 am — 1:00 pm | Battery Alexander Trailhead\nSunday, Jan. 22  10:00 am — 2:30 pm | Stinson Beach Parking Lot\nSunday, Jan. 29  9:30 am — 2:30 pm | Coyote Ridge Trailhead"
+        },
+        {
+          "label": "B",
+          "text": "\"I am not crazy,\" says Dr. William Farber, shortly after performing acupuncture (针灸) on a rabbit. \"I am ahead of my time.\" If he seems a little defensive, it might be because even some of his coworkers occasionally laugh at his unusual methods. But Farber is certain he'll have the last laugh. He's one of a small but growing number of American veterinarians (兽医) now practicing \"holistic\" medicine — combining traditional Western treatments with acupuncture, chiropractic (按摩疗法) and herbal medicine.\n\nFarber, a graduate of Colorado State University, started out as a more conventional veterinarian. He became interested in alternative treatments 20 years ago when he suffered from terrible back pain. He tried muscle-relaxing drugs but found little relief. Then he tried acupuncture, an ancient Chinese practice, and was amazed that he improved after two or three treatments. What worked on a veterinarian seemed likely to work on his patients. So, after studying the techniques for a couple of years, he began offering them to pets.\n\nLeigh Tindale's dog Charlie had a serious heart condition. After Charlie had a heart attack, Tindale says, she was prepared to put him to sleep, but Farber's treatments eased her dog's suffering so much that she was able to keep him alive for an additional five months. And Priscilla Dewing reports that her horse, Nappy, \"moves more easily and rides more comfortably\" after a chiropractic adjustment.\n\nFarber is certain that the holistic approach will grow more popular with time, and if the past is any indication, he may be right: Since 1982, membership in the American Holistic Veterinary Medical Association has grown from 30 to over 700. \"Sometimes it surprises me that it works so well,\" he says. \"I will do anything to help an animal. That's my job.\""
+        },
+        {
+          "label": "C",
+          "text": "Is comprehension the same whether a person reads a text onscreen or on paper? And are listening to and viewing content as effective as reading the written word when covering the same material? The answers to both questions are often \"no\". The reasons relate to a variety of factors, including reduced concentration, an entertainment mindset (心态) and a tendency to multitask while consuming digital content.\n\nWhen reading texts of several hundred words or more, learning is generally more successful when it's on paper than onscreen. A large amount of research confirms this finding. The benefits of print reading particularly shine through when experimenters move from posing simple tasks — like identifying the main idea in a reading passage — to ones that require mental abstraction — such as drawing inferences from a text.\n\nThe differences between print and digital reading results are partly related to paper's physical properties. With paper, there is a literal laying on of hands, along with the visual geography of distinct pages. People often link their memory of what they've read to how far into the book it was or where it was on the page.\n\nBut equally important is the mental aspect. Reading researchers have proposed a theory called \"shallowing hypothesis (假说)\". According to this theory, people approach digital texts with a mindset suited to social media, which are often not so serious, and devote less mental effort than when they are reading print.\n\nAudio (音频) and video can feel more engaging than text, and so university teachers increasingly turn to these technologies — say, assigning an online talk instead of an article by the same person. However, psychologists have demonstrated that when adults read news stories, they remember more of the content than if they listen to or view identical pieces.\n\nDigital texts, audio and video all have educational roles, especially when providing resources not available in print. However, for maximizing learning where mental focus and reflection are called for, educators shouldn't assume all media are the same, even when they contain identical words."
+        },
+        {
+          "label": "D",
+          "text": "In the race to document the species on Earth before they go extinct, researchers and citizen scientists have collected billions of records. Today, most records of biodiversity are often in the form of photos, videos, and other digital records. Though they are useful for detecting shifts in the number and variety of species in an area, a new Stanford study has found that this type of record is not perfect.\n\n\"With the rise of technology it is easy for people to make observations of different species with the aid of a mobile application,\" said Barnabas Daru, who is lead author of the study and assistant professor of biology in the Stanford School of Humanities and Sciences. \"These observations now outnumber the primary data that comes from physical specimens (标本), and since we are increasingly using observational data to investigate how species are responding to global change, I wanted to know: Are they usable?\"\n\nUsing a global dataset of 1.9 billion records of plants, insects, birds, and animals, Daru and his team tested how well these data represent actual global biodiversity patterns.\n\n\"We were particularly interested in exploring the aspects of sampling that tend to bias (使有偏差) data, like the greater likelihood of a citizen scientist to take a picture of a flowering plant instead of the grass right next to it,\" said Daru.\n\nTheir study revealed that the large number of observation-only records did not lead to better global coverage. Moreover, these data are biased and favor certain regions, time periods, and species. This makes sense because the people who get observational biodiversity data on mobile devices are often citizen scientists recording their encounters with species in areas nearby. These data are also biased toward certain species with attractive or eye-catching features.\n\nWhat can we do with the imperfect datasets of biodiversity?\n\n\"Quite a lot,\" Daru explained. \"Biodiversity apps can use our study results to inform users of oversampled areas and lead them to places — and even species — that are not well-sampled. To improve the quality of observational data, biodiversity apps can also encourage users to have an expert confirm the identification of their uploaded image.\""
+        }
+      ],
+      "questions": [
+        {
+          "id": 21,
+          "passageLabel": "A",
+          "stem": "What is the aim of the Habitat Restoration Team?",
+          "options": [
+            { "letter": "A", "text": "To discover mineral resources." },
+            { "letter": "B", "text": "To develop new wildlife parks." },
+            { "letter": "C", "text": "To protect the local ecosystem." },
+            { "letter": "D", "text": "To conduct biological research." }
+          ],
+          "answer": "C",
+          "type": "reading",
+          "score": 2.5,
+          "explanation": {
+            "summary": "细节理解题｜本文是应用文，招募栖息地修复队志愿者。",
+            "question": "问栖息地修复队的目标是什么。",
+            "evidence": "Help restore and protect Marin's natural areas…restoring sensitive resources and protecting endangered species",
+            "answer": "C。修复自然区域、保护濒危物种，即保护当地生态系统。"
+          }
+        },
+        {
+          "id": 22,
+          "passageLabel": "A",
+          "stem": "What is the lower age limit for joining the Habitat Restoration Team?",
+          "options": [
+            { "letter": "A", "text": "5." },
+            { "letter": "B", "text": "10." },
+            { "letter": "C", "text": "15." },
+            { "letter": "D", "text": "18." }
+          ],
+          "answer": "B",
+          "type": "reading",
+          "score": 2.5,
+          "explanation": {
+            "summary": "细节理解题｜年龄门槛。",
+            "question": "问参加修复队的最低年龄。",
+            "evidence": "Volunteers aged 10 and over are welcome.",
+            "answer": "B。10 岁及以上即可，15 岁与 18 岁是另有附加规定的年龄，不是门槛。"
+          }
+        },
+        {
+          "id": 23,
+          "passageLabel": "A",
+          "stem": "What are the volunteers expected to do?",
+          "options": [
+            { "letter": "A", "text": "Bring their own tools." },
+            { "letter": "B", "text": "Work even in bad weather." },
+            { "letter": "C", "text": "Wear a team uniform." },
+            { "letter": "D", "text": "Do at least three projects." }
+          ],
+          "answer": "B",
+          "type": "reading",
+          "score": 2.5,
+          "explanation": {
+            "summary": "细节理解题｜对志愿者的要求。",
+            "question": "问志愿者需要做什么。",
+            "evidence": "We'll be working rain or shine.…Training and tools will be provided.",
+            "answer": "B。“风雨无阻”即坏天气也要干；工具由主办方提供，故 A 错。"
+          }
+        },
+        {
+          "id": 24,
+          "passageLabel": "B",
+          "stem": "What do some of Farber's coworkers think of him?",
+          "options": [
+            { "letter": "A", "text": "He's odd." },
+            { "letter": "B", "text": "He's strict." },
+            { "letter": "C", "text": "He's brave." },
+            { "letter": "D", "text": "He's rude." }
+          ],
+          "answer": "A",
+          "type": "reading",
+          "score": 2.5,
+          "explanation": {
+            "summary": "推理判断题｜本文是说明文，介绍兽医 Farber 推行整体医学（针灸、按摩、草药）。",
+            "question": "问一些同事怎么看 Farber。",
+            "evidence": "even some of his coworkers occasionally laugh at his unusual methods",
+            "answer": "A。同事嘲笑他方法“不寻常”，即觉得他古怪。"
+          }
+        },
+        {
+          "id": 25,
+          "passageLabel": "B",
+          "stem": "Why did Farber decide to try acupuncture on pets?",
+          "options": [
+            { "letter": "A", "text": "He was trained in it at university." },
+            { "letter": "B", "text": "He was inspired by another veterinarian." },
+            { "letter": "C", "text": "He benefited from it as a patient." },
+            { "letter": "D", "text": "He wanted to save money for pet owners." }
+          ],
+          "answer": "C",
+          "type": "reading",
+          "score": 2.5,
+          "explanation": {
+            "summary": "细节理解题｜他转向针灸的起因。",
+            "question": "问 Farber 为什么决定给宠物试针灸。",
+            "evidence": "he suffered from terrible back pain…Then he tried acupuncture…was amazed that he improved after two or three treatments",
+            "answer": "C。他自己作为病人受益，才想到用在动物身上。"
+          }
+        },
+        {
+          "id": 26,
+          "passageLabel": "B",
+          "stem": "What does paragraph 3 mainly talk about?",
+          "options": [
+            { "letter": "A", "text": "Steps of a chiropractic treatment." },
+            { "letter": "B", "text": "The complexity of veterinarians' work." },
+            { "letter": "C", "text": "Examples of rare animal diseases." },
+            { "letter": "D", "text": "The effectiveness of holistic medicine." }
+          ],
+          "answer": "D",
+          "type": "reading",
+          "score": 2.5,
+          "explanation": {
+            "summary": "段落主旨题｜第三段两个病例。",
+            "question": "问第三段主要讲什么。",
+            "evidence": "Farber's treatments eased her dog's suffering so much…her horse, Nappy, \"moves more easily and rides more comfortably\"",
+            "answer": "D。用狗 Charlie 和马 Nappy 两例说明整体疗法有效。"
+          }
+        },
+        {
+          "id": 27,
+          "passageLabel": "B",
+          "stem": "Why does the author mention the American Holistic Veterinary Medical Association?",
+          "options": [
+            { "letter": "A", "text": "To prove Farber's point." },
+            { "letter": "B", "text": "To emphasize its importance." },
+            { "letter": "C", "text": "To praise veterinarians." },
+            { "letter": "D", "text": "To advocate animal protection." }
+          ],
+          "answer": "A",
+          "type": "reading",
+          "score": 2.5,
+          "explanation": {
+            "summary": "推理判断题｜举例意图。",
+            "question": "问作者为什么提到美国整体兽医医学协会。",
+            "evidence": "if the past is any indication, he may be right: Since 1982, membership…has grown from 30 to over 700",
+            "answer": "A。会员数从 30 增至 700 多，用来证明 Farber“整体疗法会越来越流行”的看法。"
+          }
+        },
+        {
+          "id": 28,
+          "passageLabel": "C",
+          "stem": "What does the underlined phrase \"shine through\" in paragraph 2 mean?",
+          "options": [
+            { "letter": "A", "text": "Seem unlikely to last." },
+            { "letter": "B", "text": "Seem hard to explain." },
+            { "letter": "C", "text": "Become ready to use." },
+            { "letter": "D", "text": "Become easy to notice." }
+          ],
+          "answer": "D",
+          "type": "reading",
+          "score": 2.5,
+          "explanation": {
+            "summary": "词句猜测题｜本文是说明文，比较纸质阅读与数字阅读、音视频的学习效果。",
+            "question": "问第二段画线短语 shine through 的含义。",
+            "evidence": "The benefits of print reading particularly shine through when experimenters move from posing simple tasks…to ones that require mental abstraction",
+            "answer": "D。任务越需要抽象思维，纸质阅读的优势就越“显而易见”。"
+          }
+        },
+        {
+          "id": 29,
+          "passageLabel": "C",
+          "stem": "What does the shallowing hypothesis assume?",
+          "options": [
+            { "letter": "A", "text": "Readers treat digital texts lightly." },
+            { "letter": "B", "text": "Digital texts are simpler to understand." },
+            { "letter": "C", "text": "People select digital texts randomly." },
+            { "letter": "D", "text": "Digital texts are suitable for social media." }
+          ],
+          "answer": "A",
+          "type": "reading",
+          "score": 2.5,
+          "explanation": {
+            "summary": "细节理解题｜“浅化假说”的内容。",
+            "question": "问浅化假说假定了什么。",
+            "evidence": "people approach digital texts with a mindset suited to social media, which are often not so serious, and devote less mental effort",
+            "answer": "A。读者用刷社交媒体的心态对待数字文本，投入的心力更少，即“不当真”。"
+          }
+        },
+        {
+          "id": 30,
+          "passageLabel": "C",
+          "stem": "Why are audio and video increasingly used by university teachers?",
+          "options": [
+            { "letter": "A", "text": "They can hold students' attention." },
+            { "letter": "B", "text": "They are more convenient to prepare." },
+            { "letter": "C", "text": "They help develop advanced skills." },
+            { "letter": "D", "text": "They are more informative than text." }
+          ],
+          "answer": "A",
+          "type": "reading",
+          "score": 2.5,
+          "explanation": {
+            "summary": "细节理解题｜教师改用音视频的原因。",
+            "question": "问大学老师为什么越来越多地使用音频和视频。",
+            "evidence": "Audio and video can feel more engaging than text, and so university teachers increasingly turn to these technologies",
+            "answer": "A。音视频“更吸引人”，即更能抓住学生注意力。"
+          }
+        },
+        {
+          "id": 31,
+          "passageLabel": "C",
+          "stem": "What does the author imply in the last paragraph?",
+          "options": [
+            { "letter": "A", "text": "Students should apply multiple learning techniques." },
+            { "letter": "B", "text": "Teachers should produce their own teaching material." },
+            { "letter": "C", "text": "Print texts cannot be entirely replaced in education." },
+            { "letter": "D", "text": "Education outside the classroom cannot be ignored." }
+          ],
+          "answer": "C",
+          "type": "reading",
+          "score": 2.5,
+          "explanation": {
+            "summary": "推理判断题｜末段结论。",
+            "question": "问作者在最后一段暗示了什么。",
+            "evidence": "for maximizing learning where mental focus and reflection are called for, educators shouldn't assume all media are the same",
+            "answer": "C。需要专注与反思时不能把各种媒介等同看待，暗示纸质文本在教育中无法被完全取代。"
+          }
+        },
+        {
+          "id": 32,
+          "passageLabel": "D",
+          "stem": "What do we know about the records of species collected now?",
+          "options": [
+            { "letter": "A", "text": "They are becoming outdated." },
+            { "letter": "B", "text": "They are mostly in electronic form." },
+            { "letter": "C", "text": "They are limited in number." },
+            { "letter": "D", "text": "They are used for public exhibition." }
+          ],
+          "answer": "B",
+          "type": "reading",
+          "score": 2.5,
+          "explanation": {
+            "summary": "细节理解题｜本文是说明文，讲观察类生物多样性数据存在偏差。",
+            "question": "问关于当前收集的物种记录我们可以知道什么。",
+            "evidence": "most records of biodiversity are often in the form of photos, videos, and other digital records",
+            "answer": "B。以照片、视频等数字形式为主，即多为电子形式。"
+          }
+        },
+        {
+          "id": 33,
+          "passageLabel": "D",
+          "stem": "What does Daru's study focus on?",
+          "options": [
+            { "letter": "A", "text": "Threatened species." },
+            { "letter": "B", "text": "Physical specimens." },
+            { "letter": "C", "text": "Observational data." },
+            { "letter": "D", "text": "Mobile applications." }
+          ],
+          "answer": "C",
+          "type": "reading",
+          "score": 2.5,
+          "explanation": {
+            "summary": "细节理解题｜研究对象。",
+            "question": "问 Daru 的研究聚焦什么。",
+            "evidence": "we are increasingly using observational data to investigate how species are responding to global change, I wanted to know: Are they usable?",
+            "answer": "C。研究的是观察类数据是否可用。"
+          }
+        },
+        {
+          "id": 34,
+          "passageLabel": "D",
+          "stem": "What has led to the biases according to the study?",
+          "options": [
+            { "letter": "A", "text": "Mistakes in data analysis." },
+            { "letter": "B", "text": "Poor quality of uploaded pictures." },
+            { "letter": "C", "text": "Improper way of sampling." },
+            { "letter": "D", "text": "Unreliable data collection devices." }
+          ],
+          "answer": "C",
+          "type": "reading",
+          "score": 2.5,
+          "explanation": {
+            "summary": "细节理解题｜偏差的来源。",
+            "question": "问研究认为偏差由什么造成。",
+            "evidence": "the aspects of sampling that tend to bias data, like the greater likelihood of a citizen scientist to take a picture of a flowering plant instead of the grass right next to it",
+            "answer": "C。取样方式本身有问题——只拍好看的、只记录身边的。"
+          }
+        },
+        {
+          "id": 35,
+          "passageLabel": "D",
+          "stem": "What is Daru's suggestion for biodiversity apps?",
+          "options": [
+            { "letter": "A", "text": "Review data from certain areas." },
+            { "letter": "B", "text": "Hire experts to check the records." },
+            { "letter": "C", "text": "Confirm the identity of the users." },
+            { "letter": "D", "text": "Give guidance to citizen scientists." }
+          ],
+          "answer": "D",
+          "type": "reading",
+          "score": 2.5,
+          "explanation": {
+            "summary": "细节理解题｜末段建议。",
+            "question": "问 Daru 对生物多样性 App 的建议是什么。",
+            "evidence": "Biodiversity apps can use our study results to inform users of oversampled areas and lead them to places — and even species — that are not well-sampled.",
+            "answer": "D。提示用户哪些区域已过度取样、引导他们去欠取样的地方，即为公民科学家提供指导。App 只是“鼓励用户请专家确认”，并非自己雇专家，故 B 错。"
+          }
+        }
+      ]
+    },
+    {
+      "key": "seven",
+      "partTitle": "第二部分 阅读（共两节，满分50分）",
+      "secTitle": "第二节（共5小题；每小题2.5分，满分12.5分）阅读下面短文，从短文后的选项中选出可以填入空白处的最佳选项。选项中有两项为多余选项。",
+      "passages": [
+        {
+          "label": "E",
+          "text": "Not all great writers are great spellers. If you want to be published, it's vital to submit a perfect, professionally presented manuscript (原稿). ____36____ No editor is likely to tolerate a writer who does not take the trouble to spell words correctly.\n\nI keep two reference books close-by on my desk: dictionary and thesaurus (同义词词典). I don't trust my laptop's spellchecker. ____37____ Of course, these days there are plenty of online dictionaries and thesauruses, but I'm old-fashioned enough to prefer a hard cover and pages I can leaf through with my fingers. I use the Concise Oxford Dictionary and the Collins Thesaurus.\n\n____38____ It should give you a precise definition of each word, thus differentiating it from other words whose meanings are similar, but not identical. It will also usually show how the word is pronounced.\n\nIn addition, I have an old two-volume copy of the Shorter Oxford Dictionary, picked up a few years ago in a bookshop sale for just 99 pence. Of course, with its 2,672 pages, it's not exactly short. It contains around 163,000 words, plus word combinations and idiomatic phrases. ____39____ However, if I need to check the origin of a word or to look up examples of its usage, there's nothing better.\n\nFor well over a hundred years the most influential English dictionary was Samuel Johnson's Dictionary of the English Language published in 1755. \"To make dictionaries is dull (乏味) work,\" wrote Johnson, illustrating one definition of \"dull\". ____40____ A few minutes spent casting your eye over a page or two can be a rewarding experience."
+        }
+      ],
+      "pool": [
+        { "letter": "A", "text": "I don't often use this dictionary." },
+        { "letter": "B", "text": "It takes no account of the context." },
+        { "letter": "C", "text": "But I still don't want to replace them." },
+        { "letter": "D", "text": "But a dictionary can be a pleasure to read." },
+        { "letter": "E", "text": "Of course, a dictionary is not only for spelling." },
+        { "letter": "F", "text": "That means good grammar and no spelling mistakes." },
+        { "letter": "G", "text": "Dictionaries don't always give you enough information." }
+      ],
+      "questions": [
+        {
+          "id": 36,
+          "passageLabel": "E",
+          "stem": "第36空",
+          "options": [
+            { "letter": "A", "text": "I don't often use this dictionary." },
+            { "letter": "B", "text": "It takes no account of the context." },
+            { "letter": "C", "text": "But I still don't want to replace them." },
+            { "letter": "D", "text": "But a dictionary can be a pleasure to read." },
+            { "letter": "E", "text": "Of course, a dictionary is not only for spelling." },
+            { "letter": "F", "text": "That means good grammar and no spelling mistakes." },
+            { "letter": "G", "text": "Dictionaries don't always give you enough information." }
+          ],
+          "answer": "F",
+          "type": "seven",
+          "score": 2.5,
+          "explanation": {
+            "summary": "七选五｜本文讲写作投稿要拼写无误，并介绍作者常备的词典与同义词词典。",
+            "question": "空前说要交出“完美、专业呈现的原稿”，空后说编辑不会容忍不肯把词拼对的作者。",
+            "evidence": "it's vital to submit a perfect, professionally presented manuscript…No editor is likely to tolerate a writer who does not take the trouble to spell words correctly.",
+            "answer": "F。That means… 承接“完美原稿”，具体解释为语法正确、无拼写错误，正好衔接后句的拼写话题。"
+          }
+        },
+        {
+          "id": 37,
+          "passageLabel": "E",
+          "stem": "第37空",
+          "options": [
+            { "letter": "A", "text": "I don't often use this dictionary." },
+            { "letter": "B", "text": "It takes no account of the context." },
+            { "letter": "C", "text": "But I still don't want to replace them." },
+            { "letter": "D", "text": "But a dictionary can be a pleasure to read." },
+            { "letter": "E", "text": "Of course, a dictionary is not only for spelling." },
+            { "letter": "F", "text": "That means good grammar and no spelling mistakes." },
+            { "letter": "G", "text": "Dictionaries don't always give you enough information." }
+          ],
+          "answer": "B",
+          "type": "seven",
+          "score": 2.5,
+          "explanation": {
+            "summary": "七选五｜说明作者不信任电脑拼写检查的原因。",
+            "question": "空前说“我不信任笔记本电脑的拼写检查器”，空后转而说自己偏爱纸质词典。",
+            "evidence": "I don't trust my laptop's spellchecker. ____37____",
+            "answer": "B。It 指代 spellchecker，“它不考虑语境”正是不信任它的理由。"
+          }
+        },
+        {
+          "id": 38,
+          "passageLabel": "E",
+          "stem": "第38空",
+          "options": [
+            { "letter": "A", "text": "I don't often use this dictionary." },
+            { "letter": "B", "text": "It takes no account of the context." },
+            { "letter": "C", "text": "But I still don't want to replace them." },
+            { "letter": "D", "text": "But a dictionary can be a pleasure to read." },
+            { "letter": "E", "text": "Of course, a dictionary is not only for spelling." },
+            { "letter": "F", "text": "That means good grammar and no spelling mistakes." },
+            { "letter": "G", "text": "Dictionaries don't always give you enough information." }
+          ],
+          "answer": "E",
+          "type": "seven",
+          "score": 2.5,
+          "explanation": {
+            "summary": "七选五｜段首总起句。",
+            "question": "本空为段首，后文说词典还应给出精确释义、区分近义词、标注读音。",
+            "evidence": "It should give you a precise definition of each word…It will also usually show how the word is pronounced.",
+            "answer": "E。“词典不只是用来拼写的”正好总起下文列举的其他功能。"
+          }
+        },
+        {
+          "id": 39,
+          "passageLabel": "E",
+          "stem": "第39空",
+          "options": [
+            { "letter": "A", "text": "I don't often use this dictionary." },
+            { "letter": "B", "text": "It takes no account of the context." },
+            { "letter": "C", "text": "But I still don't want to replace them." },
+            { "letter": "D", "text": "But a dictionary can be a pleasure to read." },
+            { "letter": "E", "text": "Of course, a dictionary is not only for spelling." },
+            { "letter": "F", "text": "That means good grammar and no spelling mistakes." },
+            { "letter": "G", "text": "Dictionaries don't always give you enough information." }
+          ],
+          "answer": "A",
+          "type": "seven",
+          "score": 2.5,
+          "explanation": {
+            "summary": "七选五｜与后句 However 构成转折。",
+            "question": "空后 However 说“但要查词源或用法示例时没有比它更好的”。",
+            "evidence": "____39____ However, if I need to check the origin of a word or to look up examples of its usage, there's nothing better.",
+            "answer": "A。先说“这本词典我不常用”，才与 However 后的“但查词源时它最好”形成转折。"
+          }
+        },
+        {
+          "id": 40,
+          "passageLabel": "E",
+          "stem": "第40空",
+          "options": [
+            { "letter": "A", "text": "I don't often use this dictionary." },
+            { "letter": "B", "text": "It takes no account of the context." },
+            { "letter": "C", "text": "But I still don't want to replace them." },
+            { "letter": "D", "text": "But a dictionary can be a pleasure to read." },
+            { "letter": "E", "text": "Of course, a dictionary is not only for spelling." },
+            { "letter": "F", "text": "That means good grammar and no spelling mistakes." },
+            { "letter": "G", "text": "Dictionaries don't always give you enough information." }
+          ],
+          "answer": "D",
+          "type": "seven",
+          "score": 2.5,
+          "explanation": {
+            "summary": "七选五｜末段转折。",
+            "question": "空前引用 Johnson 说编词典是“枯燥的工作”，空后说花几分钟浏览一两页会很有收获。",
+            "evidence": "\"To make dictionaries is dull work,\"…A few minutes spent casting your eye over a page or two can be a rewarding experience.",
+            "answer": "D。But a dictionary can be a pleasure to read 由“编写枯燥”转向“读起来是乐事”，与后句呼应。"
+          }
+        }
+      ]
+    },
+    {
+      "key": "cloze",
+      "partTitle": "第三部分 语言运用（共两节，满分30分）",
+      "secTitle": "第一节（共15小题；每小题1分，满分15分）阅读下面短文，从每题所给的A、B、C、D四个选项中选出最佳选项。",
+      "pool": [],
+      "passages": [
+        {
+          "label": "F",
+          "text": "I've been motivated — and demotivated — by other folks' achievements all my life.\n\nWhen I was a teenager, a neighborhood friend ____41____ a marathon race. Feeling motivated, I started running ____42____, but then two things happened. First, a girl I met one day told me she was ____43____ for a \"super,\" referring to a 52.4-mile double marathon. Then, the next day I went on my longest run — 15 miles. To be honest, I ____44____ it! Between the girl making my ____45____ seem small and the pure boredom of jogging, I decided that the only ____46____ I'd ever run again is if a big dog was running after me!\n\nSo I ____47____ cycling. I got a good bike and rode a lot. I ____48____ of entering cycle races until I flew to San Diego to visit my sister. While she was at work one day, I ____49____ her bike and went for a ride. The ____50____: The roads there went through large valleys where I'd be riding uphill for miles at a time. I'd never faced such ____51____. That day, I got ____52____ by about 100 \"local\" bikers who were used to such roads. When I got back home, suddenly riding my bike didn't seem quite as ____53____.\n\nI've ____54____ a lot since then. I've come to accept that whatever ____55____ I set for myself, they just have to be my own."
+        }
+      ],
+      "questions": [
+        {
+          "id": 41,
+          "passageLabel": "F",
+          "stem": "第41空",
+          "options": [
+            { "letter": "A", "text": "knew" },
+            { "letter": "B", "text": "held" },
+            { "letter": "C", "text": "won" },
+            { "letter": "D", "text": "quit" }
+          ],
+          "answer": "C",
+          "type": "cloze",
+          "score": 1,
+          "explanation": {
+            "summary": "考查动词词义辨析｜本文是记叙文，作者讲自己如何被他人成就激励又打消积极性，最终明白目标要属于自己。",
+            "question": "句意：我十几岁时，一位邻居朋友赢了一场马拉松比赛。",
+            "evidence": "a neighborhood friend ____41____ a marathon race. Feeling motivated, I started running",
+            "answer": "C。正因朋友“获胜”，作者才受到激励开始跑步。knew 知道；held 举办；quit 放弃。"
+          }
+        },
+        {
+          "id": 42,
+          "passageLabel": "F",
+          "stem": "第42空",
+          "options": [
+            { "letter": "A", "text": "regularly" },
+            { "letter": "B", "text": "silently" },
+            { "letter": "C", "text": "proudly" },
+            { "letter": "D", "text": "recently" }
+          ],
+          "answer": "A",
+          "type": "cloze",
+          "score": 1,
+          "explanation": {
+            "summary": "考查副词词义辨析。",
+            "question": "句意：受到激励后，我开始有规律地跑步。",
+            "evidence": "I started running ____42____, but then two things happened.",
+            "answer": "A。与后文“最长跑了 15 英里”一致，说明坚持规律训练。silently 沉默地；proudly 自豪地；recently 最近。"
+          }
+        },
+        {
+          "id": 43,
+          "passageLabel": "F",
+          "stem": "第43空",
+          "options": [
+            { "letter": "A", "text": "asking" },
+            { "letter": "B", "text": "looking" },
+            { "letter": "C", "text": "waiting" },
+            { "letter": "D", "text": "training" }
+          ],
+          "answer": "D",
+          "type": "cloze",
+          "score": 1,
+          "explanation": {
+            "summary": "考查动词词义辨析。",
+            "question": "句意：一个女孩告诉我她正在为一场 52.4 英里的“超级”双程马拉松做训练。",
+            "evidence": "she was ____43____ for a \"super,\" referring to a 52.4-mile double marathon",
+            "answer": "D。train for 为……训练，符合备赛语境。"
+          }
+        },
+        {
+          "id": 44,
+          "passageLabel": "F",
+          "stem": "第44空",
+          "options": [
+            { "letter": "A", "text": "made" },
+            { "letter": "B", "text": "believed" },
+            { "letter": "C", "text": "hated" },
+            { "letter": "D", "text": "deserved" }
+          ],
+          "answer": "C",
+          "type": "cloze",
+          "score": 1,
+          "explanation": {
+            "summary": "考查动词词义辨析。",
+            "question": "句意：老实说，我讨厌这次（15 英里的）长跑！",
+            "evidence": "To be honest, I ____44____ it! Between the girl making my ____45____ seem small and the pure boredom of jogging",
+            "answer": "C。下文提到慢跑“纯粹的无聊”并决定不再跑，可知是“讨厌”。"
+          }
+        },
+        {
+          "id": 45,
+          "passageLabel": "F",
+          "stem": "第45空",
+          "options": [
+            { "letter": "A", "text": "advantage" },
+            { "letter": "B", "text": "achievement" },
+            { "letter": "C", "text": "contribution" },
+            { "letter": "D", "text": "influence" }
+          ],
+          "answer": "B",
+          "type": "cloze",
+          "score": 1,
+          "explanation": {
+            "summary": "考查名词词义辨析。",
+            "question": "句意：那个女孩让我的成绩显得微不足道。",
+            "evidence": "the girl making my ____45____ seem small",
+            "answer": "B。与首句 motivated—demotivated by other folks' achievements 呼应，指自己 15 英里的“成就”。"
+          }
+        },
+        {
+          "id": 46,
+          "passageLabel": "F",
+          "stem": "第46空",
+          "options": [
+            { "letter": "A", "text": "way" },
+            { "letter": "B", "text": "risk" },
+            { "letter": "C", "text": "place" },
+            { "letter": "D", "text": "reason" }
+          ],
+          "answer": "D",
+          "type": "cloze",
+          "score": 1,
+          "explanation": {
+            "summary": "考查名词词义辨析。",
+            "question": "句意：我决定，我再跑步的唯一理由就是有条大狗在后面追我。",
+            "evidence": "the only ____46____ I'd ever run again is if a big dog was running after me!",
+            "answer": "D。后接 if 从句说明“情形／原因”，reason 最贴切。"
+          }
+        },
+        {
+          "id": 47,
+          "passageLabel": "F",
+          "stem": "第47空",
+          "options": [
+            { "letter": "A", "text": "gave up" },
+            { "letter": "B", "text": "went on" },
+            { "letter": "C", "text": "turned to" },
+            { "letter": "D", "text": "dealt with" }
+          ],
+          "answer": "C",
+          "type": "cloze",
+          "score": 1,
+          "explanation": {
+            "summary": "考查动词短语辨析。",
+            "question": "句意：于是我转向了骑行。",
+            "evidence": "So I ____47____ cycling. I got a good bike and rode a lot.",
+            "answer": "C。turn to 转而从事，与放弃跑步后买车骑行的情节相符。"
+          }
+        },
+        {
+          "id": 48,
+          "passageLabel": "F",
+          "stem": "第48空",
+          "options": [
+            { "letter": "A", "text": "heard" },
+            { "letter": "B", "text": "dreamed" },
+            { "letter": "C", "text": "complained" },
+            { "letter": "D", "text": "approved" }
+          ],
+          "answer": "B",
+          "type": "cloze",
+          "score": 1,
+          "explanation": {
+            "summary": "考查动词词义辨析。",
+            "question": "句意：我一直梦想参加自行车比赛，直到飞到圣迭戈看姐姐。",
+            "evidence": "I ____48____ of entering cycle races until I flew to San Diego",
+            "answer": "B。dream of 梦想做某事；下文山路受挫使这一梦想破灭。"
+          }
+        },
+        {
+          "id": 49,
+          "passageLabel": "F",
+          "stem": "第49空",
+          "options": [
+            { "letter": "A", "text": "painted" },
+            { "letter": "B", "text": "borrowed" },
+            { "letter": "C", "text": "bought" },
+            { "letter": "D", "text": "parked" }
+          ],
+          "answer": "B",
+          "type": "cloze",
+          "score": 1,
+          "explanation": {
+            "summary": "考查动词词义辨析。",
+            "question": "句意：姐姐上班的一天，我借了她的自行车出去骑。",
+            "evidence": "While she was at work one day, I ____49____ her bike and went for a ride.",
+            "answer": "B。骑姐姐的车即“借用”。"
+          }
+        },
+        {
+          "id": 50,
+          "passageLabel": "F",
+          "stem": "第50空",
+          "options": [
+            { "letter": "A", "text": "problem" },
+            { "letter": "B", "text": "secret" },
+            { "letter": "C", "text": "principle" },
+            { "letter": "D", "text": "advice" }
+          ],
+          "answer": "A",
+          "type": "cloze",
+          "score": 1,
+          "explanation": {
+            "summary": "考查名词词义辨析。",
+            "question": "句意：问题是：那里的路穿过大峡谷，要连续爬坡好几英里。",
+            "evidence": "The ____50____: The roads there went through large valleys where I'd be riding uphill for miles at a time.",
+            "answer": "A。冒号后描述的是让作者受挫的困难，故为 problem。"
+          }
+        },
+        {
+          "id": 51,
+          "passageLabel": "F",
+          "stem": "第51空",
+          "options": [
+            { "letter": "A", "text": "dangers" },
+            { "letter": "B", "text": "events" },
+            { "letter": "C", "text": "opponents" },
+            { "letter": "D", "text": "challenges" }
+          ],
+          "answer": "D",
+          "type": "cloze",
+          "score": 1,
+          "explanation": {
+            "summary": "考查名词词义辨析。",
+            "question": "句意：我从未面对过这样的挑战。",
+            "evidence": "I'd never faced such ____51____.",
+            "answer": "D。指长距离连续爬坡这种难度，是“挑战”而非危险或对手。"
+          }
+        },
+        {
+          "id": 52,
+          "passageLabel": "F",
+          "stem": "第52空",
+          "options": [
+            { "letter": "A", "text": "passed" },
+            { "letter": "B", "text": "convinced" },
+            { "letter": "C", "text": "admired" },
+            { "letter": "D", "text": "stopped" }
+          ],
+          "answer": "A",
+          "type": "cloze",
+          "score": 1,
+          "explanation": {
+            "summary": "考查动词词义辨析。",
+            "question": "句意：那天我被约 100 名习惯这种路的“本地”车手超过。",
+            "evidence": "I got ____52____ by about 100 \"local\" bikers who were used to such roads",
+            "answer": "A。get passed 被超越，正是打击作者信心的事。"
+          }
+        },
+        {
+          "id": 53,
+          "passageLabel": "F",
+          "stem": "第53空",
+          "options": [
+            { "letter": "A", "text": "reliable" },
+            { "letter": "B", "text": "convenient" },
+            { "letter": "C", "text": "familiar" },
+            { "letter": "D", "text": "appealing" }
+          ],
+          "answer": "D",
+          "type": "cloze",
+          "score": 1,
+          "explanation": {
+            "summary": "考查形容词词义辨析。",
+            "question": "句意：回到家后，骑车忽然不再那么有吸引力了。",
+            "evidence": "suddenly riding my bike didn't seem quite as ____53____",
+            "answer": "D。与前文“被激励—被打消积极性”的主线一致，兴趣被削弱。"
+          }
+        },
+        {
+          "id": 54,
+          "passageLabel": "F",
+          "stem": "第54空",
+          "options": [
+            { "letter": "A", "text": "traveled" },
+            { "letter": "B", "text": "matured" },
+            { "letter": "C", "text": "missed" },
+            { "letter": "D", "text": "worried" }
+          ],
+          "answer": "B",
+          "type": "cloze",
+          "score": 1,
+          "explanation": {
+            "summary": "考查动词词义辨析。",
+            "question": "句意：从那以后我成熟了许多。",
+            "evidence": "I've ____54____ a lot since then. I've come to accept that…",
+            "answer": "B。后句“我逐渐接受……”体现心态成长，故为 matured。"
+          }
+        },
+        {
+          "id": 55,
+          "passageLabel": "F",
+          "stem": "第55空",
+          "options": [
+            { "letter": "A", "text": "limits" },
+            { "letter": "B", "text": "dates" },
+            { "letter": "C", "text": "goals" },
+            { "letter": "D", "text": "tests" }
+          ],
+          "answer": "C",
+          "type": "cloze",
+          "score": 1,
+          "explanation": {
+            "summary": "考查名词词义辨析｜篇章主旨句。",
+            "question": "句意：无论我为自己设定什么目标，它们都必须是我自己的。",
+            "evidence": "whatever ____55____ I set for myself, they just have to be my own",
+            "answer": "C。set goals for oneself 为自己设定目标，点明“目标要自己定，不与人攀比”的主题。"
+          }
+        }
+      ]
+    },
+    {
+      "key": "grammar",
+      "partTitle": "第三部分 语言运用（共两节，满分30分）",
+      "secTitle": "第二节（共10小题；每小题1.5分，满分15分）阅读下面短文，在空白处填入1个适当的单词或括号内单词的正确形式。",
+      "pool": [],
+      "passages": [
+        {
+          "label": "G",
+          "text": "Heatherwick Studio recently built a greenhouse at the edge of the National Trust's Woolbeding Gardens. This beautiful structure, named Glasshouse, is at the centre of a new garden that shows how the Silk Road influences English gardens even in modern times.\n\nThe latest ____56____ (engineer) techniques are applied to create this protective ____57____ (function) structure that is also beautiful. The design features ten steel \"sepals (萼片)\" made of glass and aluminium (铝). These sepals open on warm days ____58____ (give) the inside plants sunshine and fresh air. In cold weather, the structure stays ____59____ (close) to protect the plants.\n\nFurther, the Silk Route Garden around the greenhouse ____60____ (walk) visitors through a journey influenced by the ancient Silk Road, by which silk as well as many plant species came to Britain for ____61____ first time. These plants included modern Western ____62____ (favourite) such as rosemary, lavender and fennel. The garden also contains a winding path that guides visitors through the twelve regions of the Silk Road. The path offers over 300 plant species for visitors to see, too.\n\nThe Glasshouse stands ____63____ a great achievement in contemporary design, to house the plants of the southwestern part of China at the end of a path retracing (追溯) the steps along the Silk Route ____64____ brought the plants from their native habitat in Asia to come to define much of the ____65____ (rich) of gardening in England."
+        }
+      ],
+      "questions": [
+        {
+          "id": 56,
+          "passageLabel": "G",
+          "stem": "第56空（engineer）",
+          "options": [],
+          "answer": "engineering",
+          "type": "grammar",
+          "score": 1.5,
+          "explanation": {
+            "summary": "考查名词｜本文是说明文，介绍 Woolbeding 花园中受丝绸之路影响的温室 Glasshouse。",
+            "question": "句意：最新的工程技术被用来打造这座既有保护作用又很美观的结构。",
+            "evidence": "The latest ____56____ (engineer) techniques are applied",
+            "answer": "engineering。修饰 techniques 需用名词作定语，engineering techniques 工程技术。"
+          }
+        },
+        {
+          "id": 57,
+          "passageLabel": "G",
+          "stem": "第57空（function）",
+          "options": [],
+          "answer": "functional",
+          "type": "grammar",
+          "score": 1.5,
+          "explanation": {
+            "summary": "考查形容词。",
+            "question": "句意：打造这座实用的保护性结构。",
+            "evidence": "this protective ____57____ (function) structure that is also beautiful",
+            "answer": "functional。与 protective 并列修饰名词 structure，需用形容词。"
+          }
+        },
+        {
+          "id": 58,
+          "passageLabel": "G",
+          "stem": "第58空（give）",
+          "options": [],
+          "answer": "to give",
+          "type": "grammar",
+          "score": 1.5,
+          "explanation": {
+            "summary": "考查非谓语动词。",
+            "question": "句意：这些萼片在温暖的日子里打开，以便给里面的植物阳光和新鲜空气。",
+            "evidence": "These sepals open on warm days ____58____ (give) the inside plants sunshine and fresh air.",
+            "answer": "to give。句中已有谓语 open，此处表目的，用动词不定式作目的状语。"
+          }
+        },
+        {
+          "id": 59,
+          "passageLabel": "G",
+          "stem": "第59空（close）",
+          "options": [],
+          "answer": "closed",
+          "type": "grammar",
+          "score": 1.5,
+          "explanation": {
+            "summary": "考查形容词化的过去分词。",
+            "question": "句意：天冷时，这个结构保持关闭以保护植物。",
+            "evidence": "In cold weather, the structure stays ____59____ (close) to protect the plants.",
+            "answer": "closed。stay 为系动词，后接形容词作表语；closed 表示“关闭的”状态。"
+          }
+        },
+        {
+          "id": 60,
+          "passageLabel": "G",
+          "stem": "第60空（walk）",
+          "options": [],
+          "answer": "walks",
+          "type": "grammar",
+          "score": 1.5,
+          "explanation": {
+            "summary": "考查动词的时态与主谓一致。",
+            "question": "句意：温室周围的丝绸之路花园带领游客走过一段受古丝绸之路影响的旅程。",
+            "evidence": "the Silk Route Garden around the greenhouse ____60____ (walk) visitors through a journey",
+            "answer": "walks。本句缺谓语，陈述客观事实用一般现在时；主语 the Silk Route Garden 为第三人称单数。"
+          }
+        },
+        {
+          "id": 61,
+          "passageLabel": "G",
+          "stem": "第61空",
+          "options": [],
+          "answer": "the",
+          "type": "grammar",
+          "score": 1.5,
+          "explanation": {
+            "summary": "考查冠词。",
+            "question": "句意：丝绸以及许多植物物种正是由此首次来到英国。",
+            "evidence": "came to Britain for ____61____ first time",
+            "answer": "the。for the first time 第一次，固定搭配。"
+          }
+        },
+        {
+          "id": 62,
+          "passageLabel": "G",
+          "stem": "第62空（favourite）",
+          "options": [],
+          "answer": "favourites",
+          "type": "grammar",
+          "score": 1.5,
+          "explanation": {
+            "summary": "考查名词复数。",
+            "question": "句意：这些植物包括迷迭香、薰衣草和茴香等现代西方人的宠儿。",
+            "evidence": "These plants included modern Western ____62____ (favourite) such as rosemary, lavender and fennel.",
+            "answer": "favourites（美式拼写 favorites 亦可）。favourite 此处作可数名词“最受喜爱的东西”，后列举三种植物，故用复数。"
+          }
+        },
+        {
+          "id": 63,
+          "passageLabel": "G",
+          "stem": "第63空",
+          "options": [],
+          "answer": "as",
+          "type": "grammar",
+          "score": 1.5,
+          "explanation": {
+            "summary": "考查介词。",
+            "question": "句意：这座玻璃温室堪称当代设计的一大成就。",
+            "evidence": "The Glasshouse stands ____63____ a great achievement in contemporary design",
+            "answer": "as。stand as 堪称／作为……而存在，此处需介词 as 引出表语性成分。"
+          }
+        },
+        {
+          "id": 64,
+          "passageLabel": "G",
+          "stem": "第64空",
+          "options": [],
+          "answer": "which",
+          "type": "grammar",
+          "score": 1.5,
+          "explanation": {
+            "summary": "考查定语从句关系词。",
+            "question": "句意：这条路追溯的是把植物从亚洲原生地带到英国的丝绸之路。",
+            "evidence": "a path retracing the steps along the Silk Route ____64____ brought the plants from their native habitat in Asia",
+            "answer": "which（that 亦可）。先行词 the Silk Route 指物，在从句中作主语，故用关系代词 which/that。"
+          }
+        },
+        {
+          "id": 65,
+          "passageLabel": "G",
+          "stem": "第65空（rich）",
+          "options": [],
+          "answer": "richness",
+          "type": "grammar",
+          "score": 1.5,
+          "explanation": {
+            "summary": "考查名词。",
+            "question": "句意：这些植物最终塑造了英国园艺的大部分丰富性。",
+            "evidence": "to come to define much of the ____65____ (rich) of gardening in England",
+            "answer": "richness。much of the… 后接不可数名词，rich 的名词形式为 richness。"
+          }
+        }
+      ]
+    },
+    {
+      "key": "writing_app",
+      "partTitle": "第四部分 写作（共两节，满分40分）",
+      "secTitle": "第一节（满分15分）",
+      "passages": [],
+      "pool": [],
+      "questions": [
+        {
+          "id": 66,
+          "stem": "假定你是李华，上周五你们班在公园上了一堂美术课。请你给英国朋友Chris写一封邮件分享这次经历，内容包括：\n1. 你完成的作品；\n2. 你的感想。\n注意：\n1. 写作词数应为80个左右；\n2. 请按如下格式在答题纸的相应位置作答。\n\nDear Chris,\nI'm writing to share with you an art class I had in a park last Friday.\n\nYours,\nLi Hua",
+          "options": [],
+          "type": "writing",
+          "score": 15,
+          "modelAnswer": "Dear Chris,\n\nI'm writing to share with you an art class I had in a park last Friday.\n\nWe were tasked to draw or paint something that impressed us most. Inspired by the fantastic scenery, I decided to create a watercolor painting of the small bridge over the park's pond, surrounded by blooming flowers.\n\nThe entire experience was incredibly refreshing. Being surrounded by nature not only sparked my creativity but also offered a much-needed break from the usual hustle and bustle of school life. I felt a deep sense of peace as I painted.\n\nIn a word, it was not just an art class; it was a moment of connection with nature that I truly cherished.\n\nYours,\nLi Hua",
+          "explanation": {
+            "summary": "应用文写作｜给英国朋友写邮件，分享在公园上美术课的经历。",
+            "question": "要点：① 描述完成的作品（画了什么、怎么受启发）；② 表达感想（心情、收获）。",
+            "evidence": "词汇积累：给……启发 inspire → spark；令人耳目一新的 refreshing → invigorating；珍视 cherish → treasure；喧嚣 hustle and bustle。",
+            "answer": "高分句型：过去分词短语作状语 Inspired by the fantastic scenery, I decided to…；not only…but also… 并列结构；定语从句 a moment of connection with nature that I truly cherished。"
+          }
+        }
+      ]
+    },
+    {
+      "key": "writing_cont",
+      "partTitle": "第四部分 写作（共两节，满分40分）",
+      "secTitle": "第二节（满分25分）",
+      "passages": [],
+      "pool": [],
+      "questions": [
+        {
+          "id": 67,
+          "stem": "阅读下面材料，根据其内容和所给段落开头语续写两段，使之构成一篇完整的短文。\n\nI met Gunter on a cold, wet and unforgettable evening in September. I had planned to fly to Vienna and take a bus to Prague for a conference. Due to a big storm, my flight had been delayed by an hour and a half. I touched down in Vienna just 30 minutes before the departure of the last bus to Prague. The moment I got off the plane, I ran like crazy through the airport building and jumped into the first taxi on the rank without a second thought.\n\nThat was when I met Gunter. I told him where I was going, but he said he hadn't heard of the bus station. I thought my pronunciation was the problem, so I explained again more slowly, but he still looked confused. When I was about to give up, Gunter fished out his little phone and rang up a friend. After a heated discussion that lasted for what seemed like a century, Gunter put his phone down and started the car.\n\nFinally, with just two minutes to spare we rolled into the bus station. Thankfully, there was a long queue (队列) still waiting to board the bus. Gunter parked the taxi behind the bus, turned around, and looked at me with a big smile on his face. \"We made it,\" he said.\n\nJust then I realised that I had zero cash in my wallet. I flashed him an apologetic smile as I pulled out my Portuguese bankcard. He tried it several times, but the card machine just did not play along. A feeling of helplessness washed over me as I saw the bus queue thinning out.\n\nAt this moment, Gunter pointed towards the waiting hall of the bus station. There, at the entrance, was a cash machine. I jumped out of the car, made a mad run for the machine, and popped my card in, only to read the message: \"Out of order. Sorry.\"\n\n注意：\n1. 续写词数应为150个左右；\n2. 请按如下格式在答题纸的相应位置作答。\n\nParagraph 1: I ran back to Gunter and told him the bad news.\nParagraph 2: Four days later, when I was back in Vienna, I called Gunter as promised.",
+          "options": [],
+          "type": "writing",
+          "score": 25,
+          "modelAnswer": "Paragraph 1:\nI ran back to Gunter and told him the bad news. He looked at me in disbelief, asking me what to do. Flashing him another apologetic smile, I begged him for a delayed payment. \"If I miss this last bus to Prague, I'll be late for the conference which is so important that I can't afford to miss it!\" I explained. \"May I have your phone number? I will call you and return the money I owe you. I promise I will keep my word or you keep my watch!\" I added, handing him my watch as well as my business card. Gunter accepted my business card but rejected my watch. He wrote down his phone number and gave it to me. \"Just keep your promise, Sir.\" A feeling of gratitude washed over me as I heard his words. Giving him a firm handshake, I jumped out of the car, made a mad run for the bus, and jumped onto it just before its departure.\n\nParagraph 2:\nFour days later, when I was back in Vienna, I called Gunter as promised. He picked me up at the bus station where he had dropped me off four days before. Beaming a warm smile at him, I gave him a big hug the moment I saw him. We chatted happily on the way to the airport. I told him that thanks to his generosity and timely help, everything had gone smoothly. When he stopped his taxi outside the airport, I paid him for the \"double car ride\", back and forth from the airport to the bus station, together with a generous tip that he turned down. I also gave him an attractive souvenir I had bought at Prague, which he accepted with delight. We became good friends and kept in touch with each other regularly. I felt blessed to have such a warm-hearted friend like Gunter.",
+          "explanation": {
+            "summary": "读后续写｜取款机故障后如何解决车费，以及四天后回到维也纳兑现承诺。",
+            "question": "情节走向：第一段——如实告知取款机坏了，请求延期付款并留下联系方式／抵押手表，Gunter 选择信任；第二段——四天后打电话给他，付清车费加小费并赠送礼物，两人成为朋友。",
+            "evidence": "词汇积累：难以置信 in disbelief；守信 keep my word；感激之情涌上心头 a feeling of gratitude washed over me（与原文 helplessness washed over me 呼应）；心怀感恩 feel blessed。",
+            "answer": "高分句型：现在分词短语作状语 Flashing him another apologetic smile / Beaming a warm smile at him；so…that… 结果状语从句；非限制性定语从句 a souvenir…, which he accepted with delight；三个并列谓语递进 jumped out of the car, made a mad run for the bus, and jumped onto it。"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "source_file": "2022年全国甲卷英语高考真题（原卷版）",
+  "total_sections": 10,
+  "total_questions": 57,
+  "issues": [
+    {
+      "type": "question_id_gap",
+      "section": "reading",
+      "msg": "题号不连续: [1, 2, 3, 4, 5, 6, 7, 8, 9, 11]..."
+    },
+    {
+      "type": "empty_stem",
+      "msg": "题目题干为空",
+      "section": "proofreading",
+      "question_id": 1
+    }
+  ],
+  "review_required": [],
+  "summary": {
+    "total_issues": 2,
+    "needs_review": true
+  }
+}

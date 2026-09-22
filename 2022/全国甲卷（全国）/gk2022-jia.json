@@ -1,0 +1,1637 @@
+{
+ "id": "gk2022-jia",
+ "year": 2022,
+ "paper": "全国甲卷",
+ "title": "2022年全国甲卷英语",
+ "format": "legacy",
+ "duration": 120,
+ "totalScore": 150,
+ "hasAudio": false,
+ "audio": null,
+ "source": "2022年全国甲卷英语高考真题（解析版）.docx",
+ "sections": [
+  {
+   "key": "listening",
+   "partTitle": "第一部分 听力",
+   "secTitle": "",
+   "passages": [],
+   "pool": [],
+   "questions": [
+    {
+     "id": 1,
+     "stem": "What does the man want to do?",
+     "options": [
+      {
+       "letter": "A",
+       "text": "Have breakfast."
+      },
+      {
+       "letter": "B",
+       "text": "Take a walk."
+      },
+      {
+       "letter": "C",
+       "text": "Call his office."
+      }
+     ],
+     "type": "listening",
+     "score": 1.5,
+     "answer": "B"
+    },
+    {
+     "id": 2,
+     "stem": "What was George doing last night?",
+     "options": [
+      {
+       "letter": "A",
+       "text": "Having a meeting."
+      },
+      {
+       "letter": "B",
+       "text": "Flying home."
+      },
+      {
+       "letter": "C",
+       "text": "Working on a project."
+      }
+     ],
+     "type": "listening",
+     "score": 1.5,
+     "answer": "C"
+    },
+    {
+     "id": 3,
+     "stem": "Why does the man suggest going to the park?",
+     "options": [
+      {
+       "letter": "A",
+       "text": "It's big."
+      },
+      {
+       "letter": "B",
+       "text": "It's quiet."
+      },
+      {
+       "letter": "C",
+       "text": "It's new."
+      }
+     ],
+     "type": "listening",
+     "score": 1.5,
+     "answer": "B"
+    },
+    {
+     "id": 4,
+     "stem": "How does the woman sound?",
+     "options": [
+      {
+       "letter": "A",
+       "text": "Annoyed."
+      },
+      {
+       "letter": "B",
+       "text": "Pleased."
+      },
+      {
+       "letter": "C",
+       "text": "Puzzled."
+      }
+     ],
+     "type": "listening",
+     "score": 1.5,
+     "answer": "A"
+    },
+    {
+     "id": 5,
+     "stem": "Where is the man's table?",
+     "options": [
+      {
+       "letter": "A",
+       "text": "Near the door."
+      },
+      {
+       "letter": "B",
+       "text": "By the window."
+      },
+      {
+       "letter": "C",
+       "text": "In the corner."
+      }
+     ],
+     "type": "listening",
+     "score": 1.5,
+     "answer": "C"
+    },
+    {
+     "id": 6,
+     "stem": "What are the speakers going to do tonight?",
+     "options": [
+      {
+       "letter": "A",
+       "text": "Eat out."
+      },
+      {
+       "letter": "B",
+       "text": "Go shopping."
+      },
+      {
+       "letter": "C",
+       "text": "Do sports."
+      }
+     ],
+     "type": "listening",
+     "score": 1.5,
+     "answer": "A"
+    },
+    {
+     "id": 7,
+     "stem": "What is the probable relationship between the speakers?",
+     "options": [
+      {
+       "letter": "A",
+       "text": "Boss and secretary."
+      },
+      {
+       "letter": "B",
+       "text": "Hostess and guest."
+      },
+      {
+       "letter": "C",
+       "text": "Husband and wife."
+      }
+     ],
+     "type": "listening",
+     "score": 1.5,
+     "answer": "C"
+    },
+    {
+     "id": 8,
+     "stem": "Why does the woman think July is the best time to move?",
+     "options": [
+      {
+       "letter": "A",
+       "text": "Their business is slow."
+      },
+      {
+       "letter": "B",
+       "text": "The weather is favorable."
+      },
+      {
+       "letter": "C",
+       "text": "It's easy to hire people."
+      }
+     ],
+     "type": "listening",
+     "score": 1.5,
+     "answer": "A"
+    },
+    {
+     "id": 9,
+     "stem": "How will they handle the moving?",
+     "options": [
+      {
+       "letter": "A",
+       "text": "Finish it all at once."
+      },
+      {
+       "letter": "B",
+       "text": "Have the sales section go first."
+      },
+      {
+       "letter": "C",
+       "text": "Do one department at a time."
+      }
+     ],
+     "type": "listening",
+     "score": 1.5,
+     "answer": "C"
+    },
+    {
+     "id": 10,
+     "stem": "What did Peter learn from his grandfather?",
+     "options": [
+      {
+       "letter": "A",
+       "text": "How to appreciate art works."
+      },
+      {
+       "letter": "B",
+       "text": "How to deal with artists."
+      },
+      {
+       "letter": "C",
+       "text": "How to run a museum."
+      }
+     ],
+     "type": "listening",
+     "score": 1.5,
+     "answer": "A"
+    },
+    {
+     "id": 11,
+     "stem": "What did Peter do in Chicago?",
+     "options": [
+      {
+       "letter": "A",
+       "text": "He studied at a college."
+      },
+      {
+       "letter": "B",
+       "text": "He served in the army."
+      },
+      {
+       "letter": "C",
+       "text": "He worked in a gallery."
+      }
+     ],
+     "type": "listening",
+     "score": 1.5,
+     "answer": "A"
+    },
+    {
+     "id": 12,
+     "stem": "Whose works did Peter like best?",
+     "options": [
+      {
+       "letter": "A",
+       "text": "Rembrandt's."
+      },
+      {
+       "letter": "B",
+       "text": "Botticelli's."
+      },
+      {
+       "letter": "C",
+       "text": "Rubens'."
+      }
+     ],
+     "type": "listening",
+     "score": 1.5,
+     "answer": "C"
+    },
+    {
+     "id": 13,
+     "stem": "Where does the conversation take place?",
+     "options": [
+      {
+       "letter": "A",
+       "text": "At a library."
+      },
+      {
+       "letter": "B",
+       "text": "In a law firm."
+      },
+      {
+       "letter": "C",
+       "text": "On a train."
+      }
+     ],
+     "type": "listening",
+     "score": 1.5,
+     "answer": "C"
+    },
+    {
+     "id": 14,
+     "stem": "By what time did John plan to finish his term paper?",
+     "options": [
+      {
+       "letter": "A",
+       "text": "March."
+      },
+      {
+       "letter": "B",
+       "text": "August."
+      },
+      {
+       "letter": "C",
+       "text": "October."
+      }
+     ],
+     "type": "listening",
+     "score": 1.5,
+     "answer": "B"
+    },
+    {
+     "id": 15,
+     "stem": "Why did John quit his part-time job?",
+     "options": [
+      {
+       "letter": "A",
+       "text": "He had to catch up with his study."
+      },
+      {
+       "letter": "B",
+       "text": "He was offered a better one."
+      },
+      {
+       "letter": "C",
+       "text": "He got tired of it."
+      }
+     ],
+     "type": "listening",
+     "score": 1.5,
+     "answer": "A"
+    },
+    {
+     "id": 16,
+     "stem": "What is Susan's attitude to John's problem?",
+     "options": [
+      {
+       "letter": "A",
+       "text": "Carefree."
+      },
+      {
+       "letter": "B",
+       "text": "Understanding."
+      },
+      {
+       "letter": "C",
+       "text": "Forgiving."
+      }
+     ],
+     "type": "listening",
+     "score": 1.5,
+     "answer": "B"
+    },
+    {
+     "id": 17,
+     "stem": "What did the speaker do before the year 2012?",
+     "options": [
+      {
+       "letter": "A",
+       "text": "A fitness coach."
+      },
+      {
+       "letter": "B",
+       "text": "A chess player."
+      },
+      {
+       "letter": "C",
+       "text": "A marathon runner."
+      }
+     ],
+     "type": "listening",
+     "score": 1.5,
+     "answer": "B"
+    },
+    {
+     "id": 18,
+     "stem": "Why was the 2016 Olympics important for the speaker?",
+     "options": [
+      {
+       "letter": "A",
+       "text": "He was motivated by Bolt."
+      },
+      {
+       "letter": "B",
+       "text": "He broke a world record."
+      },
+      {
+       "letter": "C",
+       "text": "He won fifth place."
+      }
+     ],
+     "type": "listening",
+     "score": 1.5,
+     "answer": "C"
+    },
+    {
+     "id": 19,
+     "stem": "Which is the hardest for the speaker?",
+     "options": [
+      {
+       "letter": "A",
+       "text": "Getting over an injury."
+      },
+      {
+       "letter": "B",
+       "text": "Doing strength training."
+      },
+      {
+       "letter": "C",
+       "text": "Representing Botswana."
+      }
+     ],
+     "type": "listening",
+     "score": 1.5,
+     "answer": "A"
+    },
+    {
+     "id": 20,
+     "stem": "What is the speaker mainly talking about?",
+     "options": [
+      {
+       "letter": "A",
+       "text": "His plan to go for the gold."
+      },
+      {
+       "letter": "B",
+       "text": "His experience on the track."
+      },
+      {
+       "letter": "C",
+       "text": "His love for his home country."
+      }
+     ],
+     "type": "listening",
+     "score": 1.5,
+     "answer": "B"
+    }
+   ]
+  },
+  {
+   "key": "reading",
+   "partTitle": "第二部分 阅读理解（共两节，满分40分）",
+   "secTitle": "第一节（共15小题：每小题2分，满分30分）",
+   "passages": [
+    {
+     "label": "A",
+     "text": "阅读下列短文，从每题所给的A、B、C和D四个选项中，选出最佳选项。"
+    },
+    {
+     "label": "A",
+     "text": "Theatres and Entertainment\nSt David’s Hall\nSt David’s Hall is the award winning National Concert Hall of Wales standing at the very heart of Cardiff’s entertainment centre. With an impressive 2,000-seat concert hall, St David’s Hall is home to the annual Welsh Proms Cardiff. It presents live entertainment, including pop, rock, folk, jazz, musicals, dance, world music, films and classical music.\nThe Hayes, Cardiff CF 10 1 AH\nwww.stdavidshallcardiff.co.uk\nThe Glee Club\nEvery weekend this is “Wales” premier comedy club where having a great time is the order for both audiences and comedy stars alike. It is hard to name a comedy star who hasn’t been on the stage here. If you are looking for the best comedies on tour and brilliant live music, you should start here.\nMermaid Quay, Cardiff Bay, Cardiff CF 10 5 BZ\nwww.glee.co.uk/cardiff\nSherman Cymru\nSherman Cymru’s theatre in the Cathays area of Cardiff reopened in February 2012. This special building is a place in which theatre is made and where children, artists, writers and anyone else have the opportunity (机会) to do creative things. Sherman Cymru is excited to present a packed programme of the very best theatre, dance, family shows and music from Wales and the rest of the world.\nSenghennydd Road, Cardiff CF 24 4 YE\nwww.shermancymru.co.uk\nNew Theatre\nThe New Theatre has been the home of quality drama, musicals, dance and children’s shows for more than 100 years. Presenting the best of the West End along with the pick of the UK’s touring shows, the New Theatre is Cardiff’s oldest surviving traditional theatre. Be sure to pay a visit as part of your stay in the city.\nPark Place, Cardiff CF 10 3 LN\nwww.newtheatrecardiff.co.uk"
+    },
+    {
+     "label": "B",
+     "text": "Goffin’s cockatoos, a kind of small parrot native to Australasia, have been shown to have similar shape-recognition abilities to a human two-year-old. Though not known to use tools in the wild, the birds have proved skilful at tool use while kept in the cage. In a recent experiment, cockatoos were presented with a box with a nut inside it. The clear front of the box had a “keyhole” in a geometric shape, and the birds were given five differently shaped “keys” to choose from. Inserting the correct “key” would let out the nut.\nIn humans, babies can put a round shape in a round hole from around one year of age, but it will be another year before they are able to do the same with less symmetrical (对称的) shapes. This ability to recognize that a shape will need to be turned in a specific direction before it will fit is called an “allocentric frame of reference”. In the experiment, Goffin’s cockatoos were able to select the right tool for the job, in most cases, by visual recognition alone. Where trial-and-error was used, the cockatoos did better than monkeys in similar tests. This indicates that Goffin’s cockatoos do indeed possess an allocentric frame of reference when moving objects in space, similar to two-year-old babies.\nThe next step, according to the researchers, is to try and work out whether the cockatoos rely entirely on visual clues (线索), or also use a sense of touch in making their shape selections."
+    },
+    {
+     "label": "C",
+     "text": "As Ginni Bazlinton reached Antarctica, she found herself greeted by a group of little Gentoo penguins(企鹅) longing to say hello. These gentle, lovely gatekeepers welcomed her and kick-started what was to be a trip Ginni would never forget.\nEver since her childhood, Ginni, now 71, has had a deep love for travel. Throughout her career(职业) as a professional dancer, she toured in the UK, but always longed to explore further When she retired from dancing and her sons eventually flew the nest, she decided it was time to take the plunge.\nAfter taking a degree at Chichester University in Related Arts, Ginni began to travel the world, eventually getting work teaching English in Japan and Chile. And it was in Chile she discovered she could get last-minute cheap deals on ships going to Antarctica from the islands off Tierra del Fuego, the southernmost tip of the South American mainland. “I just decided wanted to go,” she says. “I had no idea about what I’d find there and I wasn’t nervous, I just wanted to do it. And I wanted to do it alone as I always prefer it that way.”\nIn March 2008, Ginni boarded a ship with 48 passengers she’d never met before, to begin the journey towards Antarctica. “From seeing the wildlife to witnessing sunrises, the whole experience was amazing. Antarctica left an impression on me that no other place has,” Ginni says. “I remember the first time I saw a humpback whale; it just rose out of the water like some prehistoric creature and I thought it was smiling at us. You could still hear the operatic sounds it was making underwater.”\nThe realization that this is a precious land, to be respected by humans, was one of the biggest things that hit home to Ginni."
+    },
+    {
+     "label": "D",
+     "text": "Sometime in the early 1960s, a significant thing happened in Sydney, Australia. The city discovered its harbor. Then, one after another, Sydney discovered lots of things that were just sort of there — broad parks, superb beaches, and a culturally diverse population. But it is the harbor that makes the city.\nAndrew Reynolds, a cheerful fellow in his early 30s, pilots Sydney ferryboats for a living. I spent the whole morning shuttling back and forth across the harbor. After our third run Andrew shut down the engine, and we went our separate ways — he for a lunch break, I to explore the city.\n“I’ll miss these old boats,” he said as we parted.\n“How do you mean?” I asked.\n“Oh, they’re replacing them with catamarans. Catamarans are faster, but they’re not so elegant, and they’re not fun to pilot. But that’s progress, I guess.”\nEverywhere in Sydney these days, change and progress are the watchwords (口号), and traditions are increasingly rare. Shirley Fitzgerald, the city’s official historian, told me that in its rush to modernity in the 1970s, Sydney swept aside much of its past, including many of its finest buildings. “Sydney is confused about itself,” she said. “We can’t seem to make up our minds whether we want a modern city or a traditional one. It’s a conflict that we aren’t getting any better at resolving (解决).”\nOn the other hand, being young and old at the same time has its attractions. I considered this when I met a thoughtful young businessman named Anthony. “Many people say that we lack culture in this country,” he told me. “What people forget is that the Italians, when they came to Australia, brought 2000 years of their culture, the Greeks some 3000 years, and the Chinese more still. We’ve got a foundation built on ancient cultures but with a drive and dynamism of a young country. It’s a pretty hard combination to beat.”\nHe is right, but I can’t help wishing they would keep those old ferries."
+    }
+   ],
+   "pool": [],
+   "questions": [
+    {
+     "id": 1,
+     "stem": "Where is the Welsh Proms Cardiff hosted?",
+     "options": [
+      {
+       "letter": "A",
+       "text": "At the New Theatre."
+      },
+      {
+       "letter": "B",
+       "text": "At the Glee Club."
+      },
+      {
+       "letter": "C",
+       "text": "At Sherman Cymru."
+      },
+      {
+       "letter": "D",
+       "text": "At St David’s Hall."
+      }
+     ],
+     "passageLabel": "A",
+     "explanation": "【分析】本文是一篇应用文。文章主要介绍了Cardiff当地的一些剧院和娱乐场所。\n1题详解】\n细节理解题。根据文章“St David’s Hall”部分中的“St David’s Hall is home to the annual Welsh Proms Cardiff (St David’s Hall是Cardiff一年一度的Welsh Proms的举办地)”可知，Cardiff的Welsh Proms活动在St David’s Hall举办。故选D。",
+     "type": "reading",
+     "score": 2,
+     "answer": "D"
+    },
+    {
+     "id": 2,
+     "stem": "What can people do at the Glee Club?",
+     "options": [
+      {
+       "letter": "A",
+       "text": "Watch musicals."
+      },
+      {
+       "letter": "B",
+       "text": "Enjoy comedies."
+      },
+      {
+       "letter": "C",
+       "text": "See family shows."
+      },
+      {
+       "letter": "D",
+       "text": "Do creative things."
+      }
+     ],
+     "passageLabel": "A",
+     "explanation": "细节理解题。根据文章“The Glee Club”部分中的“If you are looking for the best comedies on tour and brilliant live music, you should start here (如果你正在寻找巡演中最好的喜剧和精彩的现场音乐，你应该从这里开始)”可知，人们可以在The Glee Club享受喜剧。故选B。",
+     "type": "reading",
+     "score": 2,
+     "answer": "B"
+    },
+    {
+     "id": 3,
+     "stem": "Which website can you visit to learn about Cardiff’s oldest surviving theatre?",
+     "options": [
+      {
+       "letter": "A",
+       "text": "www.newtheatrecardiff.co.uk"
+      },
+      {
+       "letter": "B",
+       "text": "www.shermancymru.co.uk"
+      },
+      {
+       "letter": "C",
+       "text": "www.glee.co.uk/cardiff"
+      },
+      {
+       "letter": "D",
+       "text": "www.stdavidshalleardiff.co.uk"
+      }
+     ],
+     "passageLabel": "A",
+     "explanation": "细节理解题。根据文章“New Theatre”部分中的“The New Theatre has been the home of quality drama, musicians, dance and children’s shows for more than 100 years (100多年来，New Theatre一直是优质戏剧、音乐家、舞蹈和儿童节目的发源地)”以及其下面的网站“www.newtheatrecardiff.co.uk”可知，可以在www.newtheatrecardiff.co.uk网站找到Cardiff存在最久的剧院。故选A。",
+     "type": "reading",
+     "score": 2,
+     "answer": "A"
+    },
+    {
+     "id": 4,
+     "stem": "How did the cockatoos get the nut from the box in the experiment?",
+     "options": [
+      {
+       "letter": "A",
+       "text": "By following instructions."
+      },
+      {
+       "letter": "B",
+       "text": "By using a tool."
+      },
+      {
+       "letter": "C",
+       "text": "By turning the box around."
+      },
+      {
+       "letter": "D",
+       "text": "By removing the lid."
+      }
+     ],
+     "passageLabel": "B",
+     "explanation": "细节理解题。根据文章第一段“Though not known to use tools in the wild, the birds have proved skilful at tool use while kept in the cage. (虽然人们不知道这些鸟在野外会使用工具，但事实证明，它们在关在笼子里时就能熟练地使用工具)”以及“the birds were given five differently shaped “keys” to choose from. Inserting, the correct “keys” would let out the nut. (研究人员给了这些鸟5把形状各异的“钥匙”供它们选择。插入，正确的“钥匙”会让坚果出来)”可知，在实验中，凤头鹦鹉是通过使用工具从盒子里取出坚果的。故选B。",
+     "type": "reading",
+     "score": 2,
+     "answer": "B"
+    },
+    {
+     "id": 5,
+     "stem": "Which task can human one-year-olds most likely complete according to the text?",
+     "options": [
+      {
+       "letter": "A",
+       "text": "Using a key to unlock a door."
+      },
+      {
+       "letter": "B",
+       "text": "Telling parrots from other birds."
+      },
+      {
+       "letter": "C",
+       "text": "Putting a ball into a round hole."
+      },
+      {
+       "letter": "D",
+       "text": "Grouping toys of different shapes."
+      }
+     ],
+     "passageLabel": "B",
+     "explanation": "细节理解题。根据文章第二段“In humans, babies can put a round shape in a round hole from around one year of age (在人类身上，婴儿从一岁左右就可以把一个圆形的物品放进一个圆形的洞里)”结合选项，可知，一岁儿童最有可能完成“将一个球放进一个圆形的洞里”的任务。故选C。",
+     "type": "reading",
+     "score": 2,
+     "answer": "C"
+    },
+    {
+     "id": 6,
+     "stem": "What does the follow-up test aim to find out about the cockatoos?",
+     "options": [
+      {
+       "letter": "A",
+       "text": "How far they are able to see."
+      },
+      {
+       "letter": "B",
+       "text": "How they track moving objects."
+      },
+      {
+       "letter": "C",
+       "text": "Whether they are smarter than monkeys."
+      },
+      {
+       "letter": "D",
+       "text": "Whether they use a sense of touch in the test."
+      }
+     ],
+     "passageLabel": "B",
+     "explanation": "推理判断题。通过文章最后一段“The next step, according to the researchers, is to try and work out whether the cockatoos rely entirely on visual clues, or also use a sense of touch in making their shape selections. (根据研究人员的说法，下一步是尝试弄清楚凤头鹦鹉是完全依靠视觉线索，还是也使用触觉来选择它们的形状)”可推知，后续测试的目的是了解凤头鹦鹉在测试中是否使用触觉。故选D。",
+     "type": "reading",
+     "score": 2,
+     "answer": "D"
+    },
+    {
+     "id": 7,
+     "stem": "Which can be a suitable title for the text?",
+     "options": [
+      {
+       "letter": "A",
+       "text": "Cockatoos: Quick Error Checkers"
+      },
+      {
+       "letter": "B",
+       "text": "Cockatoos: Independent Learners"
+      },
+      {
+       "letter": "C",
+       "text": "Cockatoos: Clever Signal-Readers"
+      },
+      {
+       "letter": "D",
+       "text": "Cockatoos: Skilful Shape-Sorters"
+      }
+     ],
+     "passageLabel": "B",
+     "explanation": "主旨大意题。通读全文，再结合文章第一段“Coffin’s cockatoos, a kind of small parrot native to Australasia, have been shown to have similar shape-recognition abilities to a human two-year-old. (科芬的凤头鹦鹉是一种原产于大洋洲的小鹦鹉，它的形状识别能力与两岁的人类相似)”可推知，本文主要介绍了会识别形状的凤头鹦鹉。D项“Cockatoos: Skilful Shape-Sorters (凤头鹦鹉：识别形状的熟练工)”符合文意，最适合作为本文标题。故选D。",
+     "type": "reading",
+     "score": 2,
+     "answer": "D"
+    },
+    {
+     "id": 8,
+     "stem": "Which of the following best explains “take the plunge” underlined in paragraph 2?",
+     "options": [
+      {
+       "letter": "A",
+       "text": "Try challenging things."
+      },
+      {
+       "letter": "B",
+       "text": "Take a degree."
+      },
+      {
+       "letter": "C",
+       "text": "Bring back lost memories."
+      },
+      {
+       "letter": "D",
+       "text": "Stick to a promise."
+      }
+     ],
+     "passageLabel": "C",
+     "explanation": "词句猜测题。根据第二段划线词前文“Throughout her career(职业) as a professional dancer, she toured in the UK, but always longed to explore further. (在她的职业舞蹈演员生涯中，她曾在英国巡演，但一直渴望进一步探索)”和“When she retired from dancing and her sons eventually flew the nest,(当她不再跳舞，她的儿子们最终独立生活)”可知，Ginni在退休和儿子们成家立业之后，她决定尝试有挑战性的事情。由此推知，划线词组take the plunge与try challenging things“尝试有挑战性的事情”意思接近。故选A。",
+     "type": "reading",
+     "score": 2,
+     "answer": "A"
+    },
+    {
+     "id": 9,
+     "stem": "What made Ginni decide on the trip to Antarctica?",
+     "options": [
+      {
+       "letter": "A",
+       "text": "Lovely penguins."
+      },
+      {
+       "letter": "B",
+       "text": "Beautiful scenery."
+      },
+      {
+       "letter": "C",
+       "text": "A discount fare."
+      },
+      {
+       "letter": "D",
+       "text": "A friend’s invitation."
+      }
+     ],
+     "passageLabel": "C",
+     "explanation": "细节理解题。根据第三段中的“And it was in Chile she discovered she could get last-minute cheap deals on ships going to Antarctica from the islands off Tiera del Fuego.(正是在智利，她发现自己可以在最后一刻买到从火地岛附近岛屿前往南极洲的廉价船只)”可知，是一张折扣票价让Ginni决定去南极洲旅行的。故选C。",
+     "type": "reading",
+     "score": 2,
+     "answer": "C"
+    },
+    {
+     "id": 10,
+     "stem": "What does Ginni think about Antarctica after the journey?",
+     "options": [
+      {
+       "letter": "A",
+       "text": "It could be a home for her."
+      },
+      {
+       "letter": "B",
+       "text": "It should be easily accessible."
+      },
+      {
+       "letter": "C",
+       "text": "It should be well preserved."
+      },
+      {
+       "letter": "D",
+       "text": "It needs to be fully introduced."
+      }
+     ],
+     "passageLabel": "C",
+     "explanation": "细节理解题。根据最后一段“The realization that this is a precious land, to be respected by humans, was one of the biggest things that hit home to Ginni.(意识到这是一块宝贵的土地，应该受到人类的尊重，这是Ginni最深刻的感受之一。)”可知，旅行结束后，Ginni认为南极洲应该得到很好的保护。故选C。",
+     "type": "reading",
+     "score": 2,
+     "answer": "C"
+    },
+    {
+     "id": 11,
+     "stem": "What is the text mainly about?",
+     "options": [
+      {
+       "letter": "A",
+       "text": "A childhood dream."
+      },
+      {
+       "letter": "B",
+       "text": "An unforgettable experience."
+      },
+      {
+       "letter": "C",
+       "text": "Sailing around the world."
+      },
+      {
+       "letter": "D",
+       "text": "Meeting animals in Antarctica."
+      }
+     ],
+     "passageLabel": "C",
+     "explanation": "主旨大意题。根据第二段“Ever since her childhood, Ginni, now 71 has had a deep love for travel.(今年71岁的吉妮从小就对旅行有着深深的热爱)”及全文可知，文章主要介绍了71岁的Ginni Balinton从小就对旅行有着深深的热爱，渴望探险，不再跳舞和孩子们成家立业之后，她开始周游世界，并在2008年开始了前往南极洲的旅程。由此可知，A childhood dream.(童年的梦想)能够概括文章主旨。故选A。",
+     "type": "reading",
+     "score": 2,
+     "answer": "A"
+    },
+    {
+     "id": 12,
+     "stem": "What is the first paragraph mainly about?",
+     "options": [
+      {
+       "letter": "A",
+       "text": "Sydney’s striking architecture."
+      },
+      {
+       "letter": "B",
+       "text": "The cultural diversity of Sydney."
+      },
+      {
+       "letter": "C",
+       "text": "The key to Sydney’s development."
+      },
+      {
+       "letter": "D",
+       "text": "Sydney’s tourist attractions in the 1960s."
+      }
+     ],
+     "passageLabel": "D",
+     "explanation": "主旨大意题。根据第一段“Sometime in the early 1960s, a significant thing happened in Sydney, Australia. The city discovered its harbor. (20世纪60年代初，澳大利亚悉尼发生了一件大事。这座城市发现了它的港口) ”以及“But it is the harbor that makes the city. (但是是港口造就了城市)”可知，本段主要介绍了悉尼发展的关键是港口。故选C项。",
+     "type": "reading",
+     "score": 2,
+     "answer": "D"
+    },
+    {
+     "id": 13,
+     "stem": "What can we learn about Andrew Reynolds?",
+     "options": [
+      {
+       "letter": "A",
+       "text": "He goes to work by boat."
+      },
+      {
+       "letter": "B",
+       "text": "He looks forward to a new life."
+      },
+      {
+       "letter": "C",
+       "text": "He pilots catamarans well."
+      },
+      {
+       "letter": "D",
+       "text": "He is attached to the old ferries."
+      }
+     ],
+     "passageLabel": "D",
+     "explanation": "细节理解题。根据第二段“Andrew Reynolds, a cheerful fellow in his early 30s, pilot Sydney ferryboats for a living. (30岁出头的Andrew Reynolds是个快乐的小伙子，他在悉尼担任渡轮领航员为生)”、第三段“I’ll miss these old boats. (我会想念这些旧船的)”以及第五段“Catamarans are faster, but they’re not so elegant, and they’re not fun to pilot. (双体船更快，但它们不那么优雅，驾驶起来也不有趣)”可知，渡轮领航员Andrew Reynolds喜欢老式渡船。故选D项。",
+     "type": "reading",
+     "score": 2,
+     "answer": "D"
+    },
+    {
+     "id": 14,
+     "stem": "What does Shirley Fitzgerald think of Sydney?",
+     "options": [
+      {
+       "letter": "A",
+       "text": "It is losing its traditions."
+      },
+      {
+       "letter": "B",
+       "text": "It should speed up its progress."
+      },
+      {
+       "letter": "C",
+       "text": "It should expand its population."
+      },
+      {
+       "letter": "D",
+       "text": "It is becoming more international."
+      }
+     ],
+     "passageLabel": "D",
+     "explanation": "推理判断题。根据倒数第三段“Shirley Fitzgerald, the city’s official historian, told me that in its rush to modernity in the 1970s, Sydney swept aside much of its past, including many of its finest buildings. (悉尼的官方历史学家Shirley Fitzgerald告诉我，在20世纪70年代奔向现代化的过程中，悉尼把很多它的过去都抛在了一边，包括许多最漂亮的建筑)”可推知，Shirley Fitzgerald认为悉尼匆忙奔向现代化，正在失去它的传统。故选A项。",
+     "type": "reading",
+     "score": 2,
+     "answer": "A"
+    },
+    {
+     "id": 15,
+     "stem": "Which statement will the author probably agree with?",
+     "options": [
+      {
+       "letter": "A",
+       "text": "A city can be young and old at the same time."
+      },
+      {
+       "letter": "B",
+       "text": "A city built on ancient cultures is more dynamic."
+      },
+      {
+       "letter": "C",
+       "text": "modernity is usually achieved at the cost of elegance."
+      },
+      {
+       "letter": "D",
+       "text": "Compromise should be made between the local and the foreign."
+      }
+     ],
+     "passageLabel": "D",
+     "explanation": "推理判断题。根据倒数第二段“On the other hand, being young and old at the same time has its attractions. I considered this when I met a thoughtful young businessman named Anthony. (另一方面，同时既年轻又古老也有它的魅力。当我遇到一位深思熟虑的年轻商人Anthony时，我考虑到了这一点)”以及最后一段“He is right (他说得没错)”可推知，作者赞同Anthony的观点，认为一座城市可以同时既年轻又古老。故选A项。",
+     "type": "reading",
+     "score": 2,
+     "answer": "A"
+    }
+   ]
+  },
+  {
+   "key": "seven",
+   "partTitle": "第二部分 阅读理解（共两节，满分40分）",
+   "secTitle": "第二节 (其5小题;每小题2分,满分10分)",
+   "passages": [
+    {
+     "label": "",
+     "text": "根据短文内容，从短文后的选项中选出能填入空白处的最佳选项。选项中有两项为多余选项。\nImportant Things to Know When Dining Out\nCultural dining etiquette (礼节) might surprise you with some of its important rules. ___16___. Knowing some tips will help ensure that you have an enjoyable meal with friends or family — no matter where you are in the world.\nChopstick Rules\nThe way you handle chopsticks is important to avoid annoying your companions. When you put them down between bites, always put them down together so they are parallel with the edge of the table in front of you. ___17___ .\nHands or Utensils (餐具)\nIn India and the Middle East, it’s considered very rude to eat with your left hand. People in France expect you to eat with a utensil in each hand. ___18___, instead preferring to use their hands. In Chile, you may never touch any food with your fingers. People in Thailand generally use their forks only to push food onto their spoons.\nMaking Requests\n___19___ . In Portugal, this would be a serious mistake, because it shows the chef that you don’t like their seasoning skills. Similarly, in Italy, never ask for extra cheese to add to your food.\nSome of these cultural dining etiquette rules may seem random and strange, but they are important in various countries. ___20___ , the more comfortable you’ll begin to feel with its foreign cultural practices."
+    }
+   ],
+   "pool": [
+    {
+     "letter": "A",
+     "text": "The more friends you make in your lifetime"
+    },
+    {
+     "letter": "B",
+     "text": "The more time you spend in any given country"
+    },
+    {
+     "letter": "C",
+     "text": "Mexicans consider it inappropriate to eat with utensils"
+    },
+    {
+     "letter": "D",
+     "text": "Don’t get caught making an embarrassing mistake at a restaurant"
+    },
+    {
+     "letter": "E",
+     "text": "It’s a good sign for the chef if you make a mess around your plate"
+    },
+    {
+     "letter": "F",
+     "text": "Never stick them upright in your food or cross them as you use them"
+    },
+    {
+     "letter": "G",
+     "text": "It may seem like a simple request to ask for salt and pepper at a meal"
+    }
+   ],
+   "questions": [
+    {
+     "id": 16,
+     "stem": "",
+     "options": [],
+     "type": "seven",
+     "score": 2,
+     "answer": "D"
+    },
+    {
+     "id": 17,
+     "stem": "",
+     "options": [],
+     "type": "seven",
+     "score": 2,
+     "answer": "F"
+    },
+    {
+     "id": 18,
+     "stem": "",
+     "options": [],
+     "type": "seven",
+     "score": 2,
+     "answer": "C"
+    },
+    {
+     "id": 19,
+     "stem": "",
+     "options": [],
+     "type": "seven",
+     "score": 2,
+     "answer": "G"
+    },
+    {
+     "id": 20,
+     "stem": "",
+     "options": [],
+     "type": "seven",
+     "score": 2,
+     "answer": "B"
+    }
+   ]
+  },
+  {
+   "key": "cloze",
+   "partTitle": "第三部分 语言知识运用(共两节,满分45分)",
+   "secTitle": "第一节 (共20小题；每小题1.5分，满分30分)",
+   "passages": [
+    {
+     "label": "",
+     "text": "阅读下面短文，从短文后各题所给的A、B、C和D四个选项中，选出可以填入空白处的最佳选项。\nYou can tell a lot about a man by how he treats his dogs.\nFor many years, I enjoyed living with my dogs, Tilly and Chance. Their ___21___ was nearly enough to keep my loneliness at bay. Nearly. Last year, I started dating, but with ___22___ . When I first dated Steve, I ___23___ he had a dog, Molly, and a cat, Flora. While I was ___24___ that he was an animal lover, I ___25___ that three dogs were perhaps too many, and my dogs might attack ___26___ , the cat.\nThe next week we ___27___ our dogs together. It was a hot day. When we paused to catch our ___28___ , Steve got down on one knee. Was he proposing (求婚)? I liked him too, but so ___29___ ? He poured water from a bottle into his hand and offered it to my dogs. _____30_____ , I began to fall for him.\nWe _____31_____ to date, though neither of us brought up the future. And then in late November, Tilly had an operation on her _____32_____ . I took the dogs out four times a day, and I worried that Tilly _____33_____ climbing the stairs could reopen the wound. Then Steve _____34_____ his house. All worked _____35_____ . The three dogs formed a pack that, with coaching, _____36_____ Flora’s space; Steve and I formed a good team _____37_____ for Tilly. We made good housemates.\nA year later, much to my _____38_____ , this man produced a little box with a ring and proposed to me. He did not kneel (跪) down, nor did I _____39_____ him to. That’s only for giving _____40_____ to the dogs that brought us together."
+    }
+   ],
+   "pool": [],
+   "questions": [
+    {
+     "id": 21,
+     "stem": "",
+     "options": [
+      {
+       "letter": "A",
+       "text": "ownership"
+      },
+      {
+       "letter": "B",
+       "text": "membership"
+      },
+      {
+       "letter": "C",
+       "text": "companionship"
+      },
+      {
+       "letter": "D",
+       "text": "leadership"
+      }
+     ],
+     "explanation": "考查名词词义辨析。句意：它们的陪伴几乎足以让我远离孤独。A. ownership所有权；B. membership会员；C. companionship陪伴；D. leadership领导。由上文的“For many years, I enjoyed living with my dogs, Tilly and Chance. (多年来，我喜欢和我的狗Tilly和Chance生活在一起)”可知，作者多年和狗狗生活在一起，可得出狗狗陪伴着作者，让作者远离孤独。故选C项。",
+     "type": "cloze",
+     "score": 1.5,
+     "answer": "C"
+    },
+    {
+     "id": 22,
+     "stem": "",
+     "options": [
+      {
+       "letter": "A",
+       "text": "reservations"
+      },
+      {
+       "letter": "B",
+       "text": "expectations"
+      },
+      {
+       "letter": "C",
+       "text": "confidence"
+      },
+      {
+       "letter": "D",
+       "text": "prejudice"
+      }
+     ],
+     "explanation": "考查名词词义辨析。句意：去年，我开始约会，但有所保留。A. reservations保留；B. expectations期望；C. confidence信心；D. prejudice偏见。由下文的“He poured water from a bottle into his hand and offered it to my dogs. (他把瓶子里的水倒在手里，递给我的狗)”和“I began to fall for him (我开始爱上他)”可知，作者是在第二周和史蒂夫一起遛狗时，因为史蒂夫把水给自己的爱犬喝，作者才对史蒂夫产生好感，可得出刚开始约会时，因为不熟悉史蒂夫的品行，作者还是有所保留的。故选A项。",
+     "type": "cloze",
+     "score": 1.5,
+     "answer": "A"
+    },
+    {
+     "id": 23,
+     "stem": "",
+     "options": [
+      {
+       "letter": "A",
+       "text": "feared"
+      },
+      {
+       "letter": "B",
+       "text": "doubted"
+      },
+      {
+       "letter": "C",
+       "text": "hoped"
+      },
+      {
+       "letter": "D",
+       "text": "learned"
+      }
+     ],
+     "explanation": "考查动词词义辨析。句意：当我第一次和史蒂夫约会时，我得知他有一条名叫Molly的狗和一只名叫Flora的猫。A. feared恐惧；B. doubted怀疑；C. hoped希望；D. learned得知。由上文的“When I first dated Steve (当我第一次和史蒂夫约会时)”和常识可知，第一次约会会得知对方相关情况，作者从而得知史蒂夫有一只狗和一只猫。故选D项。",
+     "type": "cloze",
+     "score": 1.5,
+     "answer": "D"
+    },
+    {
+     "id": 24,
+     "stem": "",
+     "options": [
+      {
+       "letter": "A",
+       "text": "unsatisfied"
+      },
+      {
+       "letter": "B",
+       "text": "amused"
+      },
+      {
+       "letter": "C",
+       "text": "terrified"
+      },
+      {
+       "letter": "D",
+       "text": "thrilled"
+      }
+     ],
+     "explanation": "考查形容词词义辨析。句意：虽然我很高兴他是一个动物爱好者，但我担心三条狗可能太多了，我的狗可能会攻击猫Flora。A. unsatisfied不满意的；B. amused愉快的；C. terrified害怕的；D. thrilled刺激的。由下文的“he was an animal lover (他是一个动物爱好者)”可知，得知史蒂夫是一个动物爱好者，多年和两只爱犬生活在一起的作者应该是感到愉快高兴。故选B项。",
+     "type": "cloze",
+     "score": 1.5,
+     "answer": "B"
+    },
+    {
+     "id": 25,
+     "stem": "",
+     "options": [
+      {
+       "letter": "A",
+       "text": "predicted"
+      },
+      {
+       "letter": "B",
+       "text": "worried"
+      },
+      {
+       "letter": "C",
+       "text": "regretted"
+      },
+      {
+       "letter": "D",
+       "text": "insisted"
+      }
+     ],
+     "explanation": "考查动词词义辨析。句意：虽然我很高兴他是一个动物爱好者，但我担心三条狗可能太多了，我的狗可能会攻击猫Flora。A. predicted预测；B. worried担心；C. regretted后悔；D. insisted坚持。由下文的“three dogs were perhaps too many, and my dogs might attack     6    the cat (三条狗可能太多了，我的狗可能会攻击猫)”可知，作者认为三条狗可能太多了，且自己的狗可能会攻击史蒂夫的猫，针对这种情况，作者是担忧的。故选B项。",
+     "type": "cloze",
+     "score": 1.5,
+     "answer": "B"
+    },
+    {
+     "id": 26,
+     "stem": "",
+     "options": [
+      {
+       "letter": "A",
+       "text": "Flora"
+      },
+      {
+       "letter": "B",
+       "text": "Chance"
+      },
+      {
+       "letter": "C",
+       "text": "Molly"
+      },
+      {
+       "letter": "D",
+       "text": "Tilly"
+      }
+     ],
+     "explanation": "考查名词词义辨析。句意：虽然我很高兴他是一个动物爱好者，但我担心三条狗可能太多了，我的狗可能会攻击猫Flora。A. Flora弗洛拉；B. Chance机会；C. Molly莫莉；D. Tilly蒂莉。选项指的是文中动物名词。由上文的“he had a dog, Molly, and a car, Flora (他有一条名叫Molly的狗和一只名叫Flora的猫)”可知，此处指作者担心自己的狗可能会攻击史蒂夫的猫Flora。故选A项。",
+     "type": "cloze",
+     "score": 1.5,
+     "answer": "A"
+    },
+    {
+     "id": 27,
+     "stem": "",
+     "options": [
+      {
+       "letter": "A",
+       "text": "tied"
+      },
+      {
+       "letter": "B",
+       "text": "walked"
+      },
+      {
+       "letter": "C",
+       "text": "bathed"
+      },
+      {
+       "letter": "D",
+       "text": "fed"
+      }
+     ],
+     "explanation": "考查动词词义辨析。句意：第二周，我们一起遛狗。A. tied系；B. walked牵着（动物）走；C. bathed沐浴；D. fed喂养。由本处的“  7  our dogs together (一起……我们的狗)”可知，作者和史蒂夫在一起遛狗。故选B项。",
+     "type": "cloze",
+     "score": 1.5,
+     "answer": "B"
+    },
+    {
+     "id": 28,
+     "stem": "",
+     "options": [
+      {
+       "letter": "A",
+       "text": "breath"
+      },
+      {
+       "letter": "B",
+       "text": "balance"
+      },
+      {
+       "letter": "C",
+       "text": "attention"
+      },
+      {
+       "letter": "D",
+       "text": "imagination"
+      }
+     ],
+     "explanation": "考查名词词义辨析。句意：当我们停下来休息时，史蒂夫单膝跪下。A. breath呼吸；B. balance平衡；C. attention注意力；D. imagination想象。由上文的“It was a hot day. When we paused (那是一个炎热的日子。当我们停下)”可知，那天很热，遛狗的二人停下来休息一下，catch one’s breath (休息一下、歇一口气)。 故选A项。",
+     "type": "cloze",
+     "score": 1.5,
+     "answer": "A"
+    },
+    {
+     "id": 29,
+     "stem": "",
+     "options": [
+      {
+       "letter": "A",
+       "text": "calm"
+      },
+      {
+       "letter": "B",
+       "text": "sure"
+      },
+      {
+       "letter": "C",
+       "text": "soon"
+      },
+      {
+       "letter": "D",
+       "text": "real"
+      }
+     ],
+     "explanation": "考查形容词词义辨析。句意：我也喜欢他，但这么快？A. calm冷静的；B. sure确定的；C. soon很快的；D real真正的。由上文的“The next week (第二周)”和“Was he proposing (求婚)? (他在求婚吗)”可知，二人才认识两周，作者以为史蒂夫要向自己求婚，认为进展太快了。故选C项。",
+     "type": "cloze",
+     "score": 1.5,
+     "answer": "C"
+    },
+    {
+     "id": 30,
+     "stem": "",
+     "options": [
+      {
+       "letter": "A",
+       "text": "By the way"
+      },
+      {
+       "letter": "B",
+       "text": "In that case"
+      },
+      {
+       "letter": "C",
+       "text": "By all means"
+      },
+      {
+       "letter": "D",
+       "text": "In that moment"
+      }
+     ],
+     "explanation": "考查介词短语辨析。句意：就在那一刻，我开始爱上他。A. By the way顺便说一句；B. In that case那样的话；C. By all means务必；D. In that moment那一刻。由上文的“He poured water from a bottle into his hand and offered it to my dogs. (他把瓶子里的水倒在手里，递给我的狗)”和下文的“I began to fall for him (我开始爱上他)”可知，就在史蒂夫把水给作者爱犬喝的那一刻，还有所保留的作者卸下心防，对史蒂夫产生好感。故选D项。",
+     "type": "cloze",
+     "score": 1.5,
+     "answer": "D"
+    },
+    {
+     "id": 31,
+     "stem": "",
+     "options": [
+      {
+       "letter": "A",
+       "text": "continued"
+      },
+      {
+       "letter": "B",
+       "text": "decided"
+      },
+      {
+       "letter": "C",
+       "text": "intended"
+      },
+      {
+       "letter": "D",
+       "text": "pretended"
+      }
+     ],
+     "explanation": "考查动词词义辨析。句意：我们继续约会，虽然我们都没有提到未来。A. continued继续；B. decided决定；C. intended打算；D. pretended假装。由上文的“I began to fall for him (我开始爱上他)”可知，作者对史蒂夫产生好感，可得出二人会继续约会。故选A项。",
+     "type": "cloze",
+     "score": 1.5,
+     "answer": "A"
+    },
+    {
+     "id": 32,
+     "stem": "",
+     "options": [
+      {
+       "letter": "A",
+       "text": "eye"
+      },
+      {
+       "letter": "B",
+       "text": "tail"
+      },
+      {
+       "letter": "C",
+       "text": "ear"
+      },
+      {
+       "letter": "D",
+       "text": "leg"
+      }
+     ],
+     "explanation": "考查名词词义辨析。句意：11月下旬，Tilly的腿做了一次手术。A. eye眼睛；B. tail尾巴；C. ear耳朵；D. leg腿。由下文的“I worried that Tilly   13   climbing the stairs could reopen the wound (我担心Tilly爬楼梯会重新打开伤口)”可知，作者担心爬楼会影响Tilly的伤口，可得出Tilly的腿做了手术。故选D项。",
+     "type": "cloze",
+     "score": 1.5,
+     "answer": "D"
+    },
+    {
+     "id": 33,
+     "stem": "",
+     "options": [
+      {
+       "letter": "A",
+       "text": "secretly"
+      },
+      {
+       "letter": "B",
+       "text": "constantly"
+      },
+      {
+       "letter": "C",
+       "text": "eventually"
+      },
+      {
+       "letter": "D",
+       "text": "unwillingly"
+      }
+     ],
+     "explanation": "考查副词词义辨析。句意：我一天带狗出去四次，我担心Tilly不断地爬楼梯会重新打开伤口。A. secretly秘密地；B. constantly不断地；C. eventually最终；D. unwillingly不情愿地。由上文的“I took the dogs out four times a day (我一天带狗出去四次)”可知，作者一天带狗出去四次，可得出狗狗（包括Tilly）要不断地爬楼梯。故选B项。",
+     "type": "cloze",
+     "score": 1.5,
+     "answer": "B"
+    },
+    {
+     "id": 34,
+     "stem": "",
+     "options": [
+      {
+       "letter": "A",
+       "text": "left"
+      },
+      {
+       "letter": "B",
+       "text": "sold"
+      },
+      {
+       "letter": "C",
+       "text": "suggested"
+      },
+      {
+       "letter": "D",
+       "text": "searched"
+      }
+     ],
+     "explanation": "考查动词词义辨析。句意：然后史蒂夫离开了他的房子。A. left离开；B. sold卖；C. suggested建议；D. searched搜寻。由下文的“We made good housemates. (我们是很好的室友)”可知，二人成为室友，可得出史蒂夫离开了他的房子，和作者一起居住。故选A项。",
+     "type": "cloze",
+     "score": 1.5,
+     "answer": "A"
+    },
+    {
+     "id": 35,
+     "stem": "",
+     "options": [
+      {
+       "letter": "A",
+       "text": "late"
+      },
+      {
+       "letter": "B",
+       "text": "hard"
+      },
+      {
+       "letter": "C",
+       "text": "fine"
+      },
+      {
+       "letter": "D",
+       "text": "free"
+      }
+     ],
+     "explanation": "考查形容词词义辨析。句意：一切都很好。A. late晚的；B. hard困难的；C. fine好的；D. free自由的。由下文的“The three dogs formed a pack (这三条狗组成了一个团队)”和“Steve and I formed a good team (史蒂夫和我组成了一个好团队)”“We made good housemates. (我们是很好的室友)”可知，狗狗相处友好，作者和史蒂夫相处也友好，可得出一切都好。故选C项。",
+     "type": "cloze",
+     "score": 1.5,
+     "answer": "C"
+    },
+    {
+     "id": 36,
+     "stem": "",
+     "options": [
+      {
+       "letter": "A",
+       "text": "emptied"
+      },
+      {
+       "letter": "B",
+       "text": "respected"
+      },
+      {
+       "letter": "C",
+       "text": "occupied"
+      },
+      {
+       "letter": "D",
+       "text": "discovered"
+      }
+     ],
+     "explanation": "考查动词词义辨析。句意：这三条狗组成了一个团队，在训练下，尊重Flora的空间；史蒂夫和我组成了一个照顾Tilly的好团队。A. emptied清空；B. respected尊重；C. occupied占据；D. discovered发现。由上文的“my dogs might attack   6   , the cat (我的狗可能会攻击猫)”和“The three dogs formed a pack that, with coaching (这三条狗组成了一个团队，在训练下)”可知，起初作者担心自己的狗会攻击史蒂夫的猫Flora，但作者的狗和史蒂夫的狗相处友好，可得出在训练下，狗不会去攻击猫，结合动物的领地意识可知，此处指狗尊重猫的空间。故选B项。",
+     "type": "cloze",
+     "score": 1.5,
+     "answer": "B"
+    },
+    {
+     "id": 37,
+     "stem": "",
+     "options": [
+      {
+       "letter": "A",
+       "text": "looking"
+      },
+      {
+       "letter": "B",
+       "text": "caring"
+      },
+      {
+       "letter": "C",
+       "text": "waiting"
+      },
+      {
+       "letter": "D",
+       "text": "calling"
+      }
+     ],
+     "explanation": "考查动词词义辨析。句意：这三条狗组成了一个团队，在训练下，尊重Flora的空间；史蒂夫和我组成了一个照顾Tilly的好团队。A. looking看；B. caring照顾；C. waiting等待；D. calling打电话。由上文的“Tilly had an operation (Tilly做了一次手术)”可知，作者的狗Tilly做过手术，史蒂夫和作者一起居住后，和作者一起照顾术后康复的Tilly。故选B项。\n38题详解】\n考查名词词义辨析。句意：一年后，令我非常高兴的是，这个男人拿出一个带戒指的小盒子向我求婚。A. delight高兴；B. credit信用；C. interest兴趣；D. disadvantage缺点。由下文的“this man produced a little box with a ring and proposed to me (这个男人拿出一个带戒指的小盒子向我求婚)”可知，史蒂夫向作者求婚，作者应该是感到高兴。故选A项。",
+     "type": "cloze",
+     "score": 1.5,
+     "answer": "B"
+    },
+    {
+     "id": 38,
+     "stem": "",
+     "options": [
+      {
+       "letter": "A",
+       "text": "delight"
+      },
+      {
+       "letter": "B",
+       "text": "credit"
+      },
+      {
+       "letter": "C",
+       "text": "interest"
+      },
+      {
+       "letter": "D",
+       "text": "disadvantage"
+      }
+     ],
+     "explanation": "【导语】这是一篇记叙文。文章讲述了，作者认为你可以从一个男人对待他的狗的方式来了解他很多，作者多年和两只爱犬生活在一起，去年开始和拥有猫狗的史蒂夫约会，但有所保留，因为一次遛狗时史蒂夫把水给自己的爱犬喝，作者渐渐对史蒂夫产生好感，在之后的接触中，史蒂夫和作者一起照顾作者的爱犬，一年后史蒂夫向作者求婚。",
+     "type": "cloze",
+     "score": 1.5,
+     "answer": "A"
+    },
+    {
+     "id": 39,
+     "stem": "",
+     "options": [
+      {
+       "letter": "A",
+       "text": "beg"
+      },
+      {
+       "letter": "B",
+       "text": "trust"
+      },
+      {
+       "letter": "C",
+       "text": "need"
+      },
+      {
+       "letter": "D",
+       "text": "aid"
+      }
+     ],
+     "explanation": "考查动词词义辨析。句意：他没有跪下，我也不需要他跪下。A. beg乞求；B. trust信任；C. need需要；D. aid帮助。由上文的“He did not kneel (跪) down (他没有跪下)”和常识可知，一般求婚是要下跪的，但史蒂夫没有下跪，作者对此并不在意，因为作者不需要他下跪。故选C项。",
+     "type": "cloze",
+     "score": 1.5,
+     "answer": "C"
+    },
+    {
+     "id": 40,
+     "stem": "",
+     "options": [
+      {
+       "letter": "A",
+       "text": "toys"
+      },
+      {
+       "letter": "B",
+       "text": "awards"
+      },
+      {
+       "letter": "C",
+       "text": "food"
+      },
+      {
+       "letter": "D",
+       "text": "water"
+      }
+     ],
+     "explanation": "考查名词词义辨析。句意：正是给爱犬喝水的举动把我们带到一起。A. toys玩具；B. awards奖励；C. food食物；D. water水。由上文的“He poured water from a bottle into his hand and offered it to my dogs.   10   , I began to fall for him. (他把瓶子里的水倒在手里，递给我的狗。我开始爱上他)”可知，就在史蒂夫把水给作者爱犬喝的那一刻，还有所保留的作者卸下心防，对史蒂夫产生好感，所以是“给爱犬喝水”的举动让二人走到了一起。故选D项。",
+     "type": "cloze",
+     "score": 1.5,
+     "answer": "D"
+    }
+   ]
+  },
+  {
+   "key": "grammar",
+   "partTitle": "第三部分 语言知识运用(共两节,满分45分)",
+   "secTitle": "第二节 ( 共10小题:每小题1.5分, 满分15分 )",
+   "passages": [
+    {
+     "label": "",
+     "text": "阅读下面短文, 在空白处填入1个适当的单词或括号内单词的正确形式.\nA visually-challenged man from Beijing recently hiked (徒步) 40 days to Xi’an, as a first step ___41___ (journey) the Belt and Road route (路线) by foot.\nOn the 1,100. Kilometer journey, the man Cao Shengkang, ___42___ lost his eyesight at the age of eight in a car accident, crossed 40 cities and counties in three province. Inspired by the Belt and Road Forum for International Cooperation ___43___ (bold) in Beijing, Cao decided to cover the route by hiking as a tribute (致敬) to the ancient Silk Road. ___44___ friend of his, Wu Fan, volunteered to be his companion during the trip.\nCao and Wu also collected garbage along the road, in order to promote environmental ___45___ (protect). Cao believes this will make the hiking trip even more ___46___ (meaning). The two of them collected more than 1,000 plastic bottles along the 40-day journey.\nIn the last five cars. Cao ___47___ (walk) through 34 countries in six continents, and in 2016, he reached the top of Kilimanjaro, Africa’s ___48___ (high) mountain.\nNow, Cao has started the second part of his dream to walk along the Belt and Road route. He flew 4, 700 kilometers ___49___ Xi’an to Kashgar on seat. 20, ___50___ (plan) to hike back to Xi’an in five months.\n42. who    43. held    44. A\n45. protection\n46. meaningful\n47. has walked\n48. highest\n49. from    50. planning"
+    }
+   ],
+   "pool": [],
+   "questions": [
+    {
+     "id": 41,
+     "stem": "",
+     "options": [],
+     "explanation": "考查非谓语动词。句意：近日，一名来自北京的盲人徒步40天来到西安，作为“一带一路”徒步旅行的第一步。分析句子结合句意可知，journey为动词，表示“旅行”，step前面有序数词，应用不定式，作后置定语。故填to journey。",
+     "type": "grammar",
+     "score": 1.5,
+     "answer": "to journey"
+    },
+    {
+     "id": 42,
+     "stem": "",
+     "options": [],
+     "explanation": "考查定语从句。句意：在1100公里的旅程中，8岁时因一次车祸失明的男子曹盛康穿过了三个省的40个城市和县。分析句子结合句意可知，此处是非限定性定语从句，先行词为Cao Shengkang，指人，在从句中作主语，应用关系代词who引导。故填who。",
+     "type": "grammar",
+     "score": 1.5,
+     "answer": "who"
+    },
+    {
+     "id": 43,
+     "stem": "",
+     "options": [],
+     "explanation": "考查非谓语动词。句意：受到在北京举行的“一带一路”国际合作高峰论坛的启发，曹决定徒步穿越这条路线，以向古代丝绸之路致敬。分析句子可知，本句已有谓语动词decided，所以hold应用非谓语动词形式，hold与cooperation之间为逻辑动宾关系，应用过去分词，作后置定语，表被动。故填held。",
+     "type": "grammar",
+     "score": 1.5,
+     "answer": "held"
+    },
+    {
+     "id": 44,
+     "stem": "",
+     "options": [],
+     "explanation": "考查冠词。句意：他的一位朋友吴凡在旅行中自愿成为他的同伴。根据句意可知，此处泛指“他的一个朋友”，应用不定冠词，friend以辅音音素开头，应用a，空处位于句首，首字母大写。故填A。",
+     "type": "grammar",
+     "score": 1.5,
+     "answer": "A"
+    },
+    {
+     "id": 45,
+     "stem": "",
+     "options": [],
+     "explanation": "考查名词。句意：曹和吴还沿路收集垃圾，以促进环境保护。根据句意和空前的形容词environmental可知，此处应用名词protection，作宾语，protection表示“保护”时，是不可数名词。故填protection。",
+     "type": "grammar",
+     "score": 1.5,
+     "answer": "protection"
+    },
+    {
+     "id": 46,
+     "stem": "",
+     "options": [],
+     "explanation": "考查形容词。句意：曹认为这将使这次徒步旅行更加有意义。此处是make复合结构，应用形容词meaningful，作宾语补足语。故填meaningful。",
+     "type": "grammar",
+     "score": 1.5,
+     "answer": "meaningful"
+    },
+    {
+     "id": 47,
+     "stem": "",
+     "options": [],
+     "explanation": "考查动词时态。句意：在过去的五年中，曹操穿越了六大洲的34个国家，2016年，他到达了乞力马扎罗山顶，这是非洲最高的山峰。根据时间状语in the last five years可知，此处应用现在完成时，主语Cao为第三人称单数，助动词用has。故填has walked。",
+     "type": "grammar",
+     "score": 1.5,
+     "answer": "has walked"
+    },
+    {
+     "id": 48,
+     "stem": "",
+     "options": [],
+     "explanation": "考查形容词最高级。句意：在过去的五年中，曹穿越了六大洲的34个国家，2016年，他到达了乞力马扎罗山顶，这是非洲最高的山峰。根据空前Africa’s可知，此处表示乞力马扎罗山是非洲最高的山脉，应用形容词最高级。故填highest。",
+     "type": "grammar",
+     "score": 1.5,
+     "answer": "highest"
+    },
+    {
+     "id": 49,
+     "stem": "",
+     "options": [],
+     "explanation": "考查介词。句意：9月20日，他从4700公里外的西安飞到了喀什，计划在五个月内徒步回到西安。根据句意和Xi’an to Kashgar 可知，此处表示“从西安飞往喀什”，应用介词from，固定搭配from…to…表示“从……到……”。故填from。",
+     "type": "grammar",
+     "score": 1.5,
+     "answer": "from"
+    },
+    {
+     "id": 50,
+     "stem": "",
+     "options": [],
+     "explanation": "考查非谓语动词。句意：9月20日，他从4700公里外的西安飞到了喀什，计划在五个月内徒步回到西安。分析句子可知，已有谓语动词flew，所以动词plan(计划)应用非谓语动词形式，plan与主语He之间为逻辑主谓关系，应用现在分词，表主动。故填planning。",
+     "type": "grammar",
+     "score": 1.5,
+     "answer": "planning"
+    }
+   ]
+  },
+  {
+   "key": "proofreading",
+   "partTitle": "第四部分 写作 (共两节,满分35分)",
+   "secTitle": "第一节 短文改错 (共10小题；每小题1分，满分10分)",
+   "passages": [],
+   "pool": [],
+   "questions": [
+    {
+     "id": 51,
+     "stem": "假定英语课上老师要求同桌之间交换修改作文，请你修改你同桌写的以下作文。文中共有10处语言错误，每句中最多有两处。每处错误仅涉及一个单词的增加、删除或修改。",
+     "options": [],
+     "material": "增加：在缺词处加一个漏字符号（∧），并在其下面写出该加的词。\n删除：把多余的词用斜线（\\）划掉。\n修改：在错的词下划一横线，并在该词下面写出修改后的词。\n注意：1. 每处错误及其修改均仅限一词；\n2. 只允许修改10处，多者（从第11处起）不计分。\nMy father often took me to his hospital when I was off my school. He showed me how his medical instruments was used. I felt so closely to him. However, after I went to high school, somehow I become distant from him. I was unwilling talk with him and often disobeyed his rule of not stay out with my friends too late. The disagreement was too sharp that neither he nor I knew what to settle it. One day, he talked with me or hoped to mend our relations. With the efforts made by all sides, we began to understand each other better.\n2was→were\n3.closely→close\n4.become→became\n5.talk前面加to\n6.stay→staying\n7.too→so\n8.what→how\n9.or→and\n10.all→both\n2.考查主谓一致。句意：他向我展示他的医疗器械是如何使用的。主语instruments为复数形式，全文为一般过去时，be动词用复数形式were。故将was改为were。\n3.考查形容词。句意：我对他感觉如此亲近。felt为系动词，后面用形容词作表语，表示“亲近的”，closely为副词，此处用close。故将closely改为close。\n4.考查动词时态。句意：然而，在我上了高中之后，不知怎么的，我开始疏远他。全文用一般过去时，动词become应改为过去式became。故将become改为became。\n5.考查短语。句意：我不愿意和他交谈，经常违反他让我不要在外面待到很晚的规定。be willing to do意思为：愿意做，为固定短语。故在talk前面加to。\n6.考查非谓语动词。句意同上。of为介词，后面的动词stay用动名词形式staying作宾语。故将stay改为staying。\n7.考查状语从句。句意：这分歧如此尖锐，以至于他和我都不知道如何解决它。固定句型“so…that…”译为“如此……以至于……”引导结果状语从句。故将too改为so。\n8.考查副词。句意同上。此处为“疑问副词+不定式”结构来做动词knew的宾语。结合句意，此处表达“如何解决它”，settle it为动宾关系，此处缺少方式状语，用how。故将what改为how。\n9.考查并列连词。句意：一天，他和我交谈，并且希望修补我们的关系。根据语境，“talked with me”与“hoped to mend our relations”为顺承、递进关系，用and连接。故将or改为and。\n10.考查限定词。句意：在两方的努力下，我们开始更好地理解对方。结合语境可知，此处表示作者和父亲双方，用both修饰sides，表示两方，all用于三者及以上。故将all改为both。\n",
+     "explanation": "【导语】本文是一篇记叙文，介绍了作者在成长过程中和父亲之间关系的变化及处理分歧的过程。\n【详解】1.考查短语。句意：当我不上学时，我的爸爸经常带我去他的医院。off school为固定短语，表示“不在上学时”，school前面不加任何限定词。故将my去掉。",
+     "type": "proofreading",
+     "score": 10,
+     "modelAnswer": "1.去掉my 2was→were"
+    }
+   ]
+  },
+  {
+   "key": "writing_app",
+   "partTitle": "第四部分 写作 (共两节,满分35分)",
+   "secTitle": "第二节 书面表达（满分25分）",
+   "passages": [],
+   "pool": [],
+   "questions": [
+    {
+     "id": 52,
+     "stem": "你校将以六月八日世界海洋日为主题，举办英语征文比赛，请你写一篇短文投稿。",
+     "options": [],
+     "material": "内容包括：\n1. 海洋的重要性；\n2. 保护海洋的倡议。\n注意：1. 词数100左右；\n2. 短文的题目和首句已为你写好。\n____________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________\nOcean plays a key role in our world. Not only does ocean offer us sufficient food, but also it maintains the balance of nature. Thus, it is imperative to protect ocean. First of all, what we can do is to place importance on our daily actions. For example, garbage can’t be thrown into ocean. What’s more, we can also hand out leaflets to call on more people to protect the ocean. The more people are involved, the better the ocean environment is.\nAll in all, it is high time that we devoted ourselves to protecting ocean. To protect ocean is to protect ourselves.\n",
+     "explanation": "【导语】本文是一篇应用文，就世界海洋日为主题向英文征文比赛投稿，阐述海洋的重要性并提出一些建议。\n【详解】1.词汇积累\n越来越：more and more→increasingly\n重视：place importance on→attach importance to\n重要的：key→significant\n此外：what’s more→furthermore\n2句式拓展\n简单句变复合句\n原句：World Ocean Day, falling on June 8th, is aimed at raising awareness of ocean conservation.\n拓展句：World Ocean Day, which falls on June 8th, is aimed at raising awareness of ocean conservation.\n【点睛】[高分句型1]Not only does ocean offer us sufficient food, but also it maintains the balance of nature.(运用了部分倒装结构)\n[高分句型2]When it comes to ocean, its pollution becoming more and more serious.(使用了固定句型)\n[高分句型3]First of all, what we can do is to place importance on our daily actions.(使用了主语从句)",
+     "type": "writing_app",
+     "score": 25,
+     "modelAnswer": "When it comes to ocean, its pollution is becoming more and more serious. World Ocean Day, falling on June 8th, is aimed at raising awareness of ocean conservation. Ocean plays a key role in our world. Not only does ocean offer us sufficient food, but also it maintains the balance of nature. Thus, it is imperative to protect ocean. First of all, what we can do is to place importance on our daily actions. For example, garbage can’t be thrown into ocean. What’s more, we can also hand out leaflets to call on more people to protect the ocean. The more people are involved, the better the ocean environment is. All in all, it is high time that we devoted ourselves to protecting ocean. To protect ocean is to protect ourselves."
+    }
+   ]
+  }
+ ]
+}

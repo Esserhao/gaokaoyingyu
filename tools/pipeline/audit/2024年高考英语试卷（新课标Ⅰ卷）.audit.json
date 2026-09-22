@@ -1,0 +1,22 @@
+{
+  "source_file": "2024年高考英语试卷（新课标Ⅰ卷）",
+  "total_sections": 18,
+  "total_questions": 50,
+  "issues": [
+    {
+      "type": "question_id_gap",
+      "section": "reading",
+      "msg": "题号不连续: [6, 7, 9, 10, 11, 12, 13, 14, 15, 17]..."
+    },
+    {
+      "type": "question_id_gap",
+      "section": "reading",
+      "msg": "题号不连续: [28, 30, 31, 32, 33, 34, 35]..."
+    }
+  ],
+  "review_required": [],
+  "summary": {
+    "total_issues": 2,
+    "needs_review": true
+  }
+}

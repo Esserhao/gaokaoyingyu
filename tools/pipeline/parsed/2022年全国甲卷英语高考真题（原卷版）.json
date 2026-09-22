@@ -1,0 +1,978 @@
+{
+  "source_file": "2022年全国甲卷英语高考真题（原卷版）",
+  "sections": [
+    {
+      "key": "listening",
+      "partTitle": "listening",
+      "questions": []
+    },
+    {
+      "key": "reading",
+      "partTitle": "reading",
+      "questions": [
+        {
+          "id": 1,
+          "type": "reading",
+          "stem": "What does the man want to do?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Have breakfast.      B. Take a walk.      C. Call his office."
+            },
+            {
+              "letter": "B",
+              "text": "Take a walk.      C. Call his office."
+            },
+            {
+              "letter": "C",
+              "text": "Call his office."
+            }
+          ],
+          "answer": "",
+          "explanation": null
+        },
+        {
+          "id": 2,
+          "type": "reading",
+          "stem": "What was George doing last night?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Having a meeting.      B. Flying home.      C. Working on a project."
+            },
+            {
+              "letter": "B",
+              "text": "Flying home.      C. Working on a project."
+            },
+            {
+              "letter": "C",
+              "text": "Working on a project."
+            }
+          ],
+          "answer": "",
+          "explanation": null
+        },
+        {
+          "id": 3,
+          "type": "reading",
+          "stem": "Why does the man suggest going to the park?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "It's big.      B. It's quiet.      C. It's new."
+            },
+            {
+              "letter": "B",
+              "text": "It's quiet.      C. It's new."
+            },
+            {
+              "letter": "C",
+              "text": "It's new."
+            }
+          ],
+          "answer": "",
+          "explanation": null
+        },
+        {
+          "id": 4,
+          "type": "reading",
+          "stem": "How does the woman sound?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Annoyed.      B. Pleased.      C. Puzzled."
+            },
+            {
+              "letter": "B",
+              "text": "Pleased.      C. Puzzled."
+            },
+            {
+              "letter": "C",
+              "text": "Puzzled."
+            }
+          ],
+          "answer": "",
+          "explanation": null
+        },
+        {
+          "id": 5,
+          "type": "reading",
+          "stem": "Where is the man's table?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Near the door.      B. By the window.      C. In the corner."
+            },
+            {
+              "letter": "B",
+              "text": "By the window.      C. In the corner."
+            },
+            {
+              "letter": "C",
+              "text": "In the corner.  第二节（共15小题；每小题1.5分，满分22.5分）"
+            }
+          ],
+          "answer": "",
+          "explanation": null
+        }
+      ]
+    },
+    {
+      "key": "reading",
+      "partTitle": "reading",
+      "questions": [
+        {
+          "id": 6,
+          "type": "reading",
+          "stem": "What are the speakers going to do tonight?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Eat out.      B. Go shopping.      C. Do sports."
+            },
+            {
+              "letter": "B",
+              "text": "Go shopping.      C. Do sports."
+            },
+            {
+              "letter": "C",
+              "text": "Do sports."
+            }
+          ],
+          "answer": "",
+          "explanation": null
+        },
+        {
+          "id": 7,
+          "type": "reading",
+          "stem": "What is the probable relationship between the speakers?",
+          "options": [],
+          "answer": "",
+          "explanation": null
+        },
+        {
+          "id": 8,
+          "type": "reading",
+          "stem": "Why does the woman think July is the best time to move?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Their business is slow.      B. The weather is favorable.      C. It's easy to hire people."
+            },
+            {
+              "letter": "B",
+              "text": "The weather is favorable.      C. It's easy to hire people."
+            },
+            {
+              "letter": "C",
+              "text": "It's easy to hire people."
+            }
+          ],
+          "answer": "",
+          "explanation": null
+        },
+        {
+          "id": 9,
+          "type": "reading",
+          "stem": "How will they handle the moving?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Finish it all at once.      B. Have the sales section go first.      C. Do one department at a time."
+            },
+            {
+              "letter": "B",
+              "text": "Have the sales section go first.      C. Do one department at a time."
+            },
+            {
+              "letter": "C",
+              "text": "Do one department at a time.  听第8段材料，回答第10至12题。"
+            }
+          ],
+          "answer": "",
+          "explanation": null
+        },
+        {
+          "id": 10,
+          "type": "reading",
+          "stem": "What did Peter learn from his grandfather?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "How to appreciate art works."
+            },
+            {
+              "letter": "B",
+              "text": "How to deal with artists."
+            },
+            {
+              "letter": "C",
+              "text": "How to run a museum."
+            }
+          ],
+          "answer": "",
+          "explanation": null
+        },
+        {
+          "id": 11,
+          "type": "reading",
+          "stem": "What did Peter do in Chicago?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "He studied at a college.      B. He served in the army.      C. He worked in a gallery."
+            },
+            {
+              "letter": "B",
+              "text": "He served in the army.      C. He worked in a gallery."
+            },
+            {
+              "letter": "C",
+              "text": "He worked in a gallery."
+            }
+          ],
+          "answer": "",
+          "explanation": null
+        },
+        {
+          "id": 12,
+          "type": "reading",
+          "stem": "Whose works did Peter like best?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Rembrandt's.      B. Botticelli's.      C. Rubens'."
+            },
+            {
+              "letter": "B",
+              "text": "Botticelli's.      C. Rubens'."
+            },
+            {
+              "letter": "C",
+              "text": "Rubens'.  听第9段材料，回答第13至16题。"
+            }
+          ],
+          "answer": "",
+          "explanation": null
+        },
+        {
+          "id": 13,
+          "type": "reading",
+          "stem": "Where does the conversation take place?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "At a library.      B. In a law firm.      C. On a train."
+            },
+            {
+              "letter": "B",
+              "text": "In a law firm.      C. On a train."
+            },
+            {
+              "letter": "C",
+              "text": "On a train."
+            }
+          ],
+          "answer": "",
+          "explanation": null
+        },
+        {
+          "id": 14,
+          "type": "reading",
+          "stem": "By what time did John plan to finish his term paper?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "March.      B. August.      C. October."
+            },
+            {
+              "letter": "B",
+              "text": "August.      C. October."
+            },
+            {
+              "letter": "C",
+              "text": "October."
+            }
+          ],
+          "answer": "",
+          "explanation": null
+        },
+        {
+          "id": 15,
+          "type": "reading",
+          "stem": "Why did John quit his part-time job?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "He had to catch up with his study.      B. He was offered a better one.      C. He got tired of it."
+            },
+            {
+              "letter": "B",
+              "text": "He was offered a better one.      C. He got tired of it."
+            },
+            {
+              "letter": "C",
+              "text": "He got tired of it."
+            }
+          ],
+          "answer": "",
+          "explanation": null
+        },
+        {
+          "id": 16,
+          "type": "reading",
+          "stem": "What is Susan's attitude to John's problem?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Carefree.      B. Understanding.      C. Forgiving."
+            },
+            {
+              "letter": "B",
+              "text": "Understanding.      C. Forgiving."
+            },
+            {
+              "letter": "C",
+              "text": "Forgiving.  听第10段材料，回答第17至20题。"
+            }
+          ],
+          "answer": "",
+          "explanation": null
+        },
+        {
+          "id": 17,
+          "type": "reading",
+          "stem": "What did the speaker do before the year 2012?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "A fitness coach.      B. A chess player.      C. A marathon runner."
+            },
+            {
+              "letter": "B",
+              "text": "A chess player.      C. A marathon runner."
+            },
+            {
+              "letter": "C",
+              "text": "A marathon runner."
+            }
+          ],
+          "answer": "",
+          "explanation": null
+        },
+        {
+          "id": 18,
+          "type": "reading",
+          "stem": "Why was the 2016 Olympics important for the speaker?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "He was motivated by Bolt.      B. He broke a world record.      C. He won fifth place."
+            },
+            {
+              "letter": "B",
+              "text": "He broke a world record.      C. He won fifth place."
+            },
+            {
+              "letter": "C",
+              "text": "He won fifth place."
+            }
+          ],
+          "answer": "",
+          "explanation": null
+        },
+        {
+          "id": 19,
+          "type": "reading",
+          "stem": "Which is the hardest for the speaker?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Getting over an injury.      B. Doing strength training.      C. Representing Botswana."
+            },
+            {
+              "letter": "B",
+              "text": "Doing strength training.      C. Representing Botswana."
+            },
+            {
+              "letter": "C",
+              "text": "Representing Botswana."
+            }
+          ],
+          "answer": "",
+          "explanation": null
+        },
+        {
+          "id": 20,
+          "type": "reading",
+          "stem": "What is the speaker mainly talking about?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "His plan to go for the gold."
+            },
+            {
+              "letter": "B",
+              "text": "His experience on the track."
+            },
+            {
+              "letter": "C",
+              "text": "His love for his home country."
+            }
+          ],
+          "answer": "",
+          "explanation": null
+        }
+      ]
+    },
+    {
+      "key": "reading",
+      "partTitle": "reading",
+      "questions": []
+    },
+    {
+      "key": "reading",
+      "partTitle": "reading",
+      "questions": [
+        {
+          "id": 1,
+          "type": "reading",
+          "stem": "Where is the Welsh Proms Cardiff hosted?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "At the New Theatre.\tB. At the Glee Club."
+            },
+            {
+              "letter": "B",
+              "text": "At the Glee Club."
+            },
+            {
+              "letter": "C",
+              "text": "At Sherman Cymru.\tD. At St David’s Hall."
+            },
+            {
+              "letter": "D",
+              "text": "At St David’s Hall."
+            }
+          ],
+          "answer": "",
+          "explanation": null
+        },
+        {
+          "id": 2,
+          "type": "reading",
+          "stem": "What can people do at the Glee Club?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Watch musicals.\tB. Enjoy comedies."
+            },
+            {
+              "letter": "B",
+              "text": "Enjoy comedies."
+            },
+            {
+              "letter": "C",
+              "text": "See family shows.\tD. Do creative things."
+            },
+            {
+              "letter": "D",
+              "text": "Do creative things."
+            }
+          ],
+          "answer": "",
+          "explanation": null
+        },
+        {
+          "id": 3,
+          "type": "reading",
+          "stem": "Which website can you visit to learn about Cardiff’s oldest surviving theatre?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "www.newtheatrecardiff.co.uk\tB. www.shermancymru.co.uk"
+            },
+            {
+              "letter": "B",
+              "text": "www.shermancymru.co.uk"
+            },
+            {
+              "letter": "C",
+              "text": "www.glee.co.uk/cardiff\tD. www.stdavidshalleardiff.co.uk"
+            },
+            {
+              "letter": "D",
+              "text": "www.stdavidshalleardiff.co.uk B Goffin’s cockatoos, a kind of small parrot native to Australasia, have been shown to have similar shape-recognition abilities to a human two-year-old. Though not known to use tools in the wild, the birds have proved skilful at tool use while kept in the cage. In a recent experiment, cockatoos were presented with a box with a nut inside it. The clear front of the box had a “keyhole” in a geometric shape, and the birds were given five differently shaped “keys” to choose from. Inserting the correct “key” would let out the nut. In humans, babies can put a round shape in a round hole from around one year of age, but it will be another year before they are able to do the same with less symmetrical (对称的) shapes. This ability to recognize that a shape will need to be turned in a specific direction before it will fit is called an “allocentric frame of reference”. In the experiment, Goffin’s cockatoos were able to select the right tool for the job, in most cases, by visual recognition alone. Where trial-and-error was used, the cockatoos did better than monkeys in similar tests. This indicates that Goffin’s cockatoos do indeed possess an allocentric frame of reference when moving objects in space, similar to two-year-old babies. The next step, according to the researchers, is to try and work out whether the cockatoos rely entirely on visual clues (线索), or also use a sense of touch in making their shape selections."
+            }
+          ],
+          "answer": "",
+          "explanation": null
+        },
+        {
+          "id": 4,
+          "type": "reading",
+          "stem": "How did the cockatoos get the nut from the box in the experiment?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "By following instructions.\tB. By using a tool."
+            },
+            {
+              "letter": "B",
+              "text": "By using a tool."
+            },
+            {
+              "letter": "C",
+              "text": "By turning the box around.\tD. By removing the lid."
+            },
+            {
+              "letter": "D",
+              "text": "By removing the lid."
+            }
+          ],
+          "answer": "",
+          "explanation": null
+        },
+        {
+          "id": 5,
+          "type": "reading",
+          "stem": "Which task can human one-year-olds most likely complete according to the text?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Using a key to unlock a door.\tB. Telling parrots from other birds."
+            },
+            {
+              "letter": "B",
+              "text": "Telling parrots from other birds."
+            },
+            {
+              "letter": "C",
+              "text": "Putting a ball into a round hole.\tD. Grouping toys of different shapes."
+            },
+            {
+              "letter": "D",
+              "text": "Grouping toys of different shapes."
+            }
+          ],
+          "answer": "",
+          "explanation": null
+        },
+        {
+          "id": 6,
+          "type": "reading",
+          "stem": "What does the follow-up test aim to find out about the cockatoos?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "How far they are able to see.\tB. How they track moving objects."
+            },
+            {
+              "letter": "B",
+              "text": "How they track moving objects."
+            },
+            {
+              "letter": "C",
+              "text": "Whether they are smarter than monkeys.\tD. Whether they use a sense of touch in the test."
+            },
+            {
+              "letter": "D",
+              "text": "Whether they use a sense of touch in the test."
+            }
+          ],
+          "answer": "",
+          "explanation": null
+        },
+        {
+          "id": 7,
+          "type": "reading",
+          "stem": "Which can be a suitable title for the text?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Cockatoos: Quick Error Checkers\tB. Cockatoos: Independent Learners"
+            },
+            {
+              "letter": "B",
+              "text": "Cockatoos: Independent Learners"
+            },
+            {
+              "letter": "C",
+              "text": "Cockatoos: Clever Signal-Readers\tD. Cockatoos: Skilful Shape-Sorters"
+            },
+            {
+              "letter": "D",
+              "text": "Cockatoos: Skilful Shape-Sorters C As Ginni Bazlinton reached Antarctica, she found herself greeted by a group of little Gentoo penguins(企鹅) longing to say hello. These gentle, lovely gatekeepers welcomed her and kick-started what was to be a trip Ginni would never forget. Ever since her childhood, Ginni, now 71, has had a deep love for travel. Throughout her career(职业) as a professional dancer, she toured in the UK, but always longed to explore further When she retired from dancing and her sons eventually flew the nest, she decided it was time to take the plunge. After taking a degree at Chichester University in Related Arts, Ginni began to travel the world, eventually getting work teaching English in Japan and Chile. And it was in Chile she discovered she could get last-minute cheap deals on ships going to Antarctica from the islands off Tierra del Fuego, the southernmost tip of the South American mainland. “I just decided wanted to go,” she says. “I had no idea about what I’d find there and I wasn’t nervous, I just wanted to do it. And I wanted to do it alone as I always prefer it that way.” In March 2008, Ginni boarded a ship with 48 passengers she’d never met before, to begin the journey towards Antarctica. “From seeing the wildlife to witnessing sunrises, the whole experience was amazing. Antarctica left an impression on me that no other place has,” Ginni says. “I remember the first time I saw a humpback whale; it just rose out of the water like some prehistoric creature and I thought it was smiling at us. You could still hear the operatic sounds it was making underwater.” The realization that this is a precious land, to be respected by humans, was one of the biggest things that hit home to Ginni."
+            }
+          ],
+          "answer": "",
+          "explanation": null
+        },
+        {
+          "id": 8,
+          "type": "reading",
+          "stem": "Which of the following best explains “take the plunge” underlined in paragraph 2?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Try challenging things.\tB. Take a degree."
+            },
+            {
+              "letter": "B",
+              "text": "Take a degree."
+            },
+            {
+              "letter": "C",
+              "text": "Bring back lost memories.\tD. Stick to a promise."
+            },
+            {
+              "letter": "D",
+              "text": "Stick to a promise."
+            }
+          ],
+          "answer": "",
+          "explanation": null
+        },
+        {
+          "id": 9,
+          "type": "reading",
+          "stem": "What made Ginni decide on the trip to Antarctica?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Lovely penguins.\tB. Beautiful scenery."
+            },
+            {
+              "letter": "B",
+              "text": "Beautiful scenery."
+            },
+            {
+              "letter": "C",
+              "text": "A discount fare.\tD. A friend’s invitation."
+            },
+            {
+              "letter": "D",
+              "text": "A friend’s invitation. 10 What does Ginni think about Antarctica after the journey? A. It could be a home for her.\tB. It should be easily accessible. C. It should be well preserved.\tD. It needs to be fully introduced."
+            }
+          ],
+          "answer": "",
+          "explanation": null
+        },
+        {
+          "id": 11,
+          "type": "reading",
+          "stem": "What is the text mainly about?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "A childhood dream.\tB. An unforgettable experience."
+            },
+            {
+              "letter": "B",
+              "text": "An unforgettable experience. C Sailing around the world.\tD. Meeting animals in Antarctica. D Sometime in the early 1960s, a significant thing happened in Sydney, Australia. The city discovered its harbor. Then, one after another, Sydney discovered lots of things that were just sort of there — broad parks, superb beaches, and a culturally diverse population. But it is the harbor that makes the city. Andrew Reynolds, a cheerful fellow in his early 30s, pilots Sydney ferryboats for a living. I spent the whole morning shuttling back and forth across the harbor. After our third run Andrew shut down the engine, and we went our separate ways — he for a lunch break, I to explore the city. “I’ll miss these old boats,” he said as we parted. “How do you mean?” I asked. “Oh, they’re replacing them with catamarans. Catamarans are faster, but they’re not so elegant, and they’re not fun to pilot. But that’s progress, I guess.” Everywhere in Sydney these days, change and progress are the watchwords (口号), and traditions are increasingly rare. Shirley Fitzgerald, the city’s official historian, told me that in its rush to modernity in the 1970s, Sydney swept aside much of its past, including many of its finest buildings. “Sydney is confused about itself,” she said. “We can’t seem to make up our minds whether we want a modern city or a traditional one. It’s a conflict that we aren’t getting any better at resolving (解决).” On the other hand, being young and old at the same time has its attractions. I considered this when I met a thoughtful young businessman named Anthony. “Many people say that we lack culture in this country,” he told me. “What people forget is that the Italians, when they came to Australia, brought 2000 years of their culture, the Greeks some 3000 years, and the Chinese more still. We’ve got a foundation built on ancient cultures but with a drive and dynamism of a young country. It’s a pretty hard combination to beat.” He is right, but I can’t help wishing they would keep those old ferries."
+            }
+          ],
+          "answer": "",
+          "explanation": null
+        },
+        {
+          "id": 12,
+          "type": "reading",
+          "stem": "What is the first paragraph mainly about?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Sydney’s striking architecture.\tB. The cultural diversity of Sydney."
+            },
+            {
+              "letter": "B",
+              "text": "The cultural diversity of Sydney."
+            },
+            {
+              "letter": "C",
+              "text": "The key to Sydney’s development.\tD. Sydney’s tourist attractions in the 1960s."
+            },
+            {
+              "letter": "D",
+              "text": "Sydney’s tourist attractions in the 1960s."
+            }
+          ],
+          "answer": "",
+          "explanation": null
+        },
+        {
+          "id": 13,
+          "type": "reading",
+          "stem": "What can we learn about Andrew Reynolds?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "He goes to work by boat.\tB. He looks forward to a new life."
+            },
+            {
+              "letter": "B",
+              "text": "He looks forward to a new life."
+            },
+            {
+              "letter": "C",
+              "text": "He pilots catamarans well.\tD. He is attached to the old ferries."
+            },
+            {
+              "letter": "D",
+              "text": "He is attached to the old ferries."
+            }
+          ],
+          "answer": "",
+          "explanation": null
+        },
+        {
+          "id": 14,
+          "type": "reading",
+          "stem": "What does Shirley Fitzgerald think of Sydney?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "It is losing its traditions.\tB. It should speed up its progress."
+            },
+            {
+              "letter": "B",
+              "text": "It should speed up its progress."
+            },
+            {
+              "letter": "C",
+              "text": "It should expand its population.\tD. It is becoming more international."
+            },
+            {
+              "letter": "D",
+              "text": "It is becoming more international."
+            }
+          ],
+          "answer": "",
+          "explanation": null
+        },
+        {
+          "id": 15,
+          "type": "reading",
+          "stem": "Which statement will the author probably agree with?",
+          "options": [],
+          "answer": "",
+          "explanation": null
+        }
+      ]
+    },
+    {
+      "key": "reading",
+      "partTitle": "reading",
+      "questions": [
+        {
+          "id": 21,
+          "type": "reading",
+          "stem": "A. ownership\tB. membership\tC. companionship\tD. leadership",
+          "options": [],
+          "answer": "",
+          "explanation": null
+        },
+        {
+          "id": 22,
+          "type": "reading",
+          "stem": "A. reservations\tB. expectations\tC. confidence\tD. prejudice",
+          "options": [],
+          "answer": "",
+          "explanation": null
+        },
+        {
+          "id": 23,
+          "type": "reading",
+          "stem": "A. feared\tB. doubted\tC. hoped\tD. learned",
+          "options": [],
+          "answer": "",
+          "explanation": null
+        },
+        {
+          "id": 24,
+          "type": "reading",
+          "stem": "A. unsatisfied\tB. amused\tC. terrified\tD. thrilled",
+          "options": [],
+          "answer": "",
+          "explanation": null
+        },
+        {
+          "id": 25,
+          "type": "reading",
+          "stem": "A. predicted\tB. worried\tC. regretted\tD. insisted",
+          "options": [],
+          "answer": "",
+          "explanation": null
+        },
+        {
+          "id": 26,
+          "type": "reading",
+          "stem": "A. Flora\tB. Chance\tC. Molly\tD. Tilly",
+          "options": [],
+          "answer": "",
+          "explanation": null
+        },
+        {
+          "id": 27,
+          "type": "reading",
+          "stem": "A. tied\tB. walked\tC. bathed\tD. fed",
+          "options": [],
+          "answer": "",
+          "explanation": null
+        },
+        {
+          "id": 28,
+          "type": "reading",
+          "stem": "A. breath\tB. balance\tC. attention\tD. imagination",
+          "options": [],
+          "answer": "",
+          "explanation": null
+        },
+        {
+          "id": 29,
+          "type": "reading",
+          "stem": "A. calm\tB. sure\tC. soon\tD. real",
+          "options": [],
+          "answer": "",
+          "explanation": null
+        },
+        {
+          "id": 30,
+          "type": "reading",
+          "stem": "A. By the way\tB. In that case\tC. By all means\tD. In that moment",
+          "options": [],
+          "answer": "",
+          "explanation": null
+        },
+        {
+          "id": 31,
+          "type": "reading",
+          "stem": "A. continued\tB. decided\tC. intended\tD. pretended",
+          "options": [],
+          "answer": "",
+          "explanation": null
+        },
+        {
+          "id": 32,
+          "type": "reading",
+          "stem": "A. eye\tB. tail\tC. ear\tD. leg",
+          "options": [],
+          "answer": "",
+          "explanation": null
+        },
+        {
+          "id": 33,
+          "type": "reading",
+          "stem": "A. secretly\tB. constantly\tC. eventually\tD. unwillingly",
+          "options": [],
+          "answer": "",
+          "explanation": null
+        },
+        {
+          "id": 34,
+          "type": "reading",
+          "stem": "A. left\tB. sold\tC. suggested\tD. searched",
+          "options": [],
+          "answer": "",
+          "explanation": null
+        },
+        {
+          "id": 35,
+          "type": "reading",
+          "stem": "A. late\tB. hard\tC. fine\tD. free",
+          "options": [],
+          "answer": "",
+          "explanation": null
+        },
+        {
+          "id": 36,
+          "type": "reading",
+          "stem": "A. emptied\tB. respected\tC. occupied\tD. discovered",
+          "options": [],
+          "answer": "",
+          "explanation": null
+        },
+        {
+          "id": 37,
+          "type": "reading",
+          "stem": "A. looking\tB. caring\tC. waiting\tD. calling",
+          "options": [],
+          "answer": "",
+          "explanation": null
+        },
+        {
+          "id": 38,
+          "type": "reading",
+          "stem": "A. delight\tB. credit\tC. interest\tD. disadvantage",
+          "options": [],
+          "answer": "",
+          "explanation": null
+        },
+        {
+          "id": 39,
+          "type": "reading",
+          "stem": "A. beg\tB. trust\tC. need\tD. aid",
+          "options": [],
+          "answer": "",
+          "explanation": null
+        },
+        {
+          "id": 40,
+          "type": "reading",
+          "stem": "A. toys\tB. awards\tC. food\tD. water",
+          "options": [],
+          "answer": "",
+          "explanation": null
+        }
+      ]
+    },
+    {
+      "key": "reading",
+      "partTitle": "reading",
+      "questions": []
+    },
+    {
+      "key": "writing",
+      "partTitle": "writing",
+      "questions": [
+        {
+          "id": 1,
+          "type": "writing",
+          "stem": "第四部分 写作 (共两节,满分35分)",
+          "modelAnswer": "",
+          "explanation": null
+        }
+      ]
+    },
+    {
+      "key": "proofreading",
+      "partTitle": "proofreading",
+      "questions": [
+        {
+          "id": 1,
+          "type": "proofreading",
+          "material": "第一节 短文改错 (共10小题；每小题1分，满分10分) \n51. 假定英语课上老师要求同桌之间交换修改作文，请你修改你同桌写的以下作文。文中共有10处语言错误，每句中最多有两处。每处错误仅涉及一个单词的增加、删除或修改。\n增加：在缺词处加一个漏字符号（∧），并在其下面写出该加的词。\n删除：把多余的词用斜线（\\）划掉。\n修改：在错的词下划一横线，并在该词下面写出修改后的词。\n注意：1. 每处错误及其修改均仅限一词； \n2. 只允许修改10处，多者（从第11处起）不计分。\nMy father often took me to his hospital when I was off my school. He showed me how his medical instruments was used. I felt so closely to him. However, after I went to high school, somehow I become distant from him. I was unwilling talk with him and often disobeyed his rule of not stay out with my friends too late. The disagreement was too sharp that neither he nor I knew what to settle it. One day, he talked with me or hoped to mend our relations. With the efforts made by all sides, we began to understand each other better.",
+          "modelAnswer": "",
+          "explanation": {
+            "summary": "",
+            "points": []
+          }
+        }
+      ]
+    },
+    {
+      "key": "writing",
+      "partTitle": "writing",
+      "questions": [
+        {
+          "id": 1,
+          "type": "writing",
+          "stem": "第二节 书面表达（满分25分）\n52. 你校将以六月八日世界海洋日为主题，举办英语征文比赛，请你写一篇短文投稿。\n内容包括：\n1. 海洋的重要性；\n2. 保护海洋的倡议。\n注意：1. 词数100左右；\n2. 短文的题目和首句已为你写好。\n____________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________",
+          "modelAnswer": "",
+          "explanation": null
+        }
+      ]
+    }
+  ]
+}

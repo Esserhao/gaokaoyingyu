@@ -1,0 +1,2079 @@
+{
+  "id": "gk2023-xgk2",
+  "year": 2023,
+  "paper": "新课标Ⅱ卷",
+  "region": "辽宁、重庆、海南",
+  "title": "2023年新课标Ⅱ卷英语",
+  "format": "new",
+  "duration": 120,
+  "totalScore": 150,
+  "hasAudio": false,
+  "audio": null,
+  "quality": "verified",
+  "proofreadingConfirmed": true,
+  "sections": [
+    {
+      "key": "listening",
+      "partTitle": "第一部分 听力（共两节，满分30分）",
+      "secTitle": "第一节（共5小题；每小题1.5分，满分7.5分）听下面5段对话。每段对话后有一个小题，从题中所给的A、B、C三个选项中选出最佳选项。听完每段对话后，你都有10秒钟的时间来回答有关小题和阅读下一小题。每段对话仅读一遍。",
+      "pool": [],
+      "passages": [],
+      "questions": [
+        {
+          "id": 1,
+          "stem": "What will Jack probably do this weekend?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Go camping."
+            },
+            {
+              "letter": "B",
+              "text": "Visit a friend."
+            },
+            {
+              "letter": "C",
+              "text": "Watch a film."
+            }
+          ],
+          "answer": "C",
+          "type": "listening",
+          "score": 1.5,
+          "transcript": "W: Jack, are you going camping with your friends this weekend?\nM: It depends. If it's sunny, we'll go.\nW: The weatherman says it's going to rain.\nM: In that case, we'll go to the cinema instead.",
+          "explanation": {
+            "summary": "听力细节题｜周末天气与活动安排。",
+            "question": "问 Jack 这个周末可能会做什么。",
+            "evidence": "W: The weatherman says it's going to rain. / M: In that case, we'll go to the cinema instead.",
+            "answer": "C。预报有雨，男士说那就改去电影院，即看电影。"
+          }
+        },
+        {
+          "id": 2,
+          "stem": "What does the woman ask the man to do?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Take care of her bags."
+            },
+            {
+              "letter": "B",
+              "text": "Pack the food for her."
+            },
+            {
+              "letter": "C",
+              "text": "Check the train schedule."
+            }
+          ],
+          "answer": "A",
+          "type": "listening",
+          "score": 1.5,
+          "transcript": "W: Excuse me, could you mind my bags for a moment? I want to buy some food at the convenience store.\nM: No problem. But be quick. It was announced that my train would arrive in 10 minutes.",
+          "explanation": {
+            "summary": "听力细节题｜车站请人看行李。",
+            "question": "问女士请男士做什么。",
+            "evidence": "could you mind my bags for a moment?",
+            "answer": "A。mind my bags 即“帮我看一下包”。"
+          }
+        },
+        {
+          "id": 3,
+          "stem": "When will the man see Bob?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "This Friday."
+            },
+            {
+              "letter": "B",
+              "text": "This Saturday."
+            },
+            {
+              "letter": "C",
+              "text": "Next Monday."
+            }
+          ],
+          "answer": "B",
+          "type": "listening",
+          "score": 1.5,
+          "transcript": "W: Bob came out of hospital last Friday. Have you got a chance to visit him?\nM: I plan to see him this Saturday.\nW: Aren't you going to the conference then?\nM: No. It has been rescheduled for next Monday.",
+          "explanation": {
+            "summary": "听力细节题｜时间干扰项辨析。",
+            "question": "问男士什么时候去看 Bob。",
+            "evidence": "M: I plan to see him this Saturday.",
+            "answer": "B。上周五是 Bob 出院时间，下周一是会议改期时间，均为干扰。"
+          }
+        },
+        {
+          "id": 4,
+          "stem": "Why does the man apologize?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "For the terrible food."
+            },
+            {
+              "letter": "B",
+              "text": "For the overcharge."
+            },
+            {
+              "letter": "C",
+              "text": "For the waiter's rudeness."
+            }
+          ],
+          "answer": "B",
+          "type": "listening",
+          "score": 1.5,
+          "transcript": "M: Sorry, Miss. We made a terrible mistake adding up the bill. Here is the ten dollars we have to return to you.\nW: Oh, I didn't notice that. It's OK. Don't blame the waiter. He's been really nice.",
+          "explanation": {
+            "summary": "听力推断题｜餐厅账单算错。",
+            "question": "问男士为什么道歉。",
+            "evidence": "We made a terrible mistake adding up the bill. Here is the ten dollars we have to return to you.",
+            "answer": "B。账单加错多收了钱，即 overcharge。"
+          }
+        },
+        {
+          "id": 5,
+          "stem": "What are the speakers talking about?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Writing a book."
+            },
+            {
+              "letter": "B",
+              "text": "Holding a celebration."
+            },
+            {
+              "letter": "C",
+              "text": "Buying a present."
+            }
+          ],
+          "answer": "C",
+          "type": "listening",
+          "score": 1.5,
+          "transcript": "W: Do you think we should get Steve a book for the new year?\nM: Books are good. But Steve wouldn't take just any book. He has had this particular one on geography.",
+          "explanation": {
+            "summary": "听力主旨题｜商量给人送什么礼物。",
+            "question": "问两人在谈什么。",
+            "evidence": "Do you think we should get Steve a book for the new year?",
+            "answer": "C。讨论给 Steve 买新年礼物（书），主题是买礼物。"
+          }
+        },
+        {
+          "id": 6,
+          "stem": "Why does Sara make the phone call?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "To ask for advice."
+            },
+            {
+              "letter": "B",
+              "text": "To arrange an outing."
+            },
+            {
+              "letter": "C",
+              "text": "To cancel an appointment."
+            }
+          ],
+          "answer": "C",
+          "type": "listening",
+          "score": 1.5,
+          "group": "听下面一段较长对话，回答第6、7小题。",
+          "transcript": "M: Hello, Sara.\nW: Hello, David. I can't come for dinner tonight. Sorry.\nM: Oh, what happened?\nW: We've got a new case and things get pretty crazy here in the office.\nM: Well, then I'll come to you.\nW: No, no, not tonight. Let me see if I can arrange another night.\nM: Sara, please. We need to talk. It's about my job.\nW: Then tell me on the phone.\nM: No, it's better if we do it in person. How about tomorrow night?\nW: I'm not sure. You can give me a call tomorrow afternoon.\nM: OK.",
+          "explanation": {
+            "summary": "听力细节题｜取消晚餐约会。",
+            "question": "问 Sara 为什么打这个电话。",
+            "evidence": "I can't come for dinner tonight. Sorry.",
+            "answer": "C。她打电话是为了取消今晚的晚餐约定。"
+          }
+        },
+        {
+          "id": 7,
+          "stem": "What does David want to do?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Go to a dinner party."
+            },
+            {
+              "letter": "B",
+              "text": "Talk to Sara in person."
+            },
+            {
+              "letter": "C",
+              "text": "Work on the new case."
+            }
+          ],
+          "answer": "B",
+          "type": "listening",
+          "score": 1.5,
+          "group": "听下面一段较长对话，回答第6、7小题。",
+          "transcript": "",
+          "explanation": {
+            "summary": "听力细节题｜David 的诉求。",
+            "question": "问 David 想做什么。",
+            "evidence": "M: No, it's better if we do it in person.",
+            "answer": "B。他想面谈，而不是电话里说。"
+          }
+        },
+        {
+          "id": 8,
+          "stem": "Where is Jim now?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "In a taxi."
+            },
+            {
+              "letter": "B",
+              "text": "On a bus."
+            },
+            {
+              "letter": "C",
+              "text": "In his office."
+            }
+          ],
+          "answer": "A",
+          "type": "listening",
+          "score": 1.5,
+          "group": "听下面一段较长对话，回答第8、9小题。",
+          "transcript": "W: Jim will call on us this afternoon. Do you know where he is now?\nM: Er... wait. Let me see. He has sent two messages saying that he's done with his work at the office and got a taxi and... and he'll arrive in twenty minutes.\nW: We can't keep him waiting outside our home. We have to hurry.\nM: But it takes at least half an hour to get to the city center by bus. Look at the traffic.\nW: Let's get off. We can save at least twenty minutes by walking through the park.\nM: Are you sure?\nW: Yes. A hundred percent.",
+          "explanation": {
+            "summary": "听力细节题｜Jim 当前所在位置。",
+            "question": "问 Jim 现在在哪里。",
+            "evidence": "he's done with his work at the office and got a taxi",
+            "answer": "A。已离开办公室并打了出租车，故在出租车上。公交车上是说话人自己。"
+          }
+        },
+        {
+          "id": 9,
+          "stem": "What is the woman's suggestion?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Going to the city center."
+            },
+            {
+              "letter": "B",
+              "text": "Taking a short cut home."
+            },
+            {
+              "letter": "C",
+              "text": "Meeting Jim in the park."
+            }
+          ],
+          "answer": "B",
+          "type": "listening",
+          "score": 1.5,
+          "group": "听下面一段较长对话，回答第8、9小题。",
+          "transcript": "",
+          "explanation": {
+            "summary": "听力推断题｜女士的建议。",
+            "question": "问女士的建议是什么。",
+            "evidence": "Let's get off. We can save at least twenty minutes by walking through the park.",
+            "answer": "B。下车穿过公园步行，即走近路回家。"
+          }
+        },
+        {
+          "id": 10,
+          "stem": "What did Clara do at the weekend?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "She planted vegetables."
+            },
+            {
+              "letter": "B",
+              "text": "She went to a yard sale."
+            },
+            {
+              "letter": "C",
+              "text": "She visited her grandpa."
+            }
+          ],
+          "answer": "C",
+          "type": "listening",
+          "score": 1.5,
+          "group": "听下面一段较长对话，回答第10至13小题。",
+          "transcript": "W: Morning, Mark.\nM: Morning, Clara. How was your weekend?\nW: Great. I went to my grandpa's. He invited us to pick vegetables on his farm. My daughter had a great time there. What about you?\nM: Oh, I had a truly incredible experience. I dropped by a yard sale on Saturday and got several books.\nW: Novels?\nM: A novel and two poetry collections. As I leafed through the novel, a piece of paper fell out. It was an air ticket from 2012. The flight was from Los Angeles to Chicago and the name on the ticket was Ashley Louis.\nW: Was it?\nM: Yes. Ashley, my sister. In 2012, she lived in Los Angeles and her husband worked in Chicago. Both of them often flew between two cities. I asked the seller where he got the book. He said it was bought at a second-hand bookstore in Los Angeles three years ago. Last year, he and his family moved from Los Angeles to Philadelphia.\nW: So, all the way across the country, your sister's old book landed in your hands. That's really crazy.",
+          "explanation": {
+            "summary": "听力细节题｜Clara 的周末安排。",
+            "question": "问 Clara 周末做了什么。",
+            "evidence": "I went to my grandpa's. He invited us to pick vegetables on his farm.",
+            "answer": "C。她去了爷爷家。摘菜不等于种菜，逛旧货市场是 Mark 做的。"
+          }
+        },
+        {
+          "id": 11,
+          "stem": "What did Mark find inside one of the books he bought?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "A plane ticket."
+            },
+            {
+              "letter": "B",
+              "text": "A family photo."
+            },
+            {
+              "letter": "C",
+              "text": "A post card."
+            }
+          ],
+          "answer": "A",
+          "type": "listening",
+          "score": 1.5,
+          "group": "听下面一段较长对话，回答第10至13小题。",
+          "transcript": "",
+          "explanation": {
+            "summary": "听力细节题｜书里夹的东西。",
+            "question": "问 Mark 在买的书里发现了什么。",
+            "evidence": "a piece of paper fell out. It was an air ticket from 2012.",
+            "answer": "A。掉出来的是 2012 年的机票。"
+          }
+        },
+        {
+          "id": 12,
+          "stem": "Where does Mark live?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Los Angeles."
+            },
+            {
+              "letter": "B",
+              "text": "Chicago."
+            },
+            {
+              "letter": "C",
+              "text": "Philadelphia."
+            }
+          ],
+          "answer": "C",
+          "type": "listening",
+          "score": 1.5,
+          "group": "听下面一段较长对话，回答第10至13小题。",
+          "transcript": "",
+          "explanation": {
+            "summary": "听力推断题｜地名多重干扰。",
+            "question": "问 Mark 住在哪里。",
+            "evidence": "Last year, he and his family moved from Los Angeles to Philadelphia.",
+            "answer": "C。卖书人搬到费城，而 Mark 在当地旧货市场买到书，故 Mark 住费城。洛杉矶、芝加哥是姐姐夫妇的城市。"
+          }
+        },
+        {
+          "id": 13,
+          "stem": "What is the relationship between Mark and Ashley?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Brother and sister."
+            },
+            {
+              "letter": "B",
+              "text": "Husband and wife."
+            },
+            {
+              "letter": "C",
+              "text": "Father and daughter."
+            }
+          ],
+          "answer": "A",
+          "type": "listening",
+          "score": 1.5,
+          "group": "听下面一段较长对话，回答第10至13小题。",
+          "transcript": "",
+          "explanation": {
+            "summary": "听力细节题｜人物关系。",
+            "question": "问 Mark 与 Ashley 的关系。",
+            "evidence": "Yes. Ashley, my sister.",
+            "answer": "A。Ashley 是 Mark 的姐姐/妹妹。"
+          }
+        },
+        {
+          "id": 14,
+          "stem": "What is probably the woman?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "A teacher."
+            },
+            {
+              "letter": "B",
+              "text": "A journalist."
+            },
+            {
+              "letter": "C",
+              "text": "An athlete."
+            }
+          ],
+          "answer": "B",
+          "type": "listening",
+          "score": 1.5,
+          "group": "听下面一段较长对话，回答第14至17小题。",
+          "transcript": "W: Victor, you've been here in Indiana for six weeks now. How are you feeling?\nM: I think I've got used to college life, going to classes, working out and hanging out with my friends. Though there's pressure to meet deadlines, life here is never boring.\nW: What's been hard about being an Indianan basketball player?\nM: Well, the training is very competitive, weightlifting and running every day. It's not like high school. In high school, I really didn't have to do that. I'm just trying to get used to it. And I think I am.\nW: At this point, how do you see yourself fitting into this group?\nM: I think we're all different. George is from Britain. Chris and Leo are from Australia. I'm from France. And the rest are Americans. But I get along with everybody. You know, we are really starting to bond. It's great to see how we grow each day as a team.\nW: Thanks, Victor. I wish you a very happy and fruitful stay in Indiana.",
+          "explanation": {
+            "summary": "听力推断题｜说话人身份。",
+            "question": "问女士可能是什么身份。",
+            "evidence": "全程连续提问 How are you feeling? / What's been hard…? / how do you see yourself fitting into this group?",
+            "answer": "B。一问一答的访谈式提问，说明她是记者。"
+          }
+        },
+        {
+          "id": 15,
+          "stem": "What does Victor find difficult as a member of the basketball team?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Adapting himself to the intense training."
+            },
+            {
+              "letter": "B",
+              "text": "Dealing with the pressure from the coach."
+            },
+            {
+              "letter": "C",
+              "text": "Regaining the skills learned in high school."
+            }
+          ],
+          "answer": "A",
+          "type": "listening",
+          "score": 1.5,
+          "group": "听下面一段较长对话，回答第14至17小题。",
+          "transcript": "",
+          "explanation": {
+            "summary": "听力细节题｜训练强度。",
+            "question": "问 Victor 觉得作为球队一员什么最难。",
+            "evidence": "the training is very competitive, weightlifting and running every day…I'm just trying to get used to it.",
+            "answer": "A。难在适应高强度训练。压力来自截止期限而非教练。"
+          }
+        },
+        {
+          "id": 16,
+          "stem": "What does Victor say about the players on the team?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "They are of the same age."
+            },
+            {
+              "letter": "B",
+              "text": "They are similar in character."
+            },
+            {
+              "letter": "C",
+              "text": "They are from different countries."
+            }
+          ],
+          "answer": "C",
+          "type": "listening",
+          "score": 1.5,
+          "group": "听下面一段较长对话，回答第14至17小题。",
+          "transcript": "",
+          "explanation": {
+            "summary": "听力细节题｜队员构成。",
+            "question": "问 Victor 怎样评价队友。",
+            "evidence": "George is from Britain. Chris and Leo are from Australia. I'm from France. And the rest are Americans.",
+            "answer": "C。队员来自不同国家。"
+          }
+        },
+        {
+          "id": 17,
+          "stem": "How does Victor feel about his team now?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "It's about to break up."
+            },
+            {
+              "letter": "B",
+              "text": "It's the best in Indiana."
+            },
+            {
+              "letter": "C",
+              "text": "It's getting stronger."
+            }
+          ],
+          "answer": "C",
+          "type": "listening",
+          "score": 1.5,
+          "group": "听下面一段较长对话，回答第14至17小题。",
+          "transcript": "",
+          "explanation": {
+            "summary": "听力推断题｜对球队的态度。",
+            "question": "问 Victor 现在怎么看自己的球队。",
+            "evidence": "we are really starting to bond. It's great to see how we grow each day as a team.",
+            "answer": "C。队伍日渐融合、不断成长，即越来越强。"
+          }
+        },
+        {
+          "id": 18,
+          "stem": "Who is Tom Hodgkinson?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Founder of a magazine."
+            },
+            {
+              "letter": "B",
+              "text": "Publisher of a novel."
+            },
+            {
+              "letter": "C",
+              "text": "Editor of a newspaper."
+            }
+          ],
+          "answer": "A",
+          "type": "listening",
+          "score": 1.5,
+          "group": "听下面一段独白，回答第18至20小题。",
+          "transcript": "W: Good evening, dear listeners. When was the last time you enjoyed leisure activities? Do you want to live a full and happy life? Today, I'm going to introduce to you a magazine that features the art of living. The Idler was launched by Tom Hodgkinson, back in 1993. With the intention of providing a bit of fun, freedom and achievement in the busy world, it is now published bimonthly. In every issue, you will find an interesting mix of interviews and essays on the good life, history, philosophy, arts and fashion photography. You will find much to laugh at and much useful stuff as well, from recipes for making bacon to guides to housekeeping. If you ever felt that there is more to life than boring jobs, then why not subscribe to it? The Idler is a cheering read that makes you feel better about life. You can download the application and subscribe today to get your first issue free.",
+          "explanation": {
+            "summary": "听力细节题｜人物身份。",
+            "question": "问 Tom Hodgkinson 是谁。",
+            "evidence": "The Idler was launched by Tom Hodgkinson, back in 1993.",
+            "answer": "A。launch 一份杂志即杂志的创办人。"
+          }
+        },
+        {
+          "id": 19,
+          "stem": "What do we know about the content of The Idler?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "It's old-fashioned."
+            },
+            {
+              "letter": "B",
+              "text": "It's wide-ranging."
+            },
+            {
+              "letter": "C",
+              "text": "It's student-targeted."
+            }
+          ],
+          "answer": "B",
+          "type": "listening",
+          "score": 1.5,
+          "group": "听下面一段独白，回答第18至20小题。",
+          "transcript": "",
+          "explanation": {
+            "summary": "听力推断题｜杂志内容特点。",
+            "question": "问关于 The Idler 的内容我们可以知道什么。",
+            "evidence": "an interesting mix of interviews and essays on the good life, history, philosophy, arts and fashion photography",
+            "answer": "B。题材横跨生活、历史、哲学、艺术、摄影，即涉及面广。"
+          }
+        },
+        {
+          "id": 20,
+          "stem": "Why does the speaker give the talk?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "To do a promotion."
+            },
+            {
+              "letter": "B",
+              "text": "To discuss an issue."
+            },
+            {
+              "letter": "C",
+              "text": "To introduce a lecturer."
+            }
+          ],
+          "answer": "A",
+          "type": "listening",
+          "score": 1.5,
+          "group": "听下面一段独白，回答第18至20小题。",
+          "transcript": "",
+          "explanation": {
+            "summary": "听力推断题｜说话目的。",
+            "question": "问说话人为什么做这番讲话。",
+            "evidence": "why not subscribe to it?…download the application and subscribe today to get your first issue free.",
+            "answer": "A。反复劝人订阅并给出首期免费优惠，目的是做推广。"
+          }
+        }
+      ]
+    },
+    {
+      "key": "reading",
+      "partTitle": "第二部分 阅读（共两节，满分50分）",
+      "secTitle": "第一节（共15小题；每小题2.5分，满分37.5分）阅读下列短文，从每题所给的A、B、C、D四个选项中选出最佳选项。",
+      "pool": [],
+      "passages": [
+        {
+          "label": "A",
+          "text": "Yellowstone National Park offers a variety of ranger programs throughout the park, and throughout the year. The following are descriptions of the ranger programs this summer.\n\nExperiencing Wildlife in Yellowstone (May 26 to September 2)\nWhether you're hiking a backcountry trail (小径), camping, or just enjoying the park's amazing wildlife from the road, this quick workshop is for you and your family. Learn where to look for animals and how to safely enjoy your wildlife watching experience. Meet at the Canyon Village Store.\n\nJunior Ranger Wildlife Olympics (June 5 to August 21)\nKids can test their skills and compare their abilities to the animals of Yellowstone. Stay for as little or as long as your plans allow. Meet in front of the Visitor Education Center.\n\nCanyon Talks at Artist Point (June 9 to September 2)\nFrom a classic viewpoint, enjoy Lower Falls, the Yellowstone River, and the breathtaking colors of the canyon (峡谷) while learning about the area's natural and human history. Discover why artists and photographers continue to be drawn to this special place. Meet on the lower platform at Artist Point on the South Rim Drive for this short talk.\n\nPhotography Workshops (June 19 & July 10)\nEnhance your photography skills — join Yellowstone's park photographer for a hands-on program to inspire new and creative ways of enjoying the beauty and wonder of Yellowstone.\n6/19 — Waterfalls & Wide Angles: meet at Artist Point\n7/10 — Wildflowers & White Balance: meet at Washburn Trailhead in Chittenden parking area."
+        },
+        {
+          "label": "B",
+          "text": "Turning soil, pulling weeds, and harvesting cabbage sound like tough work for middle and high school kids. And at first it is, says Abby Jaramillo, who with another teacher started Urban Sprouts, a school garden program at four low-income schools. The program aims to help students develop science skills, environmental awareness, and healthy lifestyles.\n\nJaramillo's students live in neighborhoods where fresh food and green space are not easy to find and fast food restaurants outnumber grocery stores. \"The kids literally come to school with bags of snacks and large bottles of soft drinks,\" she says. \"They come to us thinking vegetables are awful, dirt is awful, insects are awful.\" Though some are initially scared of the insects and turned off by the dirt, most are eager to try something new.\n\nUrban Sprouts' classes, at two middle schools and two high schools, include hands-on experiments such as soil testing, flower-and-seed dissection, tastings of fresh or dried produce, and work in the garden. Several times a year, students cook the vegetables they grow, and they occasionally make salads for their entire schools.\n\nProgram evaluations show that kids eat more vegetables as a result of the classes. \"We have students who say they went home and talked to their parents and now they're eating differently,\" Jaramillo says.\n\nShe adds that the program's benefits go beyond nutrition. Some students get so interested in gardening that they bring home seeds to start their own vegetable gardens. Besides, working in the garden seems to have a calming effect on Jaramillo's special education students, many of whom have emotional control issues. \"They get outside,\" she says, \"and they feel successful.\""
+        },
+        {
+          "label": "C",
+          "text": "Reading Art: Art for Book Lovers is a celebration of an everyday object — the book, represented here in almost three hundred artworks from museums around the world. The image of the reader appears throughout history, in art made long before books as we now know them came into being. In artists' representations of books and reading, we see moments of shared humanity that go beyond culture and time.\n\nIn this \"book of books,\" artworks are selected and arranged in a way that emphasizes these connections between different eras and cultures. We see scenes of children learning to read at home or at school, with the book as a focus for relations between the generations. Adults are portrayed (描绘) alone in many settings and poses — absorbed in a volume, deep in thought or lost in a moment of leisure. These scenes may have been painted hundreds of years ago, but they record moments we can all relate to.\n\nBooks themselves may be used symbolically in paintings to demonstrate the intellect (才智), wealth or faith of the subject. Before the wide use of the printing press, books were treasured objects and could be works of art in their own right. More recently, as books have become inexpensive or even throwaway, artists have used them as the raw material for artworks — transforming covers, pages or even complete volumes into paintings and sculptures.\n\nContinued developments in communication technologies were once believed to make the printed page outdated. From a 21st-century point of view, the printed book is certainly ancient, but it remains as interactive as any battery-powered e-reader. To serve its function, a book must be activated by a user: the cover opened, the pages parted, the contents reviewed, perhaps notes written down or words underlined. And in contrast to our increasingly networked lives where the information we consume is monitored and tracked, a printed book still offers the chance of a wholly private, \"off-line\" activity."
+        },
+        {
+          "label": "D",
+          "text": "As cities balloon with growth, access to nature for people living in urban areas is becoming harder to find. If you're lucky, there might be a pocket park near where you live, but it's unusual to find places in a city that are relatively wild.\n\nPast research has found health and wellness benefits of nature for humans, but a new study shows that wildness in urban areas is extremely important for human well-being.\n\nThe research team focused on a large urban park. They surveyed several hundred park-goers, asking them to submit a written summary online of a meaningful interaction they had with nature in the park. The researchers then examined these submissions, coding (编码) experiences into different categories. For example, one participant's experience of \"We sat and listened to the waves at the beach for a while\" was assigned the categories \"sitting at beach\" and \"listening to waves.\"\n\nAcross the 320 submissions, a pattern of categories the researchers call a \"nature language\" began to emerge. After the coding of all submissions, half a dozen categories were noted most often as important to visitors. These include encountering wildlife, walking along the edge of water, and following an established trail.\n\nNaming each nature experience creates a usable language, which helps people recognize and take part in the activities that are most satisfying and meaningful to them. For example, the experience of walking along the edge of water might be satisfying for a young professional on a weekend hike in the park. Back downtown during a workday, they can enjoy a more domestic form of this interaction by walking along a fountain on their lunch break.\n\n\"We're trying to generate a language that helps bring the human-nature interactions back into our daily lives. And for that to happen, we also need to protect nature so that we can interact with it,\" said Peter Kahn, a senior author of the study."
+        }
+      ],
+      "questions": [
+        {
+          "id": 21,
+          "passageLabel": "A",
+          "stem": "Which of the four programs begins the earliest?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Photography Workshops."
+            },
+            {
+              "letter": "B",
+              "text": "Junior Ranger Wildlife Olympics."
+            },
+            {
+              "letter": "C",
+              "text": "Canyon Talks at Artist Point."
+            },
+            {
+              "letter": "D",
+              "text": "Experiencing Wildlife in Yellowstone."
+            }
+          ],
+          "answer": "D",
+          "type": "reading",
+          "score": 2.5,
+          "explanation": {
+            "summary": "细节理解题｜本文是应用文，介绍黄石国家公园夏季的几项护林员项目。",
+            "question": "问四个项目中哪一个开始最早。",
+            "evidence": "Experiencing Wildlife in Yellowstone (May 26 to September 2)",
+            "answer": "D。5 月 26 日早于 6 月 5 日、6 月 9 日和 6 月 19 日。"
+          }
+        },
+        {
+          "id": 22,
+          "passageLabel": "A",
+          "stem": "What is the short talk at Artist Point about?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Works of famous artists."
+            },
+            {
+              "letter": "B",
+              "text": "Protection of wild animals."
+            },
+            {
+              "letter": "C",
+              "text": "Basic photography skills."
+            },
+            {
+              "letter": "D",
+              "text": "History of the canyon area."
+            }
+          ],
+          "answer": "D",
+          "type": "reading",
+          "score": 2.5,
+          "explanation": {
+            "summary": "细节理解题｜定位 Canyon Talks 板块。",
+            "question": "问 Artist Point 的简短讲座主题是什么。",
+            "evidence": "while learning about the area's natural and human history",
+            "answer": "D。讲座内容是该地区的自然与人文历史。"
+          }
+        },
+        {
+          "id": 23,
+          "passageLabel": "A",
+          "stem": "Where will the participants meet for the July 10 photography workshop?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Artist Point."
+            },
+            {
+              "letter": "B",
+              "text": "Washburn Trailhead."
+            },
+            {
+              "letter": "C",
+              "text": "Canyon Village Store."
+            },
+            {
+              "letter": "D",
+              "text": "Visitor Education Center."
+            }
+          ],
+          "answer": "B",
+          "type": "reading",
+          "score": 2.5,
+          "explanation": {
+            "summary": "细节理解题｜日期与地点对应。",
+            "question": "问 7 月 10 日摄影工作坊的集合地点。",
+            "evidence": "7/10 — Wildflowers & White Balance: meet at Washburn Trailhead in Chittenden parking area.",
+            "answer": "B。6 月 19 日在 Artist Point，7 月 10 日在 Washburn Trailhead。"
+          }
+        },
+        {
+          "id": 24,
+          "passageLabel": "B",
+          "stem": "What do we know about Abby Jaramillo?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "She used to be a health worker."
+            },
+            {
+              "letter": "B",
+              "text": "She grew up in a low-income family."
+            },
+            {
+              "letter": "C",
+              "text": "She owns a fast food restaurant."
+            },
+            {
+              "letter": "D",
+              "text": "She is an initiator of Urban Sprouts."
+            }
+          ],
+          "answer": "D",
+          "type": "reading",
+          "score": 2.5,
+          "explanation": {
+            "summary": "细节理解题｜本文是记叙文，讲 Urban Sprouts 校园菜园项目对学生的深远影响。",
+            "question": "问关于 Abby Jaramillo 我们可以知道什么。",
+            "evidence": "Abby Jaramillo, who with another teacher started Urban Sprouts, a school garden program at four low-income schools",
+            "answer": "D。她与另一位老师共同发起了这个项目。"
+          }
+        },
+        {
+          "id": 25,
+          "passageLabel": "B",
+          "stem": "What was a problem facing Jaramillo at the start of the program?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "The kids' parents distrusted her."
+            },
+            {
+              "letter": "B",
+              "text": "Students had little time for her classes."
+            },
+            {
+              "letter": "C",
+              "text": "Some kids disliked garden work."
+            },
+            {
+              "letter": "D",
+              "text": "There was no space for school gardens."
+            }
+          ],
+          "answer": "C",
+          "type": "reading",
+          "score": 2.5,
+          "explanation": {
+            "summary": "推理判断题｜项目初期的困难。",
+            "question": "问项目开始时 Jaramillo 面临什么问题。",
+            "evidence": "They come to us thinking vegetables are awful, dirt is awful, insects are awful. Though some are initially scared of the insects and turned off by the dirt…",
+            "answer": "C。部分孩子怕虫、嫌土，即不喜欢园艺活。"
+          }
+        },
+        {
+          "id": 26,
+          "passageLabel": "B",
+          "stem": "Which of the following best describes the impact of the program?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Far-reaching."
+            },
+            {
+              "letter": "B",
+              "text": "Predictable."
+            },
+            {
+              "letter": "C",
+              "text": "Short-lived."
+            },
+            {
+              "letter": "D",
+              "text": "Unidentifiable."
+            }
+          ],
+          "answer": "A",
+          "type": "reading",
+          "score": 2.5,
+          "explanation": {
+            "summary": "推理判断题｜末段列举多方面收益。",
+            "question": "问哪个词最能描述该项目的影响。",
+            "evidence": "the program's benefits go beyond nutrition…bring home seeds to start their own vegetable gardens…a calming effect on…special education students",
+            "answer": "A。收益超出营养层面，延伸到家庭与情绪管理，故为“影响深远”。"
+          }
+        },
+        {
+          "id": 27,
+          "passageLabel": "B",
+          "stem": "What can be a suitable title for the text?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Rescuing School Gardens"
+            },
+            {
+              "letter": "B",
+              "text": "Experiencing Country Life"
+            },
+            {
+              "letter": "C",
+              "text": "Growing Vegetable Lovers"
+            },
+            {
+              "letter": "D",
+              "text": "Changing Local Landscape"
+            }
+          ],
+          "answer": "C",
+          "type": "reading",
+          "score": 2.5,
+          "explanation": {
+            "summary": "主旨大意题｜标题概括。",
+            "question": "问哪个标题最合适。",
+            "evidence": "kids eat more vegetables as a result of the classes…Some students get so interested in gardening that they bring home seeds",
+            "answer": "C。全文讲的是把讨厌蔬菜的孩子培养成爱蔬菜、爱种菜的人。"
+          }
+        },
+        {
+          "id": 28,
+          "passageLabel": "C",
+          "stem": "Where is the text most probably taken from?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "An introduction to a book."
+            },
+            {
+              "letter": "B",
+              "text": "An essay on the art of writing."
+            },
+            {
+              "letter": "C",
+              "text": "A guidebook to a museum."
+            },
+            {
+              "letter": "D",
+              "text": "A review of modern paintings."
+            }
+          ],
+          "answer": "A",
+          "type": "reading",
+          "score": 2.5,
+          "explanation": {
+            "summary": "推理判断题｜本文是说明文，介绍《Reading Art: Art for Book Lovers》这本书。",
+            "question": "问本文最可能出自哪里。",
+            "evidence": "In this \"book of books,\" artworks are selected and arranged in a way that emphasizes these connections…",
+            "answer": "A。开篇即点出书名并逐段介绍其编排与主题，属于图书简介。"
+          }
+        },
+        {
+          "id": 29,
+          "passageLabel": "C",
+          "stem": "What are the selected artworks about?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Wealth and intellect."
+            },
+            {
+              "letter": "B",
+              "text": "Home and school."
+            },
+            {
+              "letter": "C",
+              "text": "Books and reading."
+            },
+            {
+              "letter": "D",
+              "text": "Work and leisure."
+            }
+          ],
+          "answer": "C",
+          "type": "reading",
+          "score": 2.5,
+          "explanation": {
+            "summary": "细节理解题｜作品主题。",
+            "question": "问入选的艺术作品是关于什么的。",
+            "evidence": "In artists' representations of books and reading, we see moments of shared humanity…",
+            "answer": "C。全书围绕书籍与阅读这一主题选画。"
+          }
+        },
+        {
+          "id": 30,
+          "passageLabel": "C",
+          "stem": "What do the underlined words \"relate to\" in paragraph 2 mean?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Understand."
+            },
+            {
+              "letter": "B",
+              "text": "Paint."
+            },
+            {
+              "letter": "C",
+              "text": "Seize."
+            },
+            {
+              "letter": "D",
+              "text": "Transform."
+            }
+          ],
+          "answer": "A",
+          "type": "reading",
+          "score": 2.5,
+          "explanation": {
+            "summary": "词句猜测题｜画线短语理解。",
+            "question": "问第二段画线短语 relate to 的含义。",
+            "evidence": "These scenes may have been painted hundreds of years ago, but they record moments we can all relate to.",
+            "answer": "A。虽是几百年前的画，但记录的瞬间人人都能“理解、共情”。"
+          }
+        },
+        {
+          "id": 31,
+          "passageLabel": "C",
+          "stem": "What does the author want to say by mentioning the e-reader?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "The printed book is not totally out of date."
+            },
+            {
+              "letter": "B",
+              "text": "Technology has changed the way we read."
+            },
+            {
+              "letter": "C",
+              "text": "Our lives in the 21st century are networked."
+            },
+            {
+              "letter": "D",
+              "text": "People now rarely have the patience to read."
+            }
+          ],
+          "answer": "A",
+          "type": "reading",
+          "score": 2.5,
+          "explanation": {
+            "summary": "推理判断题｜举例意图。",
+            "question": "问作者提到电子阅读器想说明什么。",
+            "evidence": "the printed book is certainly ancient, but it remains as interactive as any battery-powered e-reader",
+            "answer": "A。强调纸质书的互动性不输电子阅读器，即并未完全过时。"
+          }
+        },
+        {
+          "id": 32,
+          "passageLabel": "D",
+          "stem": "What phenomenon does the author describe at the beginning of the text?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Pocket parks are now popular."
+            },
+            {
+              "letter": "B",
+              "text": "Wild nature is hard to find in cities."
+            },
+            {
+              "letter": "C",
+              "text": "Many cities are overpopulated."
+            },
+            {
+              "letter": "D",
+              "text": "People enjoy living close to nature."
+            }
+          ],
+          "answer": "B",
+          "type": "reading",
+          "score": 2.5,
+          "explanation": {
+            "summary": "细节理解题｜本文是说明文，讲城市野性自然对人类幸福感的重要性。",
+            "question": "问作者开篇描述了什么现象。",
+            "evidence": "it's unusual to find places in a city that are relatively wild",
+            "answer": "B。城市里很难找到相对野性的自然之地。"
+          }
+        },
+        {
+          "id": 33,
+          "passageLabel": "D",
+          "stem": "Why did the researchers code participant submissions into categories?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "To compare different types of park-goers."
+            },
+            {
+              "letter": "B",
+              "text": "To explain why the park attracts tourists."
+            },
+            {
+              "letter": "C",
+              "text": "To analyze the main features of the park."
+            },
+            {
+              "letter": "D",
+              "text": "To find patterns in the visitors' summaries."
+            }
+          ],
+          "answer": "D",
+          "type": "reading",
+          "score": 2.5,
+          "explanation": {
+            "summary": "推理判断题｜研究方法的目的。",
+            "question": "问研究者为何把提交内容编码分类。",
+            "evidence": "Across the 320 submissions, a pattern of categories the researchers call a \"nature language\" began to emerge.",
+            "answer": "D。编码分类后浮现出模式，目的正是在总结中寻找规律。"
+          }
+        },
+        {
+          "id": 34,
+          "passageLabel": "D",
+          "stem": "What can we learn from the example given in paragraph 5?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Walking is the best way to gain access to nature."
+            },
+            {
+              "letter": "B",
+              "text": "Young people are too busy to interact with nature."
+            },
+            {
+              "letter": "C",
+              "text": "The same nature experience takes different forms."
+            },
+            {
+              "letter": "D",
+              "text": "The nature language enhances work performance."
+            }
+          ],
+          "answer": "C",
+          "type": "reading",
+          "score": 2.5,
+          "explanation": {
+            "summary": "推理判断题｜举例作用。",
+            "question": "问第五段的例子说明了什么。",
+            "evidence": "walking along the edge of water…on a weekend hike in the park…they can enjoy a more domestic form of this interaction by walking along a fountain",
+            "answer": "C。同一种“沿水边行走”的体验在公园与市区呈现不同形式。"
+          }
+        },
+        {
+          "id": 35,
+          "passageLabel": "D",
+          "stem": "What should be done before we can interact with nature according to Kahn?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Language study."
+            },
+            {
+              "letter": "B",
+              "text": "Environmental conservation."
+            },
+            {
+              "letter": "C",
+              "text": "Public education."
+            },
+            {
+              "letter": "D",
+              "text": "Intercultural communication."
+            }
+          ],
+          "answer": "B",
+          "type": "reading",
+          "score": 2.5,
+          "explanation": {
+            "summary": "推理判断题｜引语理解。",
+            "question": "问按 Kahn 的说法，与自然互动之前应先做什么。",
+            "evidence": "for that to happen, we also need to protect nature so that we can interact with it",
+            "answer": "B。先保护自然，才能与之互动。"
+          }
+        }
+      ]
+    },
+    {
+      "key": "seven",
+      "partTitle": "第二部分 阅读（共两节，满分50分）",
+      "secTitle": "第二节（共5小题；每小题2.5分，满分12.5分）阅读下面短文，从短文后的选项中选出可以填入空白处的最佳选项。选项中有两项为多余选项。",
+      "passages": [
+        {
+          "label": "E",
+          "text": "As an artist who shares her journey on social media, I'm often asked by curious followers how to begin an art journey. Unfortunately, there is no magic list I can offer. I do remember, though, what it was like to be a complete beginner. So I've put together some good tips for starting an art journey.\n\n· Start small. I suggest using a sketchbook (素描本) for small studies. These small studies provide inspiration and may be a springboard for more complex works in the future. ____36____ You'll want to look back on your journey to see how far you've come.\n\n· Paint often and paint from life. There's no better way to improve than to put in those brush miles. Whether you paint still lifes, portraits, or landscapes, paint from life as much as possible. ____37____\n\n· Continually challenge yourself to try something new. ____38____ Artistic growth can be a bit painful. Welcome to the club; we've all been there. I love taking on challenges. I once took up a challenge to create a painting every day for a month and post the works online.\n\n· ____39____ Seeking and accepting constructive feedback (反馈) is crucial to growth. I post my work on social media and, in turn, have met some of the kindest people. They make me feel valued and respected, no matter my level of artistic ability.\n\nThe journey you're on won't follow a straight path. ____40____ Push through, give it time and put in the effort. You will harvest the rewards of an artistic life."
+        }
+      ],
+      "pool": [
+        {
+          "letter": "A",
+          "text": "Get out of your comfort zone."
+        },
+        {
+          "letter": "B",
+          "text": "Make career plans and set goals."
+        },
+        {
+          "letter": "C",
+          "text": "Don't throw away your beginner art."
+        },
+        {
+          "letter": "D",
+          "text": "Share your work if you feel comfortable doing so."
+        },
+        {
+          "letter": "E",
+          "text": "You'll hit roadblocks, and you'll feel discouraged at times."
+        },
+        {
+          "letter": "F",
+          "text": "Evaluate your performance and, if needed, redefine your role."
+        },
+        {
+          "letter": "G",
+          "text": "You'll develop that painting muscle memory that only comes with repetition."
+        }
+      ],
+      "questions": [
+        {
+          "id": 36,
+          "passageLabel": "E",
+          "stem": "第36空",
+          "answer": "C",
+          "type": "seven",
+          "score": 2.5,
+          "options": [
+            {
+              "letter": "A",
+              "text": "Get out of your comfort zone."
+            },
+            {
+              "letter": "B",
+              "text": "Make career plans and set goals."
+            },
+            {
+              "letter": "C",
+              "text": "Don't throw away your beginner art."
+            },
+            {
+              "letter": "D",
+              "text": "Share your work if you feel comfortable doing so."
+            },
+            {
+              "letter": "E",
+              "text": "You'll hit roadblocks, and you'll feel discouraged at times."
+            },
+            {
+              "letter": "F",
+              "text": "Evaluate your performance and, if needed, redefine your role."
+            },
+            {
+              "letter": "G",
+              "text": "You'll develop that painting muscle memory that only comes with repetition."
+            }
+          ],
+          "explanation": {
+            "summary": "七选五｜本文是说明文，给出开始艺术之旅的几条建议。",
+            "question": "空前建议用素描本做小练习，空后说你会想回顾自己的历程看走了多远。",
+            "evidence": "These small studies provide inspiration…____36____ You'll want to look back on your journey to see how far you've come.",
+            "answer": "C。“不要扔掉初学时的作品”既承接小练习，又为“回顾历程”作铺垫。"
+          }
+        },
+        {
+          "id": 37,
+          "passageLabel": "E",
+          "stem": "第37空",
+          "answer": "G",
+          "type": "seven",
+          "score": 2.5,
+          "options": [
+            {
+              "letter": "A",
+              "text": "Get out of your comfort zone."
+            },
+            {
+              "letter": "B",
+              "text": "Make career plans and set goals."
+            },
+            {
+              "letter": "C",
+              "text": "Don't throw away your beginner art."
+            },
+            {
+              "letter": "D",
+              "text": "Share your work if you feel comfortable doing so."
+            },
+            {
+              "letter": "E",
+              "text": "You'll hit roadblocks, and you'll feel discouraged at times."
+            },
+            {
+              "letter": "F",
+              "text": "Evaluate your performance and, if needed, redefine your role."
+            },
+            {
+              "letter": "G",
+              "text": "You'll develop that painting muscle memory that only comes with repetition."
+            }
+          ],
+          "explanation": {
+            "summary": "七选五｜段末总结句。",
+            "question": "本段主张常画、写生，强调 brush miles（反复练习的量）。",
+            "evidence": "There's no better way to improve than to put in those brush miles.",
+            "answer": "G。“你会形成只有靠反复练习才能得到的绘画肌肉记忆”是对本段的收束。"
+          }
+        },
+        {
+          "id": 38,
+          "passageLabel": "E",
+          "stem": "第38空",
+          "answer": "A",
+          "type": "seven",
+          "score": 2.5,
+          "options": [
+            {
+              "letter": "A",
+              "text": "Get out of your comfort zone."
+            },
+            {
+              "letter": "B",
+              "text": "Make career plans and set goals."
+            },
+            {
+              "letter": "C",
+              "text": "Don't throw away your beginner art."
+            },
+            {
+              "letter": "D",
+              "text": "Share your work if you feel comfortable doing so."
+            },
+            {
+              "letter": "E",
+              "text": "You'll hit roadblocks, and you'll feel discouraged at times."
+            },
+            {
+              "letter": "F",
+              "text": "Evaluate your performance and, if needed, redefine your role."
+            },
+            {
+              "letter": "G",
+              "text": "You'll develop that painting muscle memory that only comes with repetition."
+            }
+          ],
+          "explanation": {
+            "summary": "七选五｜承上启下句。",
+            "question": "空前说不断挑战自己尝试新事物，空后说艺术上的成长会有点痛苦。",
+            "evidence": "Continually challenge yourself to try something new. ____38____ Artistic growth can be a bit painful.",
+            "answer": "A。“走出舒适区”是对上句的进一步说明，也解释了为何会痛苦。"
+          }
+        },
+        {
+          "id": 39,
+          "passageLabel": "E",
+          "stem": "第39空",
+          "answer": "D",
+          "type": "seven",
+          "score": 2.5,
+          "options": [
+            {
+              "letter": "A",
+              "text": "Get out of your comfort zone."
+            },
+            {
+              "letter": "B",
+              "text": "Make career plans and set goals."
+            },
+            {
+              "letter": "C",
+              "text": "Don't throw away your beginner art."
+            },
+            {
+              "letter": "D",
+              "text": "Share your work if you feel comfortable doing so."
+            },
+            {
+              "letter": "E",
+              "text": "You'll hit roadblocks, and you'll feel discouraged at times."
+            },
+            {
+              "letter": "F",
+              "text": "Evaluate your performance and, if needed, redefine your role."
+            },
+            {
+              "letter": "G",
+              "text": "You'll develop that painting muscle memory that only comes with repetition."
+            }
+          ],
+          "explanation": {
+            "summary": "七选五｜段首中心句。",
+            "question": "本段讲寻求并接受建设性反馈、把作品发到社交媒体。",
+            "evidence": "Seeking and accepting constructive feedback (反馈) is crucial to growth. I post my work on social media…",
+            "answer": "D。“如果你觉得自在，就分享你的作品”是本段主题句。"
+          }
+        },
+        {
+          "id": 40,
+          "passageLabel": "E",
+          "stem": "第40空",
+          "answer": "E",
+          "type": "seven",
+          "score": 2.5,
+          "options": [
+            {
+              "letter": "A",
+              "text": "Get out of your comfort zone."
+            },
+            {
+              "letter": "B",
+              "text": "Make career plans and set goals."
+            },
+            {
+              "letter": "C",
+              "text": "Don't throw away your beginner art."
+            },
+            {
+              "letter": "D",
+              "text": "Share your work if you feel comfortable doing so."
+            },
+            {
+              "letter": "E",
+              "text": "You'll hit roadblocks, and you'll feel discouraged at times."
+            },
+            {
+              "letter": "F",
+              "text": "Evaluate your performance and, if needed, redefine your role."
+            },
+            {
+              "letter": "G",
+              "text": "You'll develop that painting muscle memory that only comes with repetition."
+            }
+          ],
+          "explanation": {
+            "summary": "七选五｜末段承上启下。",
+            "question": "空前说这条路不会是直线，空后说要坚持下去、给它时间、付出努力。",
+            "evidence": "The journey you're on won't follow a straight path. ____40____ Push through, give it time and put in the effort.",
+            "answer": "E。“你会遇到障碍，有时会感到气馁”解释了“非直线”，也引出“坚持下去”。"
+          }
+        }
+      ]
+    },
+    {
+      "key": "cloze",
+      "partTitle": "第三部分 语言运用（共两节，满分30分）",
+      "secTitle": "第一节（共15小题；每小题1分，满分15分）阅读下面短文，从每题所给的A、B、C、D四个选项中选出可以填入空白处的最佳选项。",
+      "pool": [],
+      "passages": [
+        {
+          "label": "F",
+          "text": "In April last year, I saw a post on the PNP (Pilots N Paws) website from a family in Topeka. They had to move to Virginia but they were on a very tight ____41____. They could not afford to pay for ____42____ for their dog, Tiffy, and ____43____ wanted to take her with them.\n\nIt just ____44____ that I was planning another PNP flight with another pilot, Karen, who ____45____ to take Tiffy from Kansas City to Virginia. What I was to do was fly to Topeka to ____46____ Tiffy.\n\nWhen I met Tiffy's owners, they seemed very ____47____. George, the husband, was trying to be calm, but I could tell this was ____48____ for him, having to leave his dog to a ____49____ and trust that everything would ____50____.\n\nAfter some goodbyes, I asked George and his wife to help me ____51____ Tiffy into the plane. I promised to take care of Tiffy and ____52____ them as soon as we got to Kansas City.\n\nThe flight was ____53____, and Tiffy was a great passenger. The next day, she ____54____ with Karen and made it back to George in Virginia within a few days. He was so ____55____ and sent me a nice e-mail with pictures. It felt great to know that I had helped bring this family together again."
+        }
+      ],
+      "questions": [
+        {
+          "id": 41,
+          "passageLabel": "F",
+          "stem": "第41空",
+          "options": [
+            {
+              "letter": "A",
+              "text": "turn"
+            },
+            {
+              "letter": "B",
+              "text": "budget"
+            },
+            {
+              "letter": "C",
+              "text": "schedule"
+            },
+            {
+              "letter": "D",
+              "text": "connection"
+            }
+          ],
+          "answer": "B",
+          "type": "cloze",
+          "score": 1,
+          "explanation": {
+            "summary": "考查名词词义辨析｜本文是记叙文，讲作者通过 PNP 网站帮一家人把狗空运到新住地。",
+            "question": "句意：他们必须搬去弗吉尼亚，但预算非常紧张。",
+            "evidence": "They could not afford to pay for ____42____ for their dog",
+            "answer": "B。付不起狗的运费，说明是预算紧。turn 转折点；schedule 时间表；connection 联系。"
+          }
+        },
+        {
+          "id": 42,
+          "passageLabel": "F",
+          "stem": "第42空",
+          "options": [
+            {
+              "letter": "A",
+              "text": "food"
+            },
+            {
+              "letter": "B",
+              "text": "shelter"
+            },
+            {
+              "letter": "C",
+              "text": "medicine"
+            },
+            {
+              "letter": "D",
+              "text": "transportation"
+            }
+          ],
+          "answer": "D",
+          "type": "cloze",
+          "score": 1,
+          "explanation": {
+            "summary": "考查名词词义辨析｜与全文“空运送狗”主线呼应。",
+            "question": "句意：他们付不起狗 Tiffy 的运输费用。",
+            "evidence": "They had to move to Virginia…What I was to do was fly to Topeka to pick up Tiffy.",
+            "answer": "D。全文围绕运送狗展开，故是交通/运输费用。"
+          }
+        },
+        {
+          "id": 43,
+          "passageLabel": "F",
+          "stem": "第43空",
+          "options": [
+            {
+              "letter": "A",
+              "text": "desperately"
+            },
+            {
+              "letter": "B",
+              "text": "temporarily"
+            },
+            {
+              "letter": "C",
+              "text": "secretly"
+            },
+            {
+              "letter": "D",
+              "text": "originally"
+            }
+          ],
+          "answer": "A",
+          "type": "cloze",
+          "score": 1,
+          "explanation": {
+            "summary": "考查副词词义辨析｜转折关系。",
+            "question": "句意：他们付不起运费，却又非常想把狗带走。",
+            "evidence": "and ____43____ wanted to take her with them",
+            "answer": "A。desperately 表“极其、拼命地”，与“付不起”形成对照。"
+          }
+        },
+        {
+          "id": 44,
+          "passageLabel": "F",
+          "stem": "第44空",
+          "options": [
+            {
+              "letter": "A",
+              "text": "appeared"
+            },
+            {
+              "letter": "B",
+              "text": "proved"
+            },
+            {
+              "letter": "C",
+              "text": "happened"
+            },
+            {
+              "letter": "D",
+              "text": "showed"
+            }
+          ],
+          "answer": "C",
+          "type": "cloze",
+          "score": 1,
+          "explanation": {
+            "summary": "考查动词词义辨析｜固定句式 It just happened that…。",
+            "question": "句意：碰巧我正和另一位飞行员 Karen 计划另一次 PNP 飞行。",
+            "evidence": "It just ____44____ that I was planning another PNP flight",
+            "answer": "C。It happened that… 表示“碰巧”。"
+          }
+        },
+        {
+          "id": 45,
+          "passageLabel": "F",
+          "stem": "第45空",
+          "options": [
+            {
+              "letter": "A",
+              "text": "waited"
+            },
+            {
+              "letter": "B",
+              "text": "offered"
+            },
+            {
+              "letter": "C",
+              "text": "hurried"
+            },
+            {
+              "letter": "D",
+              "text": "failed"
+            }
+          ],
+          "answer": "B",
+          "type": "cloze",
+          "score": 1,
+          "explanation": {
+            "summary": "考查动词词义辨析｜offer to do 主动提出。",
+            "question": "句意：Karen 主动提出把 Tiffy 从堪萨斯城带到弗吉尼亚。",
+            "evidence": "Karen, who ____45____ to take Tiffy from Kansas City to Virginia",
+            "answer": "B。offer to do sth. 表“主动提出做某事”，后文她确实完成了这段。"
+          }
+        },
+        {
+          "id": 46,
+          "passageLabel": "F",
+          "stem": "第46空",
+          "options": [
+            {
+              "letter": "A",
+              "text": "see off"
+            },
+            {
+              "letter": "B",
+              "text": "look for"
+            },
+            {
+              "letter": "C",
+              "text": "hand over"
+            },
+            {
+              "letter": "D",
+              "text": "pick up"
+            }
+          ],
+          "answer": "D",
+          "type": "cloze",
+          "score": 1,
+          "explanation": {
+            "summary": "考查动词短语辨析｜作者负责的航段。",
+            "question": "句意：我要做的是飞到托皮卡去接 Tiffy。",
+            "evidence": "What I was to do was fly to Topeka to ____46____ Tiffy.",
+            "answer": "D。pick up 意为“接载”。"
+          }
+        },
+        {
+          "id": 47,
+          "passageLabel": "F",
+          "stem": "第47空",
+          "options": [
+            {
+              "letter": "A",
+              "text": "confused"
+            },
+            {
+              "letter": "B",
+              "text": "nervous"
+            },
+            {
+              "letter": "C",
+              "text": "annoyed"
+            },
+            {
+              "letter": "D",
+              "text": "curious"
+            }
+          ],
+          "answer": "B",
+          "type": "cloze",
+          "score": 1,
+          "explanation": {
+            "summary": "考查形容词词义辨析｜由下文丈夫“努力保持平静”反推。",
+            "question": "句意：见到 Tiffy 的主人时，他们看起来很紧张。",
+            "evidence": "George, the husband, was trying to be calm, but I could tell this was hard for him",
+            "answer": "B。要刻意保持平静，说明本来很紧张。"
+          }
+        },
+        {
+          "id": 48,
+          "passageLabel": "F",
+          "stem": "第48空",
+          "options": [
+            {
+              "letter": "A",
+              "text": "hard"
+            },
+            {
+              "letter": "B",
+              "text": "fine"
+            },
+            {
+              "letter": "C",
+              "text": "common"
+            },
+            {
+              "letter": "D",
+              "text": "lucky"
+            }
+          ],
+          "answer": "A",
+          "type": "cloze",
+          "score": 1,
+          "explanation": {
+            "summary": "考查形容词词义辨析｜but 引导的转折。",
+            "question": "句意：但我看得出这对他来说很难——得把狗交给陌生人。",
+            "evidence": "was trying to be calm, but I could tell this was ____48____ for him",
+            "answer": "A。转折后应是负面含义，故为 hard。"
+          }
+        },
+        {
+          "id": 49,
+          "passageLabel": "F",
+          "stem": "第49空",
+          "options": [
+            {
+              "letter": "A",
+              "text": "coworker"
+            },
+            {
+              "letter": "B",
+              "text": "passenger"
+            },
+            {
+              "letter": "C",
+              "text": "stranger"
+            },
+            {
+              "letter": "D",
+              "text": "neighbor"
+            }
+          ],
+          "answer": "C",
+          "type": "cloze",
+          "score": 1,
+          "explanation": {
+            "summary": "考查名词词义辨析｜作者与狗主人的关系。",
+            "question": "句意：不得不把自己的狗交给一个陌生人。",
+            "evidence": "When I met Tiffy's owners…having to leave his dog to a ____49____",
+            "answer": "C。作者与这家人初次见面，是陌生人。"
+          }
+        },
+        {
+          "id": 50,
+          "passageLabel": "F",
+          "stem": "第50空",
+          "options": [
+            {
+              "letter": "A",
+              "text": "speed up"
+            },
+            {
+              "letter": "B",
+              "text": "work out"
+            },
+            {
+              "letter": "C",
+              "text": "come back"
+            },
+            {
+              "letter": "D",
+              "text": "take off"
+            }
+          ],
+          "answer": "B",
+          "type": "cloze",
+          "score": 1,
+          "explanation": {
+            "summary": "考查动词短语辨析｜trust that…引出的期望。",
+            "question": "句意：并相信一切都会顺利解决。",
+            "evidence": "trust that everything would ____50____",
+            "answer": "B。work out 意为“（问题）得到解决、进展顺利”。"
+          }
+        },
+        {
+          "id": 51,
+          "passageLabel": "F",
+          "stem": "第51空",
+          "options": [
+            {
+              "letter": "A",
+              "text": "feed"
+            },
+            {
+              "letter": "B",
+              "text": "follow"
+            },
+            {
+              "letter": "C",
+              "text": "change"
+            },
+            {
+              "letter": "D",
+              "text": "load"
+            }
+          ],
+          "answer": "D",
+          "type": "cloze",
+          "score": 1,
+          "explanation": {
+            "summary": "考查动词词义辨析｜load…into 装入。",
+            "question": "句意：我请 George 夫妇帮我把 Tiffy 送上飞机。",
+            "evidence": "help me ____51____ Tiffy into the plane",
+            "answer": "D。load sth. into 表示“把……装进”。"
+          }
+        },
+        {
+          "id": 52,
+          "passageLabel": "F",
+          "stem": "第52空",
+          "options": [
+            {
+              "letter": "A",
+              "text": "call"
+            },
+            {
+              "letter": "B",
+              "text": "join"
+            },
+            {
+              "letter": "C",
+              "text": "leave"
+            },
+            {
+              "letter": "D",
+              "text": "serve"
+            }
+          ],
+          "answer": "A",
+          "type": "cloze",
+          "score": 1,
+          "explanation": {
+            "summary": "考查动词词义辨析｜到达后的承诺。",
+            "question": "句意：我承诺照顾好 Tiffy，一到堪萨斯城就给他们打电话。",
+            "evidence": "____52____ them as soon as we got to Kansas City",
+            "answer": "A。抵达后向主人报平安，用 call。"
+          }
+        },
+        {
+          "id": 53,
+          "passageLabel": "F",
+          "stem": "第53空",
+          "options": [
+            {
+              "letter": "A",
+              "text": "unnecessary"
+            },
+            {
+              "letter": "B",
+              "text": "unexpected"
+            },
+            {
+              "letter": "C",
+              "text": "unavoidable"
+            },
+            {
+              "letter": "D",
+              "text": "uneventful"
+            }
+          ],
+          "answer": "D",
+          "type": "cloze",
+          "score": 1,
+          "explanation": {
+            "summary": "考查形容词词义辨析｜与“乘客很乖”并列。",
+            "question": "句意：这趟飞行平安无事，Tiffy 是个很棒的乘客。",
+            "evidence": "The flight was ____53____, and Tiffy was a great passenger.",
+            "answer": "D。uneventful 意为“平静无事的”。"
+          }
+        },
+        {
+          "id": 54,
+          "passageLabel": "F",
+          "stem": "第54空",
+          "options": [
+            {
+              "letter": "A",
+              "text": "returned"
+            },
+            {
+              "letter": "B",
+              "text": "fought"
+            },
+            {
+              "letter": "C",
+              "text": "flew"
+            },
+            {
+              "letter": "D",
+              "text": "agreed"
+            }
+          ],
+          "answer": "C",
+          "type": "cloze",
+          "score": 1,
+          "explanation": {
+            "summary": "考查动词词义辨析｜第二段接力航程。",
+            "question": "句意：第二天她跟着 Karen 飞，几天内回到了弗吉尼亚的 George 身边。",
+            "evidence": "Karen, who offered to take Tiffy from Kansas City to Virginia",
+            "answer": "C。由 Karen 驾机接力，故用 flew with Karen。"
+          }
+        },
+        {
+          "id": 55,
+          "passageLabel": "F",
+          "stem": "第55空",
+          "options": [
+            {
+              "letter": "A",
+              "text": "thankful"
+            },
+            {
+              "letter": "B",
+              "text": "generous"
+            },
+            {
+              "letter": "C",
+              "text": "proud"
+            },
+            {
+              "letter": "D",
+              "text": "sympathetic"
+            }
+          ],
+          "answer": "A",
+          "type": "cloze",
+          "score": 1,
+          "explanation": {
+            "summary": "考查形容词词义辨析｜由“写邮件致谢并附照片”反推。",
+            "question": "句意：他非常感激，给我发了一封很好的邮件并附上照片。",
+            "evidence": "He was so ____55____ and sent me a nice e-mail with pictures.",
+            "answer": "A。发致谢邮件体现的是感激。"
+          }
+        }
+      ]
+    },
+    {
+      "key": "grammar",
+      "partTitle": "第三部分 语言运用（共两节，满分30分）",
+      "secTitle": "第二节（共10小题；每小题1.5分，满分15分）阅读下面短文，在空白处填入1个适当的单词或括号内单词的正确形式。",
+      "pool": [],
+      "passages": [
+        {
+          "label": "G",
+          "text": "Whenever I tell people that I teach English at the Berlin Zoo, I almost always get a questioning look. Behind it, the person is trying to figure out who exactly I teach…the animals?\n\nSince June 2017, right before the ____56____ (arrive) of the two new pandas, Meng Meng and Jiao Qing, I have been helping the panda keepers at the zoo to feel more comfortable and ____57____ (confidence) speaking English. And who do they speak English ____58____?\n\nNot the pandas, even though ____59____ language used for the medical training instructions is actually English. They talk to the flood of international tourists and to ____60____ (visit) Chinese zookeepers who often come to check on the pandas, which are on loan from China. They also need to be ready to give ____61____ (interview) in English with international journalists. This is ____62____ they need an English trainer.\n\nSo, what are they learning? ____63____ (basic), how to describe a panda's life. It's been an honor to watch the panda programme develop ____64____ to see the pandas settle into their new home. As a little girl, I ____65____ (wish) to be a zookeeper when I grew up. Now, I'm living out that dream indirectly by helping the panda keepers do their job in English."
+        }
+      ],
+      "questions": [
+        {
+          "id": 56,
+          "passageLabel": "G",
+          "stem": "第56空（arrive）",
+          "options": [],
+          "answer": "arrival",
+          "type": "grammar",
+          "score": 1.5,
+          "explanation": {
+            "summary": "考查名词｜本文是记叙文，讲作者在柏林动物园教熊猫饲养员英语。",
+            "question": "句意：2017 年 6 月，就在两只新大熊猫萌萌和娇庆到来之前……",
+            "evidence": "right before the ____56____ (arrive) of the two new pandas",
+            "answer": "arrival。空前有冠词 the、空后接 of，需填名词，arrive 的名词形式为 arrival。"
+          }
+        },
+        {
+          "id": 57,
+          "passageLabel": "G",
+          "stem": "第57空（confidence）",
+          "options": [],
+          "answer": "confident",
+          "type": "grammar",
+          "score": 1.5,
+          "explanation": {
+            "summary": "考查形容词｜并列成分保持同类。",
+            "question": "句意：帮助饲养员说英语时更自在、更自信。",
+            "evidence": "to feel more comfortable and ____57____ (confidence) speaking English",
+            "answer": "confident。与 comfortable 并列作 feel 的表语，需用形容词。"
+          }
+        },
+        {
+          "id": 58,
+          "passageLabel": "G",
+          "stem": "第58空",
+          "options": [],
+          "answer": "with",
+          "type": "grammar",
+          "score": 1.5,
+          "explanation": {
+            "summary": "考查介词｜speak with sb. 固定搭配。",
+            "question": "句意：那他们是和谁说英语呢？",
+            "evidence": "And who do they speak English ____58____?",
+            "answer": "with。speak with sb. 表“与某人交谈”，此处介词后置。"
+          }
+        },
+        {
+          "id": 59,
+          "passageLabel": "G",
+          "stem": "第59空",
+          "options": [],
+          "answer": "the",
+          "type": "grammar",
+          "score": 1.5,
+          "explanation": {
+            "summary": "考查冠词｜特指语境。",
+            "question": "句意：尽管用于医疗训练指令的语言其实是英语。",
+            "evidence": "even though ____59____ language used for the medical training instructions is actually English",
+            "answer": "the。有过去分词短语限定，表特指，用定冠词。"
+          }
+        },
+        {
+          "id": 60,
+          "passageLabel": "G",
+          "stem": "第60空（visit）",
+          "options": [],
+          "answer": "visiting",
+          "type": "grammar",
+          "score": 1.5,
+          "explanation": {
+            "summary": "考查形容词/现在分词作定语。",
+            "question": "句意：他们要和大量国际游客以及来访的中国饲养员交谈。",
+            "evidence": "to ____60____ (visit) Chinese zookeepers who often come to check on the pandas",
+            "answer": "visiting。修饰后面的名词 zookeepers，表主动、进行，用 visiting“来访的”。"
+          }
+        },
+        {
+          "id": 61,
+          "passageLabel": "G",
+          "stem": "第61空（interview）",
+          "options": [],
+          "answer": "interviews",
+          "type": "grammar",
+          "score": 1.5,
+          "explanation": {
+            "summary": "考查名词的数。",
+            "question": "句意：他们还得准备好用英语接受国际记者的采访。",
+            "evidence": "need to be ready to give ____61____ (interview) in English with international journalists",
+            "answer": "interviews。give 后接名词作宾语，采访不止一次，用复数。"
+          }
+        },
+        {
+          "id": 62,
+          "passageLabel": "G",
+          "stem": "第62空",
+          "options": [],
+          "answer": "why",
+          "type": "grammar",
+          "score": 1.5,
+          "explanation": {
+            "summary": "考查表语从句连接词。",
+            "question": "句意：这就是他们需要一位英语培训师的原因。",
+            "evidence": "This is ____62____ they need an English trainer.",
+            "answer": "why。从句结构完整、表原因，用连接副词 why 引导表语从句。"
+          }
+        },
+        {
+          "id": 63,
+          "passageLabel": "G",
+          "stem": "第63空（basic）",
+          "options": [],
+          "answer": "Basically",
+          "type": "grammar",
+          "score": 1.5,
+          "explanation": {
+            "summary": "考查副词｜句首状语。",
+            "question": "句意：基本上就是如何描述一只熊猫的生活。",
+            "evidence": "____63____ (basic), how to describe a panda's life.",
+            "answer": "Basically。修饰整句用副词，位于句首首字母大写。"
+          }
+        },
+        {
+          "id": 64,
+          "passageLabel": "G",
+          "stem": "第64空",
+          "options": [],
+          "answer": "and",
+          "type": "grammar",
+          "score": 1.5,
+          "explanation": {
+            "summary": "考查连词｜并列不定式。",
+            "question": "句意：能看到熊猫项目发展、看到熊猫安顿下来，是一种荣幸。",
+            "evidence": "to watch the panda programme develop ____64____ to see the pandas settle into their new home",
+            "answer": "and。两个不定式短语为并列关系。"
+          }
+        },
+        {
+          "id": 65,
+          "passageLabel": "G",
+          "stem": "第65空（wish）",
+          "options": [],
+          "answer": "wished",
+          "type": "grammar",
+          "score": 1.5,
+          "explanation": {
+            "summary": "考查动词时态。",
+            "question": "句意：小时候，我希望长大后成为一名动物园饲养员。",
+            "evidence": "As a little girl, I ____65____ (wish) to be a zookeeper when I grew up.",
+            "answer": "wished。本句缺谓语，与主语 I 是主动关系，据 grew 判断用一般过去时。"
+          }
+        }
+      ]
+    },
+    {
+      "key": "writing_app",
+      "partTitle": "第四部分 写作（共两节，满分40分）",
+      "secTitle": "第一节（满分15分）",
+      "passages": [],
+      "pool": [],
+      "questions": [
+        {
+          "id": 66,
+          "stem": "假定你是李华，外教Ryan准备将学生随机分为两人一组，让大家课后练习口语，你认为这样分组存在问题。请你给外教写一封邮件，内容包括：\n1. 说明问题；\n2. 提出建议。\n注意：\n1. 写作词数应为80个左右；\n2. 请按如下格式在答题卡的相应位置作答。\n\nDear Ryan,\nI'm Li Hua from Class 3.\n\nYours sincerely,\nLi Hua",
+          "options": [],
+          "type": "writing",
+          "score": 15,
+          "modelAnswer": "Dear Ryan,\n\nI'm Li Hua from Class 3. I think it's not a good idea to randomly pair up students for the spoken English training after class. The reasons are as follows.\n\nTo begin with, randomly pairing up students may lead to unbalanced language abilities within the groups. This can hinder the progress of students as the more advanced one may dominate the conversation, leaving little room for the other students to improve. Besides, students may feel uncomfortable or less motivated if paired with someone who they don't get along with or have difficulty communicating with.\n\nMy suggestion is to group students based on their language abilities or to let students choose their own partners. This way, everyone can feel more comfortable practicing and improving their spoken English together.\n\nThank you for considering my suggestion.\n\nYours sincerely,\nLi Hua",
+          "explanation": {
+            "summary": "应用文写作｜给外教写邮件，指出随机两人分组练口语的问题并提建议。本题与同年新课标Ⅰ卷为同一道作文题。",
+            "question": "要点：说明问题（能力不匹配、相处不适影响积极性）＋提出建议（按水平分组或自选伙伴）。",
+            "evidence": "词汇积累：首先 to begin with → first of all；提高 improve → progress；建议 suggestion → advice；选择 choose → select。",
+            "answer": "高分句型：现在分词作状语 leaving little room for the other students to improve；省略句+who 引导定语从句 if paired with someone who they don't get along with。"
+          }
+        }
+      ]
+    },
+    {
+      "key": "writing_cont",
+      "partTitle": "第四部分 写作（共两节，满分40分）",
+      "secTitle": "第二节（满分25分）",
+      "pool": [],
+      "passages": [
+        {
+          "label": "H",
+          "text": "When I was in middle school, my social studies teacher asked me to enter a writing contest. I said no without thinking. I did not love writing. My family came from Brazil, so English was only my second language. Writing was so difficult and painful for me that my teacher had allowed me to present my paper on the sinking of the Titanic by acting out a play, where I played all the parts. No one laughed harder than he did.\n\nSo, why did he suddenly force me to do something at which I was sure to fail? His reply: \"Because I love your stories. If you're willing to apply yourself, I think you have a good shot at this.\" Encouraged by his words, I agreed to give it a try.\n\nI chose Paul Revere's horse as my subject. Paul Revere was a silversmith (银匠) in Boston who rode a horse at night on April 18, 1775 to Lexington to warn people that British soldiers were coming. My story would come straight from the horse's mouth. Not a brilliant idea, but funny; and unlikely to be anyone else's choice.\n\nWhat did the horse think, as he sped through the night? Did he get tired? Have doubts? Did he want to quit? I sympathized immediately. I got tired. I had doubts. I wanted to quit. But, like Revere's horse, I kept going. I worked hard. I checked my spelling. I asked my older sister to correct my grammar. I checked out a half dozen books on Paul Revere from the library. I even read a few of them.\n\nWhen I handed in the essay to my teacher, he read it, laughed out loud, and said, \"Great. Now, write it again.\" I wrote it again, and again and again. When I finally finished it, the thought of winning had given way to the enjoyment of writing. If I didn't win, I wouldn't care."
+        }
+      ],
+      "questions": [
+        {
+          "id": 67,
+          "passageLabel": "H",
+          "stem": "阅读上面材料，根据其内容和所给段落开头语续写两段，使之构成一篇完整的短文。\n注意：\n1. 续写词数应为150个左右；\n2. 请按如下格式在答题卡的相应位置作答。\n\nParagraph 1: A few weeks later, when I almost forgot the contest, there came the news.\n\nParagraph 2: I went to my teacher's office after the award presentation.",
+          "options": [],
+          "type": "writing",
+          "score": 25,
+          "modelAnswer": "A few weeks later, when I almost forgot the contest, there came the news. I was informed that I won the first prize in the writing contest and that there would be an award presentation in two days. I was so happy to hear the news that I immediately shared it with my teacher. \"I knew you'd win! I am proud of you. You made it!\" he said excitedly. Then came the big day. When I was invited to the stage to receive the award, I expressed my thanks to my teacher. I said, \"It's you who make me fall in love with writing, my social studies teacher. Without your recognition and guidance, I couldn't have written this article. Again thank you very much!\"\n\nI went to my teacher's office after the award presentation. My teacher was waiting for me. Holding my hands, he said \"Congratulations! You are a good writer, so keep writing.\" \"You know I didn't like writing before, but now I am crazy about it! I will try my best to create good works.\" I said seriously. Since then, I have written many good works and now I am a famous writer. I owe my success to my social teacher who is a beacon in my life on the road to writing.",
+          "explanation": {
+            "summary": "读后续写｜原文讲作者在社会学老师鼓励下参赛，写作虽苦却坚持，最终享受到写作的乐趣。本题与同年新课标Ⅰ卷为同一道题。",
+            "question": "第一段由“消息传来”写获奖与颁奖典礼上的致谢；第二段由“颁奖后去老师办公室”写老师鼓励与作者的成长。",
+            "evidence": "续写线索：比赛消息传来 → 获一等奖 → 高兴分享 → 颁奖典礼感谢老师 → 到老师办公室 → 老师叮嘱坚持写作 → 表达对写作的热爱 → 日后取得成功 → 感激老师。词汇激活：告知 inform/tell；成功做到 make it/succeed；表达 express/convey。",
+            "answer": "高分句型：that 引导的宾语从句 I was informed that I won the first prize…；强调句 It's you who make me fall in love with writing；who 引导的限制性定语从句 my social teacher who is a beacon in my life。"
+          }
+        }
+      ]
+    }
+  ]
+}

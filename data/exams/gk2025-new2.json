@@ -1,0 +1,1491 @@
+{
+  "id": "gk2025-new2",
+  "year": 2025,
+  "paper": "全国Ⅱ卷",
+  "region": "全国（新课标Ⅱ卷）",
+  "title": "2025年全国Ⅱ卷英语（笔试部分）",
+  "format": "new",
+  "duration": 100,
+  "totalScore": 120,
+  "hasAudio": false,
+  "audio": null,
+  "quality": "verified",
+  "proofreadingConfirmed": true,
+  "answerSource": "2025全国二卷答案.docx（官方参考答案）+ 2025年高考英语试卷（全国二卷）.docx（原卷）",
+  "note": "本卷仅收录笔试部分（阅读、语言运用、写作），共47题120分。原因：答案档只重排了听力题目而未给出听力答案，也无听力原文与音频，20道听力题（30分）无法录入，详见《题库待补清单.md》。答案档另有两处排印错误：语法填空节标注「每小题15分」（应为1.5分）、阅读答案分三处散落且顺序错乱，均已核对后按正确值录入。解析为自撰（答案档只给答案与两篇写作范文）。",
+  "sections": [
+    {
+      "key": "reading",
+      "partTitle": "第二部分 阅读（共两节，满分50分）",
+      "secTitle": "第一节（共15小题；每小题2.5分，满分37.5分）阅读下列短文，从每题所给的A、B、C、D四个选项中选出最佳选项。",
+      "pool": [],
+      "passages": [
+        {
+          "label": "A",
+          "text": "English Market Towns to Visit in the UK\n\nEnglish market towns come in many shapes and sizes. Each has a personality shaped by the goods and services produced and traded for centuries. But each town has more to do than shop.\n\nHereford, Herefordshire\nHereford has remained a lively market town since 1189. Skirting the town square, you'll find lovely shops, eateries, and the Black and White House Museum. The Hereford Cathedral is the most impressive building in town. It's also home to an ancient library. One of the four original copies of the Magna Carta is displayed there.\n\nLudlow, Shropshire\nLudlow is known as the Foodie Center of England. Butcher shops, greengrocers, bakeries, and cheese shops line the town square. Bordering the square, the Ludlow Castle is a \"must explore\" medieval stronghold. The three-day Ludlow Food Festival is held each September.\n\nShrewsbury, Shropshire\nGetting to Shrewsbury Town Center from London is challenging but worth the anxiety. The River Severn has a significant turn through town, almost making an island of Shrewsbury Town Center. The shape creates a perfect market where goods could be shipped and received using the river as a highway. Flowers are everywhere — hanging baskets, window boxes, and planters — just what you imagine in an attractive English market town.\n\nMevagissey, Cornwall\nEven if you haven't been to the small fishing village Mevagissey, you've probably seen it in a movie or British TV show. The working harbor (港口) took shape in 1774. Fishermen go out to sea daily and sell their fish in harbor-side markets. Don't leave the harbor without a traditional Cornish pie. It's delicious."
+        },
+        {
+          "label": "B",
+          "text": "Kathy Ho teaches high school inside Lucile Packard Children's Hospital Stanford (LPCH). \"Sometimes I don't like saying that I'm a teacher,\" says Ho. \"People get in their minds an idea of what teachers do, but that's not really what it is here.\"\n\n\"Here\" is room 386, where each year, about 500 LPCH patients also become students. The hospital school is free of parents, doctors, and medical procedures. It's a place of learning. About half of Ho's students stay for a week or less; others are there for more than a year. Most of Ho's students will recover, which means that preparing them to return to school is an increasingly important component of care.\n\nStill, in room 386, academics don't come first. Physical health and mental health are the priority. \"If you're scared about something and thinking only about that, there's no way you're going to be able to learn,\" Ho says. \"I'm a coach, an adviser, and a comforter, and that's what it means to be a hospital teacher.\"\n\nThere are up to 30 students at any given time in Ho's class. She generally works with their regular teachers to get lessons and tests being used at their home schools. Some teachers don't give the kids any assignments; they express sympathy instead. \"I feel like it is a disservice to the kids,\" Ho says. \"They think their teachers don't care about their schoolwork.\"\n\nHo recognizes the psychological benefit of helping kids keep up with their peers (同龄人) outside the hospital. \"I actually think the medicine is only a small piece for some problems,\" says Julie Good, director of pain management services at LPCH. \"It's about problem-solving around what it means to have a full life. Those kids have dreams. School can keep those dreams alive by giving kids a way to learn and grow.\""
+        },
+        {
+          "label": "C",
+          "text": "When Sonja Detrinidad opened her online shop selling houseplants, she didn't have high hopes for it. But the opposite happened: She was flooded, shipping out 1,200 orders in June of 2020 alone. In the past year, Detrinidad sent out more than 70,000 plants. Her success is just one example of increased time at home leading to an explosion in the houseplant industry.\n\n\"Plants are in fashion right now,\" says Dr. Melinda Knuth, a researcher from the University of Florida. \"People who live in plant-rich environments report a higher life satisfaction rating,\" she says. \"Adding more nature to our environment can change our mood and how we think.\" Plants can improve our state of mind in a few ways but the biggest is by decreasing our level of cortisol, the stress hormone (激素) in our body.\n\n\"Students who are around plants perform better academically than students who are in a classroom without plants,\" says Knuth. \"This productivity also translates into the workplace for adults. Our study showed that there was a 30% decrease in sick leave for people who were in plant-rich workplaces.\"\n\nIf you're among the groups of people who are enjoying the mental and physical health benefits of surrounding yourself with plants, don't beat yourself up if one (or a few!) doesn't make it. \"Doctors practice medicine and lawyers practice law and you should allow yourself the practice it takes to sustain a plant. Tending to plants is an exercise in patience and learning. Be invested in taking care of it, but if it dies, go get another one,\" Detrinidad says."
+        },
+        {
+          "label": "D",
+          "text": "Does your soul die a little every time you throw away unused food? Mine does. Maybe that feeling comes from growing up in South Africa, where the phrase \"there are children starving in Africa\" was more of an uncomfortable reminder of fact than a prayer at dinner time.\n\nFood waste is a growing concern in the restaurant, supermarket, and supply chain industries. From technological solutions to educational campaigns, food producers and sellers are looking for ways to use more of what we're already growing. But last month, one popular New York City restaurant tried a different way: It changed its menu to exclusively (专门) offer food that would otherwise be thrown away.\n\nFor two weeks in March, Greenwich Village's Blue Hill restaurant was renamed wastED, and served items like fried skate cartilage, a juice pulp burger, and a dumpster diver's vegetable salad. Each dish was tailor-made to raise awareness regarding food waste.\n\nA study by the Food Waste Alliance determined that the average restaurant generates 33 pounds of food waste for every $1,000 in revenue (收入), and of that waste only 15.7% is donated or recycled. Up to 84.3% is simply thrown out. Restaurants like Silo in the UK have experimented with zero-waste systems, but wastED took the concept to its logical conclusion.\n\nIt should be noted that none of the items on wastED's menu was technically made from garbage. Instead, all the ingredients (配料) used were examples of meat cuts and produce that most restaurants would never consider serving. Things like kale ribs, fish collars, rejected sweet potatoes, and cucumber butts were all re-appropriated and, with the help of a number of good chefs, turned into excellent cuisine.\n\nThough wastED received enthusiastic reviews, it was designed from the start as a short-lived experiment; Blue Hill has since returned to its regular menu. Nevertheless, it serves as a reminder that there are many ways to address problems of sustainability, and that you can make an amazing meal out of almost anything."
+        }
+      ],
+      "questions": [
+        {
+          "id": 1,
+          "passageLabel": "A",
+          "stem": "Where can you find an original copy of the Magna Carta?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "In the Ludlow Castle."
+            },
+            {
+              "letter": "B",
+              "text": "In the Foodie Center of England."
+            },
+            {
+              "letter": "C",
+              "text": "In the Hereford Cathedral."
+            },
+            {
+              "letter": "D",
+              "text": "In the Black and White House Museum."
+            }
+          ],
+          "answer": "C",
+          "type": "reading",
+          "score": 2.5,
+          "explanation": {
+            "summary": "细节理解题｜本文是应用文，推荐英国四座值得一游的集镇。",
+            "question": "问在哪里能看到《大宪章》的原始抄本。",
+            "evidence": "The Hereford Cathedral is the most impressive building in town. It's also home to an ancient library. One of the four original copies of the Magna Carta is displayed there.",
+            "answer": "C。there 指代前一句的 Hereford Cathedral（赫里福德大教堂），四份原始抄本之一陈列于此。黑白屋博物馆（D）与之并列出现但无此展品。"
+          }
+        },
+        {
+          "id": 2,
+          "passageLabel": "A",
+          "stem": "What is a feature of Shrewsbury Town Center?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "It's situated near a big island."
+            },
+            {
+              "letter": "B",
+              "text": "It's almost surrounded by water."
+            },
+            {
+              "letter": "C",
+              "text": "It's known for its flower festival."
+            },
+            {
+              "letter": "D",
+              "text": "It's easily accessible from London."
+            }
+          ],
+          "answer": "B",
+          "type": "reading",
+          "score": 2.5,
+          "explanation": {
+            "summary": "细节理解题｜Shrewsbury 一节的地理描写。",
+            "question": "问什罗斯伯里镇中心的一个特点是什么。",
+            "evidence": "The River Severn has a significant turn through town, almost making an island of Shrewsbury Town Center.",
+            "answer": "B。塞文河在镇中大幅转弯，几乎把镇中心变成一座岛，即三面环水。它本身近似小岛，并非「位于一座大岛附近」（A）；文中说从伦敦过去颇为不易（D 与原文相反）；花是随处可见的装饰，未提花卉节（C）。"
+          }
+        },
+        {
+          "id": 3,
+          "passageLabel": "A",
+          "stem": "What does the author suggest visitors do in Mevagissey?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Try the Cornish pie."
+            },
+            {
+              "letter": "B",
+              "text": "Watch a British TV show."
+            },
+            {
+              "letter": "C",
+              "text": "Go fishing in the sea."
+            },
+            {
+              "letter": "D",
+              "text": "Take pictures of the harbor."
+            }
+          ],
+          "answer": "A",
+          "type": "reading",
+          "score": 2.5,
+          "explanation": {
+            "summary": "细节理解题｜Mevagissey 一节的建议。",
+            "question": "问作者建议游客在梅瓦吉西做什么。",
+            "evidence": "Don't leave the harbor without a traditional Cornish pie. It's delicious.",
+            "answer": "A。「别没吃上一块传统康沃尔派就离开码头」是双重否定表强调的建议，即一定要尝尝康沃尔派。出海打鱼是当地渔民每天做的事，不是给游客的建议（C）。"
+          }
+        },
+        {
+          "id": 4,
+          "passageLabel": "B",
+          "stem": "Who does Ho teach at LPCH?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Sick children."
+            },
+            {
+              "letter": "B",
+              "text": "Young nurses."
+            },
+            {
+              "letter": "C",
+              "text": "Medical students."
+            },
+            {
+              "letter": "D",
+              "text": "Patients' parents."
+            }
+          ],
+          "answer": "A",
+          "type": "reading",
+          "score": 2.5,
+          "explanation": {
+            "summary": "细节理解题｜本文是人物报道，写儿童医院里的「医院教师」Kathy Ho。",
+            "question": "问 Ho 在 LPCH 教的是什么人。",
+            "evidence": "\"Here\" is room 386, where each year, about 500 LPCH patients also become students.",
+            "answer": "A。她在 386 号房间教的是每年约 500 名住院的患儿，即生病的孩子。院内学校「free of parents, doctors」，家长和医生都不参与（B、D 错）。"
+          }
+        },
+        {
+          "id": 5,
+          "passageLabel": "B",
+          "stem": "What is a characteristic of Ho's job?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Prioritizing academics."
+            },
+            {
+              "letter": "B",
+              "text": "Encouraging innovation."
+            },
+            {
+              "letter": "C",
+              "text": "Treating various diseases."
+            },
+            {
+              "letter": "D",
+              "text": "Playing multiple roles."
+            }
+          ],
+          "answer": "D",
+          "type": "reading",
+          "score": 2.5,
+          "explanation": {
+            "summary": "细节理解题｜第三段 Ho 的自我定位。",
+            "question": "问 Ho 这份工作的一个特点是什么。",
+            "evidence": "\"I'm a coach, an adviser, and a comforter, and that's what it means to be a hospital teacher.\"",
+            "answer": "D。她自称既是教练、又是顾问、还是安慰者，即身兼多重角色。第三段明确说 academics don't come first（学业并非首位），故 A 与原文相反。"
+          }
+        },
+        {
+          "id": 6,
+          "passageLabel": "B",
+          "stem": "What does the underlined word \"it\" refer to in paragraph 4?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Offering regular lessons."
+            },
+            {
+              "letter": "B",
+              "text": "Paying extra attention."
+            },
+            {
+              "letter": "C",
+              "text": "Assigning no schoolwork."
+            },
+            {
+              "letter": "D",
+              "text": "Showing no sympathy."
+            }
+          ],
+          "answer": "C",
+          "type": "reading",
+          "score": 2.5,
+          "explanation": {
+            "summary": "代词指代题｜第四段的逻辑关系。",
+            "question": "问第四段划线词 it 指代什么。",
+            "evidence": "Some teachers don't give the kids any assignments; they express sympathy instead. \"I feel like it is a disservice to the kids,\" Ho says. \"They think their teachers don't care about their schoolwork.\"",
+            "answer": "C。it 回指上一句「有些老师不给孩子留任何作业」这一做法；Ho 认为这反而害了孩子，因为孩子会觉得老师不在乎自己的学业。"
+          }
+        },
+        {
+          "id": 7,
+          "passageLabel": "B",
+          "stem": "How does the hospital school benefit the students according to Good?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "It eases peer pressure."
+            },
+            {
+              "letter": "B",
+              "text": "It helps them live in hope."
+            },
+            {
+              "letter": "C",
+              "text": "It frees them from aches."
+            },
+            {
+              "letter": "D",
+              "text": "It entertains them with stories."
+            }
+          ],
+          "answer": "B",
+          "type": "reading",
+          "score": 2.5,
+          "explanation": {
+            "summary": "细节理解题｜末段 Julie Good 的观点。",
+            "question": "问按 Good 的说法，院内学校让学生获益在哪里。",
+            "evidence": "\"Those kids have dreams. School can keep those dreams alive by giving kids a way to learn and grow.\"",
+            "answer": "B。学校给孩子学习与成长的途径，让他们的梦想不灭，即帮助他们心怀希望地生活。Good 是疼痛管理部门主任，但她强调「药物只是问题的一小部分」，并未说学校能免除病痛（C）。"
+          }
+        },
+        {
+          "id": 8,
+          "passageLabel": "C",
+          "stem": "How was Detrinidad's business when it started?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "It faced tough competition."
+            },
+            {
+              "letter": "B",
+              "text": "It suffered a great loss."
+            },
+            {
+              "letter": "C",
+              "text": "It got lots of financial support."
+            },
+            {
+              "letter": "D",
+              "text": "It went surprisingly well."
+            }
+          ],
+          "answer": "D",
+          "type": "reading",
+          "score": 2.5,
+          "explanation": {
+            "summary": "细节理解题｜本文是说明文，讲室内植物走红及其对身心的益处。",
+            "question": "问 Detrinidad 的生意刚起步时情况如何。",
+            "evidence": "she didn't have high hopes for it. But the opposite happened: She was flooded, shipping out 1,200 orders in June of 2020 alone.",
+            "answer": "D。她原本没抱多大期望，结果恰恰相反——订单如潮，仅 2020 年 6 月就发出 1200 单，故是出乎意料地红火。"
+          }
+        },
+        {
+          "id": 9,
+          "passageLabel": "C",
+          "stem": "What is one of Knuth's findings about plants?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "They appeal more to students."
+            },
+            {
+              "letter": "B",
+              "text": "They purify the environment."
+            },
+            {
+              "letter": "C",
+              "text": "They raise the cortisol level."
+            },
+            {
+              "letter": "D",
+              "text": "They enhance productivity."
+            }
+          ],
+          "answer": "D",
+          "type": "reading",
+          "score": 2.5,
+          "explanation": {
+            "summary": "细节理解题｜第三段 Knuth 的研究结论。",
+            "question": "问 Knuth 关于植物的一项发现是什么。",
+            "evidence": "\"Students who are around plants perform better academically…This productivity also translates into the workplace for adults. Our study showed that there was a 30% decrease in sick leave for people who were in plant-rich workplaces.\"",
+            "answer": "D。学生成绩更好、成年人病假减少三成，都被她归结为 productivity（效能）的提升。植物是降低而非升高皮质醇水平（C 与原文相反）。"
+          }
+        },
+        {
+          "id": 10,
+          "passageLabel": "C",
+          "stem": "What does Detrinidad try to explain by mentioning doctors and lawyers?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "The necessity of social skills."
+            },
+            {
+              "letter": "B",
+              "text": "The meaning of sustainability."
+            },
+            {
+              "letter": "C",
+              "text": "The importance of repeated efforts."
+            },
+            {
+              "letter": "D",
+              "text": "The value of professional opinions."
+            }
+          ],
+          "answer": "C",
+          "type": "reading",
+          "score": 2.5,
+          "explanation": {
+            "summary": "推理判断题｜末段类比的用意。",
+            "question": "问 Detrinidad 提到医生和律师是想说明什么。",
+            "evidence": "\"Doctors practice medicine and lawyers practice law and you should allow yourself the practice it takes to sustain a plant. Tending to plants is an exercise in patience and learning…if it dies, go get another one.\"",
+            "answer": "C。她借 practice 一词双关：医生行医、律师执业都是不断「练习」，养植物也需要允许自己反复练习，故强调反复尝试的重要性。"
+          }
+        },
+        {
+          "id": 11,
+          "passageLabel": "C",
+          "stem": "What can be a suitable title for the text?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Time to Replace Houseplants"
+            },
+            {
+              "letter": "B",
+              "text": "Plants Boost Your Mood"
+            },
+            {
+              "letter": "C",
+              "text": "Tips on Choosing Houseplants"
+            },
+            {
+              "letter": "D",
+              "text": "Plants Brighten Your Home"
+            }
+          ],
+          "answer": "B",
+          "type": "reading",
+          "score": 2.5,
+          "explanation": {
+            "summary": "标题归纳题｜全文主线。",
+            "question": "问本文合适的标题。",
+            "evidence": "Adding more nature to our environment can change our mood and how we think…Plants can improve our state of mind…decreasing our level of cortisol",
+            "answer": "B。全文围绕植物如何改善情绪与身心状态展开，故「植物提振你的心情」最贴切。文中并未教人如何挑选（C）或强调装点居室（D）。"
+          }
+        },
+        {
+          "id": 12,
+          "passageLabel": "D",
+          "stem": "What can be inferred about the author's early life?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "He witnessed food shortage."
+            },
+            {
+              "letter": "B",
+              "text": "He enjoyed the local cuisine."
+            },
+            {
+              "letter": "C",
+              "text": "He donated food to Africans."
+            },
+            {
+              "letter": "D",
+              "text": "He helped to cook at home."
+            }
+          ],
+          "answer": "A",
+          "type": "reading",
+          "score": 2.5,
+          "explanation": {
+            "summary": "推理判断题｜本文是新闻特写，介绍纽约 wastED 餐厅用「废弃食材」做菜的实验。",
+            "question": "问可以推断出作者早年生活的什么信息。",
+            "evidence": "growing up in South Africa, where the phrase \"there are children starving in Africa\" was more of an uncomfortable reminder of fact than a prayer at dinner time",
+            "answer": "A。在南非长大的作者听到「非洲有孩子在饿肚子」时，这不是餐前祷词而是令人不安的事实提醒，可见他亲眼见过食物短缺。"
+          }
+        },
+        {
+          "id": 13,
+          "passageLabel": "D",
+          "stem": "Why did Blue Hill carry out the experiment?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "To customize dishes for guests."
+            },
+            {
+              "letter": "B",
+              "text": "To make the public aware of food waste."
+            },
+            {
+              "letter": "C",
+              "text": "To test a food processing method."
+            },
+            {
+              "letter": "D",
+              "text": "To improve the UK's zero-waste systems."
+            }
+          ],
+          "answer": "B",
+          "type": "reading",
+          "score": 2.5,
+          "explanation": {
+            "summary": "细节理解题｜第三段末句点明目的。",
+            "question": "问 Blue Hill 为什么要做这个实验。",
+            "evidence": "Each dish was tailor-made to raise awareness regarding food waste.",
+            "answer": "B。每道菜都是为唤起人们对食物浪费的关注而专门设计的。tailor-made 是「量身设计」的意思，但对象是「唤起意识」这一目的，不是为顾客定制菜品（A 为词义陷阱）。"
+          }
+        },
+        {
+          "id": 14,
+          "passageLabel": "D",
+          "stem": "What is paragraph 5 mainly about?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Why the ingredients were used."
+            },
+            {
+              "letter": "B",
+              "text": "Which dishes were best liked."
+            },
+            {
+              "letter": "C",
+              "text": "What the dishes were made of."
+            },
+            {
+              "letter": "D",
+              "text": "Where the ingredients were bought."
+            }
+          ],
+          "answer": "C",
+          "type": "reading",
+          "score": 2.5,
+          "explanation": {
+            "summary": "段落主旨题｜第五段的内容。",
+            "question": "问第五段主要讲什么。",
+            "evidence": "none of the items on wastED's menu was technically made from garbage. Instead, all the ingredients used were examples of meat cuts and produce that most restaurants would never consider serving. Things like kale ribs, fish collars, rejected sweet potatoes, and cucumber butts…",
+            "answer": "C。本段澄清菜品并非用垃圾做的，并逐一列举羽衣甘蓝的叶脉、鱼颈、被挑剩的红薯、黄瓜尾等原料，即说明这些菜是用什么做的。"
+          }
+        },
+        {
+          "id": 15,
+          "passageLabel": "D",
+          "stem": "What can we learn about wastED?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "It has ended as planned."
+            },
+            {
+              "letter": "B",
+              "text": "It is creating new jobs."
+            },
+            {
+              "letter": "C",
+              "text": "It has regained popularity."
+            },
+            {
+              "letter": "D",
+              "text": "It is criticized by top chefs."
+            }
+          ],
+          "answer": "A",
+          "type": "reading",
+          "score": 2.5,
+          "explanation": {
+            "summary": "细节理解题｜末段的交代。",
+            "question": "问关于 wastED 我们可以得知什么。",
+            "evidence": "it was designed from the start as a short-lived experiment; Blue Hill has since returned to its regular menu",
+            "answer": "A。它从一开始就被设计为短期实验，之后 Blue Hill 已恢复常规菜单，即按计划结束。它获得的是热情好评，好厨师们也参与其中（D 与原文相反）。"
+          }
+        }
+      ]
+    },
+    {
+      "key": "seven",
+      "partTitle": "第二部分 阅读（共两节，满分50分）",
+      "secTitle": "第二节（共5小题；每小题2.5分，满分12.5分）阅读下面短文，从短文后的选项中选出可以填入空白处的最佳选项。选项中有两项为多余选项。",
+      "pool": [
+        {
+          "letter": "A",
+          "text": "Helping the community lowers rates of depression."
+        },
+        {
+          "letter": "B",
+          "text": "Volunteering as a family may be just the thing you need."
+        },
+        {
+          "letter": "C",
+          "text": "Volunteering has a lifelong effect on kids and teenagers."
+        },
+        {
+          "letter": "D",
+          "text": "Volunteering can be the first step in breaking down prejudice."
+        },
+        {
+          "letter": "E",
+          "text": "For adults, volunteering can provide significant physical health benefits."
+        },
+        {
+          "letter": "F",
+          "text": "You may even learn that your kid has a talent you didn't know about before."
+        },
+        {
+          "letter": "G",
+          "text": "Volunteering makes you feel capable and inspires you to make the most of each day."
+        }
+      ],
+      "passages": [
+        {
+          "label": "E",
+          "text": "Unexpected Benefits of Volunteering as a Family\n\nAre you looking for a way to bring your family together? Hoping to find a hobby that can be shared by both the little ones and adults? ___16___ You may know the \"feel-good\" emotions that come with helping others, but there are even more unexpected ways volunteering will positively affect the whole family.\n\n● You'll feel like you have more time.\nPeople often feel they are too busy to volunteer. Yet, research has found that giving your time to community causes actually makes you feel like you have more of it. ___17___\n\n● You can live longer if you volunteer regularly.\n___18___ Washington University found that adults 55 and older who volunteered had better memory and maintained overall health longer than others their age. Volunteers are also more likely to look after their own health and are more focused on adding physical activity into their lives.\n\n● ___19___\nVolunteering during teenage years has been linked to some major positive effects such as improved grades and increased self-confidence. These effects aren't just short-term but have been proved to affect a teen's well-being in the years to come.\n\n● You'll have more time with family.\nFamilies who volunteer together have the unique experience of working toward a common goal. ___20___ Everyone brings something unique to the table and can connect with each other in a new way. And, there are tasks for every age and ability, so all your children can feel proud of their work."
+        }
+      ],
+      "questions": [
+        {
+          "id": 16,
+          "passageLabel": "E",
+          "stem": "第16空",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Helping the community lowers rates of depression."
+            },
+            {
+              "letter": "B",
+              "text": "Volunteering as a family may be just the thing you need."
+            },
+            {
+              "letter": "C",
+              "text": "Volunteering has a lifelong effect on kids and teenagers."
+            },
+            {
+              "letter": "D",
+              "text": "Volunteering can be the first step in breaking down prejudice."
+            },
+            {
+              "letter": "E",
+              "text": "For adults, volunteering can provide significant physical health benefits."
+            },
+            {
+              "letter": "F",
+              "text": "You may even learn that your kid has a talent you didn't know about before."
+            },
+            {
+              "letter": "G",
+              "text": "Volunteering makes you feel capable and inspires you to make the most of each day."
+            }
+          ],
+          "answer": "B",
+          "type": "seven",
+          "score": 2.5,
+          "explanation": {
+            "summary": "七选五｜本文是说明文，介绍全家一起做志愿服务的意外好处。",
+            "question": "本空位于首段两个设问之后、总述句之前，须回答前面的提问并引出全文话题。",
+            "evidence": "Are you looking for a way to bring your family together? Hoping to find a hobby that can be shared by both the little ones and adults? ___16___ You may know the \"feel-good\" emotions that come with helping others…",
+            "answer": "B。「全家一起做志愿服务或许正是你需要的」直接回应「想让家人更亲近／想找个大人小孩都能参与的爱好」这两个设问，并点出标题中的 volunteering as a family，是典型的段首过渡句。"
+          }
+        },
+        {
+          "id": 17,
+          "passageLabel": "E",
+          "stem": "第17空",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Helping the community lowers rates of depression."
+            },
+            {
+              "letter": "B",
+              "text": "Volunteering as a family may be just the thing you need."
+            },
+            {
+              "letter": "C",
+              "text": "Volunteering has a lifelong effect on kids and teenagers."
+            },
+            {
+              "letter": "D",
+              "text": "Volunteering can be the first step in breaking down prejudice."
+            },
+            {
+              "letter": "E",
+              "text": "For adults, volunteering can provide significant physical health benefits."
+            },
+            {
+              "letter": "F",
+              "text": "You may even learn that your kid has a talent you didn't know about before."
+            },
+            {
+              "letter": "G",
+              "text": "Volunteering makes you feel capable and inspires you to make the most of each day."
+            }
+          ],
+          "answer": "G",
+          "type": "seven",
+          "score": 2.5,
+          "explanation": {
+            "summary": "七选五｜段尾总结句。",
+            "question": "本空是「你会觉得自己时间变多了」这一小标题下的收尾句，须解释为何付出时间反而觉得时间充裕。",
+            "evidence": "research has found that giving your time to community causes actually makes you feel like you have more of it. ___17___",
+            "answer": "G。「志愿服务让你觉得自己有能力，并激励你充分利用每一天」正是「时间感变多」的心理机制——make the most of each day 与 feel like you have more time 形成因果照应。"
+          }
+        },
+        {
+          "id": 18,
+          "passageLabel": "E",
+          "stem": "第18空",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Helping the community lowers rates of depression."
+            },
+            {
+              "letter": "B",
+              "text": "Volunteering as a family may be just the thing you need."
+            },
+            {
+              "letter": "C",
+              "text": "Volunteering has a lifelong effect on kids and teenagers."
+            },
+            {
+              "letter": "D",
+              "text": "Volunteering can be the first step in breaking down prejudice."
+            },
+            {
+              "letter": "E",
+              "text": "For adults, volunteering can provide significant physical health benefits."
+            },
+            {
+              "letter": "F",
+              "text": "You may even learn that your kid has a talent you didn't know about before."
+            },
+            {
+              "letter": "G",
+              "text": "Volunteering makes you feel capable and inspires you to make the most of each day."
+            }
+          ],
+          "answer": "E",
+          "type": "seven",
+          "score": 2.5,
+          "explanation": {
+            "summary": "七选五｜段首概括句。",
+            "question": "本空位于「经常做志愿服务能更长寿」这一小标题之后、研究数据之前，须概括本段要点。",
+            "evidence": "___18___ Washington University found that adults 55 and older who volunteered had better memory and maintained overall health longer than others their age.",
+            "answer": "E。后文列举 55 岁以上成年人记忆力更好、整体健康维持更久，正是「对成年人而言，志愿服务能带来显著的身体健康益处」的证据；adults 与 adults 55 and older 词汇复现。"
+          }
+        },
+        {
+          "id": 19,
+          "passageLabel": "E",
+          "stem": "第19空",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Helping the community lowers rates of depression."
+            },
+            {
+              "letter": "B",
+              "text": "Volunteering as a family may be just the thing you need."
+            },
+            {
+              "letter": "C",
+              "text": "Volunteering has a lifelong effect on kids and teenagers."
+            },
+            {
+              "letter": "D",
+              "text": "Volunteering can be the first step in breaking down prejudice."
+            },
+            {
+              "letter": "E",
+              "text": "For adults, volunteering can provide significant physical health benefits."
+            },
+            {
+              "letter": "F",
+              "text": "You may even learn that your kid has a talent you didn't know about before."
+            },
+            {
+              "letter": "G",
+              "text": "Volunteering makes you feel capable and inspires you to make the most of each day."
+            }
+          ],
+          "answer": "C",
+          "type": "seven",
+          "score": 2.5,
+          "explanation": {
+            "summary": "七选五｜小标题。",
+            "question": "本空前有小圆点「●」，与其他小标题并列，须概括本段内容。",
+            "evidence": "● ___19___\nVolunteering during teenage years has been linked to some major positive effects…These effects aren't just short-term but have been proved to affect a teen's well-being in the years to come.",
+            "answer": "C。本段讲青少年时期做志愿服务带来的成绩提升与自信增强，且效果并非短期、会影响日后多年，正对应「对儿童和青少年有终身影响」；lifelong 与 in the years to come 呼应。"
+          }
+        },
+        {
+          "id": 20,
+          "passageLabel": "E",
+          "stem": "第20空",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Helping the community lowers rates of depression."
+            },
+            {
+              "letter": "B",
+              "text": "Volunteering as a family may be just the thing you need."
+            },
+            {
+              "letter": "C",
+              "text": "Volunteering has a lifelong effect on kids and teenagers."
+            },
+            {
+              "letter": "D",
+              "text": "Volunteering can be the first step in breaking down prejudice."
+            },
+            {
+              "letter": "E",
+              "text": "For adults, volunteering can provide significant physical health benefits."
+            },
+            {
+              "letter": "F",
+              "text": "You may even learn that your kid has a talent you didn't know about before."
+            },
+            {
+              "letter": "G",
+              "text": "Volunteering makes you feel capable and inspires you to make the most of each day."
+            }
+          ],
+          "answer": "F",
+          "type": "seven",
+          "score": 2.5,
+          "explanation": {
+            "summary": "七选五｜段中承接句。",
+            "question": "本空位于「共同为一个目标努力」与「每个人都能带来独特的东西」之间，须与前后句衔接。",
+            "evidence": "Families who volunteer together have the unique experience of working toward a common goal. ___20___ Everyone brings something unique to the table…so all your children can feel proud of their work.",
+            "answer": "F。「你甚至可能发现孩子身上此前不知道的才能」承接「共同做事」，又与下文 Everyone brings something unique、children can feel proud of their work 中的 unique / children 一脉相承。A、D 两项在文中无对应内容，为多余选项。"
+          }
+        }
+      ]
+    },
+    {
+      "key": "cloze",
+      "partTitle": "第三部分 语言运用（共两节，满分30分）",
+      "secTitle": "第一节（共15小题；每小题1分，满分15分）阅读下面短文，从每题所给的A、B、C、D四个选项中选出最佳选项。",
+      "pool": [],
+      "passages": [
+        {
+          "label": "F",
+          "text": "Evelyn Donohue is a 65-year-old grandma. She only started to ___21___ seven years ago after having a ___22___ call. She'd been struggling with eating disorders and health issues, which ___23___ led her to getting surgery. After that experience, she knew that she needed to make a ___24___. Determined to turn her life around, Ms Donohue began to work out and follow a ___25___ lifestyle, before discovering a ___26___ for weightlifting.\n\nSince setting out on the journey, the ___27___ lover has not only managed to ___28___ an impressive set of muscles — but also a huge following on social media.\n\nThe well-liked grandma regularly posts workout content, explaining there's no ___29___ others can't look this good. She said it was all down to some key aspects.\n\n\"Hold on: Consider failure as a ___30___ to success and never give up. Stick to your plan,\" she said. \"___31___ others: Lift others up on your journey. Success is sweeter when ___32___.\" She previously explained that \"you do not need to have an amazing body to exercise... the ___33___ is to feel good, not look good.\"\n\nMs Donohue used to be laughed at for being too old to work out, but she has proved the ___34___ wrong in the best possible way and has indeed become an ___35___ for many social media users."
+        }
+      ],
+      "questions": [
+        {
+          "id": 21,
+          "passageLabel": "F",
+          "stem": "第21空",
+          "options": [
+            {
+              "letter": "A",
+              "text": "write"
+            },
+            {
+              "letter": "B",
+              "text": "travel"
+            },
+            {
+              "letter": "C",
+              "text": "exercise"
+            },
+            {
+              "letter": "D",
+              "text": "recover"
+            }
+          ],
+          "answer": "C",
+          "type": "cloze",
+          "score": 1,
+          "explanation": {
+            "summary": "完形填空｜本文是人物报道，写 65 岁的祖母 Evelyn Donohue 在健康警讯后开始健身、爱上举重并成为网络励志人物。",
+            "question": "句意：七年前经历了一次警醒之后，她才开始锻炼。",
+            "evidence": "She only started to ___21___ seven years ago…Ms Donohue began to work out…regularly posts workout content",
+            "answer": "C。下文反复出现 work out、workout content、weightlifting，可知她开始的是 exercise（锻炼）。"
+          }
+        },
+        {
+          "id": 22,
+          "passageLabel": "F",
+          "stem": "第22空",
+          "options": [
+            {
+              "letter": "A",
+              "text": "goodwill"
+            },
+            {
+              "letter": "B",
+              "text": "timeout"
+            },
+            {
+              "letter": "C",
+              "text": "long-distance"
+            },
+            {
+              "letter": "D",
+              "text": "wake-up"
+            }
+          ],
+          "answer": "D",
+          "type": "cloze",
+          "score": 1,
+          "explanation": {
+            "summary": "完形填空｜考查固定搭配。",
+            "question": "句意：在经历了一次警醒（如同当头一棒）之后。",
+            "evidence": "after having a ___22___ call. She'd been struggling with eating disorders and health issues, which ultimately led her to getting surgery.",
+            "answer": "D。a wake-up call 意为「警钟、警醒」，下文的饮食失调、健康问题乃至动手术正是这记警钟的内容。"
+          }
+        },
+        {
+          "id": 23,
+          "passageLabel": "F",
+          "stem": "第23空",
+          "options": [
+            {
+              "letter": "A",
+              "text": "normally"
+            },
+            {
+              "letter": "B",
+              "text": "ultimately"
+            },
+            {
+              "letter": "C",
+              "text": "suddenly"
+            },
+            {
+              "letter": "D",
+              "text": "automatically"
+            }
+          ],
+          "answer": "B",
+          "type": "cloze",
+          "score": 1,
+          "explanation": {
+            "summary": "完形填空｜考查副词。",
+            "question": "句意：她长期受饮食失调和健康问题困扰，这些问题最终导致她接受手术。",
+            "evidence": "She'd been struggling with eating disorders and health issues, which ___23___ led her to getting surgery.",
+            "answer": "B。had been struggling 表示长期挣扎，手术是这一过程的最终结果，故用 ultimately（最终）。"
+          }
+        },
+        {
+          "id": 24,
+          "passageLabel": "F",
+          "stem": "第24空",
+          "options": [
+            {
+              "letter": "A",
+              "text": "change"
+            },
+            {
+              "letter": "B",
+              "text": "fortune"
+            },
+            {
+              "letter": "C",
+              "text": "wish"
+            },
+            {
+              "letter": "D",
+              "text": "deal"
+            }
+          ],
+          "answer": "A",
+          "type": "cloze",
+          "score": 1,
+          "explanation": {
+            "summary": "完形填空｜考查名词。",
+            "question": "句意：那次经历之后，她知道自己必须做出改变。",
+            "evidence": "she knew that she needed to make a ___24___. Determined to turn her life around…",
+            "answer": "A。make a change（做出改变）与下文 turn her life around（彻底改变生活）呼应。"
+          }
+        },
+        {
+          "id": 25,
+          "passageLabel": "F",
+          "stem": "第25空",
+          "options": [
+            {
+              "letter": "A",
+              "text": "risky"
+            },
+            {
+              "letter": "B",
+              "text": "traditional"
+            },
+            {
+              "letter": "C",
+              "text": "comfortable"
+            },
+            {
+              "letter": "D",
+              "text": "healthy"
+            }
+          ],
+          "answer": "D",
+          "type": "cloze",
+          "score": 1,
+          "explanation": {
+            "summary": "完形填空｜考查形容词。",
+            "question": "句意：Donohue 女士开始健身，并过上健康的生活方式。",
+            "evidence": "began to work out and follow a ___25___ lifestyle",
+            "answer": "D。与 work out 并列，且是针对此前饮食失调、健康问题的纠正，故为 healthy lifestyle（健康的生活方式）。"
+          }
+        },
+        {
+          "id": 26,
+          "passageLabel": "F",
+          "stem": "第26空",
+          "options": [
+            {
+              "letter": "A",
+              "text": "demand"
+            },
+            {
+              "letter": "B",
+              "text": "secret"
+            },
+            {
+              "letter": "C",
+              "text": "passion"
+            },
+            {
+              "letter": "D",
+              "text": "cure"
+            }
+          ],
+          "answer": "C",
+          "type": "cloze",
+          "score": 1,
+          "explanation": {
+            "summary": "完形填空｜考查名词。",
+            "question": "句意：随后她发现自己对举重的热爱。",
+            "evidence": "before discovering a ___26___ for weightlifting",
+            "answer": "C。discover a passion for sth. 意为「发现对某事的热情」；下文称她为 lover（爱好者），可印证。"
+          }
+        },
+        {
+          "id": 27,
+          "passageLabel": "F",
+          "stem": "第27空",
+          "options": [
+            {
+              "letter": "A",
+              "text": "peace"
+            },
+            {
+              "letter": "B",
+              "text": "fitness"
+            },
+            {
+              "letter": "C",
+              "text": "fun"
+            },
+            {
+              "letter": "D",
+              "text": "nature"
+            }
+          ],
+          "answer": "B",
+          "type": "cloze",
+          "score": 1,
+          "explanation": {
+            "summary": "完形填空｜考查名词（复合定语）。",
+            "question": "句意：踏上这条路以来，这位健身爱好者不仅练出了一身漂亮的肌肉……",
+            "evidence": "Since setting out on the journey, the ___27___ lover has not only managed to grow an impressive set of muscles",
+            "answer": "B。fitness lover（健身爱好者）概括她 work out、weightlifting 的身份，与全文主题一致。"
+          }
+        },
+        {
+          "id": 28,
+          "passageLabel": "F",
+          "stem": "第28空",
+          "options": [
+            {
+              "letter": "A",
+              "text": "grow"
+            },
+            {
+              "letter": "B",
+              "text": "control"
+            },
+            {
+              "letter": "C",
+              "text": "activate"
+            },
+            {
+              "letter": "D",
+              "text": "relax"
+            }
+          ],
+          "answer": "A",
+          "type": "cloze",
+          "score": 1,
+          "explanation": {
+            "summary": "完形填空｜考查动词，须兼顾 not only…but also… 两个宾语。",
+            "question": "句意：她不仅练出了一身令人赞叹的肌肉，还在社交媒体上收获了大量粉丝。",
+            "evidence": "has not only managed to ___28___ an impressive set of muscles — but also a huge following on social media",
+            "answer": "A。该动词要同时搭配 muscles 与 a huge following，只有 grow（使增长／培养）兼容——既指长肌肉，也指涨粉。"
+          }
+        },
+        {
+          "id": 29,
+          "passageLabel": "F",
+          "stem": "第29空",
+          "options": [
+            {
+              "letter": "A",
+              "text": "need"
+            },
+            {
+              "letter": "B",
+              "text": "choice"
+            },
+            {
+              "letter": "C",
+              "text": "reason"
+            },
+            {
+              "letter": "D",
+              "text": "difference"
+            }
+          ],
+          "answer": "C",
+          "type": "cloze",
+          "score": 1,
+          "explanation": {
+            "summary": "完形填空｜考查名词。",
+            "question": "句意：她常发健身内容，说别人没有理由不能拥有这么好的状态。",
+            "evidence": "explaining there's no ___29___ others can't look this good",
+            "answer": "C。there's no reason (why) sb. can't… 意为「没有理由做不到」，是鼓励他人的常见表达。"
+          }
+        },
+        {
+          "id": 30,
+          "passageLabel": "F",
+          "stem": "第30空",
+          "options": [
+            {
+              "letter": "A",
+              "text": "green light"
+            },
+            {
+              "letter": "B",
+              "text": "road block"
+            },
+            {
+              "letter": "C",
+              "text": "passing mark"
+            },
+            {
+              "letter": "D",
+              "text": "stepping stone"
+            }
+          ],
+          "answer": "D",
+          "type": "cloze",
+          "score": 1,
+          "explanation": {
+            "summary": "完形填空｜考查名词短语（隐喻）。",
+            "question": "句意：坚持下去——把失败看作通向成功的垫脚石，永不放弃。",
+            "evidence": "Consider failure as a ___30___ to success and never give up.",
+            "answer": "D。a stepping stone to success 意为「通向成功的垫脚石」，与 never give up、Stick to your plan 的积极语气一致；road block（B）意为「障碍」，与鼓励语境相悖。"
+          }
+        },
+        {
+          "id": 31,
+          "passageLabel": "F",
+          "stem": "第31空",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Help"
+            },
+            {
+              "letter": "B",
+              "text": "Consult"
+            },
+            {
+              "letter": "C",
+              "text": "Follow"
+            },
+            {
+              "letter": "D",
+              "text": "Forgive"
+            }
+          ],
+          "answer": "A",
+          "type": "cloze",
+          "score": 1,
+          "explanation": {
+            "summary": "完形填空｜考查动词（祈使句小标题）。",
+            "question": "句意：帮助他人——在自己的旅程中扶他人一把。",
+            "evidence": "\"___31___ others: Lift others up on your journey.\"",
+            "answer": "A。冒号后的 Lift others up（把他人托举起来）正是对 Help others 的解释，两者构成同义复现。"
+          }
+        },
+        {
+          "id": 32,
+          "passageLabel": "F",
+          "stem": "第32空",
+          "options": [
+            {
+              "letter": "A",
+              "text": "accepted"
+            },
+            {
+              "letter": "B",
+              "text": "shared"
+            },
+            {
+              "letter": "C",
+              "text": "expected"
+            },
+            {
+              "letter": "D",
+              "text": "celebrated"
+            }
+          ],
+          "answer": "B",
+          "type": "cloze",
+          "score": 1,
+          "explanation": {
+            "summary": "完形填空｜考查动词（省略结构中的过去分词）。",
+            "question": "句意：成功在分享时更甜美。",
+            "evidence": "Lift others up on your journey. Success is sweeter when ___32___.",
+            "answer": "B。when shared 即 when it is shared，与上文「帮助、托举他人」的主张一致——成功与人分享才更美好。"
+          }
+        },
+        {
+          "id": 33,
+          "passageLabel": "F",
+          "stem": "第33空",
+          "options": [
+            {
+              "letter": "A",
+              "text": "goal"
+            },
+            {
+              "letter": "B",
+              "text": "case"
+            },
+            {
+              "letter": "C",
+              "text": "duty"
+            },
+            {
+              "letter": "D",
+              "text": "cost"
+            }
+          ],
+          "answer": "A",
+          "type": "cloze",
+          "score": 1,
+          "explanation": {
+            "summary": "完形填空｜考查名词。",
+            "question": "句意：你不需要有惊艳的身材才去锻炼……目标是感觉良好，而不是看起来好看。",
+            "evidence": "the ___33___ is to feel good, not look good",
+            "answer": "A。后接不定式 to feel good 作表语，说明锻炼的目的，故用 goal（目标）。"
+          }
+        },
+        {
+          "id": 34,
+          "passageLabel": "F",
+          "stem": "第34空",
+          "options": [
+            {
+              "letter": "A",
+              "text": "instructors"
+            },
+            {
+              "letter": "B",
+              "text": "admirers"
+            },
+            {
+              "letter": "C",
+              "text": "beginners"
+            },
+            {
+              "letter": "D",
+              "text": "doubters"
+            }
+          ],
+          "answer": "D",
+          "type": "cloze",
+          "score": 1,
+          "explanation": {
+            "summary": "完形填空｜考查名词。",
+            "question": "句意：她曾因「年纪太大不该健身」而被人嘲笑，但她以最好的方式证明了那些质疑者是错的。",
+            "evidence": "used to be laughed at for being too old to work out, but she has proved the ___34___ wrong",
+            "answer": "D。prove sb. wrong 的对象正是上文嘲笑她的人，即 doubters（质疑者）；admirers（B）是仰慕者，与 laughed at 矛盾。"
+          }
+        },
+        {
+          "id": 35,
+          "passageLabel": "F",
+          "stem": "第35空",
+          "options": [
+            {
+              "letter": "A",
+              "text": "authority"
+            },
+            {
+              "letter": "B",
+              "text": "excuse"
+            },
+            {
+              "letter": "C",
+              "text": "inspiration"
+            },
+            {
+              "letter": "D",
+              "text": "option"
+            }
+          ],
+          "answer": "C",
+          "type": "cloze",
+          "score": 1,
+          "explanation": {
+            "summary": "完形填空｜考查名词，本空收束全文。",
+            "question": "句意：她确实已成为许多社交媒体用户的励志榜样。",
+            "evidence": "has indeed become an ___35___ for many social media users",
+            "answer": "C。an inspiration for sb. 意为「给某人以激励的人」，与她粉丝众多、常发励志建议的形象一致。"
+          }
+        }
+      ]
+    },
+    {
+      "key": "grammar",
+      "partTitle": "第三部分 语言运用（共两节，满分30分）",
+      "secTitle": "第二节（共10小题；每小题1.5分，满分15分）阅读下面短文，在空白处填入1个适当的单词或括号内单词的正确形式。",
+      "pool": [],
+      "passages": [
+        {
+          "label": "G",
+          "text": "I was born and raised in Cleveland, Ohio in the United States. Yet now, I live in the countryside of Zhejiang, China with my Chinese husband and his family, ____36____ bamboo and tea bushes (灌木) grow wild in the mountains, chickens are always free-range, and ____37____ (center) heating doesn't exist.\n\nNothing in my life before prepared me ____38____ this one — and to be sure, the first time I came here I never imagined I would ever feel comfortable in this area. But it's amazing how you can adapt ____39____ learn in a new environment. Over time, I've found ____40____ (I) feeling extremely at home here. And in the process, I've experienced things that really surprise me at times. The \"sunshine scent (香味)\" of freshly sunned clothes ____41____ (be) one of them.\n\nGrowing up, my family and our neighbors never used clotheslines to dry clothing, denying me the chance ____42____ (discover) one of the great wonders of sunshine — the sweet \"sunshine scent\" after sunning clothes for an entire day. The sun-dried clothes smell especially pleasant where I live, thanks to the ____43____ (absent) of smog and plenty of blue sky ____44____ (afternoon) with lots of fresh air.\n\nIf you've never experienced the \"sunshine scent\" from a sheet or shirt ____45____ (leave) to sun for a day, well, you're missing out on one of life's wonders."
+        }
+      ],
+      "questions": [
+        {
+          "id": 36,
+          "passageLabel": "G",
+          "stem": "第36空",
+          "options": [],
+          "answer": "where",
+          "type": "grammar",
+          "score": 1.5,
+          "explanation": {
+            "summary": "考查定语从句关系词｜本文是记叙文，一位美国作者讲述在浙江乡村生活后爱上「阳光的味道」。",
+            "question": "句意：如今我和中国丈夫及其家人住在浙江乡下，那里山间竹子和茶树野生野长、鸡都是散养的，也没有集中供暖。",
+            "evidence": "I live in the countryside of Zhejiang, China…, ____36____ bamboo and tea bushes grow wild in the mountains",
+            "answer": "where。非限制性定语从句修饰表地点的先行词 the countryside of Zhejiang，从句不缺主语宾语而缺地点状语，故用关系副词 where。"
+          }
+        },
+        {
+          "id": 37,
+          "passageLabel": "G",
+          "stem": "第37空（center）",
+          "options": [],
+          "answer": "central",
+          "type": "grammar",
+          "score": 1.5,
+          "explanation": {
+            "summary": "考查形容词。",
+            "question": "句意：（那里）没有集中供暖。",
+            "evidence": "____37____ (center) heating doesn't exist",
+            "answer": "central。修饰名词 heating 须用形容词；central heating 是「集中供暖」的固定说法。"
+          }
+        },
+        {
+          "id": 38,
+          "passageLabel": "G",
+          "stem": "第38空",
+          "options": [],
+          "answer": "for",
+          "type": "grammar",
+          "score": 1.5,
+          "explanation": {
+            "summary": "考查介词。",
+            "question": "句意：我此前的人生经历没有一点为这样的生活做过准备。",
+            "evidence": "Nothing in my life before prepared me ____38____ this one",
+            "answer": "for。prepare sb. for sth. 意为「使某人为某事做好准备」，为固定搭配。"
+          }
+        },
+        {
+          "id": 39,
+          "passageLabel": "G",
+          "stem": "第39空",
+          "options": [],
+          "answer": "and",
+          "type": "grammar",
+          "score": 1.5,
+          "explanation": {
+            "summary": "考查并列连词。",
+            "question": "句意：但人在新环境里适应和学习的能力之强，实在令人惊叹。",
+            "evidence": "it's amazing how you can adapt ____39____ learn in a new environment",
+            "answer": "and。adapt 与 learn 是两个并列的动词，语义同向递进，故用 and 连接。"
+          }
+        },
+        {
+          "id": 40,
+          "passageLabel": "G",
+          "stem": "第40空（I）",
+          "options": [],
+          "answer": "myself",
+          "type": "grammar",
+          "score": 1.5,
+          "explanation": {
+            "summary": "考查反身代词。",
+            "question": "句意：久而久之，我发现自己在这里格外自在。",
+            "evidence": "Over time, I've found ____40____ (I) feeling extremely at home here.",
+            "answer": "myself。find oneself doing sth. 意为「发现自己正在做某事」；宾语与主语 I 同指，须用反身代词。"
+          }
+        },
+        {
+          "id": 41,
+          "passageLabel": "G",
+          "stem": "第41空（be）",
+          "options": [],
+          "answer": "is",
+          "type": "grammar",
+          "score": 1.5,
+          "explanation": {
+            "summary": "考查主谓一致与时态。",
+            "question": "句意：刚晒过的衣服上那股「阳光的香味」就是其中之一。",
+            "evidence": "The \"sunshine scent\" of freshly sunned clothes ____41____ (be) one of them.",
+            "answer": "is。主语中心词是不可数名词 scent（of 短语只作定语），陈述现在的普遍情况用一般现在时，故用第三人称单数 is。"
+          }
+        },
+        {
+          "id": 42,
+          "passageLabel": "G",
+          "stem": "第42空（discover）",
+          "options": [],
+          "answer": "to discover",
+          "type": "grammar",
+          "score": 1.5,
+          "explanation": {
+            "summary": "考查非谓语动词。",
+            "question": "句意：这让我错失了发现阳光一大奇妙之处的机会。",
+            "evidence": "denying me the chance ____42____ (discover) one of the great wonders of sunshine",
+            "answer": "to discover。the chance to do sth. 用不定式作后置定语，表示「做某事的机会」。"
+          }
+        },
+        {
+          "id": 43,
+          "passageLabel": "G",
+          "stem": "第43空（absent）",
+          "options": [],
+          "answer": "absence",
+          "type": "grammar",
+          "score": 1.5,
+          "explanation": {
+            "summary": "考查名词。",
+            "question": "句意：多亏没有雾霾，还有许多满是新鲜空气的蓝天午后。",
+            "evidence": "thanks to the ____43____ (absent) of smog",
+            "answer": "absence。定冠词 the 与介词 of 之间须用名词；the absence of 意为「没有、缺乏」。"
+          }
+        },
+        {
+          "id": 44,
+          "passageLabel": "G",
+          "stem": "第44空（afternoon）",
+          "options": [],
+          "answer": "afternoons",
+          "type": "grammar",
+          "score": 1.5,
+          "explanation": {
+            "summary": "考查名词的数。",
+            "question": "句意：以及许多蓝天白云、空气清新的午后。",
+            "evidence": "plenty of blue sky ____44____ (afternoon) with lots of fresh air",
+            "answer": "afternoons。plenty of 后接可数名词时须用复数；此处 blue sky 作定语修饰 afternoons（蓝天的午后）。"
+          }
+        },
+        {
+          "id": 45,
+          "passageLabel": "G",
+          "stem": "第45空（leave）",
+          "options": [],
+          "answer": "left",
+          "type": "grammar",
+          "score": 1.5,
+          "explanation": {
+            "summary": "考查非谓语动词（过去分词作定语）。",
+            "question": "句意：如果你从没闻过晒了一整天的床单或衬衫上那股「阳光的香味」……",
+            "evidence": "the \"sunshine scent\" from a sheet or shirt ____45____ (leave) to sun for a day",
+            "answer": "left。sheet or shirt 与 leave 是被动关系（被放在外面晾晒），且动作已完成，故用过去分词 left 作后置定语。"
+          }
+        }
+      ]
+    },
+    {
+      "key": "writing_app",
+      "partTitle": "第四部分 写作（共两节，满分40分）",
+      "secTitle": "第一节（满分15分）",
+      "passages": [],
+      "pool": [],
+      "questions": [
+        {
+          "id": 46,
+          "stem": "假定你是校英文报编辑李华，外教 Chris 上个月答应写一篇介绍加拿大体育运动的文章。请给 Chris 写一封邮件，内容包括：\n（1）询问进展；\n（2）提醒交稿时间。\n注意：\n（1）写作词数应为80个左右；\n（2）请按如下格式在答题卡的相应位置作答。\n\nDear Chris,\n\nBest wishes,\nLi Hua",
+          "options": [],
+          "type": "writing",
+          "score": 15,
+          "modelAnswer": "Dear Chris,\n\nHope this email finds you well! Last month, you kindly agreed to write an article about sports in Canada, and we're all looking forward to reading it.\n\nI'm writing to politely inquire about the progress of the article. Would you mind letting me know how it's going? Also, could I remind you that the deadline for submission is this Friday, June 14th? Your insights into Canadian sports will surely enrich our readers' understanding of global sports culture, which will be of benefit to us.\n\nThank you again for your support!\n\nBest wishes,\nLi Hua",
+          "explanation": {
+            "summary": "应用文写作｜书信（邮件）体，以校英文报编辑身份就约稿一事询问进展并提醒截稿日期。",
+            "question": "两个要点必须都写到：① 询问文章进展；② 提醒交稿时间（日期可自拟，但须具体）。注意身份是「校英文报编辑」、对象是外教，语气须礼貌得体；时态以一般现在时为主，提及上月约稿用一般过去时。词数 80 左右。",
+            "evidence": "词汇积累：希望你一切都好 hope this email finds you well；欣然同意 kindly agree to；询问进展 inquire about the progress；截稿日期 the deadline for submission；见解 insights；丰富……的理解 enrich one's understanding；对我们有益 be of benefit to us。",
+            "answer": "高分句型：委婉询问 Would you mind letting me know how it's going?；委婉提醒 could I remind you that…?；非限制性定语从句 …, which will be of benefit to us。结构上「感谢并铺垫—询问进展—提醒截稿—再次致谢」层次清晰，两个要点各成一句，避免生硬罗列。"
+          }
+        }
+      ]
+    },
+    {
+      "key": "writing_cont",
+      "partTitle": "第四部分 写作（共两节，满分40分）",
+      "secTitle": "第二节（满分25分）",
+      "passages": [],
+      "pool": [],
+      "questions": [
+        {
+          "id": 47,
+          "stem": "阅读下面材料，根据其内容和所给段落开头语续写两段，使之构成一篇完整的短文。\n\n\"What is your name?\" is a question most frequently asked when people meet for the first time. But for me, it was the first challenge I encountered as an international student in Ireland.\n\nThe pronunciation system of the Chinese language is quite different from that of English. For native speakers of English, some Chinese words are rather difficult to pronounce. My given name Qiuyu (秋雨), for instance, happened to be a great challenge for many of them. Every time I gave a self-introduction, I had to explain how to pronounce my name at least five times, yet they still could not say it the way I did.\n\nOnce in a lecture, the professor tried repeating my name after me over and over in front of thirty classmates. I really did not know whether I should continue correcting him or simply drop the matter. I feared that my classmates might grow tired of my efforts or even lose patience with me. After all, I did care about how others would think of me. I realized that if I didn't stop, the entire lecture would be ruined. \"It's okay, professor,\" I shrugged (耸肩). The awkward moment ended with the class erupting into laughter. I forced a smile, unsure how to respond further.\n\nAfter that incident, I stopped acting as a \"Chinese teacher.\" Instead of correcting others when they were struggling to pronounce my name, I just smiled and nodded approvingly. This approach spared me the discomfort of having to over-explain. However, I soon found that by doing so, I might be losing something more important: the opportunity to share a small part of my cultural identity.\n\n注意：\n（1）续写词数应为150个左右；\n（2）请按如下格式在答题卡的相应位置作答。\n\nParagraph 1: In a class discussion, I was invited to explain the meaning of my name.\nParagraph 2: Many of my classmates got interested and came up to me after class.",
+          "options": [],
+          "type": "writing",
+          "score": 25,
+          "modelAnswer": "Paragraph 1:\nIn a class discussion, I was invited to explain the meaning of my name. Standing up, I felt a mix of nervousness and excitement. \"My name, Qiuyu, combines the characters for autumn and rain in Chinese,\" I began, my voice steady. \"Autumn represents harvest and maturity, while rain symbolizes nourishment and growth. Together, they embody a time of abundance and renewal.\" As I spoke, I noticed the rapt attention of my classmates, their eyes reflecting curiosity and respect. It was a moment of connection, a bridge built between cultures through the simple act of sharing my name.\n\nParagraph 2:\nMany of my classmates got interested and came up to me after class. They surrounded me, their questions pouring out like a stream. \"What other names have beautiful meanings in Chinese?\" \"Can you teach us how to write our names in Chinese characters?\" I smiled, feeling a warmth spread through me. I took out a piece of paper and began to sketch out characters, explaining each stroke and its significance. Through this interaction, I realized that by embracing my cultural identity, I was not only preserving my heritage but also enriching the lives of those around me. It was a small yet meaningful step towards fostering cultural understanding and appreciation.",
+          "explanation": {
+            "summary": "读后续写｜「我」在爱尔兰留学，名字「秋雨」总被念错；一次课上教授反复模仿失败，「我」尴尬地放弃了纠正，此后不再当「中文老师」，却意识到自己失去了分享文化身份的机会。",
+            "question": "情节设计：第一段承接「课堂讨论中被请去解释名字的含义」——起身时的紧张与兴奋，逐字讲解「秋」（收获、成熟）与「雨」（滋养、成长）的寓意，注意到同学们由好奇转为尊重的目光，点出这是一次跨文化的联结。第二段承接「许多同学下课后围过来」——同学们抛出一连串问题（还有哪些中文名字有美好含义、能否教写汉字），「我」拿出纸笔一笔一画讲解，最终领悟到拥抱自己的文化身份既守住了传承、也丰富了他人，与原文末段「失去分享文化身份的机会」形成反转呼应。",
+            "evidence": "词汇积累：交织着紧张与兴奋 a mix of nervousness and excitement；语气平稳 my voice steady；象征 symbolize；体现 embody；丰盈与新生 abundance and renewal；全神贯注 rapt attention；问题如溪水般涌出 questions pouring out like a stream；勾画（汉字）sketch out characters；笔画 stroke；拥抱文化身份 embrace one's cultural identity；守护传承 preserve one's heritage；促进文化理解 foster cultural understanding。",
+            "answer": "高分句型：现在分词短语作状语 Standing up, I felt…；while 引导对比 Autumn represents…, while rain symbolizes…；独立主格 their eyes reflecting curiosity and respect / their questions pouring out like a stream；同位语 a bridge built between cultures…；not only…but also… 递进。写作要点：主题须完成「主动分享—获得回应—认同自身文化」的正向转折，与原文的尴尬、退缩形成对照；直接引语可让讲解场面更生动，但注意标点与词数控制。"
+          }
+        }
+      ]
+    }
+  ]
+}

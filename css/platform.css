@@ -1,0 +1,278 @@
+.learning-path,.program-page{max-width:var(--w-mid);margin:auto;padding:var(--sp-9) var(--sp-6)}.topic-picker .program-hero em{color: var(--accent);font-style:normal}.topic-choice-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:var(--sp-3);margin-top:var(--sp-6)}.writing-filters{display:flex;gap:var(--sp-2-5);flex-wrap:wrap;margin-top:var(--sp-6);padding-bottom:var(--sp-1);border-bottom: 1px solid var(--line)}.writing-filter{display:inline-flex;align-items:center;gap:var(--sp-2);padding:var(--sp-2-5) var(--sp-3-5);border: 1px solid var(--line);border-radius:999px;background: var(--paper-1);color: var(--ink-2);cursor:pointer}.writing-filter span{min-width:var(--sp-5);padding:var(--sp-1) var(--sp-1-5);border-radius:999px;background: var(--paper-1);font-size:var(--fs-xs)}.writing-filter.is-active{border-color: var(--accent-line);background: var(--accent-soft);color: var(--accent)}.writing-filter.is-active span{background: var(--paper-1)}.writing-choice[hidden]{display:none}.writing-workspace{max-width:var(--w-mid)}.dashboard-page{padding-top:var(--sp-9)}.dashboard-hero{display:flex;justify-content:space-between;align-items:end;gap:var(--sp-6);margin:var(--sp-5) 0;padding:var(--sp-7);background:var(--paper-2);border:1px solid var(--line)}.dashboard-hero h2{margin:var(--sp-2) 0 var(--sp-1-5);font:500 var(--fs-hero-sm) Georgia,"Songti SC",serif}.dashboard-hero p{margin:0;color: var(--ink-2)}.dashboard-stats{display:grid;grid-template-columns:repeat(3,1fr);gap:var(--sp-3);margin:var(--sp-5) 0}.dashboard-stats>div,.dashboard-panel{padding:var(--sp-5);background: var(--paper-1);border: 1px solid var(--line);border-radius:var(--r-md)}.dashboard-stats b{display:block;font:600 var(--fs-5xl) Georgia,"Songti SC",serif;color: var(--accent)}.dashboard-stats span{color: var(--ink-2);font-size:var(--fs-sm)}.dashboard-grid{display:grid;grid-template-columns:1.15fr .85fr;gap:var(--sp-4)}.panel-heading{display:flex;align-items:center;justify-content:space-between;gap:var(--sp-3);margin-bottom:var(--sp-4)}.panel-heading h2{margin:0;font:500 var(--fs-2xl) Georgia,"Songti SC",serif}.panel-heading span,.panel-heading a{font-size:var(--fs-sm);color: var(--ink-2)}.ability-row{display:grid;grid-template-columns:90px 1fr 52px;align-items:center;gap:var(--sp-3);padding:var(--sp-3) 0;border-bottom: 1px solid var(--line);color: var(--ink)}.ability-row i{height:var(--sp-2);background: var(--paper-1);border-radius:99px;overflow:hidden}.ability-row u{display:block;height:100%;background: var(--accent-soft);text-decoration:none}.ability-row b{font-size:var(--fs-sm);text-align:right}.recent-row{display:flex;justify-content:space-between;gap:var(--sp-3);padding:var(--sp-3-5) 0;border-bottom: 1px solid var(--line);color: var(--ink)}.recent-row span{color: var(--ink-2);font-size:var(--fs-sm)}.knowledge-snapshot{margin-top:var(--sp-4)}.knowledge-pill{display:inline-block;margin:0 var(--sp-2) var(--sp-2) 0;padding:var(--sp-2) var(--sp-3);background: var(--paper-1);color: var(--ink-2);font-size:var(--fs-sm)}.dashboard-empty{color: var(--ink-2);line-height:var(--lh-body)}@media(max-width:720px){.dashboard-hero{display:block}.dashboard-hero .primary-btn{display:inline-block;margin-top:var(--sp-5)}.dashboard-stats{grid-template-columns:repeat(2,1fr)}.dashboard-grid{grid-template-columns:1fr}.ability-row{grid-template-columns:78px 1fr 46px}}.writing-task-card,.writing-review-guide{margin-top:var(--sp-5);padding:var(--sp-6);background: var(--paper-1);border: 1px solid var(--line);border-radius:var(--r-md)}.writing-draft{display:block;width:100%;min-height:260px;margin:var(--sp-5) 0;padding:var(--sp-4);border: 1px solid var(--line);border-radius:var(--r-md);font:inherit;line-height:var(--lh-body);resize:vertical}.writing-toolbar{display:flex;align-items:center;gap:var(--sp-3);flex-wrap:wrap}.writing-toolbar span{margin-right:auto;color: var(--ink-2);font-size:var(--fs-sm)}.writing-copy-status{color: var(--amber);font-size:var(--fs-sm)}.writing-review-guide p{line-height:var(--lh-body)}.writing-privacy-note{margin-top:var(--sp-4);padding:var(--sp-3) var(--sp-3-5);background: var(--paper-2);color: var(--amber);font-size:var(--fs-sm);line-height:var(--lh-body);border:1px solid var(--amber)}.mistake-detail-hero{margin-top:var(--sp-5);padding:var(--sp-6);background: var(--paper-1);border: 1px solid var(--line);border-top: 4px solid var(--amber);border-radius:var(--r-md)}.mistake-detail-hero span{color: var(--ink-2);font-size:var(--fs-sm)}.mistake-detail-hero h2{margin:var(--sp-2-5) 0;font:500 var(--fs-3xl) Georgia,"Songti SC",serif}.mistake-detail-hero p{line-height:var(--lh-read)}.mistake-detail-grid{display:grid;grid-template-columns:1.25fr .75fr;gap:var(--sp-4);margin-top:var(--sp-4)}.mistake-detail-card{padding:var(--sp-5);background: var(--paper-1);border: 1px solid var(--line);border-radius:var(--r-md)}.mistake-detail-card h2{margin:0 0 var(--sp-4);font:500 var(--fs-xl) Georgia,"Songti SC",serif}.answer-compare{display:flex;gap:var(--sp-3);flex-wrap:wrap;margin-bottom:var(--sp-4)}.answer-compare span,.review-tags span{padding:var(--sp-2) var(--sp-2-5);background: var(--paper-2);border-radius:8px;color: var(--ink-2)}.answer-compare b{display:block;margin-top:var(--sp-1);color: var(--accent)}.review-tags{display:flex;gap:var(--sp-2);flex-wrap:wrap;margin-bottom:var(--sp-4)}.detail-label{display:block;color: var(--ink-2);line-height:var(--lh-body)}.detail-label textarea{display:block;width:100%;min-height:150px;margin:var(--sp-2) 0 var(--sp-3-5);padding:var(--sp-3);border: 1px solid var(--line);border-radius:var(--r-md);font:inherit;resize:vertical}.mistake-next{display:flex;align-items:center;gap:var(--sp-4);flex-wrap:wrap;margin-top:var(--sp-4);padding:var(--sp-5) var(--sp-5);background: var(--paper-1);border:1px solid var(--line)}.mistake-next div{margin-right:auto}.mistake-next p{margin:var(--sp-1-5) 0 0;color: var(--ink-2)}.simulation-row .quality-note{display:block;margin-top:var(--sp-1-5);color: var(--amber);font-size:var(--fs-xs)}.recovery-panel{margin-top:var(--sp-6);padding:var(--sp-5);background: var(--paper-2);border-top: 3px solid var(--accent-line)}.recovery-list{display:grid;gap:var(--sp-2)}.recovery-item{display:grid;grid-template-columns:1fr auto auto;align-items:center;gap:var(--sp-4);padding:var(--sp-3) 0;border-bottom: 1px solid var(--line);color: var(--ink)}.recovery-item strong{color: var(--accent);font-size:var(--fs-sm)}.knowledge-retry{display:flex;align-items:center;gap:var(--sp-2);flex-wrap:wrap;margin:var(--sp-3) 0;padding:var(--sp-2-5) var(--sp-3);background:var(--paper-2);border:1px solid var(--line)}.knowledge-retry label{display:flex;align-items:center;gap:var(--sp-2);color: var(--ink-2);font-size:var(--fs-sm)}.knowledge-retry input{max-width:180px;padding:var(--sp-2) var(--sp-2-5);border: 1px solid var(--line);border-radius:6px}.knowledge-retry span{font-size:var(--fs-sm);color: var(--accent)}.review-status-actions{display:inline-flex;gap:var(--sp-1-5);flex-wrap:wrap;align-items:center}.review-status-actions .text-btn{padding:var(--sp-1) var(--sp-2);border: 1px solid var(--line);border-radius:999px;background: var(--paper-1)}.knowledge-detail-hero{margin-top:var(--sp-5);padding:var(--sp-5) var(--sp-6);background:var(--paper-1);border:1px solid var(--line)}.knowledge-detail-hero b{display:block;margin-bottom:var(--sp-2)}.knowledge-detail-hero p{margin:0 0 var(--sp-3);line-height:var(--lh-read)}.knowledge-detail-hero span{color: var(--ink-2);font-size:var(--fs-sm)}.knowledge-detail-grid{display:grid;grid-template-columns:1.3fr .7fr;gap:var(--sp-4);margin-top:var(--sp-5)}.knowledge-detail-card{padding:var(--sp-5);background: var(--paper-1);border: 1px solid var(--line);border-radius:var(--r-md)}.knowledge-detail-card h2{margin:0 0 var(--sp-4);font:500 var(--fs-xl) Georgia,"Songti SC",serif}.knowledge-evidence{padding:var(--sp-3-5) 0;border-top: 1px solid var(--line)}.knowledge-evidence p{line-height:var(--lh-body)}.knowledge-evidence small{display:block;color: var(--ink-2);margin-bottom:var(--sp-2)}.knowledge-detail-card ol{padding-left:var(--sp-5);line-height:var(--lh-read)}.knowledge-log a{display:inline-block;margin:var(--sp-1-5) var(--sp-2) var(--sp-1-5) 0;padding:var(--sp-2) var(--sp-2-5);border: 1px solid var(--line);border-radius:999px;color: var(--accent);text-decoration:none}.topic-progress{display:flex;align-items:center;gap:var(--sp-3-5)}.topic-progress button{margin-left:auto}.topic-q-stem{margin:var(--sp-2-5) 0;color: var(--ink-2);font-size:var(--fs-sm);line-height:var(--lh-body)}.proofreading-choice{border-top-color: var(--amber)}.proofreading-choice:hover{border-color: var(--amber);background: var(--paper-2)}.grammar-choice{border-top-color: var(--amber)}.grammar-choice:hover{border-color: var(--amber);background: var(--paper-2)}.seven-choice{border-top-color: var(--accent-line)}.seven-choice:hover{border-color: var(--accent-line);background: var(--paper-2)}.cloze-choice{border-top-color: var(--amber)}.cloze-choice:hover{border-color: var(--amber);background: var(--paper-2)}.listening-choice{border-top-color: var(--accent-line)}.listening-choice:hover{border-color: var(--accent-line);background: var(--paper-2)}.topic-question-only{max-width:var(--w-narrow);margin:var(--sp-6) auto;padding:var(--sp-5) var(--sp-5);background: var(--paper-1);border: 1px solid var(--line)}.listening-review details{margin-top:var(--sp-3)}.listening-review details p{padding:var(--sp-3);background: var(--paper-2);line-height:var(--lh-read)}.topic-choice{display:flex;flex-direction:column;align-items:flex-start;gap:var(--sp-2);padding:var(--sp-5);text-align:left;color: var(--ink);border: 1px solid var(--line);border-top: 3px solid var(--accent-line);background: var(--paper-1);cursor:pointer;transition:.2s}.topic-choice:hover{border-color: var(--accent-line);background: var(--paper-2);transform:translateY(-2px)}.topic-choice span{font-size:var(--fs-xs);color: var(--ink-2)}.topic-choice b{font:500 var(--fs-xl) Georgia,"Songti SC",serif}.topic-choice small{color: var(--ink-2);line-height:var(--lh-body)}.path-heading{display:flex;align-items:end;justify-content:space-between;border-bottom: 1px solid var(--line);padding-bottom:var(--sp-3-5)}.path-heading h2{font:500 var(--fs-2xl) Georgia,"Songti SC",serif;margin:var(--sp-2) 0 0}.path-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:var(--sp-3);margin-top:var(--sp-4)}.path-item,.program-card{display:flex;flex-direction:column;gap:var(--sp-2-5);padding:var(--sp-5);color: var(--ink);border: 1px solid var(--line);background: var(--paper-1)}.path-item:hover,.program-card:hover{border-color: var(--accent-line);transform:translateY(-2px)}.path-item span,.program-card span{font-size:var(--fs-xs);color: var(--ink-2)}.path-item b,.program-card b{font-size:var(--fs-lg2)}.path-item small,.program-card small{color: var(--ink-2);line-height:var(--lh-body)}.path-item strong,.program-card strong{font-size:var(--fs-sm);margin-top:var(--sp-1-5)}.path-purple{border-top: 3px solid var(--accent-line)}.path-teal{border-top: 3px solid var(--accent-line)}.path-blue{border-top: 3px solid var(--accent-line)}.path-amber{border-top: 3px solid var(--amber)}.section-line{display:flex;align-items:baseline;justify-content:space-between;border-bottom: 1px solid var(--line)}.section-line h2{font:500 var(--fs-2xl) Georgia,"Songti SC",serif}.section-line span{font-size:var(--fs-xs);color: var(--ink-2)}.program-hero{padding:var(--sp-11) 0 var(--sp-9);border-bottom: 1px solid var(--line)}.program-hero h1{font:500 var(--fs-hero) Georgia,"Songti SC",serif;margin:var(--sp-5) 0 var(--sp-2-5)}.program-hero p{font-size:var(--fs-lg);color: var(--ink-2);max-width:var(--w-read);line-height:var(--lh-read)}.program-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:var(--sp-3-5);margin-top:var(--sp-5)}.program-note{margin-top:var(--sp-6);padding:var(--sp-5) var(--sp-5);background:var(--paper-1);border:1px solid var(--line)}.program-note p{margin:var(--sp-2) 0 0;color: var(--ink-2);line-height:var(--lh-body)}.simulation-list{margin-top:var(--sp-5);border-top: 1px solid var(--line)}.simulation-row{display:flex;align-items:center;gap:var(--sp-4);padding:var(--sp-5) var(--sp-2);border-bottom: 1px solid var(--line);color: var(--ink)}.simulation-row:hover{background: var(--paper-2)}.simulation-row>span:nth-child(2){display:flex;flex-direction:column;gap:var(--sp-1-5);flex:1}.simulation-row small{color: var(--ink-2)}.simulation-row strong{font-size:var(--fs-sm);color: var(--accent)}.topic-workspace,.topic-report{max-width:var(--w-content);margin:0 auto;padding:0 var(--sp-6) var(--sp-11)}.topic-loading{margin:var(--sp-13) auto;text-align:center;padding:var(--sp-10);border: 1px solid var(--line);background: var(--paper-1)}.topic-loading p{color: var(--ink-2);line-height:var(--lh-body)}.loading-dot{display:block;width:var(--sp-2-5);height:var(--sp-2-5);margin:0 auto var(--sp-5);border-radius:50%;background: var(--accent-soft);animation:pulse-dot 1.2s ease-in-out infinite}@keyframes pulse-dot{50%{opacity:.35;transform:scale(.7)}}.topic-intro{padding:var(--sp-10) 0 var(--sp-8);border-bottom: 1px solid var(--line)}.topic-intro h1,.report-hero h1{font:500 var(--fs-hero) Georgia,"Songti SC",serif;margin:var(--sp-5) 0 var(--sp-2-5)}.topic-intro h1 em,.report-hero h1 em{color: var(--accent);font-style:normal}.topic-intro>p{max-width:var(--w-read);color: var(--ink-2);font-size:var(--fs-lg);line-height:var(--lh-read)}.topic-meta{display:flex;gap:var(--sp-2-5);flex-wrap:wrap;margin-top:var(--sp-5)}.topic-meta span,.topic-progress{padding:var(--sp-2) var(--sp-3);background: var(--paper-1);color: var(--ink-2);font-size:var(--fs-xs)}.topic-progress{margin:var(--sp-6) 0;display:flex;gap:var(--sp-5);align-items:center}.topic-progress b{color: var(--ink)}.topic-progress small{margin-left:auto;color: var(--ink-2)}.topic-grid-layout{display:grid;grid-template-columns:minmax(0,1.35fr) minmax(330px,.85fr);gap:var(--sp-5);align-items:start}.topic-reading-paper,.topic-question-panel{background: var(--paper-1);border: 1px solid var(--line)}.topic-reading-paper{padding:var(--sp-8) var(--sp-9)}.topic-paper-label{font-size:var(--fs-xs);color: var(--accent);letter-spacing:.12em}.topic-reading-paper h2{font:500 var(--fs-3xl) Georgia,"Songti SC",serif;margin:var(--sp-5) 0 var(--sp-6)}.topic-passage{font-family:Georgia,"Times New Roman",serif;font-size:var(--fs-lg);line-height:var(--lh-read);color: var(--ink)}.topic-question-panel{padding:var(--sp-5);position:sticky;top:var(--sp-5)}.topic-panel-head{display:flex;justify-content:space-between;border-bottom: 1px solid var(--line);padding-bottom:var(--sp-3-5);margin-bottom:var(--sp-1)}.topic-panel-head span{font-size:var(--fs-xs);color: var(--ink-2)}.topic-question{padding:var(--sp-5) 0;border-bottom: 1px solid var(--line)}.topic-q-head{display:flex;justify-content:space-between;font-size:var(--fs-xs);color: var(--ink-2);margin-bottom:var(--sp-2-5)}.topic-question>p{line-height:var(--lh-body);margin:0 0 var(--sp-3)}.topic-options{display:grid;gap:var(--sp-2)}.topic-option{display:grid;grid-template-columns:20px 22px 1fr;gap:var(--sp-2);align-items:start;padding:var(--sp-2-5);border: 1px solid var(--line);cursor:pointer;font-size:var(--fs-sm);line-height:var(--lh-body)}.topic-option:has(input:checked){border-color: var(--accent-line);background: var(--paper-2)}.topic-option input{margin-top:var(--sp-1)}.topic-option .option-letter{font-weight:700;color: var(--accent)}.topic-free{min-height:72px;width:100%;padding:var(--sp-2-5);border: 1px solid var(--line);resize:vertical}.topic-submit{width:100%;margin-top:var(--sp-5)}.topic-submit-note{font-size:var(--fs-xs);color: var(--ink-2);line-height:var(--lh-body)}.report-hero{padding:var(--sp-11) 0 var(--sp-9);border-bottom: 1px solid var(--line)}.report-score{display:flex;align-items:baseline;gap:var(--sp-2);margin-top:var(--sp-6)}.report-score b{font:600 var(--fs-9xl) Georgia,serif;color: var(--accent)}.report-score span{color: var(--ink-2)}.report-score strong{margin-left:var(--sp-5);font-size:var(--fs-lg2)}.report-advice{margin:var(--sp-6) 0;padding:var(--sp-5);border:1px solid var(--accent-line);background:var(--accent-soft)}.report-advice p{margin:var(--sp-2) 0 0;color: var(--ink-2)}.topic-review-list h2{font:500 var(--fs-3xl) Georgia,"Songti SC",serif}.topic-review-row{padding:var(--sp-5) 0;border-bottom: 1px solid var(--line)}.topic-review-row>div{display:flex;gap:var(--sp-3);color: var(--ink-2);font-size:var(--fs-xs)}.topic-review-row strong{display:block;margin:var(--sp-2) 0;color: var(--amber)}.topic-review-row.is-correct strong{color: var(--accent)}.topic-review-row p{color: var(--ink-2);line-height:var(--lh-body)}.topic-review-row details{color: var(--ink-2);line-height:var(--lh-body)}.report-actions{display:flex;gap:var(--sp-2-5);flex-wrap:wrap;margin-top:var(--sp-7)}@media(max-width:720px){.topic-workspace,.topic-report{padding:0 var(--sp-4) var(--sp-9)}.topic-grid-layout{grid-template-columns:1fr}.topic-question-panel{position:static}.topic-reading-paper{padding:var(--sp-5) var(--sp-5)}.topic-progress{display:block}.topic-progress>*{display:block;margin:var(--sp-1-5) 0}.topic-intro{padding-top:var(--sp-8)}.topic-intro h1,.report-hero h1{font-size:var(--fs-8xl)}.report-score b{font-size:var(--fs-9xl)}}@media(max-width:720px){.path-grid,.program-grid{grid-template-columns:1fr}.path-heading,.section-line{display:block}.section-line span{display:block;margin-bottom:var(--sp-3)}.learning-path,.program-page{padding:var(--sp-6) var(--sp-5)}.program-hero{padding-top:var(--sp-7)}.simulation-row strong{font-size:0}.simulation-row strong:after{content:"→";font-size:var(--fs-xl)}}
+.dashboard-continue{margin:var(--sp-5) 0;padding:var(--sp-5);background: var(--paper-1);border: 1px solid var(--line);border-radius:var(--r-md)}
+.dashboard-continue .panel-heading{display:flex;align-items:center;justify-content:space-between;gap:var(--sp-3);margin-bottom:var(--sp-3-5)}
+.dashboard-continue .panel-heading h2{margin:0;font:500 var(--fs-2xl) Georgia,"Songti SC",serif;color: var(--ink)}
+.dashboard-continue .panel-heading span{font-size:var(--fs-sm);color: var(--ink-2)}
+.continue-list{display:grid;gap:var(--sp-2-5)}
+.continue-item{display:grid;grid-template-columns:150px 1fr auto;align-items:center;gap:var(--sp-3-5);padding:var(--sp-3-5) var(--sp-4);background: var(--paper-1);border: 1px solid var(--line);border-radius:var(--r-md);text-decoration:none;color: var(--ink)}
+.continue-item:hover{border-color: var(--accent-line);background: var(--accent-soft)}
+.continue-item .continue-type{font-weight:600;color: var(--accent)}
+.continue-item b{font-weight:600;color: var(--ink)}
+.continue-item small{display:block;color: var(--ink-2);font-size:var(--fs-xs);margin-top:var(--sp-1);grid-column:2}
+.continue-item strong{color: var(--accent);white-space:nowrap}
+.topics-resume-banner{margin-top:var(--sp-5);padding:var(--sp-4) var(--sp-5);background: var(--amber-soft);border:1px solid var(--amber);border-radius:var(--r-md)}
+.topics-resume-banner b{color: var(--amber)}
+.topics-resume-links{display:flex;flex-wrap:wrap;gap:var(--sp-2-5);margin-top:var(--sp-2-5)}
+.topics-resume-links a{display:inline-block;padding:var(--sp-2) var(--sp-3-5);background: var(--paper-1);border: 1px solid var(--line);border-radius:999px;color: var(--amber);text-decoration:none;font-size:var(--fs-sm)}
+.topics-resume-links a:hover{background: var(--paper-1)}
+.topic-draft-flag{display:inline-block;margin-top:var(--sp-2);padding:var(--sp-1) var(--sp-2-5);background: var(--accent-soft);border: 1px solid var(--line);border-radius:999px;color: var(--accent);font-size:var(--fs-xs)}
+
+.quality-note.confirmed{color: var(--accent)}.exam-quality-confirmed{color: var(--accent);font-weight:600}.needs-review .quality-note.confirmed{color: var(--accent)}
+
+.proof-mine{margin:var(--sp-2) 0 var(--sp-1);color: var(--ink-2)}.proof-ref{margin:0 0 var(--sp-1);color: var(--accent)}
+
+.retry-group-btn{margin-top:var(--sp-3-5)}
+.cause-freq{list-style:none;margin:var(--sp-3) 0 0;padding:0;display:flex;flex-direction:column;gap:var(--sp-2)}
+.cause-freq li{display:flex;justify-content:space-between;align-items:center;padding:var(--sp-2-5) var(--sp-3-5);background: var(--paper-1);border: 1px solid var(--line);border-radius:var(--r-md)}
+.cause-freq li b{color: var(--accent)}
+.cause-note{color: var(--ink-2);font-size:var(--fs-sm);margin:var(--sp-2) 0 0;line-height:var(--lh-body)}
+.related-nodes{display:flex;flex-wrap:wrap;gap:var(--sp-2-5);margin-top:var(--sp-3)}
+.related-node{display:inline-block;padding:var(--sp-2) var(--sp-3-5);background: var(--accent-soft);border: 1px solid var(--line);border-radius:999px;color: var(--accent);text-decoration:none;font-size:var(--fs-sm)}
+.related-node:hover{background: var(--paper-1)}
+.retry-progress{margin:var(--sp-5) 0}
+.retry-bar{height:var(--sp-2-5);background: var(--paper-1);border-radius:999px;overflow:hidden}
+.retry-bar i{display:block;height:100%;background: linear-gradient(90deg,var(--accent-soft),var(--accent))}
+.retry-progress span{display:block;margin-top:var(--sp-2);color: var(--ink-2);font-size:var(--fs-sm)}
+.retry-card{background: var(--paper-1);border: 1px solid var(--line);border-radius:var(--r-md);padding:var(--sp-5);margin-bottom:var(--sp-5)}
+.retry-type{display:inline-block;color: var(--amber);background: var(--amber-soft);border: 1px solid var(--line);border-radius:999px;padding:var(--sp-1) var(--sp-3);font-size:var(--fs-sm)}
+.retry-stem{font-size:var(--fs-lg);line-height:var(--lh-body);margin:var(--sp-3-5) 0;color: var(--ink)}
+.retry-label{display:block;margin:var(--sp-2-5) 0;font-size:var(--fs-md);color: var(--ink-2)}
+.retry-label input{display:block;width:100%;margin-top:var(--sp-2);padding:var(--sp-3) var(--sp-3-5);border: 1px solid var(--line);border-radius:var(--r-md);font-size:var(--fs-md2)}
+.retry-actions{display:flex;gap:var(--sp-3);align-items:center;margin-top:var(--sp-2);flex-wrap:wrap}
+.retry-result{min-height:var(--sp-5);color: var(--accent);font-weight:600;margin:var(--sp-2-5) 0 0}
+.retry-summary{background: var(--paper-1);border: 1px solid var(--line);border-radius:var(--r-md);padding:var(--sp-6);text-align:center}
+.retry-score{margin:var(--sp-3) 0;color: var(--accent)}
+.retry-score b{font-size:var(--fs-9xl);display:block}
+
+.kb-examples{margin:var(--sp-3) 0 0;padding:0;list-style:none;display:flex;flex-direction:column;gap:var(--sp-3-5)}
+.kb-examples li{padding:var(--sp-3-5) var(--sp-4);background: var(--paper-1);border: 1px solid var(--line);border-radius:var(--r-md)}
+.kb-examples li p{margin:0 0 var(--sp-1-5);font-size:var(--fs-base);line-height:var(--lh-body);color: var(--ink)}
+.kb-examples li small{color: var(--ink-2);font-size:var(--fs-xs)}
+.kb-examples li small b{color: var(--accent)}
+.kb-errors,.kb-confusion{margin:var(--sp-3) 0 0;padding:0;list-style:none;display:flex;flex-direction:column;gap:var(--sp-3)}
+.kb-errors li,.kb-confusion li{padding:var(--sp-3) var(--sp-4);background: var(--amber-soft);border: 1px solid var(--line);border-radius:var(--r-md)}
+.kb-errors li b,.kb-confusion li b{display:block;color: var(--amber);margin-bottom:var(--sp-1)}
+.kb-errors li span,.kb-confusion li span{display:block;color: var(--ink-2);font-size:var(--fs-sm);line-height:var(--lh-body)}
+
+.trend-panel .trend-svg{width:100%;height:80px;display:block;margin:var(--sp-2-5) 0 var(--sp-1)}
+.trend-labels{display:flex;justify-content:space-between;font-size:var(--fs-2xs);color: var(--ink-2);margin-top:var(--sp-1)}
+.trend-scores{display:flex;justify-content:space-between;font-size:var(--fs-sm);color: var(--accent);font-weight:600}
+.trend-note{margin:var(--sp-1) 0 0;font-size:var(--fs-2xs);color:var(--ink-3)}
+.dash-note{margin:var(--sp-2) 0 0;font-size:var(--fs-2xs);color:var(--ink-3)}
+.topic-review-list{display:flex;flex-direction:column;gap:var(--sp-2);margin-top:var(--sp-3)}
+.topic-review-item{display:flex;justify-content:space-between;align-items:center;padding:var(--sp-2) var(--sp-3);background: var(--paper-1);border: 1px solid var(--line);border-radius:var(--r-md)}
+.topic-review-item b{color: var(--accent)}
+.topic-review-item small{color:var(--ink-2);font-size:var(--fs-xs)}
+
+.kg-stats{display:flex;gap:var(--sp-5);margin:var(--sp-5) 0}
+.kg-stats div{flex:1;text-align:center;padding:var(--sp-4);background: var(--paper-1);border: 1px solid var(--line);border-radius:var(--r-md)}
+.kg-stats b{display:block;font-size:var(--fs-4xl);color: var(--accent)}
+.kg-stats span{font-size:var(--fs-sm);color: var(--ink-2)}
+.kg-legend{display:flex;gap:var(--sp-5);margin:var(--sp-3) 0;flex-wrap:wrap}
+.kg-legend span{display:flex;align-items:center;gap:var(--sp-1-5);font-size:var(--fs-sm);color: var(--ink-2)}
+.kg-legend i{width:var(--sp-3);height:var(--sp-3);border-radius:50%;display:inline-block}
+/* 知识星图（D1 改造）：夜空容器复用 .syn-constellation，这里只加覆盖与星图专属类 */
+.kg-sky{height:640px;max-width:var(--w-narrow)}
+.kg-cluster-label{font:600 13px var(--sans,system-ui);opacity:.75;letter-spacing:.06em}
+.kg-line{stroke:var(--ink-3);stroke-width:1.1;opacity:.28}
+.kg-line-on{stroke:var(--accent);stroke-width:1.8;opacity:.85}
+.kg-line-off{opacity:.07}
+.kg-star{cursor:pointer}
+.kg-star-glyph path{transition:opacity .15s}
+.kg-star-label{font:600 11.5px var(--sans,system-ui);text-shadow:0 1px 3px rgba(0,0,0,.8)}
+.kg-star:hover .kg-star-label{fill:#fff !important}
+.kg-star:hover .kg-star-glyph{filter:drop-shadow(0 0 5px currentColor)}
+.kg-star-on .kg-star-label{font-size:var(--fs-md)}
+.kg-dim{opacity:.22}
+.kg-summary{margin:0 0 var(--sp-2-5);color:var(--ink-2);line-height:var(--lh-body)}
+.kg-rule{margin:0 0 var(--sp-3-5);color:var(--ink);line-height:var(--lh-read)}
+.kg-rule b{display:block;margin-bottom:var(--sp-1-5);color:var(--ink-3);font-size:var(--fs-xs);font-weight:600}
+.kg-actions{display:flex;gap:var(--sp-2-5);flex-wrap:wrap;align-items:center}
+.kg-edge-item{display:grid;grid-template-columns:120px 80px 120px 1fr;align-items:center;gap:var(--sp-2-5);padding:var(--sp-2-5) var(--sp-3-5);background: var(--paper-1);border: 1px solid var(--line);border-radius:var(--r-md)}
+.kg-edge-type{display:inline-block;padding:var(--sp-1) var(--sp-2-5);border-radius:999px;font-size:var(--fs-xs);text-align:center}
+.kg-edge-type[data-type="prerequisite"]{background: var(--accent-soft);color: var(--accent)}
+.kg-edge-type[data-type="confuses_with"]{background: var(--amber-soft);color: var(--amber)}
+.kg-edge-type[data-type="co_occurs"]{background: var(--paper-1);color: var(--ink-2)}
+.kg-edge-type[data-type="contains"]{background: var(--paper-1);color: var(--amber)}
+.kg-edge-type[data-type="error_transfer"]{background: var(--paper-2);color: var(--red)}.sync-intro{margin:var(--sp-5) 0 var(--sp-1);color: var(--ink-2);line-height:var(--lh-read);font-size:var(--fs-md)}.sync-stats{margin:var(--sp-5) 0}.sync-panel{margin-top:var(--sp-4)}.sync-desc{color: var(--ink-2);line-height:var(--lh-body);font-size:var(--fs-sm);margin:0 0 var(--sp-5)}.sync-desc b{color: var(--amber)}.sync-result{display:none;margin-top:var(--sp-5);padding:var(--sp-4) var(--sp-5);border-radius:var(--r-md);background:var(--accent-soft);border:1px solid var(--accent-line);color: var(--ink);line-height:var(--lh-body);font-size:var(--fs-md)}.sync-result.show{display:block}.sync-result.error{background: var(--red-soft);border:1px solid var(--red);color: var(--red)}.writing-selfcheck{margin-top:var(--sp-5);padding:var(--sp-5) var(--sp-5);border-radius:var(--r-md);background: var(--paper-2);border: 1px solid var(--line)}.writing-selfcheck>b{display:block;margin-bottom:var(--sp-1-5);color: var(--ink);font-size:var(--fs-base)}.writing-selfcheck-desc{margin:0 0 var(--sp-3-5);color: var(--ink-2);font-size:var(--fs-sm);line-height:var(--lh-body)}.selfcheck-dim{display:inline-flex;flex-direction:column;margin:0 var(--sp-4) var(--sp-3) 0;font-size:var(--fs-sm);color: var(--ink-2)}.selfcheck-dim>span{margin-bottom:var(--sp-1)}.selfcheck-dim>select{padding:var(--sp-1-5) var(--sp-2-5);border: 1px solid var(--line);border-radius:8px;background: var(--paper-1);font-size:var(--fs-md);color: var(--ink)}.selfcheck-wordcount{display:inline-flex;flex-direction:column;margin:0 var(--sp-4) var(--sp-3) 0;font-size:var(--fs-sm);color: var(--ink-2)}.selfcheck-wordcount>input{width:110px;padding:var(--sp-1-5) var(--sp-2-5);border: 1px solid var(--line);border-radius:8px;font-size:var(--fs-md);color: var(--ink)}.selfcheck-required{display:inline-block;margin:0 0 var(--sp-3);color: var(--amber);font-size:var(--fs-sm)}.writing-selfcheck .writing-feedback{margin-top:var(--sp-1)}.proof-self{display:flex;align-items:center;gap:var(--sp-2);margin-top:var(--sp-2-5);flex-wrap:wrap}.proof-self-label{font-size:var(--fs-sm);color: var(--ink-2)}.proof-self-btn{padding:var(--sp-1) var(--sp-3);border: 1px solid var(--line);border-radius:999px;background: var(--paper-1);color: var(--ink-2);font-size:var(--fs-sm);cursor:pointer}.proof-self-btn:hover{border-color: var(--accent-line)}.proof-self-btn.is-active{background: var(--accent-soft);border-color: var(--accent-line);color:#fff}.proof-self-summary{margin-top:var(--sp-3-5);padding:var(--sp-2-5) var(--sp-3-5);border-radius:var(--r-md);background: var(--accent-soft);color: var(--ink);font-size:var(--fs-md);font-weight:600}.proof-self-banner{margin-bottom:var(--sp-3-5);padding:var(--sp-2-5) var(--sp-3-5);border-radius:var(--r-md);background:var(--accent-soft);border:1px solid var(--accent-line);color: var(--ink);font-size:var(--fs-md)}
+/* ---- 子技能进度板（#/training）与子技能徽标（#/knowledge/<id>，§8.4 B1/B2） ---- */.subskill-board{margin-top:var(--sp-6);border-top: 1px solid var(--line);padding-top:var(--sp-4)}.subskill-group{margin-top:var(--sp-3-5)}.subskill-group h3{font:500 var(--fs-lg) Georgia,"Songti SC",serif;margin:0 0 var(--sp-2-5);color: var(--ink)}.subskill-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:var(--sp-2-5)}.subskill-card{display:flex;flex-direction:column;gap:var(--sp-1-5);padding:var(--sp-3-5) var(--sp-4);border:1px solid var(--line);background: var(--paper-1);color: var(--ink)}.subskill-card:hover{border-color: var(--accent-line);transform:translateY(-2px)}.subskill-card b{font-size:var(--fs-base)}.subskill-card small{color: var(--ink-2);line-height:var(--lh-body);font-size:var(--fs-xs)}.subskill-stat{font-size:var(--fs-xs);color: var(--ink-2);margin-top:auto}.subskill-card.t-ok{background:var(--green-soft);border-color:var(--green);border-top:3px solid var(--green)}.subskill-card.t-mid{background:var(--paper-1);border-color:var(--amber);border-top:3px solid var(--amber)}.subskill-card.t-low{background:var(--red-soft);border-color:var(--red);border-top:3px solid var(--red)}.subskill-card.t-none{border-color:var(--line)}.subskill-tier{display:inline-block;padding:var(--sp-1) var(--sp-2-5);border-radius:999px;font-size:var(--fs-xs);font-style:normal;margin-right:var(--sp-2-5)}.subskill-tier.t-ok{background: var(--paper-1);color: var(--accent)}.subskill-tier.t-mid{background: var(--paper-2);color: var(--amber)}.subskill-tier.t-low{background: var(--paper-2);color: var(--red)}.subskill-tier.t-none{background: var(--paper-1);color: var(--ink-2)}@media(max-width:720px){.subskill-grid{grid-template-columns:1fr}}
+/* ---------- 朗读按钮（SpeechSynthesis，F2） ---------- */
+.speak-btn{display:inline-flex;align-items:center;gap:var(--sp-1);padding:var(--sp-1) var(--sp-2-5);border:1px solid var(--line);border-radius:999px;background:var(--paper-1);color:var(--ink-2);font-size:var(--fs-xs);cursor:pointer;vertical-align:middle}
+.speak-btn:hover{border-color:var(--accent-line);color:var(--accent)}
+
+/* ---------- 词组闪卡（#/phrases，F1） ---------- */
+.phr-flash{margin:0 0 var(--sp-3);padding:var(--sp-4) var(--sp-5);background:var(--paper-1);border:1px solid var(--line);border-radius:var(--r-md)}
+.phr-flash-front{display:flex;align-items:center;gap:var(--sp-3);flex-wrap:wrap}
+.phr-flash-term{font:600 var(--fs-xl) Georgia,"Songti SC",serif;color:var(--ink)}
+.phr-flash-round{margin-left:auto;font-size:var(--fs-xs);color:var(--ink-2)}
+.phr-flip-btn{margin-left:var(--sp-1)}
+.phr-flash-back{display:none;margin-top:var(--sp-3-5);padding-top:var(--sp-3-5);border-top:1px dashed var(--line)}
+.phr-flash.open .phr-flash-back{display:block}
+.phr-flash-actions{display:flex;gap:var(--sp-2-5);margin-top:var(--sp-3)}
+.phr-save-btn{margin-left:auto}
+
+/* ---------- 知识详情：规则强度 + 常见错误三段（A6） ---------- */
+.kb-strength{display:inline-block;margin-left:var(--sp-2);padding:var(--sp-1) var(--sp-2-5);border-radius:999px;font-size:var(--fs-xs);vertical-align:middle}
+.kb-st-rule{background:var(--accent-soft);color:var(--accent)}
+.kb-st-tendency{background:var(--amber-soft);color:var(--amber)}
+.kb-st-register{background:var(--paper-2);color:var(--ink-2);border:1px solid var(--line)}
+.kb-errors li{display:flex;flex-direction:column;gap:var(--sp-1);margin-bottom:var(--sp-2-5)}
+.kb-wrong{color:var(--red);text-decoration:line-through}
+.kb-right{color:var(--green);font-size:var(--fs-sm)}
+.kb-errors small{color:var(--ink-2)}
+
+/* ---------- 节点练测（A9/A10） ---------- */
+.kbq-loading,.kbq-note{color:var(--ink-2);font-size:var(--fs-sm)}
+.kbq-meta,.kbq-progress{font-size:var(--fs-sm);color:var(--ink-2)}
+.kbq-tier{display:inline-block;padding:var(--sp-1) var(--sp-2-5);margin-left:var(--sp-2);border-radius:999px;font-size:var(--fs-xs);vertical-align:middle;background:var(--paper-2);color:var(--ink-2)}
+.kbq-tier.t1{background:var(--amber-soft);color:var(--amber)}
+.kbq-tier.t2{background:var(--amber-soft);color:var(--amber)}
+.kbq-tier.t3{background:var(--accent-soft);color:var(--accent)}
+.kbq-tier.t4{background:var(--accent);color:#fff}
+.kbq-unverified{display:inline-block;margin-left:var(--sp-1-5);padding:var(--sp-1) var(--sp-2);border:1px dashed var(--line);border-radius:999px;font-size:var(--fs-2xs);color:var(--ink-2)}
+.kbq-stem{font-size:var(--fs-base);margin:var(--sp-2-5) 0}
+.kbq-opts{display:grid;gap:var(--sp-2);margin:var(--sp-2-5) 0}
+.kbq-opt{display:block;width:100%;text-align:left;padding:var(--sp-2-5) var(--sp-3);border:1px solid var(--line);border-radius:var(--r-md);background:var(--paper-1);cursor:pointer;font-size:var(--fs-md);color:var(--ink)}
+.kbq-opt:hover{border-color:var(--accent-line)}
+.kbq-opt.is-right{border-color:var(--green);background:var(--green-soft)}
+.kbq-opt.is-wrong{border-color:var(--red);background:var(--red-soft)}
+.kbq-fill-row{display:flex;gap:var(--sp-2-5);margin:var(--sp-2-5) 0}
+.kbq-fill-row input{flex:1;padding:var(--sp-2-5) var(--sp-3);border:1px solid var(--line);border-radius:var(--r-md);font-size:var(--fs-md)}
+.kbq-fill-result{font-size:var(--fs-md);margin:var(--sp-2) 0}
+.kbq-fill-result.is-right{color:var(--green)}
+.kbq-fill-result.is-wrong{color:var(--red)}
+.kbq-explain{margin:var(--sp-2-5) 0;padding:var(--sp-2-5) var(--sp-3-5);border:1px solid var(--line);background:var(--paper-2);font-size:var(--fs-sm);border-radius:var(--r-md)}
+.kbq-explain.is-right{background:var(--green-soft);border-color:var(--green);color:var(--ink)}
+.kbq-explain.is-wrong{background:var(--red-soft);border-color:var(--red);color:var(--ink)}
+
+/* ---------- 考点/词频透视（F4，#/insights） ---------- */
+.ins-loading{color:var(--ink-2);font-size:var(--fs-md);padding:var(--sp-6) 0}
+.ins-summary{display:grid;grid-template-columns:repeat(auto-fit,minmax(130px,1fr));gap:var(--sp-2-5);margin:var(--sp-3-5) 0}
+.ins-block{margin:var(--sp-6) 0}
+.ins-block h2{font-size:var(--fs-lg2);margin:0 0 var(--sp-3);display:flex;align-items:baseline;gap:var(--sp-2)}
+.ins-block h2 span{font-size:var(--fs-xs);color:var(--ink-2);font-weight:400}
+.ins-row{display:flex;align-items:center;gap:var(--sp-3);padding:var(--sp-2) 0;border-bottom:1px solid var(--line)}
+.ins-rank{width:var(--sp-6);text-align:right;color:var(--ink-2);font-size:var(--fs-sm);flex:none}
+.ins-main{flex:1;min-width:0}
+.ins-main a{font-weight:600;font-size:var(--fs-md)}
+.ins-main small{display:block;color:var(--ink-2);font-size:var(--fs-xs);margin:var(--sp-1) 0 var(--sp-1-5)}
+.ins-main i{display:block;height:var(--sp-1-5);border-radius:3px;background:var(--accent);opacity:.55}
+.ins-row strong{flex:none;width:var(--sp-9);text-align:right;font-size:var(--fs-base)}
+.ins-sec-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:var(--sp-3-5)}
+.ins-sec{border:1px solid var(--line);border-radius:var(--r-md);padding:var(--sp-3) var(--sp-3-5);background:var(--paper-2)}
+.ins-sec h3{font-size:var(--fs-md);margin:0 0 var(--sp-2)}
+.ins-sec h3 span{color:var(--ink-2);font-size:var(--fs-xs);font-weight:400;margin-left:var(--sp-1-5)}
+.ins-sec ul{list-style:none;margin:0;padding:0}
+.ins-sec li{display:flex;justify-content:space-between;padding:var(--sp-1-5) 0;border-top:1px dashed var(--line);font-size:var(--fs-sm)}
+.ins-sec li:first-child{border-top:0}
+.ins-note{color:var(--ink-2);font-size:var(--fs-sm);margin:0 0 var(--sp-2-5)}
+.ins-words{display:flex;flex-wrap:wrap;gap:var(--sp-2)}
+.ins-word{display:inline-flex;flex-direction:column;border:1px solid var(--line);border-radius:var(--r-md);padding:var(--sp-1-5) var(--sp-2-5);background:var(--paper-1);text-decoration:none;font-size:var(--fs-md)}
+.ins-word:hover{border-color:var(--accent-line);background:var(--accent-soft)}
+.ins-word small{color:var(--ink-2);font-size:var(--fs-2xs);margin-top:var(--sp-1)}
+
+/* ---------- 错题混排重练（F5，#/drill） ---------- */
+.drill-loading,.drill-empty{color:var(--ink-2);font-size:var(--fs-md);padding:var(--sp-5) 0;line-height:var(--lh-read)}
+.drill-entry{border:1px solid var(--line);border-radius:var(--r-md);padding:var(--sp-4) var(--sp-5);background:var(--paper-2)}
+.drill-entry p{margin:0 0 var(--sp-2-5);font-size:var(--fs-md)}
+.drill-entry b{color:var(--accent)}
+.drill-note{color:var(--ink-2);font-size:var(--fs-xs)}
+.drill-progress{color:var(--ink-2);font-size:var(--fs-xs);margin:var(--sp-3-5) 0 var(--sp-1-5)}
+.drill-stem{font-size:var(--fs-base);line-height:var(--lh-body);margin:0 0 var(--sp-3)}
+.drill-opts{display:grid;gap:var(--sp-2);margin:var(--sp-2-5) 0}
+.drill-opt{display:block;width:100%;text-align:left;padding:var(--sp-2-5) var(--sp-3);border:1px solid var(--line);border-radius:var(--r-md);background:var(--paper-1);font-size:var(--fs-md);cursor:pointer}
+button.drill-opt:hover{border-color:var(--accent-line);background:var(--accent-soft)}
+span.drill-opt{cursor:default}
+.drill-opt.is-right{border-color:var(--green);background:var(--green-soft)}
+.drill-opt.is-wrong{border-color:var(--red);background:var(--red-soft)}
+.drill-verdict{font-size:var(--fs-md);margin:var(--sp-2-5) 0 var(--sp-1-5)}
+.drill-verdict.is-right{color:var(--green)}
+.drill-verdict.is-wrong{color:var(--red)}
+.drill-explain{margin:var(--sp-2) 0 var(--sp-3);padding:var(--sp-2-5) var(--sp-3-5);border:1px solid var(--line);background:var(--paper-2);font-size:var(--fs-sm);border-radius:var(--r-md)}
+.drill-score{font-size:var(--fs-3xl);font-weight:700;margin:var(--sp-1-5) 0 var(--sp-2-5)}
+
+/* ---------- 打卡日历（F6，dashboard 热力格） ---------- */
+.heatmap-panel{margin:var(--sp-5) 0}
+.heatmap-head{display:flex;align-items:baseline;gap:var(--sp-3);flex-wrap:wrap;margin:var(--sp-1-5) 0 var(--sp-2-5)}
+.hm-streak{font-size:var(--fs-base)}
+.heatmap-head>span{color:var(--ink-2);font-size:var(--fs-xs)}
+.heatmap-months{display:grid;grid-auto-flow:column;grid-auto-columns:13px;gap:var(--sp-1);margin-left:var(--sp-1);color:var(--ink-2);font-size:var(--fs-2xs)}
+.heatmap-months span{overflow:visible;white-space:nowrap}
+.heatmap-grid{display:grid;grid-auto-flow:column;grid-template-rows:repeat(7,13px);grid-auto-columns:13px;gap:var(--sp-1);margin-left:var(--sp-1)}
+.heatmap-grid i,.heatmap-legend i{border-radius:3px;background:var(--paper-2);border:1px solid var(--line)}
+.heatmap-grid i{display:block}
+.hm-l1{background:var(--heat-1) !important;border-color:var(--heat-1) !important}
+.hm-l2{background:var(--heat-2) !important;border-color:var(--heat-2) !important}
+.hm-l3{background:var(--heat-3) !important;border-color:var(--heat-3) !important}
+.hm-l4{background:var(--green) !important;border-color:var(--green) !important}
+.heatmap-legend{display:flex;align-items:center;gap:var(--sp-1);margin-top:var(--sp-2);color:var(--ink-2);font-size:var(--fs-2xs)}
+.heatmap-legend i{display:inline-block;width:var(--sp-3);height:var(--sp-3);margin-left:var(--sp-1)}
+
+/* ---------- 全站搜索（F9，#/search） ---------- */
+.search-hint .ins-sec{max-width:420px}
+.search-rows{display:grid;gap:var(--sp-1-5)}
+.search-row{display:flex;align-items:baseline;gap:var(--sp-2-5);padding:var(--sp-2-5) var(--sp-3);border:1px solid var(--line);border-radius:var(--r-md);background:var(--paper-1);text-decoration:none;color:inherit}
+a.search-row:hover{border-color:var(--accent-line);background:var(--accent-soft)}
+.search-main{font-size:var(--fs-md);font-weight:600}
+.search-row small{flex:1;color:var(--ink-2);font-size:var(--fs-xs);overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.search-row b{color:var(--ink-2);font-weight:400}
+.searching{color:var(--ink-2);font-size:var(--fs-sm);padding:var(--sp-3-5) 0}
+
+/* ---- 知识星图 v2：四栏门厅 + 单类三维球面星空 ---- */
+.kg-gate-hint{margin:var(--sp-3-5) 0 var(--sp-5);color:var(--ink-2);line-height:var(--lh-read);font-size:var(--fs-md)}
+.kg-gate{display:grid;grid-template-columns:repeat(4,1fr);gap:var(--sp-3-5);margin:0 0 var(--sp-5)}
+.kg-gate-col{display:flex;flex-direction:column;gap:var(--sp-1-5);padding:var(--sp-5) var(--sp-5);background:var(--paper-1);border:1px solid var(--line);border-radius:var(--r-md);text-decoration:none;color:var(--ink);transition:border-color .15s,transform .15s}
+.kg-gate-col:hover{border-color:var(--kgc);transform:translateY(-2px)}
+.kg-gate-kicker{font:600 12px var(--sans,system-ui);letter-spacing:.08em}
+.kg-gate-count{font-size:var(--fs-6xl);line-height:var(--lh-num);color:var(--kgc)}
+.kg-gate-sub{font-size:var(--fs-xs);color:var(--ink-3)}
+.kg-gate-blurb{margin:var(--sp-1-5) 0 var(--sp-1);font-size:var(--fs-sm);color:var(--ink-2);line-height:var(--lh-body);min-height:44px}
+.kg-gate-chips{display:flex;flex-wrap:wrap;gap:var(--sp-1-5);margin-bottom:var(--sp-2-5)}
+.kg-gate-chip{padding:var(--sp-1) var(--sp-2-5);border-radius:999px;background:var(--paper-2);border:1px solid var(--line);font-size:var(--fs-xs);color:var(--ink-2)}
+.kg-gate-go{margin-top:auto;font-size:var(--fs-sm);font-weight:600;color:var(--kgc)}
+.kg-sky{touch-action:none;user-select:none;-webkit-user-select:none}
+.kg-sky-tools{display:flex;align-items:center;gap:var(--sp-3-5);margin:var(--sp-2-5) 0 var(--sp-1-5);flex-wrap:wrap}
+.kg-hint{font-size:var(--fs-xs);color:var(--ink-3)}
+.kg-rel-label{margin:0 0 var(--sp-2);font-size:var(--fs-xs);font-weight:600;color:var(--ink-3)}
+.kg-rel-list{display:flex;flex-wrap:wrap;gap:var(--sp-2);margin:0 0 var(--sp-3-5)}
+.kg-rel-chip{display:inline-flex;align-items:center;gap:var(--sp-1-5);padding:var(--sp-1-5) var(--sp-3);border-radius:999px;border:1px solid var(--line);background:var(--paper-1);color:var(--ink);font-size:var(--fs-sm);cursor:pointer}
+.kg-rel-chip:hover{border-color:var(--accent-line);color:#fff}
+.kg-rel-chip i{font-style:normal;font-size:var(--fs-2xs);color:var(--ink-3)}
+@media (max-width:900px){.kg-gate{grid-template-columns:repeat(2,1fr)}}
+@media (max-width:560px){.kg-gate{grid-template-columns:1fr}}
+
+/* ---- 学业分析（#/analysis，E2/E3）+ 学业诊断 ---- */
+.analysis-banner{display:flex;align-items:center;gap:14px;margin:18px 0 0;padding:18px 22px;background:#eef7f2;border-left:4px solid #268b71;border-radius:14px;color:#1f2329;text-decoration:none}
+.analysis-banner b{font:500 19px Georgia,"Songti SC",serif}
+.analysis-banner small{color:#5f6872;font-size:13px;margin-right:auto}
+.analysis-banner strong{color:#217963;font-size:14px}
+.analysis-page .library-head{margin-bottom:6px}
+.analysis-diag{display:flex;align-items:center;gap:18px;flex-wrap:wrap;margin:14px 0;padding:20px 22px;background:#fff;border:1px solid #e6dfd2;border-radius:14px}
+.analysis-diag.none{background:#eef7f2;border-left:4px solid #268b71}
+.analysis-diag b{display:block;margin-bottom:6px}
+.analysis-diag p{margin:0;color:#5f6872;font-size:13px;line-height:1.7;max-width:56ch}
+.analysis-diag button[disabled]{opacity:.55;cursor:not-allowed}
+.analysis-profile{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin:14px 0}
+.analysis-profile .word-card{margin-bottom:0}
+.analysis-lead{margin:0 0 10px;color:#1f2329;line-height:1.8}
+.weak-node{display:flex;align-items:center;justify-content:space-between;gap:10px;padding:8px 10px;margin:4px 0;background:#f7f4ee;border-radius:8px;color:#1f2329;text-decoration:none;font-size:13px}
+.weak-node b{color:#a46b19}
+.word-rel-cards-inline{display:flex;flex-wrap:wrap;gap:8px}
+.word-rel-cards-inline .weak-node{background:#f7f4ee;border:1px solid #e6dfd2}
+.task-card{border-left:4px solid #268b71}
+.task-head{display:flex;align-items:center;justify-content:space-between;gap:12px}
+.task-head h3{margin:0;font:500 18px Georgia,"Songti SC",serif;color:#1f2329}
+.task-why{margin:6px 0 10px;color:#4e5969;font-size:13px;line-height:1.7}
+.task-evidence{margin:0 0 12px;font-size:13px;color:#606873}
+.task-evidence summary{cursor:pointer;color:#176b55}
+.task-evidence ul{margin:8px 0 0;padding-left:20px;line-height:1.8}
+@media(max-width:720px){.analysis-profile{grid-template-columns:1fr}.analysis-banner{flex-wrap:wrap}}
+
+/* ---------- 本周回顾（2026-09-05，纪要附录 F1）----------
+   学习总览热力图之后的一张卡：本周练习量 + 子技能判级变化。 */
+.dashboard-week{margin:var(--sp-5) 0;padding:var(--sp-5);background:var(--paper-1);border:1px solid var(--line);border-radius:var(--r-md)}
+.dashboard-week .dashboard-empty{margin:0 0 var(--sp-2)}
+.week-chips{display:flex;flex-wrap:wrap;gap:var(--sp-2);margin-top:var(--sp-2)}
+.week-chip{display:inline-block;padding:var(--sp-1-5) var(--sp-3);border-radius:999px;background:var(--paper-2);color:var(--ink-2);font-size:var(--fs-xs)}
+.week-chip.up{background:var(--accent-soft);color:var(--accent)}
+.week-chip.down{background:var(--amber-soft);color:var(--amber)}

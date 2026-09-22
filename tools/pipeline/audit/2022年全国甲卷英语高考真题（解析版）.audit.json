@@ -1,0 +1,76 @@
+{
+  "source_file": "2022年全国甲卷英语高考真题（解析版）",
+  "total_sections": 10,
+  "total_questions": 63,
+  "issues": [
+    {
+      "type": "answer_out_of_range",
+      "msg": "答案 D 不在选项 ['A', 'B', 'C'] 中",
+      "section": "reading",
+      "question_id": 1
+    },
+    {
+      "type": "answer_out_of_range",
+      "msg": "答案 D 不在选项 ['A', 'B', 'C'] 中",
+      "section": "reading",
+      "question_id": 6
+    },
+    {
+      "type": "answer_out_of_range",
+      "msg": "答案 D 不在选项 ['A', 'B', 'C'] 中",
+      "section": "reading",
+      "question_id": 7
+    },
+    {
+      "type": "answer_out_of_range",
+      "msg": "答案 D 不在选项 ['A', 'B', 'C'] 中",
+      "section": "reading",
+      "question_id": 12
+    },
+    {
+      "type": "answer_out_of_range",
+      "msg": "答案 D 不在选项 ['A', 'B', 'C'] 中",
+      "section": "reading",
+      "question_id": 13
+    },
+    {
+      "type": "answer_out_of_range",
+      "msg": "答案 D 不在选项 ['A', 'B', 'C'] 中",
+      "section": "reading",
+      "question_id": 16
+    },
+    {
+      "type": "answer_out_of_range",
+      "msg": "答案 F 不在选项 ['A', 'B', 'C'] 中",
+      "section": "reading",
+      "question_id": 17
+    },
+    {
+      "type": "answer_out_of_range",
+      "msg": "答案 G 不在选项 ['A', 'B', 'C'] 中",
+      "section": "reading",
+      "question_id": 19
+    },
+    {
+      "type": "question_id_gap",
+      "section": "reading",
+      "msg": "题号不连续: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]..."
+    },
+    {
+      "type": "question_id_gap",
+      "section": "reading",
+      "msg": "题号不连续: [42, 45, 46, 47, 48, 49]..."
+    },
+    {
+      "type": "empty_stem",
+      "msg": "题目题干为空",
+      "section": "proofreading",
+      "question_id": 1
+    }
+  ],
+  "review_required": [],
+  "summary": {
+    "total_issues": 11,
+    "needs_review": true
+  }
+}

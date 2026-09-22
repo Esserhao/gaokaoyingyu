@@ -1,0 +1,1935 @@
+{
+  "id": "gk2025-new1",
+  "year": 2025,
+  "paper": "全国Ⅰ卷",
+  "region": "山东、湖北、湖南、广东、河北、福建、江苏、浙江、江西、安徽、河南、山西、陕西、四川、云南、贵州、重庆、辽宁、黑龙江、吉林、甘肃、广西、海南、新疆等（新课标Ⅰ卷）",
+  "title": "2025年全国Ⅰ卷英语",
+  "format": "new",
+  "duration": 120,
+  "totalScore": 150,
+  "hasAudio": false,
+  "audio": null,
+  "quality": "verified",
+  "proofreadingConfirmed": true,
+  "answerSource": "2025全国一卷答案.docx（官方参考答案）+ 2025年高考英语试卷（全国一卷）.docx（原卷）",
+  "note": "答案档只给答案与两篇写作范文，无逐题解析、无听力原文，解析为自撰。听力音频未随源文件提供（原卷中为「【此处可播放相关音频，请去附件查看】」占位），transcript 全部留空待补。",
+  "sections": [
+    {
+      "key": "listening",
+      "partTitle": "第一部分 听力（共两节，满分30分）",
+      "secTitle": "第一节（共5小题；每小题1.5分，满分7.5分）听下面5段对话。每段对话后有一个小题，从题中所给的A、B、C三个选项中选出最佳选项。听完每段对话后，你都有10秒钟的时间来回答有关小题和阅读下一小题。每段对话仅读一遍。",
+      "pool": [],
+      "passages": [],
+      "questions": [
+        {
+          "id": 1,
+          "stem": "What will the man do next?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Unpack his suitcase."
+            },
+            {
+              "letter": "B",
+              "text": "Board a flight."
+            },
+            {
+              "letter": "C",
+              "text": "Fill out a form."
+            }
+          ],
+          "answer": "C",
+          "type": "listening",
+          "score": 1.5,
+          "transcript": ""
+        },
+        {
+          "id": 2,
+          "stem": "What does Sarah plan to do after graduation?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Do volunteer work."
+            },
+            {
+              "letter": "B",
+              "text": "Pursue a higher degree."
+            },
+            {
+              "letter": "C",
+              "text": "Run the family business."
+            }
+          ],
+          "answer": "A",
+          "type": "listening",
+          "score": 1.5,
+          "transcript": ""
+        },
+        {
+          "id": 3,
+          "stem": "What are the speakers talking about?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Buying a car."
+            },
+            {
+              "letter": "B",
+              "text": "Moving house."
+            },
+            {
+              "letter": "C",
+              "text": "Fixing the window."
+            }
+          ],
+          "answer": "B",
+          "type": "listening",
+          "score": 1.5,
+          "transcript": ""
+        },
+        {
+          "id": 4,
+          "stem": "What does the woman think of the ski area?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "It's a bit crowded."
+            },
+            {
+              "letter": "B",
+              "text": "It has poor snow."
+            },
+            {
+              "letter": "C",
+              "text": "It's too far away."
+            }
+          ],
+          "answer": "A",
+          "type": "listening",
+          "score": 1.5,
+          "transcript": ""
+        },
+        {
+          "id": 5,
+          "stem": "Where are the speakers heading?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "The Art Centre."
+            },
+            {
+              "letter": "B",
+              "text": "The Grand Theatre."
+            },
+            {
+              "letter": "C",
+              "text": "The Stone Bridge."
+            }
+          ],
+          "answer": "C",
+          "type": "listening",
+          "score": 1.5,
+          "transcript": ""
+        },
+        {
+          "id": 6,
+          "material": "听下面一段较长对话，回答第6、7题。",
+          "stem": "What did the woman do?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "She went over the speed limit."
+            },
+            {
+              "letter": "B",
+              "text": "She parked in a school zone."
+            },
+            {
+              "letter": "C",
+              "text": "She drove through a red light."
+            }
+          ],
+          "answer": "B",
+          "type": "listening",
+          "score": 1.5,
+          "transcript": ""
+        },
+        {
+          "id": 7,
+          "stem": "What time does school finish on Wednesdays?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "At 2:00 pm."
+            },
+            {
+              "letter": "B",
+              "text": "At 2:30 pm."
+            },
+            {
+              "letter": "C",
+              "text": "At 3:30 pm."
+            }
+          ],
+          "answer": "C",
+          "type": "listening",
+          "score": 1.5
+        },
+        {
+          "id": 8,
+          "material": "听下面一段较长对话，回答第8至10题。",
+          "stem": "What is the relationship between the speakers?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Fellow workers."
+            },
+            {
+              "letter": "B",
+              "text": "Former schoolmates."
+            },
+            {
+              "letter": "C",
+              "text": "Family relatives."
+            }
+          ],
+          "answer": "A",
+          "type": "listening",
+          "score": 1.5,
+          "transcript": ""
+        },
+        {
+          "id": 9,
+          "stem": "Who will Grace have dinner with?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Fiona."
+            },
+            {
+              "letter": "B",
+              "text": "Jennifer."
+            },
+            {
+              "letter": "C",
+              "text": "David."
+            }
+          ],
+          "answer": "A",
+          "type": "listening",
+          "score": 1.5
+        },
+        {
+          "id": 10,
+          "stem": "What is Kevin going to do next?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Buy a drink."
+            },
+            {
+              "letter": "B",
+              "text": "Play basketball."
+            },
+            {
+              "letter": "C",
+              "text": "Greet a friend."
+            }
+          ],
+          "answer": "B",
+          "type": "listening",
+          "score": 1.5
+        },
+        {
+          "id": 11,
+          "material": "听下面一段较长对话，回答第11至13题。",
+          "stem": "What does the woman say about news programs?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "They are replaced by documentaries."
+            },
+            {
+              "letter": "B",
+              "text": "They have been reduced in number."
+            },
+            {
+              "letter": "C",
+              "text": "They focus on the life of celebrities."
+            }
+          ],
+          "answer": "C",
+          "type": "listening",
+          "score": 1.5,
+          "transcript": ""
+        },
+        {
+          "id": 12,
+          "stem": "What is the man's attitude toward reality shows?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Favorable."
+            },
+            {
+              "letter": "B",
+              "text": "Critical."
+            },
+            {
+              "letter": "C",
+              "text": "Uncertain."
+            }
+          ],
+          "answer": "C",
+          "type": "listening",
+          "score": 1.5
+        },
+        {
+          "id": 13,
+          "stem": "What does the woman expect TV programs to be?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Educational."
+            },
+            {
+              "letter": "B",
+              "text": "Diverse."
+            },
+            {
+              "letter": "C",
+              "text": "Entertaining."
+            }
+          ],
+          "answer": "A",
+          "type": "listening",
+          "score": 1.5
+        },
+        {
+          "id": 14,
+          "material": "听下面一段较长对话，回答第14至17题。",
+          "stem": "Who is Cathy?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "A school teacher."
+            },
+            {
+              "letter": "B",
+              "text": "A radio host."
+            },
+            {
+              "letter": "C",
+              "text": "A government official."
+            }
+          ],
+          "answer": "B",
+          "type": "listening",
+          "score": 1.5,
+          "transcript": ""
+        },
+        {
+          "id": 15,
+          "stem": "What can the visiting adults do in the school?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Give speeches."
+            },
+            {
+              "letter": "B",
+              "text": "Observe classes."
+            },
+            {
+              "letter": "C",
+              "text": "Organize activities."
+            }
+          ],
+          "answer": "A",
+          "type": "listening",
+          "score": 1.5
+        },
+        {
+          "id": 16,
+          "stem": "How can the students benefit from the school program?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Earn extra credits."
+            },
+            {
+              "letter": "B",
+              "text": "Find job opportunities."
+            },
+            {
+              "letter": "C",
+              "text": "Learn about adults' life."
+            }
+          ],
+          "answer": "B",
+          "type": "listening",
+          "score": 1.5
+        },
+        {
+          "id": 17,
+          "stem": "What is the goal of the school program?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "To improve student-teacher relationship."
+            },
+            {
+              "letter": "B",
+              "text": "To promote the idea of work-life balance."
+            },
+            {
+              "letter": "C",
+              "text": "To enhance school-community interaction."
+            }
+          ],
+          "answer": "A",
+          "type": "listening",
+          "score": 1.5
+        },
+        {
+          "id": 18,
+          "material": "听下面一段独白，回答第18至20题。",
+          "stem": "Where is the speaker's city located?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "By the lake."
+            },
+            {
+              "letter": "B",
+              "text": "On the coast."
+            },
+            {
+              "letter": "C",
+              "text": "In the Valley."
+            }
+          ],
+          "answer": "C",
+          "type": "listening",
+          "score": 1.5,
+          "transcript": ""
+        },
+        {
+          "id": 19,
+          "stem": "What do the numbers on the signs stand for?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "The duration of flooding."
+            },
+            {
+              "letter": "B",
+              "text": "The rise in air temperature."
+            },
+            {
+              "letter": "C",
+              "text": "The height above sea level."
+            }
+          ],
+          "answer": "B",
+          "type": "listening",
+          "score": 1.5
+        },
+        {
+          "id": 20,
+          "stem": "What does the success of the project indicate?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Art can make a difference."
+            },
+            {
+              "letter": "B",
+              "text": "The homeowners are creative."
+            },
+            {
+              "letter": "C",
+              "text": "Climate change is controllable."
+            }
+          ],
+          "answer": "C",
+          "type": "listening",
+          "score": 1.5
+        }
+      ]
+    },
+    {
+      "key": "reading",
+      "partTitle": "第二部分 阅读（共两节，满分50分）",
+      "secTitle": "第一节（共15小题；每小题2.5分，满分37.5分）阅读下列短文，从每题所给的A、B、C、D四个选项中选出最佳选项。",
+      "pool": [],
+      "passages": [
+        {
+          "label": "A",
+          "text": "The greening of planes, trains and automobiles\n\nMoving goods and people around the world is responsible for a large part of global CO2 emissions (排放). As the world races to decarbonize everything, it faces particular problems with transportation — which accounts for about a quarter of our energy-related greenhouse gas emissions. Here's the breakdown of the emissions in 2018 for different modes of transport.\n\n【2018 年各交通方式排放占比图：road vehicles（公路车辆）74.5%，其中 passenger road vehicles 45.1%、road freight 29.4%；aviation（航空）11.6%；shipping（航运）10.6%；rail（铁路）1.0%；other（其他）2.2%】\n\nThe fuels for transport need to be not just green, cheap and powerful, but also lightweight and safe enough to be carried around. Each mode of transport has its specific fuel needs. Much is still to be settled, but here are some of the solutions to get us going green.\n\nPLANES — Synthetic hydrocarbons\nThe hardest sector to decarbonize is aviation. One long-term option for sustainable fuel for planes is to make hydrocarbons from recycled air.\n\nCARS — Batteries\nBatteries are energy-efficient and electric cars can plug into existing systems and services. New solid-state batteries will take a car farther on a single charge.\n\nTRAINS — Electricity\nSome trains are already electrified through rails or wires; others can be made electric in pretty simple ways.\n\nTRUCKS — Hydrogen fuel cells\nHydrogen fuel cells are a lighter choice than batteries for trucks, but making green hydrogen is expensive.\n\nSHIPS — Liquid ammonia\nLiquid ammonia is easy to keep and transport, but it is hard to ignite (点燃) and requires an engine redesign.\n\nThis energy transition (变革) is global, and the amount of renewable energy the world will need is \"a little bit mind-blowing,\" says mechanical engineer Keith Wipke at the National Renewable Energy Laboratory. It's estimated that the global demand for electricity could more than double by 2050. Fortunately, analyses suggest that renewables are up to the task. \"We need to speed up the development of green energy, and it will all get used,\" says Wipke."
+        },
+        {
+          "label": "B",
+          "text": "In my ninth-grade writing class last year, I met a cowboy who saved his town, a strict father who demanded his son earn straight A's, and a modern-day Juliet who died of heartbreak after her parents rejected the love of her young life. More than once, I found myself wondering just how my students, who'd created these people, knew their subjects so well.\n\nBut things were different for their first essay, which was about the question: \"Why is writing important?\" Most of the essays filled less than one page, and few contained a sentence that could be interpreted as a thesis (论点) statement. I was shocked. Then I realized that the problem was the question itself. They could have written pages on the necessity of computers, but writing, in and of itself, simply didn't strike them as important. This would have to change.\n\nAs a new unit started, I asked everyone to write a persuasive piece on a health-related topic of their choice. This time they found the exercise much more interesting. For the next two assignments, a personal-narrative unit followed by a creative-writing workshop, I only required that the piece meet the specifications of its genre (体裁) and that it contain a thesis. The results were staggering. The students took on diverse topics and turned in stories, 10 to 20 pages each, with characters that broadened my view and touched my heart.\n\nI walked into class believing that writing is important as a means of communication. However, my students demonstrated something more important to me. When the final bell rang in June, I walked away with a yearbook full of messages about writing's most powerful significance — the ability to connect people, to put us in another's skin, to teach us what it means to be human."
+        },
+        {
+          "label": "C",
+          "text": "While safety improvements might have been made to our streets in recent years, transport studies also show declines in pedestrian (行人) mobility, especially among young children. Many parents say there's too much traffic on the roads for their children to walk safely to school, so they pack them into the car instead.\n\nDutch authors Thalia Verkade and Marco te Brömmelstroet are bothered by facts like these. In their new book Movement: How to Take Back Our Streets and Transform Our Lives, they call for a rethink of our streets and the role they play in our lives.\n\nLife on city streets started to change decades ago. Whole neighbourhoods were destroyed to make way for new road networks and kids had to play elsewhere. Some communities fought back. Most famously, a Canadian journalist who had moved her family to Manhattan in the early 1950s led a campaign to stop the destruction of her local park. Describing her alarm at its proposed replacement with an expressway, Jane Jacobs called on her mayor (市长) to champion \"New York as a decent place to live, and not just rush through.\" Similar campaigns occurred in Australia in the late 1960s and 1970s as well.\n\nAlthough these campaigns were widespread, the reality is that the majority of the western cities were completely redesigned around the needs of the motor car. The number of cars on roads has been increasing rapidly. In Australia we now have over twenty million cars for just over twenty-six million people, among the highest rate of car ownership in the world.\n\nWe invest a lot in roads that help us rush through, but we fail to account for the true costs. Do we really recognise what it costs us as a society when children can't move safely around our communities? The authors of Movement have it right: it's time to think differently about that street outside your front door."
+        },
+        {
+          "label": "D",
+          "text": "Microplastics have become a common source of pollution across the Earth — they have settled in the deep sea and on the Himalayas, stuck inside volcanic rocks, filled the stomachs of seabirds and even fallen in fresh Antarctic snow. They are even appearing inside humans.\n\nNow, new research suggests that a simple, cheap measure may significantly reduce the level of microplastics in water from your tap (水龙头): boiling and filtering (过滤) it. In a study published Wednesday in Environmental Science & Technology Letters, researchers from China found that boiling tap water for just five minutes — then filtering it after it cools — could remove at least 80 percent of its microplastics.\n\nCrucially, this process relies on the water containing enough calcium carbonate (碳酸钙) to trap the plastics. In the study, boiling hard water containing 300 milligrams of calcium carbonate led to an almost 90 percent drop in plastics. But in samples with less than 60 milligrams of calcium carbonate, boiling reduced the level of plastics by just 25 percent. Additionally, the research didn't include all types of plastics. The team focused only on three common types — polystyrene, polyethylene and polypropylene — and they didn't study other chemicals previously found in water such as vinyl chloride.\n\nStill, the findings show a potential path forward for reducing microplastic exposure — a task that's becoming increasingly difficult. Even bottled water, scientists found earlier this year, contains 10 to 1,000 times more microplastics than originally thought.\n\nScientists are still trying to determine how harmful microplastics are — but what they do know has raised concerns. The new study suggests boiling tap water could be a tool to limit intake. \"The way they demonstrated how microplastics were trapped through the boiling process was nice,\" Caroline Gauchotte-Lindsay, an environmental engineer of the University of Glasgow in Scotland who was not involved in the research, tells New Scientist. \"We should be looking into upgrading drinking water treatment plants so they remove microplastics.\""
+        }
+      ],
+      "questions": [
+        {
+          "id": 21,
+          "passageLabel": "A",
+          "stem": "What percentage of global transport emissions did road vehicles account for in 2018?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "11.6%."
+            },
+            {
+              "letter": "B",
+              "text": "45.1%."
+            },
+            {
+              "letter": "C",
+              "text": "74.5%."
+            },
+            {
+              "letter": "D",
+              "text": "86.1%."
+            }
+          ],
+          "answer": "C",
+          "type": "reading",
+          "score": 2.5,
+          "explanation": {
+            "summary": "图表信息题｜本文是说明文，介绍各类交通工具的减碳（绿色化）路径。",
+            "question": "问 2018 年公路车辆占全球交通排放的百分比。",
+            "evidence": "图中 road vehicles 一项为 74.5%（其中载客车辆 45.1%、公路货运 29.4%）。",
+            "answer": "C。74.5% 是公路车辆的合计占比；45.1% 只是其中载客车辆的份额（B 为干扰项），11.6% 是航空，86.1% 无对应数据。"
+          }
+        },
+        {
+          "id": 22,
+          "passageLabel": "A",
+          "stem": "Which mode of transport can go green comparatively easily?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Planes."
+            },
+            {
+              "letter": "B",
+              "text": "Trucks."
+            },
+            {
+              "letter": "C",
+              "text": "Trains."
+            },
+            {
+              "letter": "D",
+              "text": "Ships."
+            }
+          ],
+          "answer": "C",
+          "type": "reading",
+          "score": 2.5,
+          "explanation": {
+            "summary": "细节理解题｜比较五种交通方式的减碳难度。",
+            "question": "问哪种交通方式相对容易实现绿色化。",
+            "evidence": "TRAINS — Electricity: Some trains are already electrified through rails or wires; others can be made electric in pretty simple ways.",
+            "answer": "C。火车已有相当部分完成电气化，其余也能以相当简单的方式改为电力驱动。航空是「最难脱碳的领域」（A 错），绿氢制取昂贵（B 错），液氨难点燃且需重新设计发动机（D 错）。"
+          }
+        },
+        {
+          "id": 23,
+          "passageLabel": "A",
+          "stem": "What does Wipke suggest regarding energy transition?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Limiting fuel consumption."
+            },
+            {
+              "letter": "B",
+              "text": "Putting more effort into renewables."
+            },
+            {
+              "letter": "C",
+              "text": "Improving energy efficiency."
+            },
+            {
+              "letter": "D",
+              "text": "Making electricity more affordable."
+            }
+          ],
+          "answer": "B",
+          "type": "reading",
+          "score": 2.5,
+          "explanation": {
+            "summary": "细节理解题｜末段专家观点。",
+            "question": "问 Wipke 对能源变革提出了什么建议。",
+            "evidence": "\"We need to speed up the development of green energy, and it will all get used,\" says Wipke.",
+            "answer": "B。他主张加快绿色（可再生）能源的发展，即在可再生能源上投入更多努力。"
+          }
+        },
+        {
+          "id": 24,
+          "passageLabel": "B",
+          "stem": "Who are the people mentioned at the beginning of paragraph 1?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Ninth graders."
+            },
+            {
+              "letter": "B",
+              "text": "Students' parents."
+            },
+            {
+              "letter": "C",
+              "text": "Modern writers."
+            },
+            {
+              "letter": "D",
+              "text": "Fictional characters."
+            }
+          ],
+          "answer": "D",
+          "type": "reading",
+          "score": 2.5,
+          "explanation": {
+            "summary": "推理判断题｜本文是记叙文，一位写作课老师讲述学生写作表现的转变。",
+            "question": "问第一段开头提到的那些人是谁。",
+            "evidence": "I met a cowboy…a strict father…and a modern-day Juliet…I found myself wondering just how my students, who'd created these people, knew their subjects so well.",
+            "answer": "D。牛仔、严父、现代版朱丽叶都是学生笔下创造（created）的人物，即虚构角色。"
+          }
+        },
+        {
+          "id": 25,
+          "passageLabel": "B",
+          "stem": "Why did the students perform poorly in writing their first essay?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "They were not given enough time."
+            },
+            {
+              "letter": "B",
+              "text": "They had a very limited vocabulary."
+            },
+            {
+              "letter": "C",
+              "text": "They misunderstood the question."
+            },
+            {
+              "letter": "D",
+              "text": "They had little interest in the topic."
+            }
+          ],
+          "answer": "D",
+          "type": "reading",
+          "score": 2.5,
+          "explanation": {
+            "summary": "细节理解题｜第二段作者的反思。",
+            "question": "问学生第一篇作文写得差的原因。",
+            "evidence": "Then I realized that the problem was the question itself…but writing, in and of itself, simply didn't strike them as important.",
+            "answer": "D。问题出在题目本身——「写作为什么重要」这个话题在学生看来无关紧要，因而缺乏兴趣。他们并非误解题意（C）。"
+          }
+        },
+        {
+          "id": 26,
+          "passageLabel": "B",
+          "stem": "What does the underlined word \"staggering\" in paragraph 3 mean?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Mixed."
+            },
+            {
+              "letter": "B",
+              "text": "Amazing."
+            },
+            {
+              "letter": "C",
+              "text": "Similar."
+            },
+            {
+              "letter": "D",
+              "text": "Disturbing."
+            }
+          ],
+          "answer": "B",
+          "type": "reading",
+          "score": 2.5,
+          "explanation": {
+            "summary": "词义猜测题｜第三段对结果的描述。",
+            "question": "问第三段划线词 staggering 的含义。",
+            "evidence": "The results were staggering. The students took on diverse topics and turned in stories, 10 to 20 pages each, with characters that broadened my view and touched my heart.",
+            "answer": "B。学生交上 10—20 页、拓宽视野又打动人心的作品，故 staggering 意为「惊人的、了不起的」，与 Amazing 同义。"
+          }
+        },
+        {
+          "id": 27,
+          "passageLabel": "B",
+          "stem": "What does the author's experience show?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Teaching is learning."
+            },
+            {
+              "letter": "B",
+              "text": "Still waters run deep."
+            },
+            {
+              "letter": "C",
+              "text": "Knowledge is power."
+            },
+            {
+              "letter": "D",
+              "text": "Practice makes perfect."
+            }
+          ],
+          "answer": "A",
+          "type": "reading",
+          "score": 2.5,
+          "explanation": {
+            "summary": "推理判断题｜末段的主旨升华。",
+            "question": "问作者的经历说明了什么。",
+            "evidence": "I walked into class believing that writing is important as a means of communication. However, my students demonstrated something more important to me…",
+            "answer": "A。作者带着自己的既有认识走进教室，却被学生反过来教会了写作更深的意义，正体现「教学相长」。"
+          }
+        },
+        {
+          "id": 28,
+          "passageLabel": "C",
+          "stem": "What phenomenon does the author point out in paragraph 1?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Cars often get stuck on the road."
+            },
+            {
+              "letter": "B",
+              "text": "Traffic accidents occur frequently."
+            },
+            {
+              "letter": "C",
+              "text": "People walk less and drive more."
+            },
+            {
+              "letter": "D",
+              "text": "Pedestrians fail to follow the rules."
+            }
+          ],
+          "answer": "C",
+          "type": "reading",
+          "score": 2.5,
+          "explanation": {
+            "summary": "细节理解题｜本文是书评式议论文，呼吁重新思考街道的作用。",
+            "question": "问第一段作者指出了什么现象。",
+            "evidence": "transport studies also show declines in pedestrian mobility, especially among young children…so they pack them into the car instead.",
+            "answer": "C。步行出行减少、家长改用汽车接送，即「走得更少、开得更多」。"
+          }
+        },
+        {
+          "id": 29,
+          "passageLabel": "C",
+          "stem": "What were the Canadian journalist and other campaigners trying to do?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Keep their cities livable."
+            },
+            {
+              "letter": "B",
+              "text": "Promote cultural diversity."
+            },
+            {
+              "letter": "C",
+              "text": "Help the needy families."
+            },
+            {
+              "letter": "D",
+              "text": "Make expressways accessible."
+            }
+          ],
+          "answer": "A",
+          "type": "reading",
+          "score": 2.5,
+          "explanation": {
+            "summary": "推理判断题｜第三段 Jane Jacobs 的行动与原话。",
+            "question": "问这位加拿大记者和其他活动者想做什么。",
+            "evidence": "Jane Jacobs called on her mayor to champion \"New York as a decent place to live, and not just rush through.\"",
+            "answer": "A。她们反对把公园改建为高速路，主张城市应是「宜居之地」，而非仅供穿行，故为保持城市宜居。"
+          }
+        },
+        {
+          "id": 30,
+          "passageLabel": "C",
+          "stem": "What can be inferred about the campaigns in Australia in the late 1960s and 1970s?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "They boosted the sales of cars."
+            },
+            {
+              "letter": "B",
+              "text": "They turned out largely ineffective."
+            },
+            {
+              "letter": "C",
+              "text": "They won government support."
+            },
+            {
+              "letter": "D",
+              "text": "They advocated building new parks."
+            }
+          ],
+          "answer": "B",
+          "type": "reading",
+          "score": 2.5,
+          "explanation": {
+            "summary": "推理判断题｜第四段的转折。",
+            "question": "问可以推断出关于澳大利亚 20 世纪六七十年代那些运动的什么信息。",
+            "evidence": "Although these campaigns were widespread, the reality is that the majority of the western cities were completely redesigned around the needs of the motor car…among the highest rate of car ownership in the world.",
+            "answer": "B。让步状语从句 Although 之后指出现实是西方城市仍围绕汽车需求彻底重建、澳大利亚汽车拥有率居世界前列，可见这些运动基本收效不大。"
+          }
+        },
+        {
+          "id": 31,
+          "passageLabel": "C",
+          "stem": "What can be a suitable title for the text?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Why the Rush?"
+            },
+            {
+              "letter": "B",
+              "text": "What's Next?"
+            },
+            {
+              "letter": "C",
+              "text": "Where to Stay?"
+            },
+            {
+              "letter": "D",
+              "text": "Who to Blame?"
+            }
+          ],
+          "answer": "A",
+          "type": "reading",
+          "score": 2.5,
+          "explanation": {
+            "summary": "标题归纳题｜全文围绕「街道是用来穿行还是用来生活」展开。",
+            "question": "问本文合适的标题。",
+            "evidence": "not just rush through…We invest a lot in roads that help us rush through, but we fail to account for the true costs.",
+            "answer": "A。rush（匆匆穿行）是贯穿全文的关键词，作者质问我们为何一味追求快速通过、却忽视其真实代价，故「为何这般匆忙？」最贴切。"
+          }
+        },
+        {
+          "id": 32,
+          "passageLabel": "D",
+          "stem": "How does the author present the issue in the first paragraph?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "By quoting an expert."
+            },
+            {
+              "letter": "B",
+              "text": "By defining a concept."
+            },
+            {
+              "letter": "C",
+              "text": "By giving examples."
+            },
+            {
+              "letter": "D",
+              "text": "By providing statistics."
+            }
+          ],
+          "answer": "C",
+          "type": "reading",
+          "score": 2.5,
+          "explanation": {
+            "summary": "写作手法题｜本文是科普报道，介绍烧开并过滤自来水可减少微塑料。",
+            "question": "问作者在第一段如何引出话题。",
+            "evidence": "they have settled in the deep sea and on the Himalayas, stuck inside volcanic rocks, filled the stomachs of seabirds and even fallen in fresh Antarctic snow",
+            "answer": "C。首段连举深海、喜马拉雅山、火山岩、海鸟胃里、南极新雪等一系列实例来说明微塑料污染之普遍，属举例说明。"
+          }
+        },
+        {
+          "id": 33,
+          "passageLabel": "D",
+          "stem": "What determines the effectiveness of trapping microplastics in water?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "The hardness of water."
+            },
+            {
+              "letter": "B",
+              "text": "The length of cooling time."
+            },
+            {
+              "letter": "C",
+              "text": "The frequency of filtering."
+            },
+            {
+              "letter": "D",
+              "text": "The type of plastic in water."
+            }
+          ],
+          "answer": "A",
+          "type": "reading",
+          "score": 2.5,
+          "explanation": {
+            "summary": "细节理解题｜第三段的对比数据。",
+            "question": "问什么决定了捕获水中微塑料的效果。",
+            "evidence": "this process relies on the water containing enough calcium carbonate to trap the plastics…boiling hard water containing 300 milligrams of calcium carbonate led to an almost 90 percent drop…in samples with less than 60 milligrams…just 25 percent",
+            "answer": "A。碳酸钙含量即水的硬度：硬水去除率近 90%，含量低时仅 25%，故取决于水的硬度。"
+          }
+        },
+        {
+          "id": 34,
+          "passageLabel": "D",
+          "stem": "What does the author try to illustrate by mentioning bottled water in paragraph 4?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "The importance of plastic recycling."
+            },
+            {
+              "letter": "B",
+              "text": "The severity of the microplastic problem."
+            },
+            {
+              "letter": "C",
+              "text": "The danger in overusing pure water."
+            },
+            {
+              "letter": "D",
+              "text": "The difficulty in treating polluted water."
+            }
+          ],
+          "answer": "B",
+          "type": "reading",
+          "score": 2.5,
+          "explanation": {
+            "summary": "推理判断题｜第四段举例的意图。",
+            "question": "问第四段提到瓶装水是为了说明什么。",
+            "evidence": "Even bottled water…contains 10 to 1,000 times more microplastics than originally thought.",
+            "answer": "B。连被视为洁净的瓶装水都含有远超预想的微塑料，用以说明微塑料问题之严重、减少暴露之不易。"
+          }
+        },
+        {
+          "id": 35,
+          "passageLabel": "D",
+          "stem": "What is Gauchotte-Lindsay's suggestion about?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Choice of new research methods."
+            },
+            {
+              "letter": "B",
+              "text": "Possible direction for further study."
+            },
+            {
+              "letter": "C",
+              "text": "Need to involve more researchers."
+            },
+            {
+              "letter": "D",
+              "text": "Potential application of the findings."
+            }
+          ],
+          "answer": "D",
+          "type": "reading",
+          "score": 2.5,
+          "explanation": {
+            "summary": "推理判断题｜末段引语。",
+            "question": "问 Gauchotte-Lindsay 的建议是关于什么的。",
+            "evidence": "\"We should be looking into upgrading drinking water treatment plants so they remove microplastics.\"",
+            "answer": "D。她建议把这一发现用于升级自来水处理厂以去除微塑料，属于研究成果的潜在应用，而非提出新的研究方向（B）。"
+          }
+        }
+      ]
+    },
+    {
+      "key": "seven",
+      "partTitle": "第二部分 阅读（共两节，满分50分）",
+      "secTitle": "第二节（共5小题；每小题2.5分，满分12.5分）阅读下面短文，从短文后的选项中选出可以填入空白处的最佳选项。选项中有两项为多余选项。",
+      "pool": [
+        {
+          "letter": "A",
+          "text": "The cafe closes at 9 pm every day."
+        },
+        {
+          "letter": "B",
+          "text": "She has two children aged eight and four."
+        },
+        {
+          "letter": "C",
+          "text": "Sometimes she arrives early to serve the students early."
+        },
+        {
+          "letter": "D",
+          "text": "After finishing an order, she calls out the name on the cup."
+        },
+        {
+          "letter": "E",
+          "text": "Not only does this cafe serve up drinks, it also serves up smiles."
+        },
+        {
+          "letter": "F",
+          "text": "Going to the cafe starts her day off good and gets her ready for class."
+        },
+        {
+          "letter": "G",
+          "text": "She has served here for 17 years and can't imagine working anywhere else."
+        }
+      ],
+      "passages": [
+        {
+          "label": "E",
+          "text": "An Unsung Hero\n\nNeed a break between classes or just a quick pick-me-up in the morning? The College Cafe has just that, and more. ____36____\n\nCatherine Murphy, a cafe worker in a green shirt and black hat, makes sure that each customer gets exactly what they order. She goes back and forth between machines to make the drinks. ____37____ As the customer grabs the drink from her hand, she smiles and says, \"Hello, how is your day?\" Even when the line is getting longer, she doesn't let it get in the way of her genuine conversations.\n\nMurphy gets up at a quarter to five and drives thirty minutes every day to get to work on time. ____38____ \"I do so because I like to make coffee for the students. I know they need it in the morning,\" Murphy said. Being a mother and wife has helped her become the woman she is. She believes she is here to serve.\n\nOne thing Murphy may not know is that her smile is contagious (有感染力) and can be the difference in a student having a much better day than they were having before seeing her. Joanna Wright, a senior political science major, loves coffee and goes to the cafe at least six days a week. ____39____ \"Catherine always has a huge smile on her face, which always puts me in a cheerful mood,\" Wright said.\n\n\"I enjoy working in the cafe,\" Murphy said. ____40____ She has every intention of staying and continuing doing what she loves."
+        }
+      ],
+      "questions": [
+        {
+          "id": 36,
+          "passageLabel": "E",
+          "stem": "第36空",
+          "options": [
+            {
+              "letter": "A",
+              "text": "The cafe closes at 9 pm every day."
+            },
+            {
+              "letter": "B",
+              "text": "She has two children aged eight and four."
+            },
+            {
+              "letter": "C",
+              "text": "Sometimes she arrives early to serve the students early."
+            },
+            {
+              "letter": "D",
+              "text": "After finishing an order, she calls out the name on the cup."
+            },
+            {
+              "letter": "E",
+              "text": "Not only does this cafe serve up drinks, it also serves up smiles."
+            },
+            {
+              "letter": "F",
+              "text": "Going to the cafe starts her day off good and gets her ready for class."
+            },
+            {
+              "letter": "G",
+              "text": "She has served here for 17 years and can't imagine working anywhere else."
+            }
+          ],
+          "answer": "E",
+          "type": "seven",
+          "score": 2.5,
+          "explanation": {
+            "summary": "七选五｜本文是人物报道，写学院咖啡厅员工 Catherine Murphy 用微笑温暖学生。",
+            "question": "空处位于首段末，须承接「这家咖啡厅有饮品，而且还有更多（and more）」，并为全文定调。",
+            "evidence": "The College Cafe has just that, and more. ____36____",
+            "answer": "E。「这家咖啡厅不只供应饮品，还供应微笑」正是对 and more 的解释，也点出下文反复出现的 smile 主题。"
+          }
+        },
+        {
+          "id": 37,
+          "passageLabel": "E",
+          "stem": "第37空",
+          "options": [
+            {
+              "letter": "A",
+              "text": "The cafe closes at 9 pm every day."
+            },
+            {
+              "letter": "B",
+              "text": "She has two children aged eight and four."
+            },
+            {
+              "letter": "C",
+              "text": "Sometimes she arrives early to serve the students early."
+            },
+            {
+              "letter": "D",
+              "text": "After finishing an order, she calls out the name on the cup."
+            },
+            {
+              "letter": "E",
+              "text": "Not only does this cafe serve up drinks, it also serves up smiles."
+            },
+            {
+              "letter": "F",
+              "text": "Going to the cafe starts her day off good and gets her ready for class."
+            },
+            {
+              "letter": "G",
+              "text": "She has served here for 17 years and can't imagine working anywhere else."
+            }
+          ],
+          "answer": "D",
+          "type": "seven",
+          "score": 2.5,
+          "explanation": {
+            "summary": "七选五｜本段按时间顺序描写她的工作流程。",
+            "question": "空前说她在机器间来回制作饮品；空后说顾客从她手中接过饮品。",
+            "evidence": "She goes back and forth between machines to make the drinks. ____37____ As the customer grabs the drink from her hand…",
+            "answer": "D。「做好一单后，她会念出杯子上的名字」正好衔接「制作」与「顾客取走」两个环节。"
+          }
+        },
+        {
+          "id": 38,
+          "passageLabel": "E",
+          "stem": "第38空",
+          "options": [
+            {
+              "letter": "A",
+              "text": "The cafe closes at 9 pm every day."
+            },
+            {
+              "letter": "B",
+              "text": "She has two children aged eight and four."
+            },
+            {
+              "letter": "C",
+              "text": "Sometimes she arrives early to serve the students early."
+            },
+            {
+              "letter": "D",
+              "text": "After finishing an order, she calls out the name on the cup."
+            },
+            {
+              "letter": "E",
+              "text": "Not only does this cafe serve up drinks, it also serves up smiles."
+            },
+            {
+              "letter": "F",
+              "text": "Going to the cafe starts her day off good and gets her ready for class."
+            },
+            {
+              "letter": "G",
+              "text": "She has served here for 17 years and can't imagine working anywhere else."
+            }
+          ],
+          "answer": "C",
+          "type": "seven",
+          "score": 2.5,
+          "explanation": {
+            "summary": "七选五｜本段讲她的早起与敬业。",
+            "question": "空前说她 4:45 起床、开车半小时准时上班；空后她解释「我这么做是因为我喜欢给学生做咖啡，我知道他们早上需要」。",
+            "evidence": "Murphy gets up at a quarter to five and drives thirty minutes every day to get to work on time. ____38____ \"I do so because I like to make coffee for the students.\"",
+            "answer": "C。空后的 I do so 必须有所指——C 项「有时她提早到店，好早点为学生服务」正是这个「所做之事」。"
+          }
+        },
+        {
+          "id": 39,
+          "passageLabel": "E",
+          "stem": "第39空",
+          "options": [
+            {
+              "letter": "A",
+              "text": "The cafe closes at 9 pm every day."
+            },
+            {
+              "letter": "B",
+              "text": "She has two children aged eight and four."
+            },
+            {
+              "letter": "C",
+              "text": "Sometimes she arrives early to serve the students early."
+            },
+            {
+              "letter": "D",
+              "text": "After finishing an order, she calls out the name on the cup."
+            },
+            {
+              "letter": "E",
+              "text": "Not only does this cafe serve up drinks, it also serves up smiles."
+            },
+            {
+              "letter": "F",
+              "text": "Going to the cafe starts her day off good and gets her ready for class."
+            },
+            {
+              "letter": "G",
+              "text": "She has served here for 17 years and can't imagine working anywhere else."
+            }
+          ],
+          "answer": "F",
+          "type": "seven",
+          "score": 2.5,
+          "explanation": {
+            "summary": "七选五｜本段以学生 Joanna Wright 为例说明微笑的感染力。",
+            "question": "空前介绍 Wright 每周至少六天来店；空后是她的原话「Catherine 总是笑容满面，让我心情愉快」。",
+            "evidence": "Joanna Wright…goes to the cafe at least six days a week. ____39____ \"Catherine always has a huge smile on her face, which always puts me in a cheerful mood.\"",
+            "answer": "F。F 项主语 her 指 Wright，说明来咖啡厅让她一天有个好开始、为上课做好准备，与前后句的主语和逻辑都吻合。"
+          }
+        },
+        {
+          "id": 40,
+          "passageLabel": "E",
+          "stem": "第40空",
+          "options": [
+            {
+              "letter": "A",
+              "text": "The cafe closes at 9 pm every day."
+            },
+            {
+              "letter": "B",
+              "text": "She has two children aged eight and four."
+            },
+            {
+              "letter": "C",
+              "text": "Sometimes she arrives early to serve the students early."
+            },
+            {
+              "letter": "D",
+              "text": "After finishing an order, she calls out the name on the cup."
+            },
+            {
+              "letter": "E",
+              "text": "Not only does this cafe serve up drinks, it also serves up smiles."
+            },
+            {
+              "letter": "F",
+              "text": "Going to the cafe starts her day off good and gets her ready for class."
+            },
+            {
+              "letter": "G",
+              "text": "She has served here for 17 years and can't imagine working anywhere else."
+            }
+          ],
+          "answer": "G",
+          "type": "seven",
+          "score": 2.5,
+          "explanation": {
+            "summary": "七选五｜末段收束，写她愿长久留在这里。",
+            "question": "空前是她说「我喜欢在咖啡厅工作」；空后说她完全打算留下、继续做自己热爱的事。",
+            "evidence": "\"I enjoy working in the cafe,\" Murphy said. ____40____ She has every intention of staying…",
+            "answer": "G。「她已在此服务 17 年，无法想象去别处工作」既呼应上句的「喜欢」，又为下句的「打算留下」提供依据。"
+          }
+        }
+      ]
+    },
+    {
+      "key": "cloze",
+      "partTitle": "第三部分 语言运用（共两节，满分30分）",
+      "secTitle": "第一节（共15小题；每小题1分，满分15分）阅读下面短文，从每题所给的A、B、C、D四个选项中选出最佳选项。",
+      "pool": [],
+      "passages": [
+        {
+          "label": "F",
+          "text": "One August afternoon, I sat in my kitchen staring at a glass vase that hadn't seen daylight since my wedding.\n\nMy husband and I had just sold our house and we were busy ____41____ the beloved home our family had spent 23 years filling up. We had decided on key items for the ____42____ we were moving to in town, donated what we could, and rented a place to ____43____ our supposedly important objects. That left a house still ____44____ with things that, while not particularly ____45____, didn't belong in a landfill (垃圾填埋场).\n\nI took a picture of the vase and posted it online, for $10. A couple of messages came in, one wanting additional ____46____, another asking for a price cut. As our ____47____ day drew near, I settled on a new price ($0) and reposted it. The ____48____: \"I hate this vase. Maybe you won't.\" In an instant, a woman raced into my house and left happily with the vase.\n\n____49____, I posted more. My daily posts and the ____50____ I received became a precious ray of light in the chaos of my house. Each exchange provided a chance to ____51____ the landfill and to please another person I might not otherwise have ____52____.\n\nI sit in my apartment today, loving each of the ____53____ that share our small space. I take ____54____ in knowing that, somewhere nearby, someone is ____55____ something that couldn't come with us."
+        }
+      ],
+      "questions": [
+        {
+          "id": 41,
+          "passageLabel": "F",
+          "stem": "第41空",
+          "options": [
+            {
+              "letter": "A",
+              "text": "painting over"
+            },
+            {
+              "letter": "B",
+              "text": "looking around"
+            },
+            {
+              "letter": "C",
+              "text": "emptying out"
+            },
+            {
+              "letter": "D",
+              "text": "pulling down"
+            }
+          ],
+          "answer": "C",
+          "type": "cloze",
+          "score": 1,
+          "explanation": {
+            "summary": "完形填空｜本文是记叙文，作者卖房搬家时把用不上的旧物免费送人，从中获得意外的温暖。",
+            "question": "句意：我和丈夫刚卖掉房子，正忙着清空这个一家人住了 23 年、装满回忆的家。",
+            "evidence": "we were busy ____41____ the beloved home our family had spent 23 years filling up",
+            "answer": "C。empty out（清空）与后面的 filling up（装满）构成鲜明对照，也与下文处理物品的情节一致。"
+          }
+        },
+        {
+          "id": 42,
+          "passageLabel": "F",
+          "stem": "第42空",
+          "options": [
+            {
+              "letter": "A",
+              "text": "hotel"
+            },
+            {
+              "letter": "B",
+              "text": "office"
+            },
+            {
+              "letter": "C",
+              "text": "cottage"
+            },
+            {
+              "letter": "D",
+              "text": "apartment"
+            }
+          ],
+          "answer": "D",
+          "type": "cloze",
+          "score": 1,
+          "explanation": {
+            "summary": "完形填空｜考查名词，需与末段呼应。",
+            "question": "句意：我们为将要搬进的城里那套公寓挑定了必需的物件。",
+            "evidence": "We had decided on key items for the ____42____ we were moving to in town…I sit in my apartment today",
+            "answer": "D。末段明确写 I sit in my apartment today，可知搬入的是 apartment（公寓）。"
+          }
+        },
+        {
+          "id": 43,
+          "passageLabel": "F",
+          "stem": "第43空",
+          "options": [
+            {
+              "letter": "A",
+              "text": "store"
+            },
+            {
+              "letter": "B",
+              "text": "display"
+            },
+            {
+              "letter": "C",
+              "text": "sell"
+            },
+            {
+              "letter": "D",
+              "text": "repair"
+            }
+          ],
+          "answer": "A",
+          "type": "cloze",
+          "score": 1,
+          "explanation": {
+            "summary": "完形填空｜考查动词。",
+            "question": "句意：还租了个地方来存放那些我们自认为重要的东西。",
+            "evidence": "rented a place to ____43____ our supposedly important objects",
+            "answer": "A。专门租地方是为了 store（储存）；这些是舍不得处理的物品，故非出售（C）。"
+          }
+        },
+        {
+          "id": 44,
+          "passageLabel": "F",
+          "stem": "第44空",
+          "options": [
+            {
+              "letter": "A",
+              "text": "covered"
+            },
+            {
+              "letter": "B",
+              "text": "decorated"
+            },
+            {
+              "letter": "C",
+              "text": "stuffed"
+            },
+            {
+              "letter": "D",
+              "text": "equipped"
+            }
+          ],
+          "answer": "C",
+          "type": "cloze",
+          "score": 1,
+          "explanation": {
+            "summary": "完形填空｜考查动词（过去分词作定语）。",
+            "question": "句意：这样一来，房子里仍塞满了那些虽不算贵重、却又不该被扔进垃圾场的东西。",
+            "evidence": "That left a house still ____44____ with things that, while not particularly ____45____, didn't belong in a landfill",
+            "answer": "C。be stuffed with 塞满、填满，呼应上文 filling up 与 emptying out 的语境。"
+          }
+        },
+        {
+          "id": 45,
+          "passageLabel": "F",
+          "stem": "第45空",
+          "options": [
+            {
+              "letter": "A",
+              "text": "conventional"
+            },
+            {
+              "letter": "B",
+              "text": "valuable"
+            },
+            {
+              "letter": "C",
+              "text": "complicated"
+            },
+            {
+              "letter": "D",
+              "text": "tolerable"
+            }
+          ],
+          "answer": "B",
+          "type": "cloze",
+          "score": 1,
+          "explanation": {
+            "summary": "完形填空｜考查形容词。",
+            "question": "句意：这些东西虽然不算特别值钱，却也不该进垃圾填埋场。",
+            "evidence": "things that, while not particularly ____45____, didn't belong in a landfill",
+            "answer": "B。while 引导让步，与「不该被当垃圾丢掉」形成对照的正是「不算贵重（valuable）」；下文那只只卖 10 美元、最后免费送出的花瓶即为例证。"
+          }
+        },
+        {
+          "id": 46,
+          "passageLabel": "F",
+          "stem": "第46空",
+          "options": [
+            {
+              "letter": "A",
+              "text": "fees"
+            },
+            {
+              "letter": "B",
+              "text": "photos"
+            },
+            {
+              "letter": "C",
+              "text": "receipts"
+            },
+            {
+              "letter": "D",
+              "text": "models"
+            }
+          ],
+          "answer": "B",
+          "type": "cloze",
+          "score": 1,
+          "explanation": {
+            "summary": "完形填空｜考查名词。",
+            "question": "句意：来了几条消息，一个想再要些照片，另一个要求降价。",
+            "evidence": "I took a picture of the vase and posted it online…one wanting additional ____46____, another asking for a price cut",
+            "answer": "B。上文说作者只发了一张照片（a picture），故买家想要 additional photos（更多照片）。"
+          }
+        },
+        {
+          "id": 47,
+          "passageLabel": "F",
+          "stem": "第47空",
+          "options": [
+            {
+              "letter": "A",
+              "text": "move"
+            },
+            {
+              "letter": "B",
+              "text": "pay"
+            },
+            {
+              "letter": "C",
+              "text": "market"
+            },
+            {
+              "letter": "D",
+              "text": "work"
+            }
+          ],
+          "answer": "A",
+          "type": "cloze",
+          "score": 1,
+          "explanation": {
+            "summary": "完形填空｜考查名词。",
+            "question": "句意：随着搬家日子临近，我把价格改成 0 元重新发布。",
+            "evidence": "As our ____47____ day drew near, I settled on a new price ($0) and reposted it.",
+            "answer": "A。全文背景是卖房搬家，逼近的是 move day（搬家日），这也解释了为何索性免费送出。"
+          }
+        },
+        {
+          "id": 48,
+          "passageLabel": "F",
+          "stem": "第48空",
+          "options": [
+            {
+              "letter": "A",
+              "text": "warning"
+            },
+            {
+              "letter": "B",
+              "text": "request"
+            },
+            {
+              "letter": "C",
+              "text": "description"
+            },
+            {
+              "letter": "D",
+              "text": "reply"
+            }
+          ],
+          "answer": "C",
+          "type": "cloze",
+          "score": 1,
+          "explanation": {
+            "summary": "完形填空｜考查名词。",
+            "question": "句意：（帖子的）描述写着：「我讨厌这只花瓶。也许你不会。」",
+            "evidence": "The ____48____: \"I hate this vase. Maybe you won't.\"",
+            "answer": "C。冒号后是重新发布的帖子文案，即商品 description（描述）。"
+          }
+        },
+        {
+          "id": 49,
+          "passageLabel": "F",
+          "stem": "第49空",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Confused"
+            },
+            {
+              "letter": "B",
+              "text": "Interested"
+            },
+            {
+              "letter": "C",
+              "text": "Disappointed"
+            },
+            {
+              "letter": "D",
+              "text": "Encouraged"
+            }
+          ],
+          "answer": "D",
+          "type": "cloze",
+          "score": 1,
+          "explanation": {
+            "summary": "完形填空｜考查形容词（过去分词作状语）。",
+            "question": "句意：受到鼓舞，我又发了更多东西。",
+            "evidence": "In an instant, a woman raced into my house and left happily with the vase.\n____49____, I posted more.",
+            "answer": "D。上文有人立刻赶来、开心地把花瓶带走，这一顺利结果令作者 Encouraged（受到鼓舞），于是继续发布。"
+          }
+        },
+        {
+          "id": 50,
+          "passageLabel": "F",
+          "stem": "第50空",
+          "options": [
+            {
+              "letter": "A",
+              "text": "visits"
+            },
+            {
+              "letter": "B",
+              "text": "reports"
+            },
+            {
+              "letter": "C",
+              "text": "advice"
+            },
+            {
+              "letter": "D",
+              "text": "money"
+            }
+          ],
+          "answer": "A",
+          "type": "cloze",
+          "score": 1,
+          "explanation": {
+            "summary": "完形填空｜考查名词。",
+            "question": "句意：每天的发帖和随之而来的登门造访，成了我那片混乱的房子里一束珍贵的光。",
+            "evidence": "My daily posts and the ____50____ I received became a precious ray of light in the chaos of my house.",
+            "answer": "A。东西都是免费送出（$0），收到的不是钱（D），而是上门取物的 visits（造访）——上文那位女士便是「冲进我家」。"
+          }
+        },
+        {
+          "id": 51,
+          "passageLabel": "F",
+          "stem": "第51空",
+          "options": [
+            {
+              "letter": "A",
+              "text": "remove"
+            },
+            {
+              "letter": "B",
+              "text": "spare"
+            },
+            {
+              "letter": "C",
+              "text": "find"
+            },
+            {
+              "letter": "D",
+              "text": "check"
+            }
+          ],
+          "answer": "B",
+          "type": "cloze",
+          "score": 1,
+          "explanation": {
+            "summary": "完形填空｜考查动词。",
+            "question": "句意：每一次交换都是一个机会——既让垃圾填埋场少受一份负担，也让另一个人开心。",
+            "evidence": "Each exchange provided a chance to ____51____ the landfill and to please another person",
+            "answer": "B。spare 意为「使免受、少加负担」，与前文「这些东西不该进垃圾填埋场」相呼应。"
+          }
+        },
+        {
+          "id": 52,
+          "passageLabel": "F",
+          "stem": "第52空",
+          "options": [
+            {
+              "letter": "A",
+              "text": "investigated"
+            },
+            {
+              "letter": "B",
+              "text": "recognized"
+            },
+            {
+              "letter": "C",
+              "text": "encountered"
+            },
+            {
+              "letter": "D",
+              "text": "recommended"
+            }
+          ],
+          "answer": "C",
+          "type": "cloze",
+          "score": 1,
+          "explanation": {
+            "summary": "完形填空｜考查动词。",
+            "question": "句意：让一个我本来可能永远不会遇见的人开心起来。",
+            "evidence": "to please another person I might not otherwise have ____52____",
+            "answer": "C。otherwise（若不是这样）暗示若无这些赠送，这些人素不相识，故用 encounter（偶遇、碰见）。"
+          }
+        },
+        {
+          "id": 53,
+          "passageLabel": "F",
+          "stem": "第53空",
+          "options": [
+            {
+              "letter": "A",
+              "text": "giveaways"
+            },
+            {
+              "letter": "B",
+              "text": "posts"
+            },
+            {
+              "letter": "C",
+              "text": "contributions"
+            },
+            {
+              "letter": "D",
+              "text": "belongings"
+            }
+          ],
+          "answer": "D",
+          "type": "cloze",
+          "score": 1,
+          "explanation": {
+            "summary": "完形填空｜考查名词。",
+            "question": "句意：今天我坐在自己的公寓里，珍爱着与我们共处这小空间的每一件物品。",
+            "evidence": "loving each of the ____53____ that share our small space",
+            "answer": "D。留在新居、与自己共处一室的是 belongings（随身物品、家当）；送出去的才是 giveaways（A 与语境相反）。"
+          }
+        },
+        {
+          "id": 54,
+          "passageLabel": "F",
+          "stem": "第54空",
+          "options": [
+            {
+              "letter": "A",
+              "text": "joy"
+            },
+            {
+              "letter": "B",
+              "text": "part"
+            },
+            {
+              "letter": "C",
+              "text": "care"
+            },
+            {
+              "letter": "D",
+              "text": "time"
+            }
+          ],
+          "answer": "A",
+          "type": "cloze",
+          "score": 1,
+          "explanation": {
+            "summary": "完形填空｜考查名词（固定搭配）。",
+            "question": "句意：想到附近某处有人正在欣赏那些没能随我们同行的物件，我心里就很欢喜。",
+            "evidence": "I take ____54____ in knowing that, somewhere nearby, someone is ____55____ something…",
+            "answer": "A。take joy in (doing) sth. 以……为乐，与全文温暖的收尾基调一致。"
+          }
+        },
+        {
+          "id": 55,
+          "passageLabel": "F",
+          "stem": "第55空",
+          "options": [
+            {
+              "letter": "A",
+              "text": "anticipating"
+            },
+            {
+              "letter": "B",
+              "text": "appreciating"
+            },
+            {
+              "letter": "C",
+              "text": "delivering"
+            },
+            {
+              "letter": "D",
+              "text": "withdrawing"
+            }
+          ],
+          "answer": "B",
+          "type": "cloze",
+          "score": 1,
+          "explanation": {
+            "summary": "完形填空｜考查动词，本空为全文收束。",
+            "question": "句意：有人正在珍视、欣赏那些无法随我们搬走的东西。",
+            "evidence": "someone is ____55____ something that couldn't come with us",
+            "answer": "B。旧物在他人手中被 appreciate（珍视、欣赏），正是作者感到欣喜的原因，也点明「物尽其用、善意流转」的主题。"
+          }
+        }
+      ]
+    },
+    {
+      "key": "grammar",
+      "partTitle": "第三部分 语言运用（共两节，满分30分）",
+      "secTitle": "第二节（共10小题；每小题1.5分，满分15分）阅读下面短文，在空白处填入1个适当的单词或括号内单词的正确形式。",
+      "pool": [],
+      "passages": [
+        {
+          "label": "G",
+          "text": "An exhibition at the Jiushi Art Museum in Shanghai is featuring artwork inspired by Go, or weiqi in Chinese, ____56____ originated in China more than 4,000 years ago.\n\nGo is one of ____57____ earliest binary-based (基于二元的) games. The movements of the black and white pieces reflect the basic ideas of Eastern philosophy, according to Tu Ningning, who is in charge of the exhibition.\n\n\"The exhibition brings together Go culture, cutting-edge technology and contemporary art,\" says Tu. \"We hope ____58____ (present) the rather abstract Go game and AI in a visual context, and initiate dialogues with minimalist art, conceptual art and expressionism.\"\n\n\"In a Go game, each move should serve a long-term goal. You try to lead the opponent into your trap and force them to follow your '____59____ (guide)' till they lose,\" explains Wang Wei, a Go player among the visitors to the exhibition.\n\n\"The players' personalities ____60____ (reveal) during the game, and one's weaknesses are exposed to the opponent,\" she adds. \"A decent winner always ____61____ (try) to beat the opponent ____62____ no more than one or two points as a gesture (姿态) of respect for the other side.\"\n\nTu says that the balance between the black and white pieces, the beauty in the ____63____ (strategy) placement of the pieces, ____64____ the energy flow following each move inspired artists to create oil paintings, sculptures, ____65____ (digital) generated pictures and silk-screen prints for the exhibition."
+        }
+      ],
+      "questions": [
+        {
+          "id": 56,
+          "passageLabel": "G",
+          "stem": "第56空",
+          "options": [],
+          "answer": "which",
+          "type": "grammar",
+          "score": 1.5,
+          "explanation": {
+            "summary": "考查定语从句关系词｜本文是新闻报道，介绍上海久事美术馆一场以围棋为灵感的艺术展。",
+            "question": "句意：展览呈现的是受围棋启发的作品，围棋起源于四千多年前的中国。",
+            "evidence": "artwork inspired by Go, or weiqi in Chinese, ____56____ originated in China more than 4,000 years ago",
+            "answer": "which。非限制性定语从句，先行词 Go 指物，在从句中作主语，故用 which（此处不能用 that）。"
+          }
+        },
+        {
+          "id": 57,
+          "passageLabel": "G",
+          "stem": "第57空",
+          "options": [],
+          "answer": "the",
+          "type": "grammar",
+          "score": 1.5,
+          "explanation": {
+            "summary": "考查冠词。",
+            "question": "句意：围棋是最早的基于二元的游戏之一。",
+            "evidence": "Go is one of ____57____ earliest binary-based games.",
+            "answer": "the。形容词最高级 earliest 前须加定冠词 the；one of the + 最高级 + 复数名词是常见结构。"
+          }
+        },
+        {
+          "id": 58,
+          "passageLabel": "G",
+          "stem": "第58空（present）",
+          "options": [],
+          "answer": "to present",
+          "type": "grammar",
+          "score": 1.5,
+          "explanation": {
+            "summary": "考查非谓语动词。",
+            "question": "句意：我们希望把相当抽象的围棋与人工智能放在视觉语境中呈现出来。",
+            "evidence": "We hope ____58____ (present) the rather abstract Go game and AI in a visual context",
+            "answer": "to present。hope to do sth. 希望做某事，hope 后不能直接接动名词。"
+          }
+        },
+        {
+          "id": 59,
+          "passageLabel": "G",
+          "stem": "第59空（guide）",
+          "options": [],
+          "answer": "guidance",
+          "type": "grammar",
+          "score": 1.5,
+          "explanation": {
+            "summary": "考查名词。",
+            "question": "句意：你设法把对手引入自己的陷阱，迫使他们跟着你的「引导」走，直至落败。",
+            "evidence": "force them to follow your '____59____ (guide)' till they lose",
+            "answer": "guidance。follow 与形容词性物主代词 your 之间须用名词；此处指抽象的「引导、指引」，用不可数名词 guidance 而非表示「指南、向导」的 guide。"
+          }
+        },
+        {
+          "id": 60,
+          "passageLabel": "G",
+          "stem": "第60空（reveal）",
+          "options": [],
+          "answer": "are revealed",
+          "type": "grammar",
+          "score": 1.5,
+          "explanation": {
+            "summary": "考查被动语态与主谓一致。",
+            "question": "句意：对局过程中棋手的个性会显露出来，一个人的弱点也暴露在对手面前。",
+            "evidence": "The players' personalities ____60____ (reveal) during the game, and one's weaknesses are exposed to the opponent",
+            "answer": "are revealed。personalities 与 reveal 是被动关系，且与并列句中的 are exposed 时态、语态保持一致，主语为复数，故用 are revealed。"
+          }
+        },
+        {
+          "id": 61,
+          "passageLabel": "G",
+          "stem": "第61空（try）",
+          "options": [],
+          "answer": "tries",
+          "type": "grammar",
+          "score": 1.5,
+          "explanation": {
+            "summary": "考查动词的时态与主谓一致。",
+            "question": "句意：一个有风度的赢家总是设法只以一两目之差取胜。",
+            "evidence": "A decent winner always ____61____ (try) to beat the opponent",
+            "answer": "tries。always 提示用一般现在时表习惯性行为，主语 A decent winner 为第三人称单数，故用 tries。"
+          }
+        },
+        {
+          "id": 62,
+          "passageLabel": "G",
+          "stem": "第62空",
+          "options": [],
+          "answer": "by",
+          "type": "grammar",
+          "score": 1.5,
+          "explanation": {
+            "summary": "考查介词。",
+            "question": "句意：以不超过一两目的优势战胜对手。",
+            "evidence": "to beat the opponent ____62____ no more than one or two points",
+            "answer": "by。表示「相差的幅度、以……之差」用介词 by，如 beat sb. by two points（以两分之差胜出）。"
+          }
+        },
+        {
+          "id": 63,
+          "passageLabel": "G",
+          "stem": "第63空（strategy）",
+          "options": [],
+          "answer": "strategic",
+          "type": "grammar",
+          "score": 1.5,
+          "explanation": {
+            "summary": "考查形容词。",
+            "question": "句意：棋子布局中那种富有策略的美感。",
+            "evidence": "the beauty in the ____63____ (strategy) placement of the pieces",
+            "answer": "strategic。修饰名词 placement 须用形容词形式 strategic（有策略的、战略性的）。"
+          }
+        },
+        {
+          "id": 64,
+          "passageLabel": "G",
+          "stem": "第64空",
+          "options": [],
+          "answer": "and",
+          "type": "grammar",
+          "score": 1.5,
+          "explanation": {
+            "summary": "考查并列连词。",
+            "question": "句意：黑白棋子间的平衡、布局的策略之美，以及每一手之后的气韵流动，启发了艺术家们。",
+            "evidence": "the balance between…, the beauty in…, ____64____ the energy flow following each move inspired artists",
+            "answer": "and。三个并列的名词短语共同作句子主语，最后一项前须用 and 连接。"
+          }
+        },
+        {
+          "id": 65,
+          "passageLabel": "G",
+          "stem": "第65空（digital）",
+          "options": [],
+          "answer": "digitally",
+          "type": "grammar",
+          "score": 1.5,
+          "explanation": {
+            "summary": "考查副词。",
+            "question": "句意：（艺术家们创作了）油画、雕塑、数字生成图像和丝网版画。",
+            "evidence": "to create oil paintings, sculptures, ____65____ (digital) generated pictures and silk-screen prints",
+            "answer": "digitally。此处修饰过去分词 generated，须用副词形式 digitally（以数字方式）。"
+          }
+        }
+      ]
+    },
+    {
+      "key": "writing_app",
+      "partTitle": "第四部分 写作（共两节，满分40分）",
+      "secTitle": "第一节（满分15分）",
+      "passages": [],
+      "pool": [],
+      "questions": [
+        {
+          "id": 66,
+          "stem": "假定你是李华，你班的英语报要增设一个栏目。外教 Jenny 提出\"Fun at my school\"和\"Guess who I am\"两个选项供大家选择。请给 Jenny 写一封邮件，内容包括：\n（1）你的选择；\n（2）说明理由。\n注意：\n（1）写作词数应为80个左右；\n（2）请按如下格式在答题卡的相应位置作答。\n\nDear Jenny,\nI really like the idea of adding a new column to our English newspaper.\n\nYours,\nLi Hua",
+          "options": [],
+          "type": "writing",
+          "score": 15,
+          "modelAnswer": "Dear Jenny,\n\nI really like the idea of adding a new column to our English newspaper. I'm writing to express that my predilection goes to \"Guess who I am\", which capitalizes on an object clause to signal its potential contents.\n\nThe column will serve as a catalyst for closer bonds between students. Redoubling efforts to boost academic performance, we pay little heed to other classmates' personalities, hobbies, strengths, and even aspirations. Such an inviting column, adopting a \"description and guess\" approach, must expose everyone to others' characteristics, thus strengthening mutual understanding. More importantly, more friendships will be forged, since the column enables us to befriend someone on the same wavelength.\n\nThis eye-catching column, I'm firmly convinced, won't fail to grant the whole class a harmonious atmosphere.\n\nYours,\nLi Hua",
+          "explanation": {
+            "summary": "应用文写作｜书信（邮件）体，就英语报新栏目的两个选项作出选择并说明理由。",
+            "question": "两个要点必须都写到：① 明确你选哪一个（\"Fun at my school\"或\"Guess who I am\"，二选一即可，选哪个不影响得分）；② 给出充分理由。开头句已给出，不计入词数，正文 80 词左右。人称用第一人称，时态以一般现在时为主，谈栏目将带来的效果时用一般将来时。",
+            "evidence": "词汇积累：我的偏好在于 my predilection goes to；利用 capitalize on；充当催化剂 serve as a catalyst；加倍努力 redouble efforts；不太留意 pay little heed to；志向 aspirations；使……接触到 expose sb. to；结下友谊 friendships will be forged；与某人意气相投 someone on the same wavelength；和谐氛围 a harmonious atmosphere。",
+            "answer": "高分句型：非限制性定语从句 …\"Guess who I am\", which capitalizes on an object clause…；现在分词短语作状语 Redoubling efforts to boost academic performance / adopting a \"description and guess\" approach / thus strengthening mutual understanding；since 引导原因状语从句；插入语 I'm firmly convinced 与双重否定 won't fail to 使结尾表达更有力。结构上「选择—理由（增进了解＋结交朋友）—总结」层次清晰，More importantly 递进衔接自然。"
+          }
+        }
+      ]
+    },
+    {
+      "key": "writing_cont",
+      "partTitle": "第四部分 写作（共两节，满分40分）",
+      "secTitle": "第二节（满分25分）",
+      "passages": [],
+      "pool": [],
+      "questions": [
+        {
+          "id": 67,
+          "stem": "阅读下面材料，根据其内容和所给段落开头语续写两段，使之构成一篇完整的短文。\n\nMy wife and I wanted to share our new home with family and friends by hosting a small gathering in the early summer. She had prepared lots of snacks, while my job was to have the backyard in order.\n\nThere was plenty of space for the kids to run and play. There was just one thing I hadn't counted on: My brother chose to bring his dog Toby, a 50-pound ball of fire. Though friendly, he could easily knock over my niece's small boys and my six-month-old granddaughter. So, when my brother showed up, I asked him to watch Toby and keep him outside.\n\nMy plan was working out just fine. Toby was using up his energy by running back and forth in the backyard and giving the kids plenty of room. Unexpectedly, after supper, the weather changed. It started to rain and everyone went indoors.\n\nIt was an awkward moment. I didn't want Toby to be running around in the house, and my brother wasn't happy with driving home with a wet dog. Eventually, my brother decided to leave rather than force the issue.\n\nA few days passed, and I hadn't heard anything from my brother. I texted him and expressed wishes for him to come out again. His reply came as a surprise — a shock, actually: \"Not a chance.\" Clearly, he was unhappy over the way we had parted. After all, I had left him little choice. Well, he'll get over it, I reasoned.\n\nTwo months passed. My wife suggested I get in touch with my brother but I resisted, thinking he should call first. However, my conscience (良心) kept bothering me. I tried to put myself in my brother's shoes. He was facing health issues and his wife of thirty-five years had passed away a few months earlier. Toby was his constant companion, the one who kept him going.\n\n注意：\n（1）续写词数应为150个左右；\n（2）请按如下格式在答题卡的相应位置作答。\n\nParagraph 1: I realized it was me who was at fault.\nParagraph 2: With the biscuits my wife had made, I arrived at my brother's door.",
+          "options": [],
+          "type": "writing",
+          "score": 25,
+          "modelAnswer": "Paragraph 1:\nI realized it was me who was at fault. I had been so focused on keeping the party under control that I failed to consider how important Toby was to my brother during this difficult time. My pride had kept me from reaching out, and now months had passed without a proper conversation. One evening, I picked up the phone and left him a voice message, apologizing for my behavior and asking if we could meet. To my relief, he called back the next day, and we agreed to get together soon.\n\nParagraph 2:\nWith the biscuits my wife had made, I arrived at my brother's door. He opened it with a surprised smile, and for a moment, neither of us spoke. Then we hugged — something we hadn't done since before his wife passed away. We sat on the porch with Toby resting beside us, and I handed him the box of biscuits. \"Thank you,\" he said quietly. We talked for hours, laughing, remembering old times, and slowly rebuilding what had been lost. As I watched Toby gently rest his head on my brother's leg, I knew we were finally on the path to healing.",
+          "explanation": {
+            "summary": "读后续写｜「我」为了聚会秩序把哥哥的狗 Toby 挡在屋外，导致哥哥不快离席、两个月不来往；设身处地想过后，「我」意识到哥哥刚失去妻子、又有健康问题，Toby 是他唯一的陪伴。",
+            "question": "情节设计：第一段承接「意识到错在自己」——反省当时只顾控制聚会秩序、忽略了 Toby 对哥哥的意义，也承认是自己的傲气拖了两个月；于是主动打电话／留语音留言道歉并约见面，哥哥回电，兄弟约定相聚。第二段承接「带着妻子做的饼干登门」——哥哥惊喜开门、两人沉默后拥抱（点出自嫂子去世后再没这样过），在门廊坐下、Toby 卧在身边，长谈数小时、重建亲情，以 Toby 把头轻靠在哥哥腿上的画面收束，暗示关系开始愈合。",
+            "evidence": "词汇积累：错在我 be at fault；未能考虑到 fail to consider；傲气使我不愿主动联系 my pride kept me from reaching out；令我宽慰的是 to my relief；门廊 porch；重温旧日时光 remember old times；走上愈合之路 on the path to healing。",
+            "answer": "高分句型：强调句 it was me who was at fault（与所给首句一体）；so…that… 结果状语从句 so focused on…that I failed to consider…；同位语 something we hadn't done since before his wife passed away 用一句话点出拥抱的分量；三个并列现在分词 laughing, remembering old times, and slowly rebuilding what had been lost 让画面紧凑；as 引导的时间状语从句配合细节动作收尾。写作要点：情感线须完成「自责—主动示好—和解」的转折，并让 Toby 在结尾发挥象征作用，与原文「Toby 是支撑哥哥的伙伴」呼应。"
+          }
+        }
+      ]
+    }
+  ]
+}
